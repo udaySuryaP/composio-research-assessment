@@ -233,3 +233,17 @@ change or correction entry needed; access stays unknown. Excluded from paired sc
 First pass 5/22 (22.73%), final 22/22 (100%) on the same scored claims. No pending schema
 mapping remains. Frozen artifacts and sample selection unchanged; final patterns withheld.
 Stage03 remains BLOCKED pending the remaining 16 actual human review items and finalization.
+
+## Actual human review update — SE Ranking
+
+Uday confirmed api_types=[rest] and corrected mcp_available from unknown to official.
+Retained official ownership/hosting, Streamable HTTP and OAuth2.1/DCR notes and the human
+reported tool breadth. No SE Ranking auth, API breadth or other unreviewed fields changed.
+Only MCP availability is a correction; confirmed REST is not counted as a correction.
+
+Cumulative partial review: 26 items across thirteen apps, 24 scored and two unclear.
+First pass 6/24 (25%), final 24/24 (100%), +75 percentage points on the same claims.
+14/40 items remain pending. Twenty-one field corrections across eleven apps, including
+three unscored supporting rationale corrections. Exact source inspection times and
+capture metadata are not invented. Whole records remain needs_verification. Stage03
+remains BLOCKED pending remaining actual human review and final verification/patterns.

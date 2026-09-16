@@ -867,16 +867,26 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which API protocols are explicitly documented for this product?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://seranking.com/api.html",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
     "correction_reason": null,
-    "notes": null
+    "notes": "SE Ranking documents HTTP API endpoints with resource-style URLs, standard HTTP methods, JSON responses, authorization headers, and HTTP status codes. Examples include GET requests to endpoints such as /v1/account/subscription and /v1/backlinks/summary. This supports the existing REST classification.",
+    "review_reported_at": "2026-09-16T20:46:09+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://seranking.com/api.html",
+      "https://seranking.com/api/api-credits-system/"
+    ]
   },
   {
     "item_id": "052:mcp_available",
@@ -892,16 +902,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://seranking.com/api.html",
+    "observed_correct_value": "official",
+    "first_pass_correct": "no",
+    "final_value": "official",
+    "final_correct": "yes",
+    "correction_reason": "SE Ranking officially documents and hosts its own remote MCP server at https://api.seranking.com/mcp. The documentation states that it is centrally hosted and managed by SE Ranking, supports Streamable HTTP transport, uses OAuth 2.1 with dynamic client registration, and exposes 160+ tools across keyword research, backlinks, domain analysis, audits, AI Search visibility, SERP analysis, and project management. This is an official MCP implementation, not a community connector.",
+    "notes": "SE Ranking officially documents and hosts its own remote MCP server at https://api.seranking.com/mcp. The documentation states that it is centrally hosted and managed by SE Ranking, supports Streamable HTTP transport, uses OAuth 2.1 with dynamic client registration, and exposes 160+ tools across keyword research, backlinks, domain analysis, audits, AI Search visibility, SERP analysis, and project management. This is an official MCP implementation, not a community connector.",
+    "review_reported_at": "2026-09-16T20:46:09+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://seranking.com/api.html",
+      "https://api.seranking.com/mcp"
+    ]
   },
   {
     "item_id": "054:buildability",

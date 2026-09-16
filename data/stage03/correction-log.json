@@ -846,5 +846,44 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "041:auth_methods",
     "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim quote capture, exact source retrieval time and content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 52,
+    "app_name": "SE Ranking",
+    "field": "mcp_available",
+    "original_value": "unknown",
+    "corrected_value": "official",
+    "reason": "SE Ranking officially documents and hosts its own remote MCP server at https://api.seranking.com/mcp. The documentation states that it is centrally hosted and managed by SE Ranking, supports Streamable HTTP transport, uses OAuth 2.1 with dynamic client registration, and exposes 160+ tools across keyword research, backlinks, domain analysis, audits, AI Search visibility, SERP analysis, and project management. This is an official MCP implementation, not a community connector.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-052-mcp_available-1",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-052-mcp_available-2",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://api.seranking.com/mcp",
+        "final_url": "https://api.seranking.com/mcp",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:46:09+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "052:mcp_available",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim quote capture, exact retrieval timestamp and content hash not supplied and not fabricated."
   }
 ]

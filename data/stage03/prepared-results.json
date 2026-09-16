@@ -4007,7 +4007,7 @@
       "rest"
     ],
     "api_breadth": "unknown",
-    "mcp_available": "unknown",
+    "mcp_available": "official",
     "mcp_notes": "SE Ranking offers an official MCP allowing users to query data from inside AI assistants like Claude, Codex, Cursor, or any other AI tool with a 1-minute setup and no code required.",
     "buildability": "unknown",
     "primary_blocker": "unknown",
@@ -4036,13 +4036,38 @@
         "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
         "quote": "Query SE Ranking from inside any AI assistant Connect via MCP and work with your SEO and AEO data inside Claude, Codex, Cursor, or any other AI tool. 1-minute setup, no exports, no code, no workflow interruption.",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-052-mcp_available-1",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-052-mcp_available-2",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://api.seranking.com/mcp",
+        "final_url": "https://api.seranking.com/mcp",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: SE Ranking officially documents and hosts its own remote MCP server at https://api.seranking.com/mcp. The documentation states that it is centrally hosted and managed by SE Ranking, supports Streamable HTTP transport, uses OAuth 2.1 with dynamic client registration, and exposes 160+ tools across keyword research, backlinks, domain analysis, audits, AI Search visibility, SERP analysis, and project management. This is an official MCP implementation, not a community connector."
     ],
     "researched_at": "2026-09-16T17:21:31.387974+00:00",
     "run_id": "stage02-full-fallback-20260916"
