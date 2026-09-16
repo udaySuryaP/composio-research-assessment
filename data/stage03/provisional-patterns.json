@@ -20,13 +20,13 @@
       "self_serve_trial": 1
     },
     "api_available": {
-      "yes": 45,
-      "unknown": 54,
+      "yes": 46,
+      "unknown": 53,
       "no": 1
     },
     "api_types": {
-      "rest": 42,
-      "unknown": 55,
+      "rest": 43,
+      "unknown": 54,
       "graphql": 2,
       "sdk": 3,
       "other": 1

@@ -279,3 +279,17 @@ First pass 6/28 (21.43%), final 28/28 (100%), +78.57 percentage points on the sa
 four unscored supporting rationale corrections. Whole records remain needs_verification.
 Exact inspection timestamps/capture metadata are not fabricated. Stage03 remains BLOCKED
 pending remaining human review and final source verification/pattern analysis.
+
+## Actual human review update — Datadog
+
+Uday corrected api_available to yes and api_types to [rest], both frozen unknown claims
+judged incorrect. Retained resource-oriented HTTP endpoint/verb evidence and source URLs.
+Authentication observations remain human notes and were not applied as unreviewed field
+corrections. No additional protocol or whole-record verification was inferred.
+
+Cumulative partial review: 32 items across sixteen apps, 30 scored and two unclear.
+First pass 6/30 (20%), final 30/30 (100%), +80 percentage points on the same scored claims.
+8/40 items remain pending. Twenty-eight field corrections across fourteen apps, including
+four unscored supporting rationale corrections. Exact inspection times and missing capture
+metadata remain unasserted. Whole records remain needs_verification. Stage03 remains
+BLOCKED pending remaining actual manual review and final verification/pattern analysis.

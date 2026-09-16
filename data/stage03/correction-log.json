@@ -1135,5 +1135,87 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "064:access_model",
     "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim quote capture, exact source retrieval timestamp and content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 69,
+    "app_name": "Datadog",
+    "field": "api_available",
+    "original_value": "unknown",
+    "corrected_value": "yes",
+    "reason": "Datadog explicitly exposes an inbound developer API. The authentication documentation states that all Datadog API requests must be authenticated and distinguishes API keys for write access from application keys for read access. The API reference documents concrete programmatic endpoints, including GET, POST, PATCH, and DELETE operations under /api/v1 and /api/v2. This clearly establishes a developer-facing API for programmatic integration.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-069-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-069-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:56:20+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "069:api_available",
+    "evidence_note": "Actual Uday inspection with paraphrased observations. Verbatim source capture, exact source retrieval timestamp and captured content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 69,
+    "app_name": "Datadog",
+    "field": "api_types",
+    "original_value": [
+      "unknown"
+    ],
+    "corrected_value": [
+      "rest"
+    ],
+    "reason": "Datadog documents resource-oriented HTTP endpoints using standard HTTP verbs such as GET, POST, PATCH, and DELETE, with versioned paths including /api/v1 and /api/v2. The AuthN Mappings reference shows CRUD-style operations on resource URLs across Datadog regions. This supports classifying the API as REST. No additional protocol is established by the inspected sources.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-069-api_types-1",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-069-api_types-2",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:56:20+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "069:api_types",
+    "evidence_note": "Actual Uday inspection with paraphrased observations. Verbatim source capture, exact source retrieval timestamp and captured content hash were not supplied and are not fabricated."
   }
 ]

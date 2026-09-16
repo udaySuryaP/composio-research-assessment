@@ -1072,16 +1072,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "Datadog explicitly exposes an inbound developer API. The authentication documentation states that all Datadog API requests must be authenticated and distinguishes API keys for write access from application keys for read access. The API reference documents concrete programmatic endpoints, including GET, POST, PATCH, and DELETE operations under /api/v1 and /api/v2. This clearly establishes a developer-facing API for programmatic integration.",
+    "notes": "Datadog explicitly exposes an inbound developer API. The authentication documentation states that all Datadog API requests must be authenticated and distinguishes API keys for write access from application keys for read access. The API reference documents concrete programmatic endpoints, including GET, POST, PATCH, and DELETE operations under /api/v1 and /api/v2. This clearly establishes a developer-facing API for programmatic integration.",
+    "review_reported_at": "2026-09-16T20:56:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.datadoghq.com/api/latest/authentication/",
+      "https://docs.datadoghq.com/api/latest/authn-mappings/"
+    ]
   },
   {
     "item_id": "069:api_types",
@@ -1099,16 +1105,26 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which API protocols are explicitly documented for this product?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "Datadog documents resource-oriented HTTP endpoints using standard HTTP verbs such as GET, POST, PATCH, and DELETE, with versioned paths including /api/v1 and /api/v2. The AuthN Mappings reference shows CRUD-style operations on resource URLs across Datadog regions. This supports classifying the API as REST. No additional protocol is established by the inspected sources.",
+    "notes": "Datadog documents resource-oriented HTTP endpoints using standard HTTP verbs such as GET, POST, PATCH, and DELETE, with versioned paths including /api/v1 and /api/v2. The AuthN Mappings reference shows CRUD-style operations on resource URLs across Datadog regions. This supports classifying the API as REST. No additional protocol is established by the inspected sources.",
+    "review_reported_at": "2026-09-16T20:56:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.datadoghq.com/api/latest/authentication/",
+      "https://docs.datadoghq.com/api/latest/authn-mappings/"
+    ]
   },
   {
     "item_id": "080:mcp_available",

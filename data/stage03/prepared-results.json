@@ -5371,9 +5371,9 @@
       "unknown"
     ],
     "access_model": "unknown",
-    "api_available": "unknown",
+    "api_available": "yes",
     "api_types": [
-      "unknown"
+      "rest"
     ],
     "api_breadth": "unknown",
     "mcp_available": "unknown",
@@ -5381,13 +5381,64 @@
     "buildability": "unknown",
     "primary_blocker": "unknown",
     "buildability_rationale": "unknown",
-    "evidence": [],
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-069-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-069-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-069-api_types-1",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-069-api_types-2",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "final_url": "https://docs.datadoghq.com/api/latest/authn-mappings/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
       "quote_not_found",
-      "raw_identity_mismatch"
+      "raw_identity_mismatch",
+      "Stage03 correction: Datadog explicitly exposes an inbound developer API. The authentication documentation states that all Datadog API requests must be authenticated and distinguishes API keys for write access from application keys for read access. The API reference documents concrete programmatic endpoints, including GET, POST, PATCH, and DELETE operations under /api/v1 and /api/v2. This clearly establishes a developer-facing API for programmatic integration.",
+      "Stage03 correction: Datadog documents resource-oriented HTTP endpoints using standard HTTP verbs such as GET, POST, PATCH, and DELETE, with versioned paths including /api/v1 and /api/v2. The AuthN Mappings reference shows CRUD-style operations on resource URLs across Datadog regions. This supports classifying the API as REST. No additional protocol is established by the inspected sources."
     ],
     "researched_at": "2026-09-16T17:23:12.458160+00:00",
     "run_id": "stage02-full-fallback-20260916"
