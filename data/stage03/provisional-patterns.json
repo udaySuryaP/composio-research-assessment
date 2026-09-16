@@ -4,8 +4,8 @@
   "counts": {
     "auth_methods": {
       "unknown": 54,
-      "oauth2": 25,
-      "api_key": 13,
+      "oauth2": 26,
+      "api_key": 14,
       "bearer_token": 11,
       "basic": 5,
       "other": 7,
@@ -13,10 +13,10 @@
       "digest": 1
     },
     "access_model": {
-      "unknown": 50,
+      "unknown": 49,
       "admin_approval": 4,
       "self_serve_paid": 35,
-      "self_serve_free": 10,
+      "self_serve_free": 11,
       "self_serve_trial": 1
     },
     "api_available": {

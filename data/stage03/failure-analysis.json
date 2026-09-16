@@ -5054,6 +5054,30 @@
       "detection": "Actual Uday review of official HubSpot source",
       "mitigation": "Record installation/admin requirement; broader pricing remains unresolved",
       "source": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    },
+    {
+      "pattern": "Incomplete authentication-method coverage",
+      "examples": [
+        {
+          "app_id": 64,
+          "field": "auth_methods",
+          "first_pass": [
+            "bearer_token"
+          ],
+          "corrected": [
+            "oauth2",
+            "bearer_token",
+            "api_key"
+          ]
+        }
+      ],
+      "detection": "Actual Uday review of official Cloudflare API token, legacy key and OAuth documentation",
+      "mitigation": "Retain documented OAuth and legacy key alongside recommended scoped API tokens; legacy key is discouraged for new integrations",
+      "sources": [
+        "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "https://developers.cloudflare.com/fundamentals/api/get-started/keys/",
+        "https://developers.cloudflare.com/fundamentals/oauth/"
+      ]
     }
   ]
 }

@@ -1039,5 +1039,101 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "054:primary_blocker",
     "evidence_note": "Actual Uday source inspection with paraphrased observations; exact retrieval time, quote capture and text hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 64,
+    "app_name": "Cloudflare",
+    "field": "auth_methods",
+    "original_value": [
+      "bearer_token"
+    ],
+    "corrected_value": [
+      "oauth2",
+      "bearer_token",
+      "api_key"
+    ],
+    "reason": "Cloudflare documents three relevant authentication mechanisms. API Tokens are sent in the Authorization header using the Bearer scheme and are the recommended method for API access. Cloudflare also still supports the legacy Global API Key, though it is explicitly discouraged for new integrations. For third-party applications, Cloudflare supports OAuth 2.0 Authorization Code flows, including PKCE for public clients. Therefore the first-pass bearer-token-only classification was incomplete.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-064-auth_methods-1",
+        "field": "auth_methods",
+        "claim": "[\"oauth2\", \"bearer_token\", \"api_key\"]",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-064-auth_methods-2",
+        "field": "auth_methods",
+        "claim": "[\"oauth2\", \"bearer_token\", \"api_key\"]",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/keys/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/keys/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-064-auth_methods-3",
+        "field": "auth_methods",
+        "claim": "[\"oauth2\", \"bearer_token\", \"api_key\"]",
+        "url": "https://developers.cloudflare.com/fundamentals/oauth/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/oauth/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:53:09+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "064:auth_methods",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim quote capture, exact source retrieval timestamp and content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 64,
+    "app_name": "Cloudflare",
+    "field": "access_model",
+    "original_value": "unknown",
+    "corrected_value": "self_serve_free",
+    "reason": "Cloudflare credentials are self-service. Users can create API Tokens directly from the Cloudflare dashboard, while authorized account roles can also create OAuth clients. Cloudflare's OAuth documentation explicitly lists availability on Free, Pro, Business, and Enterprise plans, establishing that developer authorization capabilities are available on the Free tier. Ordinary API-token creation does not require partner or sales approval. Account-level OAuth client creation does require an authorized account role, and administrators can restrict public OAuth application access, but this is a permissions constraint rather than a paid or partner gate.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-064-access_model-1",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-064-access_model-2",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://developers.cloudflare.com/fundamentals/oauth/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/oauth/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:53:09+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "064:access_model",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim quote capture, exact source retrieval timestamp and content hash were not supplied and are not fabricated."
   }
 ]

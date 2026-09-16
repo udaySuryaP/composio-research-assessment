@@ -263,3 +263,19 @@ First pass 6/26 (23.08%), final 26/26 (100%), +76.92 percentage points on the sa
 four unscored companion rationale corrections. No inspection timestamps or source capture
 metadata were fabricated. Whole records remain needs_verification. Stage03 remains BLOCKED
 pending remaining actual manual review and final verification/pattern analysis.
+
+## Actual human review update — Cloudflare
+
+Uday corrected auth_methods to [oauth2, bearer_token, api_key] and access_model to
+self_serve_free. Both first-pass claims were judged incorrect. Preserved API-token
+recommendation, discouraged legacy Global API Key, OAuth Authorization Code/PKCE and
+Free-tier availability notes. Account roles and admin restrictions remain caveats;
+no universal paid/partner gate or all-products-free claim was inferred. Recorded the
+observed incomplete-auth failure mode from this actual review.
+
+Cumulative partial review: 30 items across fifteen apps, 28 scored and two unclear.
+First pass 6/28 (21.43%), final 28/28 (100%), +78.57 percentage points on the same claims.
+10/40 items remain pending. Twenty-six field corrections across thirteen apps, including
+four unscored supporting rationale corrections. Whole records remain needs_verification.
+Exact inspection timestamps/capture metadata are not fabricated. Stage03 remains BLOCKED
+pending remaining human review and final source verification/pattern analysis.
