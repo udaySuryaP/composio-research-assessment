@@ -1,0 +1,64 @@
+[
+  {
+    "source_id": "sendgrid-auth",
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "observed_excerpt": "Twilio SendGrid Web REST API v3\nsupports API keys",
+    "observation": "Official SendGrid v3 API authentication page identifies REST and API-key authentication through an Authorization Bearer header.",
+    "method": "automated_verification",
+    "captured_at": "2026-09-16T21:11:51+00:00",
+    "capture_note": "Short excerpt from actual web tool read; hash covers the excerpt, not the full original page.",
+    "excerpt_sha256": "1edbbb1e0f0a77607ad83011384b10b05069dd086a3d006c993d2138381b925a"
+  },
+  {
+    "source_id": "vercel-api",
+    "url": "https://vercel.com/docs/rest-api/reference/welcome",
+    "final_url": "https://vercel.com/docs/rest-api",
+    "observed_excerpt": "follow the REST architecture.\nAuthorization: Bearer <TOKEN>",
+    "observation": "Official REST API overview describes account/deployment resource HTTP endpoints and Vercel access tokens in Authorization Bearer. Pricing page sign-in providers are not developer API authentication evidence.",
+    "method": "automated_verification",
+    "captured_at": "2026-09-16T21:11:51+00:00",
+    "capture_note": "Short excerpt from actual web tool read; hash covers the excerpt, not the full original page.",
+    "excerpt_sha256": "b597c0eb5e28bdfee4b8dab008e9435dc7d9877ac7176caa120c5b44663844a9"
+  },
+  {
+    "source_id": "xero-ai",
+    "url": "https://developer.xero.com/ai",
+    "final_url": "https://developer.xero.com/ai",
+    "observed_excerpt": "Securely and seamlessly connect LLMs to Xero data with our open source MCP server.",
+    "observation": "Official Xero AI toolkit page identifies its own open-source MCP server and links to the XeroAPI repository.",
+    "method": "composio_augmentation",
+    "captured_at": "2026-09-16T21:11:51+00:00",
+    "capture_note": "Official domain triangulates ownership of the repository discovered in actual frozen Stage02 Composio augmentation. No new Composio call made; current read uses web tool.",
+    "excerpt_sha256": "306df28e28e3594af2735312c1546fd77bf6a2ffda73b29d68b301626e1223ef",
+    "augmentation_run_id": "stage02-composio-augmentation-20260916",
+    "augmentation_checkpoint": "data/runs/stage02-composio-augmentation-20260916/apps/087.json",
+    "augmentation_checkpoint_sha256": "f2fec5a66c8429e607f4a6b7d3fb9e4fa8e570f0ba29bfd3e3bc2e814beae32e",
+    "composio_action_slug": "COMPOSIO_SEARCH_TAVILY",
+    "composio_toolkit_version": "20260903_00",
+    "official_ownership_link": "https://developer.xero.com/ai -> https://github.com/XeroAPI/xero-mcp-server",
+    "new_composio_invocation": false
+  },
+  {
+    "source_id": "xero-oauth",
+    "url": "https://developer.xero.com/faq",
+    "final_url": "https://developer.xero.com/faq",
+    "observed_excerpt": "Our API uses OAuth 2.0",
+    "observation": "Official FAQ says the API uses OAuth2 and rejects basic API-key authentication; no access-plan inference made.",
+    "method": "automated_verification",
+    "captured_at": "2026-09-16T21:11:51+00:00",
+    "capture_note": "Short excerpt hash, not full original page.",
+    "excerpt_sha256": "e44813687ff8f60cf21689c1129ded5256205f7664b8554537e0a0569ddff0c5"
+  },
+  {
+    "source_id": "hubspot-mcp",
+    "url": "https://developers.hubspot.com/ai-tools/mcp",
+    "final_url": "https://developers.hubspot.com/ai-tools/mcp",
+    "observed_excerpt": "HubSpot offers two distinct MCP servers that act as secure gateways for AI agents and tools.",
+    "observation": "Official HubSpot MCP page documents remote CRM MCP and local developer MCP. First-pass MCP value was correct but its marketplace/OAuth citation did not establish MCP.",
+    "method": "automated_verification",
+    "captured_at": "2026-09-16T21:11:51+00:00",
+    "capture_note": "Short excerpt hash, not full original page.",
+    "excerpt_sha256": "4e4d63c44733fe3748acbf4d4141fa08f2693c61a89a162d9040b43bb1467a5d"
+  }
+]

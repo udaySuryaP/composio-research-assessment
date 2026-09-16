@@ -1,0 +1,380 @@
+# Stage 03 — completed with explicit unresolved coverage
+
+Canonical start: `0e4090c69242e0281338f97fc27c3ccd009aa51a`.
+Branch: `stage03/verification-pattern-analysis`.
+Remote main was fetched and matched before implementation; working tree was clean.
+All four frozen audits passed with zero errors. Baseline: 100 records; augmentation
+and both smoke runs: four each. Seed hash and 100 locked identities match.
+
+Seed 42 selects two apps per category, all ten categories, 20 apps. The predeclared
+field rotation selects two claims per app: 40 pending items, zero completed/scored.
+Reviewer, timestamp, observed value and correctness judgments remain blank. Challenge
+flags, unknown cases, SendGrid failure and augmentation disagreements remain separate
+and unscored. Zero corrections. Prepared rows retain baseline values and uncertainty.
+
+Final verified data, semantic failure conclusions and product insights are pending.
+Prepared critical-field coverage: 0 fully known, 75 partially known, 25 with all seven
+critical fields unresolved; 485/700 critical claims unresolved. The Stage02 19-all-unknown
+measure uses a broader field set and is a different metric. One hard failure remains.
+87/100 apps have successful Stage02-attributed official retrievals; this is retrieval
+coverage, not human confirmation of source ownership or truth.
+
+Validation: 36 offline tests passed (26 existing + 10 new); stage03 check passed all
+four freezes, 100 identities and correction audit. Credential scan: zero findings;
+.env ignored and no secret env files tracked. git diff --check passed. Prior frozen
+runs, input lock and app seeds unchanged against canonical start. No external service
+calls in ordinary tests. Pattern scanning is not exhaustive or a dependency CVE audit.
+
+Resume by presenting two to four claims at a time from data/stage03/REVIEW.md. Record
+only actual Uday inspection, observed values and judgments. Unclear, inaccessible,
+ambiguous or outdated evidence is unscored. Add complete correction entries, validate,
+then continue targeted verification, finalization, paired scoring and final patterns.
+Human ingestion/finalization remains pending. prepare refuses to overwrite a changed
+human worksheet. No Composio call or AI correction was needed for this preparation.
+
+No Stage04, deployment, main merge, history rewrite or Notion writes occurred.
+Stage04 must wait for HQ acceptance and consume final verified outputs, never current
+prepared rows or provisional patterns. This is a partial Stage03 checkpoint.
+
+## Actual human review update — HubSpot
+
+Uday supplied two completed source judgments. Auth remains [oauth2]; access_model
+changes from self_serve_paid to admin_approval, limited to installation/authorization
+permissions. Broader HubSpot pricing and developer-plan eligibility remain unresolved.
+One human correction on one app. On these two paired claims only: first pass 1/2 (50%),
+final 2/2 (100%), +50 percentage points. This is partial progress, not final sample
+accuracy; 38/40 claims remain pending. Exact inspection time was not supplied and is
+not invented. The actual report receipt timestamp is recorded separately. Whole app
+status remains needs_verification because the other fields have not been audited.
+The blank review definition and sample selection remain fixed. Frozen Stage02 artifacts
+remain unchanged. Stage03 remains BLOCKED on remaining actual Uday source inspection.
+
+## Actual human review update — Salesforce
+
+Uday supplied API availability and API type judgments: api_available=yes and
+api_types=[rest]. Both frozen first-pass values were unknown and judged incorrect.
+No SOAP/GraphQL or other protocol types were inferred. Both official source URLs and
+Uday's notes are retained. No exact inspection time, captured text hash or verbatim
+quote was supplied: those evidence metadata fields remain empty, with provenance
+explicitly identified as human source observations and an actual report receipt time.
+
+Cumulative partial sample: first pass 1/4 (25%), final 4/4 (100%), +75 percentage points.
+These four claims cover two apps; 36/40 claims remain pending. Three field corrections
+across two apps. Neither entire app is marked human_audited. Final sample accuracy,
+verified dataset and product insights remain pending. Stage03 remains BLOCKED on review.
+
+## Actual human review update — Reducto
+
+Uday reported official MCP availability and buildable integration from Reducto docs
+and Quickstart. Both frozen unknown claims were judged incorrect. Corrected these
+fields and transcribed Uday's explicit buildability notes into the companion rationale
+with its own correction entry. Rationale is not an additional scored sample claim.
+No other Reducto fields were inferred or scored. No asserted absence of all possible
+gates: the report is limited to what the inspected sources establish.
+
+Cumulative partial sample: first pass 1/6 (16.67%), final 6/6 (100%), +83.33 percentage
+points. Three apps have human-reviewed claims; 34/40 claims remain pending. Six field
+corrections across three apps, including the supporting rationale. Source metadata and
+inspection timestamps are not invented; receipt timestamps are separately labeled.
+Whole records remain needs_verification; provisional metrics are regenerated but final
+patterns and Stage03 completion remain pending actual human review. BLOCKED.
+
+## Actual human review update — Consensus
+
+Uday reported primary_blocker=paid_or_enterprise_access_requirements and authentication
+[api_key, oauth2]. Both first-pass unknown claims were judged incorrect. Retained the
+commercial-conditioning caveat: API/MCP capability exists, while API-key gateway access
+maps to Enterprise and only some gateway configurations need sales-assisted provisioning.
+Authentication notes distinguish shared API-key Bearer transport from per-user OAuth2
+with PKCE; no OAuth client-credentials grant or website-login inference was introduced.
+No other Consensus fields were changed or scored from these judgments.
+
+Cumulative partial sample: first pass 1/8 (12.5%), final 8/8 (100%), +87.5 percentage
+points on the same eight claims, spanning four apps. 32/40 claims remain pending.
+Eight field corrections across four apps, including the unscored Reducto supporting
+rationale. Exact inspection time and source-capture metadata were not fabricated.
+Whole records remain needs_verification. Stage03 remains BLOCKED on human review;
+final verified dataset, final sample accuracy and product insights are still pending.
+
+## Actual human review update — Front
+
+Uday reported access_model=admin_approval and api_available=yes, both first-pass unknown
+claims judged incorrect. Preserved the account-level token/OAuth administrator requirement,
+the teammate-accessible user-scoped MCP exception, public-integration OAuth requirement,
+and the lack of established paid/sales gating for ordinary Core API in inspected sources.
+Only these two reviewed fields changed; MCP/auth values were not inferred or scored.
+
+Cumulative partial sample: first pass 1/10 (10%), final 10/10 (100%), +90 percentage
+points across the same ten claims covering five apps. 30/40 claims remain pending.
+Ten field corrections across five apps, including the unscored supporting Reducto rationale.
+Source inspection times and captured quote/hash metadata remain unasserted where not supplied.
+Whole records remain needs_verification. Stage03 remains BLOCKED pending human review,
+with final verified data, final patterns and whole-sample conclusions still withheld.
+
+## Actual human review update — Freshdesk
+
+Uday confirmed api_types=[rest], first-pass and final correct. MCP review is explicitly
+unclear/unscored: inspected official developer sources did not document MCP, but this
+is not evidence of absence elsewhere. Final mcp_available remains unknown. Both sets
+of source URLs and actual human notes are retained. No field changed and no correction
+entry was created. Unresolved human review is recorded without claiming a negative.
+
+Cumulative partial sample: 12 actual reviewed claims across six apps, 11 scored and
+one unclear/unscored. First pass 2/11 (18.18%), final 11/11 (100%), +81.82 percentage
+points on the same 11 claims. 28/40 items remain pending. Ten field corrections across
+five apps remain, including the unscored Reducto companion rationale. Whole records
+remain needs_verification. Stage03 remains BLOCKED pending further human review;
+final dataset, final patterns and whole-sample conclusions are not yet complete.
+
+## Actual human review update — Twilio
+
+Uday reported buildability=buildable and primary_blocker=trial_and_paid_account_restrictions,
+both frozen unknown claims judged incorrect. Recorded both corrections and Uday's explicit
+supporting buildability rationale as a companion correction, never an extra scored claim.
+Preserved self-service ordinary API access and proof-of-concept capability versus restricted
+trial operation, paid production upgrade, and product-specific regulatory requirements.
+The report does not claim a universal technical block or unrestricted production operation.
+No unreviewed Twilio auth/access/API fields were changed or scored.
+
+Cumulative partial review: 14 items across seven apps, 13 scored and one unclear/unscored.
+First pass 2/13 (15.38%), final 13/13 (100%), +84.62 percentage points on the same claims.
+26/40 items remain pending. Thirteen field corrections across six apps, including two
+unscored supporting rationale corrections. Human source-capture and exact inspection times
+remain unasserted when not supplied. Whole records remain needs_verification. Stage03 is
+BLOCKED pending remaining human review, final verified dataset and supported final patterns.
+
+## Actual human review update — Aircall
+
+Uday confirmed auth_methods=[oauth2, basic] and corrected access_model from unknown to
+admin_approval. Retained company-level admin installation requirements, self-company
+Basic credentials (api_id/api_token), and partner/OAuth provisioning requirements for
+public/multi-company integrations and marketplace listing. Bearer is OAuth transport;
+no additional auth enum was inferred. No universal paid-plan gate was asserted.
+Only access_model changed; the confirmed authentication finding is not a correction.
+
+Cumulative partial review: 16 reviewed claims across eight apps, 15 scored and one
+unclear/unscored. First pass 3/15 (20%), final 15/15 (100%), +80 percentage points on
+the same paired claims. 24/40 items remain pending. Fourteen field corrections across
+seven apps, including two unscored supporting rationale corrections. Whole records
+remain needs_verification. Exact inspection times and missing capture metadata are not
+invented. Stage03 remains BLOCKED on remaining manual review and final verification.
+
+## Actual human review update — Meta Ads
+
+Uday reported api_available=yes and api_types=[rest], both frozen unknown claims judged
+incorrect. Retained the inspected current official Marketing API URLs and the distinction
+between Meta Graph API product naming and GraphQL protocol classification. No GraphQL or
+other protocol was inferred, and no unreviewed Meta access/auth/buildability fields changed.
+
+Cumulative partial review: 18 items across nine apps, 17 scored and one unclear/unscored.
+First pass 3/17 (17.65%), final 17/17 (100%), +82.35 percentage points on the same claims.
+22/40 items remain pending. Sixteen field corrections across eight apps, including two
+unscored supporting rationale corrections. Exact inspection times and missing capture
+metadata remain unasserted. Whole records remain needs_verification. Stage03 remains
+BLOCKED pending remaining actual manual review and final verification/pattern analysis.
+
+## Actual human review update — systeme.io
+
+Uday corrected mcp_available from unknown to official and confirmed buildability=buildable.
+Recorded official MCP ownership, dashboard key generation and MCP key authentication notes.
+Filled the missing companion buildability rationale from Uday's explicit notes with a separate
+correction entry; it is not an extra scored claim. Public API and MCP key distinctions are
+retained in notes. No additional auth/access/API fields were inferred or changed.
+
+Cumulative partial review: 20 items across ten apps, 19 scored and one unclear/unscored.
+First pass 4/19 (21.05%), final 19/19 (100%), +78.95 percentage points on the same claims.
+20/40 items remain pending. Eighteen field corrections across nine apps, including three
+unscored supporting rationale corrections. Missing exact inspection times/capture metadata
+remain unasserted. Whole records remain needs_verification. Stage03 remains BLOCKED on
+remaining actual human review and final source verification/pattern analysis.
+
+## Actual human review update — Shopify
+
+Uday corrected auth_methods from [bearer_token] to [oauth2, bearer_token] and primary_blocker
+from unknown to review_and_permission_requirements. Both first-pass claims judged incorrect.
+Preserved OAuth authorization/token acquisition versus X-Shopify-Access-Token request use,
+custom distribution versus public App Review, and scope/protected-data approval caveats.
+The conditional public/sensitive-data requirements are not asserted as a universal access
+block. No other Shopify fields were changed or scored from these two reviewed claims.
+
+Cumulative partial review: 22 items across eleven apps, 21 scored and one unclear/unscored.
+First pass 4/21 (19.05%), final 21/21 (100%), +80.95 percentage points on the same claims.
+18/40 items remain pending. Twenty field corrections across ten apps, including three
+unscored companion rationale corrections. Missing source-capture metadata and exact
+inspection times remain unasserted. Whole records remain needs_verification. Stage03
+remains BLOCKED pending remaining actual human review and final verification/patterns.
+
+## Actual human review update — fanbasis
+
+Uday confirmed api_available=yes from official fanbasis/Commas API documentation.
+Access was reported as self_serve with self-service dashboard API-key creation. The
+canonical schema only allows self_serve_free, self_serve_trial or self_serve_paid; the
+report does not establish a pricing tier. Preserved the actual observed/proposed value
+and human judgments verbatim in the worksheet, with final_value null and mapping status
+pending_schema_mapping. No free/trial/paid gate was invented. Working access_model stays
+unknown and this claim is not scored pending clarification. No correction entry added.
+
+24 human reports received across twelve apps; 22 scored, one unclear and one pending
+schema mapping. First pass 5/22 (22.73%), final 22/22 (100%), +77.27 percentage points
+on the same paired claims. Sixteen items have not been reviewed; 17 are pending in the
+score summary including the reported access item awaiting schema mapping. Twenty field
+corrections across ten apps remain, including three unscored supporting rationales.
+Stage03 remains BLOCKED pending mapping clarification, actual review and finalization.
+
+## Actual human clarification — fanbasis access
+
+Uday clarified access_model=unknown, first-pass correctness=unclear and final correctness
+=unclear. Official docs establish dashboard self-service credential creation but not free,
+trial or paid API eligibility. Preserved previous self_serve report in review_history.
+The mapping question is resolved as completed_unclear, not a pending review. No dataset
+change or correction entry needed; access stays unknown. Excluded from paired scoring.
+
+24 review items completed across twelve apps: 22 scored, two unclear/unscored, 16 pending.
+First pass 5/22 (22.73%), final 22/22 (100%) on the same scored claims. No pending schema
+mapping remains. Frozen artifacts and sample selection unchanged; final patterns withheld.
+Stage03 remains BLOCKED pending the remaining 16 actual human review items and finalization.
+
+## Actual human review update — SE Ranking
+
+Uday confirmed api_types=[rest] and corrected mcp_available from unknown to official.
+Retained official ownership/hosting, Streamable HTTP and OAuth2.1/DCR notes and the human
+reported tool breadth. No SE Ranking auth, API breadth or other unreviewed fields changed.
+Only MCP availability is a correction; confirmed REST is not counted as a correction.
+
+Cumulative partial review: 26 items across thirteen apps, 24 scored and two unclear.
+First pass 6/24 (25%), final 24/24 (100%), +75 percentage points on the same claims.
+14/40 items remain pending. Twenty-one field corrections across eleven apps, including
+three unscored supporting rationale corrections. Exact source inspection times and
+capture metadata are not invented. Whole records remain needs_verification. Stage03
+remains BLOCKED pending remaining actual human review and final verification/patterns.
+
+## Actual human review update — MrScraper
+
+Uday reported buildability=buildable and primary_blocker=usage_quota_and_target_site_constraints,
+both frozen unknown claims judged incorrect. Recorded explicit buildability rationale as a
+separate companion correction, never an extra scored claim. Preserved self-service ordinary
+integration and free-plan evidence versus finite usage allowances and target-site scraping
+complexity. Constraints affect scale/individual jobs, not a universal API integration block.
+No unreviewed auth, access, MCP or API fields were changed or scored from the notes.
+
+Cumulative partial review: 28 items across fourteen apps, 26 scored and two unclear.
+First pass 6/26 (23.08%), final 26/26 (100%), +76.92 percentage points on the same claims.
+12/40 items remain pending. Twenty-four field corrections across twelve apps, including
+four unscored companion rationale corrections. No inspection timestamps or source capture
+metadata were fabricated. Whole records remain needs_verification. Stage03 remains BLOCKED
+pending remaining actual manual review and final verification/pattern analysis.
+
+## Actual human review update — Cloudflare
+
+Uday corrected auth_methods to [oauth2, bearer_token, api_key] and access_model to
+self_serve_free. Both first-pass claims were judged incorrect. Preserved API-token
+recommendation, discouraged legacy Global API Key, OAuth Authorization Code/PKCE and
+Free-tier availability notes. Account roles and admin restrictions remain caveats;
+no universal paid/partner gate or all-products-free claim was inferred. Recorded the
+observed incomplete-auth failure mode from this actual review.
+
+Cumulative partial review: 30 items across fifteen apps, 28 scored and two unclear.
+First pass 6/28 (21.43%), final 28/28 (100%), +78.57 percentage points on the same claims.
+10/40 items remain pending. Twenty-six field corrections across thirteen apps, including
+four unscored supporting rationale corrections. Whole records remain needs_verification.
+Exact inspection timestamps/capture metadata are not fabricated. Stage03 remains BLOCKED
+pending remaining human review and final source verification/pattern analysis.
+
+## Actual human review update — Datadog
+
+Uday corrected api_available to yes and api_types to [rest], both frozen unknown claims
+judged incorrect. Retained resource-oriented HTTP endpoint/verb evidence and source URLs.
+Authentication observations remain human notes and were not applied as unreviewed field
+corrections. No additional protocol or whole-record verification was inferred.
+
+Cumulative partial review: 32 items across sixteen apps, 30 scored and two unclear.
+First pass 6/30 (20%), final 30/30 (100%), +80 percentage points on the same scored claims.
+8/40 items remain pending. Twenty-eight field corrections across fourteen apps, including
+four unscored supporting rationale corrections. Exact inspection times and missing capture
+metadata remain unasserted. Whole records remain needs_verification. Stage03 remains
+BLOCKED pending remaining actual manual review and final verification/pattern analysis.
+
+## Actual human review update — Harvest
+
+Uday reported MCP=unknown, first/final correctness=unclear; excluded this claim from scoring
+and preserved absence-of-documentation caveat. Corrected buildability to buildable and
+transcribed explicit supporting rationale with its own unscored companion correction.
+Preserved self-service PAT versus registered OAuth application workflows and broad V2 API
+notes; no unreviewed auth, access, API breadth or MCP negative fields were inferred.
+
+Cumulative partial review: 34 items across seventeen apps, 31 scored and three unclear.
+First pass 6/31 (19.35%), final 31/31 (100%), +80.65 percentage points on the same claims.
+6/40 items remain pending. Thirty field corrections across fifteen apps, including five
+unscored supporting rationale corrections. Whole records remain needs_verification;
+missing capture metadata and exact inspection times are not fabricated. Stage03 remains
+BLOCKED pending remaining actual human review and final verification/pattern analysis.
+
+## Actual human review update — Notion
+
+Uday corrected primary_blocker to workspace_content_sharing_and_permission_requirements
+and confirmed auth_methods=[oauth2, bearer_token]. Preserved internal workspace-owner
+creation/content sharing, public OAuth page-picker access, and administrative MCP controls.
+Token-exchange HTTP Basic is not classified as normal API auth. No universal pricing/sales
+gate was asserted. Only blocker changed; no canonical Notion state was accessed or modified.
+
+Cumulative partial review: 36 items across eighteen apps, 33 scored and three unclear.
+First pass 7/33 (21.21%), final 33/33 (100%), +78.79 percentage points on the same claims.
+4/40 items remain pending. Thirty-one field corrections across sixteen apps, including
+five unscored companion rationale corrections. Whole records remain needs_verification;
+missing source-capture metadata and exact inspection timestamps are not fabricated.
+Stage03 remains BLOCKED pending remaining actual manual review and final verification.
+
+## Actual human review update — Ramp
+
+Uday corrected api_available=yes and access_model=admin_approval, both first-pass unknown
+claims judged incorrect. Preserved internal existing-customer credentials versus authorized
+admin/business-owner access and the sandbox/application/production-review partner process.
+Auth-flow notes remain observations; no unreviewed auth/API-type fields were inferred.
+No universal self-service or partner gate was asserted across all integration models.
+
+Cumulative partial review: 38 items across nineteen apps, 35 scored and three unclear.
+First pass 7/35 (20%), final 35/35 (100%), +80 percentage points on the same scored claims.
+2/40 items remain pending. Thirty-three field corrections across seventeen apps, including
+five unscored supporting rationale corrections. Missing source-capture metadata and exact
+inspection times are not fabricated. Whole records remain needs_verification. Stage03
+remains BLOCKED pending final actual sample review and remaining verification/pattern work.
+
+## Final sample and conservative Stage03 completion
+
+Uday completed all 40 reports across all ten categories and 20 apps. Paygent Connect
+API type/MCP stay unknown because assigned identity cannot be safely matched to a
+similarly named product. Five unclear claims excluded; 35 scored on both passes:
+first pass 7/35 (20%), final 35/35 (100%), +80 percentage points. Human review reports
+cover 20 apps, while scored claims cover 19. No exact source-inspection times invented.
+
+Targeted actual official-source follow-up checked SendGrid API/auth/REST, Vercel API/
+Bearer/REST, Xero OAuth and MCP ownership, and HubSpot MCP evidence. Eight value updates
+(7 automated and 1 Composio augmentation with official triangulation) were separate
+from 33 human field updates (28 scored claim corrections plus 5 explicit rationale
+updates). No new Composio invocation was made. Ordinary tests use no external service.
+A correct HubSpot MCP value had an irrelevant original quote; final active evidence
+uses an independent official MCP source. Vercel sign-in evidence was not promoted.
+
+Verified-only final projection preserves all 100 identities, with 44/700 critical
+claims checked, 656 unresolved, 22 partially resolved apps, 78 all-unknown-critical
+apps and no fully resolved app. Five supporting rationale fields are additionally
+checked. The unresolved count is a stricter verification-coverage metric than the
+original Stage02 unknown count. No first-pass finding was erased: 285 coverage
+abstentions have explicit provenance and are not declared semantic errors.
+
+Final data, CSV, claim matrix, patterns, five bounded reviewed-subset insights and
+failure analysis are generated reproducibly. Unknown API breadth is explicit for all
+100 apps; category comparisons cannot rank integration difficulty. Stage03 workflow
+is COMPLETE at this disclosed coverage, with substantial unresolved research retained
+for HQ audit. There is no claim of 100-app semantic accuracy or full-record auditing.
+The earlier BLOCKED checkpoints in this document are historical and superseded.
+
+Validation: 49 offline tests passed; canonical/frozen identity integrity and verified
+projection checks passed; credential pattern scan and diff formatting checks passed.
+No Stage04, main merge, force push, history rewrite, deployment or Notion write occurred.
+
+Human misses include 25 initially unknown claims resolved by Uday and three known claims
+that were incorrect/incomplete. The +80 percentage-point paired change is therefore both
+information recovery and correction, not 28 proven false positive assertions. Five actual
+unclear reviews remain explicit in claim coverage. Xero's promoted MCP claim links the
+hashed original Composio checkpoint to its live official-domain repository ownership link.

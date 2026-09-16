@@ -131,3 +131,92 @@ run succeeded. `STAGE01.md` documents the accepted baseline and later-stage boun
 Stage 01 and corrected Stage 02 are the governed research baseline. Main also preserves earlier work, including `EXPLAIN.md` and the historical Pages publication at https://udaysuryap.github.io/composio-research-assessment/. That publication uses legacy artifacts and is not the verified submission. Pages publishing is manual until the later presentation/deployment stages; merging research must not republish it automatically.
 
 See `PRE-STAGE03-AUDIT.md` for coverage, checks and outstanding verification risks. Do not use legacy analytics or human worksheets as Stage 03 results.
+
+## Stage 03 preparation and manual verification
+
+Stage 03 starts at canonical `0e4090c69242e0281338f97fc27c3ccd009aa51a` on
+`stage03/verification-pattern-analysis`. Run offline from the repository:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m agent.stage03 prepare
+.\.venv\Scripts\python.exe -B -m agent.stage03 check
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
+```
+
+`data/stage03/sample-manifest.json` predeclares seed 42, two apps per category
+and two claims per app (40 claims). `REVIEW.md` presents manageable review items;
+`human-review.json` is the machine-readable worksheet. Uday personally checks the
+source and reports observed values and judgments. Ownership and product identity
+must be confirmed even for seeded official URLs. Reviewer/timestamp fields are blank
+until actual review. Inaccessible, ambiguous, outdated and unclear sources are unscored.
+The challenge set contains frozen quality flags, hard failures and augmentation
+disagreements separately; it is never used to inflate unbiased sample accuracy.
+
+`score(reviews, expected)` compares the same complete paired claims with actual Uday
+judgments. Both first-pass and final denominators are identical; null accuracy means
+no scored claims. Unit-test review fixtures are synthetic and never enter outputs.
+Preparation refuses to overwrite changed human worksheets. After review, ingestion,
+corrections and finalization must be completed in a resumed Stage 03 session; the
+current command deliberately does not finalize or publish the dataset.
+
+`prepared-results.json/csv` retains all 100 identities and first-pass uncertainty.
+It is a pending working dataset, not final verified research. Each correction requires
+original/corrected values, reason, evidence, method and timestamp in `correction-log.json`.
+No augmentation candidate is automatically promoted. `provisional-patterns.json` is
+reproduced from prepared rows, contains no product insights, and must not be used as
+final Stage 04 evidence. Free-text API breadth is not guessed into categorical buckets.
+`baseline-integrity.json` pins all four frozen manifests; `check` detects frozen tampering
+and any prepared change without a corresponding correction. Prior artifacts are immutable.
+Final metrics, verified-source coverage, semantic failure modes and approximately five
+supported product insights remain pending actual source verification and manual review.
+
+Human review updates preserve `review-items.json` as the blank predeclared definition.
+If Uday supplies judgments without an inspection time, `reviewed_at` stays null;
+`review_reported_at` records the actual report receipt time and is explicitly labeled.
+The scorer accepts either timestamp for a completed actual human report. This does not
+assert when Uday visited the page. `check` also reconciles human summary and provisional
+counts against recorded judgments and prepared rows.
+
+## Completed Stage 03: checked claims and explicit unresolved coverage
+
+All 40 actual Uday review reports are recorded; five unclear claims are unscored.
+The final paired sample is 7/35 first-pass and 35/35 final (+80 percentage points).
+These are the same 35 sampled claims. The final judgment was supplied alongside each
+proposed correction, not independently re-audited after a delay. This is not a
+whole-dataset accuracy measurement or proof of working integrations.
+
+Use `data/stage03/verified-results.json` and `.csv` as the conservative verified-only
+view, `claim-verification.json` for coverage, and `patterns.json` plus
+`pattern-evidence.json` for reproducible Stage03 summaries and bounded insights.
+All 100 identities remain. Checked fields retain their documented values. Unchecked
+first-pass claims become explicit unknowns with coverage-abstention log entries rather
+than being silently promoted as verified. This leaves 22 partially resolved apps and
+78 apps with all seven critical fields unresolved, not 78 confirmed failed apps.
+No complete row is marked human_audited. API breadth stays unknown without an
+independently supported breadth classification. Category comparisons have sparse
+checked coverage and cannot support integration-priority rankings.
+
+The original 100-app first pass remains immutable. `correction-log.json` distinguishes
+41 substantive/source-supported updates (including five supporting rationale fields)
+from 285 automated coverage abstentions; abstentions are not proven incorrect claims.
+`automated-checks.json` and `targeted-source-excerpts.json` record actual follow-up for
+SendGrid, Vercel, Xero and HubSpot. Excerpt hashes cover short retained excerpts, not
+whole web pages. `prepared-results` is an audit reconstruction and is not the final
+active evidence view. No new Composio call was made; Xero retains original Composio
+augmentation provenance plus official-domain ownership triangulation.
+
+Reproduce from the repository, keeping human judgments unchanged:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m agent.stage03_finalize generate --timestamp 2026-09-16T21:14:49+00:00
+.\.venv\Scripts\python.exe -B -m agent.stage03_finalize check
+.\.venv\Scripts\python.exe -B -m agent.stage03 check
+.\.venv\Scripts\python.exe -B -m agent.stage03_security
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -q
+```
+
+Later substantive review requires a new governed checkpoint; do not edit frozen
+Stage02 runs or human history to improve displayed numbers. Stage03 is ready for HQ
+audit with material coverage limitations. Stage04 may consume these files only after
+HQ acceptance and explicit authorization. No presentation, deployment, main merge or
+Notion modification is part of this work.

@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "algorithm": "Python Random(42), categories lexically sorted, numeric ID order within category, sample 2/category",
+  "selected_ids": [
+    2,
+    1,
+    95,
+    94,
+    14,
+    13,
+    22,
+    29,
+    32,
+    37,
+    41,
+    50,
+    52,
+    54,
+    64,
+    69,
+    80,
+    71,
+    89,
+    84
+  ],
+  "categories": [
+    "1. CRM and Sales",
+    "10. AI, Research and Media-native",
+    "2. Support and Helpdesk",
+    "3. Communications and Messaging",
+    "4. Marketing, Ads, Email and Social",
+    "5. Ecommerce",
+    "6. Data, SEO and Scraping",
+    "7. Developer, Infra and Data platforms",
+    "8. Productivity and Project Management",
+    "9. Finance and Fintech"
+  ],
+  "review_fields": [
+    "auth_methods",
+    "access_model",
+    "api_available",
+    "api_types",
+    "mcp_available",
+    "buildability",
+    "primary_blocker"
+  ],
+  "field_rule": "Two fields per app, fixed rotation FIELDS[(2*index+offset)%7], offsets 0 and 1",
+  "review_items": 40,
+  "declared_before_judgments": true
+}

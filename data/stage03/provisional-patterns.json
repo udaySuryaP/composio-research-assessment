@@ -1,0 +1,78 @@
+{
+  "status": "provisional_unverified",
+  "denominator": 100,
+  "counts": {
+    "auth_methods": {
+      "unknown": 91,
+      "oauth2": 7,
+      "basic": 1,
+      "api_key": 3,
+      "bearer_token": 4
+    },
+    "access_model": {
+      "unknown": 95,
+      "admin_approval": 4,
+      "self_serve_free": 1
+    },
+    "api_available": {
+      "yes": 8,
+      "unknown": 92
+    },
+    "api_types": {
+      "rest": 7,
+      "unknown": 93
+    },
+    "api_breadth": {
+      "unknown": 100
+    },
+    "mcp_available": {
+      "unknown": 94,
+      "official": 5,
+      "unclear": 1
+    },
+    "buildability": {
+      "unknown": 95,
+      "buildable": 5
+    }
+  },
+  "array_count_note": "Auth and API type are multi-label app counts; totals may exceed 100. API breadth remains original free text; no guessed breadth buckets.",
+  "category_buildability": {
+    "1. CRM and Sales": {
+      "unknown": 10
+    },
+    "10. AI, Research and Media-native": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "2. Support and Helpdesk": {
+      "unknown": 10
+    },
+    "3. Communications and Messaging": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "4. Marketing, Ads, Email and Social": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "5. Ecommerce": {
+      "unknown": 10
+    },
+    "6. Data, SEO and Scraping": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "7. Developer, Infra and Data platforms": {
+      "unknown": 10
+    },
+    "8. Productivity and Project Management": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "9. Finance and Fintech": {
+      "unknown": 10
+    }
+  },
+  "insights": [],
+  "caveat": "Final verified patterns and product conclusions withheld pending source verification and actual human review."
+}

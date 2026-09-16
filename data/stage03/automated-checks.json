@@ -1,0 +1,244 @@
+[
+  {
+    "app_id": 40,
+    "app_name": "SendGrid",
+    "field": "auth_methods",
+    "value": [
+      "api_key"
+    ],
+    "source_id": "sendgrid-auth",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-40-auth_methods",
+        "field": "auth_methods",
+        "claim": "[\"api_key\"]",
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "1edbbb1e0f0a77607ad83011384b10b05069dd086a3d006c993d2138381b925a",
+        "quote": "supports API keys",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official SendGrid v3 API authentication page identifies REST and API-key authentication through an Authorization Bearer header."
+  },
+  {
+    "app_id": 40,
+    "app_name": "SendGrid",
+    "field": "api_available",
+    "value": "yes",
+    "source_id": "sendgrid-auth",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-40-api_available",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "1edbbb1e0f0a77607ad83011384b10b05069dd086a3d006c993d2138381b925a",
+        "quote": "Twilio SendGrid Web REST API v3",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official SendGrid v3 API authentication page identifies REST and API-key authentication through an Authorization Bearer header."
+  },
+  {
+    "app_id": 40,
+    "app_name": "SendGrid",
+    "field": "api_types",
+    "value": [
+      "rest"
+    ],
+    "source_id": "sendgrid-auth",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-40-api_types",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "final_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "1edbbb1e0f0a77607ad83011384b10b05069dd086a3d006c993d2138381b925a",
+        "quote": "REST API v3",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official SendGrid v3 API authentication page identifies REST and API-key authentication through an Authorization Bearer header."
+  },
+  {
+    "app_id": 62,
+    "app_name": "Vercel",
+    "field": "auth_methods",
+    "value": [
+      "bearer_token"
+    ],
+    "source_id": "vercel-api",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-62-auth_methods",
+        "field": "auth_methods",
+        "claim": "[\"bearer_token\"]",
+        "url": "https://vercel.com/docs/rest-api/reference/welcome",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "b597c0eb5e28bdfee4b8dab008e9435dc7d9877ac7176caa120c5b44663844a9",
+        "quote": "Authorization: Bearer <TOKEN>",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official REST API overview describes account/deployment resource HTTP endpoints and Vercel access tokens in Authorization Bearer. Pricing page sign-in providers are not developer API authentication evidence."
+  },
+  {
+    "app_id": 62,
+    "app_name": "Vercel",
+    "field": "api_available",
+    "value": "yes",
+    "source_id": "vercel-api",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-62-api_available",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://vercel.com/docs/rest-api/reference/welcome",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "b597c0eb5e28bdfee4b8dab008e9435dc7d9877ac7176caa120c5b44663844a9",
+        "quote": "follow the REST architecture.",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official REST API overview describes account/deployment resource HTTP endpoints and Vercel access tokens in Authorization Bearer. Pricing page sign-in providers are not developer API authentication evidence."
+  },
+  {
+    "app_id": 62,
+    "app_name": "Vercel",
+    "field": "api_types",
+    "value": [
+      "rest"
+    ],
+    "source_id": "vercel-api",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-62-api_types",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://vercel.com/docs/rest-api/reference/welcome",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "b597c0eb5e28bdfee4b8dab008e9435dc7d9877ac7176caa120c5b44663844a9",
+        "quote": "follow the REST architecture.",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official REST API overview describes account/deployment resource HTTP endpoints and Vercel access tokens in Authorization Bearer. Pricing page sign-in providers are not developer API authentication evidence."
+  },
+  {
+    "app_id": 87,
+    "app_name": "Xero",
+    "field": "mcp_available",
+    "value": "official",
+    "source_id": "xero-ai",
+    "method": "composio_augmentation",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-87-mcp_available",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.xero.com/ai",
+        "final_url": "https://developer.xero.com/ai",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "306df28e28e3594af2735312c1546fd77bf6a2ffda73b29d68b301626e1223ef",
+        "quote": "our open source MCP server",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official Xero AI toolkit page identifies its own open-source MCP server and links to the XeroAPI repository.",
+    "augmentation_run_id": "stage02-composio-augmentation-20260916",
+    "augmentation_checkpoint": "data/runs/stage02-composio-augmentation-20260916/apps/087.json",
+    "augmentation_checkpoint_sha256": "f2fec5a66c8429e607f4a6b7d3fb9e4fa8e570f0ba29bfd3e3bc2e814beae32e",
+    "composio_action_slug": "COMPOSIO_SEARCH_TAVILY",
+    "composio_toolkit_version": "20260903_00",
+    "official_ownership_link": "https://developer.xero.com/ai -> https://github.com/XeroAPI/xero-mcp-server",
+    "new_composio_invocation": false
+  },
+  {
+    "app_id": 87,
+    "app_name": "Xero",
+    "field": "auth_methods",
+    "value": [
+      "oauth2"
+    ],
+    "source_id": "xero-oauth",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-87-auth_methods",
+        "field": "auth_methods",
+        "claim": "[\"oauth2\"]",
+        "url": "https://developer.xero.com/faq",
+        "final_url": "https://developer.xero.com/faq",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "e44813687ff8f60cf21689c1129ded5256205f7664b8554537e0a0569ddff0c5",
+        "quote": "Our API uses OAuth 2.0",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official FAQ says the API uses OAuth2 and rejects basic API-key authentication; no access-plan inference made."
+  },
+  {
+    "app_id": 2,
+    "app_name": "HubSpot",
+    "field": "mcp_available",
+    "value": "official",
+    "source_id": "hubspot-mcp",
+    "method": "automated_verification",
+    "evidence": [
+      {
+        "evidence_id": "stage03-targeted-2-mcp_available",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.hubspot.com/ai-tools/mcp",
+        "final_url": "https://developers.hubspot.com/ai-tools/mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T21:11:51+00:00",
+        "content_sha256": "4e4d63c44733fe3748acbf4d4141fa08f2693c61a89a162d9040b43bb1467a5d",
+        "quote": "HubSpot offers two distinct MCP servers",
+        "supports_claim": "yes"
+      }
+    ],
+    "checked_at": "2026-09-16T21:11:51+00:00",
+    "scope": "Present documented method/capability; not an exhaustive absence claim about other methods or protocols.",
+    "reason": "Official HubSpot MCP page documents remote CRM MCP and local developer MCP. First-pass MCP value was correct but its marketplace/OAuth citation did not establish MCP."
+  }
+]
