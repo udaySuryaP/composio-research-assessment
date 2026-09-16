@@ -1,6 +1,8 @@
-# Uday review — pending
+# Original predeclared Uday worksheet — sample review completed
 
-Inspect the official page yourself. Confirm product identity and source ownership. Answer observed value, yes/no/unclear for first pass, proposed final value, yes/no/unclear for final, source URL and notes. Use unclear/unscored for inaccessible, ambiguous or outdated pages. Reviewer and timestamp remain blank until your review.
+All 40 actual reports are now recorded in human-review.json; five are unclear/unscored. This document preserves the original questions and first-pass findings.
+
+Original review instructions: Inspect the official page yourself. Confirm product identity and source ownership. Answer observed value, yes/no/unclear for first pass, proposed final value, yes/no/unclear for final, source URL and notes. Use unclear/unscored for inaccessible, ambiguous or outdated pages. Reviewer and timestamp remain blank until your review.
 
 ## Item 1: 002:auth_methods
 App: HubSpot (1. CRM and Sales)

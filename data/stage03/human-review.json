@@ -1349,16 +1349,25 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which API protocols are explicitly documented for this product?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://paygent.io/",
+    "observed_correct_value": [
+      "unknown"
+    ],
+    "first_pass_correct": "unclear",
+    "final_value": [
+      "unknown"
+    ],
+    "final_correct": "unclear",
     "correction_reason": null,
-    "notes": null
+    "notes": "The assigned product identity could not be reliably matched to the currently documented Paygent developer product. Search results surface multiple distinct products using the Paygent name, including an AI-agent payments product at api.paygent.tech and other unrelated Paygent payment/billing products. None was sufficiently established as the assigned \"Paygent Connect\" product. Therefore no API protocol classification should be borrowed from another similarly named product, and api_types remains unknown.",
+    "review_reported_at": "2026-09-16T21:09:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://paygent.io/"
+    ]
   },
   {
     "item_id": "084:mcp_available",
@@ -1374,15 +1383,20 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://paygent.io/",
+    "observed_correct_value": "unknown",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
     "correction_reason": null,
-    "notes": null
+    "notes": "An official MCP server is documented for the separate Paygent AI-agent payments product at api.paygent.tech, including a hosted MCP endpoint. However, product identity could not be established between that product and the assigned \"Paygent Connect\" record. To avoid incorrectly substituting a similarly named product, MCP availability for the assigned product remains unknown.",
+    "review_reported_at": "2026-09-16T21:09:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://paygent.io/"
+    ]
   }
 ]

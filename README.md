@@ -176,3 +176,47 @@ If Uday supplies judgments without an inspection time, `reviewed_at` stays null;
 The scorer accepts either timestamp for a completed actual human report. This does not
 assert when Uday visited the page. `check` also reconciles human summary and provisional
 counts against recorded judgments and prepared rows.
+
+## Completed Stage 03: checked claims and explicit unresolved coverage
+
+All 40 actual Uday review reports are recorded; five unclear claims are unscored.
+The final paired sample is 7/35 first-pass and 35/35 final (+80 percentage points).
+These are the same 35 sampled claims. The final judgment was supplied alongside each
+proposed correction, not independently re-audited after a delay. This is not a
+whole-dataset accuracy measurement or proof of working integrations.
+
+Use `data/stage03/verified-results.json` and `.csv` as the conservative verified-only
+view, `claim-verification.json` for coverage, and `patterns.json` plus
+`pattern-evidence.json` for reproducible Stage03 summaries and bounded insights.
+All 100 identities remain. Checked fields retain their documented values. Unchecked
+first-pass claims become explicit unknowns with coverage-abstention log entries rather
+than being silently promoted as verified. This leaves 22 partially resolved apps and
+78 apps with all seven critical fields unresolved, not 78 confirmed failed apps.
+No complete row is marked human_audited. API breadth stays unknown without an
+independently supported breadth classification. Category comparisons have sparse
+checked coverage and cannot support integration-priority rankings.
+
+The original 100-app first pass remains immutable. `correction-log.json` distinguishes
+41 substantive/source-supported updates (including five supporting rationale fields)
+from 285 automated coverage abstentions; abstentions are not proven incorrect claims.
+`automated-checks.json` and `targeted-source-excerpts.json` record actual follow-up for
+SendGrid, Vercel, Xero and HubSpot. Excerpt hashes cover short retained excerpts, not
+whole web pages. `prepared-results` is an audit reconstruction and is not the final
+active evidence view. No new Composio call was made; Xero retains original Composio
+augmentation provenance plus official-domain ownership triangulation.
+
+Reproduce from the repository, keeping human judgments unchanged:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m agent.stage03_finalize generate --timestamp 2026-09-16T21:14:49+00:00
+.\.venv\Scripts\python.exe -B -m agent.stage03_finalize check
+.\.venv\Scripts\python.exe -B -m agent.stage03 check
+.\.venv\Scripts\python.exe -B -m agent.stage03_security
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -q
+```
+
+Later substantive review requires a new governed checkpoint; do not edit frozen
+Stage02 runs or human history to improve displayed numbers. Stage03 is ready for HQ
+audit with material coverage limitations. Stage04 may consume these files only after
+HQ acceptance and explicit authorization. No presentation, deployment, main merge or
+Notion modification is part of this work.

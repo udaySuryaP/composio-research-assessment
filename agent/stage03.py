@@ -46,7 +46,7 @@ def select_sample(apps):
 
 def score(reviews, expected):
  expected = {r['item_id']:r for r in expected}
- seen=set(); paired=[]; unclear=0
+ seen=set(); paired=[]; unclear=0; reviewed_apps=set()
  for r in reviews:
   key=r.get('item_id')
   if key not in expected or key in seen: raise ValueError('Unknown/duplicate review item')
@@ -61,17 +61,19 @@ def score(reviews, expected):
     stamp=datetime.fromisoformat(review_time)
     if stamp.tzinfo is None: raise ValueError('Timestamp requires timezone')
    except (ValueError,TypeError): raise ValueError('Invalid review timestamp')
+  if not (r.get('reviewer')=='Uday' and review_time and r.get('observed_source_url') and r.get('notes')): continue
+  if not s.valid_url(r['observed_source_url']): raise ValueError('Invalid observed source URL')
+  reviewed_apps.add(r['app_id'])
   if r.get('first_pass_correct')=='unclear' or r.get('final_correct')=='unclear' or r.get('source_status') in ('inaccessible','ambiguous','outdated','unclear'):
    unclear+=1; continue
   if not (r.get('reviewer')=='Uday' and review_time and r.get('source_status')=='usable' and r.get('observed_source_url') and r.get('notes') and r.get('observed_correct_value') is not None and r.get('final_value') is not None): continue
   if r.get('first_pass_correct') not in ('yes','no') or r.get('final_correct') not in ('yes','no'): continue
-  if r['final_value'] != r['observed_correct_value']: raise ValueError('Final value must match observed value before scoring')
-  if r['final_correct']!='yes': raise ValueError('Final judgment contradicts observed value')
+  if (r['final_value']==r['observed_correct_value']) != (r['final_correct']=='yes'): raise ValueError('Final judgment contradicts observed value')
   if (r['first_pass_value']==r['observed_correct_value']) != (r['first_pass_correct']=='yes'): raise ValueError('First-pass judgment contradicts observed value')
   if not s.valid_url(r['observed_source_url']): raise ValueError('Invalid observed source URL')
   paired.append(r)
  n=len(paired); first=sum(r['first_pass_correct']=='yes' for r in paired); final=sum(r['final_correct']=='yes' for r in paired)
- return {'scored_items':n,'first_pass_correct':first,'first_pass_denominator':n,'final_correct':final,'final_denominator':n,'first_pass_accuracy':first/n if n else None,'final_accuracy':final/n if n else None,'absolute_improvement':(final-first)/n if n else None,'unclear_unscored':unclear,'pending_items':len(expected)-n-unclear,'human_reviewed_apps':len({r['app_id'] for r in paired}),'limitation':'Only actual Uday judgments on the same unbiased paired claims are scored; no whole-dataset accuracy inference.'}
+ return {'scored_items':n,'first_pass_correct':first,'first_pass_denominator':n,'final_correct':final,'final_denominator':n,'first_pass_accuracy':first/n if n else None,'final_accuracy':final/n if n else None,'absolute_improvement':(final-first)/n if n else None,'unclear_unscored':unclear,'pending_items':len(expected)-n-unclear,'human_reviewed_apps':len(reviewed_apps),'human_scored_apps':len({r['app_id'] for r in paired}),'limitation':'Only actual Uday judgments on the same unbiased paired claims are scored; no whole-dataset accuracy inference.'}
 
 def validate_corrections(rows, corrections):
  by_id={r['id']:r for r in rows}; seen=set()

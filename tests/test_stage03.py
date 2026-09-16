@@ -82,3 +82,15 @@ class Stage03Tests(unittest.TestCase):
  def test_recorded_reviews_and_summary_reconcile(self):
   reviews=t.s.read(t.OUT/'human-review.json')
   self.assertEqual(t.score(reviews,self.items),t.s.read(t.OUT/'human-review-summary.json'))
+
+ def test_final_accuracy_can_worsen_without_changed_denominator(self):
+  a=self.complete();a['final_value']=['api_key'];a['final_correct']='no'
+  result=t.score([a],self.items)
+  self.assertEqual(result['first_pass_accuracy'],1)
+  self.assertEqual(result['final_accuracy'],0)
+  self.assertEqual(result['absolute_improvement'],-1)
+  self.assertEqual(result['first_pass_denominator'],result['final_denominator'])
+ def test_unauthenticated_unclear_items_remain_pending(self):
+  a=copy.deepcopy(self.items[0]);a['first_pass_correct']='unclear'
+  result=t.score([a],self.items)
+  self.assertEqual(result['unclear_unscored'],0)

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-16T21:14:49+00:00",
+  "canonical_commit": "0e4090c69242e0281338f97fc27c3ccd009aa51a",
+  "scope": "Verified-only claim projection with explicit unresolved fields; frozen original findings retained.",
+  "human_sample_complete": true,
+  "fully_verified_rows": 0,
+  "remaining_limitations": [
+    "Unchecked claims remain unknown rather than asserted facts",
+    "No independently supported API breadth classification; all values unknown",
+    "Unknown MCP and assigned Paygent identity remain unresolved"
+  ],
+  "stage_verdict": "COMPLETE",
+  "reason": "Stage03 workflow complete with conservative, explicit unknowns: 40 actual sample reviews, targeted official-source checks, verified-only projection, reproducible metrics and bounded insights. No whole-dataset accuracy claim. HQ must audit this low-coverage outcome before authorizing Stage04."
+}

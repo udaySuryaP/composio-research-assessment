@@ -1,5 +1,5 @@
 {
-  "status": "partial_human_review",
+  "status": "stage03_completed_with_explicit_unresolved_claims",
   "observations": [
     {
       "pattern": "Extraction hard failure",
@@ -5038,6 +5038,202 @@
       ],
       "detection": "Frozen deterministic quality flags",
       "mitigation": "Targeted challenge review; flags alone are not semantic errors."
+    },
+    {
+      "pattern": "Insufficient readable official page content / possible JavaScript shell",
+      "examples": [
+        {
+          "app_id": 24,
+          "app_name": "Lark (Larksuite)",
+          "url": "https://open.larksuite.com/document/server-docs/api-call-guide/calling-process/get-access-token",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 48,
+          "app_name": "Gumroad",
+          "url": "https://gumroad.com/api",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 72,
+          "app_name": "Airtable",
+          "url": "https://airtable.com/developers/web/api/introduction",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 74,
+          "app_name": "Jira",
+          "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 83,
+          "app_name": "Binance",
+          "url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+          "status": 202,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 84,
+          "app_name": "Paygent Connect",
+          "url": "https://paygent.io/",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 85,
+          "app_name": "iPayX",
+          "url": "https://www.ipayx.ai/docs",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 86,
+          "app_name": "QuickBooks",
+          "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 87,
+          "app_name": "Xero",
+          "url": "https://developer.xero.com/documentation/guides/oauth2/auth-flow",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 87,
+          "app_name": "Xero",
+          "url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        },
+        {
+          "app_id": 94,
+          "app_name": "Consensus",
+          "url": "https://consensus.app/",
+          "status": 200,
+          "error": "Insufficient readable content; possible JS shell"
+        }
+      ],
+      "detection": "Actual frozen retrieval ok=false and insufficient-readable-content error",
+      "mitigation": "Preserve retrieval failure and explicit unknowns; no absence inference."
+    },
+    {
+      "pattern": "Other failed official retrievals",
+      "examples": [
+        {
+          "app_id": 1,
+          "app_name": "Salesforce",
+          "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+          "status": 403,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 1,
+          "app_name": "Salesforce",
+          "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+          "status": 403,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 4,
+          "app_name": "Attio",
+          "url": "https://docs.attio.com/rest-api/how-to/authentication",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 9,
+          "app_name": "Copper",
+          "url": "https://developer.copper.com/authentication/",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 15,
+          "app_name": "Pylon",
+          "url": "https://docs.usepylon.com/pylon-docs/developer/authentication",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 17,
+          "app_name": "Plain",
+          "url": "https://www.plain.com/docs/api-reference/graphql/overview",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 19,
+          "app_name": "Gorgias",
+          "url": "https://developers.gorgias.com/docs/access-tokens",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 44,
+          "app_name": "Salesforce Commerce Cloud",
+          "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+          "status": 403,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 47,
+          "app_name": "Ecwid",
+          "url": "https://docs.ecwid.com/api-reference/rest-api/getting-started",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 53,
+          "app_name": "Ahrefs",
+          "url": "https://docs.ahrefs.com/docs/api/reference/authentication",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 61,
+          "app_name": "GitHub",
+          "url": "https://docs.github.com/en/copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization/about-the-github-mcp-server",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 66,
+          "app_name": "Neo4j",
+          "url": "https://neo4j.com/docs/query-api/current/auth/",
+          "status": 404,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 90,
+          "app_name": "PitchBook",
+          "url": "https://pitchbook.com/products/direct-data",
+          "status": 403,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 90,
+          "app_name": "PitchBook",
+          "url": "https://pitchbook.com/help/PitchBook-api",
+          "status": 403,
+          "error": "HTTPError"
+        },
+        {
+          "app_id": 94,
+          "app_name": "Consensus",
+          "url": "https://docs.consensus.app/docs/mcp",
+          "status": 404,
+          "error": "HTTPError"
+        }
+      ],
+      "detection": "Actual frozen retrieval status/error",
+      "mitigation": "Keep recorded failures; targeted live follow-up only for selected high-risk records."
     }
   ],
   "semantic_failure_modes": [
@@ -5078,6 +5274,104 @@
         "https://developers.cloudflare.com/fundamentals/api/get-started/keys/",
         "https://developers.cloudflare.com/fundamentals/oauth/"
       ]
+    },
+    {
+      "pattern": "Assigned product identity unresolved; similarly named product substitution risk",
+      "examples": [
+        {
+          "app_id": 84,
+          "app_name": "Paygent Connect",
+          "fields": [
+            "api_types",
+            "mcp_available"
+          ]
+        }
+      ],
+      "detection": "Actual Uday manual official-source identity review",
+      "mitigation": "Retain locked identity and unknown fields; do not borrow api.paygent.tech capability",
+      "sources": [
+        "https://paygent.io/"
+      ]
+    },
+    {
+      "pattern": "Correct value with citation that does not establish the claimed capability",
+      "examples": [
+        {
+          "app_id": 2,
+          "field": "mcp_available",
+          "first_pass_value": "official",
+          "original_citation": "Marketplace/OAuth authentication page",
+          "replacement": "https://developers.hubspot.com/ai-tools/mcp"
+        }
+      ],
+      "detection": "Automated review of archived marketplace quote plus actual live official MCP documentation",
+      "mitigation": "Keep original evidence in frozen run; use independent MCP source in active verified view. No value correction or extra human score.",
+      "sources": [
+        "https://developers.hubspot.com/ai-tools/mcp"
+      ]
+    }
+  ],
+  "baseline_quality_flag_counts": {
+    "no_usable_official_source": 13,
+    "low_confidence": 12,
+    "quote_not_found": 349,
+    "missing_field_evidence": 617,
+    "raw_identity_mismatch": 15,
+    "negative_without_explicit_evidence": 9,
+    "unclear_claim_support": 2,
+    "mixed_unknown_enum": 8,
+    "nonofficial_critical_evidence": 24,
+    "mixed_none_auth": 1,
+    "provenance_mismatch": 8
+  },
+  "augmentation_findings": [
+    {
+      "app_id": 62,
+      "pattern": "Account sign-in and pricing evidence did not establish developer API authentication",
+      "detection": "Frozen Vercel augmentation auth quote lists OAuth sign-in providers and implies API keys",
+      "mitigation": "Do not promote augmentation auth inference; independent official REST API documentation supports access-token Bearer authentication.",
+      "semantic_error_confirmed": true
+    },
+    {
+      "app_id": 87,
+      "pattern": "Repository ownership required triangulation",
+      "detection": "Frozen augmentation GitHub attribution alone",
+      "mitigation": "Official Xero AI toolkit directly identifies its MCP server and links to its repository; promoted mcp_available using composio_augmentation provenance.",
+      "semantic_error_confirmed": false
+    }
+  ],
+  "correction_methods": {
+    "human_review": 33,
+    "automated_verification": 7,
+    "composio_augmentation": 1
+  },
+  "coverage_abstentions": 285,
+  "abstention_note": "Coverage abstentions are not proven semantic errors. Frozen first-pass values, quoted evidence, raw flags and full 100-app research are preserved. This projection favors verified precision over claiming unreviewed completeness.",
+  "remaining_unresolved": [
+    {
+      "app_id": 13,
+      "field": "mcp_available",
+      "reason": "I inspected the official Freshworks/Freshdesk developer documentation and did not find any mention of MCP or Model Context Protocol. The official developer index lists Freshdesk App SDK, REST APIs, and Widget APIs, but no MCP integration was documented in the sources I reviewed. Because absence from these inspected pages does not prove that Freshdesk has no MCP server elsewhere, the claim remains unresolved rather than being marked \"no\"."
+    },
+    {
+      "app_id": 50,
+      "field": "access_model",
+      "reason": "The documentation establishes self-service API-key creation from Account → API Keys and does not show a partner, sales, or manual approval gate. However, the inspected source does not state whether API access is available on a free plan, trial plan, or paid plan. Because the schema requires one of self_serve_free, self_serve_trial, or self_serve_paid, the pricing tier cannot be classified from the available evidence and should remain unknown."
+    },
+    {
+      "app_id": 80,
+      "field": "mcp_available",
+      "reason": "No official Harvest MCP server or Model Context Protocol documentation was found in the inspected official Harvest API documentation. Because absence of documentation is not proof of absence, MCP availability remains unknown and this claim should be excluded from accuracy scoring."
+    },
+    {
+      "app_id": 84,
+      "field": "api_types",
+      "reason": "The assigned product identity could not be reliably matched to the currently documented Paygent developer product. Search results surface multiple distinct products using the Paygent name, including an AI-agent payments product at api.paygent.tech and other unrelated Paygent payment/billing products. None was sufficiently established as the assigned \"Paygent Connect\" product. Therefore no API protocol classification should be borrowed from another similarly named product, and api_types remains unknown."
+    },
+    {
+      "app_id": 84,
+      "field": "mcp_available",
+      "reason": "An official MCP server is documented for the separate Paygent AI-agent payments product at api.paygent.tech, including a hosted MCP endpoint. However, product identity could not be established between that product and the assigned \"Paygent Connect\" record. To avoid incorrectly substituting a similarly named product, MCP availability for the assigned product remains unknown."
     }
   ]
 }

@@ -1,4 +1,4 @@
-# Stage 03 — BLOCKED on actual Uday review
+# Stage 03 — completed with explicit unresolved coverage
 
 Canonical start: `0e4090c69242e0281338f97fc27c3ccd009aa51a`.
 Branch: `stage03/verification-pattern-analysis`.
@@ -338,3 +338,43 @@ First pass 7/35 (20%), final 35/35 (100%), +80 percentage points on the same sco
 five unscored supporting rationale corrections. Missing source-capture metadata and exact
 inspection times are not fabricated. Whole records remain needs_verification. Stage03
 remains BLOCKED pending final actual sample review and remaining verification/pattern work.
+
+## Final sample and conservative Stage03 completion
+
+Uday completed all 40 reports across all ten categories and 20 apps. Paygent Connect
+API type/MCP stay unknown because assigned identity cannot be safely matched to a
+similarly named product. Five unclear claims excluded; 35 scored on both passes:
+first pass 7/35 (20%), final 35/35 (100%), +80 percentage points. Human review reports
+cover 20 apps, while scored claims cover 19. No exact source-inspection times invented.
+
+Targeted actual official-source follow-up checked SendGrid API/auth/REST, Vercel API/
+Bearer/REST, Xero OAuth and MCP ownership, and HubSpot MCP evidence. Eight value updates
+(7 automated and 1 Composio augmentation with official triangulation) were separate
+from 33 human field updates (28 scored claim corrections plus 5 explicit rationale
+updates). No new Composio invocation was made. Ordinary tests use no external service.
+A correct HubSpot MCP value had an irrelevant original quote; final active evidence
+uses an independent official MCP source. Vercel sign-in evidence was not promoted.
+
+Verified-only final projection preserves all 100 identities, with 44/700 critical
+claims checked, 656 unresolved, 22 partially resolved apps, 78 all-unknown-critical
+apps and no fully resolved app. Five supporting rationale fields are additionally
+checked. The unresolved count is a stricter verification-coverage metric than the
+original Stage02 unknown count. No first-pass finding was erased: 285 coverage
+abstentions have explicit provenance and are not declared semantic errors.
+
+Final data, CSV, claim matrix, patterns, five bounded reviewed-subset insights and
+failure analysis are generated reproducibly. Unknown API breadth is explicit for all
+100 apps; category comparisons cannot rank integration difficulty. Stage03 workflow
+is COMPLETE at this disclosed coverage, with substantial unresolved research retained
+for HQ audit. There is no claim of 100-app semantic accuracy or full-record auditing.
+The earlier BLOCKED checkpoints in this document are historical and superseded.
+
+Validation: 49 offline tests passed; canonical/frozen identity integrity and verified
+projection checks passed; credential pattern scan and diff formatting checks passed.
+No Stage04, main merge, force push, history rewrite, deployment or Notion write occurred.
+
+Human misses include 25 initially unknown claims resolved by Uday and three known claims
+that were incorrect/incomplete. The +80 percentage-point paired change is therefore both
+information recovery and correction, not 28 proven false positive assertions. Five actual
+unclear reviews remain explicit in claim coverage. Xero's promoted MCP claim links the
+hashed original Composio checkpoint to its live official-domain repository ownership link.

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "rule": "Only completed actual Uday usable-source claims, their explicit supporting rationale, and documented targeted official-source checks enter the verified view. Unchecked first-pass claims become explicit unknowns with automated abstention entries. This is a coverage decision, not a declaration that the original claim was false.",
+  "sample_denominator_rule": "The same complete actual human yes/no paired claims; actual unclear source judgments excluded. Tests allow lower final accuracy; final values must match recorded judgments.",
+  "source_metadata_rule": "Human inspection times, verbatim quotes and captured hashes remain empty when not supplied. Targeted source hashes cover only recorded short excerpts.",
+  "coverage_unit": "Claim-level verification; no whole record marked human_audited from two sampled fields."
+}
