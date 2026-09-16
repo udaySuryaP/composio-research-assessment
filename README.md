@@ -4,7 +4,7 @@ An evidence-grounded research pipeline for 100 assigned app identities across 10
 
 ## Live case study
 
-[Public case study](https://udaysuryap.github.io/composio-research-assessment/) â€” Stage 05 publication validation is recorded in STAGE05.md. Only the accepted standalone artifact is published; historical presentation is excluded.
+[Public case study](https://udaysuryap.github.io/composio-research-assessment/) — Stage 05 publication validation is recorded in STAGE05.md. Only the accepted standalone artifact is published; historical presentation is excluded.
 
 ## Submission artifact
 
@@ -16,7 +16,7 @@ A Python research agent retrieves source text, extracts structured claims with O
 
 ## Workflow
 
-Assigned apps â†’ discovery â†’ source retrieval â†’ structured extraction â†’ evidence checks â†’ deterministic human verification â†’ corrections â†’ verified projection â†’ case study.
+Assigned apps → discovery → source retrieval → structured extraction → evidence checks → deterministic human verification → corrections → verified projection → case study.
 
 ## Composio usage
 
@@ -28,13 +28,13 @@ Seed 42 predeclared 20 apps and 40 claims. Uday supplied 40 actual human review 
 
 ## Key limitations
 
-Only 44/700 critical claims are independently checked; 656 remain unresolved. There are 22 partially resolved apps, 78 unresolved across all seven critical fields, and zero fully verified app records. API breadth is unknown for all 100. No integrations were executed end-to-end. Five sampled claims remain unresolved. Category ranking and population prevalence are unsupported. The recovered original assignment contains rows 1â€“90; accepted seeds contain 100 identities. See data/stage02-input-reconciliation.json for the additional-row confirmation record and submission/COMPLIANCE.md for itemized coverage.
+Only 44/700 critical claims are independently checked; 656 remain unresolved. There are 22 partially resolved apps, 78 unresolved across all seven critical fields, and zero fully verified app records. API breadth is unknown for all 100. No integrations were executed end-to-end. Five sampled claims remain unresolved. Category ranking and population prevalence are unsupported. The recovered original assignment contains rows 1–90; accepted seeds contain 100 identities. See data/stage02-input-reconciliation.json for the additional-row confirmation record and submission/COMPLIANCE.md for itemized coverage.
 
 Unknown means unresolved, rather than no API, no MCP, or a blocked integration.
 
 ## Run locally
 
-Open `submission/composio-assessment-uday.html` in a browser. Python 3.10+ and Node.js are required only for rebuilding/checking the work, not viewing it.
+Open `submission/composio-assessment-uday.html` in a browser. Windows, Python 3.10+ and Node.js are required only for rebuilding/checking the work, not viewing it.
 
 ```powershell
 python -m venv .venv
@@ -44,7 +44,7 @@ Start-Process .\submission\composio-assessment-uday.html
 
 ## Reproduce checks
 
-From a complete Git checkout on `stage05/final-submission`:
+Accepted freeze manifests retain Windows paths; run these checks on Windows (the Pages runner uses Windows too). From a complete Git checkout on `stage05/final-submission`:
 
 ```powershell
 .\.venv\Scripts\python.exe -B -m unittest discover -s tests -q
@@ -69,10 +69,10 @@ Checks use retained evidence and require no API keys or fresh research. `agent.s
 - `submission/`: final HTML, embedded-JavaScript harness, compliance audit and reviewer notes.
 - `tests/`: 53 existing tests.
 - `.github/workflows/pages.yml`: manual Pages publication; installs pinned direct dependencies, runs checks, publishes only a byte-identical HTML copy.
-- `STAGE01.md`â€“`STAGE04.md`: historical accepted implementation records; `STAGE05.md`: final preparation record.
+- `STAGE01.md`–`STAGE04.md`: historical accepted implementation records; `STAGE05.md`: final preparation record.
 
 ## Historical artifact reconciliation
 
 `site/`, root `case-study.html`, EXPLAIN.md and earlier top-level presentation/data are historical outputs, not the final submission. They are preserved for audit history and excluded from deployment. The final output is exclusively `submission/composio-assessment-uday.html`.
 
-STAGE04.md records the implementation handoff's browser limitation. A later independent HQ audit completed Chromium desktop/mobile QA (1440Ã—1000 and 390Ã—844), direct local opening and offline interaction checks, and accepted Stage 04 at `402e90d7f5a33b2dee9f0087e6d8e11a6708e307`. It was subsequently merged into canonical main `cc335e607b8d0a8af4f2715b8a912056bceec274`. The historical handoff remains unchanged. Stage 05 repeats hosted QA; its branch remains separate pending HQ final audit.
+STAGE04.md records the implementation handoff's browser limitation. A later independent HQ audit completed Chromium desktop/mobile QA (1440×1000 and 390×844), direct local opening and offline interaction checks, and accepted Stage 04 at `402e90d7f5a33b2dee9f0087e6d8e11a6708e307`. It was subsequently merged into canonical main `cc335e607b8d0a8af4f2715b8a912056bceec274`. The historical handoff remains unchanged. Stage 05 repeats hosted QA; its branch remains separate pending HQ final audit.
