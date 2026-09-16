@@ -150,16 +150,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://docs.reducto.ai/",
+    "observed_correct_value": "official",
+    "first_pass_correct": "no",
+    "final_value": "official",
+    "final_correct": "yes",
+    "correction_reason": "The official Reducto documentation explicitly states that Reducto integrates into AI agent workflows via its MCP server, and links to an MCP Server page. The Quickstart also instructs developers to install `mcp-server-reducto` and lists the tools exposed by that server. Because this is documented directly in Reducto's own documentation, the MCP availability is official rather than merely community-provided.",
+    "notes": "The official Reducto documentation explicitly states that Reducto integrates into AI agent workflows via its MCP server, and links to an MCP Server page. The Quickstart also instructs developers to install `mcp-server-reducto` and lists the tools exposed by that server. Because this is documented directly in Reducto's own documentation, the MCP availability is official rather than merely community-provided.",
+    "review_reported_at": "2026-09-16T19:20:24+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied; report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/quickstart"
+    ]
   },
   {
     "item_id": "095:buildability",
@@ -176,16 +182,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://docs.reducto.ai/",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "no",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "notes": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "review_reported_at": "2026-09-16T19:20:24+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied; report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/quickstart"
+    ]
   },
   {
     "item_id": "094:primary_blocker",

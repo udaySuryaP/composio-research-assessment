@@ -60,13 +60,13 @@
       "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.": 1
     },
     "mcp_available": {
-      "unknown": 78,
-      "official": 21,
+      "unknown": 77,
+      "official": 22,
       "unclear": 1
     },
     "buildability": {
-      "unknown": 85,
-      "buildable": 15
+      "unknown": 84,
+      "buildable": 16
     }
   },
   "array_count_note": "Auth and API type are multi-label app counts; totals may exceed 100. API breadth remains original free text; no guessed breadth buckets.",
@@ -76,8 +76,8 @@
       "buildable": 1
     },
     "10. AI, Research and Media-native": {
-      "buildable": 2,
-      "unknown": 8
+      "buildable": 3,
+      "unknown": 7
     },
     "2. Support and Helpdesk": {
       "unknown": 8,

@@ -106,5 +106,123 @@
     "timestamp_basis": "Actual human report receipt/correction recording; source-inspection time not supplied",
     "review_item_id": "001:api_types",
     "evidence_note": "Human inspected sources and supplied paraphrased observations. No verbatim quote, automated page retrieval timestamp or content hash was supplied; those fields remain empty rather than fabricated."
+  },
+  {
+    "app_id": 95,
+    "app_name": "Reducto",
+    "field": "mcp_available",
+    "original_value": "unknown",
+    "corrected_value": "official",
+    "reason": "The official Reducto documentation explicitly states that Reducto integrates into AI agent workflows via its MCP server, and links to an MCP Server page. The Quickstart also instructs developers to install `mcp-server-reducto` and lists the tools exposed by that server. Because this is documented directly in Reducto's own documentation, the MCP availability is official rather than merely community-provided.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-095-mcp_available-1",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-mcp_available-2",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.reducto.ai/quickstart",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:20:24+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; source-inspection time not supplied",
+    "review_item_id": "095:mcp_available",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Exact inspection time, verbatim source quote and captured content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 95,
+    "app_name": "Reducto",
+    "field": "buildability",
+    "original_value": "unknown",
+    "corrected_value": "buildable",
+    "reason": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-095-buildability-1",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-buildability-2",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.reducto.ai/quickstart",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:20:24+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; source-inspection time not supplied",
+    "review_item_id": "095:buildability",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Exact inspection time, verbatim source quote and captured content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 95,
+    "app_name": "Reducto",
+    "field": "buildability_rationale",
+    "original_value": "unknown",
+    "corrected_value": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "reason": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-095-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+        "url": "https://docs.reducto.ai/quickstart",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:20:24+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; source-inspection time not supplied",
+    "review_item_id": "095:buildability",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Exact inspection time, verbatim source quote and captured content hash were not supplied and are not fabricated.",
+    "supporting_field_note": "Companion rationale transcribed from Uday buildability notes; not a separate scored sample claim."
   }
 ]

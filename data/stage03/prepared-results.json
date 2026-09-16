@@ -6516,11 +6516,11 @@
       "unknown"
     ],
     "api_breadth": "Reducto offers standalone API endpoints for document classification, parsing, extraction, splitting, editing, and workflow orchestration, with SDKs available in Python, Node.js, and Go. It supports file upload, document parsing, structured extraction, and chaining operations with job IDs for efficient processing.",
-    "mcp_available": "unknown",
+    "mcp_available": "official",
     "mcp_notes": "unknown",
-    "buildability": "unknown",
+    "buildability": "buildable",
     "primary_blocker": "unknown",
-    "buildability_rationale": "unknown",
+    "buildability_rationale": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
     "evidence": [
       {
         "evidence_id": "e3",
@@ -6545,13 +6545,88 @@
         "content_sha256": "29932d0d360d2aa2963afb4dffd8f7c8e6ae2fa68818202caa1600c4f146b350",
         "quote": "Each capability is available as a standalone API endpoint or composed into pipelines. Classify Route documents by type before processing. Define categories in natural language. Parse Convert documents into structured JSON with text, tables, and figures, with layout-aware chunking. Extract Pull specific fields into structured JSON using a schema. Define what you need, get exactly that. Split Divide documents into logical sections using natural language descriptions. Edit Fill PDF forms and modify DOCX files programmatically with natural language instructions. Pipelines Chain multiple steps into reusable, single-call workflows deployed from Studio. Supports 30+ file types including PDFs, images, spreadsheets, presentations, and scanned documents.",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-mcp_available-1",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-mcp_available-2",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.reducto.ai/quickstart",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-buildability-1",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-buildability-2",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.reducto.ai/quickstart",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-095-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+        "url": "https://docs.reducto.ai/quickstart",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: The official Reducto documentation explicitly states that Reducto integrates into AI agent workflows via its MCP server, and links to an MCP Server page. The Quickstart also instructs developers to install `mcp-server-reducto` and lists the tools exposed by that server. Because this is documented directly in Reducto's own documentation, the MCP availability is official rather than merely community-provided.",
+      "Stage03 correction: The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+      "Stage03 correction: The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable."
     ],
     "researched_at": "2026-09-16T17:25:46.430471+00:00",
     "run_id": "stage02-full-fallback-20260916"

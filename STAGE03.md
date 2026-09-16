@@ -62,3 +62,19 @@ Cumulative partial sample: first pass 1/4 (25%), final 4/4 (100%), +75 percentag
 These four claims cover two apps; 36/40 claims remain pending. Three field corrections
 across two apps. Neither entire app is marked human_audited. Final sample accuracy,
 verified dataset and product insights remain pending. Stage03 remains BLOCKED on review.
+
+## Actual human review update — Reducto
+
+Uday reported official MCP availability and buildable integration from Reducto docs
+and Quickstart. Both frozen unknown claims were judged incorrect. Corrected these
+fields and transcribed Uday's explicit buildability notes into the companion rationale
+with its own correction entry. Rationale is not an additional scored sample claim.
+No other Reducto fields were inferred or scored. No asserted absence of all possible
+gates: the report is limited to what the inspected sources establish.
+
+Cumulative partial sample: first pass 1/6 (16.67%), final 6/6 (100%), +83.33 percentage
+points. Three apps have human-reviewed claims; 34/40 claims remain pending. Six field
+corrections across three apps, including the supporting rationale. Source metadata and
+inspection timestamps are not invented; receipt timestamps are separately labeled.
+Whole records remain needs_verification; provisional metrics are regenerated but final
+patterns and Stage03 completion remain pending actual human review. BLOCKED.
