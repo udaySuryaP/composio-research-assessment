@@ -763,16 +763,24 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://apidocs.fan/api/basics",
+    "observed_correct_value": "self_serve",
+    "first_pass_correct": "no",
     "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "final_correct": "yes",
+    "correction_reason": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+    "notes": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+    "observed_source_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "reported_proposed_final_value": "self_serve",
+    "review_processing_status": "pending_schema_mapping",
+    "mapping_note": "Human reports self-service credential creation but does not establish free/trial/paid classification. self_serve is not an allowed canonical access_model enum. Preserve report verbatim; working dataset remains unknown and claim unscored pending mapping clarification.",
+    "review_reported_at": "2026-09-16T20:40:52+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
   },
   {
     "item_id": "050:api_available",
@@ -790,16 +798,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://apidocs.fan/api/basics",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "yes",
+    "final_value": "yes",
+    "final_correct": "yes",
     "correction_reason": null,
-    "notes": null
+    "notes": "fanbasis/Commas explicitly documents an inbound developer API. Requests are made to documented HTTP endpoints under https://www.fanbasis.com/public-api/ and authenticated with an x-api-key header. The documentation includes concrete GET and POST endpoints for products, checkout sessions, transactions, customers, subscriptions, invoices, refunds, webhooks, and related resources. This clearly establishes a developer-facing API rather than only outbound webhooks or marketing integrations.",
+    "observed_source_urls": [
+      "https://apidocs.fan/api/basics",
+      "https://www.fanbasis.com/public-api/"
+    ],
+    "review_reported_at": "2026-09-16T20:40:52+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
   },
   {
     "item_id": "052:api_types",

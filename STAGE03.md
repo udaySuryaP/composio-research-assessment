@@ -203,3 +203,20 @@ First pass 4/21 (19.05%), final 21/21 (100%), +80.95 percentage points on the sa
 unscored companion rationale corrections. Missing source-capture metadata and exact
 inspection times remain unasserted. Whole records remain needs_verification. Stage03
 remains BLOCKED pending remaining actual human review and final verification/patterns.
+
+## Actual human review update — fanbasis
+
+Uday confirmed api_available=yes from official fanbasis/Commas API documentation.
+Access was reported as self_serve with self-service dashboard API-key creation. The
+canonical schema only allows self_serve_free, self_serve_trial or self_serve_paid; the
+report does not establish a pricing tier. Preserved the actual observed/proposed value
+and human judgments verbatim in the worksheet, with final_value null and mapping status
+pending_schema_mapping. No free/trial/paid gate was invented. Working access_model stays
+unknown and this claim is not scored pending clarification. No correction entry added.
+
+24 human reports received across twelve apps; 22 scored, one unclear and one pending
+schema mapping. First pass 5/22 (22.73%), final 22/22 (100%), +77.27 percentage points
+on the same paired claims. Sixteen items have not been reviewed; 17 are pending in the
+score summary including the reported access item awaiting schema mapping. Twenty field
+corrections across ten apps remain, including three unscored supporting rationales.
+Stage03 remains BLOCKED pending mapping clarification, actual review and finalization.
