@@ -220,3 +220,7 @@ Stage02 runs or human history to improve displayed numbers. Stage03 is ready for
 audit with material coverage limitations. Stage04 may consume these files only after
 HQ acceptance and explicit authorization. No presentation, deployment, main merge or
 Notion modification is part of this work.
+
+## Stage04 standalone submission
+
+Open submission/composio-assessment-uday.html directly in a browser. See STAGE04.md for rebuild and validation commands. This is the governed case-study artifact; historical site files remain historical.
