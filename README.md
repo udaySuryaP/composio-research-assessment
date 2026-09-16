@@ -4,7 +4,7 @@ Stage 02 starts from accepted Stage 01 commit `74bd9f5d9511be8b3777d0a079f5aaf17
 on `stage02/research-agent-dataset`. It owns research and initial extraction only.
 `agent/schema.py` remains the canonical v1.0 contract. Stage 03 owns semantic verification,
 human checking and pattern analysis. No Stage 02 command builds, deploys or reviews the legacy UI.
-See `STAGE02.md` for exact observed execution results and the authenticated-catalog blocker.
+See `STAGE02.md` for the original fallback run and `STAGE02-CORRECTION.md` for the subsequent successful authenticated Composio correction. The original authentication blocker is resolved; findings remain unverified.
 The recorded complete fallback run is `stage02-full-fallback-20260916`.
 
 ## Prerequisites and installation
@@ -125,3 +125,9 @@ Existing `agent/pipeline.py`, `agent/review.py`, `agent/build.py`, top-level dat
 `site/` predate Stage 01 and are preserved. They are not Stage 02 outputs. Do not use
 legacy result counts or the deployed presentation as evidence that this new research
 run succeeded. `STAGE01.md` documents the accepted baseline and later-stage boundaries.
+
+## Pre-Stage 03 canonical state
+
+Stage 01 and corrected Stage 02 are the governed research baseline. Main also preserves earlier work, including `EXPLAIN.md` and the historical Pages publication at https://udaysuryap.github.io/composio-research-assessment/. That publication uses legacy artifacts and is not the verified submission. Pages publishing is manual until the later presentation/deployment stages; merging research must not republish it automatically.
+
+See `PRE-STAGE03-AUDIT.md` for coverage, checks and outstanding verification risks. Do not use legacy analytics or human worksheets as Stage 03 results.

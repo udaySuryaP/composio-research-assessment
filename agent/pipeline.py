@@ -243,6 +243,17 @@ def analyze():
         cat['access'][str(row['fields']['access']['value'])] += 1
         cat['buildability'][str(row['fields']['buildability']['value'])] += 1
     human = read('human-review.json', [])
+    row_lookup = {r['id']:r for r in rows}
+    for review in human:
+        if review.get('reviewer') or review.get('app_id') not in row_lookup:
+            continue
+        row = row_lookup[review['app_id']]
+        ids = row['fields'].get(review.get('field'),{}).get('source_ids',[])
+        matches = [d for d in row['documents'] if d['ok'] and (not ids or d['id'] in ids)]
+        if matches:
+            review['source_url'] = matches[0]['url']
+    if human:
+        write('human-review.json', human)
     accuracy = score_reviews(human)
     summary = {'total':len(rows),'expected':100,'missing_apps':100-len(read('apps.json',[])), 'counts':counts,'categories':cats,'human_accuracy':accuracy,'quote_grounded_fields':sum(f.get('status')=='quote-grounded' for r in rows for f in r['fields'].values()),'unknown_fields':sum(f['value']=='unknown' for r in rows for f in r['fields'].values()),'readable_documents':sum(d['ok'] for r in rows for d in r['documents']), 'generated_at':now()}
     write('summary.json', summary)
