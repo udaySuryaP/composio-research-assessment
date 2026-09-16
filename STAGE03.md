@@ -35,3 +35,16 @@ human worksheet. No Composio call or AI correction was needed for this preparati
 No Stage04, deployment, main merge, history rewrite or Notion writes occurred.
 Stage04 must wait for HQ acceptance and consume final verified outputs, never current
 prepared rows or provisional patterns. This is a partial Stage03 checkpoint.
+
+## Actual human review update — HubSpot
+
+Uday supplied two completed source judgments. Auth remains [oauth2]; access_model
+changes from self_serve_paid to admin_approval, limited to installation/authorization
+permissions. Broader HubSpot pricing and developer-plan eligibility remain unresolved.
+One human correction on one app. On these two paired claims only: first pass 1/2 (50%),
+final 2/2 (100%), +50 percentage points. This is partial progress, not final sample
+accuracy; 38/40 claims remain pending. Exact inspection time was not supplied and is
+not invented. The actual report receipt timestamp is recorded separately. Whole app
+status remains needs_verification because the other fields have not been audited.
+The blank review definition and sample selection remain fixed. Frozen Stage02 artifacts
+remain unchanged. Stage03 remains BLOCKED on remaining actual Uday source inspection.

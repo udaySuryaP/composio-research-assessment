@@ -40,7 +40,7 @@
     "auth_methods": [
       "oauth2"
     ],
-    "access_model": "self_serve_paid",
+    "access_model": "admin_approval",
     "api_available": "unknown",
     "api_types": [
       "rest"
@@ -123,13 +123,26 @@
         "content_sha256": "dd6bd07abbdfad85fb8e8fbdd79f94ac02bb24f2b53b901e2bfcbe50a1ebec9c",
         "quote": "Please note: Any app designed for installation by multiple HubSpot accounts or listing on the HubSpot Marketplace must use OAuth.",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-002-access",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+        "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:47.234848+00:00",
+        "content_sha256": "dd6bd07abbdfad85fb8e8fbdd79f94ac02bb24f2b53b901e2bfcbe50a1ebec9c",
+        "quote": "Users installing apps in their HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions.",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: This page does not establish that API access is paid. Instead, it explicitly states that users installing apps in a HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions. Therefore the first-pass value self_serve_paid is not supported by this source. The documented restriction is an account permission/admin requirement. This finding concerns permission to install/authorize the integration; the page does not by itself establish HubSpot's broader pricing or developer-plan requirements."
     ],
     "researched_at": "2026-09-16T17:16:11.883280+00:00",
     "run_id": "stage02-full-fallback-20260916"

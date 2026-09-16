@@ -14,8 +14,8 @@
     },
     "access_model": {
       "unknown": 52,
-      "self_serve_paid": 36,
-      "admin_approval": 1,
+      "admin_approval": 2,
+      "self_serve_paid": 35,
       "self_serve_free": 10,
       "self_serve_trial": 1
     },

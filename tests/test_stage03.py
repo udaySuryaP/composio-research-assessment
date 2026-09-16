@@ -6,7 +6,7 @@ class Stage03Tests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.apps,cls.rows=t.baseline()
-  cls.items=t.s.read(t.OUT/'human-review.json')
+  cls.items=t.s.read(t.OUT/'review-items.json')
  def test_sample_deterministic_and_category_coverage(self):
   selected=t.select_sample(self.apps)
   self.assertEqual(selected,t.select_sample(list(reversed(self.apps))))
@@ -75,3 +75,10 @@ class Stage03Tests(unittest.TestCase):
    for file,wanted in hashes.items():
     self.assertEqual(t.hashlib.sha256((t.s.ROOT/'data/runs'/run/file).read_bytes()).hexdigest(),wanted)
   self.assertEqual(t.s.read(t.OUT/'prepared-results.json'),t.apply_corrections(self.rows,t.s.read(t.OUT/'correction-log.json')))
+
+ def test_actual_human_report_receipt_time_without_invented_inspection_time(self):
+  a=self.complete();a['reviewed_at']=None;a['review_reported_at']='2026-09-16T19:15:23+00:00'
+  self.assertEqual(t.score([a],self.items)['scored_items'],1)
+ def test_recorded_reviews_and_summary_reconcile(self):
+  reviews=t.s.read(t.OUT/'human-review.json')
+  self.assertEqual(t.score(reviews,self.items),t.s.read(t.OUT/'human-review-summary.json'))

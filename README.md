@@ -169,3 +169,10 @@ final Stage 04 evidence. Free-text API breadth is not guessed into categorical b
 and any prepared change without a corresponding correction. Prior artifacts are immutable.
 Final metrics, verified-source coverage, semantic failure modes and approximately five
 supported product insights remain pending actual source verification and manual review.
+
+Human review updates preserve `review-items.json` as the blank predeclared definition.
+If Uday supplies judgments without an inspection time, `reviewed_at` stays null;
+`review_reported_at` records the actual report receipt time and is explicitly labeled.
+The scorer accepts either timestamp for a completed actual human report. This does not
+assert when Uday visited the page. `check` also reconciles human summary and provisional
+counts against recorded judgments and prepared rows.

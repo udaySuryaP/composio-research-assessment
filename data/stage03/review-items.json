@@ -17,22 +17,16 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
-    "reviewer": "Uday",
+    "reviewer": null,
     "reviewed_at": null,
-    "source_status": "usable",
-    "observed_source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
-    "observed_correct_value": [
-      "oauth2"
-    ],
-    "first_pass_correct": "yes",
-    "final_value": [
-      "oauth2"
-    ],
-    "final_correct": "yes",
+    "source_status": null,
+    "observed_source_url": null,
+    "observed_correct_value": null,
+    "first_pass_correct": null,
+    "final_value": null,
+    "final_correct": null,
     "correction_reason": null,
-    "notes": "The official HubSpot documentation explicitly states that OAuth uses authorization tokens to connect an app to a HubSpot account. Apps intended for installation by multiple HubSpot accounts or listing on the HubSpot Marketplace must use OAuth. The flow exchanges an authorization code using the app's client ID and client secret for an access token and refresh token, and the access token is then used to authenticate API calls. This page supports OAuth2 as an authentication method for HubSpot's developer API.",
-    "review_reported_at": "2026-09-16T19:15:23+00:00",
-    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report."
+    "notes": null
   },
   {
     "item_id": "002:access_model",
@@ -50,18 +44,16 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
-    "reviewer": "Uday",
+    "reviewer": null,
     "reviewed_at": null,
-    "source_status": "usable",
-    "observed_source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
-    "observed_correct_value": "admin_approval",
-    "first_pass_correct": "no",
-    "final_value": "admin_approval",
-    "final_correct": "yes",
-    "correction_reason": "This page does not establish that API access is paid. Instead, it explicitly states that users installing apps in a HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions. Therefore the first-pass value self_serve_paid is not supported by this source. The documented restriction is an account permission/admin requirement. This finding concerns permission to install/authorize the integration; the page does not by itself establish HubSpot's broader pricing or developer-plan requirements.",
-    "notes": "This page does not establish that API access is paid. Instead, it explicitly states that users installing apps in a HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions. Therefore the first-pass value self_serve_paid is not supported by this source. The documented restriction is an account permission/admin requirement. This finding concerns permission to install/authorize the integration; the page does not by itself establish HubSpot's broader pricing or developer-plan requirements.",
-    "review_reported_at": "2026-09-16T19:15:23+00:00",
-    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report."
+    "source_status": null,
+    "observed_source_url": null,
+    "observed_correct_value": null,
+    "first_pass_correct": null,
+    "final_value": null,
+    "final_correct": null,
+    "correction_reason": null,
+    "notes": null
   },
   {
     "item_id": "001:api_available",

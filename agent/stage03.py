@@ -55,14 +55,15 @@ def score(reviews, expected):
    if r.get(f)!=original[f]: raise ValueError('Review changed frozen item identity/value')
   if r.get('sample_kind')!='unbiased': continue
   if r.get('reviewer') and r.get('reviewer')!='Uday': continue
-  if r.get('reviewed_at'):
+  review_time=r.get('reviewed_at') or r.get('review_reported_at')
+  if review_time:
    try:
-    stamp=datetime.fromisoformat(r['reviewed_at'])
+    stamp=datetime.fromisoformat(review_time)
     if stamp.tzinfo is None: raise ValueError('Timestamp requires timezone')
    except (ValueError,TypeError): raise ValueError('Invalid review timestamp')
   if r.get('first_pass_correct')=='unclear' or r.get('final_correct')=='unclear' or r.get('source_status') in ('inaccessible','ambiguous','outdated','unclear'):
    unclear+=1; continue
-  if not (r.get('reviewer')=='Uday' and r.get('reviewed_at') and r.get('source_status')=='usable' and r.get('observed_source_url') and r.get('notes') and r.get('observed_correct_value') is not None and r.get('final_value') is not None): continue
+  if not (r.get('reviewer')=='Uday' and review_time and r.get('source_status')=='usable' and r.get('observed_source_url') and r.get('notes') and r.get('observed_correct_value') is not None and r.get('final_value') is not None): continue
   if r.get('first_pass_correct') not in ('yes','no') or r.get('final_correct') not in ('yes','no'): continue
   if r['final_value'] != r['observed_correct_value']: raise ValueError('Final value must match observed value before scoring')
   if r['final_correct']!='yes': raise ValueError('Final judgment contradicts observed value')
@@ -151,5 +152,9 @@ def main():
   prepared=s.read(OUT/'prepared-results.json')
   if prepared!=apply_corrections(rows,s.read(OUT/'correction-log.json')): raise ValueError('Silent prepared-result mutation')
   if len(prepared)!=100: raise ValueError('Identity count')
+  reviews=s.read(OUT/'human-review.json')
+  definitions=s.read(OUT/'review-items.json')
+  if score(reviews,definitions)!=s.read(OUT/'human-review-summary.json'): raise ValueError('Human summary differs from recorded judgments')
+  if provisional_patterns(prepared)!=s.read(OUT/'provisional-patterns.json'): raise ValueError('Provisional counts differ from working dataset')
   print('All four freezes, 100 identities, correction audit and prepared dataset verified')
 if __name__=='__main__': main()

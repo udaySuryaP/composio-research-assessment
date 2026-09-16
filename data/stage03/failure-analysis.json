@@ -1,5 +1,5 @@
 {
-  "status": "pre_human_review",
+  "status": "partial_human_review",
   "observations": [
     {
       "pattern": "Extraction hard failure",
@@ -5040,5 +5040,20 @@
       "mitigation": "Targeted challenge review; flags alone are not semantic errors."
     }
   ],
-  "semantic_failure_modes": []
+  "semantic_failure_modes": [
+    {
+      "pattern": "Installation permission requirement misclassified as paid API access",
+      "examples": [
+        {
+          "app_id": 2,
+          "field": "access_model",
+          "first_pass": "self_serve_paid",
+          "corrected": "admin_approval"
+        }
+      ],
+      "detection": "Actual Uday review of official HubSpot source",
+      "mitigation": "Record installation/admin requirement; broader pricing remains unresolved",
+      "source": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    }
+  ]
 }
