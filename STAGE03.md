@@ -95,3 +95,18 @@ Eight field corrections across four apps, including the unscored Reducto support
 rationale. Exact inspection time and source-capture metadata were not fabricated.
 Whole records remain needs_verification. Stage03 remains BLOCKED on human review;
 final verified dataset, final sample accuracy and product insights are still pending.
+
+## Actual human review update — Front
+
+Uday reported access_model=admin_approval and api_available=yes, both first-pass unknown
+claims judged incorrect. Preserved the account-level token/OAuth administrator requirement,
+the teammate-accessible user-scoped MCP exception, public-integration OAuth requirement,
+and the lack of established paid/sales gating for ordinary Core API in inspected sources.
+Only these two reviewed fields changed; MCP/auth values were not inferred or scored.
+
+Cumulative partial sample: first pass 1/10 (10%), final 10/10 (100%), +90 percentage
+points across the same ten claims covering five apps. 30/40 claims remain pending.
+Ten field corrections across five apps, including the unscored supporting Reducto rationale.
+Source inspection times and captured quote/hash metadata remain unasserted where not supplied.
+Whole records remain needs_verification. Stage03 remains BLOCKED pending human review,
+with final verified data, final patterns and whole-sample conclusions still withheld.

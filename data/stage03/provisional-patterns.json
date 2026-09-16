@@ -13,15 +13,15 @@
       "digest": 1
     },
     "access_model": {
-      "unknown": 52,
-      "admin_approval": 2,
+      "unknown": 51,
+      "admin_approval": 3,
       "self_serve_paid": 35,
       "self_serve_free": 10,
       "self_serve_trial": 1
     },
     "api_available": {
-      "yes": 43,
-      "unknown": 56,
+      "yes": 44,
+      "unknown": 55,
       "no": 1
     },
     "api_types": {

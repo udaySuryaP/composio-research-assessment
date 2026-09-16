@@ -1088,8 +1088,8 @@
     "auth_methods": [
       "unknown"
     ],
-    "access_model": "unknown",
-    "api_available": "unknown",
+    "access_model": "admin_approval",
+    "api_available": "yes",
     "api_types": [
       "rest"
     ],
@@ -1111,13 +1111,75 @@
         "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
         "quote": "See the `Authorization` header in the example request below. ```curl curl --request GET \\ --url https://api2.frontapp.com/conversations/cnv_123/drafts --header 'Authorization: Bearer [REQUEST_TOKEN]' ```",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-access_model-1",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "final_url": "https://dev.frontapp.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-access_model-2",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+        "final_url": "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-access_model-3",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://dev.frontapp.com/docs/oauth",
+        "final_url": "https://dev.frontapp.com/docs/oauth",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "final_url": "https://dev.frontapp.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://dev.frontapp.com/docs/core-api-getting-started",
+        "final_url": "https://dev.frontapp.com/docs/core-api-getting-started",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: Front provides a self-service developer path, but using account-level API credentials is permission-gated. The official API-token documentation states that a user must be an admin to create or manage API tokens. The OAuth documentation also states that end users authorizing OAuth apps must be admins, except for Front's MCP server, which uses user-scoped tokens and can be authorized by any teammate. Public integrations must use OAuth unless Front grants an exception. The inspected sources do not establish a paid-plan or sales gate for ordinary Core API access, so the access model is best classified as admin_approval rather than self_serve_paid or sales_gated.",
+      "Stage03 correction: Front explicitly exposes a Core API for external integrations. The official documentation shows authenticated requests to https://api2.frontapp.com/, including creating and updating Front resources, and states that API tokens can be used for integrations or scripts that make programmatic updates through the API. This directly establishes an inbound developer API."
     ],
     "researched_at": "2026-09-16T17:17:03.303209+00:00",
     "run_id": "stage02-full-fallback-20260916"

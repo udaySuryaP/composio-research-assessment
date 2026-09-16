@@ -307,5 +307,95 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "094:auth_methods",
     "evidence_note": "Actual Uday inspection with paraphrased source observations; no verbatim source quote, automated retrieval timestamp or captured text hash supplied. These metadata fields remain empty."
+  },
+  {
+    "app_id": 14,
+    "app_name": "Front",
+    "field": "access_model",
+    "original_value": "unknown",
+    "corrected_value": "admin_approval",
+    "reason": "Front provides a self-service developer path, but using account-level API credentials is permission-gated. The official API-token documentation states that a user must be an admin to create or manage API tokens. The OAuth documentation also states that end users authorizing OAuth apps must be admins, except for Front's MCP server, which uses user-scoped tokens and can be authorized by any teammate. Public integrations must use OAuth unless Front grants an exception. The inspected sources do not establish a paid-plan or sales gate for ordinary Core API access, so the access model is best classified as admin_approval rather than self_serve_paid or sales_gated.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-014-access_model-1",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "final_url": "https://dev.frontapp.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-access_model-2",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+        "final_url": "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-access_model-3",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://dev.frontapp.com/docs/oauth",
+        "final_url": "https://dev.frontapp.com/docs/oauth",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:32:32+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "014:access_model",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations; no verbatim quote, automated retrieval timestamp or captured text hash supplied. Missing metadata remains empty."
+  },
+  {
+    "app_id": 14,
+    "app_name": "Front",
+    "field": "api_available",
+    "original_value": "unknown",
+    "corrected_value": "yes",
+    "reason": "Front explicitly exposes a Core API for external integrations. The official documentation shows authenticated requests to https://api2.frontapp.com/, including creating and updating Front resources, and states that API tokens can be used for integrations or scripts that make programmatic updates through the API. This directly establishes an inbound developer API.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-014-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://dev.frontapp.com/docs/authentication",
+        "final_url": "https://dev.frontapp.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-014-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://dev.frontapp.com/docs/core-api-getting-started",
+        "final_url": "https://dev.frontapp.com/docs/core-api-getting-started",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:32:32+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "014:api_available",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations; no verbatim quote, automated retrieval timestamp or captured text hash supplied. Missing metadata remains empty."
   }
 ]
