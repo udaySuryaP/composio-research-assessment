@@ -13,16 +13,29 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m unittest discover -s tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install -r requirements-stage02.txt
+      - run: python -B -m unittest discover -s tests -v
+      - run: python -B -m agent.stage02 verify-freeze --run-id stage02-full-fallback-20260916
+      - run: python -B -m agent.stage03_finalize check
+      - run: python -B -m agent.stage03 check
+      - run: python -B -m agent.stage04 check
+      - run: node submission/check-interactions.cjs
+      - run: python -B -m agent.stage03_security
+      - run: python -B -m agent.stage05 publish "${{ runner.temp }}/stage05-pages"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ${{ runner.temp }}/stage05-pages
       - id: deployment
         uses: actions/deploy-pages@v4
