@@ -220,3 +220,16 @@ on the same paired claims. Sixteen items have not been reviewed; 17 are pending 
 score summary including the reported access item awaiting schema mapping. Twenty field
 corrections across ten apps remain, including three unscored supporting rationales.
 Stage03 remains BLOCKED pending mapping clarification, actual review and finalization.
+
+## Actual human clarification — fanbasis access
+
+Uday clarified access_model=unknown, first-pass correctness=unclear and final correctness
+=unclear. Official docs establish dashboard self-service credential creation but not free,
+trial or paid API eligibility. Preserved previous self_serve report in review_history.
+The mapping question is resolved as completed_unclear, not a pending review. No dataset
+change or correction entry needed; access stays unknown. Excluded from paired scoring.
+
+24 review items completed across twelve apps: 22 scored, two unclear/unscored, 16 pending.
+First pass 5/22 (22.73%), final 22/22 (100%) on the same scored claims. No pending schema
+mapping remains. Frozen artifacts and sample selection unchanged; final patterns withheld.
+Stage03 remains BLOCKED pending the remaining 16 actual human review items and finalization.

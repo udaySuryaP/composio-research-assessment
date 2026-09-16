@@ -765,22 +765,56 @@
     "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
     "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": "usable",
+    "source_status": "unclear",
     "observed_source_url": "https://apidocs.fan/api/basics",
-    "observed_correct_value": "self_serve",
-    "first_pass_correct": "no",
-    "final_value": null,
-    "final_correct": "yes",
-    "correction_reason": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
-    "notes": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+    "observed_correct_value": "unknown",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
+    "correction_reason": null,
+    "notes": "The documentation establishes self-service API-key creation from Account → API Keys and does not show a partner, sales, or manual approval gate. However, the inspected source does not state whether API access is available on a free plan, trial plan, or paid plan. Because the schema requires one of self_serve_free, self_serve_trial, or self_serve_paid, the pricing tier cannot be classified from the available evidence and should remain unknown.",
     "observed_source_urls": [
       "https://apidocs.fan/api/basics"
     ],
-    "reported_proposed_final_value": "self_serve",
-    "review_processing_status": "pending_schema_mapping",
-    "mapping_note": "Human reports self-service credential creation but does not establish free/trial/paid classification. self_serve is not an allowed canonical access_model enum. Preserve report verbatim; working dataset remains unknown and claim unscored pending mapping clarification.",
-    "review_reported_at": "2026-09-16T20:40:52+00:00",
-    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
+    "reported_proposed_final_value": "unknown",
+    "review_processing_status": "completed_unclear",
+    "review_reported_at": "2026-09-16T20:42:49+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual clarification receipt time recorded separately.",
+    "review_history": [
+      {
+        "item_id": "050:access_model",
+        "sample_kind": "unbiased",
+        "app_id": 50,
+        "app_name": "fanbasis",
+        "category": "5. Ecommerce",
+        "field": "access_model",
+        "first_pass_value": "unknown",
+        "first_pass_evidence_urls": [],
+        "official_source_candidates": [
+          "https://fanbasis.com/"
+        ],
+        "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+        "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+        "reviewer": "Uday",
+        "reviewed_at": null,
+        "source_status": "usable",
+        "observed_source_url": "https://apidocs.fan/api/basics",
+        "observed_correct_value": "self_serve",
+        "first_pass_correct": "no",
+        "final_value": null,
+        "final_correct": "yes",
+        "correction_reason": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+        "notes": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+        "observed_source_urls": [
+          "https://apidocs.fan/api/basics"
+        ],
+        "reported_proposed_final_value": "self_serve",
+        "review_processing_status": "pending_schema_mapping",
+        "mapping_note": "Human reports self-service credential creation but does not establish free/trial/paid classification. self_serve is not an allowed canonical access_model enum. Preserve report verbatim; working dataset remains unknown and claim unscored pending mapping clarification.",
+        "review_reported_at": "2026-09-16T20:40:52+00:00",
+        "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
+      }
+    ]
   },
   {
     "item_id": "050:api_available",
