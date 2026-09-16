@@ -3,13 +3,14 @@
 Baseline locked; Stage 02 execution is not authorized by this document.
 Inspected 2026-09-16: main, 91faa5c8fb76680b37d82956ae14b1ee0456b461,
 clean working tree. Origin: https://github.com/udaySuryaP/composio-research-assessment.git.
-Stage branch: stage01/baseline-architecture. No push or deployment.
+Stage branch: stage01/baseline-architecture. Original Stage 01 made no push or deployment.
 
 ## Requirements and existing work
 
-The Stage 01 prompt is available; the original assessment brief is not separately
-attached. These requirements use its summary. HQ must reconcile the original brief
-and app list before accepting final coverage. The repo already contains a stdlib
+The Stage 01 prompt is available. HQ correction order confirms the original
+assessment requirements listed below; this correction reconciles that confirmed
+list with the prompt. Exact supplied app identities remain a Stage 02 input check.
+The repo already contains a stdlib
 Python pipeline, optional AI/Composio adapter, review rules, 100 input/output rows,
 human worksheet, static report, portable HTML, five tests and Pages workflow.
 All predate Stage 01 and are preserved, not certified here. No package.json,
@@ -20,7 +21,10 @@ Acceptance criteria: exact assigned 100 identities/categories; description, auth
 self-serve/gated access, API types/breadth, MCP, feasibility/blocker and field evidence;
 bounded agent/script execution rather than 100 manual investigations; official docs
 first; honest failed retrievals/unknowns; immutable first pass, verified output and
-field diffs; meaningful verification and attributed human sample; computed patterns;
+field diffs; meaningful verification and attributed manual cross-check sample;
+explicit hits and misses with supporting evidence; measured first-pass to verified
+accuracy improvement on the same scored sample (report unchanged/worse results
+honestly if observed); computed cross-dataset/category patterns;
 self-explanatory single HTML case study/slideshow; later verified live deployment,
 source repo and reproducible README; Uday can explain it; no secrets in Git/client UI.
 Composio is encouraged, not mandatory. Accuracy/transparency are quality gates.
@@ -43,10 +47,17 @@ First pass must be real extraction, not a keyword baseline relabelled as LLM out
 Python composio==0.21.1, current stable PyPI release. Sessions are the current default
 for agents dynamically choosing tools; supported direct SDK execution is smaller for
 this known-tool batch. No provider plugin needed. COMPOSIO_API_KEY authenticates the
-project; stable COMPOSIO_USER_ID scopes calls. composio_search offers web discovery
-without separate app connections/search-provider keys. Plan COMPOSIO_SEARCH_TAVILY;
-Stage 02 first retrieves its live input schema and dated toolkit version, pins that
-version and records it. Never guess parameters or treat search snippets as evidence:
+project; stable COMPOSIO_USER_ID scopes calls. Composio is planned for legitimate
+research-source discovery. Before choosing or executing a search action, Stage 02
+must inspect the live Composio catalog, selected toolkit/action input schema and
+current SDK execution/auth requirements. Choose between the composio_search toolkit
+and its current search actions, or a Tavily-specific route such as
+COMPOSIO_SEARCH_TAVILY, based on that inspection. Confirm whether the selected
+route needs an auth config, connected account or separate Tavily/provider credential;
+do not assert that a separate Tavily credential is unnecessary before inspection.
+Record the selected toolkit/action, schema, credential requirements and dated
+toolkit version, then pin the version. Never guess parameters or treat search
+snippets as evidence:
 fetch discovered official pages. This fills actual source gaps, not cosmetic SDK use.
 No browser toolkit required; JS-only failures remain unknown pending targeted retrieval.
 MCP is available via sessions but not planned: extra transport adds no batch value.
@@ -117,11 +128,16 @@ Stage 01 produces no human scores or accuracy percentages.
 OPENAI_API_KEY required for model mode; COMPOSIO_API_KEY for SDK discovery.
 OPENAI_MODEL and COMPOSIO_USER_ID are nonsecret config. .env.example documents names;
 .env and .env.* are ignored. Populate locally and export into the process: the existing
-script does not auto-load .env. Never paste keys in chat. Offline tests/report reading
+script does not auto-load .env. Never paste keys in chat.
+Any additional search-provider credential/config names
+must be documented in Stage 02 after selected live toolkit inspection.
+Offline tests/report reading
 need no keys. No Vercel credential is required in Stage 01.
 
-Stage 02: reconcile original brief/app identities; install pinned optional SDK with
-approval; live search schema/version and strict extraction smoke test on 3-5 apps in
+Stage 02: confirm assigned app identities against the original brief; install pinned
+optional SDK with
+approval; inspect live search catalog/schema/auth, select and pin the route as above;
+strict extraction smoke test on 3-5 apps in
 an isolated run; wire discovery/retrieval/extraction to canonical contract; implement
 local validators, provenance, bounded retry/spend and immutable snapshots; then execute
 authorized 100-app generation. Do not build final UI or claim accuracy.
@@ -145,3 +161,13 @@ data/raw contents are ignored; only .env.example is tracked among .env files.
 No SDK install, API smoke test, collection, analytics regeneration, UI build, push,
 deployment or Notion mutation. Contract tests are not full runtime schema validation;
 local cross-field/URL/source/semantic validation is explicitly Stage 02/03 work.
+
+## HQ correction scope (2026-09-16)
+
+Fetched remote refs and verified the common ancestor 91faa5c8fb76680b37d82956ae14b1ee0456b461.
+The original Stage HEAD b2dcf173b74024554b1d4a1b7289867bfb5573a7 and remote-main
+commit c157a305dc9dd7d7af535c0a93d775bda87e73ff are divergent children of that base.
+Preserve the HQ Stage line; documentation-only correction and ordinary Stage branch
+push are authorized. Remote-main work remains preserved and non-canonical for this
+workflow. No merge, rebase, cherry-pick, force push or later-stage execution is allowed.
+Original offline-check notes above describe Stage 01 before this correction.

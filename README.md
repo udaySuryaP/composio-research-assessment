@@ -12,6 +12,10 @@ check: `python -B -m unittest discover -s tests -v`.
 Python 3.10+; optional SDK dependency is pinned in `requirements-composio.txt`.
 Real keys belong in local shell variables (or a locally populated ignored `.env`
 explicitly exported into the process); the script does not auto-load `.env`.
+Stage 02 must inspect the live Composio catalog/schema and auth requirements before
+selecting current `composio_search` actions or a Tavily-specific route such as
+`COMPOSIO_SEARCH_TAVILY`. A separate Tavily credential cannot be ruled out until
+the selected live toolkit is inspected; record and pin the selected route/version.
 No live Composio/model call is claimed here. The following describes pre-existing
 implementation; STAGE01.md takes precedence for future stage contracts.
 
