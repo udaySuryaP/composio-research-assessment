@@ -60,8 +60,8 @@
       "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.": 1
     },
     "mcp_available": {
-      "unknown": 77,
-      "official": 22,
+      "unknown": 76,
+      "official": 23,
       "unclear": 1
     },
     "buildability": {

@@ -1,14 +1,14 @@
 {
-  "scored_items": 17,
-  "first_pass_correct": 3,
-  "first_pass_denominator": 17,
-  "final_correct": 17,
-  "final_denominator": 17,
-  "first_pass_accuracy": 0.17647058823529413,
+  "scored_items": 19,
+  "first_pass_correct": 4,
+  "first_pass_denominator": 19,
+  "final_correct": 19,
+  "final_denominator": 19,
+  "first_pass_accuracy": 0.21052631578947367,
   "final_accuracy": 1.0,
-  "absolute_improvement": 0.8235294117647058,
+  "absolute_improvement": 0.7894736842105263,
   "unclear_unscored": 1,
-  "pending_items": 22,
-  "human_reviewed_apps": 9,
+  "pending_items": 20,
+  "human_reviewed_apps": 10,
   "limitation": "Only actual Uday judgments on the same unbiased paired claims are scored; no whole-dataset accuracy inference."
 }

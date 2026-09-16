@@ -621,16 +621,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developer.systeme.io/reference/api",
+    "observed_correct_value": "official",
+    "first_pass_correct": "no",
+    "final_value": "official",
+    "final_correct": "yes",
+    "correction_reason": "Systeme.io officially documents and operates its own MCP server. The documentation explicitly describes “our MCP server,” requires an MCP key generated from the Systeme.io dashboard, documents authentication through X-MCP-Key or mcpKey, and lists supported contact, tag, contact-field, and newsletter operations. The MCP server is therefore official rather than community-published.",
+    "notes": "Systeme.io officially documents and operates its own MCP server. The documentation explicitly describes “our MCP server,” requires an MCP key generated from the Systeme.io dashboard, documents authentication through X-MCP-Key or mcpKey, and lists supported contact, tag, contact-field, and newsletter operations. The MCP server is therefore official rather than community-published.",
+    "review_reported_at": "2026-09-16T20:26:58+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developer.systeme.io/reference/api",
+      "https://developer.systeme.io/llms.txt"
+    ]
   },
   {
     "item_id": "037:buildability",
@@ -649,16 +655,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developer.systeme.io/reference/api",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "yes",
+    "final_value": "buildable",
+    "final_correct": "yes",
     "correction_reason": null,
-    "notes": null
+    "notes": "Systeme.io provides a self-service Public API with documented RESTful endpoints and examples. Developers can generate a Public API key directly from the Systeme.io dashboard and authenticate requests using the X-API-Key header. The API supports programmatic operations such as contact and tag management, cursor-based pagination, PATCH updates, and documented POST/GET examples. No partner, sales, or manual approval gate is established in the inspected documentation for ordinary API access. This supports the existing buildable classification.",
+    "review_reported_at": "2026-09-16T20:26:58+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developer.systeme.io/reference/api",
+      "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them"
+    ]
   },
   {
     "item_id": "041:primary_blocker",

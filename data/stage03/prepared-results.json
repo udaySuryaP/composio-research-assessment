@@ -2856,11 +2856,11 @@
       "rest"
     ],
     "api_breadth": "unknown",
-    "mcp_available": "unknown",
+    "mcp_available": "official",
     "mcp_notes": "unknown",
     "buildability": "buildable",
     "primary_blocker": "unknown",
-    "buildability_rationale": "unknown",
+    "buildability_rationale": "Systeme.io provides a self-service Public API with documented RESTful endpoints and examples. Developers can generate a Public API key directly from the Systeme.io dashboard and authenticate requests using the X-API-Key header. The API supports programmatic operations such as contact and tag management, cursor-based pagination, PATCH updates, and documented POST/GET examples. No partner, sales, or manual approval gate is established in the inspected documentation for ordinary API access. This supports the existing buildable classification.",
     "evidence": [
       {
         "evidence_id": "e1",
@@ -2921,13 +2921,63 @@
         "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
         "quote": "Now you know what recipes are, why they are needed, and how to perform and test them yourself.",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-037-mcp_available-1",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.systeme.io/reference/api",
+        "final_url": "https://developer.systeme.io/reference/api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-037-mcp_available-2",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.systeme.io/llms.txt",
+        "final_url": "https://developer.systeme.io/llms.txt",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-037-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "Systeme.io provides a self-service Public API with documented RESTful endpoints and examples. Developers can generate a Public API key directly from the Systeme.io dashboard and authenticate requests using the X-API-Key header. The API supports programmatic operations such as contact and tag management, cursor-based pagination, PATCH updates, and documented POST/GET examples. No partner, sales, or manual approval gate is established in the inspected documentation for ordinary API access. This supports the existing buildable classification.",
+        "url": "https://developer.systeme.io/reference/api",
+        "final_url": "https://developer.systeme.io/reference/api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-037-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "Systeme.io provides a self-service Public API with documented RESTful endpoints and examples. Developers can generate a Public API key directly from the Systeme.io dashboard and authenticate requests using the X-API-Key header. The API supports programmatic operations such as contact and tag management, cursor-based pagination, PATCH updates, and documented POST/GET examples. No partner, sales, or manual approval gate is established in the inspected documentation for ordinary API access. This supports the existing buildable classification.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: Systeme.io officially documents and operates its own MCP server. The documentation explicitly describes “our MCP server,” requires an MCP key generated from the Systeme.io dashboard, documents authentication through X-MCP-Key or mcpKey, and lists supported contact, tag, contact-field, and newsletter operations. The MCP server is therefore official rather than community-published.",
+      "Stage03 correction: Systeme.io provides a self-service Public API with documented RESTful endpoints and examples. Developers can generate a Public API key directly from the Systeme.io dashboard and authenticate requests using the X-API-Key header. The API supports programmatic operations such as contact and tag management, cursor-based pagination, PATCH updates, and documented POST/GET examples. No partner, sales, or manual approval gate is established in the inspected documentation for ordinary API access. This supports the existing buildable classification."
     ],
     "researched_at": "2026-09-16T17:19:25.883164+00:00",
     "run_id": "stage02-full-fallback-20260916"

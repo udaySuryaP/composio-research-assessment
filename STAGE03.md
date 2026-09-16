@@ -172,3 +172,18 @@ First pass 3/17 (17.65%), final 17/17 (100%), +82.35 percentage points on the sa
 unscored supporting rationale corrections. Exact inspection times and missing capture
 metadata remain unasserted. Whole records remain needs_verification. Stage03 remains
 BLOCKED pending remaining actual manual review and final verification/pattern analysis.
+
+## Actual human review update — systeme.io
+
+Uday corrected mcp_available from unknown to official and confirmed buildability=buildable.
+Recorded official MCP ownership, dashboard key generation and MCP key authentication notes.
+Filled the missing companion buildability rationale from Uday's explicit notes with a separate
+correction entry; it is not an extra scored claim. Public API and MCP key distinctions are
+retained in notes. No additional auth/access/API fields were inferred or changed.
+
+Cumulative partial review: 20 items across ten apps, 19 scored and one unclear/unscored.
+First pass 4/19 (21.05%), final 19/19 (100%), +78.95 percentage points on the same claims.
+20/40 items remain pending. Eighteen field corrections across nine apps, including three
+unscored supporting rationale corrections. Missing exact inspection times/capture metadata
+remain unasserted. Whole records remain needs_verification. Stage03 remains BLOCKED on
+remaining actual human review and final source verification/pattern analysis.
