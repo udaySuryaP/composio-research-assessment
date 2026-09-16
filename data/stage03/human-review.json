@@ -352,16 +352,25 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which API protocols are explicitly documented for this product?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.freshdesk.com/api/",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
     "correction_reason": null,
-    "notes": null
+    "notes": "The official Freshdesk API documentation establishes a REST-style HTTP API under /api/v2/ resources, including endpoints such as /api/v2/tickets and /api/v2/contacts. No additional API protocol type is established by the inspected source.",
+    "observed_source_urls": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "review_reported_at": "2026-09-16T19:41:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
   },
   {
     "item_id": "013:mcp_available",
@@ -377,16 +386,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://developers.freshworks.com/docs/?tab=products",
+    "observed_correct_value": "unclear",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
     "correction_reason": null,
-    "notes": null
+    "notes": "I inspected the official Freshworks/Freshdesk developer documentation and did not find any mention of MCP or Model Context Protocol. The official developer index lists Freshdesk App SDK, REST APIs, and Widget APIs, but no MCP integration was documented in the sources I reviewed. Because absence from these inspected pages does not prove that Freshdesk has no MCP server elsewhere, the claim remains unresolved rather than being marked \"no\".",
+    "observed_source_urls": [
+      "https://developers.freshworks.com/docs/?tab=products",
+      "https://developers.freshdesk.com/api/"
+    ],
+    "review_reported_at": "2026-09-16T19:41:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
   },
   {
     "item_id": "022:buildability",

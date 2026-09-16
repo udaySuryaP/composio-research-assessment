@@ -110,3 +110,18 @@ Ten field corrections across five apps, including the unscored supporting Reduct
 Source inspection times and captured quote/hash metadata remain unasserted where not supplied.
 Whole records remain needs_verification. Stage03 remains BLOCKED pending human review,
 with final verified data, final patterns and whole-sample conclusions still withheld.
+
+## Actual human review update — Freshdesk
+
+Uday confirmed api_types=[rest], first-pass and final correct. MCP review is explicitly
+unclear/unscored: inspected official developer sources did not document MCP, but this
+is not evidence of absence elsewhere. Final mcp_available remains unknown. Both sets
+of source URLs and actual human notes are retained. No field changed and no correction
+entry was created. Unresolved human review is recorded without claiming a negative.
+
+Cumulative partial sample: 12 actual reviewed claims across six apps, 11 scored and
+one unclear/unscored. First pass 2/11 (18.18%), final 11/11 (100%), +81.82 percentage
+points on the same 11 claims. 28/40 items remain pending. Ten field corrections across
+five apps remain, including the unscored Reducto companion rationale. Whole records
+remain needs_verification. Stage03 remains BLOCKED pending further human review;
+final dataset, final patterns and whole-sample conclusions are not yet complete.
