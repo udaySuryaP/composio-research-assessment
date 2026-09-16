@@ -1,0 +1,340 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 96,
+    "app_name": "Devin",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://docs.devin.ai/api-reference/overview",
+    "description": "The Devin API enables programmatic interaction with Devin for integration, workflow automation, and tool building. It supports role-based access control with service users for secure, auditable API access. The API is organized into Organization and Enterprise scopes for managing resources within single or multiple organizations respectively. Legacy v1 and v2 APIs exist but are deprecated. The Devin MCP server provides programmatic access to Devin's platform capabilities including session management, playbooks, knowledge, scheduling, and repository documentation, supporting both public and private repositories.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Both scopes use service user credentials ( cog_ prefix). See Authentication for setup.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "Both scopes use service user credentials ( cog_ prefix). See Authentication for setup.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Most customers should start with the Teams quick start. Choose Enterprise if you manage multiple organizations, use SSO, or need custom roles and RBAC.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "Most customers should start with the Teams quick start. Choose Enterprise if you manage multiple organizations, use SSO, or need custom roles and RBAC.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Learn how to programmatically interact with Devin using our REST APIs",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "Learn how to programmatically interact with Devin using our REST APIs",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories.",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:33.769066+00:00",
+        "content_sha256": "ff4ded7577a93825d2f7d524fc3b848df47c4d294f7dc2823deca0ca199e9533",
+        "quote": "The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability",
+        "claim": "The API is well documented with REST endpoints, supports bearer token authentication via service users or personal access tokens, and provides comprehensive platform management capabilities. The official MCP server is available with authentication and detailed usage instructions, enabling integration and automation.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:25:54.079864+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 96,
+    "app_name": "Devin",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://docs.devin.ai/api-reference/overview",
+    "description": "The Devin API enables programmatic interaction with Devin for integration, workflow automation, and tool building. It supports role-based access control with service users for secure, auditable API access. The API is organized into Organization and Enterprise scopes for managing resources within single or multiple organizations respectively. Legacy v1 and v2 APIs exist but are deprecated. The Devin MCP server provides programmatic access to Devin's platform capabilities including session management, playbooks, knowledge, scheduling, and repository documentation, supporting both public and private repositories.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers session management, knowledge management, playbooks, secrets, analytics, audit logs, user management, billing, infrastructure, and more, with both organization and enterprise scopes.",
+    "mcp_available": "official",
+    "mcp_notes": "The Devin MCP server is an authenticated service providing access to public and private repositories and full platform management capabilities including sessions, playbooks, knowledge, schedules, and integrations. It requires a Devin API key and supports service user keys and personal access tokens with appropriate headers. It uses Streamable HTTP protocol and replaces a deprecated SSE endpoint.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with REST endpoints, supports bearer token authentication via service users or personal access tokens, and provides comprehensive platform management capabilities. The official MCP server is available with authentication and detailed usage instructions, enabling integration and automation.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Both scopes use service user credentials ( cog_ prefix). See Authentication for setup.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "Both scopes use service user credentials ( cog_ prefix). See Authentication for setup.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Most customers should start with the Teams quick start. Choose Enterprise if you manage multiple organizations, use SSO, or need custom roles and RBAC.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "Most customers should start with the Teams quick start. Choose Enterprise if you manage multiple organizations, use SSO, or need custom roles and RBAC.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Learn how to programmatically interact with Devin using our REST APIs",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "Learn how to programmatically interact with Devin using our REST APIs",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Devin API is organized into two scopes: Organization API and Enterprise API, both accessible via REST endpoints.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "The API is organized into two scopes: Organization API Base URL: https://api.devin.ai/v3/organizations/* ... Enterprise API Base URL: https://api.devin.ai/v3/enterprise/*",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers session management, knowledge management, playbooks, secrets, analytics, audit logs, user management, billing, infrastructure, and more, with both organization and enterprise scopes.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "The API is organized into two scopes: Organization API ... For managing resources within a single organization — sessions, knowledge, playbooks, secrets, and more. ... Enterprise API ... For cross-organization management — analytics, audit logs, user management, billing, and infrastructure.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories.",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:33.769066+00:00",
+        "content_sha256": "ff4ded7577a93825d2f7d524fc3b848df47c4d294f7dc2823deca0ca199e9533",
+        "quote": "The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "The Devin MCP server is an authenticated service that provides access to both public and private repositories, plus full platform management capabilities including sessions, playbooks, knowledge, schedules, and integrations.",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:33.769066+00:00",
+        "content_sha256": "ff4ded7577a93825d2f7d524fc3b848df47c4d294f7dc2823deca0ca199e9533",
+        "quote": "The Devin MCP server is an authenticated service that provides access to both public and private repositories, plus full platform management capabilities. ... Any Devin session or MCP-compatible client can create sessions, manage playbooks and knowledge, set up schedules, and more.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_notes",
+        "claim": "To use the Devin MCP server, you need a Devin API key. The MCP server supports the same authentication methods as the Devin API: service user keys with cog_ prefix and personal access tokens, with required headers.",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:33.769066+00:00",
+        "content_sha256": "ff4ded7577a93825d2f7d524fc3b848df47c4d294f7dc2823deca0ca199e9533",
+        "quote": "To use the Devin MCP server, you need a Devin API key: ... The MCP server supports the same authentication methods as the Devin API : Token type Prefix Org resolution Org-scoped service user key cog_ Automatic — org_id is resolved from the service user Personal access token cog_ Requires X-Org-Id header ... Legacy API keys ( apk_ / apk_user_ prefix) are not supported by the Devin MCP server. Use a service user API key instead.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "mcp_notes",
+        "claim": "The Devin MCP server supports Streamable HTTP protocol and the legacy SSE endpoint has been deprecated.",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:33.769066+00:00",
+        "content_sha256": "ff4ded7577a93825d2f7d524fc3b848df47c4d294f7dc2823deca0ca199e9533",
+        "quote": "The Devin MCP server supports Streamable HTTP: URL: https://mcp.devin.ai/mcp ... The legacy SSE ( /sse ) endpoint has been deprecated. Use the /mcp endpoint instead.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability",
+        "claim": "The API is well documented with REST endpoints, supports bearer token authentication via service users or personal access tokens, and provides comprehensive platform management capabilities. The official MCP server is available with authentication and detailed usage instructions, enabling integration and automation.",
+        "url": "https://docs.devin.ai/api-reference/overview",
+        "final_url": "https://docs.devin.ai/api-reference/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+        "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+        "quote": "The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:34.718327+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "api_types",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.devin.ai/api-reference/overview",
+      "final_url": "https://docs.devin.ai/api-reference/overview",
+      "retrieved_at": "2026-09-16T17:25:32.933611+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "API Overview - Devin Docs Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Devin Docs home page English Search... ⌘ K Ask Assistant ⌘ I Support Devin Devin Search... Navigation Getting Started API Overview Cloud CLI Desktop Enterprise Use Cases API Federal Getting Started API Overview Quick start: Teams Quick start: Enterprise Migrating from v1/v2 Concepts Authentication Permissions & RBAC Common Flows Pagination Terraform Provider API Release Notes Agent Lifecycle Sessions (Organization) Sessions (Enterprise) Attachments (Organization) Devin Review (Organization) Devin Review (Enterprise) Context Management Knowledge Notes (Organization) Knowledge Notes (Enterprise) Playbooks (Organization) Playbooks (Enterprise) Environment Management Secrets (Organization) Repositories (Organization) Snapshot Setup (Organization) Snapshot Setup (Enterprise) Automation Automations (Organization) Schedules (Organization) Integrations Git Connections (Enterprise) Git Permissions (Enterprise) Analytics Metrics (Enterprise) Consumption (Enterprise) Metrics (Organization) Consumption (Organization) Observability Audit Logs (Enterprise) Guardrail Violations (Enterprise) [Beta] Devin for Security Triggering Code Scans via the Devin API Code Scans (Organization) Code Scans (Enterprise) Infrastructure Queue (Enterprise) Hypervisors (Enterprise) Identity & Access Self Users & Membership (Enterprise) Users & Membership (Organization) [Beta] Roles (Enterprise) Service Users (Enterprise) Service User API Keys (Enterprise) [Beta] IDP Groups (Enterprise) IDP Group Registration (Enterprise) Personal Access Tokens Configuration Organizations (Enterprise) Tags (Enterprise) IP Access List (Enterprise) Org Group Limits (Enterprise) Legacy API v1 v1 API Overview (Legacy) Session Endpoints Knowledge Endpoints Playbooks Endpoints Secrets Endpoints Legacy API v2 v2 API Overview (Legacy) API Key Endpoints Audit Log Endpoints Consumption Endpoints Groups Endpoints Infrastructure Endpoints Members Endpoints Metrics Endpoints Organizations Endpoints Playbooks Endpoints Repository Endpoints (Beta) Roles Endpoints Sessions Endpoints Org Group Limits Endpoints Self Endpoints User Usage Endpoints (Beta) On this page Getting started API structure Organization API Enterprise API Session attribution Legacy APIs (v1 and v2) Error handling Support Getting Started API Overview Copy page Copy page Learn how to programmatically interact with Devin using our REST APIs Copy page Copy page The Devin API enables you to integrate Devin into your applications, automate workflows, and build powerful tools. Use service users with role-based access control for secure, auditable API access. ​ Getting started Teams quick start For teams and standard organizations. Create a service user and make your first API call in minutes. Enterprise quick start For enterprise customers with RBAC, multi-org support, and advanced permissions. Which path should I choose? Most customers should start with the Teams quick start. Choose Enterprise if you manage multiple organizations, use SSO, or need custom roles and RBAC. ​ API structure The API is organized into two scopes: ​ Organization API Base URL: https://api.devin.ai/v3/organizations/* For managing resources within a single organization — sessions, knowledge, playbooks, secrets, and more. This is where most integrations start. ​ Enterprise API Base URL: https://api.devin.ai/v3/enterprise/* For cross-organization management — analytics, audit logs, user management, billing, and infrastructure. Available to enterprise customers. Both scopes use service user credentials ( cog_ prefix). See Authentication for setup. ​ Session attribution Service users are separate identities from human users, but you can create sessions on behalf of any user in your organization using the create_as_user_id parameter. This means sessions appear in that user’s session list and count toward their usage — just like they created it themselves. curl -X POST \"https://api.devin.ai/v3/organizations/ $DEVIN_ORG_ID /sessions\" \\ -H \"Authorization: Bearer $DEVIN_API_KEY \" \\ -H \"Content-Type: application/json\" \\ -d '{ \"prompt\": \"Fix the login bug in issue #42\", \"create_as_user_id\": \"user_abc123\" }' Coming from personal API keys? In v1/v2, personal API keys automatically created sessions as your user. With v3, use a service user + create_as_user_id for the same behavior — with the added benefit of RBAC, audit trails, and centralized key management. The service user’s role must include ImpersonateOrgSessions permission. You can also authenticate directly as your user with a Personal Access Token — no service user or create_as_user_id needed. Sessions are automatically attributed to you. You can find user IDs through the List users endpoint or in the Devin UI under organization member settings. ​ Legacy APIs (v1 and v2) The v1 and v2 APIs continue to work during the deprecation period but do not receive new features. We recommend migrating to the current API for role-based access control, session attribution, and new capabilities. v1 API documentation — session management with legacy API keys v2 API documentation — enterprise management with legacy API keys Migration guide — step-by-step migration from v1/v2 ​ Error handling All APIs use standard HTTP status codes: 200 OK : Successful request 201 Created : Resource created successfully 400 Bad Request : Invalid request parameters 401 Unauthorized : Missing or invalid API key 403 Forbidden : Insufficient permissions 404 Not Found : Resource not found 429 Too Many Requests : Rate limit exceeded 500 Internal Server Error : Server error ​ Support For questions about the API or to report issues, email support@cognition.ai . Quick start: Teams linkedin x Powered by This documentation is built and hosted on Mintlify, a developer documentation platform Assistant Responses are generated using AI and may contain mistakes.",
+      "content_sha256": "6dcffd840b72ffebf0ff6e8be2fac24fc81f983e26bc978d94c56c5825572f63",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "retrieved_at": "2026-09-16T17:25:33.769066+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Devin MCP - Devin Docs Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Devin Docs home page English Search... ⌘ K Ask Assistant ⌘ I Support Devin Devin Search... Navigation Working with Devin Devin MCP Cloud CLI Desktop Enterprise Use Cases API Federal Get Started Introducing Devin Your First Session Tutorial Library Essential Guidelines When to Use Devin Instructing Devin Effectively Good vs. Bad Instructions Prompt Templates Cheat Sheet How does Devin fit into my existing SDLC? Onboarding Devin Environment configuration Devin Outposts Index a Repository VPN configuration Knowledge Onboarding AGENTS.md Working with Devin Devin Review Stacked PRs Devin Session Tools Voice mode Computer Use Browser Authentication Testing & Video Recordings Slash Commands Ask Devin Data Analyst Agent DeepWiki Security Swarm Code Scans Hand off to cloud Devins MCP (Model Context Protocol) Marketplace DeepWiki MCP Devin MCP Devin CLI Advanced Capabilities Dynamic Workflows Product Guides Knowledge Skills Plugins Set up your plugin ecosystem Session Insights Secrets & Site Cookies Security Profiles Cloud Authentication with OIDC Creating Playbooks Using Playbooks Automations Auto-triage Scheduled Sessions Deployments Autofix Settings - Bot Comments Invite your Team Integrations Integrations Overview Slack Microsoft Teams GitHub GitLab Bitbucket Linear Jira PagerDuty GitHub Pull Request Templates Self-Hosted SCM & Artifacts Admin Security at Cognition Billing Common Issues Release Notes Recent Updates 2026 2025 2024 On this page What is MCP? Devin MCP Server Authentication Required Enterprise accounts: X-Org-Id header Available Tools Repository Documentation Session Management Playbook Management Knowledge Management Schedule Management Integration Management Wire Protocols Key Differences from DeepWiki MCP Setup Instructions For Devin Desktop: For most other clients (e.g. Cursor): For Claude Code: Related Resources Working with Devin Devin MCP Copy page Copy page Set up the official Devin MCP server so external AI tools can manage sessions, playbooks, knowledge, and repository docs. Copy page Copy page The Devin MCP server provides programmatic access to Devin’s platform capabilities for both private and public repositories. Beyond repository documentation and search, it gives any MCP-compatible AI agent or IDE full access to session management, playbooks, knowledge, and scheduling. Any Devin session or MCP-compatible client can create sessions, manage playbooks and knowledge, set up schedules, and more. See Advanced Capabilities for details on what Devin can do. ​ What is MCP? The Model Context Protocol (MCP) is an open standard that enables AI apps to securely connect to MCP-compatible data sources and tools. You can think of MCP like a USB-C port for AI applications — a standardized way to connect AI apps to different services. ​ Devin MCP Server The Devin MCP server is an authenticated service that provides access to both public and private repositories, plus full platform management capabilities. Base Server URL: https://mcp.devin.ai/ ​ Authentication Required To use the Devin MCP server, you need a Devin API key: Sign up for a Devin account at Devin.ai Generate an API key from your account settings Include the API key in your MCP client configuration The MCP server supports the same authentication methods as the Devin API : Token type Prefix Org resolution Org-scoped service user key cog_ Automatic — org_id is resolved from the service user Enterprise service user key cog_ Requires X-Org-Id header (see below) Personal access token cog_ Requires X-Org-Id header (see below) Legacy API keys ( apk_ / apk_user_ prefix) are not supported by the Devin MCP server. Use a service user API key instead. ​ Enterprise accounts: X-Org-Id header Enterprise service user keys and PATs are scoped to the account level, not a specific organization. Since the MCP tools operate on organization-level resources (sessions, playbooks, knowledge, etc.), you must tell the server which organization to target by passing the X-Org-Id header: { \"mcpServers\" : { \"devin\" : { \"serverUrl\" : \"https://mcp.devin.ai/mcp\" , \"headers\" : { \"Authorization\" : \"Bearer <API_KEY>\" , \"X-Org-Id\" : \"<YOUR_ORG_ID>\" } } } } Find your organization ID on the Settings > Service users page, or call the GET /v3/self endpoint with your API key. Org-scoped service user keys do not need this header — the organization is resolved automatically. ​ Available Tools ​ Repository Documentation These tools let you explore and query documentation for any GitHub repository (public or private with authentication): Tool Description read_wiki_structure Get a list of documentation topics for a GitHub repository read_wiki_contents View full documentation about a GitHub repository ask_question Ask any question about one or more repositories (up to 10) and get an AI-powered, context-grounded response list_available_repos List all repositories available to query with your Devin account ​ Session Management Create, search, inspect, and control Devin sessions programmatically: Tool Description devin_session_create Create one or more Devin sessions. Each session can have a prompt, title, playbook, tags, and ACU limit devin_session_search Search and filter sessions by tags, playbook, origin, schedule, user, or creation/update time devin_session_interact Interact with a session — get status, send messages, sleep, terminate, archive, read messages and attachments, or manage tags devin_session_events Inspect events within a session — list summaries, fetch full event details, or search event contents by text devin_session_gather Wait for multiple sessions to reach a settled state (finished, errored, sleeping, or waiting) before returning. Useful after creating parallel sessions instead of polling in a loop ​ Playbook Management Create and manage playbooks that standardize how Devin performs tasks: Tool Description devin_playbook_manage List, get, create, update, or delete playbooks. Supports automation macros (e.g. !my_macro ) ​ Knowledge Management Maintain your organization’s knowledge base that Devin uses for context: Tool Description devin_knowledge_manage Full CRUD for knowledge notes — list, get, create, update, delete, browse folder structure. Also manage knowledge suggestions — list, view, and dismiss pending suggestions. Supports filtering by repo, folder, and search queries ​ Schedule Management Set up recurring or one-time scheduled Devin sessions: Tool Description devin_schedule_manage List, get, create, update, or delete schedules. Supports cron expressions for recurring schedules, one-time scheduling, notification preferences, and agent selection ​ Integration Management View and manage your organization’s native integrations and MCP servers: Tool Description devin_list_integrations List all native integrations (e.g. GitHub, Jira, Slack) and MCP servers with their install status and settings URLs. Filter by installed, not installed, or all (the legacy name list_integrations is still accepted) ​ Wire Protocols The Devin MCP server supports Streamable HTTP: URL: https://mcp.devin.ai/mcp Works with HTTP-compatible clients Recommended for all integrations The legacy SSE ( /sse ) endpoint has been deprecated. Use the /mcp endpoint instead. ​ Key Differences from DeepWiki MCP Feature DeepWiki MCP Devin MCP Authentication None required API key required Repository Access Public repositories only Public and private repositories Platform Management Not available Sessions, playbooks, knowledge, schedules, integrations Base URL https://mcp.deepwiki.com/ https://mcp.devin.ai/ Cost Free Requires Devin account ​ Setup Instructions The field name for the server URL depends on the client: Devin Desktop uses serverUrl , while most other clients use the standard url field. Using the wrong field name causes the MCP server to be silently ignored. ​ For Devin Desktop: { \"mcpServers\" : { \"devin\" : { \"serverUrl\" : \"https://mcp.devin.ai/mcp\" , \"headers\" : { \"Authorization\" : \"Bearer <API_KEY>\" } } } } ​ For most other clients (e.g. Cursor): { \"mcpServers\" : { \"devin\" : { \"url\" : \"https://mcp.devin.ai/mcp\" , \"headers\" : { \"Authorization\" : \"Bearer <API_KEY>\" } } } } ​ For Claude Code: claude mcp add -s user -t http devin https://mcp.devin.ai/mcp -H \"Authorization: Bearer <API_KEY>\" ​ Related Resources Advanced Capabilities — Overview of Devin’s advanced features Devin’s MCP Marketplace Connecting remote MCP servers to Claude OpenAI’s docs for using MCP servers DeepWiki MCP — For public repositories only DeepWiki Ask Devin DeepWiki MCP Devin CLI linkedin x Powered by This documentation is built and hosted on Mintlify, a developer documentation platform Assistant Responses are generated using AI and may contain mistakes.",
+      "content_sha256": "ff4ded7577a93825d2f7d524fc3b848df47c4d294f7dc2823deca0ca199e9533",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4289,
+    "output_tokens": 2493
+  },
+  "failure": null
+}

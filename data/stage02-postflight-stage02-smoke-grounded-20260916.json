@@ -1,0 +1,64 @@
+{
+  "run_id": "stage02-smoke-grounded-20260916",
+  "audited_at": "2026-09-16T17:19:08.976703+00:00",
+  "record_count": 4,
+  "errors": [],
+  "supplementary_flag_counts": {
+    "no_usable_official_source": 1,
+    "low_confidence": 4,
+    "all_research_fields_unknown": 1,
+    "buildability_without_rationale": 1
+  },
+  "supplementary_flags": [
+    {
+      "id": 1,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    }
+  ],
+  "human_review": false,
+  "note": "Offline integrity/quality validation only; no semantic truth or accuracy claim."
+}

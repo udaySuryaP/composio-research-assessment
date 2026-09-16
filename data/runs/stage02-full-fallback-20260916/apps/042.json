@@ -1,0 +1,292 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 42,
+    "app_name": "WooCommerce",
+    "category": "5. Ecommerce",
+    "website": "http://woocommerce.com/document/woocommerce-rest-api",
+    "description": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API, allowing WC data to be created, read, updated, and deleted using JSON requests and WordPress REST API Authentication methods. The current WP REST API integration version is v3, supporting a wide range of ecommerce resources such as coupons, customers, orders, products, reports, refunds, tax rates, webhooks, settings, payment gateways, shipping zones, system status, and data retrieval.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API, allowing WC data to be created, read, updated, and deleted using JSON requests and WordPress REST API Authentication methods. The current WP REST API integration version is v3, supporting a wide range of ecommerce resources such as coupons, customers, orders, products, reports, refunds, tax rates, webhooks, settings, payment gateways, shipping zones, system status, and data retrieval.",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients. The current WP REST API integration version is v3 which takes a first-order position in endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method. REST API keys Pre-generated keys can be used to authenticate use of the REST API endpoints. New keys can be generated either through the WordPress admin interface or they can be auto-generated through an endpoint.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "To use the latest version of the REST API you must be using: WooCommerce 3.5+. WordPress 4.4+. Pretty permalinks in Settings > Permalinks so that the custom endpoints are supported. Default permalinks will not work.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:20:08.305300+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 42,
+    "app_name": "WooCommerce",
+    "category": "5. Ecommerce",
+    "website": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+    "description": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API, allowing WC data to be created, read, updated, and deleted using JSON requests and WordPress REST API Authentication methods. The current WP REST API integration version is v3, supporting a wide range of ecommerce resources such as coupons, customers, orders, products, reports, refunds, tax rates, webhooks, settings, payment gateways, shipping zones, system status, and data retrieval.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Extensive REST API covering ecommerce resources including coupons, customers, orders, products, product variations, product attributes, product categories, product tags, product reviews, reports, refunds, tax rates, tax classes, webhooks, settings, payment gateways, shipping zones, system status, and data retrieval.",
+    "mcp_available": "official",
+    "mcp_notes": "Official WooCommerce REST API documentation and official client libraries available for JavaScript, PHP, Python, and Ruby.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The WooCommerce REST API is well documented with official libraries in multiple languages and supports authentication via REST API keys generated in the WordPress admin interface. The API supports standard HTTP verbs and JSON format, enabling full CRUD operations on ecommerce data.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API, allowing WC data to be created, read, updated, and deleted using JSON requests and WordPress REST API Authentication methods. The current WP REST API integration version is v3, supporting a wide range of ecommerce resources such as coupons, customers, orders, products, reports, refunds, tax rates, webhooks, settings, payment gateways, shipping zones, system status, and data retrieval.",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients. The current WP REST API integration version is v3 which takes a first-order position in endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method. REST API keys Pre-generated keys can be used to authenticate use of the REST API endpoints. New keys can be generated either through the WordPress admin interface or they can be auto-generated through an endpoint.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "To use the latest version of the REST API you must be using: WooCommerce 3.5+. WordPress 4.4+. Pretty permalinks in Settings > Permalinks so that the custom endpoints are supported. Default permalinks will not work.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Extensive REST API covering ecommerce resources including coupons, customers, orders, products, product variations, product attributes, product categories, product tags, product reviews, reports, refunds, tax rates, tax classes, webhooks, settings, payment gateways, shipping zones, system status, and data retrieval.",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "Coupons Coupon properties Create a coupon Retrieve a coupon List all coupons Update a coupon Delete a coupon Batch update coupons Customers Customer properties Create a customer Retrieve a customer List all customers Update a customer Delete a customer Batch update customers Retrieve customer downloads Orders Order properties Create an order Retrieve an order List all orders Update an Order Delete an order Batch update orders ... Products Product properties Create a product Retrieve a product List all products Duplicate product Update a product Delete a product Batch update products Product variations Product variation properties Create a product variation Retrieve a product variation List all product variations Update a product variation Delete a product variation Batch update product variations Product attributes Product attribute properties Create a product attribute Retrieve a product attribute List all product attributes Update a product attribute Delete a product attribute Batch update product attributes Product attribute terms Product attribute term properties Create an attribute term Retrieve an attribute term List all attribute terms Update an attribute term Delete an attribute term Batch update attribute terms Product categories Product category properties Create a product category Retrieve a product category List all product categories Update a product category Delete a product category Batch update product categories Product custom fields Custom fields available parameters Retrieve product custom field names Product shipping classes Product shipping class properties Create a shipping class Retrieve a shipping class List all shipping classes Update a shipping class Delete a shipping class Batch update shipping classes Product tags Product tag properties Create a product tag Retrieve a product tag List all product tags Update a product tag Delete a product tag Batch update product tags Product reviews Product review properties Create a product review Retrieve a product review List all product reviews Update a product review Delete a product review Batch update product reviews Reports List all reports Retrieve sales report Retrieve top sellers report Retrieve coupons totals Retrieve customers totals Retrieve orders totals Retrieve products totals Retrieve reviews totals Refunds Refund properties Retrieve a list of refunds Tax rates Tax rate properties Create a tax rate Retrieve a tax rate List all tax rates Update a tax rate Delete a tax rate Batch update tax rates Tax classes Tax class properties Create a tax class List all tax classes Delete a tax class Webhooks Topics Delivery/payload Logging Visual interface Webhook properties Create a webhook Retrieve a webhook List all webhooks Update a webhook Delete a webhook Batch update webhooks Settings Setting group properties List all settings groups Setting options Setting option properties Retrieve a setting option List all setting options Update a setting option Batch update setting options Payment gateways Payment gateway properties Retrieve a payment gateway List all payment gateways Update a payment gateway Shipping zones Shipping zone properties Create a shipping zone Retrieve a shipping zone List all shipping zones Update a shipping zone Delete a shipping zone Shipping zone locations Shipping location properties List all locations of a shipping zone Update a locations of a shipping zone Shipping zone methods Shipping method properties Include a shipping method to a shipping zone Retrieve a shipping method from a shipping zone List all shipping methods from a shipping zone Update a shipping method of a shipping zone Delete a shipping method from a shipping zone Shipping methods Shipping method properties Retrieve a shipping method List all shipping methods System status System status properties List all system status items System status tools System status tool properties Retrieve a tool from system status List all tools from system status Run a tool from system status Data List all data List all continents Retrieve continent data List all countries Retrieve country data Retrieve all currencies Retrieve currency data Retrieve current currency",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "Official libraries JavaScript Library PHP Library Python Library Ruby Library // Install: // npm install --save @woocommerce/woocommerce-rest-api // Setup: const WooCommerceRestApi = require ( \" @woocommerce/woocommerce-rest-api \" ). default ; // import WooCommerceRestApi from \"@woocommerce/woocommerce-rest-api\"; // Supports ESM const WooCommerce = new WooCommerceRestApi ({ url : ' http://example.com ' , // Your store URL consumerKey : ' consumer_key ' , // Your consumer key consumerSecret : ' consumer_secret ' , // Your consumer secret version : ' wc/v3 ' // WooCommerce WP REST API version }); <?php // Install: // composer require automattic/woocommerce // Setup: require __DIR__ . '/vendor/autoload.php' ; use Automattic\\WooCommerce\\Client ; $woocommerce = new Client ( 'http://example.com' , // Your store URL 'consumer_key' , // Your consumer key 'consumer_secret' , // Your consumer secret [ 'wp_api' => true , // Enable the WP REST API integration 'version' => 'wc/v3' // WooCommerce WP REST API version ] ); ?> # Install: # pip install woocommerce # Setup: from woocommerce import API wcapi = API ( url = \"http://example.com\" , # Your store URL consumer_key = \"consumer_key\" , # Your consumer key consumer_secret = \"consumer_secret\" , # Your consumer secret wp_api = True , # Enable the WP REST API integration version = \"wc/v3\" # WooCommerce WP REST API version ) # Install: # gem install woocommerce_api # Setup: require \"woocommerce_api\" woocommerce = WooCommerce :: API . new ( \"https://example.com\" , # Your store URL \"consumer_key\" , # Your consumer key \"consumer_secret\" , # Your secret { wp_api: true , # Enable the WP REST API integration version: \"wc/v3\" # WooCommerce WP REST API version } )",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+        "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+        "quote": "The WooCommerce REST API is well documented with official libraries in multiple languages and supports authentication via REST API keys generated in the WordPress admin interface. The API supports standard HTTP verbs and JSON format, enabling full CRUD operations on ecommerce data.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:19:39.785567+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "final_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "retrieved_at": "2026-09-16T17:19:37.500687+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "WooCommerce REST API Documentation - WP REST API v3 NAV cURL Node.js PHP Python Ruby Introduction Requirements Request/Response Format Errors Parameters Pagination Libraries and Tools Learn more Authentication REST API keys Authentication over HTTPS Authentication over HTTP Index HTTP request Coupons Coupon properties Create a coupon Retrieve a coupon List all coupons Update a coupon Delete a coupon Batch update coupons Customers Customer properties Create a customer Retrieve a customer List all customers Update a customer Delete a customer Batch update customers Retrieve customer downloads Orders Order properties Create an order Retrieve an order List all orders Update an Order Delete an order Batch update orders Order actions Send order details to customer Send order notification email to customer Get available email templates for an order Order notes Order note properties Create an order note Retrieve an order note List all order notes Delete an order note Order refunds Order refund properties Create a refund Preview a refund Retrieve a refund List all refunds Delete a refund Products Product properties Create a product Retrieve a product List all products Duplicate product Update a product Delete a product Batch update products Product variations Product variation properties Create a product variation Retrieve a product variation List all product variations Update a product variation Delete a product variation Batch update product variations Product attributes Product attribute properties Create a product attribute Retrieve a product attribute List all product attributes Update a product attribute Delete a product attribute Batch update product attributes Product attribute terms Product attribute term properties Create an attribute term Retrieve an attribute term List all attribute terms Update an attribute term Delete an attribute term Batch update attribute terms Product categories Product category properties Create a product category Retrieve a product category List all product categories Update a product category Delete a product category Batch update product categories Product custom fields Custom fields available parameters Retrieve product custom field names Product shipping classes Product shipping class properties Create a shipping class Retrieve a shipping class List all shipping classes Update a shipping class Delete a shipping class Batch update shipping classes Product tags Product tag properties Create a product tag Retrieve a product tag List all product tags Update a product tag Delete a product tag Batch update product tags Product reviews Product review properties Create a product review Retrieve a product review List all product reviews Update a product review Delete a product review Batch update product reviews Reports List all reports Retrieve sales report Retrieve top sellers report Retrieve coupons totals Retrieve customers totals Retrieve orders totals Retrieve products totals Retrieve reviews totals Refunds Refund properties Retrieve a list of refunds Tax rates Tax rate properties Create a tax rate Retrieve a tax rate List all tax rates Update a tax rate Delete a tax rate Batch update tax rates Tax classes Tax class properties Create a tax class List all tax classes Delete a tax class Webhooks Topics Delivery/payload Logging Visual interface Webhook properties Create a webhook Retrieve a webhook List all webhooks Update a webhook Delete a webhook Batch update webhooks Settings Setting group properties List all settings groups Setting options Setting option properties Retrieve a setting option List all setting options Update a setting option Batch update setting options Payment gateways Payment gateway properties Retrieve a payment gateway List all payment gateways Update a payment gateway Shipping zones Shipping zone properties Create a shipping zone Retrieve a shipping zone List all shipping zones Update a shipping zone Delete a shipping zone Shipping zone locations Shipping location properties List all locations of a shipping zone Update a locations of a shipping zone Shipping zone methods Shipping method properties Include a shipping method to a shipping zone Retrieve a shipping method from a shipping zone List all shipping methods from a shipping zone Update a shipping method of a shipping zone Delete a shipping method from a shipping zone Shipping methods Shipping method properties Retrieve a shipping method List all shipping methods System status System status properties List all system status items System status tools System status tool properties Retrieve a tool from system status List all tools from system status Run a tool from system status Data List all data List all continents Retrieve continent data List all countries Retrieve country data List all currencies Retrieve currency data Retrieve current currency We're hiring! Contributing to WC REST API Docs REST API Source on GitHub REST API Issues WooCommerce Documentation WooCommerce Repository Documentation Powered by Slate Introduction WooCommerce (WC) 2.6+ is fully integrated with the WordPress REST API. This allows WC data to be created, read, updated, and deleted using requests in JSON format and using WordPress REST API Authentication methods and standard HTTP verbs which are understood by most HTTP clients. The current WP REST API integration version is v3 which takes a first-order position in endpoints. The following table shows API versions present in each major version of WooCommerce: API Version WC Version WP Version Documentation v3 3.5.x or later 4.4 or later - v2 3.0.x or later 4.4 or later v2 docs v1 2.6.x or later 4.4 or later v1 docs Prior to 2.6, WooCommerce had a REST API separate from WordPress which is now known as the legacy API. You can find the documentation for the legacy API separately. API Version WC Version WP Version Documentation Legacy v3 2.4.x or later 4.1 or later Legacy v3 docs Legacy v2 2.2.x or later 4.1 or later Legacy v2 docs Legacy v1 2.1.x or later 4.1 or later Legacy v1 docs Requirements To use the latest version of the REST API you must be using: WooCommerce 3.5+. WordPress 4.4+. Pretty permalinks in Settings > Permalinks so that the custom endpoints are supported. Default permalinks will not work. You may access the API over either HTTP or HTTPS, but HTTPS is recommended where possible . If you use ModSecurity and see 501 Method Not Implemented errors, see this issue for details. Please note that you are not required to install the WP REST API (WP API) plugin. Request/Response Format The default response format is JSON. Requests with a message-body use plain JSON to set or update resource attributes. Successful requests will return a 200 OK HTTP status. Some general information about responses: Dates are returned in ISO8601 format: YYYY-MM-DDTHH:MM:SS Resource IDs are returned as integers. Any decimal monetary amount, such as prices or totals, will be returned as strings with two decimal places. Other amounts, such as item counts, are returned as integers. Blank fields are generally included as null or emtpy string instead of being omitted. JSONP Support The WP REST API supports JSONP by default. JSONP responses use the application/javascript content-type. You can specify the callback using the ?_jsonp parameter for GET requests to have the response wrapped in a JSON function: GET /wp-json/wc/v3?_jsonp=callback curl https://example.com/wp-json/wc/v3/products/tags/34?_jsonp = tagDetails \\ -u consumer_key:consumer_secret WooCommerce . get ( \" products/tags/34?_jsonp=tagDetails \" ) . then (( response ) => { console . log ( response . data ); }) . catch (( error ) => { console . log ( error . response . data ); }); <?php print_r ( $woocommerce -> get ( 'products/tags/34' , [ '_jsonp' => 'tagDetails' ])); ?> print ( wcapi . get ( \"products/tags/34?_jsonp=tagDetails\" ). json ()) woocommerce . get ( \"products/tags/34\" , _jsonp: \"tagDetails\" ). parsed_response Response: /**/tagDetails({\"id\":34,\"name\":\"Leather Shoes\",\"slug\":\"leather-shoes\",\"description\":\"\",\"count\":0,\"_links\":{\"self\":[{\"href\":\"https://example.com/wp-json/wc/v3/products/tags/34\"}],\"collection\":[{\"href\":\"https://example.com/wp-json/wc/v3/products/tags\"}]}})% Errors Occasionally you might encounter errors when accessing the REST API. There are four possible types: Error Code Error Type 400 Bad Request Invalid request, e.g. using an unsupported HTTP method 401 Unauthorized Authentication or permission error, e.g. incorrect API keys 404 Not Found Requests to resources that don't exist or are missing 500 Internal Server Error Server error WP REST API error example: { \"code\" : \"rest_no_route\" , \"message\" : \"No route was found matching the URL and request method\" , \"data\" : { \"status\" : 404 } } WooCommerce REST API error example: { \"code\" : \"woocommerce_rest_term_invalid\" , \"message\" : \"Resource doesn't exist.\" , \"data\" : { \"status\" : 404 } } Errors return both an appropriate HTTP status code and response object which contains a code , message and data attribute. Parameters Almost all endpoints accept optional parameters which can be passed as a HTTP query string parameter, e.g. GET /orders?status=completed . All parameters are documented along each endpoint. Pagination Requests that return multiple items will be paginated to 10 items by default. This default can be changed by the site administrator by changing the posts_per_page option. Alternatively the items per page can be specified with the ?per_page parameter: GET /orders?per_page=15 You can specify further pages with the ?page parameter: GET /orders?page=2 You may also specify the offset from the first resource using the ?offset parameter: GET /orders?offset=5 Page number is 1-based and omitting the ?page parameter will return the first page. The total number of resources and pages are always included in the X-WP-Total and X-WP-TotalPages HTTP headers. Link Header Pagination info is included in the Link Header . It's recommended that you follow these values instead of building your own URLs where possible. Link: <https://www.example.com/wp-json/wc/v3/products?page=2>; rel=\"next\", <https://www.example.com/wp-json/wc/v3/products?page=3>; rel=\"last\"` The possible rel values are: Value Description next Shows the URL of the immediate next page of results. last Shows the URL of the last page of results. first Shows the URL of the first page of results. prev Shows the URL of the immediate previous page of results. Libraries and Tools Official libraries JavaScript Library PHP Library Python Library Ruby Library // Install: // npm install --save @woocommerce/woocommerce-rest-api // Setup: const WooCommerceRestApi = require ( \" @woocommerce/woocommerce-rest-api \" ). default ; // import WooCommerceRestApi from \"@woocommerce/woocommerce-rest-api\"; // Supports ESM const WooCommerce = new WooCommerceRestApi ({ url : ' http://example.com ' , // Your store URL consumerKey : ' consumer_key ' , // Your consumer key consumerSecret : ' consumer_secret ' , // Your consumer secret version : ' wc/v3 ' // WooCommerce WP REST API version }); <?php // Install: // composer require automattic/woocommerce // Setup: require __DIR__ . '/vendor/autoload.php' ; use Automattic\\WooCommerce\\Client ; $woocommerce = new Client ( 'http://example.com' , // Your store URL 'consumer_key' , // Your consumer key 'consumer_secret' , // Your consumer secret [ 'wp_api' => true , // Enable the WP REST API integration 'version' => 'wc/v3' // WooCommerce WP REST API version ] ); ?> # Install: # pip install woocommerce # Setup: from woocommerce import API wcapi = API ( url = \"http://example.com\" , # Your store URL consumer_key = \"consumer_key\" , # Your consumer key consumer_secret = \"consumer_secret\" , # Your consumer secret wp_api = True , # Enable the WP REST API integration version = \"wc/v3\" # WooCommerce WP REST API version ) # Install: # gem install woocommerce_api # Setup: require \"woocommerce_api\" woocommerce = WooCommerce :: API . new ( \"https://example.com\" , # Your store URL \"consumer_key\" , # Your consumer key \"consumer_secret\" , # Your consumer secret { wp_api: true , # Enable the WP REST API integration version: \"wc/v3\" # WooCommerce WP REST API version } ) Use the tabs in the top-right corner of this page to see how to install and use each library. Third party libraries Java Library .NET Library Android Library Note that we don't offer support for third party libraries, so if you have questions about how use any of this libraries you should contact the respective authors. Tools Some useful tools you can use to access the API include: Insomnia - Cross-platform GraphQL and REST client, available for Mac, Windows, and Linux. Postman - Cross-platform REST client, available for Mac, Windows, and Linux. RequestBin - Allows you test webhooks. Hookbin - Another tool to test webhooks. Learn more Learn more about the REST API checking the official WordPress REST API documentation . Authentication WooCommerce includes two ways to authenticate with the WP REST API. It is also possible to authenticate using any WP REST API authentication plugin or method. REST API keys Pre-generated keys can be used to authenticate use of the REST API endpoints. New keys can be generated either through the WordPress admin interface or they can be auto-generated through an endpoint. Generating API keys in the WordPress admin interface To create or manage keys for a specific WordPress user, go to WooCommerce > Settings > Advanced > REST API. Note: Keys/Apps was found at WooCommerce > Settings > API > Key/Apps prior to WooCommerce 3.4. Click the \"Add Key\" button. In the next screen, add a description and select the WordPress user you would like to generate the key for. Use of the REST API with the generated keys will conform to that user's WordPress roles and capabilities. Choose the level of access for this REST API key, which can be Read access, Write access or Read/Write access. Then click the \"Generate API Key\" button and WooCommerce will generate REST API ",
+      "content_sha256": "f3965651923dfda15fd7eb025eacfe0858fdcf9c0d20ab3183e28f391d11a104",
+      "error": null,
+      "status": 200,
+      "truncated_bytes": true
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3856,
+    "output_tokens": 2931
+  },
+  "failure": null
+}

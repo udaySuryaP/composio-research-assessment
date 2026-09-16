@@ -1,0 +1,269 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 55,
+    "app_name": "Apify",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://docs.apify.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "To use your token in a request, either: Add the token to your request's Authorization header as Bearer <token> . E.g., Authorization: Bearer xxxxxxx . More info . (Recommended). Add it as the token parameter to your request URL. (Less secure).",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "To use your token in a request, either: Add the token to your request's Authorization header as Bearer <token> . E.g., Authorization: Bearer xxxxxxx . More info . (Recommended). Add it as the token parameter to your request URL. (Less secure).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "The API is accessible using an API token found on the Integrations page in the Apify Console, implying self-serve paid access.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "You can find your API token on the Integrations page in the Apify Console.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Apify API (version 2) provides programmatic access to the Apify platform with RESTful HTTP endpoints.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "The Apify API (version 2) provides programmatic access to the Apify platform . The API is organized around RESTful HTTP endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is organized around RESTful HTTP endpoints.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "The API is organized around RESTful HTTP endpoints.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:21:58.878745+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 55,
+    "app_name": "Apify",
+    "category": "6. Data, SEO and Scraping",
+    "website": "https://docs.apify.com/api/v2",
+    "description": "The Apify API (version 2) provides programmatic access to the Apify platform. The API is organized around RESTful HTTP endpoints and supports JSON encoding with UTF-8. It allows management of actors, actor runs, datasets, key-value stores, request queues, webhooks, schedules, and more. The API supports running actors synchronously or asynchronously, fetching results, and managing various resources on the platform.",
+    "auth_methods": [
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers comprehensive platform management including actors, actor runs, datasets, key-value stores, request queues, webhooks, schedules, logs, user data, usage and limits, and convenience endpoints for default resources.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with a complete OpenAPI schema available. It supports bearer token authentication and provides stable API clients for multiple programming languages, simplifying development. The API endpoints cover all necessary operations to integrate with the Apify platform programmatically.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Apify API (version 2) provides programmatic access to the Apify platform . The API is organized around RESTful HTTP endpoints. All requests and responses (including errors) are encoded in JSON format with UTF-8 encoding.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "The Apify API (version 2) provides programmatic access to the Apify platform . The API is organized around RESTful HTTP endpoints. All requests and responses (including errors) are encoded in JSON format with UTF-8 encoding.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "To use your token in a request, either: Add the token to your request's Authorization header as Bearer <token> . E.g., Authorization: Bearer xxxxxxx . More info . (Recommended). Add it as the token parameter to your request URL. (Less secure).",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "To use your token in a request, either: Add the token to your request's Authorization header as Bearer <token> . E.g., Authorization: Bearer xxxxxxx . More info . (Recommended). Add it as the token parameter to your request URL. (Less secure).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "The API is accessible using an API token found on the Integrations page in the Apify Console, implying self-serve paid access.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "You can find your API token on the Integrations page in the Apify Console.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Apify API (version 2) provides programmatic access to the Apify platform with RESTful HTTP endpoints.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "The Apify API (version 2) provides programmatic access to the Apify platform . The API is organized around RESTful HTTP endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is organized around RESTful HTTP endpoints.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "The API is organized around RESTful HTTP endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers comprehensive platform management including actors, actor runs, datasets, key-value stores, request queues, webhooks, schedules, logs, user data, usage and limits, and convenience endpoints for default resources.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "Actors Get list of Actors Create Actor Get Actor Update Actor Delete Actor Validate Actor input Actor versions Get list of versions Create version Get version Update version Update version (POST) Delete version Get list of environment variables Create environment variable Get environment variable Update environment variable Update environment variable (POST) Delete environment variable Actor builds Get list of builds Build Actor Get default build Get OpenAPI definition Get build Abort build Actor runs Get list of runs Run Actor Run Actor synchronously and return key-value store record Run Actor synchronously without input Run Actor synchronously and get dataset items Run Actor synchronously without input and get dataset items Resurrect run Get last run Get run Abort run Metamorph run Webhook collections Get list of webhooks Actor builds Manage Actor builds Get user builds list Get build Delete build Abort build Get build's Log Get OpenAPI definition Actor runs Manage Actor runs Get user runs list Get run Update run Delete run Abort run Metamorph run Reboot run Resurrect run Charge events in run Get run's log Actor tasks Manage Actor tasks Get list of tasks Create task Get task Update task Delete task Get task input Update task input Get list of webhooks Get list of task runs Run task Run task synchronously Run task synchronously Run task synchronously and get dataset items Run task synchronously and get dataset items Get last run Storage Datasets Get list of datasets Create dataset Get dataset Update dataset Delete dataset Get dataset items Get dataset items headers Store items Get dataset statistics Key-value stores Get list of key-value stores Create key-value store Get store Update store Delete store Get list of keys Download records Get record Check if a record exists Store record Store record (POST) Delete record Request queues Get list of request queues Create request queue Get request queue Update request queue Delete request queue Add requests Delete requests Requests List requests Add request Get request Update request Delete request Requests locks Unlock requests Get head Get head and lock Prolong request lock Delete request lock Webhook management Webhooks Get list of webhooks Create webhook Get webhook Update webhook Delete webhook Test webhook Get collection Webhook dispatches Get list of webhook dispatches Get webhook dispatch Schedules Manage schedules Get list of schedules Create schedule Get schedule Update schedule Delete schedule Get schedule log Apify Store Get data from Apify Store Get list of Actors in Store Logs Get build and run logs Get log Users Get user data Get public user data Get private user data Manage usage and limits Get monthly usage Get limits Update limits Convenience endpoints Default dataset Get default dataset Update default dataset Delete default dataset Get default dataset items Store items Get default dataset statistics Default key-value store Get default store Update default store Delete default store Get default store's list of keys Download default store's records Get default store's record Store record in default store Store record in default store (POST) Delete default store's record Default request queue Get default request queue Update default request queue Delete default request queue List default request queue's requests Add request to default request queue Batch add requests to default request queue Batch delete requests from default request queue Unlock requests in default request queue Get request from default request queue Update request in default request queue Delete request from default request queue Prolong lock on request in default request queue Delete lock on request in default request queue Get default request queue head Get and lock default request queue head Last Actor run's default dataset Get last run's default dataset Update last run's default dataset Delete last run's default dataset Get last run's dataset items Store items in last run's dataset Get last run's dataset statistics Last Actor run's default key-value store Get last run's default store Update last run's default store Delete last run's default store Get last run's default store's list of keys Download last run's default store's records Get last run's default store's record Store record in last run's default store Store record in last run's default store (POST) Delete last run's default store's record Last Actor run's default request queue Get last run's default request queue Update last run's default request queue Delete last run's default request queue List last run's default request queue's requests Add request to last run's default request queue Batch add requests to last run's default request queue Batch delete requests from last run's default request queue Unlock requests in last run's default request queue Get request from last run's default request queue Update request in last run's default request queue Delete request from last run's default request queue Prolong lock on request in last run's default request queue Delete lock on request in last run's default request queue",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The API is well documented with a complete OpenAPI schema available. It supports bearer token authentication and provides stable API clients for multiple programming languages, simplifying development.",
+        "url": "https://docs.apify.com/api/v2",
+        "final_url": "https://docs.apify.com/api/v2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+        "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+        "quote": "You can download the complete OpenAPI schema of Apify API in the YAML or JSON formats. The source code is also available on GitHub . All requests and responses (including errors) are encoded in JSON format with UTF-8 encoding... To access the API, we recommend using one of our API clients: Stable API clients: For Node.js , we recommend the apify-client NPM package . For Python , we recommend the apify-client PyPI package . Experimental API clients: For Java , we recommend the apify-client Maven central component . For Rust , we recommend the apify-client crate . For .NET , we recommend the apify-client Nuget package . For PHP , we recommend the apify-client Packagist package . For Go , we recommend the apify-client package . The clients' functions correspond to the API endpoints and have the same parameters. This simplifies development of apps that depend on the Apify platform.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:39.214219+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.apify.com/api/v2",
+      "final_url": "https://docs.apify.com/api/v2",
+      "retrieved_at": "2026-09-16T17:21:38.274409+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Apify API | Apify Documentation Skip to main content Get started Get started Actors Storage Proxy Account Integrations Security Academy API API reference Client for JavaScript Client for Python Client for Go Client for PHP Client for Java Client for .NET Client for Rust SDK SDK for JavaScript SDK for Python CLI Installation Quick start Command reference MCP Apify API Get started Actor management Actors Get list of Actors Create Actor Get Actor Update Actor Delete Actor Validate Actor input Actor versions Get list of versions Create version Get version Update version Update version (POST) Delete version Get list of environment variables Create environment variable Get environment variable Update environment variable Update environment variable (POST) Delete environment variable Actor builds Get list of builds Build Actor Get default build Get OpenAPI definition Get build Abort build Actor runs Get list of runs Run Actor Run Actor synchronously and return key-value store record Run Actor synchronously without input Run Actor synchronously and get dataset items Run Actor synchronously without input and get dataset items Resurrect run Get last run Get run Abort run Metamorph run Webhook collections Get list of webhooks Actor builds Manage Actor builds Get user builds list Get build Delete build Abort build Get build's Log Get OpenAPI definition Actor runs Manage Actor runs Get user runs list Get run Update run Delete run Abort run Metamorph run Reboot run Resurrect run Charge events in run Get run's log Actor tasks Manage Actor tasks Get list of tasks Create task Get task Update task Delete task Get task input Update task input Get list of webhooks Get list of task runs Run task Run task synchronously Run task synchronously Run task synchronously and get dataset items Run task synchronously and get dataset items Get last run Storage Datasets Get list of datasets Create dataset Get dataset Update dataset Delete dataset Get dataset items Get dataset items headers Store items Get dataset statistics Key-value stores Get list of key-value stores Create key-value store Get store Update store Delete store Get list of keys Download records Get record Check if a record exists Store record Store record (POST) Delete record Request queues Get list of request queues Create request queue Get request queue Update request queue Delete request queue Add requests Delete requests Requests List requests Add request Get request Update request Delete request Requests locks Unlock requests Get head Get head and lock Prolong request lock Delete request lock Webhook management Webhooks Get list of webhooks Create webhook Get webhook Update webhook Delete webhook Test webhook Get collection Webhook dispatches Get list of webhook dispatches Get webhook dispatch Schedules Manage schedules Get list of schedules Create schedule Get schedule Update schedule Delete schedule Get schedule log Apify Store Get data from Apify Store Get list of Actors in Store Logs Get build and run logs Get log Users Get user data Get public user data Get private user data Manage usage and limits Get monthly usage Get limits Update limits Utility tools Test proxy Get browser info Get browser info Get browser info Get browser info Sign and verify objects Encode and sign object Decode and verify object Convenience endpoints Default dataset Get default dataset Update default dataset Delete default dataset Get default dataset items Store items Get default dataset statistics Default key-value store Get default store Update default store Delete default store Get default store's list of keys Download default store's records Get default store's record Store record in default store Store record in default store (POST) Delete default store's record Default request queue Get default request queue Update default request queue Delete default request queue List default request queue's requests Add request to default request queue Batch add requests to default request queue Batch delete requests from default request queue Unlock requests in default request queue Get request from default request queue Update request in default request queue Delete request from default request queue Prolong lock on request in default request queue Delete lock on request in default request queue Get default request queue head Get and lock default request queue head Last Actor run's default dataset Get last run's default dataset Update last run's default dataset Delete last run's default dataset Get last run's dataset items Store items in last run's dataset Get last run's dataset statistics Last Actor run's default key-value store Get last run's default store Update last run's default store Delete last run's default store Get last run's default store's list of keys Download last run's default store's records Get last run's default store's record Store record in last run's default store Store record in last run's default store (POST) Delete last run's default store's record Last Actor run's default request queue Get last run's default request queue Update last run's default request queue Delete last run's default request queue List last run's default request queue's requests Add request to last run's default request queue Batch add requests to last run's default request queue Batch delete requests from last run's default request queue Unlock requests in last run's default request queue Get request from last run's default request queue Update request in last run's default request queue Delete request from last run's default request queue Prolong lock on request in last run's default request queue Delete lock on request in last run's default request queue Get last run's default request queue head Get and lock last run's default request queue head Last Actor run's log Get last Actor run's log Last Actor run's abort Abort Actor's last run Last Actor run's metamorph Metamorph Actor's last run Last Actor run's reboot Reboot Actor's last run Last Actor task run's log Get last Actor task run's log Last Actor task run's abort Abort Actor task's last run Last Actor task run's metamorph Metamorph Actor task's last run Last Actor task run's reboot Reboot Actor task's last run Last Actor task run's default dataset Get last task run's default dataset Update last task run's default dataset Delete last task run's default dataset Get last task run's dataset items Store items in last task run's dataset Get last task run's dataset statistics Last Actor task run's default key-value store Get last task run's default store Update last task run's default store Delete last task run's default store Get last task run's default store's list of keys Download last task run's default store's records Get last task run's default store's record Store record in last task run's default store Store record in last task run's default store (POST) Delete last task run's default store's record Last Actor task run's default request queue Get last task run's default request queue Update last task run's default request queue Delete last task run's default request queue Get last task run's default request queue head Get and lock last task run's default request queue head List last task run's default request queue's requests Add request to last task run's default request queue Batch add requests to last task run's default request queue Batch delete requests from last task run's default request queue Unlock requests in last task run's default request queue Get request from last task run's default request queue Update request in last task run's default request queue Delete request from last task run's default request queue Prolong lock on request in last task run's default request queue Delete lock on request in last task run's default request queue On this page Version: v2-2026-09-10T091137Z Download OpenAPI YAML JSON Apify API The Apify API (version 2) provides programmatic access to the Apify platform . The API is organized around RESTful HTTP endpoints. You can download the complete OpenAPI schema of Apify API in the YAML or JSON formats. The source code is also available on GitHub . All requests and responses (including errors) are encoded in JSON format with UTF-8 encoding, with a few exceptions that are explicitly described in the reference. To access the API, we recommend using one of our API clients: Stable API clients: For Node.js , we recommend the apify-client NPM package . For Python , we recommend the apify-client PyPI package . Experimental API clients: For Java , we recommend the apify-client Maven central component . For Rust , we recommend the apify-client crate . For .NET , we recommend the apify-client Nuget package . For PHP , we recommend the apify-client Packagist package . For Go , we recommend the apify-client package . The clients' functions correspond to the API endpoints and have the same parameters. This simplifies development of apps that depend on the Apify platform. Important Request Details Content-Type header: For requests with a JSON body, you must include the Content-Type: application/json header. Method override: You can override the HTTP method using the method query parameter. This is useful for clients that can only send GET requests. For example, to call a POST endpoint, append ?method=POST to the URL of your GET request. Authentication You can find your API token on the Integrations page in the Apify Console. To use your token in a request, either: Add the token to your request's Authorization header as Bearer <token> . E.g., Authorization: Bearer xxxxxxx . More info . (Recommended). Add it as the token parameter to your request URL. (Less secure). Using your token in the request header is more secure than using it as a URL parameter because URLs are often stored in browser history and server logs. This creates a chance for someone unauthorized to access your API token. Never share your API token or password with untrusted parties! For more information, see our integrations documentation. Agentic payments AI agents can authenticate and pay for Actor runs without an Apify account using agentic payments. Instead of an API token, the request carries a payment credential that both authorizes and pays for the call. Apify supports the x402 protocol ( PAYMENT-SIGNATURE header) and Skyfire ( skyfire-pay-id header). Basic usage To run an Actor, send a POST request to the Run Actor endpoint using either the Actor ID code (e.g. vKg4IjxZbEYTYeW8T ) or its name (e.g. janedoe~my-actor ): https://api.apify.com/v2/actors/[actor_id]/runs If the Actor is not runnable anonymously, you will receive a 401 or 403 response code . This means you need to add your secret API token to the request's Authorization header ( recommended ) or as a URL query parameter ?token=[your_token] (less secure). Optionally, you can include the query parameters described in the Run Actor section to customize your run. If you're using Node.js, the best way to run an Actor is using the Apify.call() method from the Apify SDK . It runs the Actor using the account you are currently logged into (determined by the secret API token ). The result is an Actor run object and its output (if any). A typical workflow is as follows: Run an Actor or task using the Run Actor or Run task API endpoints. Monitor the Actor run by periodically polling its progress using the Get run API endpoint. Fetch the results from the Get items API endpoint using the defaultDatasetId , which you receive in the Run request response. Additional data may be stored in a key-value store. You can fetch them from the Get record API endpoint using the defaultKeyValueStoreId and the store's key . Note : Instead of periodic polling, you can also run your Actor or task synchronously. This will ensure that the request waits for 300 seconds (5 minutes) for the run to finish and returns its output. If the run takes longer, the request will time out and throw an error. Legacy /v2/acts/ URL prefix The /v2/acts/ prefix is deprecated but still fully functional, and such endpoint routes to the same handler as its /v2/actors/... counterpart. New integrations should use the canonical /v2/actors/ prefix, but existing clients keep working without changes. Response structure Most API endpoints return a JSON object with the data property: { \"data\" : { ... } } However, there are a few explicitly described exceptions, such as Get dataset items or Key-value store Get record API endpoints, which return data in other formats. In case of an error, the response has the HTTP status code in the range of 4xx or 5xx and the data property is replaced with error . For example: { \"error\" : { \"type\" : \"record-not-found\" , \"message\" : \"Store was not found.\" } } See Errors for more details. Pagination All API endpoints that return a list of records (e.g. Get list of Actors ) enforce pagination in order to limit the size of their responses. Most of these API endpoints are paginated using the offset and limit query parameters. The only exception is Get list of keys , which is paginated using the exclusiveStartKey query parameter. IMPORTANT : Each API endpoint that supports pagination enforces a certain maximum value for the limit parameter, in order to reduce the load on Apify servers. The maximum limit could change in future so you should never rely on a specific value and check the responses of these API endpoints. Using offset Most API endpoints that return a list of records enable pagination using the following query parameters: limit Limits the response to contain a specific maximum number of items, e.g. limit=20 . offset Skips a number of items from the beginning of the list, e.g. offset=100 . desc By default, items are sorted in the order in which they were created or added to the list. This feature is useful when fetching all the items, because it ensures that items created after the client started the pagination will not be skipped. If you specify the desc=1 parameter, the items will be returned in the reverse order, i.e. from the newest ",
+      "content_sha256": "f0771cad3a8a17e3457c85341309029f83e1ceb92b9abcbea396692310bbdf03",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3776,
+    "output_tokens": 2618
+  },
+  "failure": null
+}

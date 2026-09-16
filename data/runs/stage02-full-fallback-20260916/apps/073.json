@@ -1,0 +1,309 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 73,
+    "app_name": "Linear",
+    "category": "8. Productivity and Project Management",
+    "website": "developers.linear.app",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Linear API access is self-serve paid, with users able to create API keys and OAuth apps via the user interface.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "For personal scripts API keys are the easiest way to access the API. Visit Security & access settings to create and manage them.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:23:42.810880+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 73,
+    "app_name": "Linear",
+    "category": "8. Productivity and Project Management",
+    "website": "https://linear.app",
+    "description": "Linear is a productivity and project management tool that provides a GraphQL API for managing issues, teams, projects, and more. It supports creating, updating, and querying issues and other entities, with features like OAuth2 and personal API key authentication, webhooks, and a TypeScript SDK for easy integration.",
+    "auth_methods": [
+      "oauth2",
+      "api_key",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "graphql",
+      "sdk"
+    ],
+    "api_breadth": "The API supports querying and mutating issues, teams, users, workflow states, projects, and other entities. It includes features for pagination, filtering, error handling, and real-time updates via webhooks. The API is the same one used internally by Linear's applications and is fully introspectable.",
+    "mcp_available": "official",
+    "mcp_notes": "Linear provides an official MCP server at https://mcp.linear.app/mcp that supports authenticated remote MCP spec with OAuth 2.1 and API key authentication. It allows AI clients and agents to access and manipulate Linear data securely, with read-write and read-only modes. The MCP server is centrally hosted and managed, with setup instructions for various clients like Claude, Cursor, VS Code, and others.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Linear API is well documented with a public GraphQL endpoint, authentication methods (OAuth2 and API keys), and example queries and mutations. The official MCP server is available with detailed setup instructions and supports standard authentication flows. The presence of a TypeScript SDK further facilitates integration. Therefore, building integrations with Linear is feasible based on the provided documentation.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Linear is a productivity and project management tool that provides a GraphQL API for managing issues, teams, projects, and more. It supports creating, updating, and querying issues and other entities, with features like OAuth2 and personal API key authentication, webhooks, and a TypeScript SDK for easy integration.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "Linear\u0019s public API is built using GraphQL. It\u0019s the same API we use internally for developing our applications. ... The Linear API supports personal API keys and OAuth2 authentication. ... Linear SDK ... The Linear SDK exposes the Linear GraphQL schema, and makes it easy to access models, or perform mutations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The Linear API supports personal API keys and OAuth2 authentication. OAuth2 tokens are passed with Authorization: Bearer <ACCESS_TOKEN> header. Personal API keys are passed with Authorization: <API_KEY> header.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "The Linear API supports personal API keys and OAuth2 authentication. ... pass it with the header Authorization: Bearer <ACCESS_TOKEN> ... For personal scripts API keys are the easiest way to access the API. ... pass the API key with header: Authorization: <API_KEY>",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Linear API access is self-serve paid, with users able to create API keys and OAuth apps via the user interface.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "For personal scripts API keys are the easiest way to access the API. Visit Security & access settings to create and manage them.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Linear provides a public GraphQL API endpoint at https://api.linear.app/graphql with introspection support.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "Endpoint \u0000 Linear\u0019s GraphQL endpoint is: https://api.linear.app/graphql It supports introspection so you can query the whole schema.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is a GraphQL API with an official TypeScript SDK available for easier integration.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "Linear SDK ... It is written in TypeScript, allowing all operations to be strongly typed.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports querying and mutating issues, teams, users, workflow states, projects, and other entities. It includes features for pagination, filtering, error handling, and real-time updates via webhooks.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "Queries & Mutations ... To get information about the authenticated user, you can use the viewer query: ... As issues (and most other objects) are team based, you first need to get the ID of the team you want to interact with: ... We can also get an issue by id ... Creating & Editing Issues ... mutation IssueCreate ... mutation IssueUpdate ... Fetching Updates ... Register a programmatic webhook and get updates for all issues for the team.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Linear provides an official MCP server at https://mcp.linear.app/mcp that supports authenticated remote MCP spec with OAuth 2.1 and API key authentication.",
+        "url": "https://linear.app/docs/mcp",
+        "final_url": "https://linear.app/docs/mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:20.926541+00:00",
+        "content_sha256": "7baa17e6b3c1d00ca03c10d0bc82a984a7c9e5efb56b4fa30921cd0c35a939fd",
+        "quote": "The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model or agent to access your Linear data in a simple and secure way. ... The Linear MCP server follows the authenticated remote MCP spec , so the server is centrally hosted and managed.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "The MCP server allows AI clients and agents to access and manipulate Linear data securely, with read-write and read-only modes. It supports OAuth 2.1 with dynamic client registration, bearer token or API key authentication, and is compatible with many clients like Claude, Cursor, VS Code, and others.",
+        "url": "https://linear.app/docs/mcp",
+        "final_url": "https://linear.app/docs/mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:20.926541+00:00",
+        "content_sha256": "7baa17e6b3c1d00ca03c10d0bc82a984a7c9e5efb56b4fa30921cd0c35a939fd",
+        "quote": "The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model or agent to access your Linear data in a simple and secure way. ... The Linear MCP server has tools available for finding, creating, and updating objects in Linear like issues, projects, and comments \u00151 with more functionality on the way ... The interactive setup flow uses OAuth 2.1 with dynamic client registration. You can also authenticate directly with a bearer token or Linear API key ... Dedicated setup pages are also available for Claude , Cursor , VS Code , Windsurf , and Zed . Hundreds of other tools now support MCP servers, you can configure them to use Linear\u0019s MCP server with the following settings: Command : npx Arguments : -y mcp-remote https://mcp.linear.app/mcp",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "The Linear API is well documented with a public GraphQL endpoint, authentication methods (OAuth2 and API keys), and example queries and mutations. The official MCP server is available with detailed setup instructions and supports standard authentication flows. The presence of a TypeScript SDK further facilitates integration. Therefore, building integrations with Linear is feasible based on the provided documentation.",
+        "url": "https://linear.app/developers/graphql",
+        "final_url": "https://linear.app/developers/graphql",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+        "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+        "quote": "The Linear API supports personal API keys and OAuth2 authentication. ... Linear SDK ... The Linear SDK exposes the Linear GraphQL schema, and makes it easy to access models, or perform mutations. ... The Linear MCP server follows the authenticated remote MCP spec , so the server is centrally hosted and managed.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:22.154173+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://linear.app/developers/graphql",
+      "final_url": "https://linear.app/developers/graphql",
+      "retrieved_at": "2026-09-16T17:23:19.996189+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Skip to content → Developers Sign up Open app GraphQL API Getting started Pagination Filtering Rate limiting Deprecations Webhooks Attachments Managing Customers GraphQL Schema ↗ Authentication OAuth 2.0 authentication OAuth actor authorization OAuth application manifests File storage authentication Agents Agent Interaction Guidelines (AIG) Getting Started Developing the Agent Interaction Interaction Best Practices Signals TypeScript SDK Getting started Fetching & modifying data Errors Advanced usage Webhooks Migrating from 1.x to 2.x GitHub ↗ Guides How to upload a file to Linear Create issues using linear.new Integration Directory Docs Developers Learn Contact support GraphQL API Getting started Copy page Sign up Open app Getting started Linear’s public API is built using GraphQL. It’s the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners . The official GraphQL documentation is another good starting point. Endpoint ⁠ Linear’s GraphQL endpoint is: https://api.linear.app/graphql It supports introspection so you can query the whole schema. Authentication ⁠ The Linear API supports personal API keys and OAuth2 authentication. OAuth ⁠ If you’re building an application for others to use, we recommend you use OAuth2 authentication . Once you complete the authentication flow and acquire an access token, pass it with the header Authorization: Bearer <ACCESS_TOKEN> curl \\ -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer <ACCESS_TOKEN>\" \\ --data '{ \"query\": \"{ issues { nodes { id title } } }\" }' \\ https://api.linear.app/graphql Personal API Keys ⁠ For personal scripts API keys are the easiest way to access the API. Visit Security & access settings to create and manage them. To authenticate your requests, you need to pass the API key with header: Authorization: <API_KEY> curl \\ -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: <Replace this with your API Key>\" \\ --data '{ \"query\": \"{ issues { nodes { id title } } }\" }' \\ https://api.linear.app/graphql Error handling ⁠ Linear’s GraphQL API follows the standard GraphQL error format, returning errors within an errors array in the response. Each error object includes a message describing what went wrong, a path array indicating where in the query the error occurred, and extensions that may contain additional context such as error codes or validation details. Always check for the errors array before assuming success—GraphQL queries can partially succeed with a 200 HTTP status, returning some data while including errors for failed fields. Monitor HTTP status codes for server errors (5xx) and make sure to correctly handle rate limits . Use strongly-typed GraphQL clients when possible to catch validation errors at development time, and always validate required fields to avoid runtime null value errors. Linear SDK ⁠ The Linear SDK exposes the Linear GraphQL schema, and makes it easy to access models, or perform mutations. We recommend using it to interact with the GraphQL API. It is written in TypeScript, allowing all operations to be strongly typed. Getting Started ⁠ We recommend using a GraphQL client to introspect and explore the schema if you are not using the Linear Client (SDK). Our GraphQL API is explorable and queryable via Apollo Studio , no download or log in required. Click the Schema tab to browse the schema, and click the Explorer tab to run queries. Once you have your client installed, you can start making queries (read) and mutations (write) to the API. Queries & Mutations ⁠ To get information about the authenticated user, you can use the viewer query: query Me { viewer { id name email } } As issues (and most other objects) are team based, you first need to get the ID of the team you want to interact with: query Teams { teams { nodes { id name } } } Once you have found the correct team, you can get the issues for that team. Lets make a request with also some other issue metadata: query Team { team(id: \"9cfb482a-81e3-4154-b5b9-2c805e70a02d\") { id name issues { nodes { id title description assignee { id name } createdAt archivedAt } } } } We can also get an issue by id: query Issue { issue(id: \"BLA-123\") { id title description } } Locate the IDs of teams, issues and other entities directly within Linear itself from the command menu: Cmd/Ctrl+K and “Copy model UUID”. This will show results based on the page you’re currently viewing within Linear. Creating & Editing Issues ⁠ To create a new issue, use a mutation: mutation IssueCreate { issueCreate( input: { title: \"New exception\" description: \"More detailed error report in markdown\" teamId: \"9cfb482a-81e3-4154-b5b9-2c805e70a02d\" } ) { success issue { id title } } } This mutation will create a new issue and return its id and title if the call was successful ( success: true ). If an issue is created without a specified stateId (the status field for the issue), the issue will be assigned to the team’s first state in the Backlog workflow state category. If the “Triage” feature is turned on for the team, then the issue will be assigned to the Triage workflow state. A common use case after creating an issue is updating the issue. To do this we can use the issueUpdate mutation, using the input field to include whatever it is we want to change. The id provided can be either be the uuid returned by the creation query, or the shorthand id like BLA-123 below. mutation IssueUpdate { issueUpdate( id: \"BLA-123\", input: { title: \"New Issue Title\" stateId: \"NEW-STATE-ID\", } ) { success issue { id title state { id name } } } } Changes made to an issue’s properties in the first 3 minutes are considered part of the issue creation process, and won’t be added to the activity log as changes to the issue. Accessing Images ⁠ Linear hosts images and other assets uploaded into Linear behind authentication. Only authenticated users can view their assets. This also applies to the API and all images will require authentication to be displayed outside Linear’s application. Regular API authentication (OAuth or API keys) is accepted for displaying images. If you’re displaying images outside Linear’s applications, you should download and self-host them in your application’s environment. Adding mentions in Markdown ⁠ In the Linear application, you can add mentions to users, issues, projects, and other resources by typing @ and then selecting a resource to mention. In the GraphQL API, mentions can be created in Markdown by using the plain URL of the resource. For example: https://linear.app/yourworkspaceurl/profiles/someuser what do you think about https://linear.app/yourworkspaceurl/issue/LIN-123/some-issue here? Will convert into: @user what do you think about @LIN-123 some issue here? Where the bolded segments are mentions. Adding collapsible sections in Markdown ⁠ For collapsible sections in an issue, comment, or document, use +++ [some section title] to start the section and +++ to end it. +++ Section title Markdown content (initially hidden) +++ Fetching Updates ⁠ If you’re working on building an application which displays Linear data and you want the information to update (near) realtime, you have few options. To prevent excessive usage of our API, we recommend that you be mindful about your implementation. Lets say you’re displaying a big number of issues in your application and want to update them: Do: Register a programmatic webhook and get updates for all issues for the team. When you detect changes, update the issue information. You can also automatically register webhooks for OAuth applications. If you have to poll recent changes, order results by returning recently updated issue first. See Pagination section above how to implement this Filter issues in your GraphQL request instead of fetching all issues and filtering in code. Don’t: Poll updates for each issue in the application. There should never be a reason to do this and your application might get rate limited. See above tactics to implement this better If you have any questions, visit the #api channel on our customer Slack . Other Examples ⁠ Queries ⁠ There are many ways to fetch issues. One common use case is to get all the issues assigned to a user. First let’s find our user’s id: query { users { nodes { name id } } } Now we can use the assignedIssues field on User: query { user(id: \"USERID\") { id name assignedIssues { nodes { id title } } } } We can do the same thing with workflowStates which represent status fields for teams: query { workflowStates { nodes { id name } } } query { workflowState(id: \"WORKFLOW_ID\") { issues { nodes { title } } } } Archived resources ⁠ Archived resources are hidden by default from the paginated responses. They can be included by passing optional includeArchived: true as a query parameter for pagination. Support ⁠ If you run into problems or have questions or suggestions, you can join our customer Slack or send us a note ( hello@linear.app ). Both options are available through the user menu in the Linear application. Next Pagination Endpoint Authentication OAuth Personal API Keys Error handling Linear SDK Getting Started Queries & Mutations Creating & Editing Issues Accessing Images Adding mentions in Markdown Adding collapsible sections in Markdown Fetching Updates Other Examples Queries Archived resources Support https://api.linear.app/graphql curl \\ -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer <ACCESS_TOKEN>\" \\ --data '{ \"query\": \"{ issues { nodes { id title } } }\" }' \\ https://api.linear.app/graphql curl \\ -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: <Replace this with your API Key>\" \\ --data '{ \"query\": \"{ issues { nodes { id title } } }\" }' \\ https://api.linear.app/graphql query Me { viewer { id name email } } query Teams { teams { nodes { id name } } } query Team { team ( id : \"9cfb482a-81e3-4154-b5b9-2c805e70a02d\" ) { id name issues { nodes { id title description assignee { id name } createdAt archivedAt } } } } query Issue { issue ( id : \"BLA-123\" ) { id title description } } mutation IssueCreate { issueCreate ( input : { title : \"New exception\" description : \"More detailed error report in markdown\" teamId : \"9cfb482a-81e3-4154-b5b9-2c805e70a02d\" } ) { success issue { id title } } } https://linear.app/yourworkspaceurl/profiles/someuser what do you think about https://linear.app/yourworkspaceurl/issue/LIN-123/some-issue here? +++ Section title Markdown content (initially hidden) +++ query { users { nodes { name id } } } query { user ( id : \"USERID\" ) { id name assignedIssues { nodes { id title } } } } query { workflowStates { nodes { id name } } } query { workflowState ( id : \"WORKFLOW_ID\" ) { issues { nodes { title } } } } Getting started – Linear Developers mutation IssueUpdate { issueUpdate ( id : \"BLA-123\" , input : { title : \"New Issue Title\" stateId : \"NEW-STATE-ID\" , } ) { success issue { id title state { id name } } } }",
+      "content_sha256": "887e46466300ad84d5edba6753dcbd12c1652344d5db5c6e216d02bfd04d11f5",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://linear.app/docs/mcp",
+      "final_url": "https://linear.app/docs/mcp",
+      "retrieved_at": "2026-09-16T17:23:20.926541+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "MCP server – Linear Docs Skip to content → Docs Sign up Open app Getting started Account AI Linear Agent Loops AI Agents Assign and delegate issues Triage Intelligence Code Intelligence Coding sessions MCP server Your sidebar Teams Issues Issue properties Projects Initiatives Cycles Views Find and filter Linear Asks Integrations Integration Directory MCP server AI Agents Airbyte Linear Asks Discord Figma Front GitHub GitLab Google Sheets Gong Intercom Jira Microsoft Teams Notion Salesforce Sentry Slack Zapier Zendesk Analytics Administration Importers Docs Developers Learn Contact support AI MCP server Copy page Sign up Open app MCP server The Model Context Protocol (MCP) server provides a standardized interface that allows any compatible AI model or agent to access your Linear data in a simple and secure way. Connect to our MCP server natively in Claude, Cursor, and other clients or use the mcp-remote module for backwards compatibility with clients that do not support remote MCP. Linear’s MCP server follows the authenticated remote MCP spec , so the server is centrally hosted and managed. The Linear MCP server has tools available for finding, creating, and updating objects in Linear like issues, projects, and comments — with more functionality on the way, and feedback on its functionality is welcomed. For help getting started after setup, see some of our example prompts . Setup ⁠ General ⁠ Our MCP server uses Streamable HTTP as the primary transport, accessible at the following address. The interactive setup flow uses OAuth 2.1 with dynamic client registration. You can also authenticate directly with a bearer token or Linear API key — see the FAQ for details. Read-write access is provided through https://mcp.linear.app/mcp by default. For read-only access, you have two options: Connect to https://mcp.linear.app/mcp/readonly , which only ever exposes read tools. Use the standard /mcp endpoint, but only request the read OAuth scope. Clients that request read are granted read-only access, and the underlying token can’t reach write APIs. For instructions for specific clients, read on. Dedicated setup pages are also available for Claude , Cursor , VS Code , Windsurf , and Zed . Claude ⁠ Team, Enterprise (Claude.ai) Navigate to the connectors page and connect Linear. Free, Pro (Claude desktop) From Claude settings > Connectors you can add the Linear connector. Enterprise-managed authorization ⁠ If you use Okta, first configure SAML for Linear using Okta’s OIN . Then enable MCP enterprise managed authentication from the bottom of your Okta identity provider settings in Linear. Once this is toggled on, copy the Issuer URI for the authorization server from Okta’s side and paste this into your Linear settings: e.g. https://your-org.okta.com This allows supported external MCP clients such as Claude to authenticate users automatically using your Okta-managed access policies. Claude Code ⁠ claude mcp add --transport http linear-server https://mcp.linear.app/mcp Then run /mcp once you’ve opened a Claude Code session to go through the authentication flow. Codex ⁠ The setup steps for the MCP server are the same regardless of whether you use the IDE Extension or the CLI since the configuration is shared. Configuration via CLI: Run the following command in Terminal: codex mcp add linear --url https://mcp.linear.app/mcp This will automatically prompt you to log in with your Linear account and connect it to your Codex. Note : If this is the first time you are using an MCP in Codex you will need to enable the rmcp feature for this to work. Add the following into your ~/.codex/config.toml : [features] experimental_use_rmcp_client = true Configuration through environment variables: Open the ~/.codex/config.toml file in your preferred editor Add the following: [features] experimental_use_rmcp_client = true [mcp_servers.linear] url = \"https://mcp.linear.app/mcp\" Run codex mcp login linear to move through the authentication flow. Cursor ⁠ To add the MCP to Cursor, you can install by clicking here , or searching for Linear from Cursor’s MCP tools page . Jules ⁠ In Linear, go to Settings > Account > Security & Access Generate a new API key and copy it somewhere secure Now in Jules, go to MCP Settings Select Connect on the Linear server and paste your API key Visual Studio Code ⁠ { \"mcpServers\": { \"linear\": { \"command\": \"npx\", \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.linear.app/mcp\"] } } } CTRL/CMD P and search for MCP: Add Server . Select Command (stdio) Enter the following configuration, and hit enter. npx mcp-remote https://mcp.linear.app/mcp Enter the name Linear and hit enter. Activate the server using MCP: List Servers and selecting Linear , and selecting Start Server . v0 by Vercel ⁠ To add the MCP to v0, you can install from the connections page. Windsurf ⁠ CTRL/CMD , to open Windsurf settings. Under Scroll to Cascade -> MCP servers Select Add Server -> Add custom server Add the following: { \"mcpServers\": { \"linear\": { \"command\": \"npx\", \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.linear.app/mcp\"] } } } Zed ⁠ CMD , to open Zed settings. Add the following: { \"context_servers\": { \"linear\": { \"source\": \"custom\", \"command\": \"npx\", \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.linear.app/mcp\"], \"env\": {} } } } Others ⁠ Hundreds of other tools now support MCP servers, you can configure them to use Linear’s MCP server with the following settings: Command : npx Arguments : -y mcp-remote https://mcp.linear.app/mcp Environment : None Common use cases ⁠ The MCP server lets you work with your Linear data from any compatible AI client. To help get started with the Linear MCP tooling, feel free to copy some example prompts into your own client to explore what’s possible. Roadmap planning Use case Use this workflow to turn a planning document into a structured Linear project, with issues, milestones, and relationships that make the work easier to organize and track. Example prompt You are helping turn a planning document into a well-structured Linear project. Read the document, create a project that reflects its objective, scope, and timeline, then create the issues needed to represent the work with clear titles and populated descriptions. Each issue should make the work actionable by capturing the problem, the goal, the proposed approach when one is provided, and any open questions that remain. Organize issues into milestones when the document clearly implies phases, deliverables, or checkpoints, and add related relationships where issues are meaningfully connected, but do not invent dependencies or structure that the source material does not support. If the document is too vague or ambiguous to produce high-quality work, flag the uncertainty and return a proposed outline for review instead of guessing. Before creating anything, show the proposed project, milestones, issues, relationships, and any decisions that need review. Standup note automation Use case Use this workflow to turn standup notes into clear updates on the relevant Linear issues, so progress and blockers stay documented without extra manual work. Example prompt You are helping turn live standup notes into updates on existing Linear issues. Read the notes, identify any issues mentioned by ID, title, owner, or clear surrounding context, and match each note only when the connection is strong. For every confident match, add a concise comment that captures what changed, the current status or blocker, and the next step if one is mentioned. Keep each comment factual and specific to that issue. If a note is ambiguous or you cannot confidently match it, do not guess or create work from it; return it as unmatched with a short explanation. Before applying any changes, show which issues you plan to update and the exact comment you would post to each one, then apply the comments and separately list any notes you skipped. Standup notes: [Paste the notes’ raw text here or attach the transcript as a document] Incoming bug investigation Use case Use this workflow to investigate a reported bug from an existing Linear issue, identify a likely root cause, and capture the findings back on the issue for the team. Example prompt You are helping investigate a bug that is already tracked in Linear. Start from the referenced issue, use its description and any linked context as the starting point, and search for the most likely root cause by following relevant technical, product, or workflow clues. Focus on producing a clear, evidence-based explanation of what is happening, what changed if that is relevant, and what the likely cause appears to be. Do not guess when the evidence is weak; instead, call out uncertainty and explain what additional context would help. Once you have enough information, write a concise summary of the findings and post that summary as a comment on the issue so the investigation is documented for the team. Linear issue to investigate: [LIN-123] Team cycle summarization Use case Use this workflow to summarize what a team completed during a specific cycle or timeframe, making it easier to review progress and communicate outcomes. Example prompt You are helping summarize work completed during a specific Linear cycle or timeframe. Identify the most recently completed cycle to analyze for the selected team or teams, gather the relevant issues, and produce a concise summary of what was accomplished. Focus on the work that was actually completed, the main themes across that work, and any notable patterns such as bugs resolved, projects advanced, or areas of concentrated effort. Keep the summary clear and useful for sharing with others, and avoid overstating progress where the underlying work is still in flight. Team identifiers: [LIN, FEA] Timeline generation Use case Use this workflow to build a historical timeline of work in Linear around a topic, so teams can understand how a project, incident, or theme evolved over time. Example prompt You are helping document the history of work in Linear around a specific topic. Gather the relevant issues and projects connected to that topic, review their historical activity, and produce a timeline that shows the key developments in chronological order. Focus on meaningful milestones such as when work was created, when direction changed, when major decisions or updates were recorded, and when important work was completed. Keep the timeline factual and grounded in the underlying activity, and call out any gaps or ambiguity rather than inferring events that are not clearly supported. Topic: [Insert a specific topic from your workspace] Implementation plan Use case Use this workflow to turn an initial idea into a reviewed implementation plan, then create the corresponding Linear work and delegate execution to the right people or agents. Example prompt You are helping plan and structure a development effort in Linear. Start by designing an approach based on the provided context, with enough detail to explain the proposed solution, major workstreams, and any important tradeoffs or open questions. Treat that initial plan as a draft that can be reviewed and edited before any work is created. Once the plan is approved, create a parent issue that captures the overall goal and create sub-issues for the concrete pieces of work needed to execute it. Keep the breakdown clear and actionable, and assign or delegate work only when the requested owners or agents are explicitly specified. Context: [Insert enough context to help orient the agent] FAQ ⁠ Why am I seeing an internal server error when trying to connect? Enter the following in the Terminal to clear saved auth info: rm -rf ~/.mcp-auth then try again to connect. Additionally you may need to update to a newer version of node if required. Can I authenticate with multiple Linear workspaces? The Linear MCP server authenticates each session via OAuth. Because reconnecting alone does not switch the workspace within an existing auth session, each workspace needs its own separate authentication context. If your client or the mcp-remote module supports a configuration directory (for example via MCP_REMOTE_CONFIG_DIR ), point each workspace to a different path: MCP_REMOTE_CONFIG_DIR=~/.mcp-auth/workspace-a npx mcp-remote https://mcp.linear.app/mcp MCP_REMOTE_CONFIG_DIR=~/.mcp-auth/workspace-b npx mcp-remote https://mcp.linear.app/mcp Authenticate each configuration separately. For clients that manage their own auth storage, check the client’s documentation for workspace-switching options. Can I authenticate with my own API keys or OAuth access tokens? The MCP server supports passing OAuth token and API keys directly in the Authorization: Bearer <yourtoken> header instead of using the interactive authentication flow. You can use this to interact with the MCP server as an app user, provide read-only access through a restricted API key, or integrate with an existing Linear OAuth application without an extra authentication hop. For an alternative read-only approach with your own API key, create a Linear API key with only the Read permission enabled. What about the SSE endpoint? The SSE endpoint at https://mcp.linear.app/sse is a deprecated fallback for clients that do not support Streamable HTTP. For all new setups, use the primary Streamable HTTP endpoint at https://mcp.linear.app/mcp . My remote MCP connection dropped or isn't responding Remote MCP connections can occasionally need a reconnect in some client setups. Try disconnecting and reconnecting the server from your client’s MCP settings. This is a routine client-side reset and does not affect your Linear data or authentication session. I'm using WSL on Windows, and seeing an error The default connection uses Streamable HTTP at https://mcp.linear.app/mcp . If that does not work in WSL, use this SSE fallback instead ( /sse is a legacy path for clients that do not support Streamable HTTP): {\"mcpServers\": {\"linear\": {\"command\": \"wsl\",\"args\": [\"npx\",\"-y\",\"mcp-remote\",\" https://mcp.linear.app/s",
+      "content_sha256": "7baa17e6b3c1d00ca03c10d0bc82a984a7c9e5efb56b4fa30921cd0c35a939fd",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 6645,
+    "output_tokens": 2411
+  },
+  "failure": null
+}

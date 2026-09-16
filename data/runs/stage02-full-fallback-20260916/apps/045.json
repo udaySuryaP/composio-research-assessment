@@ -1,0 +1,298 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 45,
+    "app_name": "Magento (Adobe Commerce)",
+    "category": "5. Ecommerce",
+    "website": "http://developer.adobe.com/commerce",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Third-party applications use OAuth-based authentication to access the web APIs. The third-party Integration registers with Adobe Commerce.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Token based (Bearer Authentication) This method is a good choice for authenticating customers and Admin users in third-party applications that need to make authorized API calls to the store.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "JavaScript widget authentication (storefront or Admin) Registered users use session-based authentication to log in to the storefront or Admin.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Authentication data-src=../../includes/paas-only.md Authentication data-variant=info data-slots=text This topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Adobe Commerce and Magento Open Source allow developers to define web API resources and their permissions in the webapi.xml configuration file.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "<route url=\"/V1/customers/:customerId\" method=\"GET\"> <service class=\"Magento\\Customer\\Api\\CustomerRepositoryInterface\" method=\"getById\"/> <resources> <resource ref=\"Magento_Customer::customer\"/> </resources> </route>",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:20:39.089970+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 45,
+    "app_name": "Magento (Adobe Commerce)",
+    "category": "5. Ecommerce",
+    "website": "http://developer.adobe.com/commerce",
+    "description": "Magento (Adobe Commerce) provides a web API framework that supports multiple user types (administrator, integration, customer, guest) with permissions defined in webapi.xml and acl.xml files. It supports token-based authentication for customers and admins, OAuth-based authentication for third-party integrations, and session-based authentication for JavaScript widgets. The API allows access to resources based on user permissions configured in the Admin and supports RESTful endpoints.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Magento Commerce exposes a broad set of RESTful web APIs covering customer, admin, integration, and guest user resources with fine-grained access control defined in webapi.xml and acl.xml configuration files.",
+    "mcp_available": "unknown",
+    "mcp_notes": "No explicit evidence found regarding a Marketplace or Community Marketplace (MCP) for Magento APIs in the retrieved evidence.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation details authentication methods (token-based, OAuth, session-based), API resource access control, and example REST endpoints, enabling developers to build integrations using the documented REST APIs with appropriate authentication.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Magento (Adobe Commerce) provides a web API framework that supports multiple user types (administrator, integration, customer, guest) with permissions defined in webapi.xml and acl.xml files. It supports token-based authentication for customers and admins, OAuth-based authentication for third-party integrations, and session-based authentication for JavaScript widgets. The API allows access to resources based on user permissions configured in the Admin and supports RESTful endpoints.",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Adobe Commerce and Magento Open Source allow developers to define web API resources and their permissions in the webapi.xml configuration file. ... To authenticate, use the authentication method for your preferred client: ... Token based (Bearer Authentication) ... Integration (Oauth) ... JavaScript widget authentication (storefront or Admin) Registered users use session-based authentication to log in to the storefront or Admin.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Third-party applications use OAuth-based authentication to access the web APIs. The third-party Integration registers with Adobe Commerce.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Token based (Bearer Authentication) This method is a good choice for authenticating customers and Admin users in third-party applications that need to make authorized API calls to the store.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "JavaScript widget authentication (storefront or Admin) Registered users use session-based authentication to log in to the storefront or Admin.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Authentication data-src=../../includes/paas-only.md Authentication data-variant=info data-slots=text This topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Adobe Commerce and Magento Open Source allow developers to define web API resources and their permissions in the webapi.xml configuration file.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "<route url=\"/V1/customers/:customerId\" method=\"GET\"> <service class=\"Magento\\Customer\\Api\\CustomerRepositoryInterface\" method=\"getById\"/> <resources> <resource ref=\"Magento_Customer::customer\"/> </resources> </route>",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "api_breadth",
+        "claim": "Magento Commerce exposes a broad set of RESTful web APIs covering customer, admin, integration, and guest user resources with fine-grained access control defined in webapi.xml and acl.xml configuration files.",
+        "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+        "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+        "quote": "Adobe Commerce and Magento Open Source allow developers to define web API resources and their permissions in the webapi.xml configuration file. ... For example, in the preceding webapi.xml for the customerGroups resource, only a user with Magento_Customer::group authorization can GET /V1/customerGroups/:id . On the other hand, you can create a customer using POST /V1/customers anonymously (or by a guest).",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:20:24.261029+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "final_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "retrieved_at": "2026-09-16T17:20:24.041863+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication data-src=../../includes/paas-only.md Authentication data-variant=info data-slots=text This topic is for Platform-as-a-Service (PaaS) customers only. Adobe Commerce Cloud Services customers must refer to REST Authentication for details on authentication. For practical implementation guides for Adobe Commerce as a Cloud Service (SaaS), see: Create server-to-server integration - Complete guide for automated system integration Generate the IMS access token - User authentication guide Adobe Commerce and Magento Open Source allow developers to define web API resources and their permissions in the webapi.xml configuration file. See Services as Web APIs . Before you can make web API calls, you must authenticate your identity and have necessary permissions (authorization) to access the API resource. Authentication allows the application to identify the caller's user type. A user's (administrator, integration, customer, or guest) access rights determine an API call's resource accessibility. Accessible resources The list of resources that you can access depends on your user type. All customers have the same permissions, and as a result the same resources accessible. The preceding statement is true for guest users as well. Each administrator or integration user can have a unique set of permissions which is configured in the Admin. Permissions required to access particular resource are configured in the webapi.xml file. This table lists the resources that each user type can access: User type Accessible resources (defined in webapi.xml) Administrator or Integration Resources for which administrators or integrators are authorized. For example, if administrators are authorized for the Magento_Customer::group resource, they can make a GET /V1/customerGroups/:id call. Customer Resources with anonymous or self permission Guest user Resources with anonymous permission Relationship between acl.xml and webapi.xml The acl.xml file defines the access control list (ACL) for a given module. It defines the available set of permissions to access resources. All acl.xml files across all modules are consolidated to build an ACL tree, which is used to select allowed Admin role resources or third-party integration access ( System > Extension > Integration > Add New Integration > Available APIs ). Sample customer acl.xml For example, account management, customer configuration, and customer group resource permissions are defined in the Customer module's acl.xml . When a developer creates the Web API configuration file ( webapi.xml ), the permissions defined in acl.xml are referenced to create access rights for each API resource. Sample (truncated) customer webapi.xml <routes xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"urn:magento:module:Magento_Webapi:etc/webapi.xsd\"> <!-- Customer Group --> <route url=\"/V1/customerGroups/:id\" method=\"GET\"> <service class=\"Magento\\Customer\\Api\\GroupRepositoryInterface\" method=\"getById\"/> <resources> <resource ref=\"Magento_Customer::group\"/> </resources> </route> ............ ....... ..... <!-- Customer Account --> <route url=\"/V1/customers/:customerId\" method=\"GET\"> <service class=\"Magento\\Customer\\Api\\CustomerRepositoryInterface\" method=\"getById\"/> <resources> <resource ref=\"Magento_Customer::customer\"/> </resources> </route> <route url=\"/V1/customers\" method=\"POST\"> <service class=\"Magento\\Customer\\Api\\AccountManagementInterface\" method=\"createAccount\"/> <resources> <resource ref=\"anonymous\"/> </resources> </route> <route url=\"/V1/customers/:customerId\" method=\"PUT\"> <service class=\"Magento\\Customer\\Api\\CustomerRepositoryInterface\" method=\"save\"/> <resources> <resource ref=\"Magento_Customer::manage\"/> </resources> </route> <route url=\"/V1/customers/me\" method=\"PUT\"> <service class=\"Magento\\Customer\\Api\\CustomerRepositoryInterface\" method=\"save\"/> <resources> <resource ref=\"self\"/> </resources> <data> <parameter name=\"customer.id\" force=\"true\">%customer_id%</parameter> </data> </route> .......... ..... ... For example, in the preceding webapi.xml for the customerGroups resource, only a user with Magento_Customer::group authorization can GET /V1/customerGroups/:id . On the other hand, you can create a customer using POST /V1/customers anonymously (or by a guest). Authorization is granted to either an administrator (or an integration) defined in the Admin with the customer group selected as one of the resources in the ACL tree. data-variant=info data-slots=text1, text2 A guest or anonymous is a special permission that doesn't need to be defined in acl.xml (and will not show up in the permissions tree in the Admin). It just indicates that the current resource in webapi.xml can be accessed without the need for authentication. Similarly, self is a special access used if you already have an authenticated session with the system. Self access enables a user to access resources they own. For example, GET /V1/customers/me fetches the logged-in customer's details. This is typically useful for JavaScript-based widgets. Web API clients and authentication methods You must use a client, such as a mobile application or an external batch job, to access services using web APIs. Each type of client has a preferred authentication method. To authenticate, use the authentication method for your preferred client: Mobile application authentication Registered users use token-based authentication to make web API calls using a mobile application. The token acts like an electronic key that provides access to the API(s). As a registered account user, you request a token from the Magento token service at the endpoint that is defined for your user type. The token service returns a unique authentication token in exchange for a username and password for an admin or customer account. To prove your identity, specify this token in the Authorization request header on web API calls. Third-party application authentication Third-party applications use OAuth-based authentication to access the web APIs. The third-party Integration registers with Adobe Commerce. Merchants authorize extensions and applications to access or update store data. JavaScript widget authentication (storefront or Admin) Registered users use session-based authentication to log in to the storefront or Admin. A session is identified by a cookie and time out after a period of inactivity. Additionally, you can have a session as a guest user without logging in. As a customer, you log in to the storefront with your customer credentials. As an administrator, you log in to the Admin with your administrator credentials. The web API framework identifies you and controls access to the requested resource. Authentication types The following sections describe tips about which type of authentication method you should use depending on your use case. Token based (Bearer Authentication) This method is a good choice for authenticating customers and Admin users in third-party applications that need to make authorized API calls to the store. Customer Token —Use this token in applications to authorize specific customer and query data related to that customer (for example, customer details, cart, and orders). Admin Token —Use this token in applications to authorize an Admin user and access Admin-related APIs. Request a token and then include it in future requests . data-variant=info data-slots=text You should use this type of authentication mechanism over HTTPS. Integration (Oauth) This method is a good choice for integrating with a third-party system that supports OAuth 1.0a. After activating an integration (self activated), you can use the generated consumer key, consumer secret, access token, and access token secret to provide third-party systems access to Commerce Store resources. You do not need to make calls to the /oauth/token/request or /oauth/token/access endpoints to exchange tokens. If a third-party system provides endpoints, you can use them to activate an integration and link your account. After completing the activation process, a third-party service can use the consumer key, consumer secret, access token, and access token secret provided by Commerce during activation to make API calls. Related topics Proceed to the authentication method for your preferred client: Mobile application. Token-based authentication . Third-party application. OAuth-based authentication . JavaScript widget on the Admin or storefront. Session-based authentication . Extension attribute authentication Configure services as web APIs Create an ACL rule",
+      "content_sha256": "3c440dd6ba2b32251b2876c81a73508c37c2dd8fdf1f9eae0386128531f566d5",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2721,
+    "output_tokens": 1930
+  },
+  "failure": null
+}

@@ -1,0 +1,305 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 86,
+    "app_name": "QuickBooks",
+    "category": "9. Finance and Fintech",
+    "website": "http://developer.intuit.com/",
+    "description": "QuickBooks API allows developers to create apps that interact with QuickBooks company data, including company info, using OAuth tokens for authorization.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API supports accessing company information and other QuickBooks data endpoints, with SDKs available for multiple languages including DotNet, Java, and PHP.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "QuickBooks API allows developers to create apps that interact with QuickBooks company data, including company info, using OAuth tokens for authorization.",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Create a developer account Create an app Generate OAuth tokens using playround Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Generate OAuth tokens using playround",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Create a developer account Create an app Generate OAuth tokens using playround Make the API call",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "sdk",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Use SDK to code faster - DotNet - Java - PHP - Other",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "The API supports accessing company information and other QuickBooks data endpoints, with SDKs available for multiple languages including DotNet, Java, and PHP.",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json' DEVELOPER TOOLS Explore API using API explorer Download samples Use SDK to code faster - DotNet - Java - PHP - Other",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:25:06.812422+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 86,
+    "app_name": "QuickBooks",
+    "category": "9. Finance and Fintech",
+    "website": "http://developer.intuit.com/",
+    "description": "QuickBooks API allows developers to create apps that interact with QuickBooks company data, including company info, using OAuth tokens for authorization.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API supports accessing company information and other QuickBooks data endpoints, with SDKs available for multiple languages including DotNet, Java, and PHP.",
+    "mcp_available": "unknown",
+    "mcp_notes": "No explicit mention of a marketplace or community marketplace was found in the retrieved evidence.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is accessible via OAuth2 tokens, with official SDKs and Postman collections available for easier integration. The sandbox environment supports testing API calls, enabling developers to build integrations effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "QuickBooks API allows developers to create apps that interact with QuickBooks company data, including company info, using OAuth tokens for authorization.",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Create a developer account Create an app Generate OAuth tokens using playround Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Generate OAuth tokens using playround",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Create a developer account Create an app Generate OAuth tokens using playround Make the API call",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "sdk",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Use SDK to code faster - DotNet - Java - PHP - Other",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "The API supports accessing company information and other QuickBooks data endpoints, with SDKs available for multiple languages including DotNet, Java, and PHP.",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json' DEVELOPER TOOLS Explore API using API explorer Download samples Use SDK to code faster - DotNet - Java - PHP - Other",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://intuitdeveloper.github.io/getstarted/",
+        "final_url": "https://intuitdeveloper.github.io/getstarted/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+        "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+        "quote": "Generate OAuth tokens using playround Make the API call - click to see the curl request ... Use SDK to code faster - DotNet - Java - PHP - Other Download postman collection Use sandbox for testing",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:50.750630+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "final_url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "retrieved_at": "2026-09-16T17:24:45.266154+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "Intuit Developer Compiling and pre-filling your Intuit info...",
+      "content_sha256": "751fc5f71f36d939273e8e1042b82a80fdae5e8f5ea6ed5c765640ff12ce74e1",
+      "error": "Insufficient readable content; possible JS shell",
+      "status": 200
+    },
+    {
+      "requested_url": "https://intuitdeveloper.github.io/getstarted/",
+      "final_url": "https://intuitdeveloper.github.io/getstarted/",
+      "retrieved_at": "2026-09-16T17:24:50.364336+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Intuit Developer @ Github Intuit Developer Intuit Developer Github Getting started with QuickBooks API GET STARTED Create a developer account Create an app Generate OAuth tokens using playround Make the API call - click to see the curl request curl -X GET 'https://sandbox-quickbooks.api.intuit.com/v3/company/company id/companyinfo/company id/?minorversion=12' -H 'accept: application/json' -H 'authorization: Bearer accesstoken' -H 'content-type: application/json' DEVELOPER TOOLS Explore API using API explorer Download samples Use SDK to code faster - DotNet - Java - PHP - Other Download postman collection Use sandbox for testing © 2018 Intuit, Inc. All rights reserved. Intuit and QuickBooks are registered trademarks of Intuit Inc.",
+      "content_sha256": "2f6b6efc3aba45db96b4080ed295bbe021229442deab619be23e3812e718e601",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1191,
+    "output_tokens": 1656
+  },
+  "failure": null
+}

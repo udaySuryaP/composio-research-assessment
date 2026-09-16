@@ -1,0 +1,304 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 8,
+    "app_name": "Close",
+    "category": "1. CRM and Sales",
+    "website": "http://close.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication API keys for scripts or OAuth 2.0 for user-facing integrations.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Authentication API keys for scripts or OAuth 2.0 for user-facing integrations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Close Developer Platform is accessible via self-serve paid model.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Try for Free Developers Home API Reference MCP Developers Home API Reference MCP Developers Home Build an Integration Overview Create an OAuth App Publish External Links Integrations Directory Product Help Product Updates Making of Close Blog Open Source (GitHub) Developers Home Overview Create an OAuth App Publish Homepage Product Help Log in Try for Free Light On this page Use cases Getting help Scroll to top Close Developer Platform Build integrations, automate workflows, and extend Close for your team.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Close offers a REST API with full endpoint docs, schemas, examples, and an interactive API explorer.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Close API is REST.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "MCP Server Model Context Protocol for AI agents is available officially.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "MCP Server Model Context Protocol for AI agents.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:16:31.794664+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 8,
+    "app_name": "Close",
+    "category": "1. CRM and Sales",
+    "website": "http://close.com/",
+    "description": "Close Developer Platform gives everything needed to build integrations, automate workflows, and extend Close for teams. It offers a REST API with full endpoint docs, authentication via API keys or OAuth 2.0, webhooks and events, and an MCP server model context protocol for AI agents.",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Full endpoint docs with schemas, examples, and an interactive API explorer for pushing CRM data, syncing data out, automating outreach, and publishing integrations.",
+    "mcp_available": "official",
+    "mcp_notes": "MCP Server Model Context Protocol for AI agents is available, enabling AI tools like Claude, ChatGPT, and Cursor direct access to Close data with no code required.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Close Developer Platform provides comprehensive REST API documentation, supports API key and OAuth 2.0 authentication, offers webhooks, and an official MCP protocol, enabling building integrations and automations without blockers.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Close Developer Platform gives everything needed to build integrations, automate workflows, and extend Close for teams. It offers a REST API with full endpoint docs, authentication via API keys or OAuth 2.0, webhooks and events, and an MCP server model context protocol for AI agents.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Close Developer Platform | Close | Developer API Documentation For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page. Search / Ask AI Homepage Product Help Log in Try for Free Developers Home API Reference MCP Developers Home API Reference MCP Developers Home Build an Integration Overview Create an OAuth App Publish External Links Integrations Directory Product Help Product Updates Making of Close Blog Open Source (GitHub) Developers Home Overview Create an OAuth App Publish Homepage Product Help Log in Try for Free Light On this page Use cases Getting help Scroll to top Close Developer Platform Build integrations, automate workflows, and extend Close for your team. Ask a question | Copy page | Open in Claude | More actions Whether you\u00199re a Close customer automating your sales process or a partner building an integration, the Close Developer Platform gives everything you or your AI agents need. REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer. Authentication API keys for scripts or OAuth 2.0 for user-facing integrations. Webhooks & Events Real-time event notifications and a 30-day event log. MCP Server Model Context Protocol for AI agents. Build an Integration Create an OAuth app, connect your product, and get listed. API Clients Community libraries for Python, Node.js, Ruby, PHP, Go, and more. API Changelog Latest API updates and deprecations. Browse 100+ Integrations \u000197 Explore the full directory of apps and tools that connect with Close. Use cases Push in CRM data \u000197 Push leads, contacts, activities, and custom data into Close from your website or other systems via the REST API . Sync data out \u000197 Stream changes with webhooks , query the event log , or pull reporting metrics and pipeline data into your BI tools, data warehouse, or design custom dashboards & reports. Automate outreach \u000197 Manage workflows with sequences or bulk actions , or send email/SMS programmatically. Publish an integration \u000197 Build for many Close customers with OAuth and get listed in the integrations directory . Power AI agents \u000197 Give Claude, ChatGPT, Cursor, and other tools direct access to Close data via the MCP server \u000197 no code required. Getting help Our Support Team can assist Close customers with any questions about the API. Implementing something cool or want to chat about where our API is going? Schedule a call with Joe Kemp, VP of Engineering. Was this page helpful? Yes No Edit this page Next Build an Integration Built with Product Overview Communication Automation Integrations Reporting SMS Calling Security Forms Pricing & Use Cases Pricing Close vs Other CRMs Customer Stories Resources Sales Blog Sales Resources Sales Guides Webinars On-Demand Demo Sales Tools Company About Careers Partner with Close Brand Guidelines Terms Privacy GDPR CCPA Get Help +1-833-GO-CLOSE Help Center Download the Close App Product Updates System Status",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication API keys for scripts or OAuth 2.0 for user-facing integrations.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Authentication API keys for scripts or OAuth 2.0 for user-facing integrations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Close Developer Platform is accessible via self-serve paid model.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Try for Free Developers Home API Reference MCP Developers Home API Reference MCP Developers Home Build an Integration Overview Create an OAuth App Publish External Links Integrations Directory Product Help Product Updates Making of Close Blog Open Source (GitHub) Developers Home Overview Create an OAuth App Publish Homepage Product Help Log in Try for Free Light On this page Use cases Getting help Scroll to top Close Developer Platform Build integrations, automate workflows, and extend Close for your team.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Close offers a REST API with full endpoint docs, schemas, examples, and an interactive API explorer.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Close API is REST.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Use cases include pushing CRM data, syncing data out, automating outreach, and publishing integrations.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Use cases Push in CRM data \u000197 Push leads, contacts, activities, and custom data into Close from your website or other systems via the REST API . Sync data out \u000197 Stream changes with webhooks , query the event log , or pull reporting metrics and pipeline data into your BI tools, data warehouse, or design custom dashboards & reports. Automate outreach \u000197 Manage workflows with sequences or bulk actions , or send email/SMS programmatically. Publish an integration \u000197 Build for many Close customers with OAuth and get listed in the integrations directory .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "MCP Server Model Context Protocol for AI agents is available officially.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "MCP Server Model Context Protocol for AI agents.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "MCP enables AI tools like Claude, ChatGPT, Cursor direct access to Close data with no code required.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Power AI agents \u000197 Give Claude, ChatGPT, Cursor, and other tools direct access to Close data via the MCP server \u000197 no code required.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "Buildable because Close provides comprehensive REST API docs, API key and OAuth 2.0 auth, webhooks, and official MCP protocol.",
+        "url": "https://developer.close.com/",
+        "final_url": "https://developer.close.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+        "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+        "quote": "Close Developer Platform Build integrations, automate workflows, and extend Close for your team. REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer. Authentication API keys for scripts or OAuth 2.0 for user-facing integrations. Webhooks & Events Real-time event notifications and a 30-day event log. MCP Server Model Context Protocol for AI agents.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:12.528426+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.close.com/",
+      "final_url": "https://developer.close.com/",
+      "retrieved_at": "2026-09-16T17:16:11.900429+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Close Developer Platform | Close | Developer API Documentation For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page. Search / Ask AI Homepage Product Help Log in Try for Free Developers Home API Reference MCP Developers Home API Reference MCP Developers Home Build an Integration Overview Create an OAuth App Publish External Links Integrations Directory Product Help Product Updates Making of Close Blog Open Source (GitHub) Developers Home Overview Create an OAuth App Publish Homepage Product Help Log in Try for Free Light On this page Use cases Getting help Scroll to top Close Developer Platform Build integrations, automate workflows, and extend Close for your team. Ask a question | Copy page | Open in Claude | More actions Whether you’re a Close customer automating your sales process or a partner building an integration, the Close Developer Platform gives everything you or your AI agents need. REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer. Authentication API keys for scripts or OAuth 2.0 for user-facing integrations. Webhooks & Events Real-time event notifications and a 30-day event log. MCP Server Model Context Protocol for AI agents. Build an Integration Create an OAuth app, connect your product, and get listed. API Clients Community libraries for Python, Node.js, Ruby, PHP, Go, and more. API Changelog Latest API updates and deprecations. Browse 100+ Integrations ↗ Explore the full directory of apps and tools that connect with Close. Use cases Push in CRM data — Push leads, contacts, activities, and custom data into Close from your website or other systems via the REST API . Sync data out — Stream changes with webhooks , query the event log , or pull reporting metrics and pipeline data into your BI tools, data warehouse, or design custom dashboards & reports. Automate outreach — Manage workflows with sequences or bulk actions , or send email/SMS programmatically. Publish an integration — Build for many Close customers with OAuth and get listed in the integrations directory . Power AI agents — Give Claude, ChatGPT, Cursor, and other tools direct access to Close data via the MCP server — no code required. Getting help Our Support Team can assist Close customers with any questions about the API. Implementing something cool or want to chat about where our API is going? Schedule a call with Joe Kemp, VP of Engineering. Was this page helpful? Yes No Edit this page Next Build an Integration Built with Product Overview Communication Automation Integrations Reporting SMS Calling Security Forms Pricing & Use Cases Pricing Close vs Other CRMs Customer Stories Resources Sales Blog Sales Resources Sales Guides Webinars On-Demand Demo Sales Tools Company About Careers Partner with Close Brand Guidelines Terms Privacy GDPR CCPA Get Help +1-833-GO-CLOSE Help Center Download the Close App Product Updates System Status",
+      "content_sha256": "86c7382179591df79ca859b8959e9bbf03e9d387fb75b778619acd658addee21",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1616,
+    "output_tokens": 2451
+  },
+  "failure": null
+}

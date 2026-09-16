@@ -1,0 +1,194 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 7,
+    "app_name": "Zoho CRM",
+    "category": "1. CRM and Sales",
+    "website": "http://zoho.com/crm",
+    "description": "Zoho CRM provides an API that uses OAuth 2.0 protocol for authentication, enabling third-party applications to gain delegated access to protected resources such as Leads, Contacts, and Deals.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Zoho CRM provides an API that uses OAuth 2.0 protocol for authentication, enabling third-party applications to gain delegated access to protected resources such as Leads, Contacts, and Deals.",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+        "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+        "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+        "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence"
+    ],
+    "researched_at": "2026-09-16T17:16:15.725256+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 7,
+    "app_name": "Zoho CRM",
+    "category": "1. CRM and Sales",
+    "website": "http://zoho.com/crm",
+    "description": "Zoho CRM provides an API that uses OAuth 2.0 protocol for authentication, enabling third-party applications to gain delegated access to protected resources such as Leads, Contacts, and Deals.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API provides access to various CRM resources including Leads, Contacts, Deals, and supports OAuth 2.0 authentication with access and refresh tokens.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API uses OAuth 2.0 for authentication, with detailed documentation on token usage and access to protected resources, indicating that integration is feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Zoho CRM provides an API that uses OAuth 2.0 protocol for authentication, enabling third-party applications to gain delegated access to protected resources such as Leads, Contacts, and Deals.",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+        "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+        "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+        "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+        "quote": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:08.776039+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "retrieved_at": "2026-09-16T17:16:08.671809+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "OAuth 2.0 Authentication | Zoho CRM API | V8 OAuth 2.0 for V8 APIs - An Overview The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API. Why should we use OAuth 2.0? How OAuth 2.0 works? Key Terminologies in OAuth 2.0 Tokens Why should we use OAuth 2.0? Clients are not required to support password authentication or store user credentials. Clients gain delegated access, i.e., access only to resources authenticated by the user. Users can revoke the client's delegated access anytime. OAuth 2.0 access tokens expire after a set time. If the client faces a security breach, user data will be compromised only until the access token is valid. How OAuth 2.0 works? Key Terminologies in OAuth 2.0 The following are some terms you need to know before you start using the Zoho CRM APIs. Protected resources The Zoho CRM resources, such as Leads, Contacts, Deals, etc. Resource server The Zoho CRM server that hosts protected resources. Resource owner Any end-user of your account, who can grant access to the protected resources. Client An application that sends requests to the resource server to access the protected resources on behalf of the end-user. Client ID The consumer key generated from the connected application. Client Secret The consumer secret generated from the connected application. Authentication server Authorization server provides the necessary credentials (such as Access and Refresh tokens) to the client. In this case, it will be the Zoho CRM authorization server. Authentication code The authorization server creates a temporary token and sends it to the client via the browser. The client will send this code to the authorization server to obtain access and refresh tokens. Tokens Access Token A token that is sent to the resource server to access the protected resources of the user. The Access token provides secure and temporary access to the protected resources and is used by the applications to make requests to the connected app. Each access token will be valid only for an hour and can be used only for the set of operations that are described in the scope. Refresh Token A token that can be used to obtain new access tokens . This token has an unlimited lifetime until it is revoked by the end-user. Important User Access Token must be kept confidential since it provides access to protected resources. Do NOT expose your Access Token anywhere in public forums, public repositories or on your website's client-side code like HTML or JavaScript. Exposing it to the public may lead to data theft, loss or corruption.",
+      "content_sha256": "8f971bd309b14730863a3b597c3eda6fb4716555298241bd81d46ca085540491",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1589,
+    "output_tokens": 799
+  },
+  "failure": null
+}

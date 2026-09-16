@@ -1,0 +1,235 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 30,
+    "app_name": "Vonage",
+    "category": "3. Communications and Messaging",
+    "website": "http://developer.vonage.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Vonage APIs are accessible via self-serve paid model as users create accounts and obtain API keys and secrets from the dashboard.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+        "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+        "quote": "When you create a Vonage account, an API key and secret will be created for you. These are located in your account settings in the Vonage Dashboard.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "mixed_unknown_enum",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:18:24.341537+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 30,
+    "app_name": "Vonage",
+    "category": "3. Communications and Messaging",
+    "website": "http://developer.vonage.com/",
+    "description": "Vonage provides APIs for communications and messaging, supporting various authentication methods including API Key and Secret, Basic Authentication, and JSON Web Tokens (JWT). It offers SDKs for client and video applications, with detailed control over permissions via ACLs in JWTs.",
+    "auth_methods": [
+      "api_key",
+      "basic",
+      "oauth2",
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk",
+      "unknown"
+    ],
+    "api_breadth": "Vonage APIs cover messaging, voice, video, SIP trunking, and more, with authentication methods varying by product. SDKs are available for client and video applications.",
+    "mcp_available": "unknown",
+    "mcp_notes": "No explicit evidence found regarding a Marketplace or Community Marketplace Platform (MCP).",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Vonage provides comprehensive official API documentation with authentication details, SDKs, and examples, enabling developers to build integrations using REST APIs and SDKs with supported authentication methods.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Vonage provides APIs for communications and messaging, supporting various authentication methods including API Key and Secret, Basic Authentication, and JSON Web Tokens (JWT). It offers SDKs for client and video applications, with detailed control over permissions via ACLs in JWTs.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+        "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+        "quote": "Vonage APIs support different authentication methods depending on which product you are using: API{filter} API Key and Secret (Header) JSON Web Token (JWT) ... Messages supports both JWT and Basic authentication ... SIP Trunking uses Digest Authentication method ... Vonage Client SDKs use JWTs for authentication ... Access Control List (ACL) ... The Client SDK uses this as a permission system for users.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Vonage supports API Key and Secret, Basic Authentication, and OAuth2 (implied by JWT usage) as authentication methods.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+        "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+        "quote": "Vonage APIs support different authentication methods depending on which product you are using: API Key and Secret (Header) JSON Web Token (JWT) ... Basic Authentication ... SIP Trunking uses Digest Authentication method ... JWTs are used for Client SDKs.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Vonage APIs are accessible via self-serve paid model as users create accounts and obtain API keys and secrets from the dashboard.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+        "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+        "quote": "When you create a Vonage account, an API key and secret will be created for you. These are located in your account settings in the Vonage Dashboard.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Vonage provides APIs for messaging, voice, video, and other communications.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+        "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+        "quote": "Vonage APIs support different authentication methods depending on which product you are using: ... Messages ... Verify ... SIP Trunking ... Vonage Client SDKs ... Video Client SDK.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Vonage APIs include REST APIs and SDKs for client and video applications.",
+        "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+        "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+        "quote": "Vonage Client SDKs use JWTs for authentication ... The Client SDK uses this as a permission system for users.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:18:12.494026+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "auth_methods"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "api_types"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "retrieved_at": "2026-09-16T17:18:10.910460+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication - API Concepts | Vonage API Documentation Skip to Main Content Documentation Startups Blog Learning Center (Beta) API Dashboard Vonage.com Pricing Support Cookie settings My profile My dashboard Log out API Dashboard Vonage.com Pricing Support Legal & Privacy Cookie settings Documentation SDKs & Tools Community Startups Blog Learning Center (Beta) View All docs Authentication Vonage APIs support different authentication methods depending on which product you are using: API{filter} API Key and Secret (Header) JSON Web Token (JWT) Accounts Application Audit Channel Manager Conversation Conversion Device Location Retrieval Dispatch External Accounts Identity Insights Media Messages 1 Numbers Number Insight Pricing v1 Pricing v2 Programmable SIP Quality on Demand Redact Reports SMS Verify (Legacy) Verify 2 Voice 3 Video 1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JWT Authentication. See Messages API Authentication 2 Verify supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced features such as ACLs. 3 SIP Trunking uses Digest Authentication method with the API Key as user and API Secret as password. Contents In this document you can learn about authentication via the following means: API Key and Secret Basic Authentication Secret Rotation JSON Web Tokens (JWT) API Key and Secret When you create a Vonage account, an API key and secret will be created for you. These are located in your account settings in the Vonage Dashboard. You should always keep these secure and never share these details : be careful when adding it to your codebase to make sure they are not shared with anyone who may use it maliciously. If you use message signatures , these are generated using the SIGNATURE_SECRET rather than the API_SECRET ; both values can be found in your account settings . Note: The secret should always be kept secure and never shared. Be careful when adding it to your codebase to make sure it is not shared with anyone who may use it maliciously. Read more about the Best Security Practices for your Vonage Account . Vonage APIs may require your API Key and Secret in a number of different ways. Basic Authentication A number of newer Vonage APIs require authentication to be done using an API key and secret sent Base64 encoded in the Authorization header. For these APIs, you send your API key and secret in the following way: Copy Authorization: Basic base64(API_KEY:API_SECRET) If your API key were aaa012 and your API secret were abc123456789 , you would concatenate the key and secret with a : (colon) symbol and then encode them using Base64 encoding to produce a value like this: Copy Authorization: Basic YWFhMDEyOmFiYzEyMzQ1Njc4OQ== A website for generating Base64 encoded strings can be found here: General: Base64 Encode and Decode Details on how to encode Base64 strings in a variety of programming languages can be found at the following websites: C#/.NET: How do I encode and decode a Base64 string? from StackOverflow Go: Base64 Encoding from Go By Example Java: Base64 JavaScript: Base64 encoding and decoding from MDN web docs PHP: base64_encode Python: Base64 Ruby: Base64 Swift: Base64 Encode and Decode in Swift from iOS Developer Tips Secret Rotation It is possible to have two API secrets to be used against one API key at the same time. This way you can create a second API secret and test it before revoking the existing API secret in your production network. The API secret rotation procedure consists of the following steps: Create a second API secret in your account settings or by using the secret rotation API . Update one or more of your servers to use the newly created API secret for making calls to Vonage APIs Test that there are no connectivity issues and roll out the API secret update across the remaining servers Delete the replaced API secret JSON Web Tokens JSON Web Tokens (JWTs) are a compact, URL-safe means of representing claims to be transferred between two parties. For a full list of the APIs that use JWTs, please see the table above . Header and Payload JWTs consist of a Header and a Payload. The values for the Header are: Name Description Required alg The encryption algorithm used to generate the JWT. RS256 is supported. typ The token structure. Set to JWT . The values for the payload claim are: Name Description Required application_id The unique ID allocated to your application by Vonage. iat The UNIX timestamp at UTC + 0 indicating the moment the JWT was requested. jti A unique string identifier of the JWT. nbf The UNIX timestamp at UTC + 0 indicating the moment the JWT became valid. exp The UNIX timestamp at UTC + 0 indicating the moment the JWT is no longer valid. A minimum value of 30 seconds from the time the JWT is generated. A maximum value of 24 hours from the time the JWT is generated. A default value of 15 minutes from the time the JWT is generated. Generating JWTs Using the Vonage CLI to generate JWTs The Vonage CLI provides a command for generating a JWT. An example of generating a JWT for an application is as follows: Copy # A command with parameters vonage jwt create ` -- app - id = '00000000-0000-0000-0000-000000000000' ` -- private - key = . / private.key # Will produce a token eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYyODE5NDYsImp0aSI6IjBmZjcwZDNmLTAzN2EtNGY4MC04ODZjLWI3MmM3MmQyMWNmMiIsImlhdCI6MTczNjI4MTA0NiwiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.gA7jClpqaZ2OoS0iri - zGCbda4jO7C0M8mka0EnSyjlds1EeY8fNoBEx3FTXHfkkzzrj0TskrWc_dcs1wuM8Kx55c5rLQ7taVpDAYopKSc_CeeOaad8S6aWnRkTUTNeduO4aIn - 0CbyRTluBYsH1RBqYBQvobuQIDEwbFw8xBgx0UfREMMN6DAWknR57eiVXN9x_oD6CGQJ1yV3025nGboeMsP9YgX4Nwc - rE2r8c1ZGwCLO81x8i19Qil3Nwu5q1nzouyavQjIw00B_TZkushnI1ufdi_GNqk - h5q2HvGkg7Pj9bVkZHFdVTO8im03JYNyJmcV83vnpjOLuCFRzxQ Copy REM A command with parameters vonage jwt create ^ -- app - id = '00000000-0000-0000-0000-000000000000' ^ --private- key = ./ private .key REM Will produce a token eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYyODE5NDYsImp0aSI6IjBmZjcwZDNmLTAzN2EtNGY4MC04ODZjLWI3MmM3MmQyMWNmMiIsImlhdCI6MTczNjI4MTA0NiwiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ. gA7jClpqaZ2OoS0iri - zGCbda4jO7C0M8mka0EnSyjlds1EeY8fNoBEx3FTXHfkkzzrj0TskrWc_dcs1wuM8Kx55c5rLQ7taVpDAYopKSc_CeeOaad8S6aWnRkTUTNeduO4aIn - 0CbyRTluBYsH1RBqYBQvobuQIDEwbFw8xBgx0UfREMMN6DAWknR57eiVXN9x_oD6CGQJ1yV3025nGboeMsP9YgX4Nwc - rE2r8c1ZGwCLO81x8i19Qil3Nwu5q1nzouyavQjIw00B_TZkushnI1ufdi_GNqk - h5q2HvGkg7Pj9bVkZHFdVTO8im03JYNyJmcV83vnpjOLuCFRzxQ # A command with parameters vonage jwt create \\ --app-id='00000000-0000-0000-0000-000000000000' \\ --private-key=./private.key # Will produce a token eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYyODE5NDYsImp0aSI6IjBmZjcwZDNmLTAzN2EtNGY4MC04ODZjLWI3MmM3MmQyMWNmMiIsImlhdCI6MTczNjI4MTA0NiwiYXBwbGljYXRpb25faWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAifQ.gA7jClpqaZ2OoS0iri-zGCbda4jO7C0M8mka0EnSyjlds1EeY8fNoBEx3FTXHfkkzzrj0TskrWc_dcs1wuM8Kx55c5rLQ7taVpDAYopKSc_CeeOaad8S6aWnRkTUTNeduO4aIn-0CbyRTluBYsH1RBqYBQvobuQIDEwbFw8xBgx0UfREMMN6DAWknR57eiVXN9x_oD6CGQJ1yV3025nGboeMsP9YgX4Nwc-rE2r8c1ZGwCLO81x8i19Qil3Nwu5q1nzouyavQjIw00B_TZkushnI1ufdi_GNqk-h5q2HvGkg7Pj9bVkZHFdVTO8im03JYNyJmcV83vnpjOLuCFRzxQ Copy The private key in question is generated from the application dashboard or from vonage apps create . You can save this information for the CLI by running vonage auth set . The contents of the private key will then be saved in either the .vonagerc file or $HOME/.vonage/config.json . Further information on the Vonage CLI can be found in its repository on GitHub . Examples of using the Vonage libraries to generate JWTs can be found below . If you are not using a Vonage library you should refer to RFC 7519 to implement JWTs. Vonage Client SDKs The Vonage Client and Video SDKs use JWTs for authentication when a client connects to Vonage. These JWTs are generated using the application ID and private key that is provided when a new application is created . Claims Using that private.key and the application ID, you can mint a new JWT. In order to log a user into a Vonage client, the JWT will need the following claims: Vonage Client SDK Claim Description sub The \"subject\". The subject, in this case, will be the name of the user created and associated with your Vonage Application. acl Access control list. The Client SDK uses this as a permission system for users. Read more about it in the ACL overview . application_id This is the ID of the Vonage Application you created. iat \"Issued at time\" This is the time the JWT was issued, in unix epoch time. jti \"JWT ID\" . This is a unique string identifier for this JWT. exp \"Expiration time\" This is the time in the future that the JWT will expire, in unix epoch time. The exp claim is optional. If the claim is not provided, then the JWT will expire by default in 15 minutes. The max expiration time for a JWT is 24 hours. JWTs should typically be short-lived, as it is trivial to create a new JWT and some JWTs can have multiple far-reaching permissions. Sample Client SDK JWT Payload Once all the claims have been provided, the resulting claims should appear like so: Copy { \"iat\" : 1532093588 , \"jti\" : \"705b6f50-8c21-11e8-9bcb-595326422d60\" , \"sub\" : \"alice\" , \"exp\" : \"1532179987\" , \"acl\" : { \"paths\" : { ... } }, \"application_id\" : \"aaaaaaaa-bbbb-cccc-dddd-0123456789ab\" } ( ... snippet is truncated) Vonage Video Client SDK Claim Description sub The \"subject\". The subject, in this case, should be the string video . acl Access control list. The Client SDK uses this as a permission system for users. Read more about it in the ACL overview . application_id This is the ID of the Vonage Application you created. session_id This is the ID of the Session you created. scope This is the scope of the token. It should be the string session.connect . role This is the role of the token. It can be a range of string values depending on what permissions you want to grant this token. data This custom metadata you can optionally add to describe the token. This is a string limited to 1000 characters . initial_layout_class_list This lets you optionally, when broadcasting, specify the initial layout class list for streams published by the client. iat \"Issued at time\" This is the time the JWT was issued, in unix epoch time. jti \"JWT ID\" . This is a unique string identifier for this JWT. exp \"Expiration time\" This is the time in the future that the JWT will expire, in unix epoch time. The exp claim is optional. If the claim is not provided, then the JWT will expire by default in 15 minutes. The max expiration time for a Video SDK JWT is 24 hours. JWTs should typically be short-lived, as it is trivial to create a new JWT and some JWTs can have multiple far-reaching permissions. Always make sure to try and set an exp time to the least amount of time that is feasible for your application. Sample Video Client SDK JWT Payload Copy { \"scope\" : \"session.connect\" , \"session_id\" : \"1_MX44YjY4NTFmZS01NjdjLTRlODYtYWRmOC0zYmVhODM2MzNjNjB-fjE3NDIzMDY0ODY0NjZ-WS9FOHhybUdHV0JtTGZYTEV2aVlwV1N4fn5-\" , \"role\" : \"moderator\" , \"initial_layout_class_list\" : \"\" , \"sub\" : \"video\" , \"acl\" : { \"paths\" : { \"/session/**\" : {} } }, \"jti\" : \"c04c96ba-3229-4fd4-9f55-406b6a6eb485\" , \"iat\" : 1742306486 , \"exp\" : 1742307386 , \"application_id\" : \"8b6851fe-567c-4e86-adf8-3bea83633c60\" } Access Control List (ACL) In the sample JWT request payload above, notice how the acl claim has a paths object. The path object contains a list of endpoints that correspond to certain permissions a user has when using the Client SDK. Below is the list of endpoints you can grant a user access to: Endpoint Description Required for /*/rtc/** Create signalling session to receive events and send metrics In-app calls/message /*/sessions/** Log in as an in-app voice or chat user In-app calls/messages /*/users/** Getting user conversations, user sessions and user object In-app calls/messages /*/conversations/** Create and manage conversations & send/receive messages In-app calls/messages /*/knocking/** Start phone calls In-app calls /*/devices/** Register device to receive push notifications In-app calls/messages /*/legs/** Create and manage legs in a conversation In-app calls /*/session/** Connect to a video session Video You should provide the user you are generating with permissions to access only the relevant paths. For instance, if the Voice Client SDK user is not going to need to fetch information about their User object or other Users, you should omit the users path. To further illustrate, if you add the /*/conversations/** path to a JWT's ACL, the user will be able to create and manage conversations. Also, if this is the only ACL set, the user will only have access to the /conversations endpoint. Note: Using wildcards in your ACL paths (e.g. /*/conversations/** ) will allow the JWT token to access all the operations for that endpoint. It is strongly recommended that you use more granular control of your ACL paths as illustrated below. Granular ACL Paths Above, we looked at how to grant users access to endpoints. You may also limit or grant access based on sub-paths and HTTP methods. This allows you to very granularly define what permissions a token should have. For example in your Voice Client SDK application you want users to be able to get information about a conversation: Copy { \"acl\" : { \"paths\" : { \"/*/conversations/**\" : {} } } } The above ACL paths allows anyone with this token to make requests to any Conversation API endpoint linked to your Vonage application. This will allow whoever holds this token get a list of ongoing Conversations in your application, create new Conversations, or more. To mitigate this, you can specify which paths specifically should be accessible and which HTTP methods are allow",
+      "content_sha256": "cc6ef7ca9389a62e7a1af033f130367e6451177f2592d3a5df8f0bb9cfb09002",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4981,
+    "output_tokens": 1318
+  },
+  "failure": null
+}

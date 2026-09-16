@@ -1,0 +1,496 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 87,
+    "app_name": "Xero",
+    "category": "9. Finance and Fintech",
+    "website": "http://developer.xero.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Xero MCP Server This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "nonofficial_critical_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:44:28.657041+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 87,
+    "app_name": "Xero",
+    "category": "9. Finance and Fintech",
+    "website": "http://developer.xero.com/",
+    "description": "Xero provides a platform for developers to build apps that connect with Xero's accounting and business features via APIs. It offers a tiered pricing model based on connections and API data egress volume, with developer tools, AI toolkit, and premium features such as journal endpoints and Xero Practice Manager API. The platform supports OAuth 2.0 authentication and provides an MCP server implementation for standardized access to Xero's features.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk",
+      "other"
+    ],
+    "api_breadth": "Xero APIs cover accounting, invoicing, contacts, payments, payroll, reports, and more, with extensive endpoints for creating, updating, and retrieving financial data.",
+    "mcp_available": "official",
+    "mcp_notes": "An official MCP server implementation is available on GitHub, providing a bridge between the MCP protocol and Xero's API, supporting OAuth2 authentication with custom connections and bearer token modes, and exposing numerous MCP commands for managing accounts, contacts, invoices, payroll, and reports.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official Xero Developer Platform provides comprehensive REST APIs with OAuth2 authentication, detailed documentation, and an official MCP server implementation with source code and instructions, enabling developers to build integrations and apps effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Xero provides a platform for developers to build apps that connect with Xero's accounting and business features via APIs. It offers a tiered pricing model based on connections and API data egress volume, with developer tools, AI toolkit, and premium features such as journal endpoints and Xero Practice Manager API. The platform supports OAuth 2.0 authentication and provides an MCP server implementation for standardized access to Xero's features.",
+        "url": "https://developer.xero.com/pricing",
+        "final_url": "https://developer.xero.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:44:01.590895+00:00",
+        "content_sha256": "dbb365bd316d9f9ffe5ecdc8041c36f535ac36ec4602ffd2499cdc79d9e7c207",
+        "quote": "We believe in the power of the Xero ecosystem, and we're committed to giving our App Partners the best platform to build, grow, and connect with our customers. ... Clear, usage based pricing: Designed to meet developers where they are in their app development journey, we are retiring our current revenue share model ... five tiers: Starter, Core, Plus, Advanced, Enterprise. ... Developer tools (API explorer, Postman, Insomnia, Linx) AI toolkit (MCP server, Open AI Agentic SDKs, Prompt library, AI enablement videos) ... Premium features ... Journal endpoint ... Xero Practice Manager (XPM) API ... OAuth 2 API reference ... MCP server ... Xero APIs ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Xero OAuth2 authentication with custom connections ... There are 2 modes of authentication supported in the Xero MCP server: 1. Custom Connections ... 2. Bearer Token ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "2. Bearer Token This is a better choice if you are to support multiple Xero accounts at runtime and allow the MCP client to execute an auth flow (such as PKCE) as required.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.xero.com/pricing",
+        "final_url": "https://developer.xero.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:44:01.590895+00:00",
+        "content_sha256": "dbb365bd316d9f9ffe5ecdc8041c36f535ac36ec4602ffd2499cdc79d9e7c207",
+        "quote": "App pricing is a flat monthly fee based on tier and includes a set allotment of data consumption via the Xero APIs. Additional data consumption is available at additional cost. ... Monthly Tier Fee No charge $35 AUD $245 AUD $1445 AUD Price on Application ... Payments are accepted via registered credit card. Your card details will be required when moving from the Starter to the Core tier.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.xero.com/pricing",
+        "final_url": "https://developer.xero.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:44:01.590895+00:00",
+        "content_sha256": "dbb365bd316d9f9ffe5ecdc8041c36f535ac36ec4602ffd2499cdc79d9e7c207",
+        "quote": "Open APIs Webhooks Rate Limits 1000 per day per org 5000 per day per org ... API Egress Usage Report ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "[\"rest\",\"sdk\",\"other\"]",
+        "url": "https://developer.xero.com/pricing",
+        "final_url": "https://developer.xero.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:44:01.590895+00:00",
+        "content_sha256": "dbb365bd316d9f9ffe5ecdc8041c36f535ac36ec4602ffd2499cdc79d9e7c207",
+        "quote": "Developer tools (API explorer, Postman, Insomnia, Linx) ... OAuth 2 API reference ... AI toolkit (MCP server, Open AI Agentic SDKs, Prompt library) ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "Xero APIs cover accounting, invoicing, contacts, payments, payroll, reports, and more, with extensive endpoints for creating, updating, and retrieving financial data.",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Available MCP Commands list-accounts : Retrieve a list of accounts list-contacts : Retrieve a list of contacts from Xero list-credit-notes : Retrieve a list of credit notes list-invoices : Retrieve a list of invoices ... create-invoice : Create a new invoice create-payment : Create a new payment create-payroll-timesheet : Create a new Payroll Timesheet ... list-payroll-employees : Retrieve a list of Payroll Employees list-report-balance-sheet : Retrieve a balance sheet report ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Xero MCP Server This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_notes",
+        "claim": "An official MCP server implementation is available on GitHub, providing a bridge between the MCP protocol and Xero's API, supporting OAuth2 authentication with custom connections and bearer token modes, and exposing numerous MCP commands for managing accounts, contacts, invoices, payroll, and reports.",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Features Xero OAuth2 authentication with custom connections Contact management Chart of Accounts management Invoice creation and management MCP protocol compliance ... Available MCP Commands list-accounts ... list-invoices ... create-invoice ... create-payment ... list-payroll-employees ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.xero.com/pricing",
+        "final_url": "https://developer.xero.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:44:01.590895+00:00",
+        "content_sha256": "dbb365bd316d9f9ffe5ecdc8041c36f535ac36ec4602ffd2499cdc79d9e7c207",
+        "quote": "Developer tools (API explorer, Postman, Insomnia, Linx) AI toolkit (MCP server, Open AI Agentic SDKs, Prompt library, AI enablement videos) OAuth 2 API reference ... Apps will receive 30 days prior notice to their migration. Apps created on or after 2 March, 2026 will move directly to the new pricing model.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability_rationale",
+        "claim": "The official Xero Developer Platform provides comprehensive REST APIs with OAuth2 authentication, detailed documentation, and an official MCP server implementation with source code and instructions, enabling developers to build integrations and apps effectively.",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Xero MCP Server This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features. ... Authentication There are 2 modes of authentication supported in the Xero MCP server: 1. Custom Connections ... 2. Bearer Token ... For detailed API documentation, please refer to the MCP Protocol Specification .",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:44:05.162767+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [
+    {
+      "query": "Xero developer API authentication pricing access official docs",
+      "attempt": 1,
+      "response": {
+        "data": {
+          "answer": null,
+          "follow_up_questions": null,
+          "images": [],
+          "query": "Xero developer API authentication pricing access official docs",
+          "request_id": "6099eff0-c7ec-4759-b199-37b8654705c6",
+          "response_time": 1.14,
+          "results": [
+            {
+              "content": "## FAQ\n\nHow much does Xero API access cost in 2026?\n:   Xero's API pricing ranges from $0 (Starter, 5 connections) to $1,445 AUD/month (Advanced, 10,000 connections). Each paid tier includes a data egress allowance (10 GB to 250 GB), with overages billed at $2.40 AUD per GB. Enterprise pricing is negotiated. [...] Xero is now charging for API access. On March 2, 2026, Xero retired its 15% App Store revenue-share model and replaced it with a five-tier pricing structure based on two metrics: the number of connected Xero organizations (tenants) and monthly data egress volume. If you're a B2B SaaS company that integrates with Xero, this directly impacts your COGS. [...] Historically, Xero monetized its developer platform by taking a 15% revenue share from applications sold through the Xero App Store. If you acquired customers outside their marketplace, or if you didn't charge specifically for the Xero integration, your API access was effectively free—constrained only by standard rate limits.",
+              "id": "b1c1dd-00",
+              "raw_content": null,
+              "score": 0.6826801,
+              "title": "Xero API Pricing Changes 2026: Costs, Tiers, and How to ...",
+              "url": "https://truto.one/blog/xero-api-pricing-changes-2026-costs-tiers-and-how-to-minimize-egress"
+            },
+            {
+              "content": "| Tier | Monthly Fee | Features |\n --- \n| Developer Access | $110 AUD | Basic API access |\n| DeveloperPartner | $220 AUD | Enhanced features |\n| Premium DeveloperPartner | $630 AUD | Full access |\n\nAdvantage: Predictable costs regardless of API usage volume.\n\nDisadvantage: Higher baseline commitment than Xero's free Starter tier for small-scale projects.\n\n### Platform comparison summary [...] Additional pricing details:\n\n Overage rate: $2.40 AUD per GB (~$1.50 USD)\n Daily API limit: 5,000 calls per organization (1,000/org on Starter tier)\n\nFor US-based developers, the Advanced tier translates to approximately $895 USD/month or $10,740 USD annually.\n\n### Key pricing mechanics [...] ## What changed and why it matters\n\nXero announced its new API pricing on December 4, 2025, ending what Lielette Millar, RSM Australia's digital advisory national director, described as the end of the \"all-you-can-eat Xero data buffet.\" Previously, developers could access Xero's APIs entirely free by billing customers directly outside the Xero App Store—a common practice that helped build Xero's ecosystem of 500+ apps serving 4.6 million global subscribers.",
+              "id": "218d61-01",
+              "raw_content": null,
+              "score": 0.6493346,
+              "title": "Xero API Pricing and the App Partner Program",
+              "url": "https://www.apideck.com/blog/xero-api-pricing-and-the-app-partner-program"
+            },
+            {
+              "content": "| Overage Xero API usage egress pricing (per GB) | n/a | $2.40 AUD | $2.40 AUD | $2.40 AUD | Price on Application | [...] ## Tier Fees, Connection Limits, and API Volume Usage\n\nApp pricing is a flat monthly fee based on tier and includes a set allotment of data consumption via the Xero APIs. Additional data consumption is available at additional cost. [...] Updated policies for AI data use and access: The updates to the Xero Developer Terms and Conditions and accompanying commercial terms are effective for new developers from 4 December and for existing developers from 2 March. These updates support the new commercial model and provide developers with clarity about tools which may not be used in conjunction with the developer platform and, importantly, that data obtained from Xero’s APIs may not be used to train AI/ML models.",
+              "id": "1facaa-02",
+              "raw_content": null,
+              "score": 0.63397753,
+              "title": "Pricing — Xero Developer",
+              "url": "https://developer.xero.com/pricing"
+            },
+            {
+              "content": "| Offline Access | Yes | Yes | Yes |\n| Cost | Free | Free | Monthly fee on the Xero organisation - $10/m AUD inc GST - $10/m NZD ex GST - £5/m GBP ex VAT - $5/m USD ex tax |\n| Regional availability | Global | Global | UK, AU, NZ and US Xero organisations only | [...] Skip to main content\n\nXero Developer Home\n\nXero Developer Home\n\nXero Developer Home\n\n## Documentation\n\n Getting started\n Development accounts\n ### SDKs and tools\n ### Best Practices\n ### Guides\n\n  + #### OAuth2\n\n    - Overview\n    - The code flow\n    - The PKCE flow\n    - Custom Connections\n    - Client Credentials\n    - Token types\n    - Scopes\n    - Tenants\n    - Limits\n    - Troubleshooting\n ### Xero App Store\n\n# OAuth 2.0 [...] Xero’s API supports the authorization code grant type using the standard authorization code flow or the Proof Key for Code Exchange (PKCE) extension. We also have a premium integration option called Custom Connections which utilises the client credentials grant type.",
+              "id": "a4b1ec-03",
+              "raw_content": null,
+              "score": 0.6172364,
+              "title": "OAuth 2.0 - Xero Developer",
+              "url": "https://developer.xero.com/documentation/guides/oauth2/overview"
+            },
+            {
+              "content": "The update to the Xero Developer Terms and Conditions, provides developers with clarity about the use of our Developer Platform, including prohibitions on using API data for AI/ML training and certain automated tools. We’re also updating our Developer Platform Commercial Terms, which consolidates the existing Xero App Store Terms and Xero Certified Integration Terms, to reflect the new pricing model. If you registered as a Xero developer on or after 4 December, 2025, these revised terms apply [...] ### 02. What is changing?\n\nBeginning on 2 March, 2026, we will be moving to a commercial tiering model based on connections and Xero API usage. Xero will no longer be pricing based on a revenue-share model\n\nWe are revising our Xero Developer Platform Terms and accompanying Commercial Terms to support this new model and, importantly, clarify that API data may not be used to train AI/ML models. [...] Designed to meet developers where they are in their app development journey, we are transitioning to five tiers: Starter, Core, Plus, Advanced, Enterprise based on connections and data consumption via the Xero APIs. This change will make it easier to move through the tiers and access benefits as you grow and scale, while also making it clearer for developers to forecast and control their pricing. Changes to app tiers and pricing model changes will take effect on 2 March, 2026.",
+              "id": "c3be42-04",
+              "raw_content": null,
+              "score": 0.6033015,
+              "title": "Pricing and Policy Updates FAQs",
+              "url": "https://developer.xero.com/faq/pricing-and-policy-updates"
+            }
+          ]
+        },
+        "error": null,
+        "successful": true
+      },
+      "ok": true,
+      "action": "COMPOSIO_SEARCH_TAVILY",
+      "version": "20260903_00",
+      "operation": "tools.execute",
+      "arguments": {
+        "query": "Xero developer API authentication pricing access official docs"
+      },
+      "user_id": "uday-assessment"
+    },
+    {
+      "query": "Xero MCP server official community",
+      "attempt": 1,
+      "response": {
+        "data": {
+          "answer": null,
+          "follow_up_questions": null,
+          "images": [],
+          "query": "Xero MCP server official community",
+          "request_id": "1d540ea1-f6cc-4304-911c-48e7241c8f16",
+          "response_time": 1.22,
+          "results": [
+            {
+              "content": "Xero’s official MCP server\n Community and unverified servers\n Composio\n Pipedream Connect\n Zapier\n Kipper\n\n## Xero’s official MCP server\n\n`XeroAPI/xero-mcp-server` is the starting point for developers. Xero publishes it on GitHub and npm as `@xeroapi/xero-mcp-server`. It runs locally as a stdio server and can be added to MCP-compatible clients such as Claude Desktop and Codex. [...] One user or the whole team? A local MCP server is a technical user’s tool. Every machine needs config, credentials, updates, and troubleshooting. Team access means identity, permissions, logging, and support. If the whole company is asking, the MCP server is only one part of the system.\n\n## FAQ\n\n### Is there an official Xero MCP server?\n\nYes. Xero publishes `XeroAPI/xero-mcp-server` on GitHub and `@xeroapi/xero-mcp-server` on npm. It is MIT-licensed and runs as a local stdio MCP server. [...] | Xero official | Community servers | Composio | Pipedream | Zapier | Kipper |\n ---  ---  --- |\n| Built for | Developers | Developers | Agent builders | Product teams | Automation builders | Finance teams |\n| Runs | Local stdio | Varies | Composio cloud | Pipedream cloud | Zapier cloud | Kipper cloud |\n| Write access | Scope-dependent | Verify | Yes, tool-based | Yes, action-based | Yes, action-based | Impossible by architecture |",
+              "id": "ea39b5-00",
+              "raw_content": null,
+              "score": 0.88372874,
+              "title": "Xero MCP Server: Ways to Connect AI to Your Books | Kipper",
+              "url": "https://kipper.com/blog/xero-mcp-server-options-compared"
+            },
+            {
+              "content": "Yes — Xero has an official MCP server. It’s published by XeroAPI, the team behind Xero’s developer platform, and it gives any MCP-compatible AI read and write access to your Xero organisation — invoices, contacts, the chart of accounts, payments, payroll, and financial reports. The catch worth knowing up front: it’s a self-hosted, local server you run yourself with developer credentials, not a hosted `mcp.xero.com` you click to authorize. Don’t confuse it with JAX (Just Ask Xero), Xero’s own [...] ## FAQ\n\nDoes Xero have an official MCP server? Yes. XeroAPI publishes `XeroAPI/xero-mcp-server`, an official server that gives MCP-compatible AI tools read/write access to your Xero organisation. It’s self-hosted and runs locally through your AI client rather than as a hosted remote URL, and it’s separate from JAX, Xero’s built-in AI companion. [...] ## What the Xero MCP server does\n\nModel Context Protocol (MCP) is the open standard that lets an AI client — Claude, ChatGPT, Cursor, VS Code, and others — talk to an outside app through a shared interface. Xero maintains an official server, `XeroAPI/xero-mcp-server`, that runs locally through your AI client and connects to Xero’s accounting and payroll API.\n\nWith it connected, an AI client can:",
+              "id": "d173a7-01",
+              "raw_content": null,
+              "score": 0.79637206,
+              "title": "Xero MCP: Official, but You Have to Self-Host It",
+              "url": "https://www.usecarly.com/blog/xero-mcp"
+            },
+            {
+              "content": "## About\n\nXero Accounting is a community-built MCP server published by john-zhang-dev that provides AI assistants with tools and capabilities via the Model Context Protocol. Seamlessly connect with Xero software to access accounts, transactions, and invoices for efficient financial analysis an It is categorized under finance.\n\n## How to install [...] Xero Accounting is among the better-indexed MCP projects we tried; the explainx.ai summary tracks the official description.\n\nshowing 1-10 of 57\n\n## Installation\n\nSelect a client to integrate this server.\n\nClaude Desktop configuration\n\nClaude Desktop\n\nconfig\n\nCursor\n\none-click\n\nVS Code\n\none-click\n\nClaude Code\n\ncli\n\nGemini\n\ncli\n\nCodex\n\ncli\n\nWindsurf\n\nconfig\n\nManual\n\nconfig\n\n# Xero MCP Server\n\nsmithery badge\n\nsmithery badge [...] Useful MCP listing: Xero Accounting is the kind of server we cite when onboarding engineers to host + tool permissions.\n\nUseful MCP listing: Xero Accounting is the kind of server we cite when onboarding engineers to host + tool permissions.\n\nXero Accounting is among the better-indexed MCP projects we tried; the explainx.ai summary tracks the official description.\n\nWe evaluated Xero Accounting against two servers with overlapping tools; this profile had the clearer scope statement.",
+              "id": "3f872f-02",
+              "raw_content": null,
+              "score": 0.7208996,
+              "title": "Xero Accounting — MCP server | explainx.ai | explainx.ai",
+              "url": "https://www.explainx.ai/mcp-servers/xero-accounting"
+            },
+            {
+              "content": "This is just the beginning. We’re excited to see how our developer community will leverage our MCP server to create innovative AI-powered solutions that enhance the Xero ecosystem. We’re committed to providing developers with the tools and technology to push the boundaries of AI in accounting, and this launch represents a major step forward in that journey. Stay tuned for more updates as we continue to explore the possibilities of AI in accounting.\n\nLearn more about MCP here. [...] 4\n\nListen\n\nShare\n\nThe world of AI is rapidly evolving, and at Xero, we’re committed to staying at the forefront of innovation. We’re thrilled to announce the launch of a Model Context Protocol (MCP) server specifically designed for accounting data, available as open-source on GitHub.\n\nThe Model Context Protocol (MCP) and Why It Matters [...] Here are a few ways that developers can use our MCP server to create innovative AI-powered solutions:\n\nOpen Source and Built for Developers\n\nWe believe in the power of collaboration, which is why we’ve made our MCP server open-source. Developers can explore the code, contribute to its development, and build innovative AI-powered applications that integrate with Xero. You can find the code on our GitHub repository.",
+              "id": "66887d-03",
+              "raw_content": null,
+              "score": 0.72019166,
+              "title": "Xero introduces new Model Context Protocol server for ...",
+              "url": "https://devblog.xero.com/xero-introduces-new-model-context-protocol-server-for-smarter-accounting-4d195ccaeda5"
+            },
+            {
+              "content": "## Repository files navigation\n\n# Xero MCP Server\n\nThis is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.\n\n## Features\n\n Xero OAuth2 authentication with custom connections\n Contact management\n Chart of Accounts management\n Invoice creation and management\n MCP protocol compliance\n\n## Prerequisites [...] ## License\n\nMIT\n\nPlease do not commit your `.env` file or any sensitive credentials to version control (it is included in `.gitignore` as a safe default.)\n\n## About\n\nAn MCP server that integrates with the MCP protocol. \n\n### Resources\n\nMIT license\n\n### Code of conduct\n\nCode of conduct\n\n### Contributing\n\nCustom properties\n\n### Stars\n\n364 stars\n\n### Watchers\n\n16 watching\n\n### Forks\n\n189 forks\n\nReport repository\n\n## Used by\n\nYou can’t perform that action at this time. [...] ```\n\"mcpServers\" \"xero\" \"command\" \"npx\" \" \" \"args\"\"-y\" \" \"\"@xeroapi/xero-mcp-server@latest\" \" \" \"env\" \"XERO_CLIENT_ID\" \"your_client_id_here\" \" \" \"XERO_CLIENT_SECRET\" \"your_client_secret_here\" \" \" \"XERO_SCOPES\"\"accounting.invoices accounting.contacts accounting.settings\" \" \"\n```\n\nThe `XERO_SCOPES` variable is optional. If omitted, the default scopes listed above will be used.",
+              "id": "167a79-04",
+              "raw_content": null,
+              "score": 0.635879,
+              "title": "Xero MCP Server",
+              "url": "https://github.com/xeroapi/xero-mcp-server"
+            }
+          ]
+        },
+        "error": null,
+        "successful": true
+      },
+      "ok": true,
+      "action": "COMPOSIO_SEARCH_TAVILY",
+      "version": "20260903_00",
+      "operation": "tools.execute",
+      "arguments": {
+        "query": "Xero MCP server official community"
+      },
+      "user_id": "uday-assessment"
+    }
+  ],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.xero.com/pricing",
+      "final_url": "https://developer.xero.com/pricing",
+      "retrieved_at": "2026-09-16T17:44:01.590895+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Pricing — Xero Developer Skip to main content Getting Started 2026 App Awards Documentation Tools Support Sign up Log in Main content start Xero Developer Pricing and Policies FAQs Partner Tiers Benefits by Tier Tier Fees, Connection Limits, and API Volume Usage via the Xero API Migration of Existing Apps Xero Developer’s Terms and Conditions Including the Associated Commercial Terms Support and Resources for Developers Introduction We believe in the power of the Xero ecosystem, and we're committed to giving our App Partners the best platform to build, grow, and connect with our customers. To ensure we continue to provide a platform that gives you greater clarity, stability, and control over your development journey, we’re making two important updates: an evolution of our Xero Developer pricing model and an update to our Developer Terms and Conditions. Clear, usage based pricing: Designed to meet developers where they are in their app development journey, we are retiring our current revenue share model (comprising Xero App Store Subscriptions and Commercial Billing) and introducing five tiers: Starter, Core, Plus, Advanced, Enterprise. These tiers are based on connections and data egress volume via the Xero APIs, making it easier to access benefits as you grow and scale, while also making it clearer for you to forecast and control costs. App tiers and pricing model changes will take effect on 2 March, 2026. Updated policies for AI data use and access: The updates to the Xero Developer Terms and Conditions and accompanying commercial terms are effective for new developers from 4 December and for existing developers from 2 March. These updates support the new commercial model and provide developers with clarity about tools which may not be used in conjunction with the developer platform and, importantly, that data obtained from Xero’s APIs may not be used to train AI/ML models. Partner Tiers Tiers have been created to enable early innovation and create an accessible entry point for developers just getting started. As your app scales, requiring additional benefits, you can easily move through the tiers. Starter Core Plus Advanced Enterprise Connections (maximum) 5 50 1000 10,000 No Limit Prerequisites App Certification App Certification App Certification Prerequisites (continued) Security Assessment (initial and annual) Security Assessment (initial and annual) Payment Method Not Applicable Required Required Required Required Xero App Store Not Applicable Not Applicable Optional Optional Required Benefits by Tier Xero continues to invest in our ecosystem and the growth programs, co-marketing opportunities, technical support and benefits that enable you to connect to Xero’s 4.6+ million global subscribers. Benefit Starter Core Plus Advanced Enterprise Developer tools and resources Developer tools (API explorer, Postman, Insomnia, Linx) AI toolkit (MCP server, Open AI Agentic SDKs, Prompt library, AI enablement videos) Developer Dashboard (usage and connections data) Standard features Open APIs Webhooks Rate Limits 1000 per day per org 5000 per day per org 5000 per day per org 5000 per day per org 5000 per day per org Access to App Launcher in Xero navigation API Egress Usage Report Premium features Rapid Sync (first 30 minutes for any connection) Not Included Not Included Journal endpoint (require security assessment and use case approval) Not Included Not Included Not Included XPM API (require security assessment and use case approval) Not Included Not Included Not Included Bulk connections (require security assessment and use case approval) Not Included Not Included Not Included Developer support, engagement and community Developer support General support General support General support Priority support Priority Support Developer events (DevDay, Hackathons, Meetups) Annual technical consultation (API and onboarding experience optimisation) Not Included Not Included Not Included Not Included Marketing and growth Xero App Store listing Not Included Not Included Optional Optional Required Eligible for Xero App Store promotional merchandising, access to in product placements and promotion in Xero channels, content and campaigns (requires Xero App Store listing) Not Included Not Included Eligible to sponsor Xero events: Xerocon, regional roadshows, educational events (requires Xero App Store listing) Not Included Not Included Developer Branding Guides and verified badges Not Included Not Included Access to self serve marketing resources and guides Eligible for Growth and App Awards Programs (requires Xero App Store listing) Not Included Not Included Programs: Channel Program, Developer Council, Custom Developer Programs New Features We have aligned benefits to ensure they scale seamlessly with your app's growth. Rapid Sync Rapid Sync will now be available to all certified apps and has been extended to all connections, not just connections that originate via the Xero App Store. This feature lifts the standard API limits for the first 30 minutes of a new organisation connection, improves the onboarding experience, accelerates your time to value with faster data import, and reduces friction - boosting customer conversion and retention. New Egress Usage Report A new report available in the app dashboard that shows your daily API consumption spanning two months of data usage. To access this report, log into the developer portal and look at the usage tab for your app Premium features in the Advanced tier Journals endpoint This endpoint is used for retrieving the complete set of journal entries for an organisation. This includes journals created automatically by Xero from source transactions (like invoices, bills, and payments). Xero Practice Manager (XPM) API Xero Practice Manager (XPM) is a practice management system designed for accounting firms to manage their workflow, time tracking, and job costing. The XPM API allows third-party apps and developers to programmatically connect to and interact with the data and functionality within a Xero Practice Manager account. Bulk Connections The Bulk Connections feature that allows a single user to connect multiple Xero organisations (tenants) to your app in one single OAuth 2.0 authorisation flow. This feature is primarily designed to improve the connection process for users who manage a large number of client organisations in Xero. Tier Fees, Connection Limits, and API Volume Usage App pricing is a flat monthly fee based on tier and includes a set allotment of data consumption via the Xero APIs. Additional data consumption is available at additional cost. Feature Starter Core Plus Advanced Enterprise Connections (maximum) 5 50 1000 10,000 No limit Monthly Tier Fee No charge $35 AUD $245 AUD $1445 AUD Price on Application Monthly Xero API usage (Ingress GBs) Unlimited Unlimited Unlimited Unlimited Unlimited Monthly Xero API usage (Egress GBs)* n/a 10 GBs 50 GBs 250 GBs Volume on Application Overage Xero API usage egress pricing (per GB) n/a $2.40 AUD $2.40 AUD $2.40 AUD Price on Application Pricing is tax exclusive *We exclude the organisation endpoint from this usage allotment To find your egress GBs, log in to the developer portal and look at the usage tab for your app. Connection count and API data consumption via the Xero API is measured and priced at the app level. Apps cannot share connection counts or API volume used, even if they are from the same developer. Connection counts and API metering will be available in the developer dashboard for all apps beginning 4 December, 2025. API data egress volume via the Xero APIs is based on gigabytes used and is a monthly allotment. These reset on the first of the calendar month (using UTC timezone), allowing you a new allotment, as long as you have an active payment method on file with Xero Developer. This is also the billing cycle. Payments are accepted via registered credit card. Your card details will be required when moving from the Starter to the Core tier. Payments will occur (via the registered credit card) on the first of the following month, after the last billing month. Failed payments will show on the billing page, where you can view all invoices and payments. Glossary Connections: customer or tenants connected to your app via a valid OAuth connection API Usage Ingress: the process of sending new or updated accounting and financial data from your external app to a connected Xero organisation. API Usage Egress: the process of extracting or downloading accounting and financial data from a connected Xero organisation to your external app or system. Migration of Existing Apps No new apps will be added to Xero App Store Subscriptions (XASS) or Commercial Billing (CB) models beginning 4 December, 2025. Apps created between 4 December, 2025 and 2 March, 2026 that want to publish on the Xero App Store will begin on an interim billing solution. Those apps will then be migrated to the new model when migration begins in March. Existing apps will be migrated to the new pricing model beginning 2 March, 2026. Apps will receive 30 days prior notice to their migration. Apps created on or after 2 March, 2026 will move directly to the new pricing model. Xero Developer Platform Terms and Conditions, Including the Associated Commercial Terms If you registered as a Xero developer on or after 4 December, 2025, these revised terms will apply to you straight away. If you registered before 4 December, 2025, this version of the terms applies to you from 2 March, 2026. Key changes to our terms and conditions include: A new prohibition on using API data to train AI/ML models. Clarifying that apps must not use bots or browser extensions to undermine our security controls or simulate user actions. Updated Developer Platform Commercial Terms, consolidating the existing Xero App Store Terms and Xero Certified Integration Terms, to reflect the new pricing model. Read the new Xero Developer Platform Terms and new Xero Developer Commercial Terms . Support and Resources for Developers Please review our FAQs and join for upcoming webinars to learn more about the pricing and policy changes as well as learn how to better optimise your app’s API usage and inactive connections. New pricing and policy overview webinars Register for Session 1 Thursday, December 11, 10am (NZDT) / Wednesday, December 10, 1pm (PST) Register for Session 2 Thursday, December 11, 4pm (GMT) / 8am (PST) Optimisation Best Practices - API and Connection webinar: Register for session 1 Thursday, January 29, 11am (NZDT), January 28, 2pm (PST) Register for session 2 Thursday, January 29, 4pm (GMT), January 29, 8am (PST) Frequently Asked Questions Additional information related to commonly asked questions is available in our FAQs . We recommend checking our FAQs before reaching out to support. We will continue to update these as necessary. AI toolkit MCP Server Agents Toolkit Prompt Library Documentation OAuth 2 API reference Webhooks Community GitHub Product Feedback Connect to the Community Weekly Office Hours Dev Day Discord Server Find a developer News DevBlog API status Changelog Support Contact us FAQ © 2026 Xero Limited. All rights reserved. \"Xero\", \"Beautiful business\" and \"Your business supercharged\" are trademarks of Xero Limited. About Xero Developer Platform Terms and Conditions The Xero Developer Platform Commercial Terms Xero ecosystem principles Dev Council Terms and Conditions",
+      "content_sha256": "dbb365bd316d9f9ffe5ecdc8041c36f535ac36ec4602ffd2499cdc79d9e7c207",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+      "final_url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+      "retrieved_at": "2026-09-16T17:44:02.317865+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "OAuth 2.0 — Xero Developer",
+      "content_sha256": "6a61e193300e562a10f1720830c2842c96f23d6adaa4b791dafd7e8fb25eed90",
+      "error": "Insufficient readable content; possible JS shell",
+      "status": 200
+    },
+    {
+      "requested_url": "https://developer.xero.com/documentation/guides/oauth2/auth-flow",
+      "final_url": "https://developer.xero.com/documentation/guides/oauth2/auth-flow",
+      "retrieved_at": "2026-09-16T17:44:03.566343+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "The standard authorization code flow — Xero Developer",
+      "content_sha256": "d9c7d18e03c48470b57119f6dd96637061891fc67f65015df3549598256ffd44",
+      "error": "Insufficient readable content; possible JS shell",
+      "status": 200
+    },
+    {
+      "requested_url": "https://github.com/xeroapi/xero-mcp-server",
+      "final_url": "https://github.com/xeroapi/xero-mcp-server",
+      "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+      "ok": true,
+      "source_kind": "community",
+      "text": "GitHub - XeroAPI/xero-mcp-server: An MCP server that integrates with the MCP protocol. https://modelcontextprotocol.io/introduction · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . XeroAPI / xero-mcp-server Public Notifications You must be signed in to change notification settings Fork 190 Star 365 Code Issues 51 Pull requests 73 Actions Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 95 Commits 95 Commits Folders and files Name Name Last commit message Last commit date .vscode .vscode examples/ openai-agents examples/ openai-agents src src .env.example .env.example .gitignore .gitignore .npmignore .npmignore .npmrc .npmrc .prettierrc .prettierrc LICENSE LICENSE README.md README.md eslint.config.js eslint.config.js glama.json glama.json package-lock.json package-lock.json package.json package.json start-server.sh start-server.sh tsconfig.json tsconfig.json vitest.config.ts vitest.config.ts View all files Repository files navigation README Code of conduct Contributing MIT license More items Xero MCP Server This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features. Features Xero OAuth2 authentication with custom connections Contact management Chart of Accounts management Invoice creation and management MCP protocol compliance Prerequisites Node.js (v18 or higher) npm or pnpm A Xero developer account with API credentials Docs and Links Xero Public API Documentation Xero API Explorer Xero OpenAPI Specs Xero-Node Public API SDK Docs Developer Documentation Setup Create a Xero Account If you don't already have a Xero account and organisation already, can create one by signing up here using the free trial. We recommend using a Demo Company to start with because it comes with some pre-loaded sample data. Once you are logged in, switch to it by using the top left-hand dropdown and selecting \"Demo Company\". You can reset the data on a Demo Company, or change the country, at any time by using the top left-hand dropdown and navigating to My Xero . NOTE: To use Payroll-specific queries, the region should be either NZ or UK. Authentication There are 2 modes of authentication supported in the Xero MCP server: 1. Custom Connections This is a better choice for testing and development which allows you to specify client id and secrets for a specific organisation. It is also the recommended approach if you are integrating this into 3rd party MCP clients such as Claude Desktop. Configuring your Xero Developer account Set up a Custom Connection following these instructions: https://developer.xero.com/documentation/guides/oauth2/custom-connections/ Required Scopes Custom connections require different scopes depending on when they were created. All scopes in the relevant list must be added to your custom connection: Custom Connection Created Required Scopes Before Apr 29, 2026 SCOPES_V1 (bundled permissions) From Apr 29, 2026 SCOPES_V2 (granular permissions) Note: The MCP server automatically tries V1 scopes first and falls back to V2 if needed. You can override these by setting the XERO_SCOPES environment variable to a space-separated list of scopes. Integrating the MCP server with Claude Desktop To add the MCP server to Claude go to Settings > Developer > Edit config and add the following to your claude_desktop_config.json file: { \"mcpServers\" : { \"xero\" : { \"command\" : \" npx \" , \"args\" : [ \" -y \" , \" @xeroapi/xero-mcp-server@latest \" ], \"env\" : { \"XERO_CLIENT_ID\" : \" your_client_id_here \" , \"XERO_CLIENT_SECRET\" : \" your_client_secret_here \" , \"XERO_SCOPES\" : \" accounting.invoices accounting.contacts accounting.settings \" } } } } The XERO_SCOPES variable is optional. If omitted, the default scopes listed above will be used. NOTE: If you are using Node Version Manager \"command\": \"npx\" section change it to be the full path to the executable, ie: your_home_directory/.nvm/versions/node/v22.14.0/bin/npx on Mac / Linux or \"your_home_directory\\\\.nvm\\\\versions\\\\node\\\\v22.14.0\\\\bin\\\\npx\" on Windows 2. Bearer Token This is a better choice if you are to support multiple Xero accounts at runtime and allow the MCP client to execute an auth flow (such as PKCE) as required. In this case, use the following configuration: { \"mcpServers\" : { \"xero\" : { \"command\" : \" npx \" , \"args\" : [ \" -y \" , \" @xeroapi/xero-mcp-server@latest \" ], \"env\" : { \"XERO_CLIENT_BEARER_TOKEN\" : \" your_bearer_token \" } } } } NOTE: The XERO_CLIENT_BEARER_TOKEN will take precedence over the XERO_CLIENT_ID if defined. Required Scopes for Bearer Token When obtaining a bearer token, you must request the appropriate scopes. The scopes you request should be: Note: Some scopes are being deprecated in favour of more granular scopes. See the Xero OAuth 2.0 Scopes documentation for details on deprecation timelines. accounting.transactions (Deprecated) accounting.transactions.read (Deprecated) accounting.invoices accounting.invoices.read accounting.payments accounting.payments.read accounting.banktransactions accounting.banktransactions.read accounting.manualjournals accounting.manualjournals.read accounting.reports.read (Deprecated) accounting.reports.aged.read accounting.reports.balancesheet.read accounting.reports.profitandloss.read accounting.reports.trialbalance.read accounting.contacts accounting.settings payroll.settings payroll.employees payroll.timesheets Available MCP Commands list-accounts : Retrieve a list of accounts list-contacts : Retrieve a list of contacts from Xero list-credit-notes : Retrieve a list of credit notes list-invoices : Retrieve a list of invoices list-items : Retrieve a list of items list-manual-journals : Retrieve a list of manual journals list-organisation-details : Retrieve details about an organisation list-profit-and-loss : Retrieve a profit and loss report list-quotes : Retrieve a list of quotes list-tax-rates : Retrieve a list of tax rates list-payments : Retrieve a list of payments list-trial-balance : Retrieve a trial balance report list-bank-transactions : Retrieve a list of bank account transactions list-payroll-employees : Retrieve a list of Payroll Employees list-report-balance-sheet : Retrieve a balance sheet report list-payroll-employee-leave : Retrieve a Payroll Employee's leave records list-payroll-employee-leave-balances : Retrieve a Payroll Employee's leave balances list-payroll-employee-leave-types : Retrieve a list of Payroll leave types list-payroll-leave-periods : Retrieve a list of a Payroll Employee's leave periods list-payroll-leave-types : Retrieve a list of all available leave types in Xero Payroll list-timesheets : Retrieve a list of Payroll Timesheets list-aged-receivables-by-contact : Retrieves aged receivables for a contact list-aged-payables-by-contact : Retrieves aged payables for a contact list-contact-groups : Retrieve a list of contact groups list-tracking-categories : Retrieve a list of tracking categories create-bank-transaction : Create a new bank transaction create-contact : Create a new contact create-credit-note : Create a new credit note create-invoice : Create a new invoice create-item : Create a new item create-manual-journal : Create a new manual journal create-payment : Create a new payment create-quote : Create a new quote create-payroll-timesheet : Create a new Payroll Timesheet create-tracking-category : Create a new tracking category create-tracking-option : Create a new tracking option update-bank-transaction : Update an existing bank transaction update-contact : Update an existing contact update-invoice : Update an existing draft invoice update-item : Update an existing item update-manual-journal : Update an existing manual journal update-quote : Update an existing draft quote update-credit-note : Update an existing draft credit note update-tracking-category : Update an existing tracking category update-tracking-options : Update tracking options update-payroll-timesheet-line : Update a line on an existing Payroll Timesheet approve-payroll-timesheet : Approve a Payroll Timesheet revert-payroll-timesheet : Revert an approved Payroll Timesheet add-payroll-timesheet-line : Add new line on an existing Payroll Timesheet delete-payroll-timesheet : Delete an existing Payroll Timesheet get-payroll-timesheet : Retrieve an existing Payroll Timesheet For detailed API documentation, please refer to the MCP Protocol Specification . For Developers Installation # Using npm npm install # Using pnpm pnpm install Run a build # Using npm npm run build # Using pnpm pnpm build Integrating with Claude Desktop To link your Xero MCP server in development to Claude Desktop go to Settings > Developer > Edit config and add the following to your claude_desktop_config.json file: NOTE: For Windows ensure the args path escapes the \\ between folders ie. \"C:\\\\projects\\xero-mcp-server\\\\dist\\\\index.js\" { \"mcpServers\" : { \"xero\" : { \"command\" : \" node \" , \"args\" : [ \" insert-your-file-path-here/xero-mcp-server/dist/index.js \" ], \"env\" : { \"XERO_CLIENT_ID\" : \" your_client_id_here \" , \"XERO_CLIENT_SECRET\" : \" your_client_secret_here \" } } } } License MIT Security Please do not commit your .env file or any sensitive credentials to version control (it is included in .gitignore as a safe default.) About An MCP server that integrates with the MCP protocol. https://modelcontextprotocol.io/introduction Resources Readme MIT license Code of conduct Code of conduct Contributing Contributing Activity Custom properties Stars 365 stars Watchers 16 watching Forks 190 forks Report repository Releases Packages Used by Contributors Languages Footer © 2026 GitHub, Inc. Footer navigation Terms Privacy Security Status Community Docs Contact Manage cookies Do not share my personal information You can’t perform that action at this time.",
+      "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5924,
+    "output_tokens": 2644
+  },
+  "failure": null
+}

@@ -1,0 +1,315 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 91,
+    "app_name": "NotebookLM",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "description": "Gemini Notebook Enterprise is a tool for generating insights and summaries from documents, allowing programmatic management of notebooks including creation, retrieval, listing, deletion, and sharing via REST APIs.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports notebook management tasks such as creating, retrieving, listing recently viewed, deleting, and sharing notebooks programmatically.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "The API is documented with REST endpoints and example curl commands using bearer token authentication via Google Cloud's gcloud auth print-access-token. The setup requires enabling the Discovery Engine API and assigning appropriate IAM roles, indicating developer self-service access and buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Gemini Notebook Enterprise is a tool for generating insights and summaries from documents, allowing programmatic management of notebooks including creation, retrieval, listing, deletion, and sharing via REST APIs.",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "Gemini Notebook Enterprise is a powerful tool for generating insights and summaries from your documents. This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "REST curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports notebook management tasks such as creating, retrieving, listing recently viewed, deleting, and sharing notebooks programmatically.",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "REST curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability_rationale",
+        "claim": "The API is documented with REST endpoints and example curl commands using bearer token authentication via Google Cloud's gcloud auth print-access-token. The setup requires enabling the Discovery Engine API and assigning appropriate IAM roles, indicating developer self-service access and buildability.",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:25:20.648788+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 91,
+    "app_name": "NotebookLM",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "description": "Gemini Notebook Enterprise is a tool for generating insights and summaries from documents, allowing programmatic management of notebooks including creation, retrieval, listing, deletion, and sharing via REST APIs.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports notebook management tasks such as creating, retrieving, listing recently viewed, deleting, and sharing notebooks programmatically.",
+    "mcp_available": "unknown",
+    "mcp_notes": "No explicit information about a marketplace or community MCP was found in the retrieved evidence.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is documented with REST endpoints and example curl commands using bearer token authentication via Google Cloud's gcloud auth print-access-token. The setup requires enabling the Discovery Engine API and assigning appropriate IAM roles, indicating developer self-service access and buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Gemini Notebook Enterprise is a tool for generating insights and summaries from documents, allowing programmatic management of notebooks including creation, retrieval, listing, deletion, and sharing via REST APIs.",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "Gemini Notebook Enterprise is a powerful tool for generating insights and summaries from your documents. This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/set-up-notebooklm",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/set-up-notebooklm",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:00.309229+00:00",
+        "content_sha256": "3a31675d006d8f7e87b7910ecb6e5bede94ee1c83d3f3ca60cc60bd73161705e",
+        "quote": "In addition to the Cloud NotebookLM User role, users need a license for Gemini Notebook Enterprise. See Get licenses for Gemini Notebook Enterprise.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "REST curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports notebook management tasks such as creating, retrieving, listing recently viewed, deleting, and sharing notebooks programmatically.",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "REST curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability_rationale",
+        "claim": "The API is documented with REST endpoints and example curl commands using bearer token authentication via Google Cloud's gcloud auth print-access-token. The setup requires enabling the Discovery Engine API and assigning appropriate IAM roles, indicating developer self-service access and buildability.",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_available",
+        "claim": "unknown",
+        "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+        "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+        "quote": "unknown",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:02.274695+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "retrieved_at": "2026-09-16T17:24:58.477444+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Create and manage notebooks (API) | Gemini Notebook Enterprise | Google Cloud Documentation Skip to main content Documentation close Get Started Get Started with Google Cloud Product List Cloud Customer Care Featured Products Agent Platform Apigee API Management BigQuery Compute Engine Cloud CDN Cloud Run Cloud Storage Cloud SQL Gemini Enterprise Google Kubernetes Engine Looker Cross-product Tools Access and resources management Costs and usage management Infrastructure as code SDK, languages, frameworks, and tools Technology Areas AI and ML Application development Application hosting Compute Data analytics and pipelines Databases Distributed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage / Console English Deutsch Español Español – América Latina Français Indonesia Italiano Português Português – Brasil עברית 中文 – 简体 中文 – 繁體 日本語 한국어 Sign in Gemini Enterprise Gemini Notebook Enterprise Start free Overview Administrator guide App user guide Developer guide Gemini Notebook Enterprise AlphaEvolve Reference Resources Documentation More Overview Administrator guide App user guide Developer guide Gemini Notebook Enterprise AlphaEvolve Reference Resources Console Gemini Notebook Enterprise Overview Set up Gemini Notebook Enterprise Get licenses for Gemini Notebook Enterprise Work with notebooks and their sources Create and manage notebooks (API) Add and manage data sources in a notebook (API) Create an audio overview of your notebook (API) Customer-managed encryption keys Enable Model Armor Protect sensitive data in Gemini Notebook Enterprise sources Configure usage audit logging Share notebooks FAQs about Gemini Notebook Enterprise Standalone API Generate podcasts (API method) Get Started Get Started with Google Cloud Product List Cloud Customer Care Featured Products Agent Platform Apigee API Management BigQuery Compute Engine Cloud CDN Cloud Run Cloud Storage Cloud SQL Gemini Enterprise Google Kubernetes Engine Looker Cross-product Tools Access and resources management Costs and usage management Infrastructure as code SDK, languages, frameworks, and tools Technology Areas AI and ML Application development Application hosting Compute Data analytics and pipelines Databases Distributed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage Home Documentation AI and ML Gemini Enterprise Gemini Notebook Enterprise Send feedback Create and manage notebooks (API) Stay organized with collections Save and categorize content based on your preferences. Preview This feature is subject to the \"Pre-GA Offerings Terms\" in the General Service Terms section of the Service Specific Terms . Pre-GA features are available \"as is\" and might have limited support. For more information, see the launch stage descriptions . Gemini Notebook Enterprise is a powerful tool for generating insights and summaries from your documents. This page describes the APIs that let you perform the following notebook management tasks programmatically: Create a notebook Retrieve a notebook List recently viewed notebooks Delete a notebook Share a notebook Before you begin Before you start working with your notebooks, do the following: Set up Gemini Notebook Enterprise Get licenses for Gemini Notebook Enterprise Create a notebook To create a new notebook, use the notebooks.create method. REST curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks\" \\ -d '{ \"title\": \" NOTEBOOK_TITLE \", }' Replace the following: ENDPOINT_LOCATION : the multi-region for your API request. Specify one of the following values: us for the US multi-region eu for the EU multi-region global for the Global location For more information, see Specify a multi-region for your data store . PROJECT_NUMBER : the number of your Google Cloud project. LOCATION : the geographic location of your data store, such as global . For more information, see Locations . NOTEBOOK_TITLE : a UTF-8 encoded string used as a title for the notebook that you want to create. If the request is successful, you should receive a JSON similar to the following. { \"title\" : \" NOTEBOOK_TITLE \" , \"notebookId\" : \" NOTEBOOK_ID \" , \"emoji\" : \"\" , \"metadata\" : { \"userRole\" : \"PROJECT_ROLE_OWNER\" , \"isShared\" : false , \"isShareable\" : true }, \"name\" : \" NOTEBOOK_NAME \" } Note the following: NOTEBOOK_ID : a unique ID to identify the created notebook. You need the notebook ID for other notebook management tasks, such as sharing or retrieving. NOTEBOOK_NAME : the complete resource name of the notebook. This field has the following pattern: projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks/ NOTEBOOK_ID Access the created notebook and get its ID in a browser To access the created notebook and get its ID using a browser, do the following. Go to the Gemini Notebook Enterprise homepage that's available at one of the following URLs: If you're using a Google identity, go to: https://notebook.cloud.google.com/ LOCATION /?project= PROJECT_NUMBER If you're using a third-party identity, go to: https://notebook.cloud.google/ LOCATION /?project= PROJECT_NUMBER Select the created notebook. The URL of the selected notebook has the following pattern: If you're using a Google identity: https://notebook.cloud.google.com/ LOCATION /notebook/ NOTEBOOK_ID ?project= PROJECT_NUMBER If you're using a third-party identity: https://notebook.cloud.google/ LOCATION /notebook/ NOTEBOOK_ID ?project= PROJECT_NUMBER Note the URL and the notebook ID, which are useful for other notebook management tasks, such as sharing. Retrieve a notebook To retrieve a specific notebook using its notebook ID, use the notebooks.get method. REST curl -X GET \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks/ NOTEBOOK_ID \" Replace the following: ENDPOINT_LOCATION : the multi-region for your API request. Specify one of the following values: us for the US multi-region eu for the EU multi-region global for the Global location For more information, see Specify a multi-region for your data store . PROJECT_NUMBER : the number of your Google Cloud project. LOCATION : the geographic location of your data store, such as global . For more information, see Locations . NOTEBOOK_ID : the notebook's unique identifier that you received when you created the notebook. If the request is successful, you should get a JSON response similar to the following for an empty notebook. If you call this method after you add sources to your notebook, you receive details about all the sources added to the retrieved notebook. If you have configured CMEK details , you also receive CMEK-related information for the notebook. { \"title\" : \" NOTEBOOK_TITLE \" , \"notebookId\" : \" NOTEBOOK_ID \" , \"emoji\" : \"\" , \"metadata\" : { \"userRole\" : \"PROJECT_ROLE_OWNER\" , \"isShared\" : false , \"isShareable\" : true , \"lastViewed\" : \" LAST_VIEWED_TIME \" , \"createTime\" : \" LAST_CREATED_TIME \" }, \"name\" : \" NOTEBOOK_NAME \" } List recently viewed notebooks To get a list of all notebooks in a project that were recently viewed, use the notebooks.listRecentlyViewed method. By default, the response lists the last 500 notebooks. You can choose to paginate the responses with the pageSize query parameter. REST curl -X GET \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks:listRecentlyViewed\" Replace the following: ENDPOINT_LOCATION : the multi-region for your API request. Specify one of the following values: us for the US multi-region eu for the EU multi-region global for the Global location For more information, see Specify a multi-region for your data store . PROJECT_NUMBER : the number of your Google Cloud project. LOCATION : the geographic location of your data store, such as global . For more information, see Locations . If the request is successful, you should get a JSON response similar to the following. The response contains up to last 500 notebooks that a user accessed recently. { \"notebooks\" : [ { \"title\" : \" NOTEBOOK_TITLE_1 \" , \"notebookId\" : \" NOTEBOOK_ID_1 \" , \"emoji\" : \"\" , \"metadata\" : { \"userRole\" : \"PROJECT_ROLE_OWNER\" , \"isShared\" : false , \"isShareable\" : true , \"lastViewed\" : \" LAST_VIEWED_TIME \" , \"createTime\" : \" LAST_CREATED_TIME \" }, \"name\" : \" NOTEBOOK_NAME_1 \" }, { \"title\" : \" NOTEBOOK_TITLE_2 \" , \"notebookId\" : \" NOTEBOOK_ID_2 \" , \"emoji\" : \"\" , \"metadata\" : { \"userRole\" : \"PROJECT_ROLE_OWNER\" , \"isShared\" : false , \"isShareable\" : true , \"lastViewed\" : \" LAST_VIEWED_TIME \" , \"createTime\" : \" LAST_CREATED_TIME \" }, \"name\" : \" NOTEBOOK_NAME_2 \" } ] } Delete a notebook To delete a notebook, use the notebooks.batchDelete method. REST curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks:batchDelete\" \\ -d '{ \"names\": [ \" NOTEBOOK_NAME \" ] }' Replace the following: ENDPOINT_LOCATION : the multi-region for your API request. Specify one of the following values: us for the US multi-region eu for the EU multi-region global for the Global location For more information, see Specify a multi-region for your data store . PROJECT_NUMBER : the number of your Google Cloud project. LOCATION : the geographic location of your data store, such as global . For more information, see Locations . NOTEBOOK_NAME : the complete resource name of the notebook to be deleted. This field has the pattern: projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks/ NOTEBOOK_ID . If the request is successful, you receive an empty JSON object. If the notebook doesn't exist, you also receive an empty JSON object, so make sure to specify the notebook name correctly. Share a notebook To share a new notebook, use the notebooks.share method. The user with whom you want to share the notebook must be granted the Cloud NotebookLM User role. REST In your Google Cloud project, assign the Cloud NotebookLM User Identity and Access Management (IAM) role to the users with whom you want to share the notebook. Call the following method. curl -X POST \\ -H \"Authorization:Bearer $( gcloud auth print-access-token ) \" \\ -H \"Content-Type: application/json\" \\ \"https:// ENDPOINT_LOCATION -discoveryengine.googleapis.com/v1alpha/projects/ PROJECT_NUMBER /locations/ LOCATION /notebooks/ NOTEBOOK_ID :share\" \\ -d '{ \"accountAndRoles\": [ { \"email\":\" USER_EMAIL_1 \", \"role\":\" USER_ROLE_1 \", }, { \"email\":\" USER_EMAIL_2 \", \"role\":\" USER_ROLE_2 \", }, ] }' Replace the following: ENDPOINT_LOCATION : the multi-region for your API request. Specify one of the following values: us for the US multi-region eu for the EU multi-region global for the Global location For more information, see Specify a multi-region for your data store . PROJECT_NUMBER : the number of your Google Cloud project. LOCATION : the geographic location of your data store, such as global . For more information, see Locations . NOTEBOOK_ID : a unique ID to identify the notebook that you want to share. You need the notebook ID for other notebook management tasks, such as sharing or retrieving. USER_EMAIL : the email address of the user with whom you want to share the notebook. USER_ROLE : a role that you want to assign to the user. It can be one of the following: PROJECT_ROLE_OWNER : The user owns the project. PROJECT_ROLE_WRITER : The user has write permissions on the project. PROJECT_ROLE_READER : The user has read permissions on the project. PROJECT_ROLE_NOT_SHARED :The user has no access to the project. If the request is successful, you receive an empty JSON object. Verify users using a browser To verify whether you've shared the notebook with the correct users and assigned them correct roles, do the following: Open the notebook in your browser. A notebook has the following URL pattern: If you're using a Google identity: https://notebook.cloud.google.com/ LOCATION /notebook/ NOTEBOOK_ID ?project= PROJECT_NUMBER If you're using a third-party identity: https://notebook.cloud.google/ LOCATION /notebook/ NOTEBOOK_ID ?project= PROJECT_NUMBER Click Share . Verify the users listed as People with access and their assigned roles. What's next Add data sources of different types to your notebooks programmatically. Send feedback Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates. Last updated 2026-09-15 UTC. Need to tell us more? [[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Hard to understand\",\"hardToUnderstand\",\"thumb-down\"],[\"Incorrect information or sample code\",\"incorrectInformationOrSampleCode\",\"thumb-down\"],[\"Missing the information/samples I need\",\"missingTheInformationSamplesINeed\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-15 UTC.\"],[],[]] Products and pricing See all products Google Cloud pricing Google Cloud Marketplace Contact sales Support Community forums Support Release Notes System status Resources GitHub Getting Started with Google Cloud Code samples Cloud Architecture Center Training and Certification Engage Blog Events X (Twitter) Google Cloud on YouTube Google Cloud Tech on YouTube Android Chrome Firebase Google AI About Google Privacy Site",
+      "content_sha256": "291e5d246c1854da94fc13960b58316af7dff9ae803471573be72efc29ec155e",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/set-up-notebooklm",
+      "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/set-up-notebooklm",
+      "retrieved_at": "2026-09-16T17:25:00.309229+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Set up Gemini Notebook Enterprise | Google Cloud Documentation Skip to main content Documentation close Get Started Get Started with Google Cloud Product List Cloud Customer Care Featured Products Agent Platform Apigee API Management BigQuery Compute Engine Cloud CDN Cloud Run Cloud Storage Cloud SQL Gemini Enterprise Google Kubernetes Engine Looker Cross-product Tools Access and resources management Costs and usage management Infrastructure as code SDK, languages, frameworks, and tools Technology Areas AI and ML Application development Application hosting Compute Data analytics and pipelines Databases Distributed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage / Console English Deutsch Español Español – América Latina Français Indonesia Italiano Português Português – Brasil עברית 中文 – 简体 中文 – 繁體 日本語 한국어 Sign in Gemini Enterprise Gemini Notebook Enterprise Start free Overview Administrator guide App user guide Developer guide Gemini Notebook Enterprise AlphaEvolve Reference Resources Documentation More Overview Administrator guide App user guide Developer guide Gemini Notebook Enterprise AlphaEvolve Reference Resources Console Gemini Notebook Enterprise Overview Set up Gemini Notebook Enterprise Get licenses for Gemini Notebook Enterprise Work with notebooks and their sources Create and manage notebooks (API) Add and manage data sources in a notebook (API) Create an audio overview of your notebook (API) Customer-managed encryption keys Enable Model Armor Protect sensitive data in Gemini Notebook Enterprise sources Configure usage audit logging Share notebooks FAQs about Gemini Notebook Enterprise Standalone API Generate podcasts (API method) Get Started Get Started with Google Cloud Product List Cloud Customer Care Featured Products Agent Platform Apigee API Management BigQuery Compute Engine Cloud CDN Cloud Run Cloud Storage Cloud SQL Gemini Enterprise Google Kubernetes Engine Looker Cross-product Tools Access and resources management Costs and usage management Infrastructure as code SDK, languages, frameworks, and tools Technology Areas AI and ML Application development Application hosting Compute Data analytics and pipelines Databases Distributed, hybrid, and multicloud Industry solutions Migration Networking Observability and monitoring Security Storage Home Documentation AI and ML Gemini Enterprise Gemini Notebook Enterprise Send feedback Set up Gemini Notebook Enterprise Stay organized with collections Save and categorize content based on your preferences. This page describes the start-up tasks that you must complete to set up Gemini Notebook Enterprise. After you have performed the tasks on this page, your users can start creating and using notebooks in Gemini Notebook Enterprise. About identity setup To complete the setup, you must have your organization's identity provider (IdP) configured in Google Cloud. Correct setup for identity is important for two reasons: It lets your users use their current corporate credentials to access the Gemini Notebook Enterprise user interface. It ensures that users see only the notebooks which they own or which have been shared with them. Supported frameworks The following authentication frameworks are supported: Cloud Identity: Case 1: If you use Cloud Identity or Google Workspace, then all user identities and user groups are present and managed through Google Cloud. For more information about Cloud Identity, see the Cloud Identity documentation. Case 2: You use a third-party IdP, and you have synced identities with Cloud Identity. Your end users use Cloud Identity to authenticate before accessing Google resources or Google Workspace. Case 3: You use a third-party IdP, and you have synced identities with Cloud Identity. However, you are still using your existing third-party IdP to perform the authentication. You have configured SSO with Cloud Identity such that your users begin their sign in using Cloud Identity and then get directed to your third-party IdP. (You might have already done this sync when setting up other Google Cloud resources or Google Workspace.) Workforce Identity Federation: If you use an external identity provider (Microsoft Entra ID, Okta, Ping, PingFederate, or another OIDC or SAML 2.0 IdP), but don't want to sync your identities into Cloud Identity, then you must set up Workforce Identity Federation in Google Cloud before you can turn on data source access control for Gemini Notebook Enterprise. The google.subject attribute must map to the email address field in the external IdP. The following are example google.subject and google.groups attribute mappings for commonly used IdPs: Microsoft Entra ID Microsoft Entra ID with OIDC protocol google.subject=assertion.email google.groups=assertion.groups Microsoft Entra ID with SAML protocol google.subject=assertion.attributes['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'][0] google.groups=assertion.attributes['http://schemas.microsoft.com/ws/2008/06/identity/claims/groups'] Microsoft Entra ID with a large number of groups If you use Microsoft Entra ID and have more than approximately 150 groups, then you should follow the setup procedures for a large number of groups. google.subject=user.emails[0].value.lowerAscii() google.groups=group.externalId Note: If you use System for Cross-domain Identity Management (SCIM) (or extended attributes), the google.groups attribute mapping is ignored. Okta Okta with OIDC protocol google.subject=assertion.email google.groups=assertion.groups Okta with SAML protocol google.subject=assertion.subject google.groups=assertion.attributes['groups'] You can select only one IdP per Google Cloud project. Before you begin Before starting the procedures on this page, make sure that one of the following is true: You use Cloud Identity as your IdP, or You use a third-party IdP and have configured SSO with Cloud Identity, or You use a third-party IdP that is not Okta and have: Set up Workforce Identity Federation by following the instructions in Configure Workforce Identity Federation with Microsoft Entra ID and sign in users or, if you have more than approximately 150 groups, in Configure Workforce Identity Federation with Microsoft Entra ID with a large number of groups . If you follow the Configure Workforce Identity Federation with Microsoft Entra ID and sign in users instructions, make sure to do the recommended security best practice steps to add a group claim and select All groups . This is a required step for Gemini Notebook Enterprise. Set up SCIM. See Configure SCIM in Microsoft Entra ID . SCIM is necessary for autocomplete of user emails and group names and for Microsoft Entra ID with a large number of groups . You use Okta as your third-party IdP and have: Followed the instructions in Configure Workforce Identity Federation with Okta . Set up SCIM. See Configure SCIM in Okta . SCIM is necessary for autocomplete of user emails and group names . Create a project and enable the API If you already have a Google Cloud project that you want to use, start at step 2. Sign in to your Google Cloud account. If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads. In the Google Cloud console, on the project selector page, select or create a Google Cloud project. Roles required to select or create a project Select a project : Selecting a project doesn't require a specific IAM role—you can select any project that you've been granted a role on. Create a project : To create a project, you need the Project Creator role ( roles/resourcemanager.projectCreator ), which contains the resourcemanager.projects.create permission. Learn how to grant roles . Note : If you don't plan to keep the resources that you create in this procedure, create a project instead of selecting an existing project. After you finish these steps, you can delete the project, removing all resources associated with the project. Go to project selector Verify that billing is enabled for your Google Cloud project . Enable the Discovery Engine API. Roles required to enable APIs To enable APIs, you need the serviceusage.services.enable permission. If you created the project, then you likely already have this permission through the Owner role ( roles/owner ). Otherwise, you can get this permission through the Service Usage Admin role ( roles/serviceusage.serviceUsageAdmin ). Learn how to grant roles . Enable the API In the Google Cloud console, on the project selector page, select or create a Google Cloud project. Roles required to select or create a project Select a project : Selecting a project doesn't require a specific IAM role—you can select any project that you've been granted a role on. Create a project : To create a project, you need the Project Creator role ( roles/resourcemanager.projectCreator ), which contains the resourcemanager.projects.create permission. Learn how to grant roles . Note : If you don't plan to keep the resources that you create in this procedure, create a project instead of selecting an existing project. After you finish these steps, you can delete the project, removing all resources associated with the project. Go to project selector Verify that billing is enabled for your Google Cloud project . Enable the Discovery Engine API. Roles required to enable APIs To enable APIs, you need the serviceusage.services.enable permission. If you created the project, then you likely already have this permission through the Owner role ( roles/owner ). Otherwise, you can get this permission through the Service Usage Admin role ( roles/serviceusage.serviceUsageAdmin ). Learn how to grant roles . Enable the API Grant the Cloud NotebookLM Admin role As the project owner, you need to assign the Cloud NotebookLM Admin role to any users who you want to be able to administer Gemini Notebook Enterprise in this project: In the Google Cloud console, go to the IAM page. Go to IAM Select the project. Click person_add Grant access . In the New principals field, enter the user identifier. This is typically the email address for a Google Account or a user group. In the Select a role list, select Cloud NotebookLM Admin . For more information, see User roles . Click Save . Set the IdP for Gemini Notebook Enterprise The project owner or a user who has the Cloud NotebookLM Admin role can set up the IdP. In the Google Cloud console, go to the Gemini Notebook Enterprise page. Gemini Enterprise Set Identity settings to Google identity provider or Third-party identity provider . For more information, see About identity setup above. If you are using a third-party IdP and Workforce Identity Federation, then specify the name of your workforce pool and your Workforce pool provider . Copy the Link . You will send out this link to all the end-users of Gemini Notebook Enterprise. This is the link to the user interface that they'll use to create, edit, and share notebooks. Optional: Register customer-managed encryption keys If you want to use customer-managed encryption keys (CMEK) instead of Google default encryption, then follow the instructions to register a key for Gemini Notebook Enterprise in Customer-managed encryption keys . Typically, you only need to use CMEK if your organization has strict regulatory requirements or internal policies that stipulate control over encryption keys. In most situations, Google default encryption is sufficient. For general information about CMEK, see the Cloud Key Management Service documentation . Important: Register your key before your users start creating notebooks. Any notebooks created before the CMEK encryption is set up, won't be protected. Grant Gemini Notebook Enterprise roles to users This section describes how to give your users the IAM roles that they need to access, manage, and share notebooks. In the Google Cloud console, go to the IAM page. Go to IAM Select the project. Click person_add Grant access . In the New principals field, enter the user identifier. This is typically the email address for a Google Account, a user group or the identifier for a user in a workforce identity pool. For details, see Represent workforce pool users in IAM policies , or contact your administrator. In the Select a role list, select Cloud NotebookLM User role. Click Save . In addition to the Cloud NotebookLM User role, users need a license for Gemini Notebook Enterprise. See Get licenses for Gemini Notebook Enterprise . Note: The subscription page displays the previous name NotebookLM Enterprise. What's next Get licenses for Gemini Notebook Enterprise . Send feedback Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates. Last updated 2026-09-15 UTC. Need to tell us more? [[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Hard to understand\",\"hardToUnderstand\",\"thumb-down\"],[\"Incorrect information or sample code\",\"incorrectInformationOrSampleCode\",\"thumb-down\"],[\"Missing the information/samples I need\",\"missingTheInformationSamplesINeed\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-09-15 UTC.\"],[],[]] Products and pricing See all products Google Cloud pricing Google Cloud Marketplace Contact sales Support Community forums Support Release Notes System status Resources GitHub Getting Started with Google Cloud Code samples Cloud Architecture Center Training and Certification Engage Blog Events X (Twitter) Google Cloud on YouTube Google Cloud Tech on YouTube Android Chrome Firebase Google AI About Google Privacy Site terms Google Cloud terms Manage cookies Our third decade of clim",
+      "content_sha256": "3a31675d006d8f7e87b7910ecb6e5bede94ee1c83d3f3ca60cc60bd73161705e",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 6977,
+    "output_tokens": 2027
+  },
+  "failure": null
+}

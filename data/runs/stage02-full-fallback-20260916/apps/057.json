@@ -1,0 +1,362 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 57,
+    "app_name": "Bright Data",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://brightdata.com/",
+    "description": "Bright Data provides data collection and proxy services with APIs for automation and integration. It supports authentication via API keys or native proxy username and password, enabling access to various proxy networks and data extraction products.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "Bright Data offers multiple APIs including Proxy Manager API, Scraper API, Web Unlocker API, Browser API, SERP API, AI training data API, and others, accessible via REST endpoints and SDKs.",
+    "mcp_available": "official",
+    "mcp_notes": "Bright Data provides an official Management Control Panel (MCP) accessible via the web dashboard for account and API key management.",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Bright Data provides data collection and proxy services with APIs for automation and integration. It supports authentication via API keys or native proxy username and password, enabling access to various proxy networks and data extraction products.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Bright Data ensures secure access to its services. Bright Data provides two primary methods for authentication: API Access - Authenticate and interact with the Bright Data platform using an API key/token. Native Access - Authenticate and interact with the Bright Data platform using proxy protocol username and password . Both API and Native access methods are billed at the same rate. Usage is charged according to your pricing plan for each Bright Data product.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Usage is charged according to your pricing plan for each Bright Data product.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access with proxy username and password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Sample Request curl --request POST \\ --url https://api.brightdata.com/request \\ --header 'Authorization: Bearer <token>' \\ --header 'Content-Type: application/json' \\ --data '{ \"zone\": \"my_unlocker_zone\", \"url\": \"https://example.com/page\", \"format\": \"json\", \"method\": \"GET\", \"country\": \"us\", \"data_format\": \"markdown\" }'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_types",
+        "claim": "sdk",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "The Bright Data CLI, Python SDK and JavaScript SDK use the same API key. Pass the key once when you set up the client, and every request the client sends carries the Authorization header for you.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "api_breadth",
+        "claim": "Bright Data offers multiple APIs including Proxy Manager API, Scraper API, Web Unlocker API, Browser API, SERP API, AI training data API, and others, accessible via REST endpoints and SDKs.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Navigation Essentials Authentication Documentation API reference Integrations Account Management Essentials Authentication Terminology CLI Python SDK JavaScript SDK Data extraction Scraper API Scraper Studio API Dataset Marketplace API Dataset API Web Unlocker API Browser API SERP API AI training data Web Archive API Media Data API Proxy Proxy Networks Proxy Manager API Administrative APIs Account Management API",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Manage your API Keys anytime in the Account settings .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "mcp_notes",
+        "claim": "Bright Data provides an official Management Control Panel (MCP) accessible via the web dashboard for account and API key management.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Manage your API Keys anytime in the Account settings .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "The Bright Data CLI, Python SDK and JavaScript SDK use the same API key. Pass the key once when you set up the client, and every request the client sends carries the Authorization header for you.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:22:07.955372+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 57,
+    "app_name": "Bright Data",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://brightdata.com/",
+    "description": "Bright Data provides data collection and proxy services with APIs for automation and integration. It supports authentication via API keys or native proxy username and password, enabling access to various proxy networks and data extraction products.",
+    "auth_methods": [
+      "api_key",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "Bright Data offers multiple APIs including Proxy Manager API, Scraper API, Web Unlocker API, Browser API, SERP API, AI training data API, and others, accessible via REST endpoints and SDKs.",
+    "mcp_available": "official",
+    "mcp_notes": "Bright Data provides an official Management Control Panel (MCP) accessible via the web dashboard for account and API key management.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Bright Data provides detailed official documentation for API authentication using API keys and native proxy credentials, SDKs in Python and JavaScript, and CLI tools. The API supports REST endpoints with bearer token authentication, and the MCP is officially available for managing API keys and account settings, enabling integration and buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Bright Data provides data collection and proxy services with APIs for automation and integration. It supports authentication via API keys or native proxy username and password, enabling access to various proxy networks and data extraction products.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Bright Data ensures secure access to its services. Bright Data provides two primary methods for authentication: API Access - Authenticate and interact with the Bright Data platform using an API key/token. Native Access - Authenticate and interact with the Bright Data platform using proxy protocol username and password . Both API and Native access methods are billed at the same rate. Usage is charged according to your pricing plan for each Bright Data product.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access with proxy username and password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Native Access - Authenticate and interact with the Bright Data platform using proxy protocol username and password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Usage is charged according to your pricing plan for each Bright Data product.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access with proxy username and password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Sample Request curl --request POST \\ --url https://api.brightdata.com/request \\ --header 'Authorization: Bearer <token>' \\ --header 'Content-Type: application/json' \\ --data '{ \"zone\": \"my_unlocker_zone\", \"url\": \"https://example.com/page\", \"format\": \"json\", \"method\": \"GET\", \"country\": \"us\", \"data_format\": \"markdown\" }'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_types",
+        "claim": "sdk",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "The Bright Data CLI, Python SDK and JavaScript SDK use the same API key. Pass the key once when you set up the client, and every request the client sends carries the Authorization header for you.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "api_breadth",
+        "claim": "Bright Data offers multiple APIs including Proxy Manager API, Scraper API, Web Unlocker API, Browser API, SERP API, AI training data API, and others, accessible via REST endpoints and SDKs.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Navigation Essentials Authentication Documentation API reference Integrations Account Management Essentials Authentication Terminology CLI Python SDK JavaScript SDK Data extraction Scraper API Scraper Studio API Dataset Marketplace API Dataset API Web Unlocker API Browser API SERP API AI training data Web Archive API Media Data API Proxy Proxy Networks Proxy Manager API Administrative APIs Account Management API",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Manage your API Keys anytime in the Account settings .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "mcp_notes",
+        "claim": "Bright Data provides an official Management Control Panel (MCP) accessible via the web dashboard for account and API key management.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "Manage your API Keys anytime in the Account settings .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "The Bright Data CLI, Python SDK and JavaScript SDK use the same API key. Pass the key once when you set up the client, and every request the client sends carries the Authorization header for you.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e12",
+        "field": "buildability_rationale",
+        "claim": "Bright Data provides detailed official documentation for API authentication using API keys and native proxy credentials, SDKs in Python and JavaScript, and CLI tools. The API supports REST endpoints with bearer token authentication, and the MCP is officially available for managing API keys and account settings, enabling integration and buildability.",
+        "url": "https://docs.brightdata.com/api-reference/authentication",
+        "final_url": "https://docs.brightdata.com/api-reference/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+        "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+        "quote": "The Bright Data CLI, Python SDK and JavaScript SDK use the same API key. Pass the key once when you set up the client, and every request the client sends carries the Authorization header for you. Manage your API Keys anytime in the Account settings . Sample Request curl --request POST \\ --url https://api.brightdata.com/request \\ --header 'Authorization: Bearer <token>' \\ --header 'Content-Type: application/json' \\ --data '{ \"zone\": \"my_unlocker_zone\", \"url\": \"https://example.com/page\", \"format\": \"json\", \"method\": \"GET\", \"country\": \"us\", \"data_format\": \"markdown\" }' Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access with proxy username and password.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:49.451799+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "auth_methods",
+    "buildability_rationale",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.brightdata.com/api-reference/authentication",
+      "final_url": "https://docs.brightdata.com/api-reference/authentication",
+      "retrieved_at": "2026-09-16T17:21:48.943690+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication - Bright Data Docs Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Bright Data Docs home page English Search... ⌘ K Support Sign up Sign up Search... Navigation Essentials Authentication Documentation API reference Integrations Account Management Essentials Authentication Terminology CLI Python SDK JavaScript SDK Data extraction Scraper API Scraper Studio API Dataset Marketplace API Dataset API Web Unlocker API Browser API SERP API AI training data Web Archive API Media Data API Proxy Proxy Networks Proxy Manager API Administrative APIs Account Management API On this page How do I authenticate with API Key? How do I relay the API key within a request? How do I authenticate with the CLI, Python SDK and JavaScript SDK? How do I generate a new API key? What are API Key options and configuration? What permissions level does an API key have? Does the API Key have an expiration date? How can I view the API Key settings and configuration? What are Agent API keys? Why can’t I see a plain text version of my API Key, or copy it? Can I refresh the API key? Where should I save the API key with admin permissions? How do I authenticate with native proxy protocol? Which products can I access with proxy protocol? How do I authenticate with native proxy username and password? Username/password format Account ID Username Password Comparing API Access vs. Native Access Essentials Authentication Copy page Copy page Authenticate with Bright Data using 1 of 2 methods: API Access with an API key or Native Access with proxy username and password. Billed at the same rate. Copy page Copy page Bright Data ensures secure access to its services. Bright Data provides two primary methods for authentication: API Access - Authenticate and interact with the Bright Data platform using an API key/token. Native Access - Authenticate and interact with the Bright Data platform using proxy protocol username and password . Both API and Native access methods are billed at the same rate. Usage is charged according to your pricing plan for each Bright Data product. ​ How do I authenticate with API Key? An API key is a secure hashed token used to authenticate with Bright Data API. We create a default key for you upon account creation automatically. You can create additional API keys for different users and with different permissions. Manage your API Keys anytime in the Account settings . ​ How do I relay the API key within a request? Here’s an example request: Sample Request curl --request POST \\ --url https://api.brightdata.com/request \\ --header 'Authorization: Bearer <token>' \\ --header 'Content-Type: application/json' \\ --data '{ \"zone\": \"my_unlocker_zone\", \"url\": \"https://example.com/page\", \"format\": \"json\", \"method\": \"GET\", \"country\": \"us\", \"data_format\": \"markdown\" }' The important part of this request is the Authorization header: 'Authorization: Bearer <token>' This <token> is your API key , which is required for every API request. ​ How do I authenticate with the CLI, Python SDK and JavaScript SDK? The Bright Data CLI, Python SDK and JavaScript SDK use the same API key. Pass the key once when you set up the client, and every request the client sends carries the Authorization header for you. CLI Python JavaScript npm install -g @brightdata/cli bdata login --api-key YOUR_API_KEY from brightdata import SyncBrightDataClient with SyncBrightDataClient( token = \"YOUR_API_KEY\" ) as client: ... import { bdclient } from '@brightdata/sdk' ; const client = new bdclient ({ apiKey: 'YOUR_API_KEY' }); bdata is the short alias of brightdata . Run bdata login without a flag to sign in through the browser instead. The CLI stores the key locally and reads BRIGHTDATA_API_KEY in non-interactive environments. See CLI installation . The Python SDK also reads BRIGHTDATA_API_TOKEN , and the JavaScript SDK reads BRIGHTDATA_API_KEY . The two variable names are not interchangeable. See the Python SDK and JavaScript SDK . ​ How do I generate a new API key? To generate a new API key, follow these steps: 1 Sign In Sign in to Bright Data’s control panel and go to your Account settings . 2 Click 'Add API key' Click the Add API key button in the top right of the API key section. If you don’t see the ‘API key’ section, switch to an admin account . only admins can generate API keys. Note: Each user can generate only one API key. The total number of API keys cannot exceed the number of account users. 3 Configure your API key Set the User, Permissions, and Expiration date (or choose ‘Unlimited’), then click Save . 4 Save your API key locally Once generated, your API key will only be shown once. Be sure to save it in a secure location . ​ What are API Key options and configuration? When creating an API key, you can assign one of five permission levels to control access and ensure security based on user roles or use cases. Learn more about user roles here . ​ What permissions level does an API key have? There are 5 types of permissions to choose from to control API key access: Admin: Grants full access to the account, including all Billing, Financial, product settings and configurations. Finance: Allows access to Billing and Financial pages only. Ops: Allows access to proxy/API configurations but restricts Billing access. Limit: Permits management of proxy passwords and IP allowlists/denylists. User: Enables API usage on the proxy/API level without access to Billing or product configuration pages. ​ Does the API Key have an expiration date? When creating an API key, you can setup its expiration date. Requests authenticating with this key past the expiration date will be denied. You can setup the expiration date as unlimited - although this is possible, we strongly recommend to setup an expiration date. Consult your organization’s information or data security officer for instructions. ​ How can I view the API Key settings and configuration? You can view and manage your API Keys in Account settings . ​ What are Agent API keys? Agent API keys authenticate the Bright Data MCP server and AI agents. Bright Data lists them in a separate Agent API keys table in Account settings , under Users and API keys , below the regular API keys. Each row shows the key’s status, the masked key and the expiration date. Open the row menu and choose Edit key configuration to change the expiration date, or Revoke key to disable the key. ​ Why can’t I see a plain text version of my API Key, or copy it? For your security, we do not allow plain text view of API keys with admin permissions. After creation you will be offered to copy and save the key. ​ Can I refresh the API key? Yes. Once you click “Refresh” we will generate a new API key. After the refresh, any request you will send with the old key will fail to authenticate. ​ Where should I save the API key with admin permissions? API keys are like passwords and should be dealt and saved with outmost care and under controlled access. Consult your IT manager or security administrator on how and where to save the keys per your organizations’ processes and regulation. ​ How do I authenticate with native proxy protocol? ​ Which products can I access with proxy protocol? Proxy protocol access is supported by: All proxy networks (Datacenter, ISP, Residential, and Mobile) Web Unlocker Scraping Browser ​ How do I authenticate with native proxy username and password? Here’s an example of a Native Access request: Sample Request curl \"https://www.example.com\" \\ -i --proxy brd.superproxy.io:44445 \\ --proxy-user brd-customer-[ACCOUNT_ID]-zone-[PROXY_NAME]:[PROXY_PASSWORD] The key part of this request is the --proxy-user parameter which holds the authentication credentials: proxy-user brd-customer-[ACCOUNT_ID]-zone-[PROXY_NAME]:[PROXY_PASSWORD] This parameter is made up of three elements combined into a single string: ACCOUNT_ID - your unique customer identifier. PROXY_NAME - the name you gave your proxy or API (e.g., web_unlocker1 , datacenter_proxy1 ). PROXY_PASSWORD - the password shown in your Access Details. Together, they form the complete proxy-user value. ​ Username/password format All parameters are case sensitive. The string must be consecutive without spaces. - (dash/minus sign) separates the username substrings, and : (colon) separates the username from the password. ​ Account ID Your Account ID is a unique identifier automatically generated when your Bright Data account is created. It is used for authentication and account-related operations. To find your Account ID, follow these steps: 1 Click on Account Settings in the left-hand menu. 2 Open the Profile tab. 3 Locate and copy your Account ID. Your Account ID is always a text string that begins with hl_### . ​ Username Each product you create in the Bright Data dashboard is assigned a Username visible in the product’s Access Details section. The username follows this format: brd-customer-[ACCOUNT_ID]-zone-[PRODUCT_NAME] For example: brd-customer-hl_7abed23d-zone-web_unlocker1 This name is set once when you create a proxy or API and cannot be changed later. You can find your username by opening your proxy or API (under Proxies or Web Access ) and checking the Access Details section. ​ Password Each proxy or API is assigned a unique Password that is required for authenticating Native Access requests. You can find it in the Access Details section. To view or update your password, follow these steps: 1 Open your product in the dashboard (under Proxies or Web Access). 2 Locate the Password field in the Access Details section. 3 Copy your current password, or generate a new one from the Configuration tab under Security Settings. ​ Comparing API Access vs. Native Access Feature API Access Native Access Used for Seamless integration with scripts, automation tools, or third-party APIs Direct proxy connections in browsers, crawlers, or proxy-compatible tools Recommended products - Web Unlocker API - SERP - Browsers - Scrapers - Functions - Marketplace Proxies SSL certificate Not required Required to access without KYC the residential network & unlocker. More info here. Connection via API endpoint Proxy endpoint Authentication API key username:password Output options HTML or JSON HTML Was this page helpful? Yes No Terminology linkedin youtube github",
+      "content_sha256": "a0c0d5a494c0d8ec270a8629c126517f01963303b534cdffefcb98e666153c02",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3282,
+    "output_tokens": 2550
+  },
+  "failure": null
+}

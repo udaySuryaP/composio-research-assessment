@@ -1,0 +1,329 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 97,
+    "app_name": "higgsfield",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://higgsfield.ai/cli",
+    "description": "Higgsfield provides AI image and video generation accessible via CLI and MCP (Model Context Protocol). It supports generating images up to 4K resolution and videos up to 15 seconds with multiple cinematic styles, consistent characters, and input from text prompts or reference images. It integrates with AI agents like Claude, OpenClaw, Hermes Agent, and NemoClaw via MCP, enabling generation within agent sessions without API keys, using a credit system for pricing.",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "Higgsfield uses MCP (Model Context Protocol), an open standard that allows AI agents such as Claude, OpenClaw, Hermes Agent, and NemoClaw to connect and generate images and videos within a single session. MCP support is official and integral to Higgsfield's agent integrations.",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Higgsfield provides AI image and video generation accessible via CLI and MCP (Model Context Protocol). It supports generating images up to 4K resolution and videos up to 15 seconds with multiple cinematic styles, consistent characters, and input from text prompts or reference images. It integrates with AI agents like Claude, OpenClaw, Hermes Agent, and NemoClaw via MCP, enabling generation within agent sessions without API keys, using a credit system for pricing.",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield gives your agent access to 30+ models including Soul, Cinema Studio, Flux, Seedream, Kling, Minimax Hailuo, Veo, and more. Your agent automatically selects the best model for the task, or you can specify one yourself. What can I create? Images up to 4K resolution, videos up to 15 seconds across multiple cinematic styles, consistent characters using Soul training, and more. You can generate from text prompts, reference images, or a combination of both. Do I need an API key? No. Add the Higgsfield MCP server URL in your agent's settings and authenticate through your Higgsfield account. No API keys to manage or configure. How does pricing work? Higgsfield tools use the same credit system as the Higgsfield platform. Each generation costs credits based on the model and resolution.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "2. Authenticate: run `higgsfield auth login` and complete the sign-in in the browser it opens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "How does pricing work? Higgsfield tools use the same credit system as the Higgsfield platform. Each generation costs credits based on the model and resolution. Your existing Higgsfield plan credits work seamlessly through any connected agent.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Once connected, your agent can generate images, create videos, train characters, and browse your creation history, all within a single session. Which agents are supported? Higgsfield MCP works with Claude (web, Cowork, and Claude Code), OpenClaw, Hermes Agent, and NemoClaw. Any agent or client that supports MCP can connect to Higgsfield.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Higgsfield uses MCP (Model Context Protocol), an open standard that allows AI agents such as Claude, OpenClaw, Hermes Agent, and NemoClaw to connect and generate images and videos within a single session. MCP support is official and integral to Higgsfield's agent integrations.",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Once connected, your agent can generate images, create videos, train characters, and browse your creation history, all within a single session. Which agents are supported? Higgsfield MCP works with Claude (web, Cowork, and Claude Code), OpenClaw, Hermes Agent, and NemoClaw. Any agent or client that supports MCP can connect to Higgsfield.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:26:03.705100+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 97,
+    "app_name": "higgsfield",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://higgsfield.ai/cli",
+    "description": "Higgsfield provides AI image and video generation accessible via CLI and MCP (Model Context Protocol). It supports generating images up to 4K resolution and videos up to 15 seconds with multiple cinematic styles, consistent characters, and input from text prompts or reference images. It integrates with AI agents like Claude, OpenClaw, Hermes Agent, and NemoClaw via MCP, enabling generation within agent sessions without API keys, using a credit system for pricing.",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Higgsfield API provides a single integration point for generative media models with asynchronous request lifecycle, supporting image and video generation via authenticated REST endpoints. It includes features like polling, webhooks, file uploads, and SDKs for Python and TypeScript.",
+    "mcp_available": "official",
+    "mcp_notes": "Higgsfield uses MCP (Model Context Protocol), an open standard that allows AI agents such as Claude, OpenClaw, Hermes Agent, and NemoClaw to connect and generate images and videos within a single session. MCP support is official and integral to Higgsfield's agent integrations.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Higgsfield API is officially documented with authentication, asynchronous request lifecycle, SDKs, and examples. MCP is officially supported and documented, enabling integration with multiple AI agents. The CLI and MCP server URL can be used without API keys, and the credit-based pricing is integrated. This makes building on Higgsfield feasible with available official resources.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Higgsfield provides AI image and video generation accessible via CLI and MCP (Model Context Protocol). It supports generating images up to 4K resolution and videos up to 15 seconds with multiple cinematic styles, consistent characters, and input from text prompts or reference images. It integrates with AI agents like Claude, OpenClaw, Hermes Agent, and NemoClaw via MCP, enabling generation within agent sessions without API keys, using a credit system for pricing.",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield gives your agent access to 30+ models including Soul, Cinema Studio, Flux, Seedream, Kling, Minimax Hailuo, Veo, and more. Your agent automatically selects the best model for the task, or you can specify one yourself. What can I create? Images up to 4K resolution, videos up to 15 seconds across multiple cinematic styles, consistent characters using Soul training, and more. You can generate from text prompts, reference images, or a combination of both. Do I need an API key? No. Add the Higgsfield MCP server URL in your agent's settings and authenticate through your Higgsfield account. No API keys to manage or configure. How does pricing work? Higgsfield tools use the same credit system as the Higgsfield platform. Each generation costs credits based on the model and resolution.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "2. Authenticate: run `higgsfield auth login` and complete the sign-in in the browser it opens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "How does pricing work? Higgsfield tools use the same credit system as the Higgsfield platform. Each generation costs credits based on the model and resolution. Your existing Higgsfield plan credits work seamlessly through any connected agent.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.higgsfield.ai/",
+        "final_url": "https://docs.higgsfield.ai/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:38.420806+00:00",
+        "content_sha256": "e946eb169c259850e155b4f36b85cebf57c98137bc2569c161b9e06f3c1aa771",
+        "quote": "Generate images and videos through one authenticated, asynchronous API. Higgsfield provides one integration point for generative media models. Submit a request to a model endpoint, then poll for the result or receive a webhook when processing finishes.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.higgsfield.ai/",
+        "final_url": "https://docs.higgsfield.ai/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:38.420806+00:00",
+        "content_sha256": "e946eb169c259850e155b4f36b85cebf57c98137bc2569c161b9e06f3c1aa771",
+        "quote": "cURL curl --request POST \\\\ --url https://api.higgsfield.ai/higgsfield-ai/soul/v2/standard \\\\ --header \"Authorization: Key ${ HF_API_KEY_ID }:${ HF_API_KEY_SECRET }\" \\\\ --header \"Content-Type: application/json\" \\\\ --data '{ \"prompt\": \"Editorial portrait in soft daylight\" }' The API immediately returns a request identifier and links for checking or canceling the request.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Higgsfield API provides a single integration point for generative media models with asynchronous request lifecycle, supporting image and video generation via authenticated REST endpoints. It includes features like polling, webhooks, file uploads, and SDKs for Python and TypeScript.",
+        "url": "https://docs.higgsfield.ai/",
+        "final_url": "https://docs.higgsfield.ai/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:38.420806+00:00",
+        "content_sha256": "e946eb169c259850e155b4f36b85cebf57c98137bc2569c161b9e06f3c1aa771",
+        "quote": "Generate images and videos through one authenticated, asynchronous API. Higgsfield provides one integration point for generative media models. Submit a request to a model endpoint, then poll for the result or receive a webhook when processing finishes. Upload media Upload input files to Higgsfield storage before generation. Output files are available for at least seven days. Download completed output to your own storage for long-term retention.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Once connected, your agent can generate images, create videos, train characters, and browse your creation history, all within a single session. Which agents are supported? Higgsfield MCP works with Claude (web, Cowork, and Claude Code), OpenClaw, Hermes Agent, and NemoClaw. Any agent or client that supports MCP can connect to Higgsfield.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Higgsfield uses MCP (Model Context Protocol), an open standard that allows AI agents such as Claude, OpenClaw, Hermes Agent, and NemoClaw to connect and generate images and videos within a single session. MCP support is official and integral to Higgsfield's agent integrations.",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Once connected, your agent can generate images, create videos, train characters, and browse your creation history, all within a single session. Which agents are supported? Higgsfield MCP works with Claude (web, Cowork, and Claude Code), OpenClaw, Hermes Agent, and NemoClaw. Any agent or client that supports MCP can connect to Higgsfield.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.higgsfield.ai/",
+        "final_url": "https://docs.higgsfield.ai/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:38.420806+00:00",
+        "content_sha256": "e946eb169c259850e155b4f36b85cebf57c98137bc2569c161b9e06f3c1aa771",
+        "quote": "Generate images and videos through one authenticated, asynchronous API. Higgsfield provides one integration point for generative media models. Submit a request to a model endpoint, then poll for the result or receive a webhook when processing finishes. Run your first request Create credentials and complete a generation from submission to result. Get an API key Create and manage server-side credentials in Higgsfield Cloud.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability_rationale",
+        "claim": "The Higgsfield API is officially documented with authentication, asynchronous request lifecycle, SDKs, and examples. MCP is officially supported and documented, enabling integration with multiple AI agents. The CLI and MCP server URL can be used without API keys, and the credit-based pricing is integrated. This makes building on Higgsfield feasible with available official resources.",
+        "url": "https://higgsfield.ai/cli",
+        "final_url": "https://higgsfield.ai/cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+        "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+        "quote": "Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Once connected, your agent can generate images, create videos, train characters, and browse your creation history, all within a single session. Do I need an API key? No. Add the Higgsfield MCP server URL in your agent's settings and authenticate through your Higgsfield account. No API keys to manage or configure. How does pricing work? Higgsfield tools use the same credit system as the Higgsfield platform. Each generation costs credits based on the model and resolution. Your existing Higgsfield plan credits work seamlessly through any connected agent.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:40.324509+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://higgsfield.ai/cli",
+      "final_url": "https://higgsfield.ai/cli",
+      "retrieved_at": "2026-09-16T17:25:37.765678+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Higgsfield CLI | AI Image & Video Generation for Any Agent Higgsfield Explore Image Video Audio MCP ChatGPT Plugin New Genjutsu Effects New Cinema Studio Marketing Studio Supercomputer 3D Jutsu New Edit Academy Community Contests Plugins Canvas Originals Higgsfield CLI for any AI Create images and videos directly from your prompts in any AI tool Claude Code ChatGPT OpenClaw Hermes MCP CLI 1 Copy and send this to Claude Code Set up Higgsfield for me so I can generate images and videos from here. 1. Install the CLI: run `npm i -g @higgsfield/cli` . 2. Authenticate: run `higgsfield auth login` and complete the sign-in in the browser it opens. 3. Install the companion skills: run `npx skills add higgsfield-ai/skills` . Once that's done, let me know when it's ready. 2 Connect and start creating Sign in, then ask Claude Code to generate an image or video GitHub How does MCP work? Marketing Faceless videos Website building Video generation Image generation Claude Create a complete UGC flow for this tumbler using the attached creator, from concept and script to a finished 9:16 video I’ll shape the product benefit into a natural creator concept, write a concise script, and carry the same avatar through the final widescreen video. The concept and script are ready. Now I’ll generate the creator performance with consistent product details and native captions. Higgsfield Generate a 15-second 9:16 UGC video using the attached creator and tumbler. Open with a relatable problem, demonstrate the cold-all-day benefit, use casual piece-to-camera delivery, and finish with a concise call to action Seedance 2 9:16 15s Audio Your UGC flow is complete — concept, script, creator performance, product close-up, captions, and a social-ready widescreen cut. Result Generating 424k +134% 104k +95% Create with Higgsfield skills in Claude Give your Claude access to the most powerful image and video models Explore 35 skills Featured Marketing UGC factory Faceless content factory Utility Motion & Design Website building Featured Popular skills to get started Marketing Launch ads and campaigns UGC factory Create creator-led product videos Faceless content factory Create viral faceless videos Utility Edit, repurpose, and optimize Motion & Design Design and animate visuals Website building Design and ship websites Turn this green handbag ad into three campaign-ready variations. Refresh the talent, wardrobe, and upscale home setting while keeping the bag design, product-focused motion, framing, timing, and audio consistent Recreate Learn more Ad Multiplier Skill Create an editorial motion graphics faceless video about how the Mona Lisa became the world’s most famous painting Recreate Learn more Editorial Motion Graphics Use case Website Create a UGC ad video for this chips with this girl, showing its store page on screen Recreate Learn more SaaS UGC Skill Build the LOOMERE website from the attached coral polo shirt. Use celadon sage, warm ivory, pine ink, Cabinet Grotesk, and Inter Tight with one red accent. Show a coral thread becoming the polo and four pastel variants, with six chapters, a preorder modal, a knot logo, and a fabric-facts marquee Recreate Learn more Website Building Skill Create a stickman cartoon faceless video showing Odysseus's journey to Troy and back home Recreate Learn more Stickman cartoon Skill Create a complete UGC flow for this tumbler using the attached creator, from concept and script to a finished 9:16 video Recreate Learn more Product review UGC Skill Create a faceless video about a surprising historical fact with a strong hook, stylized visuals, voiceover, and subtitles Recreate Learn more Faceless Content Skill Every creative model, Inside Claude & ChatGPT Every creative model, inside Claude Give Claude access to the most powerful image and video models. Nano Banana Pro Google Omni Flash Seedance 2.5 Seedream 5.0 Lite Seedance 2.0 Kling 3 GPT Image 2 Soul 2.0 Got any questions left? How does Higgsfield connect to AI agents? Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Once connected, your agent can generate images, create videos, train characters, and browse your creation history, all within a single session. Which agents are supported? Higgsfield MCP works with Claude (web, Cowork, and Claude Code), OpenClaw, Hermes Agent, and NemoClaw. Any agent or client that supports MCP can connect to Higgsfield. What models are available? Higgsfield gives your agent access to 30+ models including Soul, Cinema Studio, Flux, Seedream, Kling, Minimax Hailuo, Veo, and more. Your agent automatically selects the best model for the task, or you can specify one yourself. What can I create? Images up to 4K resolution, videos up to 15 seconds across multiple cinematic styles, consistent characters using Soul training, and more. You can generate from text prompts, reference images, or a combination of both. Do I need an API key? No. Add the Higgsfield MCP server URL in your agent's settings and authenticate through your Higgsfield account. No API keys to manage or configure. How does pricing work? Higgsfield tools use the same credit system as the Higgsfield platform. Each generation costs credits based on the model and resolution. Your existing Higgsfield plan credits work seamlessly through any connected agent. How long does generation take? Images typically complete in a few seconds. Videos take longer depending on duration and model. All generation runs asynchronously, so your agent polls for results and delivers them as soon as they're ready. Can I use previous generations as input? Yes. You can browse your full generation history, reference any past image or video, and use it as a starting point for new creations. This makes iterative workflows and multi-step production easy. Can I use Higgsfield with my own agent setup? Yes. Any MCP-compatible client can connect. If you're running OpenClaw on a VPS, Hermes Agent on your local machine, or NemoClaw on NVIDIA hardware, just point it to the Higgsfield MCP server and you're ready to generate. Explore more AI features Manus Cursor Claude MCP Claude Skills Claude AI Image Generator Claude AI Video Generator AI Image Generator AI Video Generator Cinematic Video Generator Image Editing Enterprise Team Plan Soul Intro Mixed Media Intro AI Ad Generator AI Avatar Generator Marketing Automation Marketing Studio Intro Soul Community Chat Intro Trending Templates Kling 3.0 Seedance 2.0 GPT 2 Wan 2.6 Nano Banana Pro Intro Grok Imagine Adobe Plugin Photoshop Plugin AI-native creative suite Create AI Video AI Image Edit Image Inpaint Upscale Sora 2 Upscale Mixed Media AI Face Swap AI Influencer Apps Video Models Seedance 2.5 Seedance 2.0 Kling 3.0 Sora 2 Introduction Veo 3.1 Introduction WAN 2.6 Grok Imagine 1.5 Gemini Omni Flash Image Models Nano Banana Flux 2 Seedream 5 GPT Image 2 Studios Cinema Studio Marketing Studio Lipsync Studio Photodump Studio Fashion Factory UGC Factory Higgsfield Popcorn Higgsfield Canvas Soul Soul 2.0 Soul ID Character Soul Cinema Platform Supercomputer MCP/CLI Collab Games Reference Extension Resources Blog Creator Hub Help Center Academy Prompt Guide Company About Trust Enterprise Team Pricing Careers Contact Community Community Contests Creator Partners X / Twitter Youtube LinkedIn Tiktok Create AI Video AI Image Edit Image Inpaint Upscale Sora 2 Upscale Mixed Media AI Face Swap AI Influencer Apps Video Models Seedance 2.5 Seedance 2.0 Kling 3.0 Sora 2 Introduction Veo 3.1 Introduction WAN 2.6 Grok Imagine 1.5 Gemini Omni Flash Image Models Nano Banana Flux 2 Seedream 5 GPT Image 2 Studios Cinema Studio Marketing Studio Lipsync Studio Photodump Studio Fashion Factory UGC Factory Higgsfield Popcorn Higgsfield Canvas Soul Soul 2.0 Soul ID Character Soul Cinema Platform Supercomputer MCP/CLI Collab Games Reference Extension Resources Blog Creator Hub Help Center Academy Prompt Guide Company About Trust Enterprise Team Pricing Careers Contact Community Community Contests Creator Partners 535 Mission St, 14th floor, San Francisco, CA, 94105 X / Twitter Youtube LinkedIn Tiktok © 2026 Higgsfield, Inc. All rights reserved. Help center Cookie Notice Terms Privacy",
+      "content_sha256": "6ead88089d7e5714ba1ee7f15908437fa3f5eb3c0e280381bebc4fb5dda44548",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.higgsfield.ai/",
+      "final_url": "https://docs.higgsfield.ai/docs",
+      "retrieved_at": "2026-09-16T17:25:38.420806+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Higgsfield API - Higgsfield API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Higgsfield API Docs home page Search... ⌘ K Ask Assistant ⌘ I Status Support Get API key Get API key Search... Navigation Get started Higgsfield API Get started Overview Quickstart Authentication How the API works Core concepts Requests and lifecycle Polling Webhooks File uploads Errors and retries Rate limits Billing and retention SDKs Client libraries Organizations Overview Managing members API reference API reference GET Get request status POST Cancel a queued request Resources FAQ Support close On this page Make a request Choose your path Get started Higgsfield API Copy page Copy page Generate images and videos through one authenticated, asynchronous API. Copy page Copy page Higgsfield provides one integration point for generative media models. Submit a request to a model endpoint, then poll for the result or receive a webhook when processing finishes. Run your first request Create credentials and complete a generation from submission to result. Get an API key Create and manage server-side credentials in Higgsfield Cloud. ​ Make a request Every model uses the same authentication and asynchronous request lifecycle. The JSON body depends on the selected model. cURL curl --request POST \\ --url https://api.higgsfield.ai/higgsfield-ai/soul/v2/standard \\ --header \"Authorization: Key ${ HF_API_KEY_ID }:${ HF_API_KEY_SECRET }\" \\ --header \"Content-Type: application/json\" \\ --data '{ \"prompt\": \"Editorial portrait in soft daylight\" }' The API immediately returns a request identifier and links for checking or canceling the request. { \"status\" : \"queued\" , \"request_id\" : \"d7e6c0f3-6699-4f6c-bb45-2ad7fd9158ff\" , \"status_url\" : \"https://api.higgsfield.ai/requests/d7e6c0f3-6699-4f6c-bb45-2ad7fd9158ff/status\" , \"cancel_url\" : \"https://api.higgsfield.ai/requests/d7e6c0f3-6699-4f6c-bb45-2ad7fd9158ff/cancel\" } ​ Choose your path Build a prototype Use the Python or TypeScript SDK to submit a request and wait for its result. Ship to production Learn the request lifecycle, polling, webhooks, errors, and limits. Upload media Upload input files to Higgsfield storage before generation. Output files are available for at least seven days. Download completed output to your own storage for long-term retention. Was this page helpful? Yes No Quickstart Next x instagram discord youtube Powered by This documentation is built and hosted on Mintlify, a developer documentation platform Assistant Responses are generated using AI and may contain mistakes.",
+      "content_sha256": "e946eb169c259850e155b4f36b85cebf57c98137bc2569c161b9e06f3c1aa771",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3520,
+    "output_tokens": 2733
+  },
+  "failure": null
+}

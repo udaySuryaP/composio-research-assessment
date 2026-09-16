@@ -1,0 +1,168 @@
+[
+  {
+    "schema_version": "1.0",
+    "id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website": "http://salesforce.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "low_confidence",
+      "no_usable_official_source"
+    ],
+    "researched_at": "2026-09-16T17:42:58.020529+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  {
+    "schema_version": "1.0",
+    "id": 40,
+    "app_name": "SendGrid",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://sendgrid.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:43:36.891256+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  {
+    "schema_version": "1.0",
+    "id": 62,
+    "app_name": "Vercel",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://vercel.com/docs/rest-api",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "ev2",
+        "field": "auth_methods",
+        "claim": "Authentication methods include OAuth Sign-in via GitHub, Google, GitLab, Bitbucket and API key usage as implied by SDK and REST API usage.",
+        "url": "https://vercel.com/pricing",
+        "final_url": "https://vercel.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+        "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+        "quote": "Access & Deployment Security Vercel protects your projects across access, application, and infrastructure security. OAuth Sign-in GitHub Google GitLab Bitbucket",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev3",
+        "field": "access_model",
+        "claim": "Users can upgrade from Hobby (free) to Pro (paid) directly in the Vercel dashboard, indicating a self-serve paid access model.",
+        "url": "https://vercel.com/pricing",
+        "final_url": "https://vercel.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+        "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+        "quote": "I have a Hobby account, how do I upgrade to a paid plan? Thanks for continuing to use Vercel! You can upgrade to Pro directly in the Vercel dashboard.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "provenance_mismatch",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:43:57.500927+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  {
+    "schema_version": "1.0",
+    "id": 87,
+    "app_name": "Xero",
+    "category": "9. Finance and Fintech",
+    "website": "http://developer.xero.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://github.com/xeroapi/xero-mcp-server",
+        "final_url": "https://github.com/xeroapi/xero-mcp-server",
+        "source_kind": "community",
+        "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+        "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+        "quote": "Xero MCP Server This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "nonofficial_critical_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:44:28.657041+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  }
+]

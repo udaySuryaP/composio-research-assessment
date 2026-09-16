@@ -1,0 +1,308 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 56,
+    "app_name": "Firecrawl",
+    "category": "6. Data, SEO and Scraping",
+    "website": "firecrawl.dev",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "Firecrawl provides an official MCP server at https://mcp.firecrawl.dev/v2/mcp with support for keyless access, account sign-in, or API key authentication. The MCP server allows connecting Firecrawl to AI tools via the Model Context Protocol.",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "The MCP server allows connecting Firecrawl to AI tools via the Model Context Protocol.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "MCP Server : Connect Firecrawl to any AI tool via the Model Context Protocol .",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "mixed_none_auth",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:22:01.966552+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 56,
+    "app_name": "Firecrawl",
+    "category": "6. Data, SEO and Scraping",
+    "website": "firecrawl.dev",
+    "description": "Firecrawl is an API service that allows searching the web, scraping any page, and interacting with it through one API. It provides LLM-ready output such as clean markdown, structured JSON, and screenshots, handling proxies, anti-bot, JavaScript rendering, and dynamic content. It is built for production with high uptime and consistent results, optimized for high throughput, and supports an MCP server to connect to AI tools via the Model Context Protocol.",
+    "auth_methods": [
+      "none",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API supports web search, scraping URLs with multiple output formats (markdown, HTML, structured JSON), interaction with scraped pages (click, fill forms, extract dynamic content), and session management (start, interact, stop). SDKs are available for Python, Node.js, and CLI.",
+    "mcp_available": "official",
+    "mcp_notes": "Firecrawl provides an official MCP server at https://mcp.firecrawl.dev/v2/mcp with support for keyless access, account sign-in, or API key authentication. The MCP server allows connecting Firecrawl to AI tools via the Model Context Protocol.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with examples in multiple languages (Python, Node.js, CLI, cURL). Authentication can be none for limited use or bearer token for higher rate limits. The MCP server is officially supported with clear setup instructions. SDKs and CLI tools facilitate integration and development.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Firecrawl is an API service that allows searching the web, scraping any page, and interacting with it through one API. It provides LLM-ready output such as clean markdown, structured JSON, and screenshots, handling proxies, anti-bot, JavaScript rendering, and dynamic content. It is built for production with high uptime and consistent results, optimized for high throughput, and supports an MCP server to connect to AI tools via the Model Context Protocol.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "Search the web, scrape any page, and interact with it, all through one API. ... LLM-ready output : Clean markdown, structured JSON, screenshots, and more. Handles the hard stuff : Proxies, anti-bot, JavaScript rendering, and dynamic content. Reliable : Built for production with high uptime and consistent results. Fast : Results in seconds, optimized for high throughput. MCP Server : Connect Firecrawl to any AI tool via the Model Context Protocol .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "No account or API key is required for initial requests; API key can be added as a bearer token for higher rate limits.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "No account or API key is required for this request. ... add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Create a free account for direct API access and higher limits; no account or key needed for limited use.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "Get your API key Create a free account for direct API access and higher limits ... No account or API key is required for this request.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Firecrawl provides a REST API with endpoints for search, scrape, interact, and more, with SDKs and CLI tools.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "Search the web, scrape any page, and interact with it, all through one API. ... See the Python SDK , Node SDK , or API reference to build it into your application.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is RESTful with SDKs available for Python, Node.js, and CLI.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "See the Python SDK , Node SDK , or API reference to build it into your application. ... # No API key needed to get started \u00131 add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits: curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports web search, scraping URLs with multiple output formats (markdown, HTML, structured JSON), interaction with scraped pages (click, fill forms, extract dynamic content), and session management (start, interact, stop). SDKs are available for Python, Node.js, and CLI.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "Search Search the web and get full page content from results ... Scrape Scrape any URL and get its content in markdown, HTML, or other formats ... Interact Scrape a page, then keep working with it: click buttons, fill forms, extract dynamic content, or navigate deeper ... SDKs Python, Node.js, CLI ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Firecrawl provides an official MCP server at https://mcp.firecrawl.dev/v2/mcp with support for keyless access, account sign-in, or API key authentication.",
+        "url": "https://docs.firecrawl.dev/mcp-server",
+        "final_url": "https://docs.firecrawl.dev/mcp-server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:44.484654+00:00",
+        "content_sha256": "f320ab22acaa97dd493f974c177ee3875f79d2d8d8752253023f8c29fdff179a",
+        "quote": "Set up Firecrawl MCP with keyless access, account sign-in, or an API key. ... Add an API key Create a Firecrawl API key , then add it as a bearer token in your client config: { \"mcpServers\" : { \"firecrawl\" : { \"type\" : \"http\" , \"url\" : \"https://mcp.firecrawl.dev/v2/mcp\" , \"headers\" : { \"Authorization\" : \"Bearer <FIRECRAWL_API_KEY>\" } } } }",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "The MCP server allows connecting Firecrawl to AI tools via the Model Context Protocol.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "MCP Server : Connect Firecrawl to any AI tool via the Model Context Protocol .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "The API is well documented with examples in multiple languages (Python, Node.js, CLI, cURL). Authentication can be none for limited use or bearer token for higher rate limits. The MCP server is officially supported with clear setup instructions. SDKs and CLI tools facilitate integration and development.",
+        "url": "https://docs.firecrawl.dev/introduction",
+        "final_url": "https://docs.firecrawl.dev/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+        "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+        "quote": "See the Python SDK , Node SDK , or API reference to build it into your application. ... No account or API key is required for this request. ... Add an API key when you need higher limits. ... Firecrawl MCP with keyless access, account sign-in, or an API key.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:44.766035+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "mixed_none_auth",
+      "field": "auth_methods"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.firecrawl.dev/introduction",
+      "final_url": "https://docs.firecrawl.dev/introduction",
+      "retrieved_at": "2026-09-16T17:21:43.821216+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Introduction | Firecrawl Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Firecrawl Docs home page v2 English Search... ⌘ K Status Support Sign Up firecrawl/firecrawl firecrawl/firecrawl Search... Navigation Get Started Introduction Documentation SDKs API Reference Build with AI Playground Blog Community Changelog Get Started Introduction MCP CLI Build with AI Advanced Scraping Guide Plans and Billing Enterprise Core Endpoints Search Scrape Monitor Interact / Browser Sandbox More Parse Map Crawl Agent Quickstarts Node.js Serverless PHP Ruby Python Go Rust Elixir Java .NET Developer Guides Full-Stack Templates Usage Guides LLM SDKs and Frameworks Cookbooks Integrations Webhooks Overview Event Types Security Testing Use Cases Overview AI Platforms Lead Enrichment SEO Platforms Deep Research View more Other Overview Debug with Ask Contributing Open Source vs Cloud Contributor Setup Self-hosting On this page Get started Build directly with the API Other ways to get started Install the Firecrawl CLI Set up with an agent Build and test directly What can Firecrawl do? Why Firecrawl? Search Scrape Interact More capabilities Resources Get Started Introduction Copy page Copy page Search the web, scrape any page, and interact with it, all through one API. Copy page Copy page ​ Get started ​ Build directly with the API Scrape your first page now. No account or API key is required for this request. cURL # No API key needed to get started — add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits: curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"url\": \"https://firecrawl.dev\", \"formats\": [\"markdown\", \"html\"] }' Add an API key when you need higher limits. See the Python SDK , Node SDK , or API reference to build it into your application. ​ Other ways to get started ​ Install the Firecrawl CLI One command installs the Firecrawl CLI, authenticates in your browser, and adds skills to every detected coding agent. npx -y firecrawl-cli@latest init --all --browser Restart your coding agent after setup so it can discover the new skills. See CLI for the full setup. ​ Set up with an agent Provide your agent with this Firecrawl setup prompt, or see all MCP setup options . For AI agents: Use llms.txt for an index of the documentation, or llms-full.txt for the full text. ​ Build and test directly Get your API key Create a free account for direct API access and higher limits Try it in the Playground Test Firecrawl in the browser without writing code ​ What can Firecrawl do? Search Search the web and get full page content from results Scrape Extract content from any URL as markdown, HTML, or structured JSON Interact Continue working with any scraped page: click, fill forms, extract dynamic content ​ Why Firecrawl? LLM-ready output : Clean markdown, structured JSON, screenshots, and more. Handles the hard stuff : Proxies, anti-bot, JavaScript rendering, and dynamic content. Reliable : Built for production with high uptime and consistent results. Fast : Results in seconds, optimized for high throughput. MCP Server : Connect Firecrawl to any AI tool via the Model Context Protocol . Bounty: 5,000 credit reward for solid feedback on Firecrawl To qualify, complete a high-signal interview (thoughtful, concrete use cases, etc) with our Firecrawl Feedback Assistant. Only takes a few minutes, can be stopped at any time, and is both human/agent-friendly (just paste the link into your agentic harness!). New to Firecrawl? Your take still counts. Start the interview Include your email to be eligible. Interviews are reviewed for quality at the end of each week. ​ Search Search the web and get full page content from results in one call. See the Search feature docs for all options. Python Node cURL CLI from firecrawl import Firecrawl firecrawl = Firecrawl( # No API key needed to get started — add one for higher rate limits: # api_key=\"fc-YOUR-API-KEY\", ) results = firecrawl.search( query = \"firecrawl\" , limit = 3 , ) print (results) import { Firecrawl } from 'firecrawl' ; const firecrawl = new Firecrawl ({ // No API key needed to get started — add one for higher rate limits: // apiKey: \"fc-YOUR-API-KEY\", }); const results = await firecrawl . search ( 'firecrawl' , { limit: 3 , scrapeOptions: { formats: [ 'markdown' ] } }); console . log ( results ); # No API key needed to get started — add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits: curl -s -X POST \"https://api.firecrawl.dev/v2/search\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"query\": \"firecrawl\", \"limit\": 3 }' # Search the web firecrawl search \"firecrawl web scraping\" --limit 5 --pretty Response SDKs will return the data object directly. cURL will return the complete payload. JSON { \"success\" : true , \"data\" : { \"web\" : [ { \"url\" : \"https://www.firecrawl.dev/\" , \"title\" : \"Firecrawl - The Web Data API for AI\" , \"description\" : \"The web crawling, scraping, and search API for AI. Built for scale. Firecrawl delivers the entire internet to AI agents and builders.\" , \"position\" : 1 }, { \"url\" : \"https://github.com/firecrawl/firecrawl\" , \"title\" : \"mendableai/firecrawl: Turn entire websites into LLM-ready ... - GitHub\" , \"description\" : \"Firecrawl is an API service that takes a URL, crawls it, and converts it into clean markdown or structured data.\" , \"position\" : 2 }, ... ], \"images\" : [ { \"title\" : \"Quickstart | Firecrawl\" , \"imageUrl\" : \"https://mintlify.s3.us-west-1.amazonaws.com/firecrawl/logo/logo.png\" , \"imageWidth\" : 5814 , \"imageHeight\" : 1200 , \"url\" : \"https://docs.firecrawl.dev/\" , \"position\" : 1 }, ... ], \"news\" : [ { \"title\" : \"Y Combinator startup Firecrawl is ready to pay $1M to hire three AI agents as employees\" , \"url\" : \"https://techcrunch.com/2025/05/17/y-combinator-startup-firecrawl-is-ready-to-pay-1m-to-hire-three-ai-agents-as-employees/\" , \"snippet\" : \"It's now placed three new ads on YC's job board for “AI agents only” and has set aside a $1 million budget total to make it happen.\" , \"date\" : \"3 months ago\" , \"position\" : 1 }, ... ] } } ​ Scrape Scrape any URL and get its content in markdown, HTML, or other formats. See the Scrape feature docs for all options. Python Node cURL CLI from firecrawl import Firecrawl firecrawl = Firecrawl( # No API key needed to get started — add one for higher rate limits: # api_key=\"fc-YOUR-API-KEY\", ) # Scrape a website: doc = firecrawl.scrape( \"https://firecrawl.dev\" , formats = [ \"markdown\" , \"html\" ]) print (doc) import { Firecrawl } from 'firecrawl' ; const firecrawl = new Firecrawl ({ // No API key needed to get started — add one for higher rate limits: // apiKey: \"fc-YOUR-API-KEY\", }); // Scrape a website: const doc = await firecrawl . scrape ( 'https://firecrawl.dev' , { formats: [ 'markdown' , 'html' ] }); console . log ( doc ); # No API key needed to get started — add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits: curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"url\": \"https://firecrawl.dev\", \"formats\": [\"markdown\", \"html\"] }' # Scrape a URL and get markdown firecrawl https://firecrawl.dev # With multiple formats (returns JSON) firecrawl https://firecrawl.dev --format markdown,html,links --pretty Response SDKs will return the data object directly. cURL will return the payload exactly as shown below. { \"success\" : true , \"data\" : { \"markdown\" : \"Launch Week I is here! [See our Day 2 Release 🚀](https://www.firecrawl.dev/blog/launch-week-i-day-2-doubled-rate-limits)[💥 Get 2 months free...\" , \"html\" : \"<!DOCTYPE html><html lang= \\\" en \\\" class= \\\" light \\\" style= \\\" color-scheme: light; \\\" ><body class= \\\" __variable_36bd41 __variable_d7dc5d font-inter ...\" , \"metadata\" : { \"title\" : \"Home - Firecrawl\" , \"description\" : \"Firecrawl crawls and converts any website into clean markdown.\" , \"language\" : \"en\" , \"keywords\" : \"Firecrawl,Markdown,Data,Mendable,Langchain\" , \"robots\" : \"follow, index\" , \"ogTitle\" : \"Firecrawl\" , \"ogDescription\" : \"Turn any website into LLM-ready data.\" , \"ogUrl\" : \"https://www.firecrawl.dev/\" , \"ogImage\" : \"https://www.firecrawl.dev/og.png?123\" , \"ogLocaleAlternate\" : [], \"ogSiteName\" : \"Firecrawl\" , \"sourceURL\" : \"https://firecrawl.dev\" , \"statusCode\" : 200 , \"contentType\" : \"text/html\" } } } ​ Interact Scrape a page, then keep working with it: click buttons, fill forms, extract dynamic content, or navigate deeper. Describe what you want in plain English or write code for full control. See the Interact feature docs for all options. Python Node cURL CLI from firecrawl import Firecrawl app = Firecrawl( # No API key needed to get started — add one for higher rate limits: # api_key=\"fc-YOUR-API-KEY\", ) # 1. Scrape Amazon's homepage result = app.scrape( \"https://www.amazon.com\" , formats = [ \"markdown\" ]) scrape_id = result.metadata.scrape_id # 2. Interact — search for a product and get its price app.interact(scrape_id, prompt = \"Search for iPhone 16 Pro Max\" ) response = app.interact(scrape_id, prompt = \"Click on the first result and tell me the price\" ) print (response.output) # 3. Stop the session app.stop_interaction(scrape_id) import { Firecrawl } from 'firecrawl' ; const app = new Firecrawl ({ // No API key needed to get started — add one for higher rate limits: // apiKey: 'fc-YOUR-API-KEY', }); // 1. Scrape Amazon's homepage const result = await app . scrape ( 'https://www.amazon.com' , { formats: [ 'markdown' ] }); const scrapeId = result . metadata ?. scrapeId ; // 2. Interact — search for a product and get its price await app . interact ( scrapeId , { prompt: 'Search for iPhone 16 Pro Max' }); const response = await app . interact ( scrapeId , { prompt: 'Click on the first result and tell me the price' }); console . log ( response . output ); // 3. Stop the session await app . stopInteraction ( scrapeId ); # 1. Scrape Amazon's homepage # No API key needed to get started — add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits: RESPONSE = $( curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\" \\ -H \"Content-Type: application/json\" \\ -d '{\"url\": \"https://www.amazon.com\", \"formats\": [\"markdown\"]}' ) SCRAPE_ID = $( echo $RESPONSE | jq -r '.data.metadata.scrapeId' ) # 2. Interact — search for a product and get its price curl -s -X POST \"https://api.firecrawl.dev/v2/scrape/ $SCRAPE_ID /interact\" \\ -H \"Content-Type: application/json\" \\ -d '{\"prompt\": \"Search for iPhone 16 Pro Max\"}' curl -s -X POST \"https://api.firecrawl.dev/v2/scrape/ $SCRAPE_ID /interact\" \\ -H \"Content-Type: application/json\" \\ -d '{\"prompt\": \"Click on the first result and tell me the price\"}' # 3. Stop the session curl -s -X DELETE \"https://api.firecrawl.dev/v2/scrape/ $SCRAPE_ID /interact\" # 1. Scrape Amazon's homepage (scrape ID is saved automatically) firecrawl scrape https://www.amazon.com # 2. Interact — search for a product and get its price firecrawl interact \"Search for iPhone 16 Pro Max\" firecrawl interact \"Click on the first result and tell me the price\" # 3. Stop the session firecrawl interact stop Response Response { \"success\" : true , \"cdpUrl\" : \"wss://browser.firecrawl.dev/...\" , \"liveViewUrl\" : \"https://liveview.firecrawl.dev/...\" , \"interactiveLiveViewUrl\" : \"https://liveview.firecrawl.dev/...\" , \"output\" : \"The iPhone 16 Pro Max (256GB) is priced at $1,199.00.\" , \"exitCode\" : 0 , \"killed\" : false } ​ More capabilities Agent Autonomous web data gathering powered by AI Interact Click, fill forms, extract dynamic content Webhooks Async event delivery Browser Sandbox Managed browser sessions for interactive workflows Parse Turn local PDFs, DOCX, XLSX, HTML, and more into Markdown or structured JSON Map Discover all URLs on a website Crawl Recursively gather content from entire sites ​ Resources API Reference Complete API documentation with interactive examples SDKs Python, Node.js, CLI, and community SDKs Open Source Self-host Firecrawl or contribute to the project Integrations LangChain, LlamaIndex, OpenAI, and more Suggest edits Raise issue Get Started Next Firecrawl Docs home page github linkedin website x Get credentials Agent onboarding (SKILL.md) Agent auth (auth.md) Agent docs (llms.txt) Full docs (llms-full.txt) MCP server github linkedin website x Powered by This documentation is built and hosted on Mintlify, a developer documentation platform",
+      "content_sha256": "216bf6882e30665778aaf2d7474c21db3621aad2c4612ea1580717851650ba32",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.firecrawl.dev/mcp-server",
+      "final_url": "https://docs.firecrawl.dev/mcp-server",
+      "retrieved_at": "2026-09-16T17:21:44.484654+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Firecrawl MCP: Get Started Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Firecrawl Docs home page v2 English Search... ⌘ K Status Support Sign Up firecrawl/firecrawl firecrawl/firecrawl Search... Navigation MCP Get Started Documentation SDKs API Reference Build with AI Playground Blog Community Changelog Get Started Introduction MCP Get Started For Agents For Humans CLI Build with AI Advanced Scraping Guide Plans and Billing Enterprise Core Endpoints Search Scrape Monitor Interact / Browser Sandbox More Parse Map Crawl Agent Quickstarts Node.js Serverless PHP Ruby Python Go Rust Elixir Java .NET Developer Guides Full-Stack Templates Usage Guides LLM SDKs and Frameworks Cookbooks Integrations Webhooks Overview Event Types Security Testing Use Cases Overview AI Platforms Lead Enrichment SEO Platforms Deep Research View more Other Overview Debug with Ask Contributing Open Source vs Cloud Contributor Setup Self-hosting On this page Add an API key Client setup MCP Get Started Copy page Copy page Set up Firecrawl MCP with keyless access, account sign-in, or an API key. Copy page Copy page Choose how the connection will authenticate. Signing in and adding an API key are two paths to the same access: both reach the full tool surface on your team’s plan. Try Instantly No account or key. Search, Scrape, and Parse within daily limits. Start keyless setup Sign in Browser sign-in from Codex, Claude Code, or your favorite harness. Connect account Use an API key Configure an API key in your client, no browser needed. Configure an API key ​ Add an API key Create a Firecrawl API key , then add it as a bearer token in your client config: { \"mcpServers\" : { \"firecrawl\" : { \"type\" : \"http\" , \"url\" : \"https://mcp.firecrawl.dev/v2/mcp\" , \"headers\" : { \"Authorization\" : \"Bearer <FIRECRAWL_API_KEY>\" } } } } Configure the key through an environment variable or your client’s secret storage, never in the MCP URL. This is a server URL for your MCP client, not a page to open directly in a browser. Sign-in connections use https://mcp.firecrawl.dev/v2/mcp-oauth instead, and your client starts the browser flow. ​ Client setup For Agents Start keyless or use an API key. For Humans Sign in via browser. Next: choose a tool or run the server locally . Suggest edits Raise issue Introduction Previous Get Started Next Firecrawl Docs home page github linkedin website x Get credentials Agent onboarding (SKILL.md) Agent auth (auth.md) Agent docs (llms.txt) Full docs (llms-full.txt) MCP server github linkedin website x Powered by This documentation is built and hosted on Mintlify, a developer documentation platform",
+      "content_sha256": "f320ab22acaa97dd493f974c177ee3875f79d2d8d8752253023f8c29fdff179a",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5013,
+    "output_tokens": 2271
+  },
+  "failure": null
+}

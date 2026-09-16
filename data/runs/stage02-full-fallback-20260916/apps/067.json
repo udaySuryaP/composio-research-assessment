@@ -1,0 +1,272 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 67,
+    "app_name": "Snowflake",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://docs.snowflake.com/",
+    "description": "Snowflake provides REST APIs for interacting with its data platform. Authentication to these APIs can be done using key pair authentication, OAuth, programmatic access tokens (PAT), or workload identity federation.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Snowflake provides REST APIs for interacting with its data platform. Authentication to these APIs can be done using key pair authentication, OAuth, programmatic access tokens (PAT), or workload identity federation.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "This topic describes how to authenticate to the server when using the Snowflake REST APIs. When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication to these APIs can be done using key pair authentication, OAuth, programmatic access tokens (PAT), or workload identity federation.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Snowflake REST APIs are accessible via self-serve paid accounts.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Use Snowflake CLI to verify that you can use the generated private key to connect to Snowflake",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Snowflake provides REST APIs for its platform.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Authenticating Snowflake REST APIs with Snowflake",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Snowflake REST APIs are RESTful.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Authenticating Snowflake REST APIs with Snowflake",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Snowflake REST APIs are officially documented with detailed authentication methods and usage instructions, enabling developers to build integrations using standard REST API calls authenticated via OAuth, key pair JWT, PAT, or workload identity federation.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "This topic describes how to authenticate to the server when using the Snowflake REST APIs. When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:23:01.586263+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 67,
+    "app_name": "Snowflake",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://docs.snowflake.com/",
+    "description": "Snowflake provides REST APIs for interacting with its data platform. Authentication to these APIs can be done using key pair authentication, OAuth, programmatic access tokens (PAT), or workload identity federation.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Snowflake REST APIs cover a wide range of data platform management tasks including account, user, role, warehouse, database, schema, table, and integration management.",
+    "mcp_available": "unknown",
+    "mcp_notes": "No explicit information about a marketplace or app store for Snowflake was found in the retrieved evidence.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Snowflake REST APIs are officially documented with detailed authentication methods and usage instructions, enabling developers to build integrations using standard REST API calls authenticated via OAuth, key pair JWT, PAT, or workload identity federation.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Snowflake provides REST APIs for interacting with its data platform. Authentication to these APIs can be done using key pair authentication, OAuth, programmatic access tokens (PAT), or workload identity federation.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "This topic describes how to authenticate to the server when using the Snowflake REST APIs. When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication to these APIs can be done using key pair authentication, OAuth, programmatic access tokens (PAT), or workload identity federation.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Snowflake REST APIs are accessible via self-serve paid accounts.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Use Snowflake CLI to verify that you can use the generated private key to connect to Snowflake",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Snowflake provides REST APIs for its platform.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Authenticating Snowflake REST APIs with Snowflake",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Snowflake REST APIs are RESTful.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Authenticating Snowflake REST APIs with Snowflake",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Snowflake REST APIs cover a wide range of data platform management tasks including account, user, role, warehouse, database, schema, table, and integration management.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "Manage accounts Use managed accounts Working with users, roles, and privileges Manage users Manage roles Manage database roles Manage grants Managing virtual warehouses Manage warehouses Working with databases and schemas Manage databases Manage schemas Managing tables and views Manage tables Manage dynamic tables Manage event tables Manage Iceberg tables Manage sequences Manage views Managing integrations Use API integrations Use catalog integrations Use notification integrations",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Snowflake REST APIs are officially documented with detailed authentication methods and usage instructions, enabling developers to build integrations using standard REST API calls authenticated via OAuth, key pair JWT, PAT, or workload identity federation.",
+        "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+        "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+        "quote": "This topic describes how to authenticate to the server when using the Snowflake REST APIs. When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:46.481903+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+      "retrieved_at": "2026-09-16T17:22:44.219231+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authenticating Snowflake REST APIs with Snowflake | Snowflake Documentation DOCUMENTATION / EN Language English Français Deutsch 日本語 한국어 Português Get started Guides Developer Reference Release notes Tutorials Status For AI agents: documentation index at /llms.txt — fetch to discover all Snowflake documentation pages. Markdown version of this page: /en/developer-guide/snowflake-rest-api/authentication.md Overview Builders DevOps with Snowflake Observability Snowpark Library Snowpark API Snowpark Connect for Apache Spark Machine Learning Snowflake ML Snowpark Code Execution Environments Snowpark Container Services Functions and procedures Logging, Tracing, and Metrics Snowflake APIs Snowflake Python APIs Snowflake REST APIs Tutorials Authenticating Snowflake REST APIs with Snowflake Setting context Getting started Working with accounts Manage accounts Use managed accounts Working with users, roles, and privileges Manage users Manage roles Manage database roles Manage grants Managing virtual warehouses Manage warehouses Working with databases and schemas Manage databases Manage schemas Managing tables and views Manage tables Manage dynamic tables Manage event tables Manage Iceberg tables Manage sequences Manage views Loading and unloading data Manage stages Manage external volumes Work with pipes Managing notebooks and Streamlit apps Manage notebooks Manage Streamlit apps Working with Snowpark Container Services Manage compute pools Manage image repositories Manage services Managing functions and procedures Manage artifact repositories Manage functions Manage user-defined functions Manage procedures Working with ML and AI Use Cortex Embed Use Cortex inference Use Cortex Lite Agent Use Cortex Search Service Working with alerts Manage alerts Managing security Manage network policies Manage network rules Manage password policies Manage secrets Managing streams and tasks Manage streams Manage tasks Managing integrations Use API integrations Use catalog integrations Use notification integrations Using Spark Connect Use Spark Connect Working with tags Manage tags Reference SQL API Apps Streamlit in Snowflake About Streamlit in Snowflake Getting started Getting started with Streamlit in Snowflake Example: Build a personalized data dashboard Example: Build a form that writes to Snowflake Streamlit object management Billing considerations Security considerations Privilege requirements Understanding owner's rights PrivateLink App development Create your app Edit your app Manage your app Delete your app Runtime environments Dependency management File organization Secrets and configuration Personalization with user information Migrations and upgrades Identify your app type Migrate to a container runtime Migrate from ROOT_LOCATION Features External access Git integration Restricted caller's rights Logging and tracing Row access policies Sharing Streamlit in Snowflake apps Sleep timer Streamlit in Snowflake in Workspaces Limitations and library changes Troubleshooting Streamlit in Snowflake Streamlit open-source library documentation Snowflake App Runtime Snowflake Native App Framework Snowflake Declarative Sharing Snowflake Native SDK for Connectors External Integration External Functions Kafka and Spark Connectors Snowflake Scripting Snowflake Scripting Developer Guide Tools Snowflake CLI Git Drivers Overview Considerations when drivers reuse sessions Scala versions Reference API Reference Developer Snowflake REST APIs Authenticating Snowflake REST APIs with Snowflake Authenticating Snowflake REST APIs with Snowflake ¶ This topic describes how to authenticate to the server when using the Snowflake REST APIs. When you send a request, the request must include authentication information using either of the following: Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation Using key pair authentication ¶ When using key pair authentication, you need to complete the following tasks: Set up key pair authentication Generate a JWT token Set up key pair authentication ¶ To use key pair authentication, follow these steps: Set up key pair authentication. As part of this process, you must: Generate a public-private key pair. The generated private key should be in a file (e.g. named rsa_key.p8 ). Assign the public key to your Snowflake user. After you assign the key to the user, run the DESCRIBE USER command. In the output, the RSA_PUBLIC_KEY_FP property should be set to the fingerprint of the public key assigned to the user. For instructions on how to generate the key pair and assign a key to a user, see Key-pair authentication and key-pair rotation . Use Snowflake CLI to verify that you can use the generated private key to connect to Snowflake : Copy code $ snow connection test --account < account_identifier > --user < user > --private-key-path < path > /rsa_key.p8 If you generated an encrypted private key, Snowflake CLI prompts you for the passphrase that you created when you generated the key. Generate a JWT token ¶ To generate a JWT token in your application code, use the following steps: Generate the fingerprint (a SHA-256 hash) of the public key for the user. Prefix the fingerprint with SHA256: . For example: SHA256: hash You can also execute the SQL DESCRIBE USER command to get the value from the RSA_PUBLIC_KEY_FP property. Generate a JSON Web Token (JWT) with the following fields in the payload: Field Description Example iss Issuer of the JWT. Set it to the following value: account_identifier . user .SHA256: public_key_fingerprint where: account_identifier is your Snowflake account identifier . If you are using the account locator , exclude any region information from the account locator. user is your Snowflake user name. SHA256: public_key_fingerprint is the fingerprint that you generated in the previous step. Note The account_identifier and user values must use all uppercase characters. MYORGANIZATION-MYACCOUNT.MYUSER.SHA256: public_key_fingerprint sub Subject for the JWT. Set it to the following value: account_identifier . user MYORGANIZATION-MYACCOUNT.MYUSER iat Issue time for the JWT in UTC. Set the value to the current time value as either seconds or milliseconds. 1615370644 (seconds) 1615370644000 (milliseconds) exp Expiration time for the JWT in UTC. You can specify the value as either seconds or milliseconds. Note The JWT is valid for at most one hour after the token is issued, even if you specify a longer expiration time. 1615374184 (seconds) 1615374184000 (milliseconds) Expand Show less See more In each API request that you send, set the following headers: Authorization: Bearer JWT where JWT is the token that you generated. (Optional) X-Snowflake-Authorization-Token-Type: KEYPAIR_JWT If you omit the X-Snowflake-Authorization-Token-Type header, Snowflake determines the token type by examining the token. Even though this header is optional, you can choose to specify this header. You can set the header to one of the following values: KEYPAIR_JWT (for key-pair authentication) OAUTH (for OAuth) PROGRAMMATIC_ACCESS_TOKEN (for programmatic access tokens ) Using OAuth ¶ To use OAuth, follow these steps: Set up OAuth for authentication. See Introduction to OAuth for details on how to set up OAuth and get an OAuth token. Use Snowflake CLI to verify that you can use a generated OAuth token to connect to Snowflake: For Linux and MacOS systems Copy code $ snow connection test --account < account_identifier > --user < user > --authenticator=oauth --token= < oauth_token > For Windows systems Copy code $ snow connection test --account < account_identifier > --user < user > --authenticator=oauth --token= \" <oauth_token> \" In each API request you send, set the following headers: Authorization: Bearer oauth_token where oauth_token is the generated OAuth token. (Optional) X-Snowflake-Authorization-Token-Type: OAUTH If you omit the X-Snowflake-Authorization-Token-Type header, Snowflake determines the token type by examining the token. Even though this header is optional, you can choose to specify this header. You can set the header to one of the following values: KEYPAIR_JWT (for key-pair authentication) OAUTH (for OAuth) PROGRAMMATIC_ACCESS_TOKEN (for programmatic access tokens ) Using a programmatic access token (PAT) ¶ To authenticate with a programmatic access token, set the following HTTP headers in the request: Authorization: Bearer token_secret X-Snowflake-Authorization-Token-Type: PROGRAMMATIC_ACCESS_TOKEN (optional) For example, if you are using cURL to send a request to a Snowflake REST API endpoint: Copy code curl --location ' https://myorganization-myaccount.snowflakecomputing.com/api/v2/databases ' \\ --header \" Authorization: Bearer <token_secret> \" If the request fails with a PAT_INVALID error, the error might have occurred for one of the following reasons: The user associated with the programmatic access token was not found. Validation failed. The role associated with the programmatic access token was not found. The user is not associated with the specified programmatic access token. For more information, see Using a programmatic access token to authenticate to an endpoint . Using workload identity federation ¶ To use workload identity federation, follow these steps: As a workload administrator, configure your cloud provider or OpenID Connect (OIDC) provider to issue an attestation: AWS Microsoft Azure (see Configure Microsoft Entra ID and Configure Azure ) Google Cloud Amazon Elastic Kubernetes Service (EKS) Azure Kubernetes Service (AKS) Google Kubernetes Engine (GKE) Custom OIDC provider As a Snowflake administrator, create a service user for the workload that is authenticating: AWS Microsoft Azure Google Cloud Amazon Elastic Kubernetes Service (EKS) Azure Kubernetes Service (AKS) Google Kubernetes Engine (GKE) Custom OIDC provider Obtain a token that can be included in the authorization header of your request: AWS : For a workload with an attached IAM role, follow the AWS steps to get a JWT token. Be sure to set the audience to snowflakecomputing.com . Microsoft Azure : For a workload with an attached managed identity, follow the Azure steps to get an access token. Be sure to set the resource to api://fd3f753b-eed3-462c-b6a7-a4b5bb650aad . Google Cloud : For a workload with an attached service account, follow the Google Cloud steps to get an ID token. Be sure to set the audience to snowflakecomputing.com . Kubernetes / Custom OIDC : Use the token issued by your OIDC provider. Put the token in the authorization header of your request using the following format: Copy code Authorization: Bearer WIF.{provider}.{token} X-Snowflake-Authorization-Token-Type: WORKLOAD_IDENTITY_FEDERATION Where: {provider} corresponds to your cloud provider. Specify one of the following values: AWS , AZURE , GCP , or OIDC . {token} is the token obtained in the previous step. Was this page helpful? Yes No Visit Snowflake Join the conversation Develop with Snowflake Share your feedback Read the latest on our blog Get your own certification Privacy Notice Site Terms Cookies Settings © 2026 Snowflake, Inc. All Rights Reserved . On this page Using key pair authentication Using OAuth Using a programmatic access token (PAT) Using workload identity federation",
+      "content_sha256": "f7f02bceefbe680c4e971782d6b46448f5ea6862fad5412d507e483a0151bc12",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3320,
+    "output_tokens": 1655
+  },
+  "failure": null
+}

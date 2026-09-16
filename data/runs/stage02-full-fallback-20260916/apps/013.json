@@ -1,0 +1,295 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 13,
+    "app_name": "Freshdesk",
+    "category": "2. Support and Helpdesk",
+    "website": "http://freshdesk.com/",
+    "description": "Freshdesk is a cloud-based customer support platform that enables companies of all sizes to provide great customer service. It offers RESTful APIs that allow reading, modifying, adding, or deleting data from the helpdesk, supporting JSON over HTTPS with CORS support.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Freshdesk is a cloud-based customer support platform that enables companies of all sizes to provide great customer service. It offers RESTful APIs that allow reading, modifying, adding, or deleting data from the helpdesk, supporting JSON over HTTPS with CORS support.",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk is a cloud-based customer support platform that was founded with the mission of enabling companies of all sizes to provide great customer service. Our goal is simple: make it easy for brands to talk to their customers and make it easy for users to get in touch with businesses. Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk. The APIs also support Cross-Origin Resource Sharing (CORS).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk APIs are plain JSON over HTTP and use the following HTTP verbs: Command Purpose POST Create an object GET Fetch one or more objects PUT Update an object DELETE Remove an object Note: All API requests should hit the secured endpoint, that is, only HTTPS",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "The number of API calls per minute is based on your plan. This limit is applied on an account wide basis irrespective of factors such as the number of agents or IP addresses used to make the calls. For all trial users, there is a default API limit of 50 calls/minute. If your account hasn't been switched to the new minute level APIs, please contact support@freshdesk.com to get the new rate limits enabled for your account. To view the old API rate limits, click here Note : An account can purchase additional API calls, to increase the rate limit. Contact us to know more about our pricing policy and purchase additional API calls.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk's APIs belong to the Representational State Transfer (REST) category.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:16:47.438808+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 13,
+    "app_name": "Freshdesk",
+    "category": "2. Support and Helpdesk",
+    "website": "http://freshdesk.com/",
+    "description": "Freshdesk is a cloud-based customer support platform that enables companies of all sizes to provide great customer service. It offers RESTful APIs that allow reading, modifying, adding, or deleting data from the helpdesk, supporting JSON over HTTPS with CORS support.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Extensive REST API covering tickets, contacts, agents, companies, conversations, canned responses, surveys, automations, settings, and more, with detailed endpoints for create, read, update, delete operations.",
+    "mcp_available": "no",
+    "mcp_notes": "No evidence of a Marketplace or Community Marketplace Platform was found in the retrieved data.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official Freshdesk API documentation provides extensive REST API endpoints with clear authentication methods and usage guidelines, enabling integration and build-out of custom solutions.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Freshdesk is a cloud-based customer support platform that enables companies of all sizes to provide great customer service. It offers RESTful APIs that allow reading, modifying, adding, or deleting data from the helpdesk, supporting JSON over HTTPS with CORS support.",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk is a cloud-based customer support platform that was founded with the mission of enabling companies of all sizes to provide great customer service. Our goal is simple: make it easy for brands to talk to their customers and make it easy for users to get in touch with businesses. Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk. The APIs also support Cross-Origin Resource Sharing (CORS).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk APIs are plain JSON over HTTP and use the following HTTP verbs: Command Purpose POST Create an object GET Fetch one or more objects PUT Update an object DELETE Remove an object Note: All API requests should hit the secured endpoint, that is, only HTTPS",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "The number of API calls per minute is based on your plan. This limit is applied on an account wide basis irrespective of factors such as the number of agents or IP addresses used to make the calls. For all trial users, there is a default API limit of 50 calls/minute. If your account hasn't been switched to the new minute level APIs, please contact support@freshdesk.com to get the new rate limits enabled for your account. To view the old API rate limits, click here Note : An account can purchase additional API calls, to increase the rate limit. Contact us to know more about our pricing policy and purchase additional API calls.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk's APIs belong to the Representational State Transfer (REST) category.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Extensive REST API covering tickets, contacts, agents, companies, conversations, canned responses, surveys, automations, settings, and more, with detailed endpoints for create, read, update, delete operations.",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk Core APIs ... Tickets ... Contacts ... Agents ... Companies ... Conversations ... Canned Responses ... Customer Satisfaction ... Automations ... Settings ... Threads ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "no",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "No evidence of a Marketplace or Community Marketplace Platform was found in the retrieved data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.freshdesk.com/api/",
+        "final_url": "https://developers.freshdesk.com/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+        "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+        "quote": "Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:33.740446+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.freshdesk.com/api/",
+      "final_url": "https://developers.freshdesk.com/api/",
+      "retrieved_at": "2026-09-16T17:16:31.895196+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Freshdesk Core APIs App SDK Web Chat APIs Widget APIs Community Partners Log in Freshdesk Api Reference Introduction Overview What are APIs What's New Rate Limit The number of API calls per hour Policies Changelog Getting Started Authentication How does it work? Who can access my helpdesk? Can everybody see my data? Schema Embedding Attachments Errors The list of error codes & error messages Pagination Pagination of Listing APIs Best Practices Code Samples Quick Reference API Index Tickets Tickets Create a Ticket /api/v2/tickets Create an Outbound Email /api/v2/tickets/outbound_email View a Ticket /api/v2/tickets/[id] Ticket Association API List All Tickets /api/v2/tickets Filter Tickets /api/v2/search/tickets?query=[query] Update a Ticket /api/v2/tickets/[id] Update Multiple Tickets /api/v2/tickets/bulk_update Forward a ticket /api/v2/tickets/[id]/forward Ticket Merge API /api/v2/tickets/merge Watcher Delete a Ticket /api/v2/tickets/[id] Delete Multiple Tickets /api/v2/tickets/bulk_delete Delete an attachment /api/v2/attachments/[id] Restore a Ticket /api/v2/tickets/[id]/restore List All Ticket Fields /api/v2/ticket_fields List All Conversations of a Ticket /api/v2/tickets/[id]/conversations List All Time Entries of a Ticket /api/v2/tickets/[id]/time_entries List All Satisfaction Ratings of a Ticket /api/v2/tickets/[ticket_id]/satisfaction_ratings Ticket Summary API Archive Tickets Ticket User Access Ticket Fields Ticket Fields List All Ticket Fields /api/v2/admin/ticket_fields Create a Ticket Field /api/v2/admin/ticket_fields View a Ticket Field /api/v2/admin/ticket_fields/[id] Update a Ticket Field /api/v2/admin/ticket_fields/[id] Delete a Ticket Field /api/v2/admin/ticket_fields/[id] Sections List All Sections for a Ticket Field /api/v2/admin/ticket_fields/[id]/sections Create a Section /api/v2/admin/ticket_fields/[id]/sections List a specific Section details /api/v2/admin/ticket_fields/[id]/sections/[section_id] Update a section /api/v2/admin/ticket_fields/[id]/sections/[section_id] Delete a section /api/v2/admin/ticket_fields/[id]/sections/[section_id] Ticket Forms Ticket Forms List All Ticket Forms /api/v2/ticket-forms Create a Ticket Form /api/v2/ticket-forms View a Ticket Form /api/v2/ticket-forms/[id] Update a Ticket Form /api/v2/ticket-forms/[id] Delete a Ticket Form /api/v2/ticket-forms/[id] Clone a Ticket Form /api/v2/ticket-forms/[id] Ticket Form Fields View A Ticket Form's Field /api/v2/ticket-forms/[form-id]/fields/[field-id] Update A Ticket Form's Field /api/v2/ticket-forms/[form-id]/fields/[field-id] Delete a Ticket Form's Field /api/v2/ticket-forms/[form-id]/fields/[field-id] Conversations Conversations Create a Reply /api/v2/tickets/[id]/reply Create a Note /api/v2/tickets/[ticket_id]/notes Update a conversation /api/v2/conversations/[id] Delete a conversation /api/v2/conversations/[id] Reply to Forward /api/v2/tickets/[id]/reply_to_forward Outbound Messages Outbound Messages Send Proactive Message /api/v2/channels/outbound-messages Retrieve Message /api/v2/channels/outbound-messages/[message-id] Account View Account /api/v2/account Export Account api/v2/account/export Jobs View a Job /api/v2/jobs/[id] Contacts Contacts Create a Contact /api/v2/contacts View a Contact /api/v2/contacts/[id] List All Contacts /api/v2/contacts Search Contacts /api/v2/contacts/autocomplete?term=[keyword] Filter Contacts BETA /api/v2/search/contacts?query=[query] Update a Contact /api/v2/contacts/[id] Soft Delete a Contact /api/v2/contacts/[id] Permanently Delete a Contact /api/v2/contacts/[id]/hard_delete Make Agent /api/v2/contacts/[id]/make_agent Restore a Contact api/v2/contacts/[id]/restore Send Invite to a Contact api/v2/contacts/[id]/send_invite Merge Contacts api/v2/contacts/merge Contact Export api/v2/contacts/export Contact Import api/v2/contacts/imports Contact Fields Contact Fields List all contact fields /api/v2/contact_fields View a contact field /api/v2/contact_fields/[id] Create a contact field /api/v2/contact_fields Update a contact field /api/v2/contact_fields/[id] Delete a contact field /api/v2/contact_field/[id] Agents Agents View an Agent /api/v2/agents/[id] List All Agents /api/v2/agents Create an Agent /api/v2/agents/ Update an Agent /api/v2/agents/[id] Delete an Agent /api/v2/agents/[id] Currently Authenticated Agent /api/v2/agents/me Create Multiple Agents /api/v2/agents/bulk Search Agents /api/v2/agents/autocomplete?term=[keyword] Availability List All Agents Availability /api/v2/agents?page=1&per_page=10&only=availability View Agent Availability /api/v2/agents/[id]/availability Update Agent load settings /api/v2/agents/[id]/availability Skills Skills View a Skill /api/v2/admin/skills/[id] List all Skills /api/v2/admin/skills/ Create a Skill /api/v2/admin/skills Delete a Skill /api/v2/admin/skills/[id] Update a Skill /api/v2/admin/skills/[id] Roles Roles View a Role /api/v2/roles/[id] List All Roles /api/v2/roles Groups Groups Create a Group /api/v2/groups View a Group /api/v2/groups/[id] List All Groups /api/v2/groups Update a Group /api/v2/groups/[id] Delete a Group /api/v2/groups/[id] Admin-Groups Groups Create a Group /api/v2/admin/groups View a Group /api/v2/admin/groups/[id] List All Groups /api/v2/admin/groups Update a Group /api/v2/admin/groups/[id] Delete a Group /api/v2/admin/groups/[id] List All Agents in a Group /api/v2/admin/groups/[id]/agents Add or Remove Agents in a Group /api/v2/admin/groups/[id]/agents Omnichannel Group Companies Companies Create a Company /api/v2/companies View a Company /api/v2/companies/[id] List All Companies /api/v2/companies Search Companies /api/v2/companies/autocomplete?name=[keyword] Filter Companies BETA /api/v2/search/companies?query=[query] Update a Company /api/v2/companies/[id] Delete a Company /api/v2/companies/[id] Company Export api/v2/companies/export Company Import api/v2/companies/imports Company Fields Company Fields List all company fields /api/v2/company_fields View a company field /api/v2/company_fields/[id] Create a company field api/v2/company_fields Update a company field api/v2/company_field/[id] Delete a company field api/v2/company_field/[id] Custom Objects Custom Objects Create A Custom Object Retrieve Existing Custom Objects /api/v2/custom_objects/schemas Retrieve A Specific Custom Object /api/v2/custom_objects/schemas/{schema-id} Create A Record /api/v2/custom_objects/schemas/schema-id/records/ Retrieve A Record /api/v2/custom_objects/schemas/{schema-id}/records/{record-id} Update A Record /api/v2/custom_objects/schemas/schema-id/records/{record-id} Delete A Record /api/v2/custom_objects/schemas/schema-id/records/{record-id} Retrieve All Records /api/v2/custom_objects/schemas/schema-id/records Retrieve The Count Of Records /api/v2/custom_objects/schemas/schema_id/records/count Filter Records Of A Custom Object /api/v2/custom_objects/schemas/schema_id/records?{field-name}{operator}{value} Error Descriptions Canned Responses Canned Responses Create a canned response /api/v2/canned_responses View a Canned Response /api/v2/canned_responses/[id] Update a canned response api/v2/canned_responses/[id] Bulk Create Canned Responses /api/v2/canned_responses/bulk Create Folder /api/v2/canned_response_folder Update Folder /api/v2/canned_response_folder/[id] List All Folders /canned_response_folders List All Canned Responses in a Folder /canned_response_folders/[id] Get details of Canned Responses in a Folder /canned_response_folders/[id]/responses Discussions Discussions Categories Forums Topics comments Solutions Solutions Categories Folders Articles Customer Satisfaction NEW Customer Satisfaction Surveys /api/v2/customer-satisfaction/surveys Create a Survey Response /api/v2/customer-satisfaction/surveys/{survey_id}/responses View all Survey Responses /api/v2/customer-satisfaction/surveys/{survey_id}/responses Customer Satisfaction LEGACY Customer Satisfaction Surveys List all Surveys /api/v2/surveys Satisfaction Ratings Create a Satisfaction Rating /api/v2/tickets/[ticket_id]/satisfaction_ratings View all Satisfaction Ratings /api/v2/surveys/satisfaction_ratings Field Service Management Introduction Service Task Service Group Field Technicians Time Entries Time Entries Create a Time Entry /api/v2/tickets/[ticket_id]/time_entries List All Time Entries /api/v2/time_entries Update a Time Entry /api/v2/time_entries/[id] Start/Stop Timer /api/v2/time_entries/[time_entry_id]/toggle_timer Delete a Time Entry /api/v2/time_entries/[id] Email Configs Email Configs View an Email Config /api/v2/email_configs/[id] List All Email Configs /api/v2/email_configs Email Mailboxes Email Mailboxes NEW Create an Email Mailbox /api/v2/email/mailboxes View an Email Mailbox /api/v2/email/mailboxes/[id] List All Email Mailboxes /api/v2/email/mailboxes Update an Email Mailbox /api/v2/email/mailboxes/[id] Delete an Email Mailbox /api/v2/email/mailboxes/[id] Update Mailbox Settings /api/v2/email/settings View Mailbox Settings /api/v2/email/settings Update Automatic Bcc emails /api/v2/notifications/email/bcc View Automatic Bcc emails /api/v2/notifications/email/bcc Products Products View a Product /api/v2/products/[id] List All Products /api/v2/products Business Hours Business Hours View a Business Hour /api/v2/business_hours/[id] List All Business Hours /api/v2/business_hours Scenario Automations Scenario Automations List All Scenario Automations /scenario_automations.json SLA Policies SLA Policies Create SLA Policies /api/v2/sla_policies List All SLA Policies /api/v2/sla_policies Update an SLA Policy /api/v2/sla_policies/[id] Omnichannel Activities Omnichannel Activities Publish Activities /api/v2/contact-activities Automations List All Automation Rules /api/v2/automations/[automation_type_id]/rules View an Automation Rule /api/v2/automations/[automation_type_id]/rules/[id] Delete an Automation Rule /api/v2/automations/[automation_type_id]/rules/[id] Create an Automation Rule /api/v2/automations/[automation_type_id]/rules Update an Automation Rule /api/v2/automations/[automation_type_id]/rules/[id] Settings Settings View Helpdesk Settings /api/v2/settings/helpdesk Threads Threads Create a thread api/v2/collaboration/threads Get a thread api/v2/collaboration/threads/[id] Update a thread api/v2/collaboration/threads/[id] Delete a thread api/v2/collaboration/threads/[id] Thread messages Create message for thread api/v2/collaboration/messages Get message for thread api/v2/collaboration/messages/[id] Update message for thread api/v2/collaboration/messages/[id] Delete message for thread api/v2/collaboration/messages/[id] Get quoted text for message api/v2/collaboration/messages/[id]/generate-quote Overview Freshdesk is a cloud-based customer support platform that was founded with the mission of enabling companies of all sizes to provide great customer service. Our goal is simple: make it easy for brands to talk to their customers and make it easy for users to get in touch with businesses. Freshdesk's APIs belong to the Representational State Transfer (REST) category. They allow you to perform 'RESTful' operations such as reading, modifying, adding or deleting data from your helpdesk. The APIs also support Cross-Origin Resource Sharing (CORS). What API commands are used by Freshdesk? Freshdesk APIs are plain JSON over HTTP and use the following HTTP verbs: Command Purpose POST Create an object GET Fetch one or more objects PUT Update an object DELETE Remove an object Note: All API requests should hit the secured endpoint, that is, only HTTPS What's New Version 2 of the API brings several new features as well as changes to the previous APIs. This section highlights some of the new features introduced in v2. Higher rate limits as a result of significant performance enhancements Improved error handling - errors will return appropriate HTTP status codes and an error body Four new API categories - Business Hours , Products , Email Configs , and SLAs New APIs that enable you to Reply to a ticket and enhancements to existing APIs that enable you to Update a ticket's description , Update a ticket's notes , and Retrieve a list of tickets that have been recently modified XML Support has been deprecated, only JSON is supported Only SSL calls (HTTPS) will be allowed Works only via Freshdesk domains and not via custom CNAMEs Support for page sizes up to 100 has been added New API deprecation and breaking change policies Some categories have been renamed for consistency with the web application. For example, Forums are now Discussions and Users are now Contacts Rate Limit The number of API calls per minute is based on your plan. This limit is applied on an account wide basis irrespective of factors such as the number of agents or IP addresses used to make the calls. For all trial users, there is a default API limit of 50 calls/minute. If your account hasn't been switched to the new minute level APIs, please contact support@freshdesk.com to get the new rate limits enabled for your account. To view the old API rate limits, click here Note : An account can purchase additional API calls, to increase the rate limit. Contact us to know more about our pricing policy and purchase additional API calls. Plan Rate Limit/hr Blossom 3000 Garden 3000 Estate 5000 Forest 5000 To view the limits in the older plans, click here. Old Plan Rate Limit/minute Maximum rate limit/minute per endpoint Blossom 100 Ticket Create - 40 Ticket Update - 40 Tickets List - 50 Contacts List - 50 Garden 200 Ticket Create - 80 Ticket Update - 80 Tickets List - 60 Contacts List - 60 Estate 400 Ticket Create - 160 Ticket Update - 160 Tickets List - 100 Contacts List - 100 Forest 700 Ticket Create - 280 Ticket Update - 280 Tickets List - 200 Contacts List - 200 Plan Rate Limit/minute Maximum rate limit/minute per endpoint Growth 100 Ticket Create - 50 Ticket Update - 50 Tickets List - 40 Contacts List - 40 Pro 400 Ticket Create - 160 Ticket Update - 160 Tickets List - 100 Contacts List - 100 Enterprise 700 Ticket Create - 280 Ticket Update",
+      "content_sha256": "ca4ed21b91b2088d4a703e389c2054ddfb844c422ac7abde2ba1a6efa76f9772",
+      "error": null,
+      "status": 200,
+      "truncated_bytes": true
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4309,
+    "output_tokens": 1768
+  },
+  "failure": null
+}

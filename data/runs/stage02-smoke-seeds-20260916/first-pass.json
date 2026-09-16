@@ -1,0 +1,202 @@
+[
+  {
+    "schema_version": "1.0",
+    "id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website": "http://salesforce.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "failed_or_missing_retrieval",
+      "missing_field_evidence",
+      "no_usable_official_source"
+    ],
+    "researched_at": "2026-09-16T17:13:42.152211+00:00",
+    "run_id": "stage02-smoke-seeds-20260916"
+  },
+  {
+    "schema_version": "1.0",
+    "id": 11,
+    "app_name": "Zendesk",
+    "category": "2. Support and Helpdesk",
+    "website": "http://zendesk.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.185217+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "curl https://obscura.zendesk.com/api/v2/users.json \\ -H \"Authorization: Bearer gErypPlm4dOVgGRvA1ZzMH5MQ3nLo8bo\"",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:13:50.592173+00:00",
+    "run_id": "stage02-smoke-seeds-20260916"
+  },
+  {
+    "schema_version": "1.0",
+    "id": 31,
+    "app_name": "Google Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://developers.google.com/google-ads",
+    "description": "The Google Ads API is a programmatic interface for managing Google Ads accounts and campaigns, suitable for large or complex setups. Typical uses include automated account management, custom reporting, ad management based on inventory, and Smart Bidding strategy management. It is recommended for developers comfortable with writing code and managing their own software infrastructure.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The API allows managing accounts from the customer level down to the keyword level, including account management, reporting, ad management, bidding strategies, and more, suitable for large or complex Google Ads accounts and campaigns.",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Google Ads API is a programmatic interface for managing Google Ads accounts and campaigns, suitable for large or complex setups. Typical uses of the Google Ads API include automated account management, custom reporting, ad management based on inventory, and Smart Bidding strategy management.",
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "final_url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.192734+00:00",
+        "content_sha256": "bc9ed31fd1d776dab71ea68c79aca75cec20cb1d70db89bb9c6aeb24e4909af1",
+        "quote": "The Google Ads API is a programmatic interface for managing Google Ads accounts and campaigns, suitable for large or complex setups. Typical uses of the Google Ads API include automated account management, custom reporting, ad management based on inventory, and Smart Bidding strategy management.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Google Ads API is available and supported.",
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "final_url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.192734+00:00",
+        "content_sha256": "bc9ed31fd1d776dab71ea68c79aca75cec20cb1d70db89bb9c6aeb24e4909af1",
+        "quote": "The Google Ads API is the programmatic interface to Google Ads, used for managing large or complex Google Ads accounts and campaigns.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API allows managing accounts from the customer level down to the keyword level, including account management, reporting, ad management, bidding strategies, and more, suitable for large or complex Google Ads accounts and campaigns.",
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "final_url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.192734+00:00",
+        "content_sha256": "bc9ed31fd1d776dab71ea68c79aca75cec20cb1d70db89bb9c6aeb24e4909af1",
+        "quote": "You can build software that manages accounts from the customer level down to the keyword level. Some typical use cases include: Automated account management Custom reporting Ad management based on inventory Smart Bidding strategy management",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Google provides an official Google Ads MCP server and developer assistant tools to facilitate API usage and management.",
+        "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "final_url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.192734+00:00",
+        "content_sha256": "bc9ed31fd1d776dab71ea68c79aca75cec20cb1d70db89bb9c6aeb24e4909af1",
+        "quote": "Google Ads MCP server Google Ads API agent skills Google Ads API Explorer Google Ads Query Builder Google Ads Query Validator Authentication and authorization Overview",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:13:55.097063+00:00",
+    "run_id": "stage02-smoke-seeds-20260916"
+  },
+  {
+    "schema_version": "1.0",
+    "id": 71,
+    "app_name": "Notion",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developers.notion.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The Notion API supports workspace content management including pages, databases, views, comments, markdown content, files, and media. It supports internal connections with static tokens, personal access tokens, and public connections via OAuth 2.0. The API includes endpoints for user info, page content, and more, with SDK support for JavaScript.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The Notion API supports workspace content management including pages, databases, views, comments, markdown content, files, and media. It supports internal connections with static tokens, personal access tokens, and public connections via OAuth 2.0. The API includes endpoints for user info, page content, and more, with SDK support for JavaScript.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:42.172500+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Data APIs Working with page content Working with databases Working with views Working with comments Working with markdown content Working with files and media",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:14:04.902569+00:00",
+    "run_id": "stage02-smoke-seeds-20260916"
+  }
+]

@@ -1,0 +1,300 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 92,
+    "app_name": "Otter AI",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://help.otter.ai/hc/en-us/articles/40888232155031-Otter-MCP",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "Otter MCP Server provides access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants; it supports querying conversations, fetching transcripts, and retrieving user profile information.",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "All access is OAuth-authenticated with granular permissions.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Security: All access is OAuth-authenticated with granular permissions. Your AI assistant can only access meetings you explicitly authorize.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Otter MCP Server provides API access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter uses 3 tools in ChatGPT to query your meetings: fetch get user info search",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Otter MCP Server provides access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants; it supports querying conversations, fetching transcripts, and retrieving user profile information.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter uses 3 tools in ChatGPT to query your meetings: fetch get user info search",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Otter MCP is an official Model Context Protocol server that integrates with AI assistants such as Claude, ChatGPT, Cursor, and Perplexity.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter MCP Server See more Otter MCP Server Otter Help July 30, 2026 21:04 Updated Connect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings. Learn to connect to Claude , ChatGPT , Curors , Perplexity , or other platforms .",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:25:32.916197+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 92,
+    "app_name": "Otter AI",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://help.otter.ai/hc/en-us/articles/40888232155031-Otter-MCP",
+    "description": "Otter MCP Server enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings. It connects Otter to AI assistants like Claude, ChatGPT, Cursor, and Perplexity using the Model Context Protocol (MCP), allowing these assistants to search meeting transcripts, analyze patterns, generate content, and surface insights based on actual meeting data.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "other"
+    ],
+    "api_breadth": "Otter MCP Server provides access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants; it supports querying conversations, fetching transcripts, and retrieving user profile information.",
+    "mcp_available": "official",
+    "mcp_notes": "Otter MCP is an official Model Context Protocol server that integrates with AI assistants such as Claude, ChatGPT, Cursor, and Perplexity. It requires OAuth authentication with granular permissions and supports multiple tools like fetch, search, and get user info. Setup involves connecting via the AI tool's MCP configuration and authorizing access through Otter accounts.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Otter MCP Server is officially documented with detailed setup instructions for multiple AI platforms, uses OAuth authentication, and provides defined tools and endpoints for accessing meeting data, making integration and build feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Otter MCP Server enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings. It connects Otter to AI assistants like Claude, ChatGPT, Cursor, and Perplexity using the Model Context Protocol (MCP), allowing these assistants to search meeting transcripts, analyze patterns, generate content, and surface insights based on actual meeting data.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter MCP Server \u0002026 21:04 Updated Connect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "All access is OAuth-authenticated with granular permissions.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Security: All access is OAuth-authenticated with granular permissions. Your AI assistant can only access meetings you explicitly authorize.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Otter MCP can be connected to third-party AI tools that support the Model Context Protocol (MCP) using a JSON configuration file. Setup varies by platform and is managed entirely within your AI tool\u0019s configuration.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter MCP can be connected to third-party AI tools that support the Model Context Protocol (MCP) using a JSON configuration file. Setup varies by platform and is managed entirely within your AI tool\u0019s configuration.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Otter MCP Server provides API access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter uses 3 tools in ChatGPT to query your meetings: fetch get user info search",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Otter MCP Server uses REST and other API types via MCP tools integrated with AI assistants.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Connect Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Otter MCP Server provides access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants; it supports querying conversations, fetching transcripts, and retrieving user profile information.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter uses 3 tools in ChatGPT to query your meetings: fetch get user info search",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Otter MCP is an official Model Context Protocol server that integrates with AI assistants such as Claude, ChatGPT, Cursor, and Perplexity.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Otter MCP Server See more Otter MCP Server Otter Help July 30, 2026 21:04 Updated Connect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings. Learn to connect to Claude , ChatGPT , Curors , Perplexity , or other platforms .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Otter MCP requires OAuth authentication with granular permissions and supports multiple tools like fetch, search, and get user info. Setup involves connecting via the AI tool's MCP configuration and authorizing access through Otter accounts.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Security: All access is OAuth-authenticated with granular permissions. Your AI assistant can only access meetings you explicitly authorize. ... Tools overview Name Description Sample prompt Get user info Get the current user's name and email. This tool retrieves the authenticated user's profile information, including their name and email address. ... Search Search for meetings and get an overview of information. ... Fetch Retrieves a full speech transcript of a meeting or conversation. ... Connect and authenticate with your Otter account. Verify the Otter MCP server appears, and tools are available.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "The Otter MCP Server is officially documented with detailed setup instructions for multiple AI platforms, uses OAuth authentication, and provides defined tools and endpoints for accessing meeting data, making integration and build feasible.",
+        "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+        "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+        "quote": "Connect Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings. Learn to connect to Claude , ChatGPT , Curors , Perplexity , or other platforms . ... Security: All access is OAuth-authenticated with granular permissions. ... Tools overview Name Description Sample prompt Get user info Get the current user's name and email. ... Search Search for meetings and get an overview of information. ... Fetch Retrieves a full speech transcript of a meeting or conversation. ... Connect and authenticate with your Otter account. Verify the Otter MCP server appears, and tools are available.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:07.960235+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "final_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "retrieved_at": "2026-09-16T17:25:06.829789+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Otter MCP Server – Help Center Skip to main content | Help Center Submit a request Submit a request Help Center Using Otter Otter AI Chat Articles in this section Otter AI Chat Overview Advanced Otter AI Chat Modes Asking Otter AI Chat questions Generate content with Otter AI Chat Image Enriched Conversation AI Chat Opt out of Otter AI Chat Otter AI Chat FAQs Otter AI Chat is not showing Otter AI Chat: Add Context (Channels, Conversations, or Folders) Otter MCP Server See more Otter MCP Server Otter Help July 30, 2026 21:04 Updated Connect AI models to Otter using Model Context Protocol (MCP). Connecting Otter MCP to your AI applications enables secure, scalable access to various language model understandings to power features like smarter summaries, contextual suggestions, and automated insights for all your Otter conversations and meetings. Learn to connect to Claude , ChatGPT , Curors , Perplexity , or other platforms . What is Model Context Protocol (MCP)? MCP is an open standard that allows AI assistants like Claude and ChatGPT to securely access external data sources. With Otter’s MCP Server, these AI assistants can: ✅ Search your meeting transcripts across all time periods ✅ Analyze patterns and themes across multiple meetings ✅ Generate content using your actual meeting data ✅ Surface insights without leaving your AI workflow 🔑 Key advantage: Your meeting knowledge becomes instantly accessible to AI assistants, eliminating manual copy-paste and context-switching. 🔒 Security: All access is OAuth-authenticated with granular permissions. Your AI assistant can only access meetings you explicitly authorize. Claude setup Learn how to set up Claude Check out Otter.ai in the Claude connectors directory . Connect Otter MCP to Claude. Go to Settings → Connectors → Browse connectors. Note: If your workspace admin has already added Otter.ai, it will appear as an available connector. Click Connect and proceed directly to Step 3. Go to Claude's Otter.ai page and click Connect. Sign in to your Otter account. Review the info and click Authorize access to connect with Claude. Otter MCP is connected to Claude. Enable Otter MCP tool with chat Click on the search and tools menu in the chat box. Toggle on Otter. Configure your Otter MCP tool permissions Claude will prompt for permissions when querying using Otter MCP tools. You can manage permissions for the Otter MCP tool in the connector settings. Under the settings Connectors, click Configure next to Otter or manage through the 3-dot menu. Manage each of the tools' permissions. We recommend setting it to Always allow . ChatGPT setup Learn how to set up ChatGPT Connect Otter MCP to ChatGPT. Otter.ai is available in the ChatGPT App Store. Check out Otter.ai in the ChatGPT App Store . Sign in to the ChatGPT web version. Go to Settings . Note: To connect to Otter MCP, you must currently complete the connection through the web version of Otter . Connecting directly through the desktop app is not yet supported. Once the connection is established on the web, it will automatically be available in the desktop app. Go to Apps and add apps. The option may vary depending on your existing account. Go to Otter.ai in the ChatGPT App Store . Click Connect. Carefully review the information and click Connect Otter.ai . Sign in to your Otter.ai account. Carefully review the information and click Authorize access to proceed. Otter.ai is now connected to your ChatGPT account. Enable Otter MCP tools with ChatGPT. Now that Otter is connected, you can work from the ChatGPT web browser or the desktop app. Click the + (plus icon). Click ••• More and select Otter.ai . Type @ and select Otter.ai . When starting a new chat, make sure Otter.ai is showing. If you do not see otter.ai, select it again through the steps above. Using Otter MCP tools with ChatGPT Otter uses 3 tools in ChatGPT to query your meetings: fetch get user info search If prompted, accept the tool request to proceed. You can click any source to go directly to the Otter conversation. If you are experiencing any issues querying your Otter conversations, we recommend specifically mentioning the Otter tool you want to use in your query. Manage Otter MCP settings for ChatGPT in Apps. Cursor setup Learn how to set up Cursor Connect Otter MCP to Cursor. Refer to Cursor’s documentation on connecting MCP servers for more info . Navigate to Cursor settings. Click Tools & MCP. Click Add Custom MCP. Configure the JSON file with the following. Save changes to the file . { \"mcpServers\": { \"otter_meeting_mcp\": { \"url\": \"https://mcp.otter.ai/mcp\" } } } Navigate back to Tools & MCP. Click Connect . Click Open . Sign in to your Otter account. Click Authorize access. Otter MCP is connected to Cursor. Enable Cursor Enable Otter MCP by ensuring it's toggled ON under Cursor Tools & MCP settings and tools enabled. Cursor will automatically use available tools. If a tool is disabled, click on the grayed-out tool to re-enable. Perplexity Learn how to set up Perplexity Connect Otter MCP to Perplexity using custom connectors to securely access and reference your Otter conversations, meeting notes, and AI insights directly within Perplexity. Note: Perplexity’s UI may change over time. Refer to Perplexity’s documentation for the latest instructions on connecting a custom connector. Navigate to the Connectors settings page. The location may vary depending on whether you are using an individual or an Enterprise account. Click + Custom connector. Configure using the following settings and click Add. Name: Otter.ai Description: Meetings from Otter MCP server URL: https://mcp.otter.ai/mcp Icon: The Otter icon can be downloaded here. Sign in to your Otter account and click Authorize access. Otter MCP is connected to Perplexity. Enable Perplexity Make sure the connector is enabled before submitting your query. You may need to grant permissions the first time you use the provided tools . Connect Otter MCP to other AI tools You may be able to connect Otter MCP to your AI tool depending on your platform Otter MCP can be connected to third-party AI tools that support the Model Context Protocol (MCP) using a JSON configuration file. Setup varies by platform and is managed entirely within your AI tool’s configuration. Configuration, behavior, and support depend on the specific platform you are using. Refer to your tool's documentation to connect to an MCP server. Before you begin Your AI tool must support MCP You should be familiar with editing JSON configuration files OAuth authentication is still required to connect JSON Configuration file { \"mcpServers\": { \"otter\": { \"url\": \"https://mcp.otter.ai/mcp\" } } } Complete setup in your AI tool Add a custom MCP and configure the JSON file with the above. Connect and authenticate with your Otter account. Verify the Otter MCP server appears, and tools are available. Note: We’ll continue adding step-by-step guides for more AI tools. In the meantime, setup may vary by platform and is completed at your discretion. Tools overview Name Description Sample prompt Get user info Get the current user's name and email. This tool retrieves the authenticated user's profile information, including their name and email address. “What is my email address?” Search Search for meetings and get an overview of information. \"Which meetings related to product improvement did I attend in Q2?\" Fetch Retrieves a full speech transcript of a meeting or conversation. \"What are the three main focus areas based on marketing meetings with our Enterprise clients?\" “ Summarize the presentation https://otter.ai/u/NpsJNrxvrcDay0dnlPKPZM87OSo?tab=chat&view=summary” Fetch example Query direct conversation URLs. Copy an Otter conversation URL from the browser. Note: The conversation must be shared with you for your AI application to access the content. Try it out by replacing the following with your own conversation link: Summarize the presentation https://otter.ai/u/NpsJNrxvrcDay0dnlPKPZM87OSo?tab=chat&view=summary Examples & usage Query conversations, pull highlights and key details, and generate content based on your meetings. Examples Generate a PowerPoint based on meeting XYZ. In which meetings did we discuss mobile navigation UX? Pull all meetings in Q3 discussing sales initiatives and the top ideas. Advanced Use Cases Competitive Intelligence Analysis “Analyze all Q4 customer calls mentioning competitors. What are the top 3 feature requests we’re losing deals over?” Onboarding Acceleration “Pull highlights from all sales training meetings in the last month. Create a structured onboarding doc with key processes and best practices.” Executive Briefings “Summarize the key decisions and action items from all leadership meetings this week. Format as a Friday exec briefing.” Cross-Functional Alignment “Compare what Product and Sales are saying about our Q1 roadmap. Identify any misalignments or gaps in messaging.” Historical Context Retrieval “What did we decide about the pricing model in our August strategy meeting? Pull the exact discussion and reasoning.” Meeting Prep Intelligence “I have a call with Acme Corp tomorrow. Pull all previous meetings with them and summarize: current status, open issues, and key stakeholders.” FAQs Is Otter MCP available for all AI applications? We are working to release Otter MCP for all AI applications. Contact our Otter Support Team for help setting up Otter MCP with your AI application. Note: Google Gemini's support for MCP tools is not yet available, according to this thread ; however, Gemini's command line interface (CLI) does support connecting to MCPs . Refer to Google's documentation for the most up-to-date information. Is Google Gemini supported? No. According to this thread , Google Gemini does not yet support MCP tools. However, Gemini's command line interface (CLI) does support connecting to MCPs . Note: Refer to Google's documentation for the most up-to-date information. What meetings can I access through the MCP Server? You can access all meetings that you have captured in Otter, as well as any meetings shared with you from other users in your Workspace. Learn more about conversation sharing and Channels in Otter. Can I connect Otter MCP on the ChatGPT desktop app? Connecting Otter MCP on ChatGPT desktop app is not yet available. Connect Otter MCP on the web version of ChatGPT . Is there a public API key for me to set up Otter MCP for my AI application? We currently do not have a public API key at this time. Contact our Otter Support Team for help setting up Otter MCP with your AI application. Where can I download the Otter icon? You download the Otter.ai icon at the end of this article. Or save the icon image below. Related to otter chat mcp otter.ai logo.png 8 KB Download Was this article helpful? Yes No 21 out of 29 found this helpful What can we do to improve this article? Send feedback Note: This is only for this article feedback. For all other inquiries and assistance, submit a request to ensure your request is routed to our team. Sorry, we couldn’t send your feedback. Please try again in a moment. Have more questions? Submit a request Return to top Related articles Does Otter offer an open API? Advanced Otter AI Chat Modes Otter Quick Start Guide HIPAA | Otter.ai Otter AI Chat FAQs Feedback 0 comments Article is closed for comments. ✨ On this page ↑ Back to top Help Center × ❮ ❯ AI Agents Sales Agent Recruiting Agent Education Agent Media Agent Resources Help Center Careers Press Blog Download iOS app Android app Chrome extension Social LinkedIn YouTube X © Otter.ai Inc Privacy policy Terms of service Software service agreement JP",
+      "content_sha256": "6f88f3f918bb2013f3214f3cca4d703704ac0c2ede85f25825c60fc9e79e0a25",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3638,
+    "output_tokens": 2631
+  },
+  "failure": null
+}

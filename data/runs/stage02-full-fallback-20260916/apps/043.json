@@ -1,0 +1,328 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 43,
+    "app_name": "BigCommerce",
+    "category": "5. Ecommerce",
+    "website": "http://developer.bigcommerce.com/",
+    "description": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. It provides three types of OAuth-based API accounts: store-level credentials, app-level credentials, and account-level credentials, each suited for different use cases. API accounts include client_id, client_secret, and access_token, with OAuth scopes to limit privileges.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "BigCommerce provides REST APIs for managing store data, customer sign-in, product information queries, and third-party app integrations, with different API account types for various use cases.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "The documentation describes OAuth-based API accounts with client_id, client_secret, and access_token for authentication, and REST APIs available for managing store data and integrations, indicating the app is buildable with available API and auth methods.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. It provides three types of OAuth-based API accounts: store-level credentials, app-level credentials, and account-level credentials, each suited for different use cases. API accounts include client_id, client_secret, and access_token, with OAuth scopes to limit privileges.",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. BigCommerce API accounts play a role in every authenticated request to our servers. Our API accounts come in a few different flavors to meet the needs of different use cases. For example, app API accounts work well in multi-store contexts, whereas store API accounts are a good choice for frontend applications. Some endpoints only work with one kind of API account. For an overview of the authentication schemes that our APIs use, see the Authentication section below. API accounts BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials. Every parent set of API credentials that you request for your store is its own API account . At its simplest, an API account consists of the following: The client_id uniquely identifies the app or user, or the client , making a request. The client_secret is a cryptographically secure value known only to the client and BigCommerce. Every active API account has at least one access_token . Store-level API accounts include a static access token that does not change. App-level API accounts expect each application to generate a unique access token for every store that installs the app. Account-level API accounts include a single access token that belongs to the parent account of the store that the user is signed in to at the time of creation. Guard these values closely. The client ID and client secret will never change; access tokens do not expire based on time and cannot be manually invalidated. It’s best practice to limit each account’s OAuth scope to only the privileges needed to complete that app or user’s designated tasks. Create separate API accounts for each app, store API user or function, or account-related implementation. Choosing the right kind of API account Where both types of API account are supported, re",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce API accounts play a role in every authenticated request to our servers. Our API accounts come in a few different flavors to meet the needs of different use cases. For example, app API accounts work well in multi-store contexts, whereas store API accounts are a good choice for frontend applications. Some endpoints only work with one kind of API account.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "BigCommerce provides REST APIs for managing store data, customer sign-in, product information queries, and third-party app integrations, with different API account types for various use cases.",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability_rationale",
+        "claim": "The documentation describes OAuth-based API accounts with client_id, client_secret, and access_token for authentication, and REST APIs available for managing store data and integrations, indicating the app is buildable with available API and auth methods.",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials. Every parent set of API credentials that you request for your store is its own API account . At its simplest, an API account consists of the following: The client_id uniquely identifies the app or user, or the client , making a request. The client_secret is a cryptographically secure value known only to the client and BigCommerce. Every active API account has at least one access_token . Store-level API accounts include a static access token that does not change. App-level API accounts expect each application to generate a unique access token for every store that installs the app. Account-level API accounts include a single access token that belongs to the parent account of the store that the user is signed in to at the time of creation. Guard these values closely. The client ID and client secret will never change; access tokens do not expire based on time and cannot be manually invalidated. It’s best practice to limit each account’s OAuth scope to only the privileges needed to complete that app or user’s designated tasks. Create separate API accounts for each app, store API user or function, or account-related implementation.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "no_usable_official_source",
+      "nonofficial_critical_evidence"
+    ],
+    "researched_at": "2026-09-16T17:20:31.054627+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 43,
+    "app_name": "BigCommerce",
+    "category": "5. Ecommerce",
+    "website": "http://developer.bigcommerce.com/",
+    "description": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. It provides three types of OAuth-based API accounts: store-level credentials, app-level credentials, and account-level credentials, each suited for different use cases. API accounts include client_id, client_secret, and access_token, with OAuth scopes to limit privileges.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "BigCommerce provides REST APIs for managing store data, customer sign-in, product information queries, and third-party app integrations, with different API account types for various use cases.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The documentation describes OAuth-based API accounts with client_id, client_secret, and access_token for authentication, and REST APIs available for managing store data and integrations, indicating the app is buildable with available API and auth methods.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. It provides three types of OAuth-based API accounts: store-level credentials, app-level credentials, and account-level credentials, each suited for different use cases. API accounts include client_id, client_secret, and access_token, with OAuth scopes to limit privileges.",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. BigCommerce API accounts play a role in every authenticated request to our servers. Our API accounts come in a few different flavors to meet the needs of different use cases. For example, app API accounts work well in multi-store contexts, whereas store API accounts are a good choice for frontend applications. Some endpoints only work with one kind of API account. For an overview of the authentication schemes that our APIs use, see the Authentication section below. API accounts BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials. Every parent set of API credentials that you request for your store is its own API account . At its simplest, an API account consists of the following: The client_id uniquely identifies the app or user, or the client , making a request. The client_secret is a cryptographically secure value known only to the client and BigCommerce. Every active API account has at least one access_token . Store-level API accounts include a static access token that does not change. App-level API accounts expect each application to generate a unique access token for every store that installs the app. Account-level API accounts include a single access token that belongs to the parent account of the store that the user is signed in to at the time of creation. Guard these values closely. The client ID and client secret will never change; access tokens do not expire based on time and cannot be manually invalidated. It’s best practice to limit each account’s OAuth scope to only the privileges needed to complete that app or user’s designated tasks. Create separate API accounts for each app, store API user or function, or account-related implementation. Choosing the right kind of API account Where both types of API account are supported, re",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce API accounts play a role in every authenticated request to our servers. Our API accounts come in a few different flavors to meet the needs of different use cases. For example, app API accounts work well in multi-store contexts, whereas store API accounts are a good choice for frontend applications. Some endpoints only work with one kind of API account.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "BigCommerce provides REST APIs for managing store data, customer sign-in, product information queries, and third-party app integrations, with different API account types for various use cases.",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability_rationale",
+        "claim": "The documentation describes OAuth-based API accounts with client_id, client_secret, and access_token for authentication, and REST APIs available for managing store data and integrations, indicating the app is buildable with available API and auth methods.",
+        "url": "https://developer.bigcommerce.com/docs/start/authentication",
+        "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+        "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+        "quote": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials. Every parent set of API credentials that you request for your store is its own API account . At its simplest, an API account consists of the following: The client_id uniquely identifies the app or user, or the client , making a request. The client_secret is a cryptographically secure value known only to the client and BigCommerce. Every active API account has at least one access_token . Store-level API accounts include a static access token that does not change. App-level API accounts expect each application to generate a unique access token for every store that installs the app. Account-level API accounts include a single access token that belongs to the parent account of the store that the user is signed in to at the time of creation. Guard these values closely. The client ID and client secret will never change; access tokens do not expire based on time and cannot be manually invalidated. It’s best practice to limit each account’s OAuth scope to only the privileges needed to complete that app or user’s designated tasks. Create separate API accounts for each app, store API user or function, or account-related implementation.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:20:10.982451+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "description"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    }
+  ],
+  "deterministic_repairs": [
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.bigcommerce.com/docs/start/authentication",
+      "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "retrieved_at": "2026-09-16T17:20:08.322243+00:00",
+      "ok": true,
+      "source_kind": "third_party",
+      "text": "API Accounts | BigCommerce Docs For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page. Developer Developer Search docs / Ask AI Dev Portal Docs API Reference Learn Community Changelog Developer Developer Docs API Reference Learn Community Changelog Overview Quick Start Sandboxes Tools & SDKs Support API Fundamentals API Accounts Rate Limits Integration Design Deprecations & Sunsets Docs Storefront Admin Integrations B2B Additional Docs Archive Deprecated Closed Beta Programs Resources AI Agent Setup Product Docs Support Quick Start Sandboxes Tools & SDKs Support API Accounts Rate Limits Integration Design Deprecations & Sunsets Getting Started Overview Overview Local Development Versioning Upgrading One-Click Catalyst Manually Create Catalyst Channel Build an Integration Contribute Custom Components Manually Installing Scripts Mailchimp Newsletter Algolia Search Customer Group Component Prerequisites Manual Installation Environment Variables Optimization Sessions Session Sync Middleware CDN and Images Caching Overview Vercel Overview Getting Started Custom Domains Checkout Domains Overview Cookies Cookie Consent Overview Static Translations Overview Setup Overview Setup Sitemap B2B Edition Client CLI Testing Wishlists Security 1.11.1 1.11.0 1.10.1 1.10.0 1.9.0 1.8.0 1.7.0 1.6.0 1.5.0 1.4.0 1.3.7 1.3.6 1.3.5 1.3.0 1.2.0 Overview About Stencil Stencil Tech Stack Installing Stencil CLI Starting the Development Server Options and Commands Handling Unexpected Behavior Incompatible SCSS Directives Node-sass Sunset Handle Events Query APIs Stencil Utils Reference Defining Global Styles Creating Customizable Themes Theme Variations Directory Structure Integrating React Components Developing Accessible Themes WCAG Compliance Levels Implementing WCAG Guidelines Localizing Stores Translating Descriptions Translating Page Regions Using Translation Keys Tutorial Storefront Selector Language Selector Page Composition and Styling Custom Sass Functions Custom Fonts and Icons Assets Custom Templates Modify the Login Form Checkout Confirmation Order Confirmation Blog Commenting with Disqus Dynamic Template Rendering Elements Schemas Handlebars Helpers Reference Frontmatter: Adding Data to Page Context Frontmatter Reference with GraphQL Queries Catalog Price Object Examples Customizing Template JavaScript Adding Additional JavaScript Enable PayPal Smart Buttons Add Wallet Buttons to Product Pages Add Stored Payment Methods Performance Optimization Using Early Hints Checking a Theme's Size Uploading a Theme Upload Errors Updates and Version Control Theme Metadata: Images Page Builder Third-party Widgets reCAPTCHA Support B2B Edition for Stencil Overview Installation Plugin Settings Multi-site Setup Features Proxy REST API Endpoints Product Import Multi-channel Capabilities App Compatibility Plugin Code Reference Unexpected Behavior Enabling AMP (Deprecated) Guide Launch Checklist Creating Reliable Cron Jobs Gutenberg Support Shortcodes Introduction to Headless Commerce REST Management API: Headless Checkout Flow GraphQL Storefront API: Headless Checkout Flow Session Syncing: Headless Checkout Creating Channels Working with Products Faceted and Textual Search Managing Carts Recovering Abandoned Carts Creating Checkouts Accessing Checkout Theme Files Orders Customers PCI Compliance Routes Using API Site Content Customer Login Current Customer Passwordless Login Overview Authentication Customer Context Best Practices Analytics B2B Customers Inventory Settings Inventory Queries Locations Settings Locations Queries Orders Example Queries Products Variants Product Reviews Multi-Language Support Storefront Scripts Getting Started Products overview Contextual filters Inventory adjustments Inventory locations Backorders Price Lists Cascading Price Lists Calculations Overview Currency-Specific Promotions Multi-Currency API vs UI Features Brand Category Customer Order Product Shipping Storewide Using logical operators Using multiple rules Overview Comparison of operations Overview Prepare Data Test Data Error Handling Complete Migration Delta Migration Overview GraphQL Storefront REST Storefront REST Management Add to Cart URLs Consignments Localization Metafields API Guides Checkout URL Optimized One-Page Checkout Integrated Fastlane by PayPal Integrating Google Pay Direct Pay Integrating Stripe Adaptive Pricing Overview Guide PCI Compliance Guide Overview Tutorial Overview Tutorial Overview Transactions API Stored Instruments API Overview Refunds Invoice Templates Customers and Subscribers Creating channel-specific customers Overview User Guide Promotions API Definitions and Relationships FAQs Store configuration Locales configuration Store logs Data layer Overview How currencies work Tax settings Tax rates and zones Tax properties Tax customers Overview MSF International Enhancements Shipper HQ Editing packing slips Overview Global Email Object Abandoned Cart Abandoned Cart (Deprecated) Account Details Changed Account Reset Password Combined Order Status Create Account Create Guest Account Gift Certificate Invoice Order Message Notification Order Ready for Pickup Passwordless Login Product Review Return Confirmation Return Status Change Examples Store Metafields Reassign Metafields Owner Overview Products Product Modifiers Product Listings Product Filters Product URLs Brand URLs Category URLs Customer Form Fields Promotions Address Form Fields Checkout Settings Shipping Methods Tax Rates Order Statuses Locations Payment Methods Error Handling Overview API Guide Overview Product basic information Product SEO information Product variant options Product modifier options Product URL Product attributes Product custom fields Product images Overview Localization Schema Alignment Boolean Box Model Code Color Element Settings Image Manager Input Number Product ID Product Image Range Regex Input Select Text Typography Visibility Overview Guide Overview Versioning Global Regions GraphQL Templates Examples Widget Builder Scripts Getting Started Becoming a Partner Introduction Quick start Types of apps Building Catalyst-compatible apps and integrations Beginning development Managing apps in Dev Portal Locating app IDs Implementing OAuth Handling callbacks Supporting multiple users Listening for events Designing the UI Creating install buttons Following best practices Approval requirements Publishing apps Overview Guide Glossary Postman collection Introduction 1: Build a UI with BigDesign 2: Integrate BigCommerce data 3: Single-click authentication 4: Session management 5: Add a real database Next steps Overview Example queries and mutations Postman collection Optimizing multi-storefront apps Building for Catalyst Introduction Quick start Building channel apps Extending existing apps Building storefront channels Best practices Approval requirements Channels toolkit reference Overview Tutorial HTTPS Google Cloud Platform Pub/Sub Webhooks Amazon EventBridge Events Channel events Inventory and location events B2B Edition events Metafields Scripts Shipping Providers Tax Providers Overview Overview Merchant configuration Browse and discover as a shopper Manage checkout as a shopper Manage order as a merchant Fulfill order as a merchant Retire merchant configuration Storefront Add to cart Checkout Orders Frequently asked questions Glossary Analytics with BODL Staging with Staging Pro Order Management Systems Enterprise Resource Planning Product Information Management Overview Basics Grammar Mechanics Interactions Status Messages Mobile Localization Glossary Overview B2B APIs Authentication Best Practices Overview Stencil Headless Localization Overview Stencil Themes (Legacy) Stencil Theme Elements Company Account Registration Other Frameworks Transactional Emails Archive Making Requests Developer Portal Developer Resources Staying Current with Platform Changes Stored Credit Card Management Add Google Data Tags Transitioning to Stencil Next.js Commerce v1 Next.js Commerce v2 ReCAPTCHA v2 Anatomy of a Theme Blueprint and Developer Mode Theme Update Process Style Editor Product Filtering Toolkit Template Syntax Store-Wide Global Panels Store-Wide Global Variables Global Variables LNG Variables Email Templates Checkout Styling Layouts Panels Snippets V2 vs V3 SKU Videos Product Rules Product Reviews Product Options Product Images Option Values Option Set Options Option Sets Options Custom Fields Categories Bulk Pricing Rules Products Brands V2 API Convert Country State Get Company Addresses Create A Company Address Get A Company Address Update A Company Address Delete A Company Address Create Company From CG Get Company Basic Information Update Company Basic Information Delete Company With Related Get BC Order Id List By Company Id Get Company By CustomerId Create Order Without CompanyID Get Company Orders Create An Order Update Company Order With BC OrderId Update BC Order's 'Company attribute' Update B2BE User's Orders' company attribute. Get Orders Images Get Company By BC OrderId Get Company Id By Order Id Get Order Detail Get Order Product Get Company Payments Methods Update Company Payments Methods Get Store's All Payments Get Company Sales Reps Update Company Sales reps Get Companies & Sales reps Update A Company User Get Company Users Create A Company User Update Company User Bulk Create Company User Get A Company User Delete A Company User Third party API proxy Closed Beta Programs Overview API Reference List Extensions Create Extension Get Extension Update Extension Delete Extension Overview Overview API Reference Get Page Snapshot Publish or Overwrite Page Content API Documentation Check List Code Samples Guiding Questions Iterative Feature Development API Reference List Accounts Create Account Get Account Update Account Create Account with Set Password Create Store Get Store Create Store Login URL List Stores Create Store Plan Change Create Store Cancellation Create Store Suspension Create Store Reactivation Get OAuth Token Overview Getting Started Catalog Data ML Models Request Recommendations Search Shopper Events Stencil Headless Catalyst API Reference Update Google Vertex Ai Settings Delete Google Vertex Ai Settings Overview HTTP Webhooks Postman Collection AI Agent Setup Dev Portal Light On this page API accounts Choosing the right kind of API account Store-level API accounts Be careful with client secrets Creating store-level API credentials Revoking store-level API credentials Delete carefully Don’t forget your webhooks and metafields App-level API accounts Creating app-level API credentials App-level access tokens Revoking app-level API credentials Delete apps carefully Account-level API accounts Creating account-level credentials Revoking account-level API credentials Migrating from legacy to OAuth Legacy API Accounts Benefits of migrating to OAuth How to migrate OAuth scopes Token creation scopes Store resource scopes Account resource scopes Authentication Stable tokens Access tokens The X-Auth-Client header is deprecated X-Auth-Token header example requests Client ID Current Customer API example request Dynamic tokens Make sure your tokens are in scope BigCommerce-generated JWTs Authorization header example requests User-generated JWTs Customer Login API example request BigCommerce-encrypted payload JWTs Same-origin CORS authentication REST Storefront API Developer-configured authentication REST Provider APIs Resources Scroll to top Overview API Fundamentals API Accounts Copy page BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations. BigCommerce API accounts play a role in every authenticated request to our servers. Our API accounts come in a few different flavors to meet the needs of different use cases. For example, app API accounts work well in multi-store contexts, whereas store API accounts are a good choice for frontend applications. Some endpoints only work with one kind of API account. For an overview of the authentication schemes that our APIs use, see the Authentication section below. API accounts BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials. Every parent set of API credentials that you request for your store is its own API account . At its simplest, an API account consists of the following: The client_id uniquely identifies the app or user, or the client , making a request. The client_secret is a cryptographically secure value known only to the client and BigCommerce. Every active API account has at least one access_token . Store-level API accounts include a static access token that does not change. App-level API accounts expect each application to generate a unique access token for every store that installs the app. Account-level API accounts include a single access token that belongs to the parent account of the store that the user is signed in to at the time of creation. Guard these values closely. The client ID and client secret will never change; access tokens do not expire based on time and cannot be manually invalidated. It’s best practice to limit each account’s OAuth scope to only the privileges needed to complete that app or user’s designated tasks. Create separate API accounts for each app, store API user or function, or account-related implementation. Choosing the right kind of API account Where both types of API account are supported, re",
+      "content_sha256": "280c9e9acab0a0357652bbb33639c869e5152a8daa6557ce4af2a939d8a51e2d",
+      "error": null,
+      "status": 200,
+      "truncated_bytes": true
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3412,
+    "output_tokens": 2580
+  },
+  "failure": null
+}

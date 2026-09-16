@@ -1,0 +1,274 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 95,
+    "app_name": "Reducto",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://docs.reducto.ai/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "Reducto offers standalone API endpoints for document classification, parsing, extraction, splitting, editing, and workflow orchestration, with SDKs available in Python, Node.js, and Go. It supports file upload, document parsing, structured extraction, and chaining operations with job IDs for efficient processing.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Reducto offers self-serve free access with API keys obtainable via the Studio.",
+        "url": "https://docs.reducto.ai/api-reference/authentication",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+        "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+        "quote": "1 Create a Reducto account Go to studio.reducto.ai and sign up for a free account. 2 Get your API key In the Studio sidebar, click API Keys , then Create API Key . Give it a name and copy the key.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_breadth",
+        "claim": "Reducto offers standalone API endpoints for document classification, parsing, extraction, splitting, editing, and workflow orchestration, with SDKs available in Python, Node.js, and Go. It supports file upload, document parsing, structured extraction, and chaining operations with job IDs for efficient processing.",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:23.701277+00:00",
+        "content_sha256": "29932d0d360d2aa2963afb4dffd8f7c8e6ae2fa68818202caa1600c4f146b350",
+        "quote": "Each capability is available as a standalone API endpoint or composed into pipelines. Classify Route documents by type before processing. Define categories in natural language. Parse Convert documents into structured JSON with text, tables, and figures, with layout-aware chunking. Extract Pull specific fields into structured JSON using a schema. Define what you need, get exactly that. Split Divide documents into logical sections using natural language descriptions. Edit Fill PDF forms and modify DOCX files programmatically with natural language instructions. Pipelines Chain multiple steps into reusable, single-call workflows deployed from Studio. Supports 30+ file types including PDFs, images, spreadsheets, presentations, and scanned documents.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:25:46.430471+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 95,
+    "app_name": "Reducto",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://docs.reducto.ai/",
+    "description": "Reducto is the agentic document platform for AI teams who need production-grade document processing at enterprise scale. It provides a complete toolkit for the full document lifecycle, from classification and extraction to editing and workflow orchestration, powered by custom in-house and leading frontier models. It supports automated intake pipelines, structured data extraction from various document types, document generation and editing, RAG-ready content pipelines, and multi-step workflows chaining multiple document processing steps into single API calls.",
+    "auth_methods": [
+      "api_key",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "Reducto offers standalone API endpoints for document classification, parsing, extraction, splitting, editing, and workflow orchestration, with SDKs available in Python, Node.js, and Go. It supports file upload, document parsing, structured extraction, and chaining operations with job IDs for efficient processing.",
+    "mcp_available": "official",
+    "mcp_notes": "Reducto provides an official MCP server that integrates with AI agents like Claude Code, Codex, Cursor, and others, enabling direct calls to Reducto tools such as upload_file, parse_document, extract_data, split_document, classify_document, and edit_document.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with quickstart guides, SDKs in multiple languages, CLI tools, and an official MCP server for agent integration. Authentication uses API keys or bearer tokens. The platform supports self-serve free access with API keys obtainable via the Studio. The API endpoints cover all core document processing functions, and SDK examples demonstrate usage, making it straightforward to build applications using Reducto.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Reducto is the agentic document platform for AI teams who need production-grade document processing at enterprise scale. It provides a complete toolkit for the full document lifecycle, from classification and extraction to editing and workflow orchestration, powered by custom in-house and leading frontier models. It supports automated intake pipelines, structured data extraction from various document types, document generation and editing, RAG-ready content pipelines, and multi-step workflows chaining multiple document processing steps into single API calls.",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:23.701277+00:00",
+        "content_sha256": "29932d0d360d2aa2963afb4dffd8f7c8e6ae2fa68818202caa1600c4f146b350",
+        "quote": "Reducto is the agentic document platform for AI teams who need production-grade document processing at enterprise scale. It provides a complete toolkit for the full document lifecycle, from classification and extraction to editing and workflow orchestration, powered by custom in-house and leading frontier models. What you can build: Automated intake pipelines that classify, split, and route documents without manual triage Structured data extraction from invoices, contracts, medical records, and any document type at scale Document generation and editing that fills forms, modifies templates, and produces new documents programmatically RAG-ready content pipelines with layout-aware chunking optimized for LLM consumption Multi-step workflows that chain classification, parsing, extraction, and editing into single API calls \u000b Platform capabilities Reducto covers the full lifecycle of document work. Each capability is available as a standalone API endpoint or composed into pipelines.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Reducto uses API keys and bearer tokens for authentication.",
+        "url": "https://docs.reducto.ai/api-reference/authentication",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+        "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+        "quote": "Set REDUCTO_API_KEY . ... The client automatically reads from the REDUCTO_API_KEY environment variable you set earlier. ... curl -X POST \"https://platform.reducto.ai/parse\" \\ -H \"Authorization: Bearer $REDUCTO_API_KEY \" \\ -H \"Content-Type: application/json\" \\ -d '{\"input\":\"https://cdn.reducto.ai/samples/fidelity-example.pdf\"}'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Reducto offers self-serve free access with API keys obtainable via the Studio.",
+        "url": "https://docs.reducto.ai/api-reference/authentication",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+        "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+        "quote": "1 Create a Reducto account Go to studio.reducto.ai and sign up for a free account. 2 Get your API key In the Studio sidebar, click API Keys , then Create API Key . Give it a name and copy the key.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Reducto provides a REST API and SDKs in Python, Node.js, and Go for document processing.",
+        "url": "https://docs.reducto.ai/api-reference/authentication",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+        "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+        "quote": "Available in Python, Node.js, Go, or REST. ... pip install reductoai ... npm install reductoai ... go get github.com/reductoai/reducto-go-sdk ... curl -X POST \"https://platform.reducto.ai/parse\" \\ -H \"Authorization: Bearer $REDUCTO_API_KEY \" \\ -H \"Content-Type: application/json\" \\ -d '{\"input\":\"https://cdn.reducto.ai/samples/fidelity-example.pdf\"}'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_breadth",
+        "claim": "Reducto offers standalone API endpoints for document classification, parsing, extraction, splitting, editing, and workflow orchestration, with SDKs available in Python, Node.js, and Go. It supports file upload, document parsing, structured extraction, and chaining operations with job IDs for efficient processing.",
+        "url": "https://docs.reducto.ai/",
+        "final_url": "https://docs.reducto.ai/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:23.701277+00:00",
+        "content_sha256": "29932d0d360d2aa2963afb4dffd8f7c8e6ae2fa68818202caa1600c4f146b350",
+        "quote": "Each capability is available as a standalone API endpoint or composed into pipelines. Classify Route documents by type before processing. Define categories in natural language. Parse Convert documents into structured JSON with text, tables, and figures, with layout-aware chunking. Extract Pull specific fields into structured JSON using a schema. Define what you need, get exactly that. Split Divide documents into logical sections using natural language descriptions. Edit Fill PDF forms and modify DOCX files programmatically with natural language instructions. Pipelines Chain multiple steps into reusable, single-call workflows deployed from Studio. Supports 30+ file types including PDFs, images, spreadsheets, presentations, and scanned documents.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "mcp_available",
+        "claim": "Reducto provides an official MCP server that integrates with AI agents like Claude Code, Codex, Cursor, and others, enabling direct calls to Reducto tools such as upload_file, parse_document, extract_data, split_document, classify_document, and edit_document.",
+        "url": "https://docs.reducto.ai/api-reference/authentication",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+        "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+        "quote": "For MCP, install once with uvx mcp-server-reducto --login , then ask the agent to call parse_document(document_url=\"https://cdn.reducto.ai/samples/fidelity-example.pdf\") . ... The server provides these tools: | Tool | What it does | |------|-------------| | `upload_file` | Upload a local file or URL to Reducto (returns `reducto://` URL) | | `parse_document` | Parse a document into structured text, tables, figures | | `extract_data` | Extract structured JSON from a document using a schema | | `split_document` | Segment a document into labeled sections | | `classify_document` | Categorize a document type | | `edit_document` | Fill forms or modify a PDF/DOCX |",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The API is well documented with quickstart guides, SDKs in multiple languages, CLI tools, and an official MCP server for agent integration. Authentication uses API keys or bearer tokens. The platform supports self-serve free access with API keys obtainable via the Studio. The API endpoints cover all core document processing functions, and SDK examples demonstrate usage, making it straightforward to build applications using Reducto.",
+        "url": "https://docs.reducto.ai/api-reference/authentication",
+        "final_url": "https://docs.reducto.ai/quickstart",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+        "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+        "quote": "Parse your first document with Reducto in 5 minutes. ... The client automatically reads from the REDUCTO_API_KEY environment variable you set earlier. ... Available in Python, Node.js, Go, or REST. ... For MCP, install once with uvx mcp-server-reducto --login , then ask the agent to call parse_document(document_url=...) ... The server provides these tools: upload_file, parse_document, extract_data, split_document, classify_document, edit_document.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:25.917510+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.reducto.ai/",
+      "final_url": "https://docs.reducto.ai/overview",
+      "retrieved_at": "2026-09-16T17:25:23.701277+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Overview - Reducto Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Reducto home page Search... ⌘ K Ask Assistant ⌘ I Product Blog Log In Log In Search... Navigation Get Started Overview Documentation API Reference Cookbooks SDKs Studio Status Studio Support Model Versions Changelog Get Started Overview API Quickstart Studio Quickstart Agent Guide Developer Tools Reducto CLI Reducto MCP Server Core Functions Upload Parse Extract Split Classify Edit Workflows and Pipelines Pipelines Chaining API Calls Async Processing & Webhooks Configurations Configuration Overview Parse Configurations Extract Configurations Split Configurations Classify Configurations Edit Configurations Reference Version Pinning Error Codes Rate Limits Checking API Health & Usage Concurrency Throttle Usage and Pricing Pricing Migration Guide Usage Export API Per-Page Billing Breakdown Glossary Frequently Asked Questions Components SpreadsheetViewer Enterprise Resources Enterprise Readiness Deployment options (Cloud, On-prem, Hybrid) Security and privacy Data policies & compliance Filing Complaints EU data residency & processing Single sign-on (SSO) FAQ On-premise Resources Hybrid VPC On-prem security model Securing Reducto OCR provider configuration LLM & service configuration options Database configuration On-premise changelog Observability & Monitoring Operations Self-hosted fair queueing with Reducto Automatic file cleanup Air-gapped usage for billing On this page Platform capabilities How to use Reducto Performance Built for production Get started Get Started Overview Copy page Copy page The agentic document platform for leading AI teams Copy page Copy page Reducto is the agentic document platform for AI teams who need production-grade document processing at enterprise scale. It provides a complete toolkit for the full document lifecycle, from classification and extraction to editing and workflow orchestration, powered by custom in-house and leading frontier models. What you can build: Automated intake pipelines that classify, split, and route documents without manual triage Structured data extraction from invoices, contracts, medical records, and any document type at scale Document generation and editing that fills forms, modifies templates, and produces new documents programmatically RAG-ready content pipelines with layout-aware chunking optimized for LLM consumption Multi-step workflows that chain classification, parsing, extraction, and editing into single API calls ​ Platform capabilities Reducto covers the full lifecycle of document work. Each capability is available as a standalone API endpoint or composed into pipelines. Classify Route documents by type before processing. Define categories in natural language. Parse Convert documents into structured JSON with text, tables, and figures, with layout-aware chunking. Extract Pull specific fields into structured JSON using a schema. Define what you need, get exactly that. Split Divide documents into logical sections using natural language descriptions. Edit Fill PDF forms and modify DOCX files programmatically with natural language instructions. Pipelines Chain multiple steps into reusable, single-call workflows deployed from Studio. Supports 30+ file types including PDFs, images, spreadsheets, presentations, and scanned documents. ​ How to use Reducto API & SDKs For developers building automated pipelines. Available in Python, Node.js, Go, and REST. Studio For visual pipeline building. Configure, test, and deploy document workflows in your browser. Agent-ready tooling: Reducto integrates directly into AI agent workflows via the MCP server , CLI , and native SDKs. Agent Guide One-page reference for coding agents using Reducto. MCP Server Give agents Reducto tools directly in Claude Code, Codex, Cursor, and other MCP clients. CLI Parse local files and folders from a terminal with minimal setup. ​ Performance Reducto’s r-1 unified full-page model handles text, tables, figures, layout, formatting, and grounding in one pass, with customized agentic processing available as augmentation. The platform also uses specialized models for workflows that need additional processing. Every result links to the Studio citation viewer where you can inspect outputs against source documents at the bounding-box level. ​ Built for production SOC 2 Type II Audited security controls. HIPAA Signed BAA available. Zero Data Retention Documents deleted within 24h. Deployment flexibility. SaaS, hybrid VPC, full VPC, or air-gapped on-premises Scale. 3B+ pages processed, with autoscaling for production workloads. Security. Encryption at rest (AES-256) and in transit (TLS 1.2+). EU data residency. Learn more → Support. Dedicated field engineering, custom model fine-tuning, and 24/7 oncall for Enterprise customers See Enterprise readiness → ​ Get started API Quickstart Parse your first document in 5 minutes with Python, Node.js, Go, or REST. Studio Quickstart Build and deploy an extraction pipeline visually, no code required. Was this page helpful? Yes No API Quickstart Reducto home page x linkedin Product Homepage Pricing Playground Company Careers Blog Support Legal Privacy Policy Terms of Service x linkedin Assistant Responses are generated using AI and may contain mistakes. Contact support",
+      "content_sha256": "29932d0d360d2aa2963afb4dffd8f7c8e6ae2fa68818202caa1600c4f146b350",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.reducto.ai/api-reference/authentication",
+      "final_url": "https://docs.reducto.ai/quickstart",
+      "retrieved_at": "2026-09-16T17:25:24.799368+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "API Quickstart - Reducto Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Reducto home page Search... ⌘ K Ask Assistant ⌘ I Product Blog Log In Log In Search... Navigation Get Started API Quickstart Documentation API Reference Cookbooks SDKs Studio Status Studio Support Model Versions Changelog Get Started Overview API Quickstart Studio Quickstart Agent Guide Developer Tools Reducto CLI Reducto MCP Server Core Functions Upload Parse Extract Split Classify Edit Workflows and Pipelines Pipelines Chaining API Calls Async Processing & Webhooks Configurations Configuration Overview Parse Configurations Extract Configurations Split Configurations Classify Configurations Edit Configurations Reference Version Pinning Error Codes Rate Limits Checking API Health & Usage Concurrency Throttle Usage and Pricing Pricing Migration Guide Usage Export API Per-Page Billing Breakdown Glossary Frequently Asked Questions Components SpreadsheetViewer Enterprise Resources Enterprise Readiness Deployment options (Cloud, On-prem, Hybrid) Security and privacy Data policies & compliance Filing Complaints EU data residency & processing Single sign-on (SSO) FAQ On-premise Resources Hybrid VPC On-prem security model Securing Reducto OCR provider configuration LLM & service configuration options Database configuration On-premise changelog Observability & Monitoring Operations Self-hosted fair queueing with Reducto Automatic file cleanup Air-gapped usage for billing On this page Fastest path for coding agents What we’re going to parse Prerequisites Install the SDK Parse the document Understanding the response Customizing the output What’s next Troubleshooting Get Started API Quickstart Copy page Copy page Parse your first document with Reducto in 5 minutes. Copy page Copy page This guide walks you through your first Reducto API call. You will parse a document and get back structured JSON ready for LLMs, downstream extraction, or any other processing step in your pipeline. ​ Fastest path for coding agents If you are using Claude Code, Codex, Cursor, or another coding agent, start here. This path avoids Studio clicks and extra docs navigation. Set REDUCTO_API_KEY . Choose one interface: Local file or folder: use the Reducto CLI . Agent tool calling: use the Reducto MCP server . Application code: use the Python, Node.js, Go, or cURL examples below. Parse the sample PDF first, then replace the URL or file path with your document. CLI Python Node.js cURL pip install reducto-cli reducto login curl -L -o fidelity-example.pdf https://cdn.reducto.ai/samples/fidelity-example.pdf reducto parse ./fidelity-example.pdf from reducto import Reducto client = Reducto() result = client.parse.run( input = \"https://cdn.reducto.ai/samples/fidelity-example.pdf\" ) print (result.job_id) print (result.result.chunks[ 0 ].content[: 1000 ]) import Reducto from \"reductoai\" ; const client = new Reducto (); const result = await client . parse . run ({ input: \"https://cdn.reducto.ai/samples/fidelity-example.pdf\" , }); console . log ( result . job_id ); console . log ( result . result . chunks [ 0 ]. content . slice ( 0 , 1000 )); curl -X POST \"https://platform.reducto.ai/parse\" \\ -H \"Authorization: Bearer $REDUCTO_API_KEY \" \\ -H \"Content-Type: application/json\" \\ -d '{\"input\":\"https://cdn.reducto.ai/samples/fidelity-example.pdf\"}' For MCP, install once with uvx mcp-server-reducto --login , then ask the agent to call parse_document(document_url=\"https://cdn.reducto.ai/samples/fidelity-example.pdf\") . ​ What we’re going to parse We’ll use a financial statement PDF that contains multiple tables, headers, account summaries, and formatted text. This is the kind of complex document that’s difficult to process manually but straightforward with Reducto. View the sample PDF in Studio or download it directly to follow along. What we want to extract: The portfolio value table with beginning and ending values Account information including account numbers and types Income summary broken down by tax category Top holdings with values and percentages By the end of this guide, you’ll have all of this data in structured JSON that you can use in your application. For structured field extraction (e.g., extracting specific account numbers or values into typed fields), see the /extract endpoint after completing this quickstart. ​ Prerequisites 1 Create a Reducto account Go to studio.reducto.ai and sign up for a free account. 2 Get your API key In the Studio sidebar, click API Keys , then Create API Key . Give it a name and copy the key. Click API Keys in the sidebar to create a new key 3 Set your API key as an environment variable This allows the SDK to authenticate automatically without hardcoding the key in your code. macOS / Linux Windows (PowerShell) export REDUCTO_API_KEY = \"your_api_key_here\" $ env: REDUCTO_API_KEY = \"your_api_key_here\" 4 Setup with AI You can also copy the below snippet for your AI coding agent to connect to Reducto via the MCP Server . ## Add Reducto MCP Server ### 1. Authenticate (one-time) ```bash uvx mcp-server-reducto --login ``` This opens your browser to approve access. Your API key is saved to `~/.reducto/config.yaml` . ### 2. Add to your MCP client **Claude Code:** ```bash claude mcp add reducto -- uvx mcp-server-reducto ``` **Claude Desktop** : edit `~/Library/Application Support/Claude/claude_desktop_config.json` : ```json { \"mcpServers\" : { \"reducto\" : { \"command\" : \"uvx\" , \"args\" : [ \"mcp-server-reducto\" ] } } } ``` **Cursor** : edit `.cursor/mcp.json` : ```json { \"mcpServers\" : { \"reducto\" : { \"command\" : \"uvx\" , \"args\" : [ \"mcp-server-reducto\" ] } } } ``` **VS Code** : edit `.vscode/mcp.json` : ```json { \"servers\" : { \"reducto\" : { \"command\" : \"uvx\" , \"args\" : [ \"mcp-server-reducto\" ] } } } ``` ### 3. Use it The server provides these tools: | Tool | What it does | |------|-------------| | `upload_file` | Upload a local file or URL to Reducto (returns `reducto://` URL) | | `parse_document` | Parse a document into structured text, tables, figures | | `extract_data` | Extract structured JSON from a document using a schema | | `split_document` | Segment a document into labeled sections | | `classify_document` | Categorize a document type | | `edit_document` | Fill forms or modify a PDF/DOCX | **Local files:** Use `upload_file` first, e.g. `upload_file(\"./report.pdf\")` , then pass the returned `reducto://` URL to other tools. **Chain operations:** `parse_document` returns a `job_id` . Pass `jobid://<job_id>` to `extract_data` or `split_document` to skip re-parsing. ​ Install the SDK Choose your language and install the Reducto SDK: Python Node.js Go pip install reductoai Requires Python 3.8+. npm install reductoai go get github.com/reductoai/reducto-go-sdk ​ Parse the document Now let’s write the code to parse our financial statement. We’ll go through each part step by step. Python Node.js Go cURL 1 Import the SDK and initialize the client First, we import the Reducto client. When you create a Reducto() client without passing an API key, it automatically reads from the REDUCTO_API_KEY environment variable you set earlier. from reducto import Reducto # The client reads REDUCTO_API_KEY from your environment client = Reducto() 2 Upload your document Before parsing, you need to upload the document to Reducto’s servers. The upload() method accepts a file path (as a string) and returns a reference that you’ll use in the next step. You can download the sample PDF from here . from pathlib import Path # Upload the PDF file to Reducto upload = client.upload( file = Path( \"fidelity-example.pdf\" )) print ( f \"Uploaded: { upload.file_id } \" ) You can also pass a URL directly to the parse method if your document is already hosted somewhere accessible, like an S3 bucket: result = client.parse.run( input = \"https://cdn.reducto.ai/samples/fidelity-example.pdf\" ) 3 Parse the document Now we call the parse.run() method with the uploaded file reference. This sends the document through Reducto’s processing pipeline, which runs OCR, detects layout, extracts tables, and structures everything into chunks. # Parse the uploaded document result = client.parse.run( input = upload.file_id) # Check what we got back print ( f \"Job ID: { result.job_id } \" ) print ( f \"Pages processed: { result.usage.num_pages } \" ) print ( f \"Credits used: { result.usage.credits } \" ) print ( f \"Number of chunks: { len (result.result.chunks) } \" ) 4 Access the extracted content The response contains chunks , which are logical sections of the document. Each chunk has a content field with the full text and a blocks field with individual elements like tables, headers, and paragraphs. # Loop through each chunk for i, chunk in enumerate (result.result.chunks): print ( f \" \\n === Chunk { i + 1 } ===\" ) print (chunk.content[: 500 ]) # First 500 characters # Look at individual blocks within this chunk for block in chunk.blocks: print ( f \" [ { block.type } ] on page { block.bbox.page } \" ) # Tables are returned as HTML by default if block.type == \"Table\" : print ( f \" Table content: { block.content[: 200 ] } ...\" ) Each block has a type that tells you what kind of content it is: Title , Section Header , Text , Table , Figure , Key Value , and others. The bbox field contains the bounding box coordinates so you know exactly where on the page this content came from. Complete code: from pathlib import Path from reducto import Reducto client = Reducto() upload = client.upload( file = Path( \"fidelity-example.pdf\" )) result = client.parse.run( input = upload.file_id) print ( f \"Processed { result.usage.num_pages } pages\" ) for chunk in result.result.chunks: print (chunk.content) for block in chunk.blocks: if block.type == \"Table\" : print ( f \"Found table on page { block.bbox.page } \" ) All Node.js examples use await and must be run inside an async function, or in a file with top-level await enabled (ES modules with Node.js 14.8+). 1 Import the SDK and initialize the client Import the Reducto client and the fs module for reading files. The client automatically uses the REDUCTO_API_KEY environment variable for authentication. import Reducto from 'reductoai' ; import fs from 'fs' ; // The client reads REDUCTO_API_KEY from your environment const client = new Reducto (); 2 Upload your document Use createReadStream to upload the file to Reducto. This returns a reference you’ll use when calling the parse endpoint. You can download the sample PDF from here . // Upload the PDF file to Reducto const upload = await client . upload ({ file: fs . createReadStream ( \"fidelity-example.pdf\" ) }); console . log ( `Uploaded: ${ upload . file_id } ` ); 3 Parse the document Call parse.run() with the uploaded file reference. Reducto processes the document and returns structured content. // Parse the uploaded document const result = await client . parse . run ({ input: upload . file_id }); console . log ( `Job ID: ${ result . job_id } ` ); console . log ( `Pages processed: ${ result . usage . num_pages } ` ); console . log ( `Credits used: ${ result . usage . credits } ` ); console . log ( `Number of chunks: ${ result . result . chunks . length } ` ); 4 Access the extracted content Loop through the chunks and blocks to access the extracted text, tables, and other elements. // Loop through each chunk for ( let i = 0 ; i < result . result . chunks . length ; i ++ ) { const chunk = result . result . chunks [ i ]; console . log ( ` \\n === Chunk ${ i + 1 } ===` ); console . log ( chunk . content . substring ( 0 , 500 )); // Look at individual blocks within this chunk for ( const block of chunk . blocks ) { console . log ( ` [ ${ block . type } ] on page ${ block . bbox . page } ` ); if ( block . type === \"Table\" ) { console . log ( ` Table content: ${ block . content . substring ( 0 , 200 ) } ...` ); } } } Complete code: import Reducto from 'reductoai' ; import fs from 'fs' ; const client = new Reducto (); async function main () { const upload = await client . upload ({ file: fs . createReadStream ( \"fidelity-example.pdf\" ) }); const result = await client . parse . run ({ input: upload . file_id }); console . log ( `Processed ${ result . usage . num_pages } pages` ); for ( const chunk of result . result . chunks ) { console . log ( chunk . content ); for ( const block of chunk . blocks ) { if ( block . type === \"Table\" ) { console . log ( `Found table on page ${ block . bbox . page } ` ); } } } } main (); The Go SDK is currently in alpha ( v0.1.0-alpha.1 ). The API may change in future releases. 1 Import the SDK and initialize the client Import the Reducto client and the option package for configuration. The Go SDK requires you to pass the API key explicitly using option.WithAPIKey() . package main import ( \" context \" \" fmt \" \" io \" \" os \" reducto \" github.com/reductoai/reducto-go-sdk \" \" github.com/reductoai/reducto-go-sdk/option \" \" github.com/reductoai/reducto-go-sdk/shared \" ) func main () { // Initialize client with API key from environment client := reducto . NewClient ( option . WithAPIKey ( os . Getenv ( \"REDUCTO_API_KEY\" ))) } 2 Upload your document Open the file and upload it to Reducto. The upload returns a file ID that you’ll use for parsing. You can download the sample PDF from here . file , err := os . Open ( \"fidelity-example.pdf\" ) if err != nil { fmt . Printf ( \"Error opening file: %v \\n \" , err ) return } defer file . Close () upload , err := client . Upload ( context . Background (), reducto . UploadParams { File : reducto . F [ io . Reader ]( file ), }) if err != nil { fmt . Printf ( \"Upload error: %v \\n \" , err ) return } fmt . Printf ( \"Uploaded: %s \\n \" , upload . FileID ) 3 Parse the document Call Parse.Run() with the file ID. The Go SDK requires you to wrap the file ID with shared.UnionString() and then with reducto.F[...]() because the SDK uses strongly-typed union parameters. result , err := client . Parse . Run ( context . Backg",
+      "content_sha256": "84e0c192eb07a00ff1de8203a85f2a1d7fd3bff7e53e4b8e01bca95ab9990aab",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5614,
+    "output_tokens": 2463
+  },
+  "failure": null
+}

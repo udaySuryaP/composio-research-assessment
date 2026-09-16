@@ -1,0 +1,310 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 98,
+    "app_name": "Mermaid CLI",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://github.com/mermaid-js/mermaid-cli",
+    "description": "This is a command-line interface (CLI) for the Mermaid library. It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files.",
+    "auth_methods": [
+      "none"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "other"
+    ],
+    "api_breadth": "Provides a Node.JS API to call mermaid-cli programmatically for diagram generation.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "This is a command-line interface (CLI) for the Mermaid library. It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files.",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "This is a command-line interface (CLI) for mermaid . It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "none",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "You can easily pipe input from stdin. This example shows how to use a heredoc to send a diagram as stdin to mermaid-cli (mmdc)",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "npm install -g @mermaid-js/mermaid-cli",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ;",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "other",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ;",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Provides a Node.JS API to call mermaid-cli programmatically for diagram generation.",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ;",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:26:08.557958+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 98,
+    "app_name": "Mermaid CLI",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://github.com/mermaid-js/mermaid-cli",
+    "description": "This is a command-line interface (CLI) for the Mermaid library. It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files.",
+    "auth_methods": [
+      "none"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "other"
+    ],
+    "api_breadth": "Provides a Node.JS API to call mermaid-cli programmatically for diagram generation.",
+    "mcp_available": "no",
+    "mcp_notes": "No mention of a marketplace or community marketplace for this CLI tool.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The tool can be installed via npm or run via Docker/Podman. It provides a Node.JS API for programmatic use, enabling integration into custom workflows. No authentication or access restrictions are required, making it straightforward to build with.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "This is a command-line interface (CLI) for the Mermaid library. It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files.",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "This is a command-line interface (CLI) for mermaid . It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "none",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "You can easily pipe input from stdin. This example shows how to use a heredoc to send a diagram as stdin to mermaid-cli (mmdc)",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "npm install -g @mermaid-js/mermaid-cli",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ;",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "other",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ;",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Provides a Node.JS API to call mermaid-cli programmatically for diagram generation.",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ;",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "no",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "No mention of a marketplace or community marketplace for this CLI tool.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "npm install -g @mermaid-js/mermaid-cli ... It's possible to call mermaid-cli via a Node.JS API ... The tool can be installed via npm or run via Docker/Podman. It provides a Node.JS API for programmatic use, enabling integration into custom workflows. No authentication or access restrictions are required, making it straightforward to build with.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability_rationale",
+        "claim": "The tool can be installed via npm or run via Docker/Podman. It provides a Node.JS API for programmatic use, enabling integration into custom workflows. No authentication or access restrictions are required, making it straightforward to build with.",
+        "url": "https://github.com/mermaid-js/mermaid-cli",
+        "final_url": "https://github.com/mermaid-js/mermaid-cli",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+        "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+        "quote": "npm install -g @mermaid-js/mermaid-cli ... It's possible to call mermaid-cli via a Node.JS API ... The tool can be installed via npm or run via Docker/Podman. It provides a Node.JS API for programmatic use, enabling integration into custom workflows. No authentication or access restrictions are required, making it straightforward to build with.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:47.691239+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://github.com/mermaid-js/mermaid-cli",
+      "final_url": "https://github.com/mermaid-js/mermaid-cli",
+      "retrieved_at": "2026-09-16T17:25:46.448017+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "GitHub - mermaid-js/mermaid-cli: Command line tool for the Mermaid library · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . mermaid-js / mermaid-cli Public Notifications You must be signed in to change notification settings Fork 386 Star 5k Code Issues 81 Pull requests 8 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights master Branches Tags Go to file Code Open more actions menu Latest commit History 1,156 Commits 1,156 Commits Folders and files Name Name Last commit message Last commit date .github .github docs docs scripts scripts src-test src-test src src test-negative test-negative test-positive test-positive .ackrc .ackrc .editorconfig .editorconfig .gitattributes .gitattributes .gitignore .gitignore .prettierignore .prettierignore CODE_OF_CONDUCT.md CODE_OF_CONDUCT.md CONTRIBUTING.md CONTRIBUTING.md Dockerfile Dockerfile DockerfileBuild DockerfileBuild GitVersion.yml GitVersion.yml LICENSE LICENSE README.md README.md building.md building.md eslint.config.js eslint.config.js index.html index.html install-dependencies.sh install-dependencies.sh package-lock.json package-lock.json package.json package.json puppeteer-config.json puppeteer-config.json run-tests.sh run-tests.sh tsconfig.json tsconfig.json vite.config.ts vite.config.ts View all files Repository files navigation README Code of conduct Contributing MIT license Security More items mermaid-cli This is a command-line interface (CLI) for mermaid . It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files. Installation npm install -g @mermaid-js/mermaid-cli Usage Convert Mermaid mmd Diagram File To SVG mmdc -i input.mmd -o output.svg Note See Alternative installations if you don't want to install the package globally. Locate how to call the mmdc executable for your preferred method i.e. Docker, Yarn, NPM, local install, etc. Examples Create A PNG With A Dark Theme And Transparent Background mmdc -i input.mmd -o output.png -t dark -b transparent Animating an SVG file with custom CSS The --cssFile option can be used to inline some custom CSS. Please see ./test-positive/flowchart1.css for an example of a CSS file that has animations. Warning : If you want to override mermaid 's themeCSS , we recommend instead adding {\"themeCSS\": \"...\"}) to your mermaid --configFile . You may also need to use !important to override mermaid's themeCSS . Warning : Inline CSS files may be blocked by your browser, depending on the HTTP Content-Security-Policy header of the website that hosts your SVG. mmdc --input test-positive/flowchart1.mmd --cssFile test-positive/flowchart1.css -o docs/animated-flowchart.svg Example output: docs/animated-flowchart.svg Transform a markdown file with mermaid diagrams mmdc -i readme.template.md -o readme.md This command transforms a markdown file itself. The mermaid-cli will find the mermaid diagrams, create SVG files from them and refer to those in the markdown output. This: ### Some markdown ``` mermaid graph [....] ``` ### Some more markdown ``` mermaid sequenceDiagram [....] ``` ### Mermaid with custom title/desc ``` mermaid graph accTitle: My title here accDescr: My description here A-->B ``` Becomes: ### Some markdown ![ diagram ] ( ./readme-1.svg ) ### Some more markdown ![ diagram ] ( ./readme-2.svg ) ### Mermaid with custom title/desc ![ My description here ] ( ./readme-3.svg \" My title here \") Piping from stdin You can easily pipe input from stdin. This example shows how to use a heredoc to send a diagram as stdin to mermaid-cli (mmdc). cat << EOF | mmdc --input - graph TD A[Client] --> B[Load Balancer] EOF See All Available Options mmdc -h Alternative installations Use Docker/Podman: docker pull minlag/mermaid-cli or pull from Github Container Registry docker pull ghcr.io/mermaid-js/mermaid-cli/mermaid-cli or e.g. version 8.8.0 docker pull minlag/mermaid-cli:8.8.0 The container looks for input files in /data . So for example, if you have a diagram defined on your system in /path/to/diagrams/diagram.mmd , you can use the container to generate an SVG file as follows: docker run --rm -u ` id -u ` : ` id -g ` -v /path/to/diagrams:/data minlag/mermaid-cli -i diagram.mmd Or, if using Podman , instead do: podman run --userns keep-id --user ${UID} --rm -v /path/to/diagrams:/data:z ghcr.io/mermaid-js/mermaid-cli/mermaid-cli -i diagram.mmd The key differences in the podman command versus the docker command are: The addition of the --userns keep-id argument. This allows the container to keep the same UID as the current user's UID in the container namespace instead of mapping to a subuid. To learn more, see the userns=mode documentation . The addition of :z to the end of the volume mapping. This instructs podman to relabel the files in the volume with the SELinux label container_file_t , which allows processes in the container to access the files. See the \"Labeling Volume Mounts\" section of podman-run (1) for more info. In previous version, the input files were mounted in /home/mermaidcli . You can restore this behaviour with the --workdir option: docker run [...] --workdir=/home/mermaidcli minlag/mermaid-cli [...] Use Node.JS API It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver , as mermaid-cli follows mermaid 's versioning. import { run } from \"@mermaid-js/mermaid-cli\" ; await run ( \"input.mmd\" , \"output.svg\" , // {optional options}, ) ; Install locally Some people are having issues installing this tool globally. Installing it locally is an alternative solution: npm install @mermaid-js/mermaid-cli ./node_modules/.bin/mmdc -h Run with npx npx is installed by default with NPM. It downloads and runs commands at the same time. To use Mermaid CLI with npx, you need to use the -p flag because the package name is different than the command it installs ( mmdc ). npx -p @mermaid-js/mermaid-cli mmdc -h Install with brew Warning This method of installation is no longer supported. For more details, see the discussion . An old version of mermaid-cli can be installed with brew. brew install mermaid-cli Known issues Linux sandbox issue Docker permission denied issue How to setup up mermaid to use already installed chromium? For contributors Contributions are welcome. See the contribution guide . About Command line tool for the Mermaid library Topics cli diagrams mermaid Resources Readme MIT license Code of conduct Code of conduct Contributing Contributing Security policy Security policy Activity Custom properties Stars 5.0k stars Watchers 42 watching Forks 386 forks Report repository Releases Packages Used by Contributors Languages Footer © 2026 GitHub, Inc. Footer navigation Terms Privacy Security Status Community Docs Contact Manage cookies Do not share my personal information You can’t perform that action at this time.",
+      "content_sha256": "0ea0345d1f7e899a0c900bea6562eccee5fc43c56d0b192b3b96b3660395309e",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2994,
+    "output_tokens": 2032
+  },
+  "failure": null
+}

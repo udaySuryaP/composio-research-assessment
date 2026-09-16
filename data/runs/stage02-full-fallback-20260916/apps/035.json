@@ -1,0 +1,262 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 35,
+    "app_name": "Mailchimp",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://mailchimp.com/developer",
+    "description": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to sync email activity and campaign analytics, manage audiences and campaigns, and more. It supports managing audiences, adding contacts, organizing contacts with tags or segments, webhooks for real-time audience data, e-commerce integration, and batch processing to handle large data syncs. The API is RESTful with JSON responses and uses OpenAPI Specification for endpoint descriptions.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to sync email activity and campaign analytics, manage audiences and campaigns, and more.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "To use the Marketing API, you need a Mailchimp account. What you can do with the API depends on what level of Mailchimp plan you have.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "To use the Marketing API, you need a Mailchimp account. What you can do with the API depends on what level of Mailchimp plan you have.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Marketing API generally follows REST conventions, with some deviations.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "The Marketing API generally follows REST conventions, with some deviations.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:19:10.547751+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 35,
+    "app_name": "Mailchimp",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://mailchimp.com/developer",
+    "description": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to sync email activity and campaign analytics, manage audiences and campaigns, and more. It supports managing audiences, adding contacts, organizing contacts with tags or segments, webhooks for real-time audience data, e-commerce integration, and batch processing to handle large data syncs. The API is RESTful with JSON responses and uses OpenAPI Specification for endpoint descriptions.",
+    "auth_methods": [
+      "api_key",
+      "oauth2",
+      "basic",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers audience management, campaign management, e-commerce integration, webhooks, batch processing, and analytics synchronization.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with clear authentication methods (API key, OAuth 2), RESTful endpoints, and client libraries. Access is self-serve with a Mailchimp account and API key. The documentation provides details on API limits, authentication, and usage, enabling building integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to sync email activity and campaign analytics, manage audiences and campaigns, and more.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "You can authenticate requests using either your API key or an OAuth access token, depending on your use case. You can either use HTTP Basic Authentication or Bearer Authentication.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "You can authenticate requests using either your API key or an OAuth access token, depending on your use case. You can either use HTTP Basic Authentication or Bearer Authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "To use the Marketing API, you need a Mailchimp account. What you can do with the API depends on what level of Mailchimp plan you have.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "To use the Marketing API, you need a Mailchimp account. What you can do with the API depends on what level of Mailchimp plan you have.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Marketing API is currently on version 3.0 and provides RESTful endpoints with JSON responses.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "The Marketing API is currently on version 3.0. ... The Marketing API generally follows REST conventions, with some deviations. ... Responses use the generic JSON content type.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Marketing API generally follows REST conventions, with some deviations.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "The Marketing API generally follows REST conventions, with some deviations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers audience management, campaign management, e-commerce integration, webhooks, batch processing, and analytics synchronization.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "You can use the Marketing API to set up an audience and add contacts to that audience; you can then organize those contacts with tags or segment them by activity with events. ... Webhooks collect and transmit information about your audience to you in near real time. ... you can integrate your audience behavior using Mailchimp's E-commerce features. ... you can use batches to avoid hitting the API request limits.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The API is well documented with clear authentication methods (API key, OAuth 2), RESTful endpoints, and client libraries. Access is self-serve with a Mailchimp account and API key. The documentation provides details on API limits, authentication, and usage, enabling building integrations.",
+        "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+        "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+        "quote": "You can authenticate requests using either your API key or an OAuth access token, depending on your use case. ... The Marketing API generally follows REST conventions, with some deviations. ... To use the Marketing API, you need a Mailchimp account. ... Currently there are no options to raise the limit on a per-customer basis. ... If you\u00039re integrating with the Marketing API using one of the official client libraries, you won\u00039t need to worry about the implementation details for authentication.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:18:56.378747+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "final_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "retrieved_at": "2026-09-16T17:18:55.870769+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Fundamentals Documentation | Mailchimp Developer Skip to main content Products Mailchimp Marketing API Power timely, relevant marketing campaigns with custom data pulled directly from your app. Mailchimp Transactional Send targeted and event-driven messages to anyone, fast—with best-in-class deliverability. Mailchimp Open Commerce Control your commerce future with a modular, API-first commerce stack. Tools Release Notes Blog Sales: +1 (833) 799-4315 Skip navigation Mailchimp Marketing API Mailchimp Marketing API Documentation Overview Guides Documentation Fundamentals The basics API structure Connecting to the API API limits Methods and Parameters Merge Fields Audiences (BETA) Alternative Schemas E-Commerce Account Exports Integrations Mobile SDK Errors API Reference Fundamentals The basics The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more. To use the Marketing API, you need a Mailchimp account. What you can do with the API depends on what level of Mailchimp plan you have. Once you have an account and are logged in, you can get an API key and begin making calls to the API . Using Mailchimp Whether you’re managing your own campaigns, providing Mailchimp services to your customers or clients, or writing a mobile app, the Mailchimp Marketing API has features to manage and sync your contact data. Audiences are at the core of sending campaigns with Mailchimp. You can use the Marketing API to set up an audience and add contacts to that audience; you can then organize those contacts with tags or segment them by activity with events . The Marketing API can also be a source of data for your application. Webhooks collect and transmit information about your audience to you in near real time. And if you’re selling products on an external store, you can integrate your audience behavior using Mailchimp’s E-commerce features . You can also use the Marketing API to handle data in different ways for different purposes. If you are syncing a large amount of data with Mailchimp, you can use batches to avoid hitting the API request limits. For building integrations that let other users access data from their own Mailchimp accounts, you should authenticate with OAuth 2 . And if you’re developing an app for iOS or Android, the Mobile SDK provides an easy way to work with a mobile-focused subset of the Marketing API’s functionality. API versions The Marketing API is currently on version 3.0. We also support a single-purpose Export API version 1.0, which provides API support for some of our account export functionality . See the Export API documentation for full details. The first versions of the Marketing API, versions 1.1, 1.2, and 1.3, are no longer available. The previous version 2.0 has not been shut off, but is deprecated and unsupported. We’ll announce shut off dates in advance, but we recommend migrating to version 3.0 since version 2.0 is not regularly tested or maintained. API structure The Marketing API generally follows REST conventions, with some deviations. Resources are typically nouns like subscribers or campaigns . Subresources can be multiply nested under resources. Actions are usually represented by HTTP methods . Actions that do not correspond to HTTP methods are collected under an actions/ subresource. Responses use the generic JSON content type. We use the OpenAPI Specification (formerly known as Swagger) to describe each endpoint. The API self-description also contains type information to help you error-check your requests. The root url for the API is https://<dc>.api.mailchimp.com/3.0/ . The <dc> part of the URL corresponds to the data center for your account. For example, if the data center for your account is us6 , all API endpoints for your account are available relative to https://us6.api.mailchimp.com/3.0/ . There are a few ways to find your data center. It’s the first part of the URL you see in the API keys section of your account; if the URL is https://us6.mailchimp.com/account/api/ , then the data center subdomain is us6 . It’s also appended to your API key in the form key-dc; if your API key is 0123456789abcdef0123456789abcde-us6 , then the data center subdomain is us6 . And finally, if you’re connecting via OAuth 2, you can find the data center associated with the token via the OAuth Metadata endpoint; for more information, see the OAuth guide . Note : You will see the <dc> placeholder or an actual data center subdomain in examples throughout this documentation. Either way, make sure to replace it in your code with the data center subdomain for your account, or your request may generate an error. For more details on how to query Marketing API endpoints, see Methods and Parameters . For troubleshooting API calls, see the Errors docs. Connecting to the API You can authenticate requests using either your API key or an OAuth access token, depending on your use case. You should use an API key if you’re writing code that tightly couples your application data to your Mailchimp account data; if you ever need to access someone else’s Mailchimp account data, you should use OAuth 2. For more information on the Mailchimp OAuth 2 flow, see Access Data on Behalf of Other Users with OAuth 2 . If you’re integrating with the Marketing API using one of the official client libraries , you won’t need to worry about the implementation details for authentication. Authenticate with an API key or OAuth 2 token API keys and OAuth 2 tokens can be used to make authenticated requests the same way. We’ll refer to both as tokens. You can either use HTTP Basic Authentication or Bearer Authentication. HTTP Basic Authentication: Basic HTTP Authentication Bash curl --request GET \\ --url 'https://<dc>.api.mailchimp.com/3.0/' \\ --user 'anystring:TOKEN Bearer Authentication: Bearer Authentication Bash --url 'https://<dc>.api.mailchimp.com/3.0/' \\ --header \"Authorization: Bearer <TOKEN>\" User API access API authentication is tied to the user that created the API key or authorized the OAuth2 app. If the user is removed from the account, that authentication token will be revoked. API access is also limited by the user level (role) of the authorizing user. The role is not fixed, and can change over time. You can check the role for an API key using the API Root endpoint , and see the restrictions in this chart . Attempts to perform an API action that aren’t permitted for the role will return a 403 error . When creating an API key or authorizing an app, we recommend using an admin user when possible. OAuth integrators may want to inform the user if the application won’t work at their user level. Note : You are responsible for the security of API tokens; we recommend that you store them in a secure location on your server. Because of the potential security risks associated with exposing an API token, Mailchimp does not support client-side implementation of our API using CORS requests. API limits To improve the experience for all our users, we impose some limits on API requests. These limits prevent a single user from making too many expensive calls at once. Exceeding the limits can result in your API access being disabled, so be cognizant of the quantity and complexity of your requests. Currently there are no options to raise the limit on a per-customer basis. Throttling The Marketing API has a limit of 10 simultaneous connections. You’ll receive a 429 error if you reach the limit. At exceptionally high volumes, you may receive an HTTP 429 or 403 without a JSON body. We recommend that you cache frequently accessed values that do not change often in your application’s data store. This will prevent your application from bumping up against the throttling limitations and will likely provide faster access to that data. Stream timeouts The Marketing API has a 120-second timeout on API calls. You may see this type of timeout after you’ve made a network socket connection and are already sending and receiving data. Response times are dependent on the complexity of your request and the general load across Mailchimp. Some endpoints in the Marketing API return values that are large and slow to calculate. Once you know what data you need, use the pagination and partial response capabilities to request only what is essential to you. Note : If you’re regularly seeing issues with timeouts and are unable to optimize your requests using pagination, you might consider sending long-running requests to the Batch endpoint . Products Mailchimp Marketing API Mailchimp Transactional Mailchimp Open Commerce Resources Tools Release Notes API Status Partnerships Contact Us Join Mailchimp Explore how Mailchimp can bring together your customer data, marketing channels, and audience insights in a single platform. Create Account Visit Mailchimp Careers Privacy & Terms Read the documentation Help © 2001 - 2026 All Rights Reserved. Mailchimp ® is a registered trademark of The Rocket Science Group.",
+      "content_sha256": "417c046ab1dd6628da83cc4f9bbbc7d24fbd21a764fc2cddb45dcf4818654c29",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2953,
+    "output_tokens": 1781
+  },
+  "failure": null
+}

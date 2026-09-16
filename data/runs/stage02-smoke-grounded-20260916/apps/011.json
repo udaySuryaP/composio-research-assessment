@@ -1,0 +1,277 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 11,
+    "app_name": "Zendesk",
+    "category": "2. Support and Helpdesk",
+    "website": "http://zendesk.com/",
+    "description": "Zendesk provides a support and helpdesk platform with API access for managing support tickets, users, and other resources. It supports OAuth access tokens for authentication and allows client-side API requests with OAuth tokens. API tokens are deprecated in favor of OAuth tokens for improved security.",
+    "auth_methods": [
+      "oauth2",
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Zendesk provides a support and helpdesk platform with API access for managing support tickets, users, and other resources. It supports OAuth access tokens for authentication and allows client-side API requests with OAuth tokens. API tokens are deprecated in favor of OAuth tokens for improved security.",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security and compatibility with future requirements.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Basic authentication is used for API tokens. The credentials must be sent with the request in an Authorization header.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "If you plan on distributing an app, integration, or bot to multiple Zendesk customers, you must use global OAuth tokens to authenticate Zendesk API requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "curl https://obscura.zendesk.com/api/v2/users.json \\ -H \"Authorization: Bearer gErypPlm4dOVgGRvA1ZzMH5MQ3nLo8bo\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security and compatibility with future requirements.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence"
+    ],
+    "researched_at": "2026-09-16T17:15:15.135827+00:00",
+    "run_id": "stage02-smoke-grounded-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 11,
+    "app_name": "Zendesk",
+    "category": "2. Support and Helpdesk",
+    "website": "http://zendesk.com/",
+    "description": "Zendesk provides a support and helpdesk platform with API access for managing support tickets, users, and other resources. It supports OAuth access tokens for authentication and allows client-side API requests with OAuth tokens. API tokens are deprecated in favor of OAuth tokens for improved security.",
+    "auth_methods": [
+      "oauth2",
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Zendesk API supports a broad range of REST endpoints for managing users, tickets, requests, and other support-related resources.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with OAuth2 and basic authentication methods available. OAuth tokens are recommended for new integrations. The API is RESTful and supports client-side requests with OAuth tokens. There is no indication of restrictions blocking buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Zendesk provides a support and helpdesk platform with API access for managing support tickets, users, and other resources. It supports OAuth access tokens for authentication and allows client-side API requests with OAuth tokens. API tokens are deprecated in favor of OAuth tokens for improved security.",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security and compatibility with future requirements.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Basic authentication is used for API tokens. The credentials must be sent with the request in an Authorization header.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "If you plan on distributing an app, integration, or bot to multiple Zendesk customers, you must use global OAuth tokens to authenticate Zendesk API requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "curl https://obscura.zendesk.com/api/v2/users.json \\ -H \"Authorization: Bearer gErypPlm4dOVgGRvA1ZzMH5MQ3nLo8bo\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+        "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+        "quote": "Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security and compatibility with future requirements.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:15:01.911344+00:00",
+    "run_id": "stage02-smoke-grounded-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "retrieved_at": "2026-09-16T17:15:00.498978+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Security and authentication | Zendesk Developer Docs zendev_horizontal zendev_horizontal Documentation API Reference Search / Introduction Home Introduction Introduction Developer community Document conventions Examples Plan availability Security and authentication Rate limits Requests Data types Pagination Change policy Undocumented APIs On this page OAuth access token Global OAuth access token API token (deprecated) SSL requirements End user authentication Security and authentication On this page OAuth access token Global OAuth access token API token (deprecated) SSL requirements End user authentication You must be a verified user to make API requests. Zendesk supports using OAuth access tokens to authenticate API requests. Note: If you're an existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for improved security and compatibility with future requirements. If you plan on distributing an app, integration, or bot to multiple Zendesk customers, you must use global OAuth tokens to authenticate Zendesk API requests. See Global OAuth tokens for details. The Zendesk Developer Terms prohibits you from sharing your API credentials with third parties. Client-side CORS requests are supported if the request is authenticated with an OAuth access token . The requests are not supported if the request uses a Zendesk API token. For more information and a tutorial, see Making cross-origin, browser-side API requests . Topics covered in this section: OAuth access token Global OAuth access token API token SSL requirements End user authentication For more information, see Differences between API tokens and OAuth access tokens . OAuth access token The Zendesk API supports OAuth authorization flows. For more information, see Using OAuth authentication with your application . An OAuth token gives access to a single Zendesk instance (the one with the OAuth client used to create the token). OAuth access tokens also permit client-side API requests. See Making cross-origin, browser-side API requests in the Zendesk API guide. In your requests, specify the access token in an Authorization header as follows: Authorization : Bearer { access_token } Example: Authorization : Bearer gErypPlm4dOVgGRvA1ZzMH5MQ3nLo8bo If you use curl to test different endpoints, you can use the following format: curl https://obscura.zendesk.com/api/v2/users.json \\ -H \"Authorization: Bearer gErypPlm4dOVgGRvA1ZzMH5MQ3nLo8bo\" Access tokens can be up to 184 characters long. Global OAuth access token If you plan on making an app, integration, or bot available to multiple Zendesk customers, you must use global OAuth access tokens to authenticate Zendesk API requests. You may not use regular API tokens or OAuth tokens because the Zendesk Developer Terms prohibits Zendesk customers from sharing their API credentials with you. For more information, see Set up a global OAuth client . The requirement to use global OAuth tokens doesn't apply if you're developing applications or integrations for internal use. API token (deprecated) API tokens are different from OAuth tokens, which are detailed in the previous section. API tokens are auto-generated passwords in the Zendesk Admin Center. Warning: As passwords, API tokens can be used to impersonate anyone in the account, including admins. Make sure to keep them secure. Delete any unused tokens. Delete a token at once if you suspect it's been compromised and create another one if necessary. For a more secure alternative, use OAuth access tokens as described above. API tokens are managed in the Admin Center interface at Apps and integrations > APIs > Zendesk API . The page lets you view, add, or delete tokens. More than one token can be active at the same time. Deleting a token deactivates it permanently. You can have up to 256 tokens. If you're at the limit, you must delete an existing token to add a new one. Accounts that currently have more than 256 tokens have a limit of 2048 tokens. Basic authentication is used for API tokens. The credentials must be sent with the request in an Authorization header. Use the following format for the credentials: { email_address } / token : { api_token } Example: jdoe @ example . com / token : 6wiIBWbGkBMo1mRDMuVwkw1EPsNkeUj95PIz2akv After base64-encoding the resulting string, add it to the Authorization header as follows: Authorization : Basic amRvZUBleGFtcGxlLmNvbS90b2tlbjo2d2lJQldiR2tCTW8xbVJETXVWd2t3MUVQc05rZVVqOTVQSXoyYWt2 If you use curl to test different endpoints, you can use the following format: curl https://obscura.zendesk.com/api/v2/users.json \\ -u [email protected] /token:6wiIBWbGkBMo1mRDMuVwkw1EPsNkeUj95PIz2akv If authenticating over HTTP, url-encode the slash character in {email_address}/token as %2F . SSL requirements The Zendesk v2 API is an SSL-only API, regardless of how your account is configured. All connections to the Zendesk API must support the TLS 1.2 protocol. Support for TLS 1.0 and 1.1 was removed in June 2018. Connections to the API must also support the SNI extension to TLS. If you connect to Zendesk through a client library, make sure it supports both TLS 1.2 and SNI. End user authentication End users can interact with the Zendesk API in two ways: anonymously or authenticated (with email and password). In open instances where users can access the help center without signing in, end users do not require authentication for any API endpoint that lists anonymous permissions. An example is the List Articles endpoint. In a closed Zendesk instance where end users must sign in to view your help center, end users can make authenticated requests to certain API endpoints, such as api/v2/requests , using their email and password if password access for end users is enabled. This allows end users to securely create, view, or update their own requests through the API. For more information on closed Zendesk instances, see Options for end-user access in Zendesk help. A setting in Admin Center lets you explicitly enable or disable password access for end users in closed instances. See Turning on and off API access . Join our developer community Forum Blog Slack Zendesk 181 Fremont Street, 17th Floor, San Francisco, California 94105 Privacy Notice Zendesk Developer Terms System Status",
+      "content_sha256": "98e2b320399ea57716fe5f36fbc97d48c767c81db8c54ae13446e3e4cada838c",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2387,
+    "output_tokens": 1472
+  },
+  "failure": null
+}

@@ -1,0 +1,254 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 80,
+    "app_name": "Harvest",
+    "category": "8. Productivity and Project Management",
+    "website": "http://harvestapp.com/",
+    "description": "Harvest is a modern time tracking application trusted by over 70,000 businesses, providing APIs for accessing time tracking and project management data.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Harvest is a modern time tracking application trusted by over 70,000 businesses, providing APIs for accessing time tracking and project management data.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "Harvest Modern time tracking trusted by 70,000+ businesses.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:24:25.646919+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 80,
+    "app_name": "Harvest",
+    "category": "8. Productivity and Project Management",
+    "website": "http://harvestapp.com/",
+    "description": "Harvest is a modern time tracking application trusted by over 70,000 businesses, providing APIs for accessing time tracking and project management data.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API V2 provides access to user, account, and time tracking data with endpoints for authentication, account management, and data retrieval. It supports personal access tokens and OAuth2 flows for integration.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Harvest API V2 is well documented with REST endpoints and supports authentication via personal access tokens and OAuth2, enabling developers to build integrations and automate tasks.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Harvest is a modern time tracking application trusted by over 70,000 businesses, providing APIs for accessing time tracking and project management data.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "Harvest Modern time tracking trusted by 70,000+ businesses.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API V2 requires an access token to authenticate requests. There are two options available: Personal Access Token and OAuth2 Authentication flow.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "The V2 API requires an access token to authenticate requests. There are two options available to you: A Personal Access Token ... Implementing a full OAuth2 Authentication flow ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Harvest API access is self-serve paid, as users create personal access tokens or register OAuth2 applications via the Developers section of Harvest ID.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "The API can be accessed by creating a Personal Access Token from the Developers section of Harvest ID... The application can be created from the Developers section of Harvest ID...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Harvest provides a RESTful API V2 for accessing its services.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "Welcome to the Harvest API v2 Help Center ... The V2 API requires an access token to authenticate requests...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Harvest API V2 is a REST API.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "curl -H \"Authorization: Bearer $ACCESS_TOKEN \" ... https://api.harvestapp.com/v2/users/me",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API V2 provides access to user, account, and time tracking data with endpoints for authentication, account management, and data retrieval. It supports personal access tokens and OAuth2 flows for integration.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "Use that list or consume Harvest ID\u000bs accounts endpoint to figure out which accounts you can access: GET https://id.getharvest.com/api/v2/accounts ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Harvest API V2 is well documented with REST endpoints and supports authentication via personal access tokens and OAuth2, enabling developers to build integrations and automate tasks.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+        "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+        "quote": "Personal Access Tokens are the preferred method when you want to write your own scripts that consume our API... Implementing a full OAuth2 Authentication flow ...",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:13.027378+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "retrieved_at": "2026-09-16T17:24:12.341243+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication – Harvest API V2 Documentation API V2 Documentation Contact Us Welcome to the Harvest API v2 Help Center Harvest API V2 Documentation Authentication API Authentication This is the current API V2 documentation. You can still view the legacy API V1 documentation . Help Topics Authentication Introduction The V2 API requires an access token to authenticate requests. There are two options available to you: A Personal Access Token which is tied directly to you and is the quickest way to start playing around with the API. Implementing a full OAuth2 Authentication flow which allows other people to use your Harvest integrations. Personal access tokens The API can be accessed by creating a Personal Access Token from the Developers section of Harvest ID. After creating it you’ll be provided with a random token and a list of your account IDs. Personal Access Tokens are the preferred method when you want to write your own scripts that consume our API. Typical use cases for Personal Access Tokens are scripts that build custom reports, sync data between different accounts, or automate tasks that would otherwise take a long time when done manually. Personal Access Tokens replace the Basic Authentication method that was used in our v1 API, as this is more secure. Within the Developers section you’ll see a list of all your Personal Access Tokens, when they were last used, and you’ll be able to easily revoke them if necessary. Once generated, a Personal Access Token can be used to access the API by either providing the token in the Authorization header or including it in the query string. Each request will require your account ID as well, since you can use this Personal Access Token to access any of your Harvest or Forecast accounts. Header authentication example curl -H \"Authorization: Bearer $ACCESS_TOKEN \" \\ -H \"Harvest-Account-Id: $ACCOUNT_ID \" \\ -H \"User-Agent: MyApp ( [email protected] )\" \\ https://api.harvestapp.com/v2/users/me Query string authentication example curl -H \"User-Agent: MyApp ( [email protected] )\" \\ \"https://api.harvestapp.com/v2/users/me?access_token= $ACCESS_TOKEN &account_id= $ACCOUNT_ID \" OAuth2 application If you are interested in building integrations that other users can use, you will need to register an OAuth2 Application, also known as an OAuth2 Client. The application can be created from the Developers section of Harvest ID, and you will be required to provide some information: Name –name of your application. Redirect URL –the URL in your integration; successful authentications will be redirected to by default. Multi Account –does your integration support multiple user account access or work with only one authenticated account. Products –scope of access requested; can be either Harvest, Forecast or both. It is advised to pick the minimal scope required for the integration to work. OAuth2 authorization flow For server-side applications We use the Authorization Code flow for server-side authorization. To start the authorization flow, you need to redirect the user to the following URL: https://id.getharvest.com/oauth2/authorize?client_id={CLIENT_ID}&response_type=code This URL allows the user to authenticate on Harvest ID and lets them authorize access to their account(s) depending on your OAuth2 Application settings and their choice. This endpoint accepts other parameters: state –(optional) used to pass any value that will get sent back to you when redirecting back to your application. redirect_uri –(optional) the default Redirect URL can be further customized here if needed, but needs to start with the Redirect URL registered with your Application. After a successful authorization, the user will be redirected back to the Redirect URL you specified when registering your OAuth2 application, or the redirect_uri you provided. These parameters will be attached: code –an authorization code that you will have to exchange for a set of Refresh and Access Tokens. You will be able to use this Access Token to access the user’s account on their behalf. state –(optional) contains the original value for the state parameter that was passed at the beginning of the authorization. scope –contains a list of space-separated strings describing the granted access scope. See the Scopes section for further explanation. Once you have the Authorization Code, you can exchange it for a set of Access and Refresh Tokens: curl -X POST \\ -H \"User-Agent: MyApp ( [email protected] )\" \\ -d \"code= $AUTHORIZATION_CODE \" \\ -d \"client_id= $CLIENT_ID \" \\ -d \"client_secret= $CLIENT_SECRET \" \\ -d \"grant_type=authorization_code\" \\ 'https://id.getharvest.com/api/v2/oauth2/token' Response: { \"access_token\" : \"{ACCESS_TOKEN}\" , \"refresh_token\" : \"{REFRESH_TOKEN}\" , \"token_type\" : \"bearer\" , \"expires_in\" : 1209600 } When your Access Token is about to expire, you can use the Refresh Token to get a new Access Token: curl -X POST \\ -H \"User-Agent: MyApp ( [email protected] )\" \\ -H \"Accept: application/json\" \\ -d \"refresh_token= $REFRESH_TOKEN \" \\ -d \"client_id= $CLIENT_ID \" \\ -d \"client_secret= $CLIENT_SECRET \" \\ -d \"grant_type=refresh_token\" \\ 'https://id.getharvest.com/api/v2/oauth2/token' Response: { \"access_token\" : \"{NEW_ACCESS_TOKEN}\" , \"refresh_token\" : \"{REFRESH_TOKEN}\" , \"token_type\" : \"bearer\" , \"expires_in\" : 1209600 } For client-side applications We use the Implicit Grant flow for client-side authorization. These are typically applications that run entirely on the browser and issue Cross-Origin requests to our API. The difference is that you’ll get a single Access Token back that you can use immediately. If a backend server is available, we recommend the Authorization Code flow , because it’s more secure and the access token is never visible by a browser. To start the authorization flow, redirect the user to the following URL: https://id.getharvest.com/oauth2/authorize?client_id={CLIENT_ID}&response_type=token This URL allows the user to authenticate on Harvest ID and lets them authorize access to their account(s) depending on your OAuth2 Application settings and their choice. This endpoint accepts other parameters: state –(optional) used to pass any value that will get sent back to you when redirecting back to your application. redirect_uri –(optional) the default Redirect URL can be further customized here if needed, but needs to start with the Redirect URL registered with your Application. After a successful authorization, the user will be redirected back to the Redirect URL you specified when registering your OAuth2 application, or the redirect_uri you provided. These parameters will be attached: access_token –the Access Token token that can be used to authenticate the requests on the user’s behalf. token_type –will always be bearer . expires_in –time in seconds until the token expires. state –(optional) contains the original value for the state parameter that was passed at the beginning of the authorization. scope –contains a list of space-separated strings describing the granted access scope. See the Scopes section for further explanation. Scopes and account access Personal Access Tokens have the all scope by default, so you have full access to all of your accounts. For OAuth2 Applications, it can vary depending on the options you selected and the authorization the user might give you. The scope can contain one or more of these values: harvest:{ACCOUNT_ID} –a Harvest account ID that the user granted access to. forecast:{ACCOUNT_ID} –a Forecast account ID that the user granted access to. harvest:all –the user granted access to all of their Harvest accounts. forecast:all –the user granted access to all of their Forecast accounts. all –the user granted access to all of their accounts. If you registered your app as needing access to just one account, the user will choose which account to authorize, and you’ll only get one scope back, either harvest:{ACCOUNT_ID} or forecast:{ACCOUNT_ID} , depending on which products you chose to work with. If your app can work with multiple accounts, you can get any combination of those scopes depending on what the user chose to authorize. Use that list or consume Harvest ID’s accounts endpoint to figure out which accounts you can access: GET https://id.getharvest.com/api/v2/accounts Example Request (note that the account ID is not necessary): curl \"https://id.getharvest.com/api/v2/accounts\" \\ -H \"Authorization: Bearer $ACCESS_TOKEN \" \\ -H \"User-Agent: MyApp ( [email protected] )\" Example Response: { \"user\" : { \"id\" : 1 , \"first_name\" : \"Albert\" , \"last_name\" : \"Llop\" , \"email\" : \" [email protected] \" }, \"accounts\" : [ { \"id\" : 10254 , \"name\" : \"Sterling Cooper Advertising Agency\" , \"product\" : \"harvest\" }, { \"id\" : 88888 , \"name\" : \"Iridesco\" , \"product\" : \"forecast\" }, { \"id\" : 88903 , \"name\" : \"Sterling Cooper Advertising Agency\" , \"product\" : \"forecast\" } ] } Still have questions? We’re happy to help! Contact Us Help Topics Close Topics Authentication Authentication Just need to add time tracking to your app? Check out the easy-to-use Harvest Button & Widget . Harvest Modern time tracking trusted by 70,000+ businesses. Learn more Harvest Forecast The fast and simple way to schedule your team across projects. Learn more © 2006–2026 Harvest | Status",
+      "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3132,
+    "output_tokens": 1542
+  },
+  "failure": null
+}

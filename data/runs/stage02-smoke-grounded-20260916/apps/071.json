@@ -1,0 +1,306 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 71,
+    "app_name": "Notion",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developers.notion.com/",
+    "description": "Notion provides a REST API for interacting with workspace content, including pages, databases, and users. It supports internal connections with static API tokens, personal access tokens (user-scoped static tokens), and public connections using OAuth 2.0. The API allows reading, creating, and updating Notion content.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The API supports workspace content management including pages, databases, users, comments, markdown content, files, and media. It offers personal access tokens, internal connections, and public OAuth connections for authentication. The API includes endpoints for authorization, content manipulation, and user management.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Notion provides a REST API for interacting with workspace content, including pages, databases, and users. It supports internal connections with static API tokens, personal access tokens (user-scoped static tokens), and public connections using OAuth 2.0. The API allows reading, creating, and updating Notion content.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Authorization is the process of granting a connection or token access to Notion data. Internal connections use a static API token, personal access tokens use a user-scoped static API token, and public connections use the OAuth 2.0 protocol.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports workspace content management including pages, databases, users, comments, markdown content, files, and media. It offers personal access tokens, internal connections, and public OAuth connections for authentication. The API includes endpoints for authorization, content manipulation, and user management.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Data APIs Working with page content Working with databases Working with views Working with comments Working with markdown content Working with files and media",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:15:30.325431+00:00",
+    "run_id": "stage02-smoke-grounded-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 71,
+    "app_name": "Notion",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developers.notion.com/",
+    "description": "Notion provides a REST API for interacting with workspace content, including pages, databases, and users. It supports internal connections with static API tokens, personal access tokens (user-scoped static tokens), and public connections using OAuth 2.0. The API allows reading, creating, and updating Notion content.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API supports workspace content management including pages, databases, users, comments, markdown content, files, and media. It offers personal access tokens, internal connections, and public OAuth connections for authentication. The API includes endpoints for authorization, content manipulation, and user management.",
+    "mcp_available": "official",
+    "mcp_notes": "Notion MCP is a remote MCP server hosted by Notion that allows MCP clients to connect to a Notion workspace through the Model Context Protocol (MCP). MCP clients can search, read, create, and update Notion content using Notion MCP tools. Workspace owners can manage MCP client access via workspace settings and the Admin API.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Notion API is well documented with official guides describing authentication methods (internal connections, personal access tokens, OAuth 2.0 public connections), API usage examples, and SDK support. The API is accessible via REST and supported by an official JavaScript SDK. MCP is officially supported with admin controls and documented usage. This makes building integrations feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Notion provides a REST API for interacting with workspace content, including pages, databases, and users. It supports internal connections with static API tokens, personal access tokens (user-scoped static tokens), and public connections using OAuth 2.0. The API allows reading, creating, and updating Notion content.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Authorization is the process of granting a connection or token access to Notion data. Internal connections use a static API token, personal access tokens use a user-scoped static API token, and public connections use the OAuth 2.0 protocol.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Notion supports OAuth 2.0 and bearer token authentication methods.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Internal connection will be associated with the workspace... The installation access token will be used to authenticate REST API requests... Personal access tokens (PATs) are created directly by a Notion user... PATs use the same Authorization header as other Notion API tokens... Public connections instead follow the OAuth 2.0 protocol to authorize a connection to interact with a workspace.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Notion API access is self-serve free with developer portal access to create connections and tokens.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "To use an internal connection, start by creating your connection in the Developer portal... Personal access tokens (PATs) are created directly by a Notion user in the Developer portal.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Notion API is available and documented with REST endpoints and an official JavaScript SDK.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "If you are using Notion’s SDK for JavaScript to interact with the REST API, the token is set once when a client is initialized... HTTP GET /v1/pages/b55c9c91-384d-452b-81db-d1ef79372b75 HTTP / 1.1 Authorization : Bearer {INTEGRATION_TOKEN}",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Notion API supports REST and has an official JavaScript SDK.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "If you are using Notion’s SDK for JavaScript to interact with the REST API... const notion = new Client ({ auth: process.env.NOTION_TOKEN })",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports workspace content management including pages, databases, users, comments, markdown content, files, and media. It offers personal access tokens, internal connections, and public OAuth connections for authentication. The API includes endpoints for authorization, content manipulation, and user management.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Data APIs Working with page content Working with databases Working with views Working with comments Working with markdown content Working with files and media",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Notion MCP is officially available as a remote MCP server hosted by Notion.",
+        "url": "https://developers.notion.com/docs/mcp",
+        "final_url": "https://developers.notion.com/guides/mcp/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:04.445262+00:00",
+        "content_sha256": "33de9fefcabe1c6892864c940cc41ffadd4645b374dcc7055500b0dd81c197ce",
+        "quote": "Notion MCP lets an MCP client, such as Claude Code, Cursor, or Codex, connect to your Notion workspace through the Model Context Protocol (MCP). Notion MCP is a remote MCP server hosted by Notion.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "MCP clients can search, read, create, and update Notion content using Notion MCP tools. Workspace owners can manage MCP client access via workspace settings and the Admin API.",
+        "url": "https://developers.notion.com/docs/mcp",
+        "final_url": "https://developers.notion.com/guides/mcp/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:04.445262+00:00",
+        "content_sha256": "33de9fefcabe1c6892864c940cc41ffadd4645b374dcc7055500b0dd81c197ce",
+        "quote": "MCP clients can combine Notion MCP tools to: Search content in Notion and connected sources. Read, create, and update Notion content... Workspace owners can manage MCP client access in Settings \u0002192 Connections. Organization owners can also use the Admin API to list and revoke members’ connections.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "The Notion API is well documented with official guides describing authentication methods (internal connections, personal access tokens, OAuth 2.0 public connections), API usage examples, and SDK support. The API is accessible via REST and supported by an official JavaScript SDK. MCP is officially supported with admin controls and documented usage. This makes building integrations feasible.",
+        "url": "https://developers.notion.com/docs/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+        "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+        "quote": "Use a secret manager or deployment system to set the token in the environment... If you are using Notion’s SDK for JavaScript to interact with the REST API, the token is set once when a client is initialized.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:15:05.482429+00:00",
+    "run_id": "stage02-smoke-grounded-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.notion.com/docs/authorization",
+      "final_url": "https://developers.notion.com/guides/get-started/authorization",
+      "retrieved_at": "2026-09-16T17:15:03.091483+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authorization - Notion Docs Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Notion Docs home page Search... ⌘ K Ask Assistant ⌘ I Log in Developer portal Developer portal Search... Navigation Get started Authorization Guides API Reference CLI Reference Workers Admin API Changelog Examples Get started Overview Quickstart Personal access tokens Internal connections Public connections Authorization API token security Preparing for users List on the Marketplace Agent APIs Notion Agent APIs Agent Skills API Notion MCP API versions Upgrading to 2026-03-11 Upgrading to 2025-09-03 Data APIs Working with page content Working with databases Working with views Working with comments Working with markdown content Working with files and media Resources Example code Postman workspace Historical changelog Compliance Overview Event reference Link previews Introduction On this page What is authorization? Internal connection auth flow set-up Connection permissions Making API requests with an internal connection Personal access token authentication Public connection auth flow set-up How to make a public connection Public connection authorization overview Step 1 - Navigate the user to the connection’s authorization URL Prompt for a standard connection with no template option (Default) Prompt for a connection with a Notion template option Step 2 - Notion redirects the user to the connection’s redirect URI and includes a code parameter Step 3 - Send the code in a POST request to the Notion API Step 4 - Notion responds with an access_token , refresh_token, and additional information Step 5 - The connection stores the access_token and refresh_token for future requests Step 6 - Refreshing an access token Get started Authorization Copy page Copy page This guide describes the authorization flows for Notion connections and personal access tokens. Copy page Copy page ​ What is authorization? Authorization is the process of granting a connection or token access to Notion data. Internal connections use a static API token, personal access tokens use a user-scoped static API token, and public connections use the OAuth 2.0 protocol. ​ Internal connection auth flow set-up To use an internal connection, start by creating your connection in the Developer portal . The internal connection will be associated with the workspace of your choice. You are required to be a workspace owner to create a connection. Create a new connection from the Developer portal. Once the connection is created, you can update its settings as needed under the Configuration tab and retrieve the installation access token in this tab. The installation access token will be used to authenticate REST API requests. The connection sends the same token in every API request. Find the installation access token in the Configuration tab. ​ Connection permissions Before a connection can interact with your Notion workspace page(s), the page must be manually shared with the connection. To share a page with a connection, visit the page in your Notion workspace, click the ••• menu at the top right of a page, scroll down to Add connections , and use the search bar to find and select the connection from the dropdown list. Once the connection is shared, you can start making API requests. If the page is not shared, any API requests made will respond with an error. Never share your installation access token Your installation access token is a secret. To keep your connection secure, never store the token in your source code or commit it in version control. Instead, read the token from an environment variable. Use a secret manager or deployment system to set the token in the environment. Learn more: Best Practices for Handling API Keys ​ Making API requests with an internal connection Any time your connection interacts with your workspace, include the installation access token in the Authorization header with every API request. However, if you are using Notion’s SDK for JavaScript to interact with the REST API, the token is set once when a client is initialized. HTTP GET /v1/pages/b55c9c91-384d-452b-81db-d1ef79372b75 HTTP / 1.1 Authorization : Bearer {INTEGRATION_TOKEN} JavaScript const { Client } = require ( \"@notionhq/client\" ) // Initializing a client const notion = new Client ({ auth: process . env . NOTION_TOKEN , }) const getUsers = async () => { const listUsersResponse = await notion . users . list ({}) } If you are not using the Notion SDK for JavaScript , also set the Notion-Version and Content-type headers in all of your requests, like so: JSON headers: { Authorization : `Bearer $ { process.env.NOTION_TOKEN } ` , \"Notion-Version\" : \"2026-03-11\" , \"Content-Type\" : \"application/json\" , }, If you receive an error response from the API, check if the connection has been properly added to the page . If this does not solve the problem, refer to our Status codes page for more information. ​ Personal access token authentication Personal access tokens (PATs) are created directly by a Notion user in the Developer portal . There is no OAuth flow and no page picker. A PAT acts as the user who created it and uses that user’s permissions in the selected workspace. Use a PAT when a script, CLI workflow, Worker, or trusted tool should act as you. Use an internal connection for team-owned workspace automations, or a public connection when other Notion users need to install your app. PATs use the same Authorization header as other Notion API tokens: HTTP GET /v1/users/me HTTP / 1.1 Authorization : Bearer {PERSONAL_ACCESS_TOKEN} Notion-Version : 2026-03-11 See Personal access tokens for creation steps, workspace admin controls, tier defaults, and security guidance. ​ Public connection auth flow set-up A public connection can be installed in any Notion workspace within its installation scope — either any workspace, or a specific set chosen at creation time. Since a public connection is not tied to a single workspace with a single installation access token, public connections instead follow the OAuth 2.0 protocol to authorize a connection to interact with a workspace. ​ How to make a public connection Navigate to the Developer portal and create a new public connection. Fill out the form with your connection details, including your redirect URI(s) under the OAuth configuration section and the connection’s installation scope — either Any workspace or Selected workspaces only . This can’t be changed after creation. The redirect URI is the URI your users will be redirected to after authorizing the public connection. To learn more, read OAuth’s description of redirect URIs . Marketplace listing details (such as descriptions, categories, and images) are managed separately through the Listings section. Refer to the List on the Marketplace guide to learn more. ​ Public connection authorization overview Once your connection has been made public, you can update your connection code to use the public auth flow. As an overview, the authorization flow includes the following steps. Each step will be described in more detail below. 1 Navigate the user to the connection’s authorization URL. This URL is provided in the Developer portal . 2 After the user selects which workspace pages to share, Notion redirects the user to the connection’s redirect URI and includes a code query parameter. The redirect URI is the one you specified in your Developer portal . 3 Make a POST request to create an access token , which exchanges the temporary code for an access token. 4 The Notion API responds with an access token and some additional information. 5 Store the access token for future API requests. View the API reference docs to learn about available endpoints. ​ Step 1 - Navigate the user to the connection’s authorization URL After creating a public connection in the Developer portal , access the connection’s secrets in the Configuration tab. Similarly to the internal connections, these values should be protected and should never be included in source code or version control. The Authorization URL field populates after a public connection is submitted for review As an example, your .env file using these secrets could look like this: Shell #.env OAUTH_CLIENT_ID =< your-client-id > OAUTH_CLIENT_SECRET =< your-client-secret > NOTION_AUTH_URL =< your-auth-url > To start the authorization flow for a public connection, direct the prospective user to the authorization URL. A common pattern is to include a hyperlink in the connection app that interacts with the Notion REST API. For example, an app that lets users create Notion pages in their workspaces should send users to the authorization URL first. The following example shows an authorization URL made available through a hyperlink: HTML < a href = \"https://api.notion.com/v1/oauth/authorize?owner=user&client_id=463558a3-725e-4f37-b6d3-0889894f68de&redirect_uri=https%3A%2F%2Fexample.com%2Fauth%2Fnotion%2Fcallback&response_type=code\" > Add to Notion </ a > The URL begins with https://api.notion.com/v1/oauth/authorize and has the following parameters: Parameter Description Required client_id An identifier for your connection, found in the connection settings. ✅ redirect_uri The URL where the user should return after granting access. ✅ response_type Always use code . ✅ owner Always use user . ✅ state If the user was in the middle of an interaction or operation, then this parameter can be used to restore state after the user returns. It can also be used to prevent CSRF attacks. Once the authorization URL is visited, the user will be shown a prompt that varies depending on whether or not the connection comes with a Notion template option. ​ Prompt for a standard connection with no template option (Default) In the standard connection permissions flow, a prompt describes the connection capabilities , presented to the user as what the connection would like to be able to do in the workspace. A user can either select pages to grant the connection access to, or cancel the request. Prompt for authorizing a standard connection (no template option) If the user presses Cancel , they will be redirected to the redirect URI with and error query param added. www.example.com/my-redirect-uri?error=access_denied&state= You can use this error query parameter to conditionally update your app’s state as needed. If the user opts to Select pages , then a page picker interface opens. A user can search for and select pages and databases to share with the connection from the page picker. The page picker only displays pages or databases to which a user has full access , because a user needs full access to a resource in order to be able to share it with a connection. Page picker interface Users can select which pages to give the connection access to, including both private and public pages available to them. Parent pages can be selected to quickly provide access to child pages, as giving access to a parent page will provide access to all available child pages. Users can return to this view at a later time to update access settings if circumstances change. If the user clicks Allow access , they are then redirected to the redirect_uri with a temporary authorization code . If the user denies access, they are redirected to the redirect_uri with an error query parameter. If the user clicks Allow access and the rest of the auth flow is not completed, the connection will not have access to the pages that were selected. ​ Prompt for a connection with a Notion template option Public connections offer the option of providing a public Notion page to use as a template during the auth flow. To add a template to your workspace, complete the following steps: Choose a public page in your workspace that you want users to be able to duplicate. Navigate to your connection in the Developer portal and open the Configuration tab, then scroll to the Basic information section. Scroll to the bottom of your distribution settings and add the URL of the Notion page you selected to the Notion URL for optional template input. Notion URL for optional template input in connection settings. Once this URL is added, your auth flow prompt appearance will be updated. Going back to your prompt view, if the connection offers a Notion template option, the first step in the permissions flow will describe the connection capabilities . This is presented to the user as what the connection would be able to do in the workspace, and it prompts the user to click Next . Prompt for a connection with a Notion template option In the next step, a user can either choose to duplicate the template that you provided or to select existing pages to share with the connection. A user can select to duplicate a template or to share existing pages with the connection If the user chooses to duplicate the template, then the following happens automatically: The connection is added to the user’s workspace. The template is duplicated as a new page in the workspace. The new page is shared with the connection. If the user chooses to select pages to share with the connection, then they continue to the page picker interface that’s part of the prompt for a standard connection . After a user authorizes a public connection, only that user is able to interact or share pages and databases with the connection. Unlike internal connections, if multiple members in a workspace want to use a public connection, each prospective user needs to individually follow the auth flow for the connection. User authorization failures User authorization failures can happen. If a user chooses to Cancel the request, then a failure is triggered. Build your connection to handle these cases gracefully, as needed. In some cases, Notion redirects the user to the redirect_uri that you set up when you created the public connection, along with an error query parameter. Notion uses the common error codes in the OAuth specification . Use t",
+      "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://developers.notion.com/docs/mcp",
+      "final_url": "https://developers.notion.com/guides/mcp/overview",
+      "retrieved_at": "2026-09-16T17:15:04.445262+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Notion MCP - Notion Docs Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Notion Docs home page Search... ⌘ K Ask Assistant ⌘ I Log in Developer portal Developer portal Search... Navigation Notion MCP Notion MCP Guides API Reference CLI Reference Workers Admin API Changelog Examples Get started Overview Quickstart Personal access tokens Internal connections Public connections Authorization API token security Preparing for users List on the Marketplace Agent APIs Notion Agent APIs Agent Skills API Notion MCP Overview Common MCP clients Connect to Notion MCP Supported tools Notion Skills Security best practices Build an MCP client for Notion Hosting Notion MCP locally API versions Upgrading to 2026-03-11 Upgrading to 2025-09-03 Data APIs Working with page content Working with databases Working with views Working with comments Working with markdown content Working with files and media Resources Example code Postman workspace Historical changelog Compliance Overview Event reference Link previews Introduction On this page How Notion MCP works What you can do Admin controls Notion MCP Notion MCP Copy page Copy page Learn how MCP clients connect to your Notion workspace. Copy page Copy page Notion MCP lets an MCP client , such as Claude Code, Cursor, or Codex, connect to your Notion workspace through the Model Context Protocol (MCP) . ​ How Notion MCP works Notion MCP is a remote MCP server hosted by Notion. After you authorize a connection with OAuth, the MCP client can use Notion MCP tools to read and update content that you can access. An MCP client connects to Notion's remote MCP server, which uses the Notion API . ​ What you can do MCP clients can combine Notion MCP tools to: Search content in Notion and connected sources. Read, create, and update Notion content. Create pages and databases. See Supported tools for the current tool list, or connect an MCP client . ​ Admin controls Workspace owners can manage MCP client access in Settings → Connections . Organization owners can also use the Admin API to list and revoke members’ connections. See Admin controls for MCP in the Notion Help Center for workspace settings and allowlists. Agent Skills API Previous Common MCP clients Next x slack Assistant Responses are generated using AI and may contain mistakes.",
+      "content_sha256": "33de9fefcabe1c6892864c940cc41ffadd4645b374dcc7055500b0dd81c197ce",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4515,
+    "output_tokens": 2273
+  },
+  "failure": null
+}

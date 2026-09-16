@@ -1,0 +1,235 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 58,
+    "app_name": "Sherlock",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "auth_methods": [
+      "none"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "no",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Hunt down social media accounts by username across social networks",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "Hunt down social media accounts by username across social networks",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "none",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "sherlock user123",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "pipx install sherlock-project",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "no",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "General usage To search for only one user: sherlock user123",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "raw_identity_mismatch",
+      "unclear_claim_support"
+    ],
+    "researched_at": "2026-09-16T17:22:07.344797+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 58,
+    "app_name": "Sherlock",
+    "category": "6. Data, SEO and Scraping",
+    "website": "https://github.com/sherlock-project/sherlock",
+    "description": "Hunt down social media accounts by username across social networks",
+    "auth_methods": [
+      "none"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "no",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "no",
+    "mcp_notes": "",
+    "buildability": "blocked",
+    "primary_blocker": "no API available",
+    "buildability_rationale": "The official GitHub repository documentation describes Sherlock as a command-line tool to find usernames across social networks but does not mention any API availability or API endpoints. It is a CLI tool without an API for programmatic access.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Hunt down social media accounts by username across social networks",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "Hunt down social media accounts by username across social networks",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "none",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "sherlock user123",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "pipx install sherlock-project",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "no",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "General usage To search for only one user: sherlock user123",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "mcp_available",
+        "claim": "no",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "final_url": "https://github.com/sherlock-project/sherlock",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+        "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+        "quote": "Hunt down social media accounts by username across social networks",
+        "supports_claim": "no"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:59.965133+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "unclear_claim_support",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://github.com/sherlock-project/sherlock",
+      "final_url": "https://github.com/sherlock-project/sherlock",
+      "retrieved_at": "2026-09-16T17:21:58.896283+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "GitHub - sherlock-project/sherlock: Hunt down social media accounts by username across social networks · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Uh oh! There was an error while loading. Please reload this page . sherlock-project / sherlock Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 10.8k Star 91.8k Code Issues 108 Pull requests 238 Discussions Actions Projects Wiki Security and quality 1 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Wiki Security and quality Insights master Branches Tags Go to file Code Open more actions menu Latest commit History 2,931 Commits 2,931 Commits Folders and files Name Name Last commit message Last commit date .actor .actor .github .github devel devel docs docs sherlock_project sherlock_project tests tests .dockerignore .dockerignore .editorconfig .editorconfig .gitignore .gitignore Dockerfile Dockerfile LICENSE LICENSE pyproject.toml pyproject.toml pytest.ini pytest.ini tox.ini tox.ini View all files Repository files navigation README Code of conduct MIT license Security More items Hunt down social media accounts by username across 400+ social networks Installation • Usage • Contributing Installation Warning Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be broken . Users of these systems should defer to uv / pipx / pip or Docker. Method Notes pipx install sherlock-project pip or uv may be used in place of pipx docker run -it --rm sherlock/sherlock dnf install sherlock-project Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project. See all alternative installation methods here . General usage To search for only one user: sherlock user123 To search for more than one user: sherlock user1 user2 user3 Accounts found will be stored in an individual text file with the corresponding username (e.g user123.txt ). $ sherlock --help usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL] [--dump-response] [--json JSON_FILE] [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw] [--txt] [--ignore-exclusions] USERNAMES [USERNAMES ...] Sherlock: Find Usernames Across Social Networks (Version 0.16.0) positional arguments: USERNAMES One or more usernames to check with social networks. Check similar usernames using {?} (replace to '_', '-', '.'). options: -h, --help show this help message and exit --version Display version information and dependencies. --verbose, -v, -d, --debug Display extra debugging information and metrics. --folderoutput FOLDEROUTPUT, -fo FOLDEROUTPUT If using multiple usernames, the output of the results will be saved to this folder. --output OUTPUT, -o OUTPUT If using single username, the output of the result will be saved to this file. --csv Create Comma-Separated Values (CSV) File. --xlsx Create the standard file for the modern Microsoft Excel spreadsheet (xlsx). --site SITE_NAME Limit analysis to just the listed sites. Add multiple options to specify more than one site. --proxy PROXY_URL, -p PROXY_URL Make requests over a proxy. e.g. socks5://127.0.0.1:1080 --dump-response Dump the HTTP response to stdout for targeted debugging. --json JSON_FILE, -j JSON_FILE Load data from a JSON file or an online, valid, JSON file. Upstream PR numbers also accepted. --timeout TIMEOUT Time (in seconds) to wait for response to requests (Default: 60) --print-all Output sites where the username was not found. --print-found Output sites where the username was found (also if exported as file). --no-color Don't color terminal output --browse, -b Browse to all results on default browser. --local, -l Force the use of the local data.json file. --nsfw Include checking of NSFW sites from default list. --txt Enable creation of a txt file --ignore-exclusions Ignore upstream exclusions (may return more false positives) Credits Thank you to everyone who has contributed to Sherlock! ❤️ Star History License MIT © Sherlock Project Creator - Siddharth Dushantha About Hunt down social media accounts by username across social networks sherlockproject.xyz Topics cli cti cybersecurity forensics hacktoberfest information-gathering infosec linux osint pentesting python python3 reconnaissance redteam sherlock tools Resources Readme MIT license Code of conduct Code of conduct Security policy Security policy Activity Custom properties Stars 91.8k stars Watchers 1.4k watching Forks 10.8k forks Report repository Releases Sponsor this project Used by Contributors Languages Footer © 2026 GitHub, Inc. Footer navigation Terms Privacy Security Status Community Docs Contact Manage cookies Do not share my personal information You can’t perform that action at this time.",
+      "content_sha256": "76c3a2d8bc20291eb388e3575b0417d0dbb2efe51860eb03a7b57b71a8ab0a1f",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2498,
+    "output_tokens": 917
+  },
+  "failure": null
+}

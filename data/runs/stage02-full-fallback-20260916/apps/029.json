@@ -1,0 +1,285 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 29,
+    "app_name": "Aircall",
+    "category": "3. Communications and Messaging",
+    "website": "http://aircall.io/",
+    "description": "Aircall is a next-gen business phone system providing a Public REST API that allows developers to retrieve and manage Aircall data with HTTP requests. It supports features such as user management, calls, campaigns, contacts, messages, webhooks, analytics, and integrations. The API is accessible over HTTPS and supports OAuth 2.0 and Basic Auth authentication methods.",
+    "auth_methods": [
+      "oauth2",
+      "basic"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Aircall is a next-gen business phone system providing a Public REST API that allows developers to retrieve and manage Aircall data with HTTP requests. It supports features such as user management, calls, campaigns, contacts, messages, webhooks, analytics, and integrations. The API is accessible over HTTPS and supports OAuth 2.0 and Basic Auth authentication methods.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information. The root endpoint of Aircall Public API is https://api.aircall.io/v1 . Please note that only HTTPS requests are valid as requests will communicate over SSL connection.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication can be done through OAuth or Basic Auth.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Authentication Introduction With Aircall Public API, Authentication can be done through OAuth or Basic Auth.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Aircall Public API is a classic REST API accessible over HTTPS.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is a REST API.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:18:25.405208+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 29,
+    "app_name": "Aircall",
+    "category": "3. Communications and Messaging",
+    "website": "http://aircall.io/",
+    "description": "Aircall is a next-gen business phone system providing a Public REST API that allows developers to retrieve and manage Aircall data with HTTP requests. It supports features such as user management, calls, campaigns, contacts, messages, webhooks, analytics, and integrations. The API is accessible over HTTPS and supports OAuth 2.0 and Basic Auth authentication methods.",
+    "auth_methods": [
+      "oauth2",
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers a wide range of functionalities including user management, calls, campaigns, contacts, messages, webhooks, analytics, integrations, and conversation intelligence features.",
+    "mcp_available": "official",
+    "mcp_notes": "Aircall has an official App Marketplace where partners can list their apps. Integrations are enabled at the Company level and require Admin user permissions to configure. OAuth 2.0 is required for apps listed on the Marketplace.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Aircall Public API is a classic REST API accessible over HTTPS with comprehensive documentation. It supports OAuth 2.0 and Basic Auth authentication methods. The API provides extensive endpoints for managing users, calls, campaigns, contacts, messages, webhooks, analytics, and integrations. There is an official App Marketplace and OAuth flow for partner apps. Admin approval is required to install integrations, but developers can self-serve to build and test apps for their own accounts using Basic Auth.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Aircall is a next-gen business phone system providing a Public REST API that allows developers to retrieve and manage Aircall data with HTTP requests. It supports features such as user management, calls, campaigns, contacts, messages, webhooks, analytics, and integrations. The API is accessible over HTTPS and supports OAuth 2.0 and Basic Auth authentication methods.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information. The root endpoint of Aircall Public API is https://api.aircall.io/v1 . Please note that only HTTPS requests are valid as requests will communicate over SSL connection.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication can be done through OAuth or Basic Auth.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Authentication Introduction With Aircall Public API, Authentication can be done through OAuth or Basic Auth.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Integrations can only be installed by users who are Admins on Aircall, but customers can build for their own Aircall account using Basic Auth.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "If you are an Aircall customer, building for your own Aircall account only, the Basic Auth flow will do the trick. ... Integrations can only be installed by users who are Admins on Aircall!",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Aircall Public API is a classic REST API accessible over HTTPS.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is a REST API.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers a wide range of functionalities including user management, calls, campaigns, contacts, messages, webhooks, analytics, integrations, and conversation intelligence features.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "User V1 ... Team ... Call ... Dialer Campaign ... Outbound Campaigns ... Number ... Conversation Intelligence ... Trackers ... Content ... Message ... Contact ... Tag ... Webhook ... Company ... Integration ... Participant ... IVR Option ... AI Voice Agent ... Analytics ... Webhooks ... Outbound Campaign events ... Mobile URL Schemes ... CTI - Aircall Everywhere SDK",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Aircall has an official App Marketplace where partners can list their apps. Integrations are enabled at the Company level and require Admin user permissions to configure. OAuth 2.0 is required for apps listed on the Marketplace.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall built a powerful Ecosystem of apps, providing its customers an easy way to enhance their voice experience. In Aircall, integrations are enabled at the Company level, which means they can only be set by an Admin user. ... Aircall implemented the OAuth 2.0 authentication protocol so you can easily build an app on top of Aircall and deploy it on Aircall's Marketplace.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "The Aircall Public API is a classic REST API accessible over HTTPS with comprehensive documentation. It supports OAuth 2.0 and Basic Auth authentication methods. The API provides extensive endpoints for managing users, calls, campaigns, contacts, messages, webhooks, analytics, and integrations. There is an official App Marketplace and OAuth flow for partner apps. Admin approval is required to install integrations, but developers can self-serve to build and test apps for their own accounts using Basic Auth.",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+        "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+        "quote": "Aircall Public API is a classic REST API. ... Authentication can be done through OAuth or Basic Auth. ... Integrations can only be installed by users who are Admins on Aircall! ... If you are an Aircall customer, building for your own Aircall account only, the Basic Auth flow will do the trick.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:18:09.194475+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.aircall.io/api-references/",
+      "final_url": "https://developers.aircall.io/api-references",
+      "retrieved_at": "2026-09-16T17:18:06.579065+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "API References | Aircall icon-light Created with Sketch. icon-dark Created with Sketch. API References Guides Start building icon-light Created with Sketch. icon-dark Created with Sketch. REST API Authentication Introduction OAuth ﹣ Technology Partners Basic Auth ﹣ Aircall customers Rate limiting Pagination Errors Versioning Versioning Strategy Content-Type Announcements APIS list User V1 User overview List all Users Retrieve a User Create a User Update a User Delete a User Retrieve list of Users availability Check availability of a User Start an outbound call Dial a phone number in Aircall Workspace User V2 User V2 overview List all Users V2 Retrieve a User V2 Create a User V2 Update a User V2 List all Numbers for a User V2 Team Team overview List all Teams Retrieve a Team Create a Team Delete a Team Add a User to a Team Remove a User from a Team Call Call overview List all Calls Retrieve a Call Search Calls Transfer a Call Comment a Call Tag a Call Archive a Call Unarchive a Call Pause recording on a Call Resume recording on a Call Delete Call recording Delete Call voicemail Insight Cards Dialer Campaign Dialer Campaign overview Retrieve a Dialer Campaign Create a Dialer Campaign Delete a Dialer Campaign Retrieve phone numbers Add phone numbers Delete a phone number Outbound Campaigns Overview AIVA campaigns The Campaign object Set up a campaign Create a Campaign Retrieve a Campaign List all Campaigns Update a Campaign Delete a Campaign Duplicate a Campaign Add contacts List Campaign contacts Add Campaign contacts Remove a Campaign contact Campaign queue items List Campaign queue items Reorder a Campaign queue item Reschedule a Campaign queue item Campaign contact import Create a Campaign contact import Retrieve a Campaign contact import List Campaign contact import rows Promote a Campaign contact import Choose who dials Campaign users List Campaign users Assign users to a Campaign Remove a user from a Campaign Campaign teams List Campaign teams Assign teams to a Campaign Remove a team from a Campaign List Campaign agents List Campaign lines The Campaign Eligible Number object List Campaign eligible numbers Run the campaign Launch a Campaign Pause a Campaign Resume a Campaign Archive a Campaign Retrieve Campaign statistics Record the result The Campaign Outcome object Create a Campaign Outcome Update a Campaign Outcome Delete a Campaign Outcome List all Campaign Outcomes Retrieve a Campaign Outcome List Campaign call outcomes Record a Campaign call outcome Number Number overview List all Numbers Retrieve a Number Update a Number Update Music and Messages Registration Status Conversation Intelligence Conversation Intelligence overview Call Evaluations Retrieve a transcription Retrieve realtime transcription Retrieve sentiments Retrieve Predicted CSAT Retrieve topics Retrieve a summary Retrieve a custom summary result Retrieve action items Retrieve a playbook result Retrieve call evaluations Trackers List all Trackers Retrieve a Tracker Content Content overview Message Message overview Usage limits Message Callbacks message.received callback message.updated callback Send Message in agent conversation Send Group Message in agent conversation Send WhatsApp Message in Agent Conversation List SMS Templates List WhatsApp Templates Get WhatsApp Line Status High Volume Messages High Volume Messages overview Create Number Configuration Fetch Number Configuration Delete Number Configuration Send Message Skipping Aircall Inbox Send Group Message Skipping Aircall Inbox Send WhatsApp Message Skipping Aircall Inbox Contact Contact overview List all Contacts Search Contacts Retrieve a Contact Create a Contact Update a Contact Delete a Contact Add phone number to a Contact Update a phone number from a Contact Delete a phone number from a Contact Add email to a Contact Update an email from a Contact Delete an email from a Contact Tag Tag overview List all Tags Retrieve a Tag Create a Tag Update a Tag Delete a Tag Webhook Webhook API overview List all Webhooks Retrieve a Webhook Create a Webhook Update a Webhook Delete a Webhook Company Company overview Retrieve Company information Integration Integration overview Retrieve Integration information Enable Integration Disable Integration Participant Participant overview IVR Option IVR Option overview AI Voice Agent AI Voice Agent overview Call AI Voice Agents Call AI Voice Agents overview Trigger an Outbound Call Template Variables Event Statuses Analytics Analytics overview Create an Analytics Report Export Retrieve an Analytics Report Export Webhooks Register an endpoint Webhook usage Payload User events V1 user.created user.deleted user.connected user.disconnected user.opened user.closed user.wut_start user.wut_end User events V2 user.created.v2 user.deleted.v2 user.connected.v2 user.disconnected.v2 user.opened.v2 user.closed.v2 user.wut_start.v2 user.wut_end.v2 Call events call.created call.ringing_on_agent call.agent_declined call.answered call.transferred call.external_transferred call.unsuccessful_transfer call.hungup call.ended call.voicemail_left call.commented call.tagged call.untagged call.assigned call.archived call.hold call.unhold call.ivr_option_selected call.comm_assets_generated Number events number.created number.deleted number.opened number.closed Message events message.sent message.received message.status_updated group_message.sent group_message.received group_message.status_updated Contact events contact.created contact.updated contact.deleted Integration events integration.deleted Conversation Intelligence events sentiment.created summary.created topics.created transcription.created action_item.created playbook_result.created playbook_result.updated realtime_transcription.utterances_received custom_summary.result_created custom_summary.result_updated call_evaluation.created call_evaluation.updated AI Voice Agent events ai_voice_agent.started ai_voice_agent.ended ai_voice_agent.escalated ai_voice_agent.summary Analytics events analytics.report_created analytics.report_failed Outbound Campaign events outbound_campaign.outcome_recorded outbound_campaign.status_changed outbound_campaign.contact_added outbound_campaign.contact_removed Mobile URL Schemes Open app (iOS) Call (Android & iOS) Changelog Extras CTI - Aircall Everywhere SDK Dealing with phone numbers SIP trunking Timezones Emojis Just like you, we are enthusiastic builders and we love to automate things. At Aircall, we are building the next-gen business phone system and we know that one of the best ways to do that is to give you the ability to have the hands on Aircall features. We are maintaining a Public API . This service allows any developers to retrieve and manage Aircall data with HTTP requests. We are also supporting Webhooks . We can call back any endpoint of your choice, each time an event occurs on an Aircall account (contact added, call created, user switched off... see the Webhooks section for a complete list). Webhooks provide great scalability to your application and only requires setting up a public web server! Want to see an example of how easy it is to connect with Aircall Public API and Webhooks? Take a look at our tutorials ! Our Engineering team is on Twitter, follow them @aircalltech ! Check the Changelog if you've already implemented something based on previous versions of this documentation. By visiting or using this developers website, you agree to be bound by Aircall’s API License Agreement Not a Developer? Install one of many integrations built by our partners in our Marketplace ! × as × Confirm Subscribe to updates Please subscribe to stay updated with the latest API and webhook updates. Subscribe By submitting the information, you confirm that you have read and acknowledged Aircall's Privacy Policy. REST API Aircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information. The root endpoint of Aircall Public API is https://api.aircall.io/v1 . Please note that only HTTPS requests are valid as requests will communicate over SSL connection. Each Public API request must be authenticated and should not exceed the rate limit, please check the Authentication and the rate limiting sections before jumping in our documentation! Request GET https://api.aircall.io Response { \"resource\": \"Aircall Documentation\", \"contact\": \"support@aircall.io\" } Authentication Introduction With Aircall Public API, Authentication can be done through OAuth or Basic Auth. If you want to build an App for companies using Aircall - this is mainly the case for Technology Partners - please use the OAuth flow . It is a requirement to be listed on the Aircall App Marketplace. You can create a partner-specific account by signing up here ! If you are an Aircall customer, building for your own Aircall account only, the Basic Auth flow will do the trick. All endpoints behave similarly between the two authentication methods, unless indicated otherwise in the documentation. OAuth ﹣ Technology Partners Aircall built a powerful Ecosystem of apps, providing its customers an easy way to enhance their voice experience. In Aircall, integrations are enabled at the Company level, which means they can only be set by an Admin user. It is possible to configure several instances of an integration on one Aircall account. Aircall implemented the OAuth 2.0 authentication protocol so you can easily build an app on top of Aircall and deploy it on Aircall's Marketplace. Beyond the added security and scalability, the Aircall OAuth flow will make your app visible to all customers in the Aircall Dashboard and provide a simple way for customers to install your app from Aircall or from your own website. Want to know every secret about OAuth? Read the official documentation RFC 6750 ! Oauth terminology install_uri String Aircall fetches the install_uri URI when starting the OAuth flow. This step is often used to display a Settings page, instructions on how to use the app or any useful information for the Admin. It must eventually forward to https://dashboard.aircall.io/oauth/authorize with client_id , redirect_uri , response_type=code and scope=public_api query params. See Step 3 of the OAuth flow . Must use HTTPS . redirect_uri String Aircall sends the Admin's authorization code to the redirect_uri URI, once they authorized the app, or the error if any. Must use HTTPS . client_id String Used in both the [DASHBOARD] /oauth/authorize and [API] /v1/oauth/token request. Provided by Aircall. client_secret String Used in the request body of [API] /v1/oauth/token . Provided by Aircall. code String An authentication code provided by Aircall valid for 10min. Must be converted in an access_token (see this endpoint ). access_token String Token used to send requests to Aircall Public API as a Company . More info on how to use it here . state String An optional string value created by your app to maintain state between the request and callback. This parameter should be used for preventing Cross-site Request Forgery and will be passed back to you, unchanged, in your redirect_uri . OAuth credentials Before starting building the OAuth flow for your app, you will need to get OAuth client_id and client_secret from Aircall. Click the start building button on top of the page and fill in the form. We will get back to you shortly. When signing up, an install_uri and a redirect_uri will be asked, make sure you have them ready. Read the OAuth flow first to understand what they are! OAuth flow Aircall ﹣ When an Admin installs an App, a popup opens up and loads the install_uri URL. Partner ﹣ A Web server receives the GET request on the install_uri route. This step is often used to display a custom Settings page, instructions on how to use the app and/or any useful information for the Admin. Partner ﹣ Once Step 2 is done, Web server redirects/forwards the request to the following Aircall URL: https://dashboard.aircall.io/oauth/authorize?client_id=XX&redirect_uri=YY&response_type=code&scope=public_api&state=ZZ Aircall ﹣ Aircall then displays the authorization window. Only users who are Admins will be able to see this window, others will be redirected to the Download page. Once the Admin consented to the permissions the app is requesting ( scope=public_api ), Aircall loads the redirect_uri URL with a code parameter. Partner ﹣ Web server receives the GET request on the redirect_uri route with the code query param… Partner ﹣ …and sends a [POST] https://api.aircall.io/v1/oauth/token request to Aircall's Public API with the proper body params (see here ). Aircall ﹣ Aircall authenticates the [POST] request, create an access_token and sends it back to the Web server. Partner ﹣ Web server stores the access_token for further use! Start the instructions at Step 3 if you want to trigger the install flow directly from your interface and not from the Aircall Dashboard. Integrations can only be installed by users who are Admins on Aircall! Check out our Ruby example app on Github to better understand how to implement the Aircall OAuth flow! Get an access_token via the Public API Once you get an OAuth authorization code from the OAuth flow, you need to convert it into a Public API access_token with the following request. This access_token will then be used as a Bearer token in the Authorization header of each Public API requests you will make and does not expire. Body params client_id String The client_id provided by Aircall. More information in the Oauth credentials section. Mandatory field. client_secret String The client_secret provided by Aircall. More information in the Oauth credentials section. Mandatory field. code String The OAuth authorization code Aircall sent back to your server. Mandatory field. redirect_uri String Your redirect_uri . Mandatory field. grant_type String Must be authorization_code . Mandatory field. Request POST https://api.aircall.io/v1/oauth/token { \"client_id\": YOUR_AIRCALL_",
+      "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3712,
+    "output_tokens": 2001
+  },
+  "failure": null
+}

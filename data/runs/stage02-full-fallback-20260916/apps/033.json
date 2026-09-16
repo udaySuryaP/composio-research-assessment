@@ -1,0 +1,317 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 33,
+    "app_name": "LinkedIn Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://learn.microsoft.com/linkedin/marketing",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "LinkedIn provides official Marketing API programs with tiered access (Development and Standard) and requires application and approval for access. Some APIs are open to all approved developers; others require additional qualification.",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "LinkedIn provides official Marketing API programs with tiered access (Development and Standard) and requires application and approval for access. Some APIs are open to all approved developers; others require additional qualification.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "The Advertising API and Community Management API each have two access tiers with different access criteria. All applications start with Development tier. You must apply separately to upgrade to the Standard tier.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:18:50.712498+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 33,
+    "app_name": "LinkedIn Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://learn.microsoft.com/linkedin/marketing",
+    "description": "LinkedIn Ads provides a suite of marketing APIs including Advertising API, Community Management API, Events Management API, Lead Sync API, Conversions API, Matched Audiences API, Audience Insights API, and Media Planning API. These APIs enable management of ad accounts, campaigns, creatives, reporting, social posts, events, leads, conversions, matched audiences, and media plans. Access requires OAuth 3-legged member permissions and appropriate roles on Company Pages and Ad Accounts. The platform supports tiered access levels (Development and Standard) with varying capabilities.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "LinkedIn Ads offers multiple REST APIs covering advertising management, community management, events, lead sync, conversions, matched audiences, audience insights, and media planning, with granular OAuth 3-legged member permissions and role-based access control.",
+    "mcp_available": "official",
+    "mcp_notes": "LinkedIn provides official Marketing API programs with tiered access (Development and Standard) and requires application and approval for access. Some APIs are open to all approved developers; others require additional qualification.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The LinkedIn Ads APIs are accessible via OAuth 3-legged authentication with detailed documentation on permissions, roles, and access tiers. Developers can apply for access, generate tokens, and make API calls to manage ads and related marketing functions, making integration feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "LinkedIn Ads provides a suite of marketing APIs including Advertising API, Community Management API, Events Management API, Lead Sync API, Conversions API, Matched Audiences API, Audience Insights API, and Media Planning API. These APIs enable management of ad accounts, campaigns, creatives, reporting, social posts, events, leads, conversions, matched audiences, and media plans. Access requires OAuth 3-legged member permissions and appropriate roles on Company Pages and Ad Accounts. The platform supports tiered access levels (Development and Standard) with varying capabilities.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "The Advertising API , Community Management API , Events Management API , Lead Sync API , Conversions API , and Matched Audiences API are open to all approved developers \u001f apply through the standard process. ... The Company Intelligence API is not currently accepting new applications. ... The Advertising API and Community Management API each have two access tiers with different access criteria. All applications start with Development tier. You must apply separately to upgrade to the Standard tier.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "All permissions listed are Member Permissions (3-legged OAuth) , meaning they require an authenticated LinkedIn member to grant consent \u001f your application requests these scopes during the OAuth authorization flow.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "Apply to Advertising API. ... The Standard API Access must be requested via a support ticket to be submitted on the Developer Support Portal.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "The Advertising API , Community Management API , Events Management API , Lead Sync API , Conversions API , and Matched Audiences API are open to all approved developers \u001f apply through the standard process.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "All permissions listed are Member Permissions (3-legged OAuth) , meaning they require an authenticated LinkedIn member to grant consent \u001f your application requests these scopes during the OAuth authorization flow.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "LinkedIn Ads offers multiple REST APIs covering advertising management, community management, events, lead sync, conversions, matched audiences, audience insights, and media planning, with granular OAuth 3-legged member permissions and role-based access control.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "The Advertising API , Community Management API , Events Management API , Lead Sync API , Conversions API , and Matched Audiences API are open to all approved developers \u001f apply through the standard process. ... Access to Audience Insights and Media Planning APIs is restricted to developers who meet additional qualification criteria evaluated by LinkedIn.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "The Advertising API , Community Management API , Events Management API , Lead Sync API , Conversions API , and Matched Audiences API are open to all approved developers \u001f apply through the standard process. ... Restricted APIs are evaluated on a case-by-case basis with no fixed timeline \u001f contact Developer Support for status updates.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "LinkedIn provides official Marketing API programs with tiered access (Development and Standard) and requires application and approval for access. Some APIs are open to all approved developers; others require additional qualification.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "The Advertising API and Community Management API each have two access tiers with different access criteria. All applications start with Development tier. You must apply separately to upgrade to the Standard tier.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "Once you have identified the API product and access tier you need, use the resources below to continue: Apply for access : Follow the Quick Start guide to submit your application. Understand integration requirements : Review the integration requirements page for your program before building. ... Get an access token : Use the Developer Portal Token Generator or Postman to generate a token for testing. Make your first API call : Follow the Quick Start walkthrough for your program.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability_rationale",
+        "claim": "The LinkedIn Ads APIs are accessible via OAuth 3-legged authentication with detailed documentation on permissions, roles, and access tiers. Developers can apply for access, generate tokens, and make API calls to manage ads and related marketing functions, making integration feasible.",
+        "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+        "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+        "quote": "Apply for access : Follow the Quick Start guide to submit your application. ... Get an access token : Use the Developer Portal Token Generator or Postman to generate a token for testing. Make your first API call : Follow the Quick Start walkthrough for your program.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:18:27.398039+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access",
+      "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-09",
+      "retrieved_at": "2026-09-16T17:18:25.757970+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Increasing Access - LinkedIn | Microsoft Learn Skip to main content Skip to Ask Learn chat experience This browser is no longer supported. Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. Download Microsoft Edge More info about Internet Explorer and Microsoft Edge Table of contents Exit editor mode Ask Learn Ask Learn Reading mode Table of contents Read in English Add Add to Plans Edit Copy Markdown Print Note Access to this page requires authorization. You can try signing in or changing directories . Access to this page requires authorization. You can try changing directories . Increasing Access Feedback Summarize this article for me In this article Warning Deprecation Notice: The Marketing Version 202510 (Marketing October 2025) will be sunset on October 15, 2026. We recommend that you migrate to the latest versioned APIs to avoid disruptions. For information on all the supported versions, refer to the migrations documentation. If you haven’t yet migrated and have questions, submit a request on the LinkedIn Developer Support Portal . This page provides details on the available permissions, guidance on upgrading your access level, and instructions for requesting access to APIs and permissions. Tip Not sure where to start? The Advertising API , Community Management API , Events Management API , Lead Sync API , Conversions API , and Matched Audiences API are open to all approved developers — apply through the standard process. Access to Audience Insights and Media Planning APIs is restricted to developers who meet additional qualification criteria evaluated by LinkedIn. The Company Intelligence API is not currently accepting new applications. What permissions are available? The following table lists each LinkedIn Marketing API product, who can access it, how to request access, and the OAuth permissions granted upon approval. General Availability (GA) programs are open to all approved developers; restricted programs require meeting additional criteria evaluated by LinkedIn. API Product Availability How to Request Permission Advertising API Available to all developers approved for Advertising API access. Apply to Advertising API. r_1st_connections_size r_ads_reporting r_basicprofile r_organization_admin r_organization_social r_ads rw_ads rw_organization_admin w_member_social w_organization_social Matched Audiences API Available to all developers approved for Matched Audiences Access. Apply to Matched Audiences API. rw_dmp_segments Audience Insights API Available to qualified developers who meet additional criteria for access. Submit the application survey . Developer application is assigned the Audience Insights permission. Additional member permission is not required. Media Planning API Available to qualified developers who meet additional criteria for access. Submit the application survey . Developer application is assigned the Media Planning permission. Additional member permission is not required unless you need to save and retrieve created media plans. rw_media_plans Lead Sync API Available to all developers approved for Lead Sync API access. Apply to Lead Sync API. r_marketing_leadgen_automation r_ads r_events r_liteprofile r_organization_admin Conversions API Available to all developers approved for Conversions API access. Apply to Conversions API. rw_conversions r_ads r_liteprofile Community Management API Available to all developers approved for Community Management API access. Apply for Community Management API. r_1st_connections_size r_basicprofile r_organization_followers r_organization_social r_organization_social_feed rw_organization_admin w_member_social w_member_social_feed w_organization_social w_organization_social_feed r_member_profileAnalytics (supported only in API versions starting from 202504 ) r_member_postAnalytics (supported only in API versions starting from 202506 ) Events Management API Available to all developers as a self-serve API product on request. Apply to Events Management API. r_events rw_events Company Intelligence API Private API available only to previously approved developers. Not currently accepting new applications. We are not currently accepting new applications for the Company Intelligence API. Developer application is assigned the Company Intelligence API permission. The authenticated member must have consented to the r_ads_reporting permission of the Advertising API product for your developer app. If the member has already consented through an existing integration (e.g., Ad Analytics API), you can use their existing member access token and do not need to require re-authentication. In addition to these permissions, members must have the appropriate roles as defined in Company Page Roles and Ad Account Roles to act on or read data from a given Company Page or Ad Account. See How Do I Know What Roles a Member Has to determine which roles an authenticated member has through the API. Note Access to Advertising API is a mandatory requirement for applying to Matched Audiences API, Audience Insights API and Media Planning API. Audience Insights API does not require any additional member permission to be passed in OAuth2 scope for member consent. For restricted APIs, LinkedIn evaluates applications based on partnership fit and access criteria. Restricted APIs are evaluated on a case-by-case basis with no fixed timeline — contact Developer Support for status updates. Refer to the list in the API Products and Permissions table. How to Upgrade your Access Tier The Advertising API and Community Management API each have two access tiers with different access criteria. All applications start with Development tier. You must apply separately to upgrade to the Standard tier. Advertising API: Development tier is designed to build end-to-end workflows and supports read-only access for unlimited ad accounts and edit capabilities for up to five (5) Ad Accounts. Standard tier is designed to support campaign management solutions including edit capabilities for unlimited ad accounts. Community Management API: Development tier is designed to build and test integrations with API call restrictions. You must complete your integration and testing within twelve months of receiving the API access. Standard tier is designed for live production with no restrictions. API Access Tier Description API Access Granted Request Process Advertising Development Build end-to-end workflows Read: No limits on reading data related to Ad Accounts you administer Create : Access to create 1 test Ad Account through the API. All real Ad Accounts must be created through the Campaign Manager tool in this tier. Edit: Make updates related to up to 5 ad accounts that you administer. Apply for access to Advertising API Advertising Standard Support campaign management for multiple ad accounts Read : No limits on reading data for Ad Accounts you administer Create : Create unlimited Ad Accounts Edit : Make unlimited updates to Ad Accounts that you administer The Standard API Access must be requested via a support ticket to be submitted on the Developer Support Portal . Community Management Development This is the default tier provisioned. Developers are expected to build core business use cases, using the provided permissions and APIs, within twelve (12) months of the provisioning. All APIs: 500 API calls for an app for 24 hrs 100 API calls per member of an App for 24 hrs All APIs with BATCH_GET: No API calls allowed Webhook for Social Actions: Push notifications disabled Apply for access to Community Management API Development tier Community Management Standard This is the full-featured capability of the program No restrictions Apply for Standard tier Important LinkedIn reserves the right to review applications and select partners at its discretion and a partner might not be upgraded even if they meet these minimum requirements. API Products and Permissions The following table lists all OAuth permission scopes available across LinkedIn Marketing API products. All permissions listed are Member Permissions (3-legged OAuth) , meaning they require an authenticated LinkedIn member to grant consent — your application requests these scopes during the OAuth authorization flow. For details on implementing OAuth, see Authorization Code Flow . Once your API access is approved, the corresponding permissions are automatically granted to your application. Permission Description Type API Products Accessible r_1st_connections_size Retrieve the number of 1st-degree connections within your network. Member Permission (3-legged). Advertising API, Community Management API. r_ads Retrieve your advertising accounts. Member Permission (3-legged). Advertising API, Lead Sync API, Conversions API. r_ads_reporting Retrieve reporting for your advertising accounts. Member Permission (3-legged). Advertising API. r_basicprofile Use your basic profile including your name, photo, headline, and public profile URL. Member Permission (3-legged). Advertising API, Community Management API. r_organization_followers Use follower data to enable your organization to mention them in posts. Member Permission (3-legged). Community Management API. r_organization_admin Retrieve your organization pages and reporting data, including follower, visitor, and content analytics. Member Permission (3-legged). Advertising API, Lead Sync API. r_organization_social Retrieve your organization posts, including any comments, likes, and other engagement data with AUTHOR injection. Member Permission (3-legged). Advertising API, Community Management API. r_organization_social_feed Read social actions for organizations that you are an administrator of to focus on Community Management partners. Member Permission (3-legged). Community Management API. rw_ads Manage and read an authenticated member's ad accounts. Restricted to ad accounts where the authenticated member has one of the following roles: ACCOUNT_BILLING_ADMIN , ACCOUNT_MANAGER , CAMPAIGN_MANAGER , CREATIVE_MANAGER . Member Permission (3-legged). Advertising API. rw_organization_admin Manage organizations pages and retrieve reporting data. Restricted to organizations in which the authenticated member has the following role: ADMINISTRATOR . Member Permission (3-legged). Community Management API, Advertising API. w_member_social Post, comment, and like posts on your behalf. Member Permission (3-legged). Advertising API, Community Management API. w_member_social_feed Create, modify, and delete comments and reactions on posts on your behalf. Member Permission (3-legged). Community Management API. w_organization_social Post, comment, and like posts on your organization's behalf. Member Permission (3-legged). Advertising API, Community Management API. w_organization_social_feed Manage social actions for organizations that you are an administrator of. Member Permission (3-legged). Community Management API. r_events Retrieve your organization's events. Member Permission (3-legged). Lead Sync API, Events Management API. rw_events Manage your organization's events. Member Permission (3-legged). Events Management API. r_liteprofile Use your name and photo. Member Permission (3-legged). Lead Sync API, Conversions API. r_marketing_leadgen_automation Access your lead generation forms and retrieve leads (including event leads, ad leads, and organization page leads). Member Permission (3-legged). Lead Sync API. rw_dmp_segments Create and manage your matched audiences. Member Permission (3-legged). Matched Audiences API. rw_conversions Upload your conversion data to LinkedIn and manage your conversion tracking data. Member Permission (3-legged). Conversions API. rw_media_plans Manage media plans for your advertising accounts. Member Permission (3-legged). Media Planning API. r_member_postAnalytics Retrieve analytics for your posts, including impressions, reactions, comments, and shares. Member Permission (3-legged). Community Management API (in API versions starting from 202506). r_member_profileAnalytics Retrieve your profile analytics, including number of profile viewers, followers, and search appearances. Member Permission (3-legged). Community Management API (in API versions starting from 202504). Next Steps Once you have identified the API product and access tier you need, use the resources below to continue: Apply for access : Follow the Quick Start guide to submit your application. Understand integration requirements : Review the integration requirements page for your program before building. Each page lists technical prerequisites, data handling obligations, and launch criteria. Advertising API Ads Reporting Audience Insights API Community Management API Company Intelligence API Conversions API Events Management API Lead Sync API Matched Audiences API Media Planning API Get an access token : Use the Developer Portal Token Generator or Postman to generate a token for testing. Make your first API call : Follow the Quick Start walkthrough for your program. Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2026-08-17 In this article Was this page helpful? Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? en-us Your Privacy Choices Theme Light Dark High contrast AI Disclaimer Previous Versions Blog Contribute Privacy Consumer Health Privacy Terms of Use Trademarks © Microsoft 2026",
+      "content_sha256": "13bef9bf100a07c6190e2a7466f6d7578998f16b731999a2cc95b571785d52ab",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://learn.microsoft.com/en-us/linkedin/marketing/getting-started",
+      "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/getting-started?view=li-lms-2026-09",
+      "retrieved_at": "2026-09-16T17:18:26.642592+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Key Concepts - LinkedIn | Microsoft Learn Skip to main content Skip to Ask Learn chat experience This browser is no longer supported. Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support. Download Microsoft Edge More info about Internet Explorer and Microsoft Edge Table of contents Exit editor mode Ask Learn Ask Learn Reading mode Table of contents Read in English Add Add to Plans Edit Copy Markdown Print Note Access to this page requires authorization. You can try signing in or changing directories . Access to this page requires authorization. You can try changing directories . Key Concepts Feedback Summarize this article for me In this article Warning Deprecation Notice: The Marketing Version 202510 (Marketing October 2025) will be sunset on October 15, 2026. We recommend that you migrate to the latest versioned APIs to avoid disruptions. For information on all the supported versions, refer to the migrations documentation. If you haven’t yet migrated and have questions, submit a request on the LinkedIn Developer Support Portal . What is a Company Page/Organization? A Company Page is an entity that represents an organization on LinkedIn. The Company Page is where a company can post organic content and interact with members on LinkedIn. In addition to the Ad Account, the Company Page is one of the key entities that's used across marketing APIs for both sponsored and organic use cases. See Creating a LinkedIn Page guide for instructions on creating a company page. Note Company Pages are also referred to as \"Organizations\", and these terms are used interchangeably in the documentation. Company Page Roles Company Pages can be managed by members who have been granted one of the following roles within that Company Page. Role Description ADMINISTRATOR Administer an organizational entity; Post updates; Edit the organization page; Manage administrators; View analytics and notifications DIRECT_SPONSORED_CONTENT_POSTER Create/View direct sponsored content (DSC) for an organizational entity RECRUITING_POSTER Post to an organizational entity LEAD_CAPTURE_ADMINISTRATOR View/Manage landing pages for the company; Create/Edit landing pages LEAD_GEN_FORMS_MANAGER Access leads that belong to a specific account which is associated with a company page ANALYST Access to view an organization's private administrative data that relates to its social presence on LinkedIn, access limited to analytics tab to monitor the Page’s performance to help drive goals. Can edit the competitors of a page. CURATOR Access to broadcast content to employees of the organization, view Content Suggestions, create recommended content, and view and export Page analytics. Can edit the competitors of a page. CONTENT_ADMINISTRATOR Access to create and manage Page content, including updates, pinned posts, boosting updates, events, jobs etc. The creator of the Company Page is the Administrator by default. All others can be added and given roles through the UI. Click \"Admin tools\" on the right side of the admin view of the Company Page and then select \"Manage Admins\". To add a member to a company page you must be connected on LinkedIn. What is an Ad Account? An Ad Account (a.k.a. Sponsored Account) is an umbrella entity for advertising management on LinkedIn, e.g., billing, campaigns, ad creatives, tracking tags, and more. Ad Accounts can be managed through the UI using the Campaign Manager tool. Learn how to access Campaign Manager from the LinkedIn homepage , or for more information see Campaign Manager Overview Ad Account Roles Ad Accounts can be managed by members who have been granted one of the following roles within that Ad Account. Please note that you must be connected to a LinkedIn member to add them to a Company Page. Role Description VIEWER View campaign data and reports (can't Create/Edit campaigns or ads) CREATIVE_MANAGER Create/Edit/View campaign data and reports; Create/Edit ads CAMPAIGN_MANAGER View campaign data and reports; Create/Edit campaigns and ads ACCOUNT_MANAGER View campaign data and reports. Create/Edit campaigns and ads; Edit account data and manage user access ACCOUNT_BILLING_ADMIN View campaign data and reports; Create/Edit campaigns and ads. Edit account data and manage user access. Can also access billing data and will be billed for this account. (See next paragraph for more details on this role Account Billing Admin role There should be only one ACCOUNT_BILLING_ADMIN user role for an account. The creator of the Ad Account is assigned Account Billing Administrator by default. Other roles can be added and given roles through the UI. Click the gear icon in the upper right corner of Campaign Manager and then select \"Manage Access\". Managing Your Ad Accounts List Once your application has been accepted into the Development Tier, you can manage and view your Ad Accounts from the developer portal. Add up to 5 accounts to manage in the Development Tier. Select your application from the list of apps. . Click the \"Products\" tab in the navigation. Click the \"View settings\" link next to \"Advertising API\". Add or remove Ad Accounts from this page . Only accounts that have been configured for access in the Ad Accounts tab of your application can be managed through the API. You can't create new accounts through the API in the Development Tier. How do Company Pages and Ad Accounts relate to each other? Company Pages can be associated with Ad Accounts to advertise on behalf of that organization. For example, if an organization wanted to boost exposure to their Company Page's content by sponsoring it, they would need to associate their Company Page with an Ad Account. While not required, we recommended that you always associate a Company Page with an Ad Account to get the full benefits of LinkedIn's marketing capabilities. Some campaign objectives and ad creative types require a Company Page to be associated with the Ad Account. A Company Page can be associated with multiple Ad Accounts. An Ad Account can only be associated with a single Company Page. Once an Ad Account is linked to a particular Company Page, it can't be changed. How do I make API calls on behalf of a LinkedIn member? Once you have a developer application that has been given access to the LinkedIn Marketing API Program, you're ready to start generating OAuth access tokens to make API calls on behalf of authenticated members. Before an API call can be made, any required permission scopes must first be granted by the LinkedIn member. This ensures that members are made aware of what an application could potentially access or do on their behalf. If your application requires multiple permissions to access all the data it requires, members who use your application are required to accept all of them. They can't accept only a subset of the requested application permissions. To provide the best experience for the member, ensure that your application requests the fewest necessary permissions. How do I know what roles a member has? One of the common errors developers encounter is attempting to make API calls to Company Pages, Ad Accounts, and their associated objects using a token belonging to a member who doesn't have a role defined under a given Company Page or Ad Account. Use the /adAccountUsers and /organizationAcls API to validate what roles a member has. The LinkedIn Advertising API gives you access to the following permissions. All these permission scopes are 3-legged permissions requiring explicit consent from a LinkedIn member. The 2-legged client credentials flow is not available for any marketing use cases. Permission Description rw_organization_admin Manage an authenticated member’s company pages and retrieve reporting data. r_organization_admin Retrieve your organization's pages and their reporting data (including follower, visitor, and content analytics). w_organization_social Post, comment, and like posts on behalf of an organization. Restricted to organizations in which the authenticated member has one of the following company page roles: ADMINISTRATOR DIRECT_SPONSORED_CONTENT_POSTER LEAD_GEN_FORMS_MANAGER r_organization_social Retrieve organizations' posts, comments, and likes. w_member_social Post, comment, and like posts on behalf of an authenticated member. rw_ads Manage and read an authenticated member's ad accounts. Restricted to ad accounts in which the authenticated member has one of the following ad account roles: ACCOUNT_BILLING_ADMIN ACCOUNT_MANAGER CAMPAIGN_MANAGER CREATIVE_MANAGER r_ads Read an authenticated member's Ad Accounts. Restricted to ad accounts in which the authenticated member has one of the following Ad Account roles: ACCOUNT_BILLING_ADMIN ACCOUNT_MANAGER CAMPAIGN_MANAGER CREATIVE_MANAGER VIEWER r_ads_reporting Retrieve reporting for advertising accounts. r_1st_connections_size Retrieve the count of an authenticated member's 1st-degree connections. r_basicprofile Read an authenticated member's basic profile including name, photo, headline, and public profile URL. In addition to these permissions, members must have the appropriate roles as defined in Company Page Roles and Ad Account Roles to act on or read data from a given Company Page or Ad Account. See How Do I Know What Roles a Member Has to determine which roles an authenticated member has through the API. One of the common errors developers encounter is attempting to make API calls to Company Pages, Ad Accounts, and their associated objects using a token belonging to a member who doesn't have a role defined under a given Company Page or Ad Account. Use the API to validate what roles a member has. Feedback Was this page helpful? Yes No No Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? Additional resources Last updated on 2026-02-11 In this article Was this page helpful? Need help with this topic? Want to try using Ask Learn to clarify or guide you through this topic? Ask Learn Ask Learn Suggest a fix? en-us Your Privacy Choices Theme Light Dark High contrast AI Disclaimer Previous Versions Blog Contribute Privacy Consumer Health Privacy Terms of Use Trademarks © Microsoft 2026",
+      "content_sha256": "0f69230448395912f0909bccb4240e397f4cc43dc731327400d5c930c970dc5a",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5628,
+    "output_tokens": 2699
+  },
+  "failure": null
+}

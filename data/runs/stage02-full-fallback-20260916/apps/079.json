@@ -1,0 +1,269 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 79,
+    "app_name": "Smartsheet",
+    "category": "8. Productivity and Project Management",
+    "website": "http://smartsheet.com/developers",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "If your scenario involves user consent and interaction, it's typically best to use OAuth with Smartsheet. Note that the Smartsheet implementation of OAuth 2.0 is a 3-legged process, which requires human intervention.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "Each API request requires passing in an access token as the Bearer value in your authorization header. For example, Authorization: Bearer JKlMNOpQ12RStUVwxYZAbcde3F5g6hijklM789",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "You can generate access tokens in the Smartsheet UI.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "The API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:24:24.606805+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 79,
+    "app_name": "Smartsheet",
+    "category": "8. Productivity and Project Management",
+    "website": "http://smartsheet.com/developers",
+    "description": "Smartsheet API authenticates using access tokens (API keys) which can be generated in the Smartsheet UI. It supports OAuth 2.0 for user consent scenarios and raw token requests for machine-to-machine scenarios. Each API request requires passing an access token as the Bearer value in the authorization header.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API provides access to sheets, rows, columns, cells, reports, users, webhooks, workspaces, and other resources as documented in the Smartsheet API guides.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with clear authentication methods (OAuth 2.0 and bearer tokens), and access tokens can be generated via the Smartsheet UI, enabling integration development.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Smartsheet API authenticates using access tokens (API keys) which can be generated in the Smartsheet UI. It supports OAuth 2.0 for user consent scenarios and raw token requests for machine-to-machine scenarios. Each API request requires passing an access token as the Bearer value in the authorization header.",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "The API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI. ... If your scenario involves user consent and interaction, it's typically best to use OAuth with Smartsheet. Note that the Smartsheet implementation of OAuth 2.0 is a 3-legged process, which requires human intervention. ... Each API request requires passing in an access token as the Bearer value in your authorization header.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "If your scenario involves user consent and interaction, it's typically best to use OAuth with Smartsheet. Note that the Smartsheet implementation of OAuth 2.0 is a 3-legged process, which requires human intervention.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "Each API request requires passing in an access token as the Bearer value in your authorization header. For example, Authorization: Bearer JKlMNOpQ12RStUVwxYZAbcde3F5g6hijklM789",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "You can generate access tokens in the Smartsheet UI.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "The API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "APIs Smartsheet API ... HTTP and REST",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "The API provides access to sheets, rows, columns, cells, reports, users, webhooks, workspaces, and other resources as documented in the Smartsheet API guides.",
+        "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+        "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+        "quote": "Sheets, rows, columns, and cells ... Reports ... Users ... Webhooks ... Workspaces",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:07.663614+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "retrieved_at": "2026-09-16T17:24:06.754651+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication Skip to content APIs Smartsheet API Brandfolder API Resource Management API AI & MCP Search Ctrl+K Smartsheet API Introduction Get started Guides Basics Authentication Base URL Dates and times HTTP and REST Pagination Pagination - SDK examples Resource access levels Sheets, rows, columns, and cells Query parameters Versioning and changes Advanced topics Best practices Reports Users Webhooks Updating code Limitations Deprecation process Additional resources Event types Webhook event types Error codes Changelog OpenAPI Reference Alternate Email addresses Attachments Automation Rules Cell Images Cells Columns Comments Contacts Cross-sheet References Dashboards Discussions Events Favorites Folders Group Members Groups Home Imports Proofs Reports Rows Search Send via Email Server Info Sharing Sheet Summary Sheets Tokens Update Requests Users Webhooks Workspaces Schemas Guides / Basics Authentication Base URL Dates and times HTTP and REST Pagination Pagination - SDK examples Resource access levels Sheets, rows, columns, and cells Query parameters Versioning and changes / Authentication Last updated 6 months ago Authentication Copy Copy for LLM Copy page as Markdown for LLMs View as Markdown Open this page as Markdown Open in ChatGPT Get insights from ChatGPT Open in Claude Get insights from Claude Connect to Cursor Install MCP server on Cursor Connect to VS Code Install MCP server on VS Code The API authenticates using access tokens (API keys). You can generate access tokens in the Smartsheet UI. Important: Smartsheet Gov and Smartsheet Regions Europe use separate tokens from Smartsheet.com. Each API request requires passing in an access token as the Bearer value in your authorization header. For example, Authorization: Bearer JKlMNOpQ12RStUVwxYZAbcde3F5g6hijklM789 This article provides best practices to consider when working with the Smartsheet API and any access tokens (API keys), or other sensitive information. Authentication Approaches When choosing an authentication method, it is important to consider your integration scenario. Is the integration machine-to-machine without user interaction, or do you want user consent and interaction? If your scenario involves user consent and interaction, it's typically best to use OAuth with Smartsheet. Note that the Smartsheet implementation of OAuth 2.0 is a 3-legged process, which requires human intervention. See OAuth Walkthrough for details. If your scenario is strictly machine-to-machine, execute raw token requests over HTTPS. It's a straightforward, secure way to authenticate. See Access Token Best Practices for details. Each scenario requires an HTTP authorization header containing an access token. Note : In applications and for routine requests, it is best to use a shared account, such as ticket-processor@example.com, rather than your individual work account. Warning : If an unauthorized user gets a copy of this token, they will be able to access all Smartsheet data that you have access to, both to read and modify on your behalf. You should keep your tokens secure and do not share them with anyone. Access Token Best Practices You can generate access tokens in the Smartsheet UI. Never commit access tokens (API keys) to accessible version control systems like GitHub or BitBucket. Instead, use one of the following recommended storage options. Recommended Storage Options Use an app configuration tool suitable for deploying secrets to your app, or Use a config file outside of source control, or Use environment variables set outside of source control. If you have mistakenly deployed API keys to a publicly accessible location such as GitHub, then you should immediately revoke those API keys, revise your application to use a preferred method of key deployment, and then generate new keys. Storing in a database If you need to store API keys in a database, consider the following protections: Restrict access so API keys are only readable by the owner of the object Restrict read privileges to the database table Make sure your database or the disk the database is on is set to encrypt data at rest Note : When using any Smartsheet SDK, you can use the environment variable of SMARTSHEET_ACCESS_TOKEN . If the access token is null on input to the client builder, the SDK will automatically pick up the value of that environment variable. Revoking and Regenerating Tokens If you've committed code to a repository before implementing these security best practices, here are some steps to secure your API keys. For requests with raw tokens: Revoke the token Create a new token For OAuth with Smartsheet: Work through the OAuth Walkthrough to regenerate client secrets, auth codes, and tokens. Was this helpful? Basics Previous page Base URL Next page On this page Authentication Approaches Access Token Best Practices Recommended Storage Options Storing in a database Revoking and Regenerating Tokens Logo Help Center Articles Functions List Other Resources Community Smartsheet University Content Center Product updates & insights Support Packages Company About us Newsroom Privacy Legal Contact Support Smartsheet Status ©2025. All Rights Reserved Smartsheet Inc. Ask AI",
+      "content_sha256": "d27499a2bd9613747e3a696ef88b0878e2085e59c7c667e5a6748e8c4c082fb9",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2036,
+    "output_tokens": 1661
+  },
+  "failure": null
+}

@@ -1,0 +1,257 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 15,
+    "app_name": "Pylon",
+    "category": "2. Support and Helpdesk",
+    "website": "http://usepylon.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "admin_approval",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Programmatic access to read and write data in Pylon, including fetching customer and issue information and creating issues.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Only Admin users can create API tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Only Admin users can create API tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "API Reference for specifications on all endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Programmatic access to read and write data in Pylon, including fetching customer and issue information and creating issues.",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Some common use cases for our API include: Fetching information about customers Fetching information about issues Creating issues programmatically",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:16:59.656327+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 15,
+    "app_name": "Pylon",
+    "category": "2. Support and Helpdesk",
+    "website": "http://usepylon.com/",
+    "description": "Pylon's API can be used to programmatically access and take action on data within Pylon. Common use cases include fetching information about customers, fetching information about issues, and creating issues programmatically.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "admin_approval",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Programmatic access to read and write data in Pylon, including fetching customer and issue information and creating issues.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is available for programmatic access to read and write data in Pylon. Only Admin users can create API tokens, indicating an admin approval access model. The API reference specifies endpoints for fetching customers, issues, and creating issues programmatically, supporting buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Pylon's API can be used to programmatically access and take action on data within Pylon. Common use cases include fetching information about customers, fetching information about issues, and creating issues programmatically.",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Pylon\u0019s API can be used to programmatically access and take action on data within Pylon. Only Admin users can create API tokens. Some common use cases for our API include: Fetching information about customers Fetching information about issues Creating issues programmatically",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Only Admin users can create API tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Only Admin users can create API tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Pylon\u0019s API can be used to programmatically access and take action on data within Pylon.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "API Reference for specifications on all endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Programmatic access to read and write data in Pylon, including fetching customer and issue information and creating issues.",
+        "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+        "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+        "quote": "Some common use cases for our API include: Fetching information about customers Fetching information about issues Creating issues programmatically",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:50.279777+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+      "final_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+      "retrieved_at": "2026-09-16T17:16:47.456260+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "API | Pylon ⌘ Ctrl k Knowledge Base Website Changelog Book a Demo Login More Getting Started Introduction Quick Start Setup Channel Configuration User Guide Pylonboarding Agents Assist Agent Background Agents Slack Agent Skills Connectors User Memories Support Agent Support Workflows Omnichannel Support Issues SLAs and Timers Support Hours CSAT Ticket Forms Assignment Rules Email Phone Support AI Issue QA Platform Custom Fields Tags Teams Triggers Macros Command Search Roles & User Management Training Data AI Reports Surveys Audit Logs Languages & Localization Custom Objects Knowledge Base Overview Articles & Collections Gaps Styling & Customization Custom Authentication Search Customer Portal Overview Styling & Customization Portal Experience Access Control Custom Authentication Chat Widget Overview Styling Functionality Chat Experience Chat Setup Identity Verification JavaScript API Mobile SDKs Account Intelligence Accounts Notebooks Tasks & Projects Activities Fields Product Intelligence Feature Requests Closing the Loop Reporting & Analytics Analytics Default Dashboards Custom Dashboards Broadcasts Overview Create a Broadcast Analytics Integrations CRM Ticketing Alerting Chat Incident Management Call Recording Calendar Data Warehouse Codebase Pylon MCP Security Security Overview Developer API Authentication Errors API reference External IDs Custom Apps Embedded Iframes Webhooks Powered by GitBook On this page For the complete documentation index, see llms.txt . This page is also available as Markdown . Copy On this page Developer API Programmatic access to read and write data in Pylon Pylon’s API can be used to programmatically access and take action on data within Pylon. Only Admin users can create API tokens. To learn more about Admins, see Roles & User Management . Some common use cases for our API include: Fetching information about customers Fetching information about issues Creating issues programmatically Check out our API Reference for specifications on all endpoints. Previous Security Overview Next Authentication Last updated 6 months ago Was this helpful? Was this helpful?",
+      "content_sha256": "bae80edb20f83b6395d8293137893f65aea580afb1a486819d54a52b19ce0fad",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.usepylon.com/pylon-docs/developer/authentication",
+      "final_url": "https://docs.usepylon.com/pylon-docs/developer/authentication",
+      "retrieved_at": "2026-09-16T17:16:47.892418+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1393,
+    "output_tokens": 1205
+  },
+  "failure": null
+}

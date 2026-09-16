@@ -1,0 +1,283 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 14,
+    "app_name": "Front",
+    "category": "2. Support and Helpdesk",
+    "website": "http://front.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "See the `Authorization` header in the example request below. ```curl curl --request GET \\ --url https://api2.frontapp.com/conversations/cnv_123/drafts --header 'Authorization: Bearer [REQUEST_TOKEN]' ```",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:03.303209+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 14,
+    "app_name": "Front",
+    "category": "2. Support and Helpdesk",
+    "website": "http://front.com/",
+    "description": "Front is a support and helpdesk platform that provides a Core API for managing conversations, contacts, inboxes, and other resources. It supports integrations via API tokens or OAuth, enabling management of resources and processing of events.",
+    "auth_methods": [
+      "bearer_token",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows management of Core API resources such as conversations, contacts, inboxes, company-level and workspace-level resources, with granular permissions for read, write, delete, and send actions.",
+    "mcp_available": "official",
+    "mcp_notes": "MCP server allows connecting Front data exposed via MCP server to clients like Claude, ChatGPT, and others.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with REST endpoints, supports bearer token and OAuth2 authentication, and provides granular permissions and scopes. OAuth is recommended for public integrations, and API tokens can be used for private or testing purposes. MCP server is officially available for integration with AI clients.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Front is a support and helpdesk platform that provides a Core API for managing conversations, contacts, inboxes, and other resources. It supports integrations via API tokens or OAuth, enabling management of resources and processing of events.",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "The Core API uses Bearer tokens to authenticate its user. You MUST send the token for each request in the Authorization header. The token MUST be preceded by `Bearer`. ... There are two ways to get a Bearer token \u0014 through API tokens in your settings or through an OAuth implementation. ... Front recommends implementing OAuth when feasible, which has the additional benefit of building within our application framework. ... The app framework makes it easy for customers to install your integration and makes it easy for you to update the integration with new Front features as they are added to the framework.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "The Core API uses Bearer tokens to authenticate its user. You MUST send the token for each request in the Authorization header. The token MUST be preceded by `Bearer`.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "There are two ways to get a Bearer token \u0014 through API tokens in your settings or through an OAuth implementation. ... Front recommends implementing OAuth when feasible, which has the additional benefit of building within our application framework.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "If you\u00039re just building an integration for your own Front instance or a single Front customer, or just want to test our API endpoints as you brainstorm what to build, you can generate an API token to get up and running more quickly.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "The Core API uses Bearer tokens to authenticate its user. ... See the `Authorization` header in the example request below. ```curl curl --request GET \\ --url https://api2.frontapp.com/conversations/cnv_123/drafts --header 'Authorization: Bearer [REQUEST_TOKEN]' ```",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "See the `Authorization` header in the example request below. ```curl curl --request GET \\ --url https://api2.frontapp.com/conversations/cnv_123/drafts --header 'Authorization: Bearer [REQUEST_TOKEN]' ```",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "The API allows management of Core API resources such as conversations, contacts, inboxes, company-level and workspace-level resources, with granular permissions for read, write, delete, and send actions.",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "The following features specify what functionality your token can be used for: * Access resources allows you to manage Core API resources such as conversations, contacts, inboxes, etc. ... The following permissions exist: * Read for retrieving resource information. * Write for creating and updating resources. * Delete for removing API resources. * Send for creating and sending messages in Front, such as you would do with endpoints like Create message, which start new conversations or reply to active conversations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "MCP server allows you to connect Front data exposed via MCP server to clients like Claude, ChatGPT, and others.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://dev.frontapp.com/docs/authentication.md",
+        "final_url": "https://dev.frontapp.com/docs/authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+        "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+        "quote": "Front recommends implementing OAuth when feasible, which has the additional benefit of building within our application framework. ... For Partners looking to launch a public integration to all Front customers, if your integration can support OAuth you\u00039ll want to check out our OAuth guide. We require that public integrations use OAuth unless there is a reason they cannot. OAuth integrations are part of our application framework and can be easily installed by customers using the Front App Store, without requiring that customers manually configure an API token for your integration.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:47.337788+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://dev.frontapp.com/docs/authentication.md",
+      "final_url": "https://dev.frontapp.com/docs/authentication.md",
+      "retrieved_at": "2026-09-16T17:16:46.737739+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "--- updatedAt: 2026-02-03T20:34:32.000Z --- Fetch the complete documentation index at: https://dev.frontapp.com/llms.txt. Use this file to discover all available pages before exploring further. Append .md to any documentation page URL to get its markdown version. # Authentication The Core API uses Bearer tokens to authenticate its user. You MUST send the token for each request in the Authorization header. The token MUST be preceded by `Bearer`. See the `Authorization` header in the example request below. ```curl curl --request GET \\ --url https://api2.frontapp.com/conversations/cnv_123/drafts --header 'Authorization: Bearer [REQUEST_TOKEN]' ``` # OAuth v Front API Tokens **There are two ways to get a Bearer token — through API tokens in your settings or through an OAuth implementation**. In general, Front recommends implementing OAuth when feasible, which has the additional benefit of building within our [application framework](https://dev.frontapp.com/docs/create-and-manage-apps). The app framework makes it easy for customers to install your integration and makes it easy for you to update the integration with new Front features as they are added to the framework. However, if you’re just building an integration for your own Front instance or a single Front customer, or just want to test our API endpoints as you brainstorm what to build, you can [generate an API token](https://dev.frontapp.com/docs/create-and-revoke-api-tokens) to get up and running more quickly. For Partners looking to launch a public integration to all Front customers, if your integration can support OAuth you’ll want to check out our [OAuth guide](https://dev.frontapp.com/docs/oauth). We require that public integrations use OAuth unless there is a reason they cannot. OAuth integrations are part of our application framework and can be easily installed by customers using the Front App Store, without requiring that customers manually configure an API token for your integration. > 📘 OAuth is required for public integrations available to all Front customers unless you obtain an exception from us. OAuth makes it much easier for customers to install your integration through our App Store. ## Token scopes ### Features The following features specify what functionality your token can be used for: * **Access resources** allows you to manage Core API resources such as conversations, contacts, inboxes, etc. * **Auto-provisioning** allows you to manage provisioning resources using our SCIM implementation, which you have to contact our team to learn more about (not generally available to the public). * **Application triggers** allows you to [process events and payloads](https://dev.frontapp.com/docs/application-triggers) from external services (not currently available for OAuth tokens). * **MCP server** allows you to connect Front data exposed via MCP server to clients like Claude, ChatGPT, and others. ### Namespaces The following namespaces specify the scope of tokens: * **Global resources** are resources available across the company. These are resources created at the company level such as company-level rules, company-level tags, or resources that only exist at the company level, such as teams or accounts. Global resources exclude resources that belong to to specific workspaces, which are separately configured as shared resources. * **Shared resources** are resources that belong to specific workspaces, such as shared inboxes or workspace tags. You can select **All shared workspaces** to manage resources across all your workspaces. * **Private resources** are resources that belong to individual teammates, such as personal inboxes or signatures. The teammate will have to enable API access in their settings for the token to manage their resources. ### Permissions If you selected to access resources, you can granularly specify what access the token has to each resources (read, write, delete, and send). <Callout icon=\"👍\" theme=\"okay\"> Tips for using permissions * Refer to the API endpoint topics in the [Core API reference documentation](https://dev.frontapp.com/reference/introduction) to learn which permissions are required for each endpoint. * Front recommends limiting the permissions for each token to prevent misuse or security issues. * The following permissions exist: * **Read** for retrieving resource information. * **Write** for creating and updating resources. * **Delete** for removing API resources. * **Send** for creating and sending messages in Front, such as you would do with endpoints like [Create message](https://dev.frontapp.com/reference/create-message), which start new conversations or reply to active conversations. This is different from endpoints that [import historical messages](https://dev.frontapp.com/reference/import-inbox-message), which only require the Write permission. </Callout>",
+      "content_sha256": "eb2a8e475745eb0276e6b3bb1721d21b5e8bdc6e0b1c6fb4ad4f2812e66fa460",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2010,
+    "output_tokens": 2122
+  },
+  "failure": null
+}

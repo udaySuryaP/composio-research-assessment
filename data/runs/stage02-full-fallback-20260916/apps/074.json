@@ -1,0 +1,332 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 74,
+    "app_name": "Jira",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developer.atlassian.com/",
+    "description": "Jira provides a REST API for interacting with Jira Cloud platform. It supports authentication using basic auth with an Atlassian account email address and API token, OAuth 2.0 (3LO) apps, and app frameworks like Forge and Connect that use OAuth 2.0 and JWT respectively. The REST API is protected by the same restrictions as the Jira web interface, requiring authentication for access to protected resources.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "Jira apps can be built using Forge and Connect frameworks, which provide built-in authentication and security features. OAuth 2.0 apps can be created in the developer console for integrations.",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "The Jira REST API is well documented with examples for authentication using API tokens and basic auth, OAuth 2.0 apps can be created, and official app frameworks (Forge and Connect) support app development with built-in authentication. The API is accessible via self-serve paid accounts.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Jira provides a REST API for interacting with Jira Cloud platform. It supports authentication using basic auth with an Atlassian account email address and API token, OAuth 2.0 (3LO) apps, and app frameworks like Forge and Connect that use OAuth 2.0 and JWT respectively. The REST API is protected by the same restrictions as the Jira web interface, requiring authentication for access to protected resources.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "The Jira REST API is protected by the same restrictions that apply in the standard Jira web interface. These restrictions mean that if you don't log in, you access Jira anonymously. If you log in and don't have permission to view something in Jira, you won't be able to view it using the Jira REST API either.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "The Jira REST API is protected by the same restrictions that apply in the standard Jira web interface. These restrictions mean that if you don't log in, you access Jira anonymously.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Jira apps can be built using Forge and Connect frameworks, which provide built-in authentication and security features. OAuth 2.0 apps can be created in the developer console for integrations.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it. See Security for Forge apps and Security for Connect apps . OAuth 2.0 apps (integrations) created in the developer console can use OAuth 2.0 authorization code grants (3LO) , which is also more secure than basic auth.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic authentication is not as secure as other methods. We recommend using it for simple scripts and manual calls to the REST APIs. Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability_rationale",
+        "claim": "The Jira REST API is well documented with examples for authentication using API tokens and basic auth, OAuth 2.0 apps can be created, and official app frameworks (Forge and Connect) support app development with built-in authentication. The API is accessible via self-serve paid accounts.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic authentication is not as secure as other methods. We recommend using it for simple scripts and manual calls to the REST APIs. Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "mixed_unknown_enum",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:23:56.456305+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 74,
+    "app_name": "Jira",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developer.atlassian.com/",
+    "description": "Jira provides a REST API for interacting with Jira Cloud platform. It supports authentication using basic auth with an Atlassian account email address and API token, OAuth 2.0 (3LO) apps, and app frameworks like Forge and Connect that use OAuth 2.0 and JWT respectively. The REST API is protected by the same restrictions as the Jira web interface, requiring authentication for access to protected resources.",
+    "auth_methods": [
+      "basic",
+      "oauth2",
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The Jira REST API covers issue creation, metadata, search, and other Jira platform functionalities as exposed via REST endpoints.",
+    "mcp_available": "official",
+    "mcp_notes": "Jira apps can be built using Forge and Connect frameworks, which provide built-in authentication and security features. OAuth 2.0 apps can be created in the developer console for integrations.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Jira REST API is well documented with examples for authentication using API tokens and basic auth, OAuth 2.0 apps can be created, and official app frameworks (Forge and Connect) support app development with built-in authentication. The API is accessible via self-serve paid accounts.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Jira provides a REST API for interacting with Jira Cloud platform. It supports authentication using basic auth with an Atlassian account email address and API token, OAuth 2.0 (3LO) apps, and app frameworks like Forge and Connect that use OAuth 2.0 and JWT respectively. The REST API is protected by the same restrictions as the Jira web interface, requiring authentication for access to protected resources.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "The Jira REST API is protected by the same restrictions that apply in the standard Jira web interface. These restrictions mean that if you don't log in, you access Jira anonymously. If you log in and don't have permission to view something in Jira, you won't be able to view it using the Jira REST API either.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic authentication with an Atlassian account email address and API token . Authentication using passwords has been deprecated.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "OAuth 2.0 apps (integrations) created in the developer console can use OAuth 2.0 authorization code grants (3LO) , which is also more secure than basic auth.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "The Jira REST API is protected by the same restrictions that apply in the standard Jira web interface. These restrictions mean that if you don't log in, you access Jira anonymously.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic auth for REST APIs This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic auth for REST APIs This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Jira apps can be built using Forge and Connect frameworks, which provide built-in authentication and security features. OAuth 2.0 apps can be created in the developer console for integrations.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it. See Security for Forge apps and Security for Connect apps . OAuth 2.0 apps (integrations) created in the developer console can use OAuth 2.0 authorization code grants (3LO) , which is also more secure than basic auth.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic authentication is not as secure as other methods. We recommend using it for simple scripts and manual calls to the REST APIs. Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability_rationale",
+        "claim": "The Jira REST API is well documented with examples for authentication using API tokens and basic auth, OAuth 2.0 apps can be created, and official app frameworks (Forge and Connect) support app development with built-in authentication. The API is accessible via self-serve paid accounts.",
+        "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+        "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+        "quote": "Basic authentication is not as secure as other methods. We recommend using it for simple scripts and manual calls to the REST APIs. Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:36.103745+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "auth_methods"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "retrieved_at": "2026-09-16T17:23:33.806233+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "Insufficient readable content; possible JS shell",
+      "status": 200,
+      "truncated_bytes": true
+    },
+    {
+      "requested_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "final_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "retrieved_at": "2026-09-16T17:23:35.307713+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Basic auth for REST APIs Developer Documentation Resources News and Updates Get Support Sign in Developer Get Support Sign in DOCUMENTATION Cloud Data Center Resources News and Updates Get support Sign in Developer Sign in DOCUMENTATION Cloud Data Center Resources News and Updates Get support Sign in Jira Cloud platform Guides Reference REST API Document Format Jira expressions Entity properties JQL search extensibility Connect Resources Changelog Jira Cloud platform Guides Reference Resources Changelog About Jira Cloud platform Introduction and basics Getting started with Forge Security Security overview Security for Forge apps Scopes for OAuth 2.0 (3LO) and Forge apps OAuth 2.0 (3LO) apps Basic auth for REST APIs Data security policy developer guide Learning Forge tutorials and example apps Rate limiting Bulk Operation APIs: Additional Examples and FAQs Privacy guidelines User privacy guide for app developers Profile visibility Building blocks Forge concepts Storing data with entity properties Jira expressions Other considerations Atlassian Design Guidelines Atlaskit Atlassian Marketplace Cloud app licensing Developer canary program Developing apps for Jira Cloud mobile Last updated Sep 16, 2026 Basic auth for REST APIs This page shows you how REST clients can authenticate themselves using basic authentication with an Atlassian account email address and API token . Authentication using passwords has been deprecated. Basic authentication is not as secure as other methods. We recommend using it for simple scripts and manual calls to the REST APIs. Otherwise, consider building an app: Forge apps and Connect apps use more secure methods for authentication: OAuth 2.0 and JWT respectively. In addition, authentication is built into the app frameworks, so you don't need to configure it. See Security for Forge apps and Security for Connect apps . OAuth 2.0 apps (integrations) created in the developer console can use OAuth 2.0 authorization code grants (3LO) , which is also more secure than basic auth. Overview Important notice for apps using 3LO or API tokens Apps that collect API tokens or instruct customers to create individual 3LO apps don't comply with our Security requirements for cloud apps and Acceptable use policy . Follow these best practices: Build a single, distributable 3LO app for your integration. Clearly identify your app in the Marketplace (recommended). Work with customers to transition away from custom 3LO apps or API tokens. Read our blog post for full details The Jira REST API is protected by the same restrictions that apply in the standard Jira web interface. These restrictions mean that if you don't log in, you access Jira anonymously. If you log in and don't have permission to view something in Jira, you won't be able to view it using the Jira REST API either. In most cases, the first step in using the Jira REST API is to authenticate a user account with your Jira site. This page provides a simple example of basic authentication. Get an API token Basic auth requires API tokens. You generate an API token for your Atlassian account and use it to authenticate anywhere where you would have used a password. This enhances security because: you're not saving your primary account password outside of where you authenticate you can quickly revoke individual API tokens on a per-use basis API tokens will allow you to authenticate even if your Atlassian Cloud organization has two-factor authentication or SAML enabled. See the Atlassian Cloud Support API tokens article to discover how to generate an API token. Simple example Most client software provides a simple mechanism for supplying a user name (in our case, the email address) and API token that the client uses to build the required authentication headers. For example, you can specify the -u argument in cURL as follows: 1 2 3 4 5 6 curl -D- \\ -u fred@example.com:freds_api_token \\ -X GET \\ -H \"Content-Type: application/json\" \\ https://your-domain.atlassian.net/rest/api/2/issue/createmeta Supply basic auth headers You can construct and send basic auth headers. To do this you perform the following steps: Generate an API token for Jira using your Atlassian Account . Build a string of the form useremail:api_token . BASE64 encode the string. Linux/Unix/MacOS: 1 2 echo -n \"user@example.com:api_token_string\" | base64 Windows 7 and later, using Microsoft Powershell: 1 2 3 4 5 $Text = ‘user@example.com:api_token_string’ $Bytes = [System.Text.Encoding]::UTF8.GetBytes($Text) $EncodedText = [Convert]::ToBase64String($Bytes) $EncodedText Supply an Authorization header with content Basic followed by the encoded string. For example, the string fred:fred encodes to ZnJlZDpmcmVk in base64, so you would make the request as follows: 1 2 3 4 5 6 curl -D- \\ -X GET \\ -H \"Authorization: Basic ZnJlZDpmcmVk\" \\ -H \"Content-Type: application/json\" \\ \"https://your-domain.atlassian.net/rest/api/2/issue/QA-31\" Advanced topics Authentication challenges Because Jira permits a default level of access to anonymous users, it does not supply an authentication challenge. Some HTTP clients expect to receive an authentication challenge before they send an authorization header. This means that a client may not behave as expected. In this case, configure the client to supply the authorization header, as described above, rather than relying on its default mechanism. CAPTCHA A CAPTCHA is 'triggered' after several consecutive failed log in attempts, and requires the user to interpret a distorted picture of a word and type that word into a text field with each subsequent log in attempt. If CAPTCHA has been triggered, you cannot use Jira's REST API to authenticate with the Jira site. You can check this in the error response from Jira. If there is an X-Seraph-LoginReason header with a value of AUTHENTICATION_DENIED , the application rejected the login without even checking the password. This is the most common indication that Jira's CAPTCHA feature has been triggered. Rate this page: Unusable Poor Okay Good Excellent Changelog System status Privacy Notice at Collection Developer Terms Trademark Cookie preferences © 2026 Atlassian",
+      "content_sha256": "9041f06b9d17a6f62805201cd159cea330f6ee5593dab32478a8b517aa5c77d1",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2311,
+    "output_tokens": 2409
+  },
+  "failure": null
+}

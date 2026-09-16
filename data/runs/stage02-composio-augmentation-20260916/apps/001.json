@@ -1,0 +1,259 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website": "http://salesforce.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "low_confidence",
+      "no_usable_official_source"
+    ],
+    "researched_at": "2026-09-16T17:42:58.020529+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website": "http://salesforce.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "unknown",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:42:55.512817+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "low_confidence",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [],
+  "discovery": [
+    {
+      "query": "Salesforce developer API authentication pricing access official docs",
+      "attempt": 1,
+      "response": {
+        "data": {
+          "answer": null,
+          "follow_up_questions": null,
+          "images": [],
+          "query": "Salesforce developer API authentication pricing access official docs",
+          "request_id": "dca9a933-1952-42da-8627-7a620f0d1443",
+          "response_time": 2.38,
+          "results": [
+            {
+              "content": "| Pricing / access | Bundled with Salesforce licenses; free Developer Edition (15,000 calls/day); paid editions start at $25/user/month |\n| SDKs | Salesforce CLI, VS Code Extensions, Agentforce Python SDK, Mobile SDKs; no official general-purpose REST client libraries |\n| Webhooks | No traditional outbound HTTP webhooks; event-driven via Pub/Sub API (gRPC) and Streaming API (CometD) |\n| Documentation | developer.salesforce.com with per-API reference guides, Trailhead learning modules | [...] API access is bundled into Salesforce org licenses rather than sold separately. The Developer Edition is free and includes 15,000 API calls per 24-hour period, enough for development and testing. On paid editions, API call allocations are included on Professional, Enterprise, Unlimited, and Performance tiers.\n\nThe commercial plans that include API access:\n\n Starter Suite: $25/user/month\n\n Pro Suite: $100/user/month (annual)\n\n Enterprise: $175/user/month (annual) [...] For developers building on Salesforce's platform or integrating with an existing Salesforce org, the API provides granular access to every object, field, and process in the system. Its limits are the limits of its scope (CRM data operations, not external intelligence) and its pricing model (license-dependent allocations, not flat-rate API access).",
+              "id": "cb8325-00",
+              "raw_content": null,
+              "score": 0.7485182,
+              "title": "Salesforce API: Complete Developer Review [2026]",
+              "url": "https://pipeline.zoominfo.com/sales/salesforce-api"
+            },
+            {
+              "content": "In the browser, click Allow to allow access.\n\nAt the command line, you see a similar confirmation message.\n\nAt the command line, get the access token by viewing authentication information about your org.\n\nFor example:\n\nExample command output:\n\nIn the command output, make note of the long Access Token string and the Instance Url string. You need both to make cURL requests.\n\nTo get a new token after your access token expires, repeat this step of viewing your authentication information. [...] cURL is an open-source tool and isn’t supported by Salesforce.\n\nUse the access token (also known as a “bearer token”) that you get from Salesforce CLI to authenticate cURL requests.\n\nInstall or update Salesforce CLI.\n\nLog in to your Developer org with Salesforce CLI.\n\nA browser opens to .\n\nTo log in to a sandbox, append the `--instance-url` flag and specify your sandbox URL:\n\n`--instance-url`\n\nIn the browser, log in to your Developer org or sandbox with your user’s credentials. [...] # Step 2: Authentication\n\nThe first action in an API-based integration is authenticating requests with your Salesforce org. Bulk API 2.0 and Bulk API use different authentication methods.",
+              "id": "17f7bc-01",
+              "raw_content": null,
+              "score": 0.52758485,
+              "title": "Step 2: Authentication | Bulk API 2.0 - Salesforce Developers",
+              "url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/authentication.html"
+            },
+            {
+              "content": "Use the access token (also known as a “bearer token”) that you get from Salesforce CLI to authenticate cURL requests.\n\nInstall or update Salesforce CLI.\n\nLog in to your Developer org with Salesforce CLI.\n\nA browser opens to .\n\nTo log in to a sandbox, append the `--instance-url` flag and specify your sandbox URL:\n\n`--instance-url`\n\nIn the browser, log in to your Developer org or sandbox with your user’s credentials.\n\nIn the browser, click Allow to allow access. [...] # Step Two: Set Up Authentication\n\nTo successfully send requests, REST API requires an access token obtained by authentication. Although you can create and authenticate against your own connected app, these Quick Start examples use Salesforce CLI for convenience. Salesforce CLI is a connected app that you can authenticate, and it requires no work to configure.\n\nComplete these steps in your Developer Edition org or development sandbox. [...] `org login web`\n\nDisplay the Access Token for My Org\n\nOutput includes your access token, client ID, connected status, org ID, instance URL, username, and alias, if applicable.\n\nSet an Alias for My Username\n\nFor convenience, create an alias for your username so that you don’t have to enter the entire Salesforce string. For example, instead of\n\nCreate an alias like\n\nTo set the alias in this example, run\n\nUse These Commands in a Script",
+              "id": "f055bf-02",
+              "raw_content": null,
+              "score": 0.4858686,
+              "title": "Step Two: Set Up Authentication | Quick Start | REST API ...",
+              "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html"
+            },
+            {
+              "content": "Salesforce REST API is designed to work with Salesforce objects. See the Object Reference for the Salesforce Platform for an introduction and more information about Salesforce objects.\n\nAbout REST API\n\nREST API is one of several web interfaces that you can use to access your Salesforce data without using the Salesforce user interface. With API access, you can perform operations and integrate Salesforce into your applications as you like.\n\nREST API Release Notes [...] Use the Salesforce Release Notes to learn about the most recent updates and changes to REST API.\n\nSupported Editions and Required Permissions\n\nTo access your Salesforce org and data using the Salesforce API, you need both an org and a user with API access enabled. There’s more than one Salesforce Edition that supports API access and multiple ways to grant API permission to a user.\n\nREST Resources and Requests [...] REST API is based on the usage of resources—pieces of data in Salesforce, such as records, collections of records, query results, metadata, or API information. Each resource is exposed by a uniform resource identifier (URI) and is accessed by sending HTTP requests to the corresponding URI.\n\nREST API Architecture\n\nREST API follows the standard RESTful principles and characteristics.\n\nAuthorization Through External Client Apps or Connected Apps and OAuth 2.0",
+              "id": "e5912d-03",
+              "raw_content": null,
+              "score": 0.40995342,
+              "title": "Introduction to REST API",
+              "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html"
+            },
+            {
+              "content": "# Connect REST API Quick Start\n\nConnect to Salesforce and authenticate, then make a request to Connect REST API and look at the response.\n\nPrerequisites\n\nComplete these prerequisites before you begin the quick start.\n\nStep One: Sign up for Salesforce Developer Edition\n\nDeveloper Edition provides a free and easy solution so that you can use Salesforce for testing and development.\n\nStep Two: Set Up Authorization [...] Create an external client app in a Salesforce org, enable OAuth, and configure an OAuth flow. Use the external client app to connect to Salesforce.\n\nStep Three: Connect to Connect REST API Using OAuth\n\nUse OAuth to connect to Salesforce and get an access token. Pass the access token in requests to Connect REST API.\n\nConnect to Experience Cloud Sites\n\nTo use OAuth to connect to an Experience Cloud site, use the full path to the site URL.\n\nSend a Request with Postman",
+              "id": "13871f-04",
+              "raw_content": null,
+              "score": 0.37360206,
+              "title": "Quick Start | Connect REST API Developer Guide",
+              "url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart.html"
+            }
+          ]
+        },
+        "error": null,
+        "successful": true
+      },
+      "ok": true,
+      "action": "COMPOSIO_SEARCH_TAVILY",
+      "version": "20260903_00",
+      "operation": "tools.execute",
+      "arguments": {
+        "query": "Salesforce developer API authentication pricing access official docs"
+      },
+      "user_id": "uday-assessment"
+    },
+    {
+      "query": "Salesforce MCP server official community",
+      "attempt": 1,
+      "response": {
+        "data": {
+          "answer": null,
+          "follow_up_questions": null,
+          "images": [],
+          "query": "Salesforce MCP server official community",
+          "request_id": "8a58b2b8-2530-4ef2-adae-26738eb9e157",
+          "response_time": 1.52,
+          "results": [
+            {
+              "content": "Whether you're building AI agents or accelerating development with AI coding assistants, this episode demonstrates how Salesforce Hosted MCP Servers help you extend Salesforce into the tools you already use.\n\nConnect with Salesforce Developers:\n\nJoin the Community: www.salesforce.com/devcommunity\nWebsite: \nLinkedIn:   / salesforce-developers  \nTwitter:   / salesforcedevs [...] [0:36] The model context protocol or MCP is an open standard that lets agentic tools like cloud interact with external tools and data sources from various vendors.\n[0:46] In the context of Salesforce, this means you can run so queries, modify records, and execute actions directly from a\n[0:54] thirdparty agent. In other words, you don't need to log to Salesforce and use Lightning Experience to perform operations on Salesforce with agents. [...] [6:58] /mcp and we're going to look at our MCP servers. You can see that the server is there. This is the first local MCP\n[7:05] server that I have in here. It is not yet authenticated. So I will enable it and then I will authenticate it.\n[7:15] This opens a browser window.\n[7:18] I'll provide my credentials and I will log into my org.\n[7:23] I will accept the connection to the MCP server. So this is normal. I will allow it and then we can see this authentication succeeded dialogue. I'm",
+              "id": "643079-00",
+              "raw_content": null,
+              "score": 0.76385427,
+              "title": "Connect Claude with Salesforce Hosted MCP Servers | Salesforce Headless 360 Decoded",
+              "url": "https://www.youtube.com/watch?v=jXTabhVR7x8"
+            },
+            {
+              "content": "The Salesforce DX MCP Server is a specialized Model Context Protocol (MCP) implementation designed to facilitate seamless interaction between large language models (LLMs) and Salesforce orgs. This MCP server provides a robust set of tools and capabilities that enable LLMs to read, manage, and operate Salesforce resources securely.\n\n## Configure the DX MCP Server [...] | CONTRIBUTING.md | CONTRIBUTING.md |  |  |\n| DEVELOPING.md | DEVELOPING.md |  |  |\n| LICENSE.txt | LICENSE.txt |  |  |\n| README.md | README.md |  |  |\n| SECURITY.md | SECURITY.md |  |  |\n| package.json | package.json |  |  |\n| yarn.lock | yarn.lock |  |  |\n|  | [...] Note",
+              "id": "d33333-01",
+              "raw_content": null,
+              "score": 0.7187726,
+              "title": "GitHub - salesforcecli/mcp: MCP Server for interacting with Salesforce instances · GitHub",
+              "url": "https://github.com/salesforcecli/mcp"
+            },
+            {
+              "content": "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems. Salesforce Hosted MCP Servers use this protocol to turn on secure agentic interoperability. External AI agents can securely connect with your Salesforce data, assets, and logic safely within the Salesforce security perimeter and governance policies. [...] # Salesforce Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open Model Context Protocol (MCP) standard, any compatible AI client—Claude, ChatGPT, Cursor, or a custom agent—can connect to a Salesforce org and act on behalf of authorized users. [...] Think of it as a universal connector: instead of building custom API integrations for each AI tool your team uses, you configure a server once in Salesforce, and any MCP-compatible client can connect to it by using standard OAuth-based authentication.",
+              "id": "053929-02",
+              "raw_content": null,
+              "score": 0.6617704,
+              "title": "Get Started | Hosted MCP Servers",
+              "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html"
+            },
+            {
+              "content": "A hosted MCP server is a Salesforce-managed endpoint that exposes your org’s logic and assets — data, flows, Apex actions, queries, and more — to any AI client that speaks MCP. Salesforce handles hosting, authentication, and permission enforcement automatically. Whether your users live in Slack, Claude, ChatGPT, or something else entirely, MCP means they can work with Salesforce without switching contexts. All the major AI platforms and workplace communication solutions are building on MCP as [...] What started as a pilot last spring and beta last October — connecting AI assistants to Salesforce logic and assets through the Model Context Protocol (MCP) — is now a production-ready capability for every Enterprise Edition org and above. Any MCP-compatible client can securely connect to Salesforce with enterprise-grade authentication, governance, and admin control built in. [...] building on MCP as the standard way to connect AI agents to enterprise systems. We now have an open standard for the industry to converge upon, and Salesforce is enthusiastically embracing the shift.",
+              "id": "1dcd73-03",
+              "raw_content": null,
+              "score": 0.63777614,
+              "title": "Salesforce Hosted MCP Servers Are Now Generally ...",
+              "url": "https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available"
+            },
+            {
+              "content": "# MCP Salesforce Server\n\nProvides seamless integration with Salesforce using OAuth authentication.\n\n## Documentation\n\n## MCP Salesforce Server\n\nCI\n\nCI\n\nA Model Context Protocol (MCP) server that provides seamless integration with Salesforce using OAuth authentication. This server enables AI assistants like Claude to interact with any Salesforce organization through a secure, generic interface.\n\n## ✨ Features\n\n## 🚀 Quick Start\n\n### Prerequisites\n\n### Installation Options [...] ## 📄 License\n\nMIT License - see LICENSE file for details.\n\n## 🆘 Support\n\n`docs/`\n\nMade with ❤️ for the MCP ecosystem\n\n## MCP server details\n\n## Related Servers\n\n### HubSpot MCP Server\n\nHubSpot MCP server by CData for querying live HubSpot CRM data from AI agents, including contacts, companies, deals, and engagement records.\n\n### Apollo.io MCP [...] ### Apollo.io MCP\n\nMCP server for Apollo.io, search leads, enrich contacts, manage sequences & CRM from Claude Code, Cursor, or any MCP client. 45+ tool calls covering the full Apollo.io API.\n\n### BasedOnBusiness\n\nGoogle Maps business & lead data API and MCP server - search, enrich (email, social, tech stack), and export leads across 195 countries.\n\n### Clay MCP Server\n\nAn MCP server for interacting with the Clay API, which requires a Clay API key.\n\n### CompanyEnrich",
+              "id": "079445-04",
+              "raw_content": null,
+              "score": 0.6139086,
+              "title": "Salesforce MCP Server | Awesome MCP Servers",
+              "url": "https://mcpservers.org/servers/AiondaDotCom/mcp-salesforce"
+            }
+          ]
+        },
+        "error": null,
+        "successful": true
+      },
+      "ok": true,
+      "action": "COMPOSIO_SEARCH_TAVILY",
+      "version": "20260903_00",
+      "operation": "tools.execute",
+      "arguments": {
+        "query": "Salesforce MCP server official community"
+      },
+      "user_id": "uday-assessment"
+    }
+  ],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/authentication.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/authentication.html",
+      "retrieved_at": "2026-09-16T17:42:55.087637+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+      "retrieved_at": "2026-09-16T17:42:55.220234+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "final_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "retrieved_at": "2026-09-16T17:42:55.330274+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "retrieved_at": "2026-09-16T17:42:55.427344+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 902,
+    "output_tokens": 157
+  },
+  "failure": null
+}

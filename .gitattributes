@@ -1,0 +1,2 @@
+data/runs/** -text
+data/runs/** whitespace=cr-at-eol

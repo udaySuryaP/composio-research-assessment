@@ -1,0 +1,197 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 50,
+    "app_name": "fanbasis",
+    "category": "5. Ecommerce",
+    "website": "http://fanbasis.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unclear",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://fanbasis.com/",
+        "final_url": "https://commas.com/",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:51.380202+00:00",
+        "content_sha256": "e9803fdbc7270820ab8ac2db8d051f05fbcc71797a54227102e9043063b28584",
+        "quote": "Enterprise & APIs Embedded checkouts, multi-rail payouts, APIs and SDKs. Everything you'd replace Stripe with, plus BNPL, recovery and lower effective rates.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "mcp_available",
+        "claim": "unclear",
+        "url": "https://fanbasis.com/",
+        "final_url": "https://commas.com/",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:51.380202+00:00",
+        "content_sha256": "e9803fdbc7270820ab8ac2db8d051f05fbcc71797a54227102e9043063b28584",
+        "quote": "MCP beta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "no_usable_official_source",
+      "nonofficial_critical_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:21:07.908285+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 50,
+    "app_name": "fanbasis",
+    "category": "5. Ecommerce",
+    "website": "http://fanbasis.com/",
+    "description": "FanBasis is now Commas, a platform that provides everything needed to make money online including creating, selling, and getting paid with built-in payments. It offers features like checkout, funnels, communities, courses, webinars, affiliates, and enterprise solutions with APIs and SDKs.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "Commas offers APIs and SDKs for embedded checkouts, multi-rail payouts, and other enterprise features, effectively replacing Stripe with additional payment and financing options.",
+    "mcp_available": "unclear",
+    "mcp_notes": "The evidence mentions an MCP beta that allows running Commas from an AI assistant to create checkout links, issue refunds, and pull numbers in plain English, but details on availability and access are unclear.",
+    "buildability": "conditional",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "APIs and SDKs are available for enterprise and embedded use cases, but authentication methods and access models are not clearly documented in the evidence, making buildability conditional on obtaining further details.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "FanBasis is now Commas, a platform that provides everything needed to make money online including creating, selling, and getting paid with built-in payments. It offers features like checkout, funnels, communities, courses, webinars, affiliates, and enterprise solutions with APIs and SDKs.",
+        "url": "https://fanbasis.com/",
+        "final_url": "https://commas.com/",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:51.380202+00:00",
+        "content_sha256": "e9803fdbc7270820ab8ac2db8d051f05fbcc71797a54227102e9043063b28584",
+        "quote": "FanBasis is now Commas! Products Products Solutions Solutions Contact Us Contact Us Login Get started Back Built for your next comma The new era for making money on the internet One place to create, sell, and get paid, with payments built in. From your first dollar to your next comma. Get started Overview Everything you need to make money online. What used to take seven apps and a developer now takes one Commas account. Checkouts built to convert Funnels that build themselves Communities your members pay to stay in Courses your students actually finish Webinars with checkout built into the room Affiliates who sell your offer for you Studios One studio to host all of your customers Launch a course, a paid community, or both, inside one branded Studio your members can pay to join. Funnel Builder Describe what you want to sell. AI builds the entire sales journey for you. Trained on tens of thousands of real, high-converting sales pages and checkout flows. You start with a proven structure instead of a blank page \u001a then make it yours in seconds. From prompt to funnel AI that builds your funnel from patterns proven by top sellers. It pulls from what's converting right now and instantly builds pages that do the same for you. Their years of testing, skipped for you. Conditional logic and A/B testing Send buyers down different paths based on what they do: take the upsell, skip it, or hesitate at checkout. Then run variants on any page and let the winner take the traffic. Funnels that optimize themselves Vibe Funnels watches every page, compares your results against funnels that already convert, and starts new tests on its own. Your numbers go up without you touching anything. Webinars Webinars that sell while you present. The checkout lives inside the room, so nobody leaves to pay. Run it live, recorded or hybrid. Native Checkout Live Engagement Instant Revenue No third-party checkout. Ever. The first webinar platform with checkout and payments built in. Keep audiences hooked and buying Pin, poll, share, and sell \u001a all in the moment Watch revenue roll in, live See checkouts convert the moment they happen Payments Payments designed as the foundation. All other features crafted to support them. Every way to pay Cards, wallets and local methods, everywhere your buyers are. The internet's largest BNPL suite Buyers split the payment or finance it \u001a you get paid in full, upfront. Smart routing that gets more payments approved Each sale is routed to the processor most likely to say yes and declines get retried automatically. Subscriptions that save themselves AI Smart Retries, card updates and recovery emails reverse up to 32% of churn before it sticks. Enterprise Enterprise sellers make more money here. Higher approval rates, lower fees, buyer financing and lead intelligence. For businesses who switch, it adds up to 12\u001315% more revenue. Enterprise & APIs Embedded checkouts, multi-rail payouts, APIs and SDKs. Everything you'd replace Stripe with, plus BNPL, recovery and lower effective rates. MCP beta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://fanbasis.com/",
+        "final_url": "https://commas.com/",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:51.380202+00:00",
+        "content_sha256": "e9803fdbc7270820ab8ac2db8d051f05fbcc71797a54227102e9043063b28584",
+        "quote": "Enterprise & APIs Embedded checkouts, multi-rail payouts, APIs and SDKs. Everything you'd replace Stripe with, plus BNPL, recovery and lower effective rates.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "mcp_available",
+        "claim": "unclear",
+        "url": "https://fanbasis.com/",
+        "final_url": "https://commas.com/",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:51.380202+00:00",
+        "content_sha256": "e9803fdbc7270820ab8ac2db8d051f05fbcc71797a54227102e9043063b28584",
+        "quote": "MCP beta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "medium",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:20:53.882420+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "description"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://fanbasis.com/",
+      "final_url": "https://commas.com/",
+      "retrieved_at": "2026-09-16T17:20:51.380202+00:00",
+      "ok": true,
+      "source_kind": "third_party",
+      "text": "Commas | Where you make money on the internet FanBasis is now Commas! Products Products Solutions Solutions Contact Us Contact Us Login Get started Back Built for your next comma The new era for making money on the internet One place to create, sell, and get paid, with payments built in. From your first dollar to your next comma. Get started Overview Everything you need to make money online. What used to take seven apps and a developer now takes one Commas account. Checkouts built to convert Funnels that build themselves Communities your members pay to stay in Courses your students actually finish Webinars with checkout built into the room Affiliates who sell your offer for you Studios One studio to host all of your customers Launch a course, a paid community, or both, inside one branded Studio your members can pay to join. Funnel Builder Describe what you want to sell. AI builds the entire sales journey for you. Trained on tens of thousands of real, high-converting sales pages and checkout flows. You start with a proven structure instead of a blank page — then make it yours in seconds. From prompt to funnel AI that builds your funnel from patterns proven by top sellers. It pulls from what's converting right now and instantly builds pages that do the same for you. Their years of testing, skipped for you. Conditional logic and A/B testing Send buyers down different paths based on what they do: take the upsell, skip it, or hesitate at checkout. Then run variants on any page and let the winner take the traffic. Funnels that optimize themselves Vibe Funnels watches every page, compares your results against funnels that already convert, and starts new tests on its own. Your numbers go up without you touching anything. Webinars Webinars that sell while you present. The checkout lives inside the room, so nobody leaves to pay. Run it live, recorded or hybrid. Native Checkout Live Engagement Instant Revenue No third-party checkout. Ever. The first webinar platform with checkout and payments built in. Keep audiences hooked and buying Pin, poll, share, and sell — all in the moment Watch revenue roll in, live See checkouts convert the moment they happen Payments Payments designed as the foundation. All other features crafted to support them. Every way to pay Cards, wallets and local methods, everywhere your buyers are. The internet's largest BNPL suite Buyers split the payment or finance it — you get paid in full, upfront. Smart routing that gets more payments approved Each sale is routed to the processor most likely to say yes and declines get retried automatically. Subscriptions that save themselves AI Smart Retries, card updates and recovery emails reverse up to 32% of churn before it sticks. Enterprise Enterprise sellers make more money here. Higher approval rates, lower fees, buyer financing and lead intelligence. For businesses who switch, it adds up to 12–15% more revenue. Enterprise & APIs Embedded checkouts, multi-rail payouts, APIs and SDKs. Everything you'd replace Stripe with, plus BNPL, recovery and lower effective rates. MCP beta Run Commas from your AI assistant. Create checkout links, issue refunds and pull your numbers in plain English. Qualifier Enriches every lead with income, credit and net worth, so your closers chase the right buyers and your checkout offers the right financing. Testimonials Creators who left broken stacks Switching to Commas helped them recover lost revenue, simplify their stack, and scale without friction. When I look at a platform, I look at whether it can scale and whether the infrastructure is real. Commas checks both boxes. This is serious technology for serious businesses. Daymond John Founder of FUBU, Shark Tank investor Presidential Ambassador for Global Entrepreneurship. $6B+ Global FUBU sales 3× New York Times best-selling author We're a software company, so we judge everything by the integration. We evaluated every company in the space. Commas took days, not quarters. The API is clean, payouts just run, and when something matters, a human answers within the hour. Sendblue iMessage for business The iMessage platform powering thousands of businesses. $2.1B+ Revenue generated for clients 10M+ iMessages delivered I've been on every platform. Nothing comes close to this. The checkout, the BNPL options, the affiliate system: it's all built to close. This is the only platform I recommend to my clients. Daniel G World's #1 sales trainer Author of The Sales Game, the fastest-selling sales manual of 2025. 22K+ Sales pros trained 510+ International events I went from stitching together four different tools to one platform that does everything. My webinars convert better, my audience and community is in one place, and I actually understand what's working. Alex Eubank Founder of Pathway Coaching Top 1% fitness creator worldwide. 2.8M+ Instagram followers 1.2M+ YouTube subscribers I teach people how to get a yes. Commas makes sure the yes actually turns into money. We run multiple communities and courses at 7th Level, and this is the first platform that handles all of it, with payment tools that help close more deals. Jeremy Miner Founder & CEO, 7th Level Creator of the NEPQ sales methodology. 500K+ Salespeople trained 150+ Industries served We've moved our entire client roster onto Commas. The checkouts convert better, the BNPL options close offers that used to stall, and lead qualifier is a game changer. At our level of ad spend, a conversion lift isn't a feature, it's millions of dollars. GrowRev 9-figure growth marketing agency The agency behind Tony Robbins, Dean Graziosi and ClickFunnels. $300M+ Ad spend managed $2B+ Revenue generated Commas Cards Earn. Hold. Spend. Pay. All in one place. Your wallet is your financial hub. Upgrade to a full business account with routing numbers and up to 4.6% APY. Join the Waitlist FAQ's Need more answers? Here are answers to our most asked questions Do I need an audience to start? No. Plenty of sellers make their first sales through DMs, referrals or a single piece of content. An audience speeds you up, but it's not the price of entry. What does it cost? What can I sell on Commas? How fast do I get paid? Does Commas work in my country? Is Commas a payment processor? Can I move my existing business over? What happened to FanBasis? Built for the next comma… and every one after it. Get started Instagram X (Twitter) LinkedIn Contact Us Privacy Policy Terms & Conditions FanBasis is now Commas © 2026 Commas Inc. All rights reserved All systems operational",
+      "content_sha256": "e9803fdbc7270820ab8ac2db8d051f05fbcc71797a54227102e9043063b28584",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2393,
+    "output_tokens": 1392
+  },
+  "failure": null
+}

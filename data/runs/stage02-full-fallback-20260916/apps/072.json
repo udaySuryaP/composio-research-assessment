@@ -1,0 +1,292 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 72,
+    "app_name": "Airtable",
+    "category": "8. Productivity and Project Management",
+    "website": "http://airtable.com/developers",
+    "description": "unknown",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "The API is accessible via Personal Access Tokens with configurable scopes and access levels, allowing developers to build integrations with Airtable bases and workspaces. The tokens are managed through the developer hub, and the API supports standard REST operations with permission enforcement.",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Plan availability All plan types. Certain features are only available to Enterprise Scale or Business plan customers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability_rationale",
+        "claim": "The API is accessible via Personal Access Tokens with configurable scopes and access levels, allowing developers to build integrations with Airtable bases and workspaces. The tokens are managed through the developer hub, and the API supports standard REST operations with permission enforcement.",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:23:33.788968+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 72,
+    "app_name": "Airtable",
+    "category": "8. Productivity and Project Management",
+    "website": "http://airtable.com/developers",
+    "description": "Airtable provides Personal Access Tokens (PATs) that allow users to create multiple access tokens with configurable scopes and access to Airtable bases and workspaces. PATs reflect the permissions of the user creating them and can be scoped narrowly to a single base or broadly to all workspaces and bases the user owns. Admins can use PATs to access organization resources without being direct collaborators. PATs do not expire and can be managed via the developer hub.",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Airtable's API allows scoped access to bases and workspaces with fine-grained permissions via Personal Access Tokens, supporting read and write operations depending on scopes and user permissions.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is accessible via Personal Access Tokens with configurable scopes and access levels, allowing developers to build integrations with Airtable bases and workspaces. The tokens are managed through the developer hub, and the API supports standard REST operations with permission enforcement.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Airtable provides Personal Access Tokens (PATs) that allow users to create multiple access tokens with configurable scopes and access to Airtable bases and workspaces. PATs reflect the permissions of the user creating them and can be scoped narrowly to a single base or broadly to all workspaces and bases the user owns. Admins can use PATs to access organization resources without being direct collaborators. PATs do not expire and can be managed via the developer hub.",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases. For example, on the narrow end, you can create a PAT that only has a single scope to a single base in Airtable. On the deep end, however, you could have a \"main/overarching\" token that has access to all workspaces and bases with all available scopes included. Further, admins can adopt user role access on workspaces and bases in their enterprise for which they are not direct collaborators. PATs allow admins access to workspaces and bases added to their organization. The admin who owns the PAT does not need to be a direct collaborator on every workspace and base within the organization. Instead, the PAT adopts the user role permissions for those bases and workspaces. Personal access tokens do not have an expiration window and remain active indefinitely until they are manually deleted, regenerated, or modified.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Plan availability All plan types. Certain features are only available to Enterprise Scale or Business plan customers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "More common API troubleshooting information is available here . Getting started with Airtable's Web API Airtable Web API - Using filterByFormula or sort parameters",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Airtable's API allows scoped access to bases and workspaces with fine-grained permissions via Personal Access Tokens, supporting read and write operations depending on scopes and user permissions.",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "You can limit and configure the access of your personal access tokens. You can do this by selecting the scopes (what endpoints the token can use) and access/resources (which bases and workspaces the token can access) when creating or updating a token. Regardless of the scopes and access a user selects for their token, the token will only be able to perform actions that the user creating it is allowed to do.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability_rationale",
+        "claim": "The API is accessible via Personal Access Tokens with configurable scopes and access levels, allowing developers to build integrations with Airtable bases and workspaces. The tokens are managed through the developer hub, and the API supports standard REST operations with permission enforcement.",
+        "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+        "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+        "quote": "Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:17.936146+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "api_types",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://airtable.com/developers/web/api/introduction",
+      "final_url": "https://airtable.com/developers/web/api/introduction",
+      "retrieved_at": "2026-09-16T17:23:13.601714+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "Airtable Web API",
+      "content_sha256": "a6018f9140ad9e2576380311448a9a96814692c5db2e4902402619a82b70eca5",
+      "error": "Insufficient readable content; possible JS shell",
+      "status": 200
+    },
+    {
+      "requested_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+      "final_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+      "retrieved_at": "2026-09-16T17:23:16.070505+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Creating personal access tokens | Airtable Help Center Contact support Sign up for free All Collections › Integrating with Airtable › API Creating personal access tokens Last updated 1 month ago Plan availability All plan types. Certain features are only available to Enterprise Scale or Business plan customers. Permissions The scopes and access that you can set up with personal access tokens will reflect the permissions that you have in the various workspaces and bases connected to your Airtable account. Platform(s) Web/Browser, Mac app, and Windows app Related reading Scopes developer documentation - More technical information related to scopes in Airtable. Service accounts overview - Help article that explains how Airtable admins can set up non-user accounts that can access Airtable's APIs. Third-party integrations via OAuth overview - Help article that discusses the broader ways to manage which third-party integrations have access to your Airtable data. What are Personal Access Tokens? Personal Access Tokens (PATs) allow users to create multiple access tokens that allow for a wide range of access to the information held in Airtable bases. For example, on the narrow end, you can create a PAT that only has a single scope to a single base in Airtable. On the deep end, however, you could have a \"main/overarching\" token that has access to all workspaces and bases with all available scopes included. Further, admins can adopt user role access on workspaces and bases in their enterprise for which they are not direct collaborators. PATs allow admins access to workspaces and bases added to their organization. The admin who owns the PAT does not need to be a direct collaborator on every workspace and base within the organization. Instead, the PAT adopts the user role permissions for those bases and workspaces. Accessing personal access tokens Open the developer hub . Click Personal access tokens under the “Developers” section. Creating personal access tokens Open the developer hub . Click Create token . Name your token. Click + Add a scope . Check out developer documentation to learn more about scopes. Click + Add all resources / + Add a base to select your token’s access level. Options include choosing a single base, multiple bases—including bases from different workspaces—all of the current and future bases in a workspace you own, or even all of the bases from any workspace that you own including bases/workspace added in the future. Updating personal access tokens Open the developer hub . Scroll or search for the name of the PAT that you want to update/edit. Click the token's name. Alternatively, click the … icon to the far side of the PAT, then click Edit token . Update the name, scopes, or access for the PAT. Click Save changes . Regenerating or deleting personal access tokens Open the developer hub . Scroll or search for the name of the PAT that you want to regenerate or delete. Click the … icon to the far side of the PAT. Click Regenerate token or Delete token . Regenerating a token will cause a warning message to appear. Remember that any services currently using this token will need to be updated with the new token that is generated. FAQs What can my personal access tokens access? Unlike legacy API keys, which have the same access as your Airtable account, you can limit and configure the access of your personal access tokens. You can do this by selecting the scopes (what endpoints the token can use) and access/resources (which bases and workspaces the token can access) when creating or updating a token. Regardless of the scopes and access a user selects for their token, the token will only be able to perform actions that the user creating it is allowed to do. For example, to create a new field in a base via the API, the user must be a Creator collaborator in the base and the token must have the schema.bases:write scope and the base added as a resource. For more information about how scopes and access work, see the Authentication developer reference . For more information about configuring your token's access, refer to the personal access tokens guide . How do I find my API key? On Jan 18, 2023, we began the deprecating user API keys, completing the deprecation process on Feb 1, 2024, meaning: API Keys can no longer access the Airtable API. Webhooks created with user API keys will not expire, but can no longer be created. All users should migrate to Personal Access Tokens for individual use and OAuth for third-party integrations. To access your PATs: Open the developer hub . Click Personal access tokens under the “Developers” section. Why might I be seeing the \"INVALID_PERMISSIONS_OR_MODEL_NOT_FOUND\" error? Typically, this error type indicates either: A permissions-related issue, in which case you’ll want to: Check your PAT scopes Check your permissions level in the base you are referencing See if field and table permissions might also be causing the invalid permissions error. An issue with the base referenced, in which case you’ll want to: Double-check that the base id referenced is correct Confirm that the base has not been deleted More common API troubleshooting information is available here . I’m not able to access the enterprise scopes. What might be occurring? The ability to add enterprise. scopes is restricted to Enterprise Scale plans. This feature is not available on Business plans. Upgrading to an Enterprise Scale plan is required to use this functionality. Do personal access tokens expire? No. Personal access tokens do not have an expiration window and remain active indefinitely until they are manually deleted, regenerated, or modified. If a PAT stops working, the cause is one of the following rather than expiration: The token was regenerated, which invalidates the previous token value, so any service still using the old string will fail until updated with the new one. The token was deleted, or its scopes or base/workspace access were changed. If a PAT failure is happening in the environment or application consuming the token, check there, and with that platform's support, if Airtable shows the token as active. You can review your tokens any time in the developer hub under Personal access tokens. Why am I receiving the “INVALID_PERMISSIONS_OR_MODEL_NOT_FOUND” error? If your scopes, workspace/base IDs, and access all check out and you're on an enterprise organization, the most likely cause is an org-level API restriction set in the admin panel, not your token. When an admin enables \"Block API access to organization-owned bases and workspaces\" (under Settings → Integrations & development), only users on the API access allowlist can use Personal Access Tokens against organization-owned resources — and requests from anyone not on the allowlist return INVALID_PERMISSIONS_OR_MODEL_NOT_FOUND, even with fully correct scopes and IDs. To resolve it, ask one of your internal Airtable admins to add you (or your service account) to the allowlist for that setting. If the admin needs guidance, point them to Settings – Airtable admin panel. The other documented causes remain worth ruling out: field/table editing permissions and an incorrect or inaccessible base/workspace ID. Related Articles Getting started with Airtable's Web API Airtable Web API - Using filterByFormula or sort parameters Service accounts overview Airtable API: Common troubleshooting Managing API call limits in Airtable",
+      "content_sha256": "e3d629d274fd917e98698ba47af65b9c5256a6fc34764264b53179428695e5b7",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2559,
+    "output_tokens": 2057
+  },
+  "failure": null
+}

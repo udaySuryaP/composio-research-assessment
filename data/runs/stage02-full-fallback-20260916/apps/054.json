@@ -1,0 +1,262 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 54,
+    "app_name": "MrScraper",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://docs.mrscraper.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Token Plan Learn how tokens work and create an API token for authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Billing Understand subscription plans, token usage, and billing cycles.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:21:48.926720+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 54,
+    "app_name": "MrScraper",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://docs.mrscraper.com/",
+    "description": "MrScraper is a powerful scraping platform designed to automate and simplify data extraction from websites. It supports scraping e-commerce product data, job listings, customer reviews for sentiment analysis, real estate listings, flight prices, and more. The platform offers AI-powered and manual scrapers, bulk scraping, proxy routing, scheduling, and integrations with tools like Zapier, n8n, Apify, and others. It provides SDKs for Python, Node.js, and LangChain, a CLI, and a Model Context Protocol (MCP) server for AI agents to fetch and extract web data.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API supports activating scrapers as API endpoints, running scrapers programmatically, asynchronous calls via SDKs, and includes endpoints for authentication, pagination, and error handling.",
+    "mcp_available": "official",
+    "mcp_notes": "The MrScraper MCP server source code is available on GitHub for local setup, contributions, and issue reports. It allows AI agents to fetch and extract web data through the Model Context Protocol.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "MrScraper provides comprehensive official documentation including API references, SDKs (Python, Node.js, LangChain), CLI tools, and an official MCP server implementation. Authentication is via API tokens. The platform supports programmatic scraping with detailed guides and code examples, enabling building integrations and automation workflows.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "MrScraper is a powerful scraping platform designed to automate and simplify data extraction from websites. It supports scraping e-commerce product data, job listings, customer reviews for sentiment analysis, real estate listings, flight prices, and more. The platform offers AI-powered and manual scrapers, bulk scraping, proxy routing, scheduling, and integrations with tools like Zapier, n8n, Apify, and others. It provides SDKs for Python, Node.js, and LangChain, a CLI, and a Model Context Protocol (MCP) server for AI agents to fetch and extract web data.",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "MrScraper platform, from your first scrape to AI agents, integrations, and APIs. Discover how our powerful scraping platform can transform the way you extract data. Whether you're scraping e-commerce product data, collecting job listings, gathering customer reviews for sentiment analysis, or extracting any website content, our AI-powered and manual scrapers are designed to automate and simplify the process, giving you a powerful edge in any project. ... Integrations Integrate MrScraper with your favorite tools to automate your data flow. ... Python SDK Call the MrScraper API asynchronously with the mrscraper-sdk package. Node.js SDK Scrape, crawl, and extract structured data using the MrScraper Node SDK. LangChain SDK Use MrScraper as LangChain tools inside your own agents. ... CLI Scrape, crawl, and extract data from the web directly from your terminal. MCP Server Let AI agents fetch and extract web data through the Model Context Protocol.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Token Plan Learn how tokens work and create an API token for authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Billing Understand subscription plans, token usage, and billing cycles.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Scraper API Activate a scraper as an API endpoint and run it programmatically. ... API Reference Explore every endpoint, authentication, pagination, and error handling.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "[\"rest\",\"sdk\"]",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Python SDK Call the MrScraper API asynchronously with the mrscraper-sdk package. Node.js SDK Scrape, crawl, and extract structured data using the MrScraper Node SDK. ... API Reference Explore every endpoint, authentication, pagination, and error handling.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "The MrScraper MCP server source code is available on GitHub for local setup, contributions, and issue reports. ... MCP Server Let AI agents fetch and extract web data through the Model Context Protocol.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.mrscraper.com/",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+        "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+        "quote": "Quickstart Run your first scraper in a few minutes with a step-by-step walkthrough. ... Python SDK Call the MrScraper API asynchronously with the mrscraper-sdk package. Node.js SDK Scrape, crawl, and extract structured data using the MrScraper Node SDK. LangChain SDK Use MrScraper as LangChain tools inside your own agents. ... API Reference Explore every endpoint, authentication, pagination, and error handling. ... The MrScraper MCP server source code is available on GitHub for local setup, contributions, and issue reports.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:34.845769+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.mrscraper.com/",
+      "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+      "retrieved_at": "2026-09-16T17:21:31.405426+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Overview | MrScraper Documentation Documentation Core Features Dashboard Getting Started Overview Quickstart Playground Token Plan CLI MCP Server Billing Features AI Scraper Manual Scraper Scraper API Bulk Scraping Proxy Marketplace Schedule S3 Storage Web Unblocker Cookie Team Guides Common Use Case Optimizing Cost Create and Run a Scraper Programmatically Bulk Scraping With Custom Scraper Integrations Email SQL/Database Webhook Zapier ClawHub n8n SDKs Apify MrScraper Search ⌘ K Dashboard Documentation API Reference Residential Proxy Changelog Overview Overview Your all-in-one guide to understanding, configuring, and using the MrScraper platform, from your first scrape to AI agents, integrations, and APIs. Discover how our powerful scraping platform can transform the way you extract data. Whether you're scraping e-commerce product data, collecting job listings, gathering customer reviews for sentiment analysis, or extracting any website content, our AI-powered and manual scrapers are designed to automate and simplify the process, giving you a powerful edge in any project. Start Here New to MrScraper? These pages get you from sign-up to your first scraped dataset. Quickstart Run your first scraper in a few minutes with a step-by-step walkthrough. Playground Test API requests, explore features, and generate code without writing code. Token Plan Learn how tokens work and create an API token for authentication. Billing Understand subscription plans, token usage, and billing cycles. AI Agents Pick the agent that matches the page you're scraping, or chain several together. AI Scraper Automatically extract data with natural language instructions — no coding required. General Agent Extract structured data from a single web page using a natural language prompt. Listing Agent Scrape listing pages with automated pagination, infinite scroll, and load-more handling. Map Agent Discover and extract every URL from a website to understand its structure. Multi-Agent Flow Combine Map, Listing, and General agents into end-to-end extraction workflows. Features Explore MrScraper's key features and tools designed to make data extraction effortless. Manual Scraper Build and customize your own scraper workflow step by step for full control. Self-Healing Let AI generate, repair, and extend Manual Scraper workflows when a site changes. Bulk Scraping Scrape multiple URLs in one go by uploading a list or Excel file. Web Unblocker Bypass anti-scraping measures and reach geo-restricted content. Proxy Route individual scrapers through proxies to mask your IP and improve reliability. Cookie Use your own cookies to access content behind logins and restrictions. Scheduling Automate scraper runs on a schedule to keep your data fresh and up to date. Marketplace Use ready-to-run scrapers for popular websites and common scraping use cases. Scraper API Activate a scraper as an API endpoint and run it programmatically. S3 Storage Save scraped data straight into your own S3 bucket. Team Create a team to share scrapers and collaborate on projects. Use Cases Discover how MrScraper can support different real-world scenarios. E-Commerce Scrape product details, pricing, and availability from major e-commerce sites. Job Listings Collect job postings and company data for recruitment or market analysis. Sentiment Analysis Extract and analyze customer feedback to gain insights into sentiment and satisfaction. Real Estate Gather property listings, prices, and market trends from real estate websites. Flight Price Scrape flight prices, airlines, and schedules for price monitoring and booking analysis. Optimizing Cost Minimize token usage and maximize scraping efficiency without losing accuracy. Scrape Programmatically Create an AI scraper once, then run it from your own code via the API. Integrations Integrate MrScraper with your favorite tools to automate your data flow. Email Receive email notifications whenever a scraper finishes or encounters an error. Database Automatically store scraped data in your database for querying and analysis. Webhook Send scraper results directly to external services through webhooks. Zapier Connect your scrapers to thousands of apps with no-code Zapier automations. n8n Build automated workflows around your scrapers with the MrScraper n8n node. Apify Run MrScraper as Apify Actors and pipe results into the Apify platform. ClawHub Install the MrScraper skill to give your OpenClaw agent unblockable web scraping. Developer Tools Work with MrScraper from your terminal, your codebase, or your AI agent. The MrScraper MCP server source code is available on GitHub for local setup, contributions, and issue reports. CLI Scrape, crawl, and extract data from the web directly from your terminal. MCP Server Let AI agents fetch and extract web data through the Model Context Protocol. Python SDK Call the MrScraper API asynchronously with the mrscraper-sdk package. Node.js SDK Scrape, crawl, and extract structured data using the MrScraper Node SDK. LangChain SDK Use MrScraper as LangChain tools inside your own agents. API Reference Explore every endpoint, authentication, pagination, and error handling. Residential Proxy Route your own tools and browsers through our proxy network. Proxy Overview Understand proxy types, global coverage, and how to get started. Authentication Configure username patterns, sessions, and country targeting. Code Examples Ready-to-use snippets for Python, Node.js, Go, PHP, Playwright, and more. Quickstart A step-by-step guide to making your first MrScraper API request, scraping a product page with the General AI Agent in just a few minutes. On this page Start Here AI Agents Features Use Cases Integrations Developer Tools Residential Proxy",
+      "content_sha256": "c212cd6f48d70a70e7b530459b7c6965ce783aef80a476d736e0465070927e58",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2136,
+    "output_tokens": 1860
+  },
+  "failure": null
+}

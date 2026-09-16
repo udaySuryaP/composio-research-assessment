@@ -1,0 +1,254 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 63,
+    "app_name": "Netlify",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://docs.netlify.com/api",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Netlify API is RESTful.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:22:44.202425+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 63,
+    "app_name": "Netlify",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://docs.netlify.com/api",
+    "description": "Netlify provides a REST API to manage atomic deploys of sites and apps, form submissions, JavaScript snippets, DNS, and more. It supports operations like creating sites, deploying via file digest or ZIP files, managing environment variables, files, deploys, snippets, forms, and hooks. The API is versioned and uses HTTPS.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers site and deploy management, form submissions, DNS, JavaScript snippets, environment variables, files, deploys, snippets, forms, hooks, and serverless functions. It supports creating sites, deploying via file digest or ZIP files, polling deploy state, and draft deploys.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with examples, uses OAuth2 and bearer tokens for authentication, supports REST endpoints for all major operations including deploys, site management, and functions. The documentation includes request examples and details on authentication, rate limiting, pagination, and deployment methods, enabling building integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Netlify provides a REST API to manage atomic deploys of sites and apps, form submissions, JavaScript snippets, DNS, and more. It supports operations like creating sites, deploying via file digest or ZIP files, managing environment variables, files, deploys, snippets, forms, and hooks. The API is versioned and uses HTTPS.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructions for deploying sites and notes on some commonly used endpoints . ... All URLs start with https://api.netlify.com/api/v1/ . SSL only . The path is prefixed with the API version.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Netlify uses OAuth2 for authentication and requires bearer tokens in the Authorization header.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Netlify uses OAuth2 for authentication. All requests must use HTTPS. ... To authenticate API requests, include the token in the authorization header: Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN>",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Netlify API access is self-serve with paid plans.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "More flexibility and credits now available for Pro plans \u001f API And CLI Guides / API Guides / Get started with the Netlify API",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Netlify API is available and documented with REST endpoints.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. ... All URLs start with https://api.netlify.com/api/v1/ . SSL only . The path is prefixed with the API version.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Netlify API is RESTful.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers site and deploy management, form submissions, DNS, JavaScript snippets, environment variables, files, deploys, snippets, forms, hooks, and serverless functions. It supports creating sites, deploying via file digest or ZIP files, polling deploy state, and draft deploys.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. ... The most common API action is doing deploys, either of a new site or an existing site. ... Netlify supports two ways of doing deploys: Sending a digest of all files in your deploy, and then uploading any files Netlify doesn\u00039t already have on its storage servers. Sending a ZIP file of the entire site and letting Netlify unzip and deploy. ... You can poll the deploy to check the state: GET /api/v1/deploys/{deploy_id} ... When creating a new deploy, you can set \"draft\": true to mark the deploy as a draft deploy.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The API is well documented with examples, uses OAuth2 and bearer tokens for authentication, supports REST endpoints for all major operations including deploys, site management, and functions. The documentation includes request examples and details on authentication, rate limiting, pagination, and deployment methods, enabling building integrations.",
+        "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+        "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+        "quote": "Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. ... Netlify uses OAuth2 for authentication. All requests must use HTTPS. ... To authenticate API requests, include the token in the authorization header: Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN> ... The most common API action is doing deploys, either of a new site or an existing site. ... Netlify supports two ways of doing deploys: Sending a digest of all files in your deploy, and then uploading any files Netlify doesn\u00039t already have on its storage servers. Sending a ZIP file of the entire site and letting Netlify unzip and deploy. ... You can poll the deploy to check the state: GET /api/v1/deploys/{deploy_id} ... When creating a new deploy, you can set \"draft\": true to mark the deploy as a draft deploy.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:24.671767+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "retrieved_at": "2026-09-16T17:22:24.248537+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Get started with the Netlify API | Netlify Docs Skip to content Netlify Docs Start Build Fundamentals Build with AI Configure builds Git workflows Environment variables Frameworks Post-processing User-Agent categories Primitives AI Gateway Serverless Functions Edge Functions Image CDN Blobs Database Caching Async Workloads Deploy Manage Accounts & Billing Projects Domains Data & Storage Security & access Monitoring & Insights Preview Servers Forms Visual Editor Routing & Redirects Extend Install & use Develop & share Netlify SDK for extensions Building code agents Framework adapter API Reference Error reference Netlify skills Request processing order CLI reference Netlify SDK for extensions Visual Editor reference APIs Netlify API Database API Frameworks API Cache API Blobs API Serverless Functions API Edge Functions API Dev Tool Guides API and CLI guides Terraform provider Command Palette Resources Troubleshooting Changelog Examples Migrate Support Checklists Release phases Enterprise credits AI API & CLI guides API & CLI guides Overview API guides Get started with API Deploy project from a zip file with API Deploy zip file to production More API guides API reference docs Go client JS client CLI guides Get started with CLI Local development Manage functions Debug with VSCode More CLI guides CLI reference docs On this page Overview Make a request Authentication Rate limiting Pagination Link header Deploy with the API File digest method ZIP file method Create and deploy at once Poll for deploy state Draft deploys Commonly used endpoints Sites Site metadata Environment variables Files Deploys Snippets Forms Hooks On this page Overview Make a request Authentication Rate limiting Pagination Link header Deploy with the API File digest method ZIP file method Create and deploy at once Poll for deploy state Draft deploys Commonly used endpoints Sites Site metadata Environment variables Files Deploys Snippets Forms Hooks For the complete Netlify documentation index, see llms.txt . Markdown versions of any documentation page are available by appending .md to its URL. More flexibility and credits now available for Pro plans 🎉 API And CLI Guides / API Guides / Get started with the Netlify API Copy page View as Markdown Copy as Markdown View as Markdown Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNS, and so much more. This document covers the basics for interacting with the Netlify API, plus instructions for deploying sites and notes on some commonly used endpoints . You can browse the OpenAPI reference for the Netlify API to explore available endpoints. Visit our Forums for more tips and conversation about understanding and using Netlify’s API . Project ID, site_id, and NETLIFY_SITE_ID are the same value The Netlify UI labels this identifier Project ID , but the API, CLI, and environment variables still use site . Every project has exactly one identifier, and all of the following names refer to the same value: Netlify UI — Project ID (labeled Site ID before the rename) Netlify API — site_id , including in paths such as /api/v1/sites/{site_id} Netlify CLI, client libraries, and .netlify/state.json — siteId, siteID , --site , and NETLIFY_SITE_ID` To copy the value, go to Project configuration > General > Project details > Project information and copy Project ID . Project names work the same way: the UI’s Project name (formerly Site name ) is the API’s site_slug . Wherever the API accepts a {site_id} , you can also pass the project’s domain, such as mysite.netlify.app . Additionally, we have two API clients for your convenience: Go Client JS Client If you’d like to interact with the Netlify API using a no-code tool, you can use n8n.io’s Netlify node . The node currently supports the following operations: Create a new deployment Get a deployment Get all deployments Cancel a deployment Get a site Get all sites Delete a site Make a request Section titled “Make a request” All URLs start with https://api.netlify.com/api/v1/ . SSL only . The path is prefixed with the API version. If we change the API in backward-incompatible ways, we’ll bump the version marker and maintain stable support for the old URLs. To make a request for all sites you have access to, for example, append the sites index path to the base URL to form something like https://api.netlify.com/api/v1/sites . Here’s an example in curl: Terminal window curl -H \" User-Agent: MyApp (YOUR_NAME@EXAMPLE.COM) \" \\ -H \" Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN \" \\ https://api.netlify.com/api/v1/sites Authentication Section titled “Authentication” Netlify uses OAuth2 for authentication. All requests must use HTTPS. To generate a personal access token (PAT): Go to Applications > Personal access tokens . Select New access token . Enter a descriptive name to help you remember what the token will be used for. Select Allow access to my SAML-based Netlify team to authorize access to your SAML-based team data through the API. Select an Expiration date for your token to help keep your information secure. Select Generate token . Copy the token to your clipboard and store it in a safe location. Once you navigate away from this page, you won’t be able to access the value again. Select Done . Use your PAT for manual authentication in shell scripts or commands that use the Netlify API. To authenticate API requests, include the token in the authorization header: Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN> To authenticate in shell scripts, refer to the code sample above for an example of how to use this token in a curl request. Password resets invalidate tokens If you reset your Netlify password, all personal access tokens and OAuth tokens created before the reset will be permanently invalidated. After a password reset, you must generate new tokens and update any services or scripts that rely on them. SAML SSO If your team requires you to log in with single sign-on (SSO) , your personal access tokens will be denied access to the team by default. You can choose to grant access to the team when you generate a new token. You must be logged in to the team with SSO to grant access to it. If you’re making a public integration with Netlify for others to enjoy, you must use OAuth2. This allows users to authorize your application to use Netlify on their behalf without having to copy/paste API tokens or touch sensitive login info. You’ll need an application client key and a client secret to integrate with the Netlify API. You can register a new application in your Netlify user settings for OAuth applications . Visit our blog post on integrating with Netlify for more information including common grant types and an example project. The OAuth2 end-user authorization endpoint is https://app.netlify.com/authorize . Rate limiting Section titled “Rate limiting” To protect Netlify from getting flooded by automated deploys or misbehaving applications, the Netlify API is rate limited. You can make up to 500 requests per minute for most requests. Certain operations have their own stricter limits. For example, you can deploy through the Netlify API up to 3 times per minute and up to 100 times per day. You can check the returned HTTP headers of any API request to verify your current rate limit status: X-RateLimit-Limit: 500 X-RateLimit-Remaining: 56 X-RateLimit-Reset: 1372700873 If you need higher limits, please contact us . Pagination Section titled “Pagination” All API requests that return over 100 items are paginated by default, with a limit of 100 items per page. You can specify further pages with the ?page parameter. You can also set a custom page size that’s less than 100 with the ?per_page parameter. Note that page numbering starts with 1 and that omitting the ?page parameter will return the first page. Link header Section titled “Link header” The pagination info is included in the Link header. Link: <https://api.netlify.com/api/v1/sites?page=3&per_page=20>; rel=\"next\", < https: //api.netlify.com/api/v1/sites?page=5&per_page=20> ; rel=\"last\" Linebreak is included for readability. The possible rel values are: next Shows the URL of the immediate next page of results. last Shows the URL of the last page of results. prev Shows the URL of the immediate previous page of results. Deploy with the API Section titled “Deploy with the API” The most common API action is doing deploys, either of a new site or an existing site. If builds are stopped for an existing site, you can still deploy with the API to update the site. Netlify supports two ways of doing deploys: Sending a digest of all files in your deploy, and then uploading any files Netlify doesn’t already have on its storage servers. Sending a ZIP file of the entire site and letting Netlify unzip and deploy. If you’re looking to deploy sites at scale, such as building an AI code agent and looking for a deploy target, check out the APIs for code agents docs . Whether you deploy a brand new site or create a deploy within an existing site, the process is similar. First create a new site , if needed: POST /api/v1/sites Now you have a site ID and you can create a new deploy, either with a file digest or a ZIP file . File digest method Section titled “File digest method” We recommend using a digest including a file path and SHA1 for each item. This method also allows you to upload serverless functions, however serverless functions should use SHA256 instead. POST /api/v1/sites/{site_id}/deploys { \" files \" : { \" /index.html \" : \" 907d14fb3af2b0d4f18c2d46abe8aedce17367bd \" , \" /main.css \" : \" f18c2d7367bd9046abe8aedce17d14fb3af2b0d4 \" }, \" functions \" : { \" hello-world \" : \" 708b029d8aa9c8fa513d1a25b97ffb6efb12b423 \" } } When using a file digest, the API will return an object which includes the following properties: { \" id \" : \" 1234 \" , \" required \" : [ \" 907d14fb3af2b0d4f18c2d46abe8aedce17367bd \" ], \" required_functions \" : [ \" 708b029d8aa9c8fa513d1a25b97ffb6efb12b423 \" ] } The required property will give you a list of files by SHA1 that you need to upload. Similarly, required_functions will get you an array of required functions by SHA256 to upload, if you included a functions digest when creating the deploy. Tip If you have two files with the same SHA1, you don’t have to upload both of them. Now upload the files, using the deploy ID returned as id in the file digest response: PUT /api/v1/deploys/{deploy_id}/files/index.html Warning Be sure to escape the file_path parameter, and ensure file paths don’t include # or ? characters. Use Content-Type: application/octet-stream and use the file contents as the HTTP request body. If the required file is a function, upload it to the functions endpoint, again using the deploy ID returned as id in the file digest response: PUT /api/v1/deploys/{deploy_id}/functions/hello-world?runtime=js Possible runtime parameters are: js : zipped Node.js programs or bundled JavaScript files go : Go binaries When uploading functions, use the name of the function, not the file path or any file extensions. Clients must zip the function prior to uploading to the API. Once all files have been uploaded, Netlify will post process the deploy and invalidate the CDN. Async requests for large deploys Section titled “Async requests for large deploys” API requests that last longer than 30 seconds will be terminated automatically. When creating large deploys, pass the async property in your file digest: { \" async \" : true , \" files \" : { \" /index.html \" : \" 907d14fb3af2b0d4f18c2d46abe8aedce17367bd \" }, \" functions \" : { \" hello-world \" : \" 708b029d8aa9c8fa513d1a25b97ffb6efb12b423 \" } } The request will then return the deploy ID (as id ) which can be polled to determine when the deploy is ready for file uploads. GET /api/v1/sites/{site_id}/deploys/{deploy_id} You can check the state parameter in the response. It will be set to preparing as the upload manifest is generated, and either prepared , uploading , uploaded , or ready depending on the contents of the deploy. At this point, the deploy is either ready , or the API will give you a list of required files and required_functions . Additionally, when uploading large files, sometimes the request will time out. It is safe to retry these uploads a few times to verify whether additional attempts are successful. ZIP file method Section titled “ZIP file method” You can deploy using a ZIP file but note there’s a limit of 25,000 files per zip extraction for a site. For the same site, you always need to upload a single zip with all the files. To deploy using a ZIP file, create a new deploy with Content-Type: application/zip and the ZIP file as the HTTP request body: POST /api/v1/sites/{site_id}/deploys A deploy from a ZIP file will enter post-processing mode straight after being created. While we generally recommend using file digests, you can use the ZIP file method straight from the command line with cURL: Terminal window curl -H \" Content-Type: application/zip \" \\ -H \" Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN \" \\ --data-binary \" @website.zip \" \\ https://api.netlify.com/api/v1/sites/mysite.netlify.app/deploys Create and deploy at once Section titled “Create and deploy at once” When creating a new site, you can include a file digest or a ZIP file straight away, to save an HTTP request. The following will create a new site and deploy it from a ZIP file: Terminal window curl -H \" Content-Type: application/zip \" \\ -H \" Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN \" \\ --data-binary \" @website.zip \" \\ https://api.netlify.com/api/v1/sites Poll for deploy state Section titled “Poll for deploy state” You can poll the deploy to check the state: GET /api/v1/deploys/{deploy_id} { \" id \" : \" 1234 \" , \" state \" : \" ready \" } Once the state changes to ready , the deploy is live. Draft deploys Section titled “Draft deploys” When creating a new deploy, you can set \"draft\": true to mark the deploy as a draft deploy. A draft deploy works like ",
+      "content_sha256": "ee993c1aa13733240686fc89ff8c9af6ed1d33fff2aa064226bd3c159d4c69f4",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4284,
+    "output_tokens": 2154
+  },
+  "failure": null
+}

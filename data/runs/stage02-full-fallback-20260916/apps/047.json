@@ -1,0 +1,160 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 47,
+    "app_name": "Ecwid",
+    "category": "5. Ecommerce",
+    "website": "http://api-docs.ecwid.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:20:48.042969+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 47,
+    "app_name": "Ecwid",
+    "category": "5. Ecommerce",
+    "website": "https://docs.ecwid.com/",
+    "description": "Ecwid provides a REST API for ecommerce store customization, including managing products, orders, customers, discounts, and storefront customization via JavaScript API. It supports building private and public apps, webhooks for automation, and integration with payment and shipping providers.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "other"
+    ],
+    "api_breadth": "Ecwid API includes REST endpoints for managing products, orders, customers, discounts, and supports JavaScript APIs for storefront customization and automation via webhooks.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official Ecwid documentation states the availability of REST API endpoints and JavaScript APIs for building apps and automations, indicating that development is feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Ecwid provides a REST API for ecommerce store customization, including managing products, orders, customers, discounts, and storefront customization via JavaScript API. It supports building private and public apps, webhooks for automation, and integration with payment and shipping providers.",
+        "url": "https://docs.ecwid.com/",
+        "final_url": "https://docs.ecwid.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:39.107272+00:00",
+        "content_sha256": "1b1131205fe647ce59fab9b4551d13e630f5f29dea8d495b9c8558c92e3c94ff",
+        "quote": "Build with Ecwid apps Ecwid API features Get started Set up your dev environment in Ecwid Make your first API request Add more features to your custom app API glossary Develop apps What is an Ecwid app Private and public Ecwid apps App settings Community libraries Launch apps Public apps overview FAQ about public applications Monetize public apps Steps to go live with a public app Native and external apps Contact Ecwid API support team On this page For the complete documentation index, see llms.txt . This page is also available as Markdown . Ask On this page Build apps Build with Ecwid apps Explore our guides and examples to integrate Ecwid Ecommerce Customize your store Get access to API with an app Learn app settings Develop public apps FAQ about public applications Submit your app idea Get human support Ask your questions and get answers from our API specialists. Contact Ecwid API support Get help with API docs, update your app settings and more. Join Slack community Connect and collaborate with the Ecwid team and fellow developers. Automate integrations Webhooks Automate your business logic Automation examples Check out code and flow for syncing orders or product stock Build websites Site templates Complete website overhaul Custom sections Building blocks for the website Customize storefront List of JS API calls Find full list of available JS API calls JS API: track events Use pre-built event handlers on the storefront JS API: manage cart and checkout Add or remove products from the cart, set customer's email, comments, and more JS API: Open page Create redirects to products or search results JS API: manage customers Check who is logged in, automate logouts and cookie consent JS API: Generate carts Create pre-filled carts as links and share them with your customers Create discounts Accept tips Add tips selector to the checkout Launch promos Highly customizeable discounts for your store Discount coupons Create personal offers for your customers Browse guides Sync new orders Export order data to external services Extra fields Collect additional data with orders Create orders with API calls Calculate order details and place orders in the store on behalf of your clients Payment API Connect any payment provider with your Ecwid store Shipping API Calculate online shipping rates at the checkout Next Ecwid API features Last updated 1 year ago Was this helpful? Lightspeed\u0000AE 2025 Get human support Automate integrations Build websites Customize storefront Create discounts Browse guides Was this helpful?",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:20:40.478341+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.ecwid.com/",
+      "final_url": "https://docs.ecwid.com/",
+      "retrieved_at": "2026-09-16T17:20:39.107272+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Build with Ecwid apps | Ecwid Documentation ⌘ Ctrl k Ask Contact API support More Build apps Site Themes REST API Reference Storefronts (JS API) Webhook automations Discounts Guides Changelog AI Assistant arrow-up-right-and-arrow-down-left-from-center I'm here to help you with the docs. What is this page about? What should I read next? Can you give an example? ⌘ Ctrl i AI Based on your context Send Build with Ecwid apps Ecwid API features Get started Set up your dev environment in Ecwid Make your first API request Add more features to your custom app API glossary Develop apps What is an Ecwid app Private and public Ecwid apps App settings Community libraries Launch apps Public apps overview FAQ about public applications Monetize public apps Steps to go live with a public app Native and external apps Contact Ecwid API support team On this page For the complete documentation index, see llms.txt . This page is also available as Markdown . Ask On this page Build apps Build with Ecwid apps Explore our guides and examples to integrate Ecwid Ecommerce Customize your store Get access to API with an app Learn app settings Develop public apps FAQ about public applications Submit your app idea Get human support Ask your questions and get answers from our API specialists. Contact Ecwid API support Get help with API docs, update your app settings and more. Join Slack community Connect and collaborate with the Ecwid team and fellow developers. Automate integrations Webhooks Automate your business logic Automation examples Check out code and flow for syncing orders or product stock Build websites Site templates Complete website overhaul Custom sections Building blocks for the website Customize storefront List of JS API calls Find full list of available JS API calls JS API: track events Use pre-built event handlers on the storefront JS API: manage cart and checkout Add or remove products from the cart, set customer's email, comments, and more JS API: Open page Create redirects to products or search results JS API: manage customers Check who is logged in, automate logouts and cookie consent JS API: Generate carts Create pre-filled carts as links and share them with your customers Create discounts Accept tips Add tips selector to the checkout Launch promos Highly customizeable discounts for your store Discount coupons Create personal offers for your customers Browse guides Sync new orders Export order data to external services Extra fields Collect additional data with orders Create orders with API calls Calculate order details and place orders in the store on behalf of your clients Payment API Connect any payment provider with your Ecwid store Shipping API Calculate online shipping rates at the checkout Next Ecwid API features Last updated 1 year ago Was this helpful? Lightspeed® 2025 Get human support Automate integrations Build websites Customize storefront Create discounts Browse guides Was this helpful?",
+      "content_sha256": "1b1131205fe647ce59fab9b4551d13e630f5f29dea8d495b9c8558c92e3c94ff",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.ecwid.com/api-reference/rest-api/getting-started",
+      "final_url": "https://docs.ecwid.com/api-reference/rest-api/getting-started",
+      "retrieved_at": "2026-09-16T17:20:40.302151+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1569,
+    "output_tokens": 877
+  },
+  "failure": null
+}

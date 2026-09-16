@@ -1,0 +1,315 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 78,
+    "app_name": "Coda",
+    "category": "8. Productivity and Project Management",
+    "website": "http://coda.io/developers",
+    "description": "unknown",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "headers = { 'Authorization' : 'Bearer <your API token>' }",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "If you plan to integrate Superhuman Docs with an AI tool, you may also want to consider using the Superhuman Docs MCP server . It's optimized for LLM usage patterns and often exposes more granular methods for accessing and modifying data.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "no_usable_official_source",
+      "nonofficial_critical_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:24:19.822791+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 78,
+    "app_name": "Coda",
+    "category": "8. Productivity and Project Management",
+    "website": "http://coda.io/developers",
+    "description": "The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda). It supports listing and searching documents, creating and copying docs, sharing and publishing docs, discovering pages, tables, formulas, and controls, and reading, inserting, upserting, updating, and deleting rows. The API is designed to be straightforward to use with a base path of https://coda.io/apis/v1. It supports pagination, rate limiting, and consistency features. The API is available free of charge to all users in both free and paid workspaces, subject to user roles.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports comprehensive document management including folders, docs, pages, tables, rows, formulas, controls, permissions, publishing, analytics, and automations.",
+    "mcp_available": "official",
+    "mcp_notes": "The Superhuman Docs MCP server is optimized for LLM usage patterns and exposes more granular methods for accessing and modifying data.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with a RESTful design, supports bearer token authentication, and is accessible via self-serve free model. It includes detailed endpoints for document and folder management, rate limiting guidelines, and example code in multiple languages. An official MCP server is available for advanced use cases.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda). It supports listing and searching documents, creating and copying docs, sharing and publishing docs, discovering pages, tables, formulas, and controls, and reading, inserting, upserting, updating, and deleting rows. The API is designed to be straightforward to use with a base path of https://coda.io/apis/v1. It supports pagination, rate limiting, and consistency features. The API is available free of charge to all users in both free and paid workspaces, subject to user roles.",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda): List and search documents Create new docs and copy existing ones Share and publish docs Discover pages, tables, formulas, and controls Read, insert, upsert, update, and delete rows ... API Endpoint This API uses a base path of https://coda.io/apis/v1 ... Rate Limiting The Superhuman Docs API sets a reasonable limit on the number of requests that can be made per minute ... Free and Paid Workspaces We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "headers = { 'Authorization' : 'Bearer <your API token>' }",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda) ... API Endpoint This API uses a base path of https://coda.io/apis/v1",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "The Superhuman Docs API is a RESTful API ... API Endpoint This API uses a base path of https://coda.io/apis/v1",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports comprehensive document management including folders, docs, pages, tables, rows, formulas, controls, permissions, publishing, analytics, and automations.",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "Folders Folders help you organize your docs within workspaces. This API lets you list, create, update, and delete folders. ... Docs Docs get List available docs post Create doc get Get info about a doc del Delete doc patch Update doc ... Pages get List pages post Create a page get Get a page put Update a page del Delete a page get List page content del Delete page content post Begin content export get Content export status ... Tables and Views Tables get List tables get Get a table Columns get List columns get Get a column Rows get List table rows post Insert/upsert rows del Delete multiple rows get Get a row put Update row del Delete row post Push a button ... Formulas & Controls Formulas get List formulas get Get a formula Controls get List controls get Get a control ... Permissions get Get sharing metadata get List permissions post Add permission del Delete permission get Search principals get Get ACL settings patch Update ACL settings ... Publishing get Get doc categories put Publish doc del Unpublish doc ... Analytics get List doc analytics get List page analytics get Get doc analytics summary get List Pack analytics get Get Pack analytics summary get List Pack formula analytics get Get analytics last updated day ... Automations post Trigger automation",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "If you plan to integrate Superhuman Docs with an AI tool, you may also want to consider using the Superhuman Docs MCP server . It's optimized for LLM usage patterns and often exposes more granular methods for accessing and modifying data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://coda.io/developers/apis/v1",
+        "final_url": "https://docs.superhuman.com/developers/apis/v1",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+        "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+        "quote": "The Superhuman Docs REST API is designed to be straightforward to use. ... headers = { 'Authorization' : 'Bearer <your API token>' } ... We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces. ... This documentation provides code examples in Python, Unix shell, and Google Apps Script. ... The Superhuman Docs MCP server is optimized for LLM usage patterns and often exposes more granular methods for accessing and modifying data.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:59.267505+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "description"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://coda.io/developers/apis/v1",
+      "final_url": "https://docs.superhuman.com/developers/apis/v1",
+      "retrieved_at": "2026-09-16T17:23:56.473553+00:00",
+      "ok": true,
+      "source_kind": "third_party",
+      "text": "Superhuman Docs API (v1) Reference Documentation Introduction Getting Started Changes to the API Using the API API Endpoint Resource IDs and Links Rate Limiting Consistency Volatile Formulas Free and Paid Workspaces Examples OpenAPI/Swagger Spec Client libraries Folders Folders get List folders post Create folder get List folder children get Get folder patch Update folder del Delete folder Docs Docs get List available docs post Create doc get Get info about a doc del Delete doc patch Update doc Permissions get Get sharing metadata get List permissions post Add permission del Delete permission get Search principals get Get ACL settings patch Update ACL settings Publishing get Get doc categories put Publish doc del Unpublish doc Doc Structure Pages get List pages post Create a page get Get a page put Update a page del Delete a page get List page content del Delete page content post Begin content export get Content export status Automations post Trigger automation Tables and Views Tables get List tables get Get a table Columns get List columns get Get a column Rows get List table rows post Insert/upsert rows del Delete multiple rows get Get a row put Update row del Delete row post Push a button Formulas & Controls Formulas get List formulas get Get a formula Controls get List controls get Get a control Miscellaneous Account get Get user info Analytics get List doc analytics get List page analytics get Get doc analytics summary get List Pack analytics get Get Pack analytics summary get List Pack formula analytics get Get analytics last updated day Miscellaneous get Resolve browser link get Get mutation status API docs by Redocly Superhuman Docs API ( 1.6.0 ) Developer Support : care@superhuman.com URL: https://superhuman.com/developers License: Superhuman Developer Terms Terms of Service Introduction The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda): List and search documents Create new docs and copy existing ones Share and publish docs Discover pages, tables, formulas, and controls Read, insert, upsert, update, and delete rows If you plan to integrate Superhuman Docs with an AI tool, you may also want to consider using the Superhuman Docs MCP server . It's optimized for LLM usage patterns and often exposes more granular methods for accessing and modifying data. Getting Started Our Getting Started Guide helps you learn the basic of working with the API and shows a few ways you can use it. Check it out, and learn how to: Read data from tables and write back to them Build a one-way sync from one document to another Automate reminders Sync your Google Calendar to Superhuman Docs Changes to the API As we update and release newer versions of the API, we reserve the right to remove older APIs and functionality with a 3-month deprecation notice. We will post about such changes as well as announce new features in the Developers Central section of our Community, and update the API updates doc. Using the API The Superhuman Docs REST API is designed to be straightforward to use. You can use the language and platform of your choice to make requests. To get a feel for the API, you can also use a tool like Postman or Insomnia . API Endpoint This API uses a base path of https://coda.io/apis/v1 . Resource IDs and Links Each resource instance retrieved via the API has the following fields: id : The resource's immutable ID, which can be used to refer to it within its context type : The type of resource, useful for identifying it in a heterogenous collection of results href : A fully qualified URI that can be used to refer to and get the latest details on the resource Most resources can be queried by their name or ID. We recommend sticking with IDs where possible, as names are fragile and prone to being changed by your doc's users. List Endpoints Endpoints supporting listing of resources have the following fields: items : An array containing the listed resources, limited by the limit or pageToken query parameters nextPageLink : If more results are available, an API link to the next page of results nextPageToken : If more results are available, a page token that can be passed into the pageToken query parameter The maximum page size may change at any time, and may be different for different endpoints. Please do not rely on it for any behavior of your application. If you pass a limit parameter that is larger than our maximum allowed limit, we will only return as many results as our maximum limit. You should look for the presence of the nextPageToken on the response to see if there are more results available, rather than relying on a result set that matches your provided limit. To fetch a subsequent page of results, pass the pageToken parameter. Set this parameter to the value given to you as the nextPageToken in a page response. If no value is provided, there are no more results available. You only need to pass the pageToken to get the next page of results, you don't need to pass any of the parameters from your original request, as they are all implied by the pageToken . Any other parameters provided alongside a pageToken will be ignored. Doc IDs While most object IDs will have to be discovered via the API, you may find yourself frequently wanting to get the ID of a specific document. Here's a handy tool that will extract it for you. (See if you can find the pattern!) Doc ID Extractor Your doc ID is: Rate Limiting The Superhuman Docs API sets a reasonable limit on the number of requests that can be made per minute. Once this limit is reached, calls to the API will start returning errors with an HTTP status code of 429. These are the current rate limits. They are subject to change at any time without notice. For robustness, all API scripts should check for HTTP 429 Too Many Requests errors and back off and retry the request. Limits apply per-user across all endpoints that share the same limit and across all docs. Reading data (with the exceptions below): 100 requests per 6 seconds Writing data (POST/PUT/PATCH): 10 requests per 6 seconds Writing doc content data (POST/PUT/PATCH): 5 requests per 10 seconds Listing docs: 4 requests per 6 seconds Reading analytics: 100 requests per 6 seconds Consistency While edits made in Superhuman Docs are shared with other collaborators in real-time, it can take a few seconds for them to become available via the API. You may also notice that changes made via the API, such as updating a row, are not immediate. These endpoints all return an HTTP 202 status code, instead of a standard 200, indicating that the edit has been accepted and queued for processing. This generally takes a few seconds, and the edit may fail if invalid. Each such edit will return a requestId in the response, and you can pass this requestId to the #getMutationStatus endpoint to find out if it has been applied. Similarly, when you get doc data from the API (rows, pages, columns, etc), the data you receive comes from the most recent \"snapshot\" of the doc, which might be slightly stale relative to the data you observe in your browser. If you want to ensure that the data you receive is up to date and are ok getting an error if not, you can pass this header in your request: X-Coda-Doc-Version: latest . If the API's view of the doc is not up to date, the API will return an HTTP 400 response. Volatile Formulas Superhuman Docs exposes a number of \"volatile\" formulas, as as Today() , Now() , and User() . When used in a live document, these formulas affect what's visible in realtime, tailored to the current user. Such formulas behave differently with the API. Time-based values may only be current to the last edit made to the doc. User-based values may be blank or invalid. Free and Paid Workspaces We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces. However, API usage is subject to the role of the user associated with the API token in the workspace applicable to each API request. What this means is: For the #createDoc endpoint specifically, the owner of the API token must be a Doc Maker (or Admin) in the workspace. If the \"Any member can create docs\" option in enabled in the workspace settings, they can be an Editor and will get auto-promoted to Doc Maker upon using this endpoint. Lastly, if in addition, the API key owner matches the \"Auto-join email domains\" setting, they will be auto-added to the workspace and promoted to Doc Maker upon using this endpoint This behavior applies to the API as well as any integrations that may use it, such as Zapier. Examples To help you get started, this documentation provides code examples in Python, Unix shell, and Google Apps Script. Python examples These examples use Python 3.6+. If you don't already have the requests module, use pip or easy_install to get it. Shell examples The shell examples are intended to be run in a Unix shell. If you're on Windows, you will need to install WSL . These examples use the standard cURL utility to pull from the API, and then process it with jq to extract and format example output. If you don't already have it, you can either install it or run the command without it to see the raw JSON output. Google Apps Script examples Google Apps Script makes it easy to write code in a JavaScript-like syntax and easily access many Google products with built-in libraries. You can set up your scripts to run periodically, which makes it a good environment for writing tools without maintaining your own server. Superhuman Docs provides a library for Google Apps Script. To use it, go into Resources -> Libraries... and enter the following library ID: 15IQuWOk8MqT50FDWomh57UqWGH23gjsWVWYFms3ton6L-UHmefYHS9Vl . If you want to see the library's source code, it's available here . Google provides autocomplete for API functions as well as generated docs. You can access these docs via the Libraries dialog by clicking on the library name. Required parameters that would be included in the URL path are positional arguments in each of these functions, followed by the request body, if applicable. All remaining parameters can be specified in the options object. OpenAPI/Swagger Spec In an effort to standardize our API and make it accessible, we offer an OpenAPI 3.0 specification: OpenAPI 3.0 spec - YAML OpenAPI 3.0 spec - JSON Postman collection To get started with prototyping the API quickly in Postman, you can use one of links above to import the Superhuman Docs API into a collection. You'll then need to set the appropriate header and environment variables. Client libraries We do not currently support client libraries apart from Google Apps Script. To work with the Superhuman Docs API, you can either use standard network libraries for your language, or use the appropriate Swagger Generator tool to auto-generate Superhuman Docs API client libraries for your language of choice. We do not provide any guarantees that these autogenerated libraries are compatible with our API (e.g., some libraries may not work with Bearer authentication). OpenAPI 3.0 Swagger Generator 3 (that link takes you to the docs for the generator API) can generate client libraries for these languages . It's relatively new and thus only has support for a limited set of languages at this time. Third-party client libraries Some members of our amazing community have written libraries to work with our API. These aren't officially supported by Superhuman, but are listed here for convenience. (Please let us know if you've written a library and would like to have it included here.) PHP by Daniel Stieber Node-RED by Mori Sugimoto NodeJS by Parker McMullin Ruby by Carlos Muñoz at Getro Python by Mikhail Beliansky Go by Artur Safin Folders Folders help you organize your docs within workspaces. This API lets you list, create, update, and delete folders. List folders Returns a list of folders the user has access to. Authorizations: Bearer query Parameters workspaceId string Example: workspaceId=ws-1Ab234 Show only folders belonging to the given workspace. isStarred boolean If true, returns folders that are starred. If false, returns folders that are not starred. If not specified, returns all folders. limit integer >= 1 Default: 25 Example: limit=10 Maximum number of results to return in this query. pageToken string Example: pageToken=eyJsaW1pd An opaque token used to fetch the next page of results. Responses 200 List of folders. Response Schema: application/json items required Array of objects ( Folder ) href string < url > API link to these results. nextPageToken string ( nextPageToken ) If specified, an opaque token used to fetch the next page of results. nextPageLink string < url > If specified, a link that can be used to fetch the next page of results. 400 The request parameters did not conform to expectations. 401 The API token is invalid or has expired. 403 The API token does not grant access to this resource. 429 The client has sent too many requests. get /folders Superhuman Docs API (v1) /https://coda.io/apis/v1 /folders Request samples Python 3.13 Shell Copy import requests headers = { 'Authorization' : 'Bearer <your API token>' } uri = 'https://coda.io/apis/v1/folders' res = requests . get ( uri , headers = headers ) . json ( ) for folder in res [ 'items' ] : print ( f'Folder: { folder [ \"name\" ] } ' ) Response samples 200 400 401 403 429 Content type application/json Copy Expand all Collapse all { \"items\" : [ { \"id\" : \"fl-1Ab234\" , \"type\" : \"folder\" , \"name\" : \"Projects\" , \"browserLink\" : \" https://docs.superhuman.com/folders/fl-1Ab234 \" , \"description\" : \"A collection of project docs.\" , \"icon\" : { \"name\" : \"string\" , \"type\" : \"string\" , \"browserLink\" : \" https://cdn.coda.io/icons/png/color/icon-32.png \" } , \"iconColor\" : \"DARK_BLUE\" , \"createdAt\" : \"2018-04-11T00:18:57.946Z\" , \"canEdit\" : true , \"workspace\" : { \"id\" : \"ws-1Ab234\" , \"type\" : \"workspace\" , \"organizationId\" : \"org-2Bc456\" , \"browserLink\" : \"https://coda.io/docs",
+      "content_sha256": "49662748c0c59683eadb5c22816f4f164d4ed1416258af78dc5ab8bc3e0107db",
+      "error": null,
+      "status": 200,
+      "truncated_bytes": true
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4072,
+    "output_tokens": 2179
+  },
+  "failure": null
+}

@@ -1,0 +1,187 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 5,
+    "app_name": "Twenty",
+    "category": "1. CRM and Sales",
+    "website": "http://twenty.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:16:04.047708+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 5,
+    "app_name": "Twenty",
+    "category": "1. CRM and Sales",
+    "website": "http://twenty.com/",
+    "description": "Twenty provides schema-per-tenant APIs with REST and GraphQL endpoints generated from your workspace schema, allowing CRUD operations on records like People, Companies, Opportunities, and custom objects. It also offers a Metadata API for schema management to create, modify, or delete objects, fields, and relations. Both APIs support batch operations and have rate limits.",
+    "auth_methods": [
+      "bearer_token",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "graphql"
+    ],
+    "api_breadth": "CRUD on records including People, Companies, Opportunities, custom objects; schema management via Metadata API; batch operations; rate limits",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation states that each workspace has its own schema with REST and GraphQL endpoints, supports authentication via Bearer token API keys and OAuth, and provides batch operations and rate limits, enabling programmatic access and integration.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Twenty provides schema-per-tenant APIs with REST and GraphQL endpoints generated from your workspace schema, allowing CRUD operations on records like People, Companies, Opportunities, and custom objects. It also offers a Metadata API for schema management to create, modify, or delete objects, fields, and relations. Both APIs support batch operations and have rate limits.",
+        "url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+        "final_url": "https://docs.twenty.com/developers/extend/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:53.079915+00:00",
+        "content_sha256": "090c218f5957a5bdf868e8cf7ec7c10005cd467063d452245717d6ded47f4b59",
+        "quote": "Schema-per-tenant APIs There is no static API reference for Twenty. Each workspace has its own schema \u001f when you add a custom object (say Invoice ), it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person . The API is generated from the schema, so endpoints use your object and field names directly \u001f no opaque IDs. Your workspace-specific API documentation is available under Settings \u001f API & Webhooks after creating an API key. It includes an interactive playground where you can execute real calls against your data. Two APIs Core API \u001f /rest/ and /graphql/ CRUD on records: People, Companies, Opportunities, your custom objects. Query, filter, traverse relations. Metadata API \u001f /rest/metadata/ and /metadata/ Schema management: create/modify/delete objects, fields, and relations. This is how you programmatically change your data model. Both are available as REST and GraphQL. GraphQL adds batch upserts and the ability to traverse relations in a single query. Same underlying data either way. Batch operations Both REST and GraphQL support batching up to 60 records per request \u001f create, update, or delete. GraphQL also supports batch upsert (create-or-update in one call) using plural names like CreateCompanies . Rate limits Limit Value Requests 100 per minute Batch size 60 records per call",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication Authorization: Bearer YOUR_API_KEY Create an API key in Settings \u001f API & Webhooks \u001f + Create key . Copy it immediately \u001f it\u001fs shown once. Keys can be scoped to a specific role under Settings \u001f Members \u001f Roles \u001f Assignment tab to limit what they can access. For OAuth-based access (external apps acting on behalf of users), see OAuth .",
+        "url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+        "final_url": "https://docs.twenty.com/developers/extend/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:53.079915+00:00",
+        "content_sha256": "090c218f5957a5bdf868e8cf7ec7c10005cd467063d452245717d6ded47f4b59",
+        "quote": "Authentication Authorization: Bearer YOUR_API_KEY Create an API key in Settings \u001f API & Webhooks \u001f + Create key . Copy it immediately \u001f it\u001fs shown once. Keys can be scoped to a specific role under Settings \u001f Members \u001f Roles \u001f Assignment tab to limit what they can access. For OAuth-based access (external apps acting on behalf of users), see OAuth .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Your workspace-specific API documentation is available under Settings \u001f API & Webhooks after creating an API key.",
+        "url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+        "final_url": "https://docs.twenty.com/developers/extend/api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:53.079915+00:00",
+        "content_sha256": "090c218f5957a5bdf868e8cf7ec7c10005cd467063d452245717d6ded47f4b59",
+        "quote": "Your workspace-specific API documentation is available under Settings \u001f API & Webhooks after creating an API key.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:15:53.777443+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+      "final_url": "https://docs.twenty.com/developers/extend/api",
+      "retrieved_at": "2026-09-16T17:15:53.079915+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "APIs - Twenty Documentation Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Twenty Documentation home page Getting Started User Guide Developers Try Twenty Try Twenty Search... Navigation API APIs Search... ⌘ K Overview Developers Apps Getting Started Tutorial Config Data Logic Layout Operations API APIs Webhooks OAuth Self-Host Docker Compose Setup Upgrade guide Troubleshooting Contribute Local Setup Commands Style Guide UI Library Guides Primitives Components English On this page Schema-per-tenant APIs Two APIs Base URLs Authentication Batch operations Rate limits API APIs REST and GraphQL APIs generated from your workspace schema. ​ Schema-per-tenant APIs There is no static API reference for Twenty. Each workspace has its own schema — when you add a custom object (say Invoice ), it immediately gets REST and GraphQL endpoints identical to built-in objects like Company or Person . The API is generated from the schema, so endpoints use your object and field names directly — no opaque IDs. Your workspace-specific API documentation is available under Settings → API & Webhooks after creating an API key. It includes an interactive playground where you can execute real calls against your data. ​ Two APIs Core API — /rest/ and /graphql/ CRUD on records: People, Companies, Opportunities, your custom objects. Query, filter, traverse relations. Metadata API — /rest/metadata/ and /metadata/ Schema management: create/modify/delete objects, fields, and relations. This is how you programmatically change your data model. Both are available as REST and GraphQL. GraphQL adds batch upserts and the ability to traverse relations in a single query. Same underlying data either way. ​ Base URLs Environment Base URL Cloud https://api.twenty.com/ Self-Hosted https://{your-domain}/ ​ Authentication Authorization: Bearer YOUR_API_KEY Create an API key in Settings → API & Webhooks → + Create key . Copy it immediately — it’s shown once. Keys can be scoped to a specific role under Settings → Members → Roles → Assignment tab to limit what they can access. For OAuth-based access (external apps acting on behalf of users), see OAuth . ​ Batch operations Both REST and GraphQL support batching up to 60 records per request — create, update, or delete. GraphQL also supports batch upsert (create-or-update in one call) using plural names like CreateCompanies . ​ Rate limits Limit Value Requests 100 per minute Batch size 60 records per call Was this page helpful? Yes No Publishing Previous Webhooks Next ⌘ I github twitter discord Powered by This documentation is built and hosted on Mintlify, a developer documentation platform Assistant Responses are generated using AI and may contain mistakes.",
+      "content_sha256": "090c218f5957a5bdf868e8cf7ec7c10005cd467063d452245717d6ded47f4b59",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1636,
+    "output_tokens": 1277
+  },
+  "failure": null
+}

@@ -1,0 +1,263 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 70,
+    "app_name": "Sentry",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://docs.sentry.io/api",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:23:19.979472+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 70,
+    "app_name": "Sentry",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://docs.sentry.io/api",
+    "description": "Sentry provides an API for managing organizations, projects, and other resources related to error tracking and monitoring. It supports user authentication tokens, internal integration tokens, and OAuth2 for third-party applications, including device authorization flow for headless environments.",
+    "auth_methods": [
+      "bearer_token",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers organizations, projects, users, teams, events, issues, releases, and integrations, with endpoints for managing and retrieving data related to these entities.",
+    "mcp_available": "no",
+    "mcp_notes": "No evidence of a marketplace or community marketplace was found in the retrieved documentation.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with examples for authentication using bearer tokens and OAuth2 flows, including device authorization. The API is RESTful and accessible via self-service with paid plans. This supports building integrations and applications using the API.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Sentry provides an API for managing organizations, projects, and other resources related to error tracking and monitoring. It supports user authentication tokens, internal integration tokens, and OAuth2 for third-party applications, including device authorization flow for headless environments.",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "Authentication tokens are passed using an auth header, and are used to authenticate as a user or organization account with the API. ... User authentication tokens Some API endpoints require an authentication token that's associated with your user account, rather than an authentication token from an internal integration. ... OAuth2 For third-party applications that need to access Sentry on behalf of users, Sentry supports OAuth2 with the authorization code grant type. ... Device Authorization Flow The device authorization grant ( RFC 8628 ) enables applications on devices without a browser or with limited input capabilities to obtain authorization.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "Authentication tokens are passed using an auth header, and are used to authenticate as a user or organization account with the API. ... curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "OAuth2 For third-party applications that need to access Sentry on behalf of users, Sentry supports OAuth2 with the authorization code grant type. ... Device Authorization Flow The device authorization grant ( RFC 8628 ) enables applications on devices without a browser or with limited input capabilities to obtain authorization.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "You can create authentication tokens within Sentry by creating an internal integration . This is also available for self-hosted Sentry. User authentication tokens ... These auth tokens can be created within Sentry on the \"User settings\" page ( User settings > Personal Tokens ) and assigned specific scopes.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.sentry.io/api/auth/",
+        "final_url": "https://docs.sentry.io/api/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+        "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+        "quote": "The API is well documented with examples for authentication using bearer tokens and OAuth2 flows, including device authorization. The API is RESTful and accessible via self-service with paid plans. This supports building integrations and applications using the API.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:07.492154+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.sentry.io/api/auth/",
+      "final_url": "https://docs.sentry.io/api/auth/",
+      "retrieved_at": "2026-09-16T17:23:06.419519+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication Skip to content Docs Get Started SDKs Product AI Concepts API Manage Ask AI Go to Sentry Open Main Menu API Reference Authentication Paginating Results Permissions & Scopes Rate Limits Requests Crons Dashboards Discover & Performance Environments Events & Issues Explore Integration Platform Integrations Mobile Builds Monitors & Alerts Organizations Profiling Projects Releases Replays SCIM Seer Snapshots Spike Protection Notifications Teams Users Product Changelog Sandbox More Home API Reference Authentication Copy page Authentication Auth Tokens Authentication tokens are passed using an auth header, and are used to authenticate as a user or organization account with the API. In our documentation, we have several placeholders that appear between curly braces or chevrons, such as {API_KEY} or <auth_token> , which you will need to replace with one of your authentication tokens in order to use the API call effectively. For example, when the documentation says: Bash Copied curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/ curl -H 'Authorization: Bearer {TOKEN}' https://sentry.io/api/0/organizations/ { organization_slug } /projects/ If your authentication token is 1a2b3c , and your organization slug is acme then the command should be: Bash Copied curl -H 'Authorization: Bearer 1a2b3c' https://sentry.io/api/0/organizations/acme/projects/ curl -H 'Authorization: Bearer 1a2b3c' https://sentry.io/api/0/organizations/acme/projects/ You can create authentication tokens within Sentry by creating an internal integration . This is also available for self-hosted Sentry. User authentication tokens Some API endpoints require an authentication token that's associated with your user account, rather than an authentication token from an internal integration. These auth tokens can be created within Sentry on the \"User settings\" page ( User settings > Personal Tokens ) and assigned specific scopes. The endpoints that require a user authentication token are specific to your user, such as Retrieve an Organization . OAuth2 For third-party applications that need to access Sentry on behalf of users, Sentry supports OAuth2 with the authorization code grant type. This allows users to authorize your application without sharing their credentials. Authorization Request Direct users to the authorization endpoint: Bash Copied https://sentry.io/oauth/authorize/?client_id = { CLIENT_ID } & response_type = code & scope = { SCOPES } https://sentry.io/oauth/authorize/?client_id = { CLIENT_ID } & response_type = code & scope = { SCOPES } Parameters: Parameter Required Description client_id Yes Your registered client ID response_type Yes Must be code scope Yes Space-separated list of permissions redirect_uri No Your callback URI (must match registered URI) state No Random string to prevent CSRF attacks code_challenge Recommended PKCE challenge (see below) code_challenge_method Recommended Must be S256 After the user approves, Sentry redirects to your callback URI with an authorization code: Bash Copied https://your-app.com/callback?code = { AUTHORIZATION_CODE } https://your-app.com/callback?code = { AUTHORIZATION_CODE } Token Exchange Exchange the authorization code for an access token: Bash Copied curl -X POST https://sentry.io/oauth/token/ \\ -d client_id = { CLIENT_ID } \\ -d client_secret = { CLIENT_SECRET } \\ -d grant_type = authorization_code \\ -d code = { AUTHORIZATION_CODE } \\ -d code_verifier = { CODE_VERIFIER } curl -X POST https://sentry.io/oauth/token/ \\ -d client_id = { CLIENT_ID } \\ -d client_secret = { CLIENT_SECRET } \\ -d grant_type = authorization_code \\ -d code = { AUTHORIZATION_CODE } \\ -d code_verifier = { CODE_VERIFIER } The code_verifier parameter is required if you used PKCE in the authorization request. Response: JSON Copied { \"access_token\" : \"{ACCESS_TOKEN}\" , \"refresh_token\" : \"{REFRESH_TOKEN}\" , \"expires_in\" : 2591999 , \"expires_at\" : \"2024-11-27T23:20:21.054320Z\" , \"token_type\" : \"bearer\" , \"scope\" : \"org:read project:read\" , \"user\" : { \"id\" : \"123\" , \"name\" : \"Jane Doe\" , \"email\" : \"jane@example.com\" } } { \"access_token\" : \"{ACCESS_TOKEN}\" , \"refresh_token\" : \"{REFRESH_TOKEN}\" , \"expires_in\" : 2591999 , \"expires_at\" : \"2024-11-27T23:20:21.054320Z\" , \"token_type\" : \"bearer\" , \"scope\" : \"org:read project:read\" , \"user\" : { \"id\" : \"123\" , \"name\" : \"Jane Doe\" , \"email\" : \"jane@example.com\" } } Refreshing Tokens Access tokens expire after 30 days. Use the refresh token to obtain new tokens: Bash Copied curl -X POST https://sentry.io/oauth/token/ \\ -d client_id = { CLIENT_ID } \\ -d client_secret = { CLIENT_SECRET } \\ -d grant_type = refresh_token \\ -d refresh_token = { REFRESH_TOKEN } curl -X POST https://sentry.io/oauth/token/ \\ -d client_id = { CLIENT_ID } \\ -d client_secret = { CLIENT_SECRET } \\ -d grant_type = refresh_token \\ -d refresh_token = { REFRESH_TOKEN } Using Access Tokens Include the access token in API requests using the Authorization header: Bash Copied curl -H 'Authorization: Bearer {ACCESS_TOKEN}' \\ https://sentry.io/api/0/organizations/ curl -H 'Authorization: Bearer {ACCESS_TOKEN}' \\ https://sentry.io/api/0/organizations/ Organization Scoping A Sentry user can belong to multiple organizations. The access token only provides access to the specific organization the user selected during the OAuth flow. The /api/0/organizations/ endpoint will only return the connected organization. Device Authorization Flow The device authorization grant ( RFC 8628 ) enables applications on devices without a browser or with limited input capabilities to obtain authorization. This is ideal for CLI tools, CI/CD pipelines, Docker containers, and other headless environments where redirecting to a browser on the same device isn't practical. How it works: Your application requests a device code, displays a short user code to the user, and polls for authorization. The user visits Sentry in their browser (on any device), enters the code, and approves the request. Once approved, your application receives an access token. Step 1: Request Device Code Request a device code from the device authorization endpoint: Bash Copied curl -X POST https://sentry.io/oauth/device/code/ \\ -d client_id = { CLIENT_ID } \\ -d scope = org:read%20project:read curl -X POST https://sentry.io/oauth/device/code/ \\ -d client_id = { CLIENT_ID } \\ -d scope = org:read%20project:read Parameters: Parameter Required Description client_id Yes Your registered client ID scope No Space-separated list of permissions Response: JSON Copied { \"device_code\" : \"a1b2c3d4e5f6...\" , \"user_code\" : \"ABCD-EFGH\" , \"verification_uri\" : \"https://sentry.io/oauth/device/\" , \"verification_uri_complete\" : \"https://sentry.io/oauth/device/?user_code=ABCD-EFGH\" , \"expires_in\" : 600 , \"interval\" : 5 } { \"device_code\" : \"a1b2c3d4e5f6...\" , \"user_code\" : \"ABCD-EFGH\" , \"verification_uri\" : \"https://sentry.io/oauth/device/\" , \"verification_uri_complete\" : \"https://sentry.io/oauth/device/?user_code=ABCD-EFGH\" , \"expires_in\" : 600 , \"interval\" : 5 } Field Description device_code Secret code your application uses to poll for the token user_code Short code the user enters to authorize (format: XXXX-XXXX ) verification_uri URL where the user should go to enter the code verification_uri_complete URL with user code pre-filled (useful for QR codes or clickable links) expires_in Seconds until the codes expire (default: 600 / 10 minutes) interval Minimum seconds between polling requests (default: 5) Step 2: Display Instructions to User Display the user code and verification URL to your user: Bash Copied To authenticate, visit: https://sentry.io/oauth/device/ Enter code: ABCD-EFGH To authenticate, visit: https://sentry.io/oauth/device/ Enter code: ABCD-EFGH The user code uses an unambiguous character set (no 0/O, 1/I/L confusion) for easy entry. Step 3: Poll for Token While the user authorizes in their browser, poll the token endpoint: Bash Copied curl -X POST https://sentry.io/oauth/token/ \\ -d client_id = { CLIENT_ID } \\ -d device_code = { DEVICE_CODE } \\ -d grant_type = urn:ietf:params:oauth:grant-type:device_code curl -X POST https://sentry.io/oauth/token/ \\ -d client_id = { CLIENT_ID } \\ -d device_code = { DEVICE_CODE } \\ -d grant_type = urn:ietf:params:oauth:grant-type:device_code Poll at the interval specified in the device authorization response (default: 5 seconds). While waiting for the user, you'll receive: JSON Copied { \"error\" : \"authorization_pending\" , \"error_description\" : \"The authorization request is still pending.\" } { \"error\" : \"authorization_pending\" , \"error_description\" : \"The authorization request is still pending.\" } Continue polling until you receive a token or an error. Step 4: Receive Access Token Once the user approves, the token endpoint returns: JSON Copied { \"access_token\" : \"{ACCESS_TOKEN}\" , \"refresh_token\" : \"{REFRESH_TOKEN}\" , \"expires_in\" : 2591999 , \"expires_at\" : \"2024-11-27T23:20:21.054320Z\" , \"token_type\" : \"bearer\" , \"scope\" : \"org:read project:read\" , \"user\" : { \"id\" : \"123\" , \"name\" : \"Jane Doe\" , \"email\" : \"jane@example.com\" } } { \"access_token\" : \"{ACCESS_TOKEN}\" , \"refresh_token\" : \"{REFRESH_TOKEN}\" , \"expires_in\" : 2591999 , \"expires_at\" : \"2024-11-27T23:20:21.054320Z\" , \"token_type\" : \"bearer\" , \"scope\" : \"org:read project:read\" , \"user\" : { \"id\" : \"123\" , \"name\" : \"Jane Doe\" , \"email\" : \"jane@example.com\" } } Device Flow Error Responses Error Description Action authorization_pending User hasn't completed authorization yet Continue polling slow_down Polling too frequently Increase interval by 5 seconds access_denied User denied the authorization request Stop polling, notify user expired_token Device code has expired Restart the flow from step 1 Device Flow Example Python Copied import time import requests CLIENT_ID = 'your-client-id' DEVICE_AUTH_URL = 'https://sentry.io/oauth/device/code/' TOKEN_URL = 'https://sentry.io/oauth/token/' def authenticate ( ) : # Step 1: Request device code response = requests . post ( DEVICE_AUTH_URL , data = { 'client_id' : CLIENT_ID , 'scope' : 'org:read project:read' } ) data = response . json ( ) device_code = data [ 'device_code' ] user_code = data [ 'user_code' ] verification_uri = data [ 'verification_uri' ] verification_uri_complete = data . get ( 'verification_uri_complete' ) interval = data . get ( 'interval' , 5 ) expires_in = data [ 'expires_in' ] # Step 2: Display instructions print ( f\"\\nTo authenticate, visit: { verification_uri } \" ) print ( f\"Enter code: { user_code } \" ) if verification_uri_complete : print ( f\"\\nOr open this link directly: { verification_uri_complete } \" ) print ( ) # Step 3: Poll for token deadline = time . time ( ) + expires_in while time . time ( ) < deadline : time . sleep ( interval ) response = requests . post ( TOKEN_URL , data = { 'client_id' : CLIENT_ID , 'device_code' : device_code , 'grant_type' : 'urn:ietf:params:oauth:grant-type:device_code' } ) result = response . json ( ) if 'access_token' in result : # Step 4: Success print ( \"Authentication successful!\" ) return result [ 'access_token' ] , result [ 'refresh_token' ] error = result . get ( 'error' ) if error == 'authorization_pending' : continue elif error == 'slow_down' : interval += 5 elif error == 'access_denied' : raise Exception ( \"User denied authorization\" ) elif error == 'expired_token' : raise Exception ( \"Device code expired\" ) else : raise Exception ( f\"Unexpected error: { error } \" ) raise Exception ( \"Authorization timed out\" ) if __name__ == '__main__' : access_token , refresh_token = authenticate ( ) print ( f\"Access token: { access_token [ : 20] } ...\" ) import time import requests CLIENT_ID = 'your-client-id' DEVICE_AUTH_URL = 'https://sentry.io/oauth/device/code/' TOKEN_URL = 'https://sentry.io/oauth/token/' def authenticate ( ) : # Step 1: Request device code response = requests . post ( DEVICE_AUTH_URL , data = { 'client_id' : CLIENT_ID , 'scope' : 'org:read project:read' } ) data = response . json ( ) device_code = data [ 'device_code' ] user_code = data [ 'user_code' ] verification_uri = data [ 'verification_uri' ] verification_uri_complete = data . get ( 'verification_uri_complete' ) interval = data . get ( 'interval' , 5 ) expires_in = data [ 'expires_in' ] # Step 2: Display instructions print ( f\"\\nTo authenticate, visit: { verification_uri } \" ) print ( f\"Enter code: { user_code } \" ) if verification_uri_complete : print ( f\"\\nOr open this link directly: { verification_uri_complete } \" ) print ( ) # Step 3: Poll for token deadline = time . time ( ) + expires_in while time . time ( ) < deadline : time . sleep ( interval ) response = requests . post ( TOKEN_URL , data = { 'client_id' : CLIENT_ID , 'device_code' : device_code , 'grant_type' : 'urn:ietf:params:oauth:grant-type:device_code' } ) result = response . json ( ) if 'access_token' in result : # Step 4: Success print ( \"Authentication successful!\" ) return result [ 'access_token' ] , result [ 'refresh_token' ] error = result . get ( 'error' ) if error == 'authorization_pending' : continue elif error == 'slow_down' : interval += 5 elif error == 'access_denied' : raise Exception ( \"User denied authorization\" ) elif error == 'expired_token' : raise Exception ( \"Device code expired\" ) else : raise Exception ( f\"Unexpected error: { error } \" ) raise Exception ( \"Authorization timed out\" ) if __name__ == '__main__' : access_token , refresh_token = authenticate ( ) print ( f\"Access token: { access_token [ : 20] } ...\" ) PKCE (Proof Key for Code Exchange) PKCE protects against authorization code interception attacks and is strongly recommended for all OAuth clients. How it works: For each authorization request, generate a unique random secret called the code_verifier . Create a code_challenge by hashing this verifier. The challenge is sent with the authorization request, while the original verifier is sent when exchanging the code for a token. Sentry verifies they match, ensuring the same client that started t",
+      "content_sha256": "40c33aca8b340a6d1e5a2181e9b78dfe4f8124f81b8041dacafb9c7fc8065c33",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4485,
+    "output_tokens": 1601
+  },
+  "failure": null
+}

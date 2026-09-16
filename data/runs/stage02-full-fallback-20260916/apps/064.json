@@ -1,0 +1,256 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 64,
+    "app_name": "Cloudflare",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://developers.cloudflare.com/api",
+    "description": "unknown",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "curl \"https://api.cloudflare.com/client/v4/user/tokens/verify\" \\ --header \"Authorization: Bearer <API_TOKEN>\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "Use the /user/tokens/verify endpoint to fetch the current status of the given token. curl \"https://api.cloudflare.com/client/v4/user/tokens/verify\" \\ --header \"Authorization: Bearer <API_TOKEN>\"",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:22:41.914599+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 64,
+    "app_name": "Cloudflare",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://developers.cloudflare.com/api",
+    "description": "Cloudflare provides a comprehensive API for managing accounts, zones, DNS, and other services. Users can create API tokens with scoped permissions for secure access to resources. Tokens support CRUDL operations and can be restricted by resource and client IP address. The API supports REST endpoints including user token verification.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Cloudflare's API includes REST endpoints for account, zone, DNS management, token creation and verification, and other platform features with scoped permissions and token templates.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is documented with REST endpoints, supports bearer token authentication via API tokens with scoped permissions, and tokens can be created and managed via the dashboard or API, enabling integration and buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Cloudflare provides a comprehensive API for managing accounts, zones, DNS, and other services. Users can create API tokens with scoped permissions for secure access to resources. Tokens support CRUDL operations and can be restricted by resource and client IP address. The API supports REST endpoints including user token verification.",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "Cloudflare's API Get started Create API token ... Use Account API tokens if you prefer service tokens that are not associated with users and your desired API endpoints are compatible ... Modify the token's permissions. After selecting a permissions group ( Account , User , or Zone ), choose what level of access to grant the token. Most groups offer Edit or Read options. Edit is full CRUDL (create, read, update, delete, list) access, while Read is the read permission and list where appropriate. Refer to the available token permissions for more information. Select which resources the token is authorized to access. For example, granting Zone DNS Read access to a zone example.com will allow the token to read DNS records only for that specific zone. Any other zone will return an error for DNS record reads operations. Any other operation on that zone will also return an error.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "curl \"https://api.cloudflare.com/client/v4/user/tokens/verify\" \\ --header \"Authorization: Bearer <API_TOKEN>\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "From the Cloudflare dashboard \u00019, go to My Profile > API Tokens for user tokens. For Account Tokens, go to Manage Account > API Tokens. Select Create Token. Select a template from the available API token templates or create a custom token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "Cloudflare's API Get started Create API token ... Use the /user/tokens/verify endpoint to fetch the current status of the given token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "Use the /user/tokens/verify endpoint to fetch the current status of the given token. curl \"https://api.cloudflare.com/client/v4/user/tokens/verify\" \\ --header \"Authorization: Bearer <API_TOKEN>\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Cloudflare's API includes REST endpoints for account, zone, DNS management, token creation and verification, and other platform features with scoped permissions and token templates.",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "Select a template from the available API token templates or create a custom token. The following example uses the Edit zone DNS template. ... Modify the token's permissions. After selecting a permissions group ( Account , User , or Zone ), choose what level of access to grant the token. Most groups offer Edit or Read options. Edit is full CRUDL (create, read, update, delete, list) access, while Read is the read permission and list where appropriate.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+        "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+        "quote": "Use the /user/tokens/verify endpoint to fetch the current status of the given token. curl \"https://api.cloudflare.com/client/v4/user/tokens/verify\" \\ --header \"Authorization: Bearer <API_TOKEN>\" ... With this you have successfully created an API token and can start working with the Cloudflare API.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:26.302589+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "retrieved_at": "2026-09-16T17:22:26.154385+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Create API token · Cloudflare Fundamentals docs Skip to content Documentation Index Fetch the complete documentation index at: https://developers.cloudflare.com/fundamentals/llms.txt Use this file to discover all available pages before exploring further. Docs Directory API SDKs Changelog Search Ctrl K Log in Dashboard Cloudflare Fundamentals / Overview Concepts How Cloudflare DNS works Traffic flow through Cloudflare Accounts, zones, and profiles Cloudflare IP addresses Get started Accounts Create account Account security Add abuse contact Allow Cloudflare access Leaked Password Notifications Manage active sessions Review audit logs - v1 Audit Logs - v2 SCIM provisioning Overview Authentik Microsoft Entra Okta Troubleshooting Secure compromised account Set up SSO ↗ Zone holds Find account and zone IDs Change Super Administrator Organizations Beta Overview Organizations for Enterprise Organizations for MSSP and Distributors Policy sharing Limitations and troubleshooting Members and permissions Members and permissions Manage Policies Roles Role scopes User Groups New Set up dashboard SSO User profiles Overview Verify email address Log in to Cloudflare Profile settings Account recovery Delete your Cloudflare account Email address and password Multi-Factor Email Authentication Two-factor authentication Domains Overview Add multiple sites via automation Change your domain version Manage subdomains Move a domain between Cloudflare accounts Onboard a domain Pause Cloudflare Redirect one domain to another Remove a domain Star domains Performance Improve SEO Maintenance mode Minimize downtime Optimize site speed ↗ Prepare for surges or spikes in web traffic ↗ Test speed Security Prevent DDoS attacks ↗ Protect your origin server Recovering from a hacked site Scan for PCI compliance Secure your website ↗ Under a DDoS attack? Cloudflare's API Get started Create API token Get Global API key (legacy) Get Origin CA keys Deprecated Token formats Account API tokens How to Make API calls Create tokens via API Control API Access Restrict tokens Roll tokens API token template URLs Reference REST API ↗ API GraphQL API ↗ Wrangler API ↗ API token permissions API deprecations API token templates Rate limits SDKs Troubleshooting OAuth Applications on Cloudflare Overview Create your OAuth client Integrate your OAuth client with Cloudflare Authorizing an application Reference Migration guides SCIM migration Policies Cloudflare Cookies Compliance documentation Content Security Policies (CSPs) Delivering Videos with Cloudflare Licenses Project Cybersafe Schools Abuse Overview Review abuse policies Complaint types Providing specific URLs Customer abuse report obligations View and submit reports Blocked Content SDK ecosystem support policy Troubleshooting /cdn-cgi/ endpoint Account and domain management best practices Cloudflare and Google Analytics Cloudflare crawlers Cloudflare HTTP headers Cloudflare Ray ID Cloudy AI agent Beta Connection limits Cryptographic Attestation of Personhood Error responses Glossary Markdown for Agents Beta Network Layers Network ports Partners Redirects Scans and penetration testing policy TCP connections Under Attack mode RSS Feeds Available RSS Feeds Consuming RSS Feeds Agent resources Agent setup ↗ Cloudflare Skills ↗ Code Mode MCP Server ↗ Domain-specific MCP Servers ↗ MCP Cloudflare Fundamentals llms.txt ↗ Cloudflare Fundamentals llms-full.txt ↗ Cloudflare Docs llms.txt ↗ Cloudflare Docs llms-full.txt ↗ Home / Cloudflare Fundamentals / … Cloudflare's API / Get started / Create API token Create API token Last updated Apr 20, 2026 | Copy as Markdown | View as Markdown | Agent setup Prerequisite Before you begin, find your zone and account IDs . Determine if you want a user token or an Account API token . Use Account API tokens if you prefer service tokens that are not associated with users and your desired API endpoints are compatible . From the Cloudflare dashboard ↗ , go to My Profile > API Tokens for user tokens. For Account Tokens, go to Manage Account > API Tokens . Select Create Token . Select a template from the available API token templates or create a custom token. The following example uses the Edit zone DNS template. Add or edit the token name to describe why or how the token is used. Templates are prefilled with a token name and permissions. Modify the token's permissions. After selecting a permissions group ( Account , User , or Zone ), choose what level of access to grant the token. Most groups offer Edit or Read options. Edit is full CRUDL (create, read, update, delete, list) access, while Read is the read permission and list where appropriate. Refer to the available token permissions for more information. Select which resources the token is authorized to access. For example, granting Zone DNS Read access to a zone example.com will allow the token to read DNS records only for that specific zone. Any other zone will return an error for DNS record reads operations. Any other operation on that zone will also return an error. (Optional) Restrict how a token is used in the Client IP Address Filtering and TTL (time to live) fields. Select Continue to summary . Review the token summary. Select Edit token to make adjustments. You can also edit a token after creation. Select Create Token to generate the token's secret. Copy the secret to a secure place. Warning The token secret is only shown once . Do not store the secret in plaintext where others can access it. Anyone with this token can perform the authorized actions against the resources that the token has access to. The token secret page also includes an example command to test the token. Use the /user/tokens/verify endpoint to fetch the current status of the given token. curl \"https://api.cloudflare.com/client/v4/user/tokens/verify\" \\ --header \"Authorization: Bearer <API_TOKEN>\" The result: { \"result\" : { \"id\" : \"100bf38cc8393103870917dd535e0628\" , \"status\" : \"active\" }, \"success\" : true , \"errors\" : [], \"messages\" : [ { \"code\" : 10000 , \"message\" : \"This API Token is valid and active\" , \"type\" : null } ] } New API tokens use the cfut_ prefixed scannable format , which allows credential scanning tools to detect leaked tokens. With this you have successfully created an API token and can start working with the Cloudflare API. After creating your first API token, you can create additional API tokens via the API . Previous Under a DDoS attack? Next Get Global API key (legacy) Was this helpful? Yes No Edit page Report issue On this page Overview Edit page Report issue Getting started Plans Contact sales Partners Find a partner Startups Under attack? Domain name search Company About Careers Investors Press Press kit Global network Public interest Project Galileo Athenian Project Cloudflare for Campaigns Project Fairshot Impact/ESG Compliance Compliance resources Trust Hub Data Protection Responsible AI Transparency report Report abuse Resources App innovation report Cloudflare Radar Case studies Status Support Events Blog Developers Documentation Learning center Community Solutions SSE and SASE platform Cloudflare AI Cloud AI Security Frontend Development Platform Multi-Tenant Platform Development Web Security Platform Start Building Log In © 2026 Cloudflare, Inc. Privacy policy | Report security issues | Terms of use | Trademark | Your privacy choices Docs",
+      "content_sha256": "c74939da7443cb4db8a1e30758cafb51f00b1181a6e112271f9f795bb7cdb6ae",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2504,
+    "output_tokens": 1804
+  },
+  "failure": null
+}

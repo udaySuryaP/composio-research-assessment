@@ -1,0 +1,310 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 81,
+    "app_name": "Stripe",
+    "category": "9. Finance and Fintech",
+    "website": "http://stripe.com/docs/api",
+    "description": "Stripe is a payment processing platform that provides a comprehensive API for managing payments, customers, subscriptions, and other financial transactions. It uses API keys for authentication and supports a wide range of payment and financial services.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Stripe is a payment processing platform that provides a comprehensive API for managing payments, customers, subscriptions, and other financial transactions. It uses API keys for authentication and supports a wide range of payment and financial services.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specific API permissions. Using a restricted API key with only a subset of API permissions limits the damage a bad actor could cause if they obtained the key.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Stripe API access is self-serve paid with API keys managed in the Stripe Dashboard.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specific API permissions.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Stripe API is a REST API.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API authenticates requests using HTTP Basic Auth . Provide your API key as the basic auth username value.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:24:45.895932+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 81,
+    "app_name": "Stripe",
+    "category": "9. Finance and Fintech",
+    "website": "http://stripe.com/docs/api",
+    "description": "Stripe is a payment processing platform that provides a comprehensive API for managing payments, customers, subscriptions, and other financial transactions. It uses API keys for authentication and supports a wide range of payment and financial services.",
+    "auth_methods": [
+      "api_key",
+      "basic",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Stripe provides a broad REST API covering payments, customers, subscriptions, invoices, refunds, disputes, and many other financial and commerce-related resources.",
+    "mcp_available": "official",
+    "mcp_notes": "Stripe offers an official Model Context Protocol (MCP) server that allows AI agents to interact with the Stripe API and knowledge base. MCP access is managed via OAuth and supports human confirmation for sensitive actions. It supports API read and write operations and can operate on connected accounts with appropriate permissions.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Stripe provides comprehensive official API documentation with authentication details, extensive REST API coverage, and an official MCP server with OAuth-based access and human confirmation for sensitive actions, enabling building integrations and AI agent interactions.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Stripe is a payment processing platform that provides a comprehensive API for managing payments, customers, subscriptions, and other financial transactions. It uses API keys for authentication and supports a wide range of payment and financial services.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specific API permissions. Using a restricted API key with only a subset of API permissions limits the damage a bad actor could cause if they obtained the key.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Stripe API authenticates requests using HTTP Basic Auth with API keys as username and supports bearer token authentication.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API authenticates requests using HTTP Basic Auth . Provide your API key as the basic auth username value. You don\u0002t need to provide a password. If you need to authenticate using bearer auth (for example, for a cross-origin request), use -H \"Authorization: Bearer sk_test_tR3P...88S4VQ2u [REDACTED_DOCUMENTATION_CREDENTIAL] \" instead of -u sk_test_tR3P...88S4VQ2u [REDACTED_DOCUMENTATION_CREDENTIAL] . Make all API requests over HTTPS . Calls made over plain HTTP fail. API requests without authentication also fail.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Stripe API access is self-serve paid with API keys managed in the Stripe Dashboard.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specific API permissions.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Stripe provides a public REST API for payments and financial services.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API uses API keys to authenticate requests. ... The Stripe API authenticates requests using HTTP Basic Auth . ... Make all API requests over HTTPS . Calls made over plain HTTP fail. API requests without authentication also fail.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Stripe API is a REST API.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API authenticates requests using HTTP Basic Auth . Provide your API key as the basic auth username value.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Stripe provides a broad REST API covering payments, customers, subscriptions, invoices, refunds, disputes, and many other financial and commerce-related resources.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "Charges Customers Customer Sessions Disputes Events Files Mandates Payment Intents Persons Setup Intents Payouts Refunds Tokens Payment Methods Bank Accounts Cards Sources Products Prices Coupons Promotion Codes Discounts Tax Codes Shipping Rates Checkout Billing Alerts Invoices Plans Quotes Subscriptions Tax IDs Connect Accounts Application Fees Capabilities Balance Settings External Bank Accounts Persons Transfers Secrets Fraud Issuing Terminal Treasury for Platforms Payment Records Sigma Reporting Financial Connections Tax Identity Crypto Climate Forwarding Privacy Webhooks",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Stripe offers an official Model Context Protocol (MCP) server that allows AI agents to interact with the Stripe API and knowledge base.",
+        "url": "https://docs.stripe.com/mcp",
+        "final_url": "https://docs.stripe.com/mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:22.204732+00:00",
+        "content_sha256": "b38d7edbcb803d003ac0a5d80b6eac8c601560fdf73d1d318a84f84dd334306c",
+        "quote": "The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe\u0002s knowledge base, including documentation and support articles.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "MCP access is managed via OAuth and supports human confirmation for sensitive actions. It supports API read and write operations and can operate on connected accounts with appropriate permissions.",
+        "url": "https://docs.stripe.com/mcp",
+        "final_url": "https://docs.stripe.com/mcp",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:22.204732+00:00",
+        "content_sha256": "b38d7edbcb803d003ac0a5d80b6eac8c601560fdf73d1d318a84f84dd334306c",
+        "quote": "Manage MCP access and sessions Stripe\u0002s MCP server uses OAuth to authorise clients according to the MCP specification . OAuth lets you grant and revoke access without sharing an API key with the client. ... Confirm actions by agents acting on your behalf When you connect an AI agent to Stripe through the MCP server using your user credentials, you authorise the agent to access data and take actions in Stripe on your behalf. To prevent agents from making mistakes, Stripe requires human confirmation before it takes certain stripe _ api _ write actions, such as refunds and outbound payments.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "Stripe provides comprehensive official API documentation with authentication details, extensive REST API coverage, and an official MCP server with OAuth-based access and human confirmation for sensitive actions, enabling building integrations and AI agent interactions.",
+        "url": "https://docs.stripe.com/api/authentication",
+        "final_url": "https://docs.stripe.com/api/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+        "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+        "quote": "The Stripe API uses API keys to authenticate requests. ... The Stripe API authenticates requests using HTTP Basic Auth . ... The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe\u0002s knowledge base, including documentation and support articles.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:24.916654+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.stripe.com/api/authentication",
+      "final_url": "https://docs.stripe.com/api/authentication",
+      "retrieved_at": "2026-09-16T17:24:19.839701+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication | Stripe API Reference Find anything / Ask AI Introduction Authentication Errors Expanding Responses Idempotent requests Include-dependent response values (API v2) Metadata Pagination Request IDs Connected Accounts Versioning Enums Core Resources Accounts v2 Account Links v2 Account Tokens v2 Balances Balance Transactions Charges Customers Customer Sessions Disputes Events Events v2 Event Destinations v2 Files File Links Mandates Payment Intents Persons v2 Person Tokens v2 Setup Intents Setup Attempts Stripe Balance Debit Agreements Payouts Refunds Confirmation Tokens Tokens Ephemeral Keys Payment Methods Payment Methods Payment Method Configurations Payment Method Domains Bank Accounts Cash Balances Cash Balance Transactions Cards Sources Products Products Prices Coupons Promotion Codes Discounts Tax Codes Tax Rates Shipping Rates Commerce Agentic Commerce Shared Payment Issued Tokens Shared Payment Granted Tokens Checkout Checkout Sessions Payment Links Payment Links Billing Alerts Credit Balance Summaries Credit Balance Transactions Credit Grants Credit Notes Customer Balance Transactions Customer Portal Configurations Customer Portal Sessions Feedback Options Invoices Invoice Items Invoice Line Items Invoice Payments Invoice Rendering Templates Meters Meter Events Meter Event Adjustment Meter Event Adjustments v2 Meter Event Streams v2 Meter Event Summary Meter Events v2 Plans Quotes Subscriptions Subscription Items Subscription Schedules Tax IDs Test Clocks Capital Financing Offers Financing Summaries Connect Accounts Login Links Account Links Account Sessions Application Fees Application Fee Refunds Capabilities Country Specs Balance Settings External Bank Accounts External Account Cards Persons Top-ups Transfers Transfer Reversals Secrets Reserves Fraud Issuing Terminal Treasury for Platforms Payment Records Account Evaluation Entitlements Sigma Reporting Financial Connections Tax Identity Crypto Climate Forwarding Privacy Webhooks 2026-08-26 . dahlia API Reference Docs Support Sign in → Authentication Ask about this section Copy for LLM View as Markdown The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to their sandboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specific API permissions. Using a restricted API key with only a subset of API permissions limits the damage a bad actor could cause if they obtained the key. In both test mode and live mode, you can create as many restricted API keys as you need for different use cases or components of your application. We also create a live mode secret key (starts with sk _ live _ ) that grants access to all Stripe API resources. To protect your business, use restricted API keys instead. Your API keys carry many privileges. Follow best practices to keep your keys safe. Don’t embed secret or restricted API keys in source code or client-side applications. Instead, use your server platform’s secrets vault to provide keys to your server-side applications. If your platform doesn’t offer a secrets vault, set your keys in environment variables. The Stripe API authenticates requests using HTTP Basic Auth . Provide your API key as the basic auth username value. You don’t need to provide a password. If you need to authenticate using bearer auth (for example, for a cross-origin request), use -H \"Authorization: Bearer sk_test_tR3P...88S4VQ2u [REDACTED_DOCUMENTATION_CREDENTIAL] \" instead of -u sk_test_tR3P...88S4VQ2u [REDACTED_DOCUMENTATION_CREDENTIAL] . Make all API requests over HTTPS . Calls made over plain HTTP fail. API requests without authentication also fail. Was this section helpful? Yes No Authenticated Request curl https://api.stripe.com/v1/charges \\ -u [REDACTED_DOCUMENTATION_CREDENTIAL] [REDACTED_DOCUMENTATION_CREDENTIAL] : # The colon prevents curl from asking for a password. Your API Key A sample test API key is included in all the examples here, so you can test any example right away. Do not submit any personally identifiable information in requests made with this key. To test requests using your account, replace the sample API key with your actual API key or sign in . Errors Ask about this section Copy for LLM View as Markdown Stripe uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success. Codes in the 4xx range indicate an error that failed given the information provided. For example, an omitted required parameter, a failed charge, or a declined card. Many of these include an error code that briefly explains the error reported. See Error handling for guidance. Codes in the 5xx range indicate an error with the Stripe servers (these are rare). Was this section helpful? Yes No Attributes code nullable string For some errors that could be handled programmatically, a short string indicating the error code reported. decline _ code nullable string For card errors resulting from a card issuer decline, a short string indicating the card issuer’s reason for the decline if they provide one. message nullable string A human-readable message providing more details about the error. For card errors, these messages can be shown to your users. param nullable string If the error is parameter-specific, the parameter related to the error. For example, you can use this to display a message near the correct form field. payment _ intent nullable object The PaymentIntent object for errors returned on a request involving a PaymentIntent. type enum The type of error returned. One of api _ error , card _ error , idempotency _ error , or invalid _ request _ error Possible enum values api _ error card _ error idempotency _ error invalid _ request _ error More Expand all advice _ code nullable string charge nullable string doc _ url nullable string network _ advice _ code nullable string network _ decline _ code nullable string payment _ method nullable object payment _ method _ type nullable string request _ log _ url nullable string setup _ intent nullable object source nullable object HTTP Status Code Summary 200 OK Everything worked as expected. 400 Bad Request The request was unacceptable, often due to missing a required parameter. 401 Unauthorized No valid API key provided. 402 Request Failed The parameters were valid but the request failed. 403 Forbidden The API key doesn’t have permissions to perform the request. 404 Not Found The requested resource doesn’t exist. 409 Conflict The request conflicts with another request (perhaps due to using the same idempotent key). 424 External Dependency Failed The request couldn’t be completed due to a failure in a dependency external to Stripe. 429 Too Many Requests Too many requests hit the API too quickly. We recommend an exponential backoff of your requests. 500, 502, 503, 504 Server Errors Something went wrong on Stripe’s end. (These are rare.) Error Types api _ error API errors cover any other type of problem (e.g., a temporary problem with Stripe’s servers), and are extremely uncommon. card _ error Card errors are the most common type of error you should expect to handle. They result when the user enters a card that can’t be charged for some reason. idempotency _ error Idempotency errors occur when an Idempotency-Key is re-used on a request that does not match the first request’s API endpoint and parameters. invalid _ request _ error Invalid request errors arise when your request has invalid parameters. Handling errors Ask about this section Copy for LLM View as Markdown Our Client libraries raise exceptions for many reasons, such as a failed charge, invalid parameters, authentication errors, and network unavailability. We recommend writing code that gracefully handles all possible API exceptions. Related guide : Error Handling # Select a client library to see examples of # handling different kinds of errors. Need help? Contact Support . Chat with Stripe developers on Discord . Check out our changelog . Questions? Contact Sales . LLM? Read llms.txt . Powered by Markdoc",
+      "content_sha256": "c705bd174154eed9fa8e892d23eadb41db14691235b3d5dc3b71ce93d88804e5",
+      "error": null,
+      "status": 200,
+      "pre_security_redaction_sha256": "fe0bb52fc97bfa0f5495b96b157683ff9d727a3d4854a6e923022ef93465f75d"
+    },
+    {
+      "requested_url": "https://docs.stripe.com/mcp",
+      "final_url": "https://docs.stripe.com/mcp",
+      "retrieved_at": "2026-09-16T17:24:22.204732+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Model Context Protocol (MCP) | Stripe Documentation Skip to content Model Context Protocol Create account or Sign in The Stripe Docs logo Search / Ask AI Create account Sign in Get started Payments Revenue Platforms and marketplaces Money management Developer resources APIs & SDKs Help Overview Versioning Changelog Upgrade your API version Upgrade your SDK version Essentials SDKs API Testing Stripe CLI Tools Stripe Dashboard Stripe Projects Workbench Developers Dashboard Stripe for Visual Studio Code Terraform Stripe Discord server Features Workflows Batch Jobs Event Destinations Stripe health alerts Stripe Signals File uploads AI tools Agent plugins Model Context Protocol Agent skills Stripe Directory Extend Stripe Overview Build Stripe apps Use apps from Stripe Build extensions Custom objects Security and privacy Security Activity logs Stripebot web crawler Privacy Partners Partner ecosystem Partner certification India English (United Kingdom) Home / Developer resources Public preview Model Context Protocol (MCP) Public preview Let your AI agents interact with the Stripe API by using our MCP server. Ask about this page Copy for LLM View as Markdown Install tools The Stripe Model Context Protocol (MCP) server provides tools that AI agents can use to interact with the Stripe API and search Stripe’s knowledge base, including documentation and support articles. Set up Stripe MCP with a plugin Recommended Agent plugins for Stripe automatically configure the Stripe MCP server, install our skills and make sure they’re up-to-date. You get our latest capabilities without configuration or maintenance. To install, run: Command Line npm install -g @stripe/cli@latest stripe agent setup This command automatically detects which agents you use, and runs the applicable commands. Manually set up Stripe MCP If your MCP client doesn’t support agent plugins for Stripe, or you prefer to configure the Stripe MCP server and install the skills manually, follow these instructions: Cursor Claude Code ChatGPT and Codex Other Install in Cursor Select Install in Cursor to open Cursor and add the Stripe MCP server. To configure it manually, add the following configuration to ~/ . cursor/mcp . json . For more information, see Cursor’s MCP documentation . { \"mcpServers\" : { \"stripe\" : { \"url\" : \" https://mcp.stripe.com \" } } } Manage MCP access and sessions Stripe’s MCP server uses OAuth to authorise clients according to the MCP specification . OAuth lets you grant and revoke access without sharing an API key with the client. When you connect an MCP client, it opens Stripe’s OAuth consent page. Use this page to authorise the client to access your Stripe data. After you authorise an MCP client with OAuth, you can manage its session in the Stripe Dashboard. If your organisation manages your device or network, your IT administrator might block connections to external MCP servers. When the Stripe MCP server doesn’t connect in a managed environment, ask your IT department to allow mcp . stripe . com . Manage your sessions Your authorised MCP clients appear under OAuth sessions in your user settings . To revoke a session: Find the client in the OAuth sessions list. Click the overflow menu ( ). Select Revoke access . Manage sessions as an administrator To view or revoke another user’s sessions, your role must include permissions to manage team members and OAuth sessions. The Administrator role includes these permissions. Open Team and security in the Dashboard. Select the team member you want to manage. Find the OAuth sessions table. To revoke one session, click its overflow menu and select Revoke access . To revoke every listed session, select Revoke all . Session management applies only to the account or organisation and environment – live mode or a sandbox – that you’re currently viewing. Revoking a session removes access only within that scope. The session remains active for accounts outside your current scope. When you view an organisation, the Accounts column shows the accounts associated with each session. Manage MCP access Administrators can manage MCP access in the Dashboard. Configure access separately for live mode and sandbox environments. Tools The server exposes the following MCP tools . Enable human confirmation of tools and exercise caution when using the Stripe MCP with other servers to avoid prompt injection attacks. If you have feedback or want to see more tools, email us at mcp@stripe.com . Resource Tool Description API tools stripe _ api _ search Search for Stripe API methods by keyword stripe _ api _ details Get detailed parameter information for a specific Stripe API method. stripe _ api _ read Read data with any Stripe API GET method stripe _ api _ write Write data with any Stripe API POST , PATCH , PUT and DELETE method Account get _ stripe _ account _ info Retrieve account Analytics Private preview stripe _ analytics Query metrics, run SQL against reporting tables or run pre-built templates Treasury Public preview get _ balance _ summary Displays an interactive balance summary across the Stripe balance and Treasury accounts Others search _ stripe _ documentation Search the Stripe documentation for the given question and language stripe _ implementation _ planner Guides the user through Stripe products to help users accept payments, sell products online, set up billing or build any Stripe integration send _ stripe _ mcp _ feedback Submit feedback from user or agent about Stripe MCP server tools The Stripe MCP server exposes multiple APIs that you can call with the stripe _ api _ read and stripe _ api _ write tools. This access makes much of the API available through MCP without increasing the context window unnecessarily. Supported API methods Confirm actions by agents acting on your behalf When you connect an AI agent to Stripe through the MCP server using your user credentials, you authorise the agent to access data and take actions in Stripe on your behalf. To prevent agents from making mistakes, Stripe requires human confirmation before it takes certain stripe _ api _ write actions, such as refunds and outbound payments. To confirm an action, click the URL provided by your agent and review the details of the request. Confirm a refund request When you click Approve , Stripe provides the agent with an approval token, but you need to tell the agent to retry the operation, which doesn’t require human confirmation. If you don’t approve the action within 24 hours, it expires. Use MCP with connected accounts By default, Stripe MCP tools operate on the Stripe account associated with your OAuth session or API key. If you only need your agent to work with your platform account, use the standard setup above. If you’re a Connect platform , you can also use MCP to retrieve or update resources for your connected accounts. For example, a support agent could retrieve a customer or investigate a payment for a specific connected account. MCP doesn’t support OAuth when acting on behalf of connected accounts. Instead, authenticate with a restricted API key for your platform and grant only the connected-account permissions that your agent needs. To make an MCP call as a connected account, pass the Stripe-Account header. This is useful when you provide an agent that allows your connected accounts to make MCP calls through your platform. { \"mcpServers\" : { \"stripe\" : { \"url\" : \" https://mcp.stripe.com \" , \"headers\" : { \"Authorization\" : \"Bearer rk_.....\" , \"Stripe-Account\" : \"acct_xxxxxxxxx\" } } } } See also Plugin for agents Agent skills View MCP tool call logs in Workbench Was this page helpful? Yes No Need help? Contact Support . Chat with Stripe developers on Discord . Check out our changelog . Questions? Contact Sales . LLM? Read llms.txt . Powered by Markdoc On this page",
+      "content_sha256": "b38d7edbcb803d003ac0a5d80b6eac8c601560fdf73d1d318a84f84dd334306c",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4305,
+    "output_tokens": 2275
+  },
+  "failure": null
+}

@@ -1,0 +1,301 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 38,
+    "app_name": "Pinterest",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://developers.pinterest.com/",
+    "description": "Pinterest provides a developer platform with an API that supports campaign management and authentication via OAuth 2. The platform offers a Python SDK for campaign management and simplifies authentication and error handling. Developers can register apps, obtain app IDs and secrets, and use OAuth 2 for authentication. There is a sandbox environment for testing API calls without impacting the production environment.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_trial",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Pinterest provides a developer platform with an API that supports campaign management and authentication via OAuth 2. The platform offers a Python SDK for campaign management and simplifies authentication and error handling. Developers can register apps, obtain app IDs and secrets, and use OAuth 2 for authentication. There is a sandbox environment for testing API calls without impacting the production environment.",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling. Check it out here Product limited tokens : Once your app is approved for Trial access you can generate a token to test the API without setting up the Oauth flow.Test tokens expire after 24 hours and allow you to explore certain endpoints faster. Sandbox : Our sandbox environment allows you to make test calls without impacting the Pinterest product environment.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Build a working authentication flow based on OAuth 2 For full details on the OAuth process, review our guide on Scopes & Authentication . The basic flow is as follows: Make an authorization request to our OAuth page in your browser Handle the OAuth redirect to the appropriate location (e.g. localhost for testing) Exchange the authorization code for an access token Store the access token and refresh it as needed",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_trial",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Submit your request for trial access. Application requests are reviewed each business day. As soon as your app has been reviewed you will receive an email notification letting you know if your app has been approved or denied access. If your app is approved for Trial access , you can log into your account and manage your app details on your My apps page.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.There you can: Put your app ID and app secret key in an environment script file Run the sample environment set-up script and verify the results Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "sdk",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Once you've completed these requirements we'll ask for more details to register your app.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Build a working authentication flow based on OAuth 2 For full details on the OAuth process, review our guide on Scopes & Authentication . The basic flow is as follows: Make an authorization request to our OAuth page in your browser Handle the OAuth redirect to the appropriate location (e.g. localhost for testing) Exchange the authorization code for an access token Store the access token and refresh it as needed Helpful resources We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.There you can: Put your app ID and app secret key in an environment script file Run the sample environment set-up script and verify the results Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling. Check it out here Product limited tokens : Once your app is approved for Trial access you can generate a token to test the API without setting up the Oauth flow.Test tokens expire after 24 hours and allow you to explore certain endpoints faster. Sandbox : Our sandbox environment allows you to make test calls without impacting the Pinterest product environment.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence"
+    ],
+    "researched_at": "2026-09-16T17:19:35.523987+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 38,
+    "app_name": "Pinterest",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://developers.pinterest.com/",
+    "description": "Pinterest provides a developer platform with an API that supports campaign management and authentication via OAuth 2. The platform offers a Python SDK for campaign management and simplifies authentication and error handling. Developers can register apps, obtain app IDs and secrets, and use OAuth 2 for authentication. There is a sandbox environment for testing API calls without impacting the production environment.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_trial",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API supports campaign management and other Pinterest platform features, with a Python SDK available for easier integration.",
+    "mcp_available": "official",
+    "mcp_notes": "Pinterest provides an official developer platform with app registration, trial access, and developer tools including a Python SDK and sandbox environment.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is accessible after registering an app and obtaining trial access. OAuth 2 authentication is supported with detailed documentation. A Python SDK is available to simplify integration, and a sandbox environment allows safe testing.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Pinterest provides a developer platform with an API that supports campaign management and authentication via OAuth 2. The platform offers a Python SDK for campaign management and simplifies authentication and error handling. Developers can register apps, obtain app IDs and secrets, and use OAuth 2 for authentication. There is a sandbox environment for testing API calls without impacting the production environment.",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling. Check it out here Product limited tokens : Once your app is approved for Trial access you can generate a token to test the API without setting up the Oauth flow.Test tokens expire after 24 hours and allow you to explore certain endpoints faster. Sandbox : Our sandbox environment allows you to make test calls without impacting the Pinterest product environment.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Build a working authentication flow based on OAuth 2 For full details on the OAuth process, review our guide on Scopes & Authentication . The basic flow is as follows: Make an authorization request to our OAuth page in your browser Handle the OAuth redirect to the appropriate location (e.g. localhost for testing) Exchange the authorization code for an access token Store the access token and refresh it as needed",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_trial",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Submit your request for trial access. Application requests are reviewed each business day. As soon as your app has been reviewed you will receive an email notification letting you know if your app has been approved or denied access. If your app is approved for Trial access , you can log into your account and manage your app details on your My apps page.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.There you can: Put your app ID and app secret key in an environment script file Run the sample environment set-up script and verify the results Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "sdk",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Once you've completed these requirements we'll ask for more details to register your app.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+        "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+        "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+        "quote": "Build a working authentication flow based on OAuth 2 For full details on the OAuth process, review our guide on Scopes & Authentication . The basic flow is as follows: Make an authorization request to our OAuth page in your browser Handle the OAuth redirect to the appropriate location (e.g. localhost for testing) Exchange the authorization code for an access token Store the access token and refresh it as needed Helpful resources We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.There you can: Put your app ID and app secret key in an environment script file Run the sample environment set-up script and verify the results Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling. Check it out here Product limited tokens : Once your app is approved for Trial access you can generate a token to test the API without setting up the Oauth flow.Test tokens expire after 24 hours and allow you to explore certain endpoints faster. Sandbox : Our sandbox environment allows you to make test calls without impacting the Pinterest product environment.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:19:16.999878+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+      "final_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+      "retrieved_at": "2026-09-16T17:19:11.471605+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Pinterest Developers Skip to content Developer Platform Docs API reference My apps Search docs & API Log in Sign up Connect app Use with AI There are a few steps you need to take in order to connect your first app. Login or create a business account . This is the account you will use to administer your app. Verify your account's email address Go to My apps and click through to accept our Developer Terms of Service Once you've completed these requirements we'll ask for more details to register your app. Register your app details to get your app ID and secret key While logged into the Pinterest account you want to use to administer your app complete the following steps: Select Connect app and complete our request form with your app information. Submit your request for trial access. Application requests are reviewed each business day. As soon as your app has been reviewed you will receive an email notification letting you know if your app has been approved or denied access. If your app is approved for Trial access , you can log into your account and manage your app details on your My apps page. In your My apps view, you'll be able to find details such as your unique app ID and app secret. Review our guide on access tiers for more details on the application process and what to expect with each level of access. Configure your app's redirect URI We accept multiple redirect URIs when configuring your app. The value given for redirect_uri during OAuth authorization will be matched against the redirect URIs listed in your app profile. They must be an exact match to avoid any exceptions. The specified redirect URI must not cause the responding server to send a secondary redirect to yet another URI. Go to My apps and select Manage for the app you want to configure. On the Configure tab scroll to the Redirect URIs section and enter your desired URI Select Add to save your changes Build a working authentication flow based on OAuth 2 For full details on the OAuth process, review our guide on Scopes & Authentication . The basic flow is as follows: Make an authorization request to our OAuth page in your browser Handle the OAuth redirect to the appropriate location (e.g. localhost for testing) Exchange the authorization code for an access token Store the access token and refresh it as needed Helpful resources We offer a range of Developer tools to help you get started with the Pinterest API quickly. API Quickstart : Quickly get code samples and scripts with our API quickstart repo.There you can: Put your app ID and app secret key in an environment script file Run the sample environment set-up script and verify the results Python SDK : Our SDK currently offers a Python library that supports campaign management and simplifies authentication and error handling. Check it out here Product limited tokens : Once your app is approved for Trial access you can generate a token to test the API without setting up the Oauth flow.Test tokens expire after 24 hours and allow you to explore certain endpoints faster. Sandbox : Our sandbox environment allows you to make test calls without impacting the Pinterest product environment. Learn more about which endpoints support Sandbox and our Shopping Sandbox environment . NEXT Set up authentication and authorization Was this page helpful?",
+      "content_sha256": "2eb01275d553b0706badb9f1bb0390cf7854a423461a441bcf8d8eb9385947f7",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1651,
+    "output_tokens": 2070
+  },
+  "failure": null
+}

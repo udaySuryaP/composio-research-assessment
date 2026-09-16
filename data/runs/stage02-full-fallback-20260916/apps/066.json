@@ -1,0 +1,276 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 66,
+    "app_name": "Neo4j",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://neo4j.com/docs/api",
+    "description": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API. The main use case of the API is for developing client applications in languages for which there is no supported library. It supports HTTP/2 and HTTP/1.1 and is enabled by default in versions >= 5.19. Aura is Neo4j's fully managed cloud service with free and paid plans.",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows executing Cypher statements, running transactions, routing queries to read cluster members, retrieving query counters, profiling queries, coordinating transactions, enforcing causal consistency, running queries as different users, and streaming results.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API. The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API uses authentication methods other than standard OAuth2 or API keys, likely Neo4j's own authentication.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Query API uses HTTP requests to execute Cypher statements, indicating a RESTful API style.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API allows executing Cypher statements, running transactions, routing queries to read cluster members, retrieving query counters, profiling queries, coordinating transactions, enforcing causal consistency, running queries as different users, and streaming results.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Query API is officially documented, enabled by default, supports HTTP/1.1 and HTTP/2, and allows executing Cypher queries via HTTP requests. It is suitable for client applications in languages without official drivers, making it buildable.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:22:58.104044+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 66,
+    "app_name": "Neo4j",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://neo4j.com/docs/api",
+    "description": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API. The main use case of the API is for developing client applications in languages for which there is no supported library. It supports HTTP/2 and HTTP/1.1 and is enabled by default in versions >= 5.19. Aura is Neo4j's fully managed cloud service with free and paid plans.",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows executing Cypher statements, running transactions, routing queries to read cluster members, retrieving query counters, profiling queries, coordinating transactions, enforcing causal consistency, running queries as different users, and streaming results.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Query API is officially documented, enabled by default, supports HTTP/1.1 and HTTP/2, and allows executing Cypher queries via HTTP requests. It is suitable for client applications in languages without official drivers, making it buildable.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API. The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API uses authentication methods other than standard OAuth2 or API keys, likely Neo4j's own authentication.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Aura is Neo4j's fully managed cloud service. It comes with both free and paid plans.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "Aura Aura is Neo4j\u0019s fully managed cloud service. It comes with both free and paid plans.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Query API is enabled by default in Neo4j versions >= 5.19 and supports HTTP/1.1 and HTTP/2 protocols.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "Introduced in 5.19 The Query API is enabled by default. The Query API supports HTTP/2 as well as HTTP/1.1, unless either is explicitly disabled in the server configuration setting server.http_enabled_transports .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Query API uses HTTP requests to execute Cypher statements, indicating a RESTful API style.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API allows executing Cypher statements, running transactions, routing queries to read cluster members, retrieving query counters, profiling queries, coordinating transactions, enforcing causal consistency, running queries as different users, and streaming results.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Query API is officially documented, enabled by default, supports HTTP/1.1 and HTTP/2, and allows executing Cypher queries via HTTP requests. It is suitable for client applications in languages without official drivers, making it buildable.",
+        "url": "https://neo4j.com/docs/query-api/current/",
+        "final_url": "https://neo4j.com/docs/query-api/current/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+        "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+        "quote": "The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:44.399840+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://neo4j.com/docs/query-api/current/",
+      "final_url": "https://neo4j.com/docs/query-api/current/",
+      "retrieved_at": "2026-09-16T17:22:41.933189+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Introduction - Query API Docs Docs Neo4j DBMS Getting Started Operations Migration and Upgrade Status Codes Java Reference Kerberos Add-on Neo4j Aura Neo4j Tools Neo4j Bloom Neo4j Browser Neo4j Data Importer Neo4j Desktop Neo4j Enterprise Studio Neo4j Ops Manager Neodash commercial Neo4j Graph Data Science Neo4j Graph Data Science Library Neo4j Graph Data Science Client Neo4j Graph Analytics for Snowflake Cypher Query Language Cypher Cypher Cheat Sheet APOC Library Generative AI Neo4j GraphRAG for Python Embeddings and vector indexes tutorial GenAI plugin Vector search indexes Vector search functions GraphQL vector index search documentation Create applications Python Driver Go Driver Java Driver JDBC Driver JavaScript Driver .Net Driver Neo4j GraphQL Library Neo4j Visualization Library OGM Library Spring Data Neo4j HTTP API Neo4j Query API Bolt Connect data sources Neo4j Connector for Apache Spark Neo4j Connector for Apache Kafka Change Data Capture (CDC) BigQuery to Neo4j Google Cloud to Neo4j Labs GenAI Ecosystem LLM Knowledge Graph Builder Vector Index & Search LangChain LangChain.js LlamaIndex Haystack DSPy Developer Tools APOC Extended Aura CLI arrows.app Cypher Workbench ETL Tool NeoDash Frameworks & Integrations Needle Starter Kit Neo4j Plugin for Liquibase Neo4j Migrations neomodel RDF & Linked Data Neosemantics (Java) RDFLib-Neo4j (Python) Get Help Community Forum Discord Chat Product Support Neo4j Developer Blog Neo4j Videos GraphAcademy Beginners Courses Neo4j Fundamentals Cypher Fundamentals Importing Data Fundamentals Importing CSV Data Graph Data Modeling Data Scientist Courses Get started with Graph Data Science Path Finding Generative AI Courses Neo4j & Generative AI Fundamentals Vector Indexes & Unstructured Data Constructing Knowledge Graphs Building Agents in Neo4j Aura Neo4j Certification Neo4j Certified Professional Neo4j Graph Data Science Certification Get Started Free Theme Light Dark Search Skip to content Query API Introduction Authorize requests Query the database Run transactions Route queries to read cluster members Retrieve query counters Profile queries Coordinate transactions and enforce causal consistency Run queries as a different user Stream results Reference Endpoints Headers Result formats & Data types Plain JSON Typed JSON Changelog Is this page helpful? Query API Introduction Raise an issue Introduction Introduced in 5.19 The Query API is enabled by default. It was however disabled by default on self-managed instances versions < 5.25. To enable it on those deployments, add QUERY_API_ENDPOINTS to the configuration setting server.http_enabled_modules . The Query API allows to execute Cypher statements against a Neo4j server through HTTP requests. This API supersedes the deprecated HTTP API . The main use case of the API is for developing client applications in languages for which there is no supported library. If there exists an official library (driver) for the language you are using, consider using that instead — see Create applications . On self-managed instances , the API uses port 7474 for HTTP and port 7473 for HTTPS by default. Ports can be altered via the configuration settings server.http.listen_address and server.https.listen_address . Aura instances support only HTTPS through port 443. This guide assumes that you have: A running instance of Neo4j — If you don’t have one, install Neo4j locally or sign up for an Aura cloud instance . Some familiarity with Cypher — If you are new to it, check out Getting started → Cypher . The Query API supports HTTP/2 as well as HTTP/1.1, unless either is explicitly disabled in the server configuration setting server.http_enabled_transports . It’s up to the client to initiate a connection with the preferred protocol. Glossary Aura Aura is Neo4j’s fully managed cloud service. It comes with both free and paid plans. Cypher Cypher is Neo4j’s graph query language that lets you retrieve data from the database. It is like SQL, but for graphs. ACID Atomicity, Consistency, Isolation, Durability (ACID) are properties guaranteeing that database transactions are processed reliably. An ACID-compliant DBMS ensures that the data in the database remains accurate and consistent despite failures. causal consistency A database is causally consistent if read and write queries are seen by every member of the cluster in the same order. This is stronger than eventual consistency. transaction A transaction is a unit of work that is either committed in its entirety or rolled back on failure. An example is a bank transfer: it involves multiple steps, but they must all succeed or be reverted, to avoid money being subtracted from one account but not added to the other. Authorize requests Products Neo4j Graph Database Neo4j AuraDB Neo4j Graph Data Science Deployment Center Professional Services Pricing Developers Developer Home Documentation Deployment Center Developer Blog Community Virtual Events GraphAcademy Learn Resource Library Neo4j Blog GraphAcademy Research Center Case Studies Events Calendar NODES 2026 Webinars Company About Us Newsroom Awards and Honors Careers Culture Leadership Support Social Networks © 2026 Neo4j, Inc. Terms | Privacy Policy | Sitemap Neo4j ® , Neo Technology ® , Cypher ® , Neo4j ® Bloom ™ , Neo4j ® AuraDB ℠ and Neo4j ® AuraDS ℠ are registered trademarks of Neo4j, Inc. All other marks are owned by their respective companies.",
+      "content_sha256": "7b36058c618016acfa392e03f0a4a80ea3de133df6323861a46dd9fd33466e51",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://neo4j.com/docs/query-api/current/auth/",
+      "final_url": "https://neo4j.com/docs/query-api/current/auth/",
+      "retrieved_at": "2026-09-16T17:22:42.263610+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2185,
+    "output_tokens": 1663
+  },
+  "failure": null
+}

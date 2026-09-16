@@ -1,0 +1,290 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 62,
+    "app_name": "Vercel",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://vercel.com/docs/rest-api",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "provenance_mismatch",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:22:39.262628+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 62,
+    "app_name": "Vercel",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "https://vercel.com/docs/rest-api",
+    "description": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. Vercel provides a REST API with endpoints for managing access groups, AI gateway configurations, artifacts, billing, bulk redirects, checks, networking, connectors, deployments, DNS records, and more, enabling frontend teams to do their best work with a focus on end-user performance.",
+    "auth_methods": [
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers a wide range of functionality including access groups, AI gateway configurations, artifacts cache management, billing charges and commitments, bulk redirects management, checks and check runs, networking including secure compute networks and PrivateLink endpoints, connectors management, deployments management, and DNS records management.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official Vercel REST API documentation provides extensive REST endpoints for managing various resources programmatically, indicating that building integrations is feasible. Authentication method is indicated as 'other' since the exact method is not explicitly stated in the retrieved evidence, but the API is accessible for self-serve paid users. The breadth of the API is broad, covering many aspects of Vercel's platform.",
+    "evidence": [
+      {
+        "evidence_id": "ev1",
+        "field": "description",
+        "claim": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. Vercel provides a REST API with endpoints for managing access groups, AI gateway configurations, artifacts, billing, bulk redirects, checks, networking, connectors, deployments, DNS records, and more, enabling frontend teams to do their best work with a focus on end-user performance.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev2",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "# Vercel REST API Reference ... ## access-groups | Method | Endpoint | Description | ... | **GET** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/reads-an-access-group.md) | Reads an access group | ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev5",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "# Vercel REST API Reference ... ## access-groups | Method | Endpoint | Description | ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev6",
+        "field": "api_breadth",
+        "claim": "The API covers a wide range of functionality including access groups, AI gateway configurations, artifacts cache management, billing charges and commitments, bulk redirects management, checks and check runs, networking including secure compute networks and PrivateLink endpoints, connectors management, deployments management, and DNS records management.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "## access-groups ... ## api-ai-gateway ... ## ai-gateway ... ## artifacts ... ## billing ... ## bulk-redirects ... ## checks-v2 ... ## networking ... ## connect ... ## deployments ... ## dns ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev8",
+        "field": "buildability_rationale",
+        "claim": "The official Vercel REST API documentation provides extensive REST endpoints for managing various resources programmatically, indicating that building integrations is feasible. Authentication method is indicated as 'other' since the exact method is not explicitly stated in the retrieved evidence, but the API is accessible for self-serve paid users. The breadth of the API is broad, covering many aspects of Vercel's platform.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "Interact programmatically with your Vercel account using the SDK or direct HTTP requests. Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:23.136068+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "provenance_mismatch",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "auth_methods"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "access_model"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "buildability"
+    },
+    {
+      "code": "provenance_mismatch",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://vercel.com/docs/rest-api",
+      "final_url": "https://vercel.com/docs/rest-api",
+      "retrieved_at": "2026-09-16T17:22:22.077913+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "--- title: Vercel REST API Reference product: vercel url: /docs/rest-api canonical_url: \"https://vercel.com/docs/rest-api\" last_updated: 2026-09-16 type: reference prerequisites: [] related: - /docs/rest-api/access-groups/reads-an-access-group.md - /docs/rest-api/access-groups/update-an-access-group.md - /docs/rest-api/access-groups/deletes-an-access-group.md - /docs/rest-api/access-groups/list-members-of-an-access-group.md - /docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md summary: Interact programmatically with your Vercel account using the SDK or direct HTTP requests. install_vercel_plugin: npx plugins add vercel/vercel-plugin --- # Vercel REST API Reference Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. ## access-groups | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/reads-an-access-group.md) | Reads an access group | | **POST** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/update-an-access-group.md) | Update an access group | | **DELETE** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/deletes-an-access-group.md) | Deletes an access group | | **GET** | [`/v1/access-groups/{idOrName}/members`](/docs/rest-api/access-groups/list-members-of-an-access-group.md) | List members of an access group | | **GET** | [`/v1/access-groups`](/docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md) | List access groups for a team, project or member | | **POST** | [`/v1/access-groups`](/docs/rest-api/access-groups/creates-an-access-group.md) | Creates an access group | | **GET** | [`/v1/access-groups/{idOrName}/projects`](/docs/rest-api/access-groups/list-projects-of-an-access-group.md) | List projects of an access group | | **POST** | [`/v1/access-groups/{accessGroupIdOrName}/projects`](/docs/rest-api/access-groups/create-an-access-group-project.md) | Create an access group project | | **GET** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/reads-an-access-group-project.md) | Reads an access group project | | **PATCH** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/update-an-access-group-project.md) | Update an access group project | | **DELETE** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/delete-an-access-group-project.md) | Delete an access group project | ## api-ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/get-virtual-model-config.md) | Get virtual model config | | **POST** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/create-virtual-model-config.md) | Create virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/update-virtual-model-config.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config.md) | Delete virtual model config | | **GET** | [`/v1/ai-gateway/virtual-model-configs/list`](/docs/rest-api/api-ai-gateway/list-virtual-model-configs.md) | List virtual model configs | | **GET** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/get-virtual-model-config-1.md) | Get virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/update-virtual-model-config-1.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config-1.md) | Delete virtual model config | ## ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/list-rules.md) | List rules | | **POST** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/create-rule.md) | Create rule | | **PATCH** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/update-rule.md) | Update rule | | **DELETE** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/delete-rule.md) | Delete rule | ## artifacts | Method | Endpoint | Description | |---|---|---| | **POST** | [`/v8/artifacts/events`](/docs/rest-api/artifacts/record-an-artifacts-cache-usage-event.md) | Record an artifacts cache usage event | | **GET** | [`/v8/artifacts/status`](/docs/rest-api/artifacts/get-status-of-remote-caching-for-this-principal.md) | Get status of Remote Caching for this principal | | **GET** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/download-a-cache-artifact.md) | Download a cache artifact | | **PUT** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/upload-a-cache-artifact.md) | Upload a cache artifact | | **HEAD** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/check-if-a-cache-artifact-exists.md) | Check if a cache artifact exists | | **POST** | [`/v8/artifacts`](/docs/rest-api/artifacts/query-information-about-an-artifact.md) | Query information about an artifact | | **DELETE** | [`/v8/artifacts`](/docs/rest-api/artifacts/delete-all-cache-artifacts.md) | Delete all cache artifacts | ## billing | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/billing/charges`](/docs/rest-api/billing/list-focus-billing-charges.md) | List FOCUS billing charges | | **GET** | [`/v1/billing/contract-commitments`](/docs/rest-api/billing/list-focus-contract-commitments.md) | List FOCUS contract commitments | | **POST** | [`/v1/billing/buy`](/docs/rest-api/billing/purchase-credits.md) | Purchase credits | ## bulk-redirects | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/gets-project-level-redirects.md) | Gets project-level redirects. | | **PUT** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/stages-new-redirects-for-a-project.md) | Stages new redirects for a project. | | **PATCH** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/edit-a-project-level-redirect.md) | Edit a project-level redirect. | | **DELETE** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/delete-project-level-redirects.md) | Delete project-level redirects. | | **POST** | [`/v1/bulk-redirects/restore`](/docs/rest-api/bulk-redirects/restore-staged-project-level-redirects-to-their-production-version.md) | Restore staged project-level redirects to their production version. | | **GET** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/get-the-version-history-for-a-project-s-redirects.md) | Get the version history for a project's redirects. | | **POST** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/promote-a-staging-version-to-production-or-restore-a-previous-production-version.md) | Promote a staging version to production or restore a previous production version. | ## checks-v2 | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/list-all-checks-for-a-project.md) | List all checks for a project | | **POST** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/create-a-check.md) | Create a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/get-a-check.md) | Get a check | | **PATCH** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/update-a-check.md) | Update a check | | **DELETE** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/delete-a-check.md) | Delete a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}/runs`](/docs/rest-api/checks-v2/list-runs-for-a-check.md) | List runs for a check | | **GET** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/list-check-runs-for-a-deployment.md) | List check runs for a deployment | | **POST** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/create-a-check-run.md) | Create a check run | | **GET** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/get-a-check-run.md) | Get a check run | | **PATCH** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/update-a-check-run.md) | Update a check run | ## networking | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/connect/networks`](/docs/rest-api/networking/list-secure-compute-networks.md) | List Secure Compute networks | | **POST** | [`/v1/connect/networks`](/docs/rest-api/networking/create-a-secure-compute-network.md) | Create a Secure Compute network | | **GET** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/read-a-secure-compute-network.md) | Read a Secure Compute network | | **PATCH** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/update-a-secure-compute-network.md) | Update a Secure Compute network | | **DELETE** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/delete-a-secure-compute-network.md) | Delete a Secure Compute network | | **GET** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/list-privatelink-endpoints.md) | List PrivateLink endpoints | | **POST** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/create-a-privatelink-endpoint.md) | Create a PrivateLink endpoint | | **GET** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/read-a-privatelink-endpoint.md) | Read a PrivateLink endpoint | | **PATCH** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/update-a-privatelink-endpoint.md) | Update a PrivateLink endpoint | | **DELETE** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/delete-a-privatelink-endpoint.md) | Delete a PrivateLink endpoint | | **PATCH** | [`/v1/projects/{idOrName}/shared-connect-links`](/docs/rest-api/networking/configures-static-ips-for-a-project.md) | Configures Static IPs for a project | ## connect | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/connect/connectors`](/docs/rest-api/connect/list-connectors.md) | List connectors | | **GET** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/get-a-connector.md) | Get a connector | | **DELETE** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/delete-a-connector.md) | Delete a connector | | **POST** | [`/v1/connect/connectors`](/docs/rest-api/connect/create-a-connector.md) | Create a connector | | **PATCH** | [`/v2/connect/connectors/{connector}`](/docs/rest-api/connect/update-a-connector.md) | Update a connector | | **PATCH** | [`/v1/connect/connectors/{connector}/trigger-destinations`](/docs/rest-api/connect/update-connector-trigger-destinations.md) | Update connector trigger destinations | | **GET** | [`/v2/connect/connectors/{connector}/projects`](/docs/rest-api/connect/list-projects-for-a-connector.md) | List projects for a connector | | **GET** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/get-a-connector-project-connection.md) | Get a connector project connection | | **POST** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/create-or-update-a-connector-project-connection.md) | Create or update a connector project connection | | **DELETE** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/disconnect-a-connector-from-a-project.md) | Disconnect a connector from a project | | **GET** | [`/v2/connect/projects/{projectId}/connectors`](/docs/rest-api/connect/list-connectors-for-a-project.md) | List connectors for a project | | **POST** | [`/v1/connect/token/{connector}`](/docs/rest-api/connect/get-a-connect-token.md) | Get a Connect token | | **POST** | [`/v1/connect/authorize/{connector}`](/docs/rest-api/connect/create-a-connect-authorization-request.md) | Create a Connect authorization request | ## deployments | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v3/deployments/{idOrUrl}/events`](/docs/rest-api/deployments/get-deployment-events.md) | Get deployment events | | **PATCH** | [`/v1/deployments/{deploymentId}/integrations/{integrationConfigurationId}/resources/{resourceId}/actions/{action}`](/docs/rest-api/deployments/update-deployment-integration-action.md) | Update deployment integration action | | **GET** | [`/v13/deployments/{idOrUrl}`](/docs/rest-api/deployments/get-a-deployment-by-id-or-url.md) | Get a deployment by ID or URL | | **POST** | [`/v13/deployments`](/docs/rest-api/deployments/create-a-new-deployment.md) | Create a new deployment | | **PATCH** | [`/v12/deployments/{id}/cancel`](/docs/rest-api/deployments/cancel-a-deployment.md) | Cancel a deployment | | **POST** | [`/v2/files`](/docs/rest-api/deployments/upload-deployment-files.md) | Upload Deployment Files | | **GET** | [`/v6/deployments/{id}/files`](/docs/rest-api/deployments/list-deployment-files.md) | List Deployment Files | | **GET** | [`/v8/deployments/{id}/files/{fileId}`](/docs/rest-api/deployments/get-deployment-file-contents.md) | Get Deployment File Contents | | **GET** | [`/v7/deployments`](/docs/rest-api/deployments/list-deployments.md) | List deployments | | **DELETE** | [`/v13/deployments/{id}`](/docs/rest-api/deployments/delete-a-deployment.md) | Delete a Deployment | ## dns | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v5/domains/{domain}/records`](/docs/rest-api/dns/list-existing-dns-records.md) | List existing DNS records | | **POST** | [`/v2/domains/{domain}/records`](/docs/rest-api/dns/create-a-dns-record.md) | Create a DNS record | | **PATCH** | [`/v1/domains/records/{recordId}`](/docs/rest-api/dns/update-an-existing-dns-record.md) | Update an existing DNS record | | **DELETE** | [`/v2/domains/{domain}/records/{recordId",
+      "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://vercel.com/docs/rest-api/reference/welcome",
+      "final_url": "https://vercel.com/docs/rest-api",
+      "retrieved_at": "2026-09-16T17:22:22.652349+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "--- title: Vercel REST API Reference product: vercel url: /docs/rest-api canonical_url: \"https://vercel.com/docs/rest-api\" last_updated: 2026-09-16 type: reference prerequisites: [] related: - /docs/rest-api/access-groups/reads-an-access-group.md - /docs/rest-api/access-groups/update-an-access-group.md - /docs/rest-api/access-groups/deletes-an-access-group.md - /docs/rest-api/access-groups/list-members-of-an-access-group.md - /docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md summary: Interact programmatically with your Vercel account using the SDK or direct HTTP requests. install_vercel_plugin: npx plugins add vercel/vercel-plugin --- # Vercel REST API Reference Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. ## access-groups | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/reads-an-access-group.md) | Reads an access group | | **POST** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/update-an-access-group.md) | Update an access group | | **DELETE** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/deletes-an-access-group.md) | Deletes an access group | | **GET** | [`/v1/access-groups/{idOrName}/members`](/docs/rest-api/access-groups/list-members-of-an-access-group.md) | List members of an access group | | **GET** | [`/v1/access-groups`](/docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md) | List access groups for a team, project or member | | **POST** | [`/v1/access-groups`](/docs/rest-api/access-groups/creates-an-access-group.md) | Creates an access group | | **GET** | [`/v1/access-groups/{idOrName}/projects`](/docs/rest-api/access-groups/list-projects-of-an-access-group.md) | List projects of an access group | | **POST** | [`/v1/access-groups/{accessGroupIdOrName}/projects`](/docs/rest-api/access-groups/create-an-access-group-project.md) | Create an access group project | | **GET** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/reads-an-access-group-project.md) | Reads an access group project | | **PATCH** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/update-an-access-group-project.md) | Update an access group project | | **DELETE** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/delete-an-access-group-project.md) | Delete an access group project | ## api-ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/get-virtual-model-config.md) | Get virtual model config | | **POST** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/create-virtual-model-config.md) | Create virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/update-virtual-model-config.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config.md) | Delete virtual model config | | **GET** | [`/v1/ai-gateway/virtual-model-configs/list`](/docs/rest-api/api-ai-gateway/list-virtual-model-configs.md) | List virtual model configs | | **GET** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/get-virtual-model-config-1.md) | Get virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/update-virtual-model-config-1.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config-1.md) | Delete virtual model config | ## ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/list-rules.md) | List rules | | **POST** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/create-rule.md) | Create rule | | **PATCH** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/update-rule.md) | Update rule | | **DELETE** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/delete-rule.md) | Delete rule | ## artifacts | Method | Endpoint | Description | |---|---|---| | **POST** | [`/v8/artifacts/events`](/docs/rest-api/artifacts/record-an-artifacts-cache-usage-event.md) | Record an artifacts cache usage event | | **GET** | [`/v8/artifacts/status`](/docs/rest-api/artifacts/get-status-of-remote-caching-for-this-principal.md) | Get status of Remote Caching for this principal | | **GET** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/download-a-cache-artifact.md) | Download a cache artifact | | **PUT** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/upload-a-cache-artifact.md) | Upload a cache artifact | | **HEAD** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/check-if-a-cache-artifact-exists.md) | Check if a cache artifact exists | | **POST** | [`/v8/artifacts`](/docs/rest-api/artifacts/query-information-about-an-artifact.md) | Query information about an artifact | | **DELETE** | [`/v8/artifacts`](/docs/rest-api/artifacts/delete-all-cache-artifacts.md) | Delete all cache artifacts | ## billing | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/billing/charges`](/docs/rest-api/billing/list-focus-billing-charges.md) | List FOCUS billing charges | | **GET** | [`/v1/billing/contract-commitments`](/docs/rest-api/billing/list-focus-contract-commitments.md) | List FOCUS contract commitments | | **POST** | [`/v1/billing/buy`](/docs/rest-api/billing/purchase-credits.md) | Purchase credits | ## bulk-redirects | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/gets-project-level-redirects.md) | Gets project-level redirects. | | **PUT** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/stages-new-redirects-for-a-project.md) | Stages new redirects for a project. | | **PATCH** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/edit-a-project-level-redirect.md) | Edit a project-level redirect. | | **DELETE** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/delete-project-level-redirects.md) | Delete project-level redirects. | | **POST** | [`/v1/bulk-redirects/restore`](/docs/rest-api/bulk-redirects/restore-staged-project-level-redirects-to-their-production-version.md) | Restore staged project-level redirects to their production version. | | **GET** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/get-the-version-history-for-a-project-s-redirects.md) | Get the version history for a project's redirects. | | **POST** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/promote-a-staging-version-to-production-or-restore-a-previous-production-version.md) | Promote a staging version to production or restore a previous production version. | ## checks-v2 | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/list-all-checks-for-a-project.md) | List all checks for a project | | **POST** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/create-a-check.md) | Create a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/get-a-check.md) | Get a check | | **PATCH** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/update-a-check.md) | Update a check | | **DELETE** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/delete-a-check.md) | Delete a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}/runs`](/docs/rest-api/checks-v2/list-runs-for-a-check.md) | List runs for a check | | **GET** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/list-check-runs-for-a-deployment.md) | List check runs for a deployment | | **POST** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/create-a-check-run.md) | Create a check run | | **GET** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/get-a-check-run.md) | Get a check run | | **PATCH** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/update-a-check-run.md) | Update a check run | ## networking | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/connect/networks`](/docs/rest-api/networking/list-secure-compute-networks.md) | List Secure Compute networks | | **POST** | [`/v1/connect/networks`](/docs/rest-api/networking/create-a-secure-compute-network.md) | Create a Secure Compute network | | **GET** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/read-a-secure-compute-network.md) | Read a Secure Compute network | | **PATCH** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/update-a-secure-compute-network.md) | Update a Secure Compute network | | **DELETE** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/delete-a-secure-compute-network.md) | Delete a Secure Compute network | | **GET** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/list-privatelink-endpoints.md) | List PrivateLink endpoints | | **POST** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/create-a-privatelink-endpoint.md) | Create a PrivateLink endpoint | | **GET** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/read-a-privatelink-endpoint.md) | Read a PrivateLink endpoint | | **PATCH** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/update-a-privatelink-endpoint.md) | Update a PrivateLink endpoint | | **DELETE** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/delete-a-privatelink-endpoint.md) | Delete a PrivateLink endpoint | | **PATCH** | [`/v1/projects/{idOrName}/shared-connect-links`](/docs/rest-api/networking/configures-static-ips-for-a-project.md) | Configures Static IPs for a project | ## connect | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/connect/connectors`](/docs/rest-api/connect/list-connectors.md) | List connectors | | **GET** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/get-a-connector.md) | Get a connector | | **DELETE** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/delete-a-connector.md) | Delete a connector | | **POST** | [`/v1/connect/connectors`](/docs/rest-api/connect/create-a-connector.md) | Create a connector | | **PATCH** | [`/v2/connect/connectors/{connector}`](/docs/rest-api/connect/update-a-connector.md) | Update a connector | | **PATCH** | [`/v1/connect/connectors/{connector}/trigger-destinations`](/docs/rest-api/connect/update-connector-trigger-destinations.md) | Update connector trigger destinations | | **GET** | [`/v2/connect/connectors/{connector}/projects`](/docs/rest-api/connect/list-projects-for-a-connector.md) | List projects for a connector | | **GET** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/get-a-connector-project-connection.md) | Get a connector project connection | | **POST** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/create-or-update-a-connector-project-connection.md) | Create or update a connector project connection | | **DELETE** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/disconnect-a-connector-from-a-project.md) | Disconnect a connector from a project | | **GET** | [`/v2/connect/projects/{projectId}/connectors`](/docs/rest-api/connect/list-connectors-for-a-project.md) | List connectors for a project | | **POST** | [`/v1/connect/token/{connector}`](/docs/rest-api/connect/get-a-connect-token.md) | Get a Connect token | | **POST** | [`/v1/connect/authorize/{connector}`](/docs/rest-api/connect/create-a-connect-authorization-request.md) | Create a Connect authorization request | ## deployments | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v3/deployments/{idOrUrl}/events`](/docs/rest-api/deployments/get-deployment-events.md) | Get deployment events | | **PATCH** | [`/v1/deployments/{deploymentId}/integrations/{integrationConfigurationId}/resources/{resourceId}/actions/{action}`](/docs/rest-api/deployments/update-deployment-integration-action.md) | Update deployment integration action | | **GET** | [`/v13/deployments/{idOrUrl}`](/docs/rest-api/deployments/get-a-deployment-by-id-or-url.md) | Get a deployment by ID or URL | | **POST** | [`/v13/deployments`](/docs/rest-api/deployments/create-a-new-deployment.md) | Create a new deployment | | **PATCH** | [`/v12/deployments/{id}/cancel`](/docs/rest-api/deployments/cancel-a-deployment.md) | Cancel a deployment | | **POST** | [`/v2/files`](/docs/rest-api/deployments/upload-deployment-files.md) | Upload Deployment Files | | **GET** | [`/v6/deployments/{id}/files`](/docs/rest-api/deployments/list-deployment-files.md) | List Deployment Files | | **GET** | [`/v8/deployments/{id}/files/{fileId}`](/docs/rest-api/deployments/get-deployment-file-contents.md) | Get Deployment File Contents | | **GET** | [`/v7/deployments`](/docs/rest-api/deployments/list-deployments.md) | List deployments | | **DELETE** | [`/v13/deployments/{id}`](/docs/rest-api/deployments/delete-a-deployment.md) | Delete a Deployment | ## dns | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v5/domains/{domain}/records`](/docs/rest-api/dns/list-existing-dns-records.md) | List existing DNS records | | **POST** | [`/v2/domains/{domain}/records`](/docs/rest-api/dns/create-a-dns-record.md) | Create a DNS record | | **PATCH** | [`/v1/domains/records/{recordId}`](/docs/rest-api/dns/update-an-existing-dns-record.md) | Update an existing DNS record | | **DELETE** | [`/v2/domains/{domain}/records/{recordId",
+      "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 8821,
+    "output_tokens": 1782
+  },
+  "failure": null
+}
