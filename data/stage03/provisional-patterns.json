@@ -65,8 +65,8 @@
       "unclear": 1
     },
     "buildability": {
-      "unknown": 83,
-      "buildable": 17
+      "unknown": 82,
+      "buildable": 18
     }
   },
   "array_count_note": "Auth and API type are multi-label app counts; totals may exceed 100. API breadth remains original free text; no guessed breadth buckets.",
@@ -96,8 +96,8 @@
       "buildable": 1
     },
     "6. Data, SEO and Scraping": {
-      "unknown": 9,
-      "buildable": 1
+      "unknown": 8,
+      "buildable": 2
     },
     "7. Developer, Infra and Data platforms": {
       "unknown": 7,

@@ -247,3 +247,19 @@ First pass 6/24 (25%), final 24/24 (100%), +75 percentage points on the same cla
 three unscored supporting rationale corrections. Exact source inspection times and
 capture metadata are not invented. Whole records remain needs_verification. Stage03
 remains BLOCKED pending remaining actual human review and final verification/patterns.
+
+## Actual human review update — MrScraper
+
+Uday reported buildability=buildable and primary_blocker=usage_quota_and_target_site_constraints,
+both frozen unknown claims judged incorrect. Recorded explicit buildability rationale as a
+separate companion correction, never an extra scored claim. Preserved self-service ordinary
+integration and free-plan evidence versus finite usage allowances and target-site scraping
+complexity. Constraints affect scale/individual jobs, not a universal API integration block.
+No unreviewed auth, access, MCP or API fields were changed or scored from the notes.
+
+Cumulative partial review: 28 items across fourteen apps, 26 scored and two unclear.
+First pass 6/26 (23.08%), final 26/26 (100%), +76.92 percentage points on the same claims.
+12/40 items remain pending. Twenty-four field corrections across twelve apps, including
+four unscored companion rationale corrections. No inspection timestamps or source capture
+metadata were fabricated. Whole records remain needs_verification. Stage03 remains BLOCKED
+pending remaining actual manual review and final verification/pattern analysis.

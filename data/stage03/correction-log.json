@@ -885,5 +885,159 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "052:mcp_available",
     "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim quote capture, exact retrieval timestamp and content hash not supplied and not fabricated."
+  },
+  {
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "field": "buildability",
+    "original_value": "unknown",
+    "corrected_value": "buildable",
+    "reason": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-054-buildability-1",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-054-buildability-2",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-054-buildability-3",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:49:27+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "054:buildability",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; exact retrieval time, quote capture and text hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "field": "buildability_rationale",
+    "original_value": "unknown",
+    "corrected_value": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+    "reason": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-054-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-054-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-054-buildability_rationale-3",
+        "field": "buildability_rationale",
+        "claim": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:49:27+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "054:buildability",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; exact retrieval time, quote capture and text hash were not supplied and are not fabricated.",
+    "supporting_field_note": "Explicit Uday rationale transcribed as companion field; not an extra scored sample claim."
+  },
+  {
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "field": "primary_blocker",
+    "original_value": "unknown",
+    "corrected_value": "usage_quota_and_target_site_constraints",
+    "reason": "There is no documented approval or access gate preventing ordinary integration. The main documented constraints are usage quotas/tokens and target-site complexity. Every plan has finite token allowances, and further usage can require upgrading. Scraping cost and reliability also vary with JavaScript complexity, page size, bandwidth, data volume, proxy requirements, retries, and AI-processing load. These constraints condition scale and individual scraping jobs rather than blocking API integration itself.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-054-primary_blocker-1",
+        "field": "primary_blocker",
+        "claim": "usage_quota_and_target_site_constraints",
+        "url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-054-primary_blocker-2",
+        "field": "primary_blocker",
+        "claim": "usage_quota_and_target_site_constraints",
+        "url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/billing",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-054-primary_blocker-3",
+        "field": "primary_blocker",
+        "claim": "usage_quota_and_target_site_constraints",
+        "url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "final_url": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:49:27+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "054:primary_blocker",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; exact retrieval time, quote capture and text hash were not supplied and are not fabricated."
   }
 ]
