@@ -1,226 +1,78 @@
-# Evidence-backed integration research — Stage 02
+# Composio Product Intern Assessment
 
-Stage 02 starts from accepted Stage 01 commit `74bd9f5d9511be8b3777d0a079f5aaf174992fb2`
-on `stage02/research-agent-dataset`. It owns research and initial extraction only.
-`agent/schema.py` remains the canonical v1.0 contract. Stage 03 owns semantic verification,
-human checking and pattern analysis. No Stage 02 command builds, deploys or reviews the legacy UI.
-See `STAGE02.md` for the original fallback run and `STAGE02-CORRECTION.md` for the subsequent successful authenticated Composio correction. The original authentication blocker is resolved; findings remain unverified.
-The recorded complete fallback run is `stage02-full-fallback-20260916`.
+An evidence-grounded research pipeline for 100 assigned app identities across 10 categories, with a deterministic human sample, logged corrections, a conservative verified projection, and a standalone case study.
 
-## Prerequisites and installation
+## Live case study
 
-Python 3.10+ (tested locally with 3.14.5), outbound HTTPS and valid Composio/OpenAI keys.
-From `U:\composio-research-assessment`:
+[Public case study](https://udaysuryap.github.io/composio-research-assessment/) â€” Stage 05 publication validation is recorded in STAGE05.md. Only the accepted standalone artifact is published; historical presentation is excluded.
+
+## Submission artifact
+
+Upload `submission/composio-assessment-uday.html`: a self-contained 81,369-byte HTML file with inline CSS, JavaScript and all 100 matrix rows. Open it directly in a browser; core content and filtering work offline. Do not zip it. [Repository](https://github.com/udaySuryaP/composio-research-assessment).
+
+## What I built
+
+A Python research agent retrieves source text, extracts structured claims with OpenAI strict JSON schema, checks provenance and evidence grounding, and freezes the first pass. Human verification and targeted source checks are recorded separately. The final case study embeds the accepted verified-only projection.
+
+## Workflow
+
+Assigned apps â†’ discovery â†’ source retrieval â†’ structured extraction â†’ evidence checks â†’ deterministic human verification â†’ corrections â†’ verified projection â†’ case study.
+
+## Composio usage
+
+Initial Composio authentication failed and the complete baseline used assigned seed-document discovery. After correcting the key type to a Composio Platform Project API key, live `composio_search` inspection selected `COMPOSIO_SEARCH_TAVILY`, version `20260903_00`. Eight successful augmentation searches ran in a separate frozen checkpoint. This does not imply all research used Composio. See STAGE02-CORRECTION.md and data/runs/stage02-composio-augmentation-20260916/ for retained provenance. No new research calls were made in Stage 05.
+
+## Verification
+
+Seed 42 predeclared 20 apps and 40 claims. Uday supplied 40 actual human review reports: 35 scoreable, five unclear/unscored, zero pending. On the same 35 claims, first pass matched 7/35 (20%) and final verified judgment matched 35/35 (100%): +80 percentage points. Final judgments were supplied during verification, rather than an independent delayed re-audit. This is a sample-level result and does not measure whole-dataset accuracy.
+
+## Key limitations
+
+Only 44/700 critical claims are independently checked; 656 remain unresolved. There are 22 partially resolved apps, 78 unresolved across all seven critical fields, and zero fully verified app records. API breadth is unknown for all 100. No integrations were executed end-to-end. Five sampled claims remain unresolved. Category ranking and population prevalence are unsupported. The recovered original assignment contains rows 1â€“90; accepted seeds contain 100 identities. See data/stage02-input-reconciliation.json for the additional-row confirmation record and submission/COMPLIANCE.md for itemized coverage.
+
+Unknown means unresolved, rather than no API, no MCP, or a blocked integration.
+
+## Run locally
+
+Open `submission/composio-assessment-uday.html` in a browser. Python 3.10+ and Node.js are required only for rebuilding/checking the work, not viewing it.
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-stage02.txt
+Start-Process .\submission\composio-assessment-uday.html
 ```
 
-Create the ignored local `.env` using `.env.example` as a guide:
+## Reproduce checks
 
-```text
-OPENAI_API_KEY=<populate locally>
-OPENAI_MODEL=gpt-4.1-mini-2025-04-14
-COMPOSIO_API_KEY=<populate locally>
-COMPOSIO_USER_ID=stage02-research
-```
-
-Do not paste credentials into chat or commit them. The pipeline automatically loads
-plain `KEY=value` entries without executing or interpolating their contents. Existing
-process variables take precedence. OpenAI uses strict JSON-schema Structured Outputs
-via the official Chat Completions HTTPS endpoint, with the standard-library transport.
-For the recorded complete dependency set, install `requirements-stage02-lock.txt`
-instead of the two direct requirements (platform compatibility still applies).
-The Composio Python SDK is used directly; a CLI or provider plugin is unnecessary.
-
-## Inspect, smoke-test, collect
-
-Inspect the live catalog before choosing an action:
+From a complete Git checkout on `stage05/final-submission`:
 
 ```powershell
-.\.venv\Scripts\python.exe -B -m agent.stage02 inspect
-```
-
-Read `data/stage02-live-catalog.json`: choose a web-search action, check its actual
-input schema and authentication requirements. Pass its exact slug; the pipeline
-validates that it exists and pins the toolkit's dated live version. Actions requiring
-additional mandatory parameters are rejected until explicitly implemented.
-
-```powershell
-.\.venv\Scripts\python.exe -B -m agent.stage02 smoke --action <inspected-action-slug> --run-id stage02-smoke
-.\.venv\Scripts\python.exe -B -m agent.stage02 run --action <inspected-action-slug> --run-id stage02-full
-```
-
-The smoke test selects Salesforce, Zendesk, Google Ads and Notion. The full run
-requires a frozen smoke test with zero extraction failures and some accepted evidence.
-If the live catalog/search fails, preserve the exact failure first, then explicitly
-activate the seed-document discovery fallback:
-
-```powershell
-.\.venv\Scripts\python.exe -B -m agent.stage02 smoke --fallback-seeds --run-id stage02-smoke-fallback
-.\.venv\Scripts\python.exe -B -m agent.stage02 run --fallback-seeds --run-id stage02-full-fallback
-```
-
-A fallback is an honest limitation, not a Composio success. It does not prove MCP/API
-absence. Failed extraction emits a schema-valid unknown record and an explicit failure.
-Composio rejection with HTTP 401 requires correcting the local project key.
-
-## Checkpoints and outputs
-
-Rerun the same command and run ID after interruption. Completed per-app checkpoints
-are reused without search, retrieval or model calls; incompatible model, prompt,
-schema, seed or tool configurations are rejected. A frozen run cannot be resumed
-or overwritten; use a new run ID for any new research. One documented security-only
-redaction removed Stripe documentation credential examples before publication; original
-hashes are retained in `data/stage02-security-redactions.json`, with every research
-claim value preserved.
-
-`data/runs/<run_id>/` contains:
-
-- `manifest.json`: input/model/tool/prompt/schema configuration, bounds and actual usage.
-- `apps/001.json` through `apps/100.json`: assigned identities, raw extraction,
-  accepted record, deterministic repairs, discovery responses, normalized retrieved
-  text, requested/final URLs, timestamps, hashes, failures and validation flags.
-- `first-pass.json`: frozen accepted records; genuine raw output remains per app.
-- `failures.json`: extraction or unexpected app-processing failures.
-- `quality-flags.json`: per-app deterministic flags for Stage 03.
-- `freeze.json`: SHA-256 hashes of all frozen JSON artifacts.
-
-```powershell
-.\.venv\Scripts\python.exe -B -m agent.stage02 verify-freeze --run-id stage02-full
-.\.venv\Scripts\python.exe -B -m agent.stage02_audit --run-id stage02-full
-.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
-```
-
-The audit writes a separate `data/stage02-postflight-<run_id>.json`, without
-changing frozen research. It checks schema, exact run identities, source hashes,
-aggregate/checkpoint equality, artifact hashes and supplemental verification flags.
-
-`data/stage02-input-lock.json` locks the accepted seed content and identities. The recovered original assessment attachment from HQ contains apps 1–90, all
-matching the accepted seeds by ID/name/category; its final category has no rows.
-`data/stage02-input-reconciliation.json` records this comparison and the status
-of user confirmation for apps 91–100.
-Seeded documentation origins are treated as assigned official sources; this trust
-needs Stage 03 verification, especially delegated documentation hosts and ambiguous names.
-
-## Bounds and interpretation
-
-Three app workers, two discovery queries per app, at most four retrieved pages,
-20-second retrieval and 90-second OpenAI timeouts, one retry for OpenAI/Composio,
-14,000 normalized characters per page and 42,000 total evidence characters per app.
-Composio's SDK additionally has a 30-second timeout and one internal retry.
-OpenAI calls and returned token usage are counted; no cost estimate is invented.
-
-Search snippets are candidates only. Extraction receives actual retrieved text and
-must abstain without evidence. Deterministic checks reject missing/failed provenance,
-fabricated quotes, mixed unknown enums and unsupported negative claims. A matching
-quote proves text grounding, not semantic truth. JavaScript shells can remain readable
-but incomplete; auth/access distinctions and buildability still require Stage 03 checking.
-No record is automatically human-audited, and no human accuracy score is produced.
-
-## Legacy artifacts
-
-Existing `agent/pipeline.py`, `agent/review.py`, `agent/build.py`, top-level data and
-`site/` predate Stage 01 and are preserved. They are not Stage 02 outputs. Do not use
-legacy result counts or the deployed presentation as evidence that this new research
-run succeeded. `STAGE01.md` documents the accepted baseline and later-stage boundaries.
-
-## Pre-Stage 03 canonical state
-
-Stage 01 and corrected Stage 02 are the governed research baseline. Main also preserves earlier work, including `EXPLAIN.md` and the historical Pages publication at https://udaysuryap.github.io/composio-research-assessment/. That publication uses legacy artifacts and is not the verified submission. Pages publishing is manual until the later presentation/deployment stages; merging research must not republish it automatically.
-
-See `PRE-STAGE03-AUDIT.md` for coverage, checks and outstanding verification risks. Do not use legacy analytics or human worksheets as Stage 03 results.
-
-## Stage 03 preparation and manual verification
-
-Stage 03 starts at canonical `0e4090c69242e0281338f97fc27c3ccd009aa51a` on
-`stage03/verification-pattern-analysis`. Run offline from the repository:
-
-```powershell
-.\.venv\Scripts\python.exe -B -m agent.stage03 prepare
-.\.venv\Scripts\python.exe -B -m agent.stage03 check
-.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
-```
-
-`data/stage03/sample-manifest.json` predeclares seed 42, two apps per category
-and two claims per app (40 claims). `REVIEW.md` presents manageable review items;
-`human-review.json` is the machine-readable worksheet. Uday personally checks the
-source and reports observed values and judgments. Ownership and product identity
-must be confirmed even for seeded official URLs. Reviewer/timestamp fields are blank
-until actual review. Inaccessible, ambiguous, outdated and unclear sources are unscored.
-The challenge set contains frozen quality flags, hard failures and augmentation
-disagreements separately; it is never used to inflate unbiased sample accuracy.
-
-`score(reviews, expected)` compares the same complete paired claims with actual Uday
-judgments. Both first-pass and final denominators are identical; null accuracy means
-no scored claims. Unit-test review fixtures are synthetic and never enter outputs.
-Preparation refuses to overwrite changed human worksheets. After review, ingestion,
-corrections and finalization must be completed in a resumed Stage 03 session; the
-current command deliberately does not finalize or publish the dataset.
-
-`prepared-results.json/csv` retains all 100 identities and first-pass uncertainty.
-It is a pending working dataset, not final verified research. Each correction requires
-original/corrected values, reason, evidence, method and timestamp in `correction-log.json`.
-No augmentation candidate is automatically promoted. `provisional-patterns.json` is
-reproduced from prepared rows, contains no product insights, and must not be used as
-final Stage 04 evidence. Free-text API breadth is not guessed into categorical buckets.
-`baseline-integrity.json` pins all four frozen manifests; `check` detects frozen tampering
-and any prepared change without a corresponding correction. Prior artifacts are immutable.
-Final metrics, verified-source coverage, semantic failure modes and approximately five
-supported product insights remain pending actual source verification and manual review.
-
-Human review updates preserve `review-items.json` as the blank predeclared definition.
-If Uday supplies judgments without an inspection time, `reviewed_at` stays null;
-`review_reported_at` records the actual report receipt time and is explicitly labeled.
-The scorer accepts either timestamp for a completed actual human report. This does not
-assert when Uday visited the page. `check` also reconciles human summary and provisional
-counts against recorded judgments and prepared rows.
-
-## Completed Stage 03: checked claims and explicit unresolved coverage
-
-All 40 actual Uday review reports are recorded; five unclear claims are unscored.
-The final paired sample is 7/35 first-pass and 35/35 final (+80 percentage points).
-These are the same 35 sampled claims. The final judgment was supplied alongside each
-proposed correction, not independently re-audited after a delay. This is not a
-whole-dataset accuracy measurement or proof of working integrations.
-
-Use `data/stage03/verified-results.json` and `.csv` as the conservative verified-only
-view, `claim-verification.json` for coverage, and `patterns.json` plus
-`pattern-evidence.json` for reproducible Stage03 summaries and bounded insights.
-All 100 identities remain. Checked fields retain their documented values. Unchecked
-first-pass claims become explicit unknowns with coverage-abstention log entries rather
-than being silently promoted as verified. This leaves 22 partially resolved apps and
-78 apps with all seven critical fields unresolved, not 78 confirmed failed apps.
-No complete row is marked human_audited. API breadth stays unknown without an
-independently supported breadth classification. Category comparisons have sparse
-checked coverage and cannot support integration-priority rankings.
-
-The original 100-app first pass remains immutable. `correction-log.json` distinguishes
-41 substantive/source-supported updates (including five supporting rationale fields)
-from 285 automated coverage abstentions; abstentions are not proven incorrect claims.
-`automated-checks.json` and `targeted-source-excerpts.json` record actual follow-up for
-SendGrid, Vercel, Xero and HubSpot. Excerpt hashes cover short retained excerpts, not
-whole web pages. `prepared-results` is an audit reconstruction and is not the final
-active evidence view. No new Composio call was made; Xero retains original Composio
-augmentation provenance plus official-domain ownership triangulation.
-
-Reproduce from the repository, keeping human judgments unchanged:
-
-```powershell
-.\.venv\Scripts\python.exe -B -m agent.stage03_finalize generate --timestamp 2026-09-16T21:14:49+00:00
-.\.venv\Scripts\python.exe -B -m agent.stage03_finalize check
-.\.venv\Scripts\python.exe -B -m agent.stage03 check
-.\.venv\Scripts\python.exe -B -m agent.stage03_security
 .\.venv\Scripts\python.exe -B -m unittest discover -s tests -q
+.\.venv\Scripts\python.exe -B -m agent.stage02 verify-freeze --run-id stage02-full-fallback-20260916
+.\.venv\Scripts\python.exe -B -m agent.stage03 check
+.\.venv\Scripts\python.exe -B -m agent.stage03_finalize check
+.\.venv\Scripts\python.exe -B -m agent.stage04 check
+node submission/check-interactions.cjs
+.\.venv\Scripts\python.exe -B -m agent.stage05
+.\.venv\Scripts\python.exe -B -m agent.stage03_security
+git diff --check
 ```
 
-Later substantive review requires a new governed checkpoint; do not edit frozen
-Stage02 runs or human history to improve displayed numbers. Stage03 is ready for HQ
-audit with material coverage limitations. Stage04 may consume these files only after
-HQ acceptance and explicit authorization. No presentation, deployment, main merge or
-Notion modification is part of this work.
+Checks use retained evidence and require no API keys or fresh research. `agent.stage04 check` deterministically rebuilds the HTML and asserts byte equality. Optional rebuild: `python -B -m agent.stage04 build`. Fresh research instructions, credentials and frozen-run safeguards remain in STAGE02.md / STAGE02-CORRECTION.md; do not overwrite accepted checkpoints.
 
-## Stage04 standalone submission
+## Repository structure
 
-Open submission/composio-assessment-uday.html directly in a browser. See STAGE04.md for rebuild and validation commands. This is the governed case-study artifact; historical site files remain historical.
+- `agent/`: research, schema, verification, projection, submission and hosting checks.
+- `data/runs/`: immutable baseline checkpoints and freezes.
+- `data/runs/stage02-composio-augmentation-20260916/`: separate Composio augmentation.
+- `data/stage03/`: sample definition, actual reviews, corrections, verified rows, claim coverage and bounded patterns.
+- `submission/`: final HTML, embedded-JavaScript harness, compliance audit and reviewer notes.
+- `tests/`: 53 existing tests.
+- `.github/workflows/pages.yml`: manual Pages publication; installs pinned direct dependencies, runs checks, publishes only a byte-identical HTML copy.
+- `STAGE01.md`â€“`STAGE04.md`: historical accepted implementation records; `STAGE05.md`: final preparation record.
+
+## Historical artifact reconciliation
+
+`site/`, root `case-study.html`, EXPLAIN.md and earlier top-level presentation/data are historical outputs, not the final submission. They are preserved for audit history and excluded from deployment. The final output is exclusively `submission/composio-assessment-uday.html`.
+
+STAGE04.md records the implementation handoff's browser limitation. A later independent HQ audit completed Chromium desktop/mobile QA (1440Ã—1000 and 390Ã—844), direct local opening and offline interaction checks, and accepted Stage 04 at `402e90d7f5a33b2dee9f0087e6d8e11a6708e307`. It was subsequently merged into canonical main `cc335e607b8d0a8af4f2715b8a912056bceec274`. The historical handoff remains unchanged. Stage 05 repeats hosted QA; its branch remains separate pending HQ final audit.

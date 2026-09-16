@@ -77,7 +77,7 @@ def check():
  assert not re.search(r'fetch\s*\(|XMLHttpRequest|<script[^>]+src=|<link[^>]+href=',text)
  before=OUT.read_bytes();build();assert before==OUT.read_bytes(),'Artifact must match deterministic generator'
  changed=subprocess.check_output(['git','diff','a94cce23a4fbdaf9e8b80c03fa8e482f9057f73f','--name-only'],cwd=ROOT,text=True).splitlines()
- assert all(p.startswith(('submission/','agent/stage04.py','tests/test_stage04.py','STAGE04.md')) or p=='README.md' for p in changed),changed
+ assert all(p.startswith(('submission/','agent/stage04.py','tests/test_stage04.py','STAGE04.md')) or p in {'README.md','.github/workflows/pages.yml','agent/stage05.py','STAGE05.md','submission/REVIEWER-NOTES.md','submission/COMPLIANCE.md'} for p in changed),changed
  print(json.dumps({'stage04':'PASS','bytes':OUT.stat().st_size,'rows':100,'unique_apps':100,'checked':44,'unresolved':656,'partially_resolved':22,'fully_verified':0,'offline':True,'canonical_projection_equal':True,'accepted_files_unchanged':True}))
 if __name__=='__main__':
  import sys
