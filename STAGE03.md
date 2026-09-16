@@ -48,3 +48,17 @@ not invented. The actual report receipt timestamp is recorded separately. Whole 
 status remains needs_verification because the other fields have not been audited.
 The blank review definition and sample selection remain fixed. Frozen Stage02 artifacts
 remain unchanged. Stage03 remains BLOCKED on remaining actual Uday source inspection.
+
+## Actual human review update — Salesforce
+
+Uday supplied API availability and API type judgments: api_available=yes and
+api_types=[rest]. Both frozen first-pass values were unknown and judged incorrect.
+No SOAP/GraphQL or other protocol types were inferred. Both official source URLs and
+Uday's notes are retained. No exact inspection time, captured text hash or verbatim
+quote was supplied: those evidence metadata fields remain empty, with provenance
+explicitly identified as human source observations and an actual report receipt time.
+
+Cumulative partial sample: first pass 1/4 (25%), final 4/4 (100%), +75 percentage points.
+These four claims cover two apps; 36/40 claims remain pending. Three field corrections
+across two apps. Neither entire app is marked human_audited. Final sample accuracy,
+verified dataset and product insights remain pending. Stage03 remains BLOCKED on review.

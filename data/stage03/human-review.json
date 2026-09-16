@@ -79,16 +79,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "The official Salesforce REST API documentation explicitly states that REST API provides programmatic access to Salesforce data and can be used to integrate Salesforce into applications. It also states that API resources are accessed through HTTP requests to URIs. This directly establishes that Salesforce exposes an inbound developer API.",
+    "notes": "The official Salesforce REST API documentation explicitly states that REST API provides programmatic access to Salesforce data and can be used to integrate Salesforce into applications. It also states that API resources are accessed through HTTP requests to URIs. This directly establishes that Salesforce exposes an inbound developer API.",
+    "review_reported_at": "2026-09-16T19:18:09+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report.",
+    "observed_source_urls": [
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm"
+    ]
   },
   {
     "item_id": "001:api_types",
@@ -108,16 +114,26 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which API protocols are explicitly documented for this product?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "The inspected official sources explicitly document Salesforce REST API and state that it follows RESTful principles, uses resources exposed by URIs, and is accessed through HTTP requests. These sources support \"rest\". They do not by themselves establish additional API types such as SOAP or GraphQL, so no other protocol types should be added from this review.",
+    "notes": "The inspected official sources explicitly document Salesforce REST API and state that it follows RESTful principles, uses resources exposed by URIs, and is accessed through HTTP requests. These sources support \"rest\". They do not by themselves establish additional API types such as SOAP or GraphQL, so no other protocol types should be added from this review.",
+    "review_reported_at": "2026-09-16T19:18:09+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report.",
+    "observed_source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html"
+    ]
   },
   {
     "item_id": "095:mcp_available",

@@ -24,5 +24,87 @@
     "timestamp": "2026-09-16T19:15:23+00:00",
     "timestamp_basis": "Human report receipt/correction recording, not claimed source-inspection time",
     "review_item_id": "002:access_model"
+  },
+  {
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "field": "api_available",
+    "original_value": "unknown",
+    "corrected_value": "yes",
+    "reason": "The official Salesforce REST API documentation explicitly states that REST API provides programmatic access to Salesforce data and can be used to integrate Salesforce into applications. It also states that API resources are accessed through HTTP requests to URIs. This directly establishes that Salesforce exposes an inbound developer API.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-001-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+        "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-001-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "final_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:18:09+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; source-inspection time not supplied",
+    "review_item_id": "001:api_available",
+    "evidence_note": "Human inspected sources and supplied paraphrased observations. No verbatim quote, automated page retrieval timestamp or content hash was supplied; those fields remain empty rather than fabricated."
+  },
+  {
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "field": "api_types",
+    "original_value": [
+      "unknown"
+    ],
+    "corrected_value": [
+      "rest"
+    ],
+    "reason": "The inspected official sources explicitly document Salesforce REST API and state that it follows RESTful principles, uses resources exposed by URIs, and is accessed through HTTP requests. These sources support \"rest\". They do not by themselves establish additional API types such as SOAP or GraphQL, so no other protocol types should be added from this review.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-001-api_types-1",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "final_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-001-api_types-2",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+        "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:18:09+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; source-inspection time not supplied",
+    "review_item_id": "001:api_types",
+    "evidence_note": "Human inspected sources and supplied paraphrased observations. No verbatim quote, automated page retrieval timestamp or content hash was supplied; those fields remain empty rather than fabricated."
   }
 ]
