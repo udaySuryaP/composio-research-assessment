@@ -1,0 +1,115 @@
+{
+  "status": "provisional_unverified",
+  "denominator": 100,
+  "counts": {
+    "auth_methods": {
+      "unknown": 55,
+      "oauth2": 23,
+      "api_key": 12,
+      "bearer_token": 11,
+      "basic": 5,
+      "other": 7,
+      "none": 2,
+      "digest": 1
+    },
+    "access_model": {
+      "unknown": 52,
+      "self_serve_paid": 36,
+      "admin_approval": 1,
+      "self_serve_free": 10,
+      "self_serve_trial": 1
+    },
+    "api_available": {
+      "unknown": 57,
+      "yes": 42,
+      "no": 1
+    },
+    "api_types": {
+      "unknown": 57,
+      "rest": 40,
+      "graphql": 2,
+      "sdk": 3,
+      "other": 1
+    },
+    "api_breadth": {
+      "unknown": 75,
+      "HubSpot APIs cover CRM objects, contacts, automation, and other tools accessible via OAuth scopes.": 1,
+      "Attio provides a public REST API with endpoints for authenticating requests, handling rate limits, filtering and sorting, paginating API results, configuring webhooks, and more as part of their developer platform.": 1,
+      "Intercom offers a REST API for accessing and managing customer data, supporting private apps with Access Tokens and public apps with OAuth.": 1,
+      "Programmatic access to read and write data in Pylon, including fetching customer and issue information and creating issues.": 1,
+      "GraphQL API covering customers, companies, tenants, threads, messaging, tasks, knowledge gaps, webhooks, and more.": 1,
+      "The API allows creating tickets, messages, integrating new channels, syncing data, and showing third-party data in tickets.": 1,
+      "Gladly API offers extensive REST endpoints including Agents, Public Answers, Conversations, Customers, Endpoints, Events, Export, Freeform Topics, Inboxes, Organization, Proactive Conversations, Reports, Tasks, Teams, User Identity, Topics, and Webhooks.": 1,
+      "The API supports user and organization management, communication and collaboration features including chats, messages, threads, channels, scheduled messages, reminders, message components, meetings and events, remote work features, bots, databases, file and data management, and customization options such as custom domains, email, and themes.": 1,
+      "The API supports sending and receiving messages, managing WhatsApp Business accounts, webhook setup for message status notifications, group creation and management, and calling features.": 1,
+      "The API supports managing accounts from the customer level down to the keyword level, including account management, reporting, ad management, bidding strategies, campaign creation, asset management, and more.": 1,
+      "The API supports a wide range of admin functionalities including analytics, apps, billing, customers, discounts, inventory, orders, products, shipping, store properties, webhooks, and more, accessible via GraphQL queries and mutations.": 1,
+      "BigCommerce provides REST APIs for managing store data, customer sign-in, product information queries, and third-party app integrations, with different API account types for various use cases.": 1,
+      "The API covers a wide range of functionalities including catalog items, orders, shipments, finances, listings, messaging, notifications, fulfillment, invoicing, and more, with extensive SDK support in multiple languages.": 1,
+      "API v3 provides access to multiple endpoints including Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, and management of Rank Tracker projects and Keywords Explorer lists.": 1,
+      "Bright Data offers multiple APIs including Proxy Manager API, Scraper API, Web Unlocker API, Browser API, SERP API, AI training data API, and others, accessible via REST endpoints and SDKs.": 1,
+      "The API allows executing Cypher statements, running transactions, routing queries to read cluster members, retrieving query counters, profiling queries, coordinating transactions, enforcing causal consistency, running queries as different users, and streaming results.": 1,
+      "The API supports workspace content management including pages, databases, views, comments, markdown content, files, and media. It provides endpoints for authorization, user management, and content manipulation. The official JavaScript SDK simplifies API usage.": 1,
+      "The API supports a wide range of operations including user management, project and task management, audit logs, SCIM, and organizational exports.": 1,
+      "The API supports a wide range of operations including creating and managing boards, items, groups, columns, workspaces, folders, docs, dashboards, widgets, views, forms, notifications, automations, workflows, agents, and more, as well as querying and managing user context, assets, and executing API queries.": 1,
+      "The API supports accessing company information and other QuickBooks data endpoints, with SDKs available for multiple languages including DotNet, Java, and PHP.": 1,
+      "The API supports notebook management tasks such as creating, retrieving, listing recently viewed, deleting, and sharing notebooks programmatically.": 1,
+      "Otter MCP Server provides access to meeting transcripts, user info, and search capabilities via MCP tools integrated with AI assistants; it supports querying conversations, fetching transcripts, and retrieving user profile information.": 1,
+      "Reducto offers standalone API endpoints for document classification, parsing, extraction, splitting, editing, and workflow orchestration, with SDKs available in Python, Node.js, and Go. It supports file upload, document parsing, structured extraction, and chaining operations with job IDs for efficient processing.": 1,
+      "Provides a Node.JS API to call mermaid-cli programmatically for diagram generation.": 1,
+      "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.": 1
+    },
+    "mcp_available": {
+      "unknown": 78,
+      "official": 21,
+      "unclear": 1
+    },
+    "buildability": {
+      "unknown": 85,
+      "buildable": 15
+    }
+  },
+  "array_count_note": "Auth and API type are multi-label app counts; totals may exceed 100. API breadth remains original free text; no guessed breadth buckets.",
+  "category_buildability": {
+    "1. CRM and Sales": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "10. AI, Research and Media-native": {
+      "buildable": 2,
+      "unknown": 8
+    },
+    "2. Support and Helpdesk": {
+      "unknown": 8,
+      "buildable": 2
+    },
+    "3. Communications and Messaging": {
+      "unknown": 10
+    },
+    "4. Marketing, Ads, Email and Social": {
+      "unknown": 8,
+      "buildable": 2
+    },
+    "5. Ecommerce": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "6. Data, SEO and Scraping": {
+      "unknown": 9,
+      "buildable": 1
+    },
+    "7. Developer, Infra and Data platforms": {
+      "unknown": 7,
+      "buildable": 3
+    },
+    "8. Productivity and Project Management": {
+      "unknown": 7,
+      "buildable": 3
+    },
+    "9. Finance and Fintech": {
+      "unknown": 10
+    }
+  },
+  "insights": [],
+  "caveat": "Final verified patterns and product conclusions withheld pending source verification and actual human review."
+}

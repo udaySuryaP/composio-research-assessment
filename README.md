@@ -131,3 +131,41 @@ run succeeded. `STAGE01.md` documents the accepted baseline and later-stage boun
 Stage 01 and corrected Stage 02 are the governed research baseline. Main also preserves earlier work, including `EXPLAIN.md` and the historical Pages publication at https://udaysuryap.github.io/composio-research-assessment/. That publication uses legacy artifacts and is not the verified submission. Pages publishing is manual until the later presentation/deployment stages; merging research must not republish it automatically.
 
 See `PRE-STAGE03-AUDIT.md` for coverage, checks and outstanding verification risks. Do not use legacy analytics or human worksheets as Stage 03 results.
+
+## Stage 03 preparation and manual verification
+
+Stage 03 starts at canonical `0e4090c69242e0281338f97fc27c3ccd009aa51a` on
+`stage03/verification-pattern-analysis`. Run offline from the repository:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m agent.stage03 prepare
+.\.venv\Scripts\python.exe -B -m agent.stage03 check
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
+```
+
+`data/stage03/sample-manifest.json` predeclares seed 42, two apps per category
+and two claims per app (40 claims). `REVIEW.md` presents manageable review items;
+`human-review.json` is the machine-readable worksheet. Uday personally checks the
+source and reports observed values and judgments. Ownership and product identity
+must be confirmed even for seeded official URLs. Reviewer/timestamp fields are blank
+until actual review. Inaccessible, ambiguous, outdated and unclear sources are unscored.
+The challenge set contains frozen quality flags, hard failures and augmentation
+disagreements separately; it is never used to inflate unbiased sample accuracy.
+
+`score(reviews, expected)` compares the same complete paired claims with actual Uday
+judgments. Both first-pass and final denominators are identical; null accuracy means
+no scored claims. Unit-test review fixtures are synthetic and never enter outputs.
+Preparation refuses to overwrite changed human worksheets. After review, ingestion,
+corrections and finalization must be completed in a resumed Stage 03 session; the
+current command deliberately does not finalize or publish the dataset.
+
+`prepared-results.json/csv` retains all 100 identities and first-pass uncertainty.
+It is a pending working dataset, not final verified research. Each correction requires
+original/corrected values, reason, evidence, method and timestamp in `correction-log.json`.
+No augmentation candidate is automatically promoted. `provisional-patterns.json` is
+reproduced from prepared rows, contains no product insights, and must not be used as
+final Stage 04 evidence. Free-text API breadth is not guessed into categorical buckets.
+`baseline-integrity.json` pins all four frozen manifests; `check` detects frozen tampering
+and any prepared change without a corresponding correction. Prior artifacts are immutable.
+Final metrics, verified-source coverage, semantic failure modes and approximately five
+supported product insights remain pending actual source verification and manual review.

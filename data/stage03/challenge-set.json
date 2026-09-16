@@ -1,0 +1,5136 @@
+{
+  "scored": false,
+  "quality_candidates": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 5,
+      "app_name": "Twenty",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 6,
+      "app_name": "Podio",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 7,
+      "app_name": "Zoho CRM",
+      "flags": [
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 8,
+      "app_name": "Close",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 9,
+      "app_name": "Copper",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 10,
+      "app_name": "DealCloud",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 11,
+      "app_name": "Zendesk",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "flags": [
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 13,
+      "app_name": "Freshdesk",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 14,
+      "app_name": "Front",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 17,
+      "app_name": "Plain",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 19,
+      "app_name": "Gorgias",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 20,
+      "app_name": "Gladly",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 23,
+      "app_name": "Zoho Cliq",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 24,
+      "app_name": "Lark (Larksuite)",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 26,
+      "app_name": "Discord",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 27,
+      "app_name": "Telegram",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "unclear_claim_support",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 28,
+      "app_name": "WhatsApp Business",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 30,
+      "app_name": "Vonage",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "auth_methods"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "api_types"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 33,
+      "app_name": "LinkedIn Ads",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 36,
+      "app_name": "Klaviyo",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 38,
+      "app_name": "Pinterest",
+      "flags": [
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 39,
+      "app_name": "Threads (Meta)",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 40,
+      "app_name": "SendGrid",
+      "flags": [
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 43,
+      "app_name": "BigCommerce",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 45,
+      "app_name": "Magento (Adobe Commerce)",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 46,
+      "app_name": "Squarespace",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 47,
+      "app_name": "Ecwid",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 48,
+      "app_name": "Gumroad",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 49,
+      "app_name": "Amazon Selling Partner",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 51,
+      "app_name": "DataForSEO",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 53,
+      "app_name": "Ahrefs",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 54,
+      "app_name": "MrScraper",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 55,
+      "app_name": "Apify",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 56,
+      "app_name": "Firecrawl",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "mixed_none_auth",
+          "field": "auth_methods"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 57,
+      "app_name": "Bright Data",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "flags": [
+        {
+          "code": "unclear_claim_support",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 60,
+      "app_name": "Clay",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "auth_methods"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "api_types"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "flags": [
+        {
+          "code": "provenance_mismatch",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "auth_methods"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "access_model"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "buildability"
+        },
+        {
+          "code": "provenance_mismatch",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 63,
+      "app_name": "Netlify",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 64,
+      "app_name": "Cloudflare",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 65,
+      "app_name": "Supabase",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 66,
+      "app_name": "Neo4j",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 67,
+      "app_name": "Snowflake",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 68,
+      "app_name": "MongoDB Atlas",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 69,
+      "app_name": "Datadog",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 70,
+      "app_name": "Sentry",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 71,
+      "app_name": "Notion",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 73,
+      "app_name": "Linear",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 74,
+      "app_name": "Jira",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "auth_methods"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 75,
+      "app_name": "Asana",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "auth_methods"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "api_types"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 76,
+      "app_name": "Monday.com",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 77,
+      "app_name": "ClickUp",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "mixed_unknown_enum",
+          "field": "api_types"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 78,
+      "app_name": "Coda",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 79,
+      "app_name": "Smartsheet",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 80,
+      "app_name": "Harvest",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 83,
+      "app_name": "Binance",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 86,
+      "app_name": "QuickBooks",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 87,
+      "app_name": "Xero",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 88,
+      "app_name": "Brex",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "raw_identity_mismatch",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 93,
+      "app_name": "Fathom",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 95,
+      "app_name": "Reducto",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "description"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "description"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 96,
+      "app_name": "Devin",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 97,
+      "app_name": "higgsfield",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "api_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 99,
+      "app_name": "YouTube Transcript",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_breadth"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_available"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_available"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    },
+    {
+      "app_id": 100,
+      "app_name": "Grain",
+      "flags": [
+        {
+          "code": "quote_not_found",
+          "field": "auth_methods"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "access_model"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "api_types"
+        },
+        {
+          "code": "quote_not_found",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "mcp_notes"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "primary_blocker"
+        },
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "negative_without_explicit_evidence",
+          "field": "mcp_available"
+        }
+      ],
+      "sample_kind": "challenge_unscored",
+      "semantic_error_confirmed": false
+    }
+  ],
+  "hard_failures": [
+    {
+      "id": 40,
+      "failure": "ValueError"
+    }
+  ],
+  "augmentation_disagreements": [
+    {
+      "app_id": 40,
+      "field": "buildability_rationale",
+      "first_pass_value": "Insufficient evidence.",
+      "augmentation_candidate": "unknown",
+      "evidence": [],
+      "status": "unverified_candidate"
+    },
+    {
+      "app_id": 62,
+      "field": "auth_methods",
+      "first_pass_value": [
+        "unknown"
+      ],
+      "augmentation_candidate": [
+        "oauth2",
+        "api_key"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "ev2",
+          "field": "auth_methods",
+          "claim": "Authentication methods include OAuth Sign-in via GitHub, Google, GitLab, Bitbucket and API key usage as implied by SDK and REST API usage.",
+          "url": "https://vercel.com/pricing",
+          "final_url": "https://vercel.com/pricing",
+          "source_kind": "official",
+          "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+          "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+          "quote": "Access & Deployment Security Vercel protects your projects across access, application, and infrastructure security. OAuth Sign-in GitHub Google GitLab Bitbucket",
+          "supports_claim": "yes"
+        }
+      ],
+      "status": "unverified_candidate"
+    },
+    {
+      "app_id": 62,
+      "field": "access_model",
+      "first_pass_value": "unknown",
+      "augmentation_candidate": "self_serve_paid",
+      "evidence": [
+        {
+          "evidence_id": "ev3",
+          "field": "access_model",
+          "claim": "Users can upgrade from Hobby (free) to Pro (paid) directly in the Vercel dashboard, indicating a self-serve paid access model.",
+          "url": "https://vercel.com/pricing",
+          "final_url": "https://vercel.com/pricing",
+          "source_kind": "official",
+          "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+          "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+          "quote": "I have a Hobby account, how do I upgrade to a paid plan? Thanks for continuing to use Vercel! You can upgrade to Pro directly in the Vercel dashboard.",
+          "supports_claim": "yes"
+        }
+      ],
+      "status": "unverified_candidate"
+    },
+    {
+      "app_id": 87,
+      "field": "mcp_available",
+      "first_pass_value": "unknown",
+      "augmentation_candidate": "official",
+      "evidence": [
+        {
+          "evidence_id": "e8",
+          "field": "mcp_available",
+          "claim": "official",
+          "url": "https://github.com/xeroapi/xero-mcp-server",
+          "final_url": "https://github.com/xeroapi/xero-mcp-server",
+          "source_kind": "community",
+          "retrieved_at": "2026-09-16T17:44:04.121729+00:00",
+          "content_sha256": "4ca9661e241c5bcb3ac710f1ba6daa691535411f5b104af13daf0627a7bcbabf",
+          "quote": "Xero MCP Server This is a Model Context Protocol (MCP) server implementation for Xero. It provides a bridge between the MCP protocol and Xero's API, allowing for standardized access to Xero's accounting and business features.",
+          "supports_claim": "yes"
+        }
+      ],
+      "status": "unverified_candidate"
+    }
+  ],
+  "all_unknown_ids": [
+    1,
+    3,
+    5,
+    18,
+    22,
+    24,
+    32,
+    33,
+    40,
+    44,
+    47,
+    48,
+    49,
+    56,
+    60,
+    62,
+    69,
+    80,
+    83,
+    84,
+    85,
+    87,
+    89,
+    90,
+    94
+  ]
+}
