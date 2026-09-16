@@ -3,9 +3,9 @@
   "denominator": 100,
   "counts": {
     "auth_methods": {
-      "unknown": 55,
-      "oauth2": 23,
-      "api_key": 12,
+      "unknown": 54,
+      "oauth2": 24,
+      "api_key": 13,
       "bearer_token": 11,
       "basic": 5,
       "other": 7,

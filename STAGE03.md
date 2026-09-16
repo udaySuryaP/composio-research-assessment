@@ -78,3 +78,20 @@ corrections across three apps, including the supporting rationale. Source metada
 inspection timestamps are not invented; receipt timestamps are separately labeled.
 Whole records remain needs_verification; provisional metrics are regenerated but final
 patterns and Stage03 completion remain pending actual human review. BLOCKED.
+
+## Actual human review update — Consensus
+
+Uday reported primary_blocker=paid_or_enterprise_access_requirements and authentication
+[api_key, oauth2]. Both first-pass unknown claims were judged incorrect. Retained the
+commercial-conditioning caveat: API/MCP capability exists, while API-key gateway access
+maps to Enterprise and only some gateway configurations need sales-assisted provisioning.
+Authentication notes distinguish shared API-key Bearer transport from per-user OAuth2
+with PKCE; no OAuth client-credentials grant or website-login inference was introduced.
+No other Consensus fields were changed or scored from these judgments.
+
+Cumulative partial sample: first pass 1/8 (12.5%), final 8/8 (100%), +87.5 percentage
+points on the same eight claims, spanning four apps. 32/40 claims remain pending.
+Eight field corrections across four apps, including the unscored Reducto supporting
+rationale. Exact inspection time and source-capture metadata were not fabricated.
+Whole records remain needs_verification. Stage03 remains BLOCKED on human review;
+final verified dataset, final sample accuracy and product insights are still pending.

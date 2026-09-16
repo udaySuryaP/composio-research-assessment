@@ -224,5 +224,88 @@
     "review_item_id": "095:buildability",
     "evidence_note": "Actual Uday source inspection with paraphrased observations. Exact inspection time, verbatim source quote and captured content hash were not supplied and are not fabricated.",
     "supporting_field_note": "Companion rationale transcribed from Uday buildability notes; not a separate scored sample claim."
+  },
+  {
+    "app_id": 94,
+    "app_name": "Consensus",
+    "field": "primary_blocker",
+    "original_value": "unknown",
+    "corrected_value": "paid_or_enterprise_access_requirements",
+    "reason": "Consensus does expose both an MCP server and an API, so integration is not technically blocked. However, access is commercially conditioned. The documentation states that API-key gateway credentials map to the Enterprise tier, while paid plans provide defined request limits and paper limits. Some enterprise-specific setups, such as confidential OAuth clients for gateways that cannot use Dynamic Client Registration, require contacting sales for manual provisioning. Therefore the practical blocker is not lack of API/MCP capability, but paid/Enterprise access requirements and, for some gateway configurations, sales-assisted credential provisioning.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-094-primary_blocker-1",
+        "field": "primary_blocker",
+        "claim": "paid_or_enterprise_access_requirements",
+        "url": "https://docs.consensus.app/enterprise/connection-reference",
+        "final_url": "https://docs.consensus.app/enterprise/connection-reference",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-094-primary_blocker-2",
+        "field": "primary_blocker",
+        "claim": "paid_or_enterprise_access_requirements",
+        "url": "https://docs.consensus.app/enterprise",
+        "final_url": "https://docs.consensus.app/enterprise",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:27:20+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "094:primary_blocker",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations; no verbatim source quote, automated retrieval timestamp or captured text hash supplied. These metadata fields remain empty."
+  },
+  {
+    "app_id": 94,
+    "app_name": "Consensus",
+    "field": "auth_methods",
+    "original_value": [
+      "unknown"
+    ],
+    "corrected_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "reason": "The official Consensus documentation explicitly documents two authentication methods for MCP/API access. Shared server-side integrations can use an API key sent as a Bearer token, while per-user integrations use OAuth 2.0 authorization-code flow with PKCE. The docs also explicitly distinguish these methods from ordinary website login and state that there is no OAuth client-credentials grant.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-094-auth_methods-1",
+        "field": "auth_methods",
+        "claim": "[\"api_key\", \"oauth2\"]",
+        "url": "https://docs.consensus.app/enterprise/connection-reference",
+        "final_url": "https://docs.consensus.app/enterprise/connection-reference",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-094-auth_methods-2",
+        "field": "auth_methods",
+        "claim": "[\"api_key\", \"oauth2\"]",
+        "url": "https://docs.consensus.app/enterprise/security",
+        "final_url": "https://docs.consensus.app/enterprise/security",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:27:20+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "094:auth_methods",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations; no verbatim source quote, automated retrieval timestamp or captured text hash supplied. These metadata fields remain empty."
   }
 ]

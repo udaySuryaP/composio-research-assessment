@@ -214,16 +214,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://docs.consensus.app/enterprise/connection-reference",
+    "observed_correct_value": "paid_or_enterprise_access_requirements",
+    "first_pass_correct": "no",
+    "final_value": "paid_or_enterprise_access_requirements",
+    "final_correct": "yes",
+    "correction_reason": "Consensus does expose both an MCP server and an API, so integration is not technically blocked. However, access is commercially conditioned. The documentation states that API-key gateway credentials map to the Enterprise tier, while paid plans provide defined request limits and paper limits. Some enterprise-specific setups, such as confidential OAuth clients for gateways that cannot use Dynamic Client Registration, require contacting sales for manual provisioning. Therefore the practical blocker is not lack of API/MCP capability, but paid/Enterprise access requirements and, for some gateway configurations, sales-assisted credential provisioning.",
+    "notes": "Consensus does expose both an MCP server and an API, so integration is not technically blocked. However, access is commercially conditioned. The documentation states that API-key gateway credentials map to the Enterprise tier, while paid plans provide defined request limits and paper limits. Some enterprise-specific setups, such as confidential OAuth clients for gateways that cannot use Dynamic Client Registration, require contacting sales for manual provisioning. Therefore the practical blocker is not lack of API/MCP capability, but paid/Enterprise access requirements and, for some gateway configurations, sales-assisted credential provisioning.",
+    "review_reported_at": "2026-09-16T19:27:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.consensus.app/enterprise/connection-reference",
+      "https://docs.consensus.app/enterprise"
+    ]
   },
   {
     "item_id": "094:auth_methods",
@@ -242,16 +248,28 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://docs.consensus.app/enterprise/connection-reference",
+    "observed_correct_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "The official Consensus documentation explicitly documents two authentication methods for MCP/API access. Shared server-side integrations can use an API key sent as a Bearer token, while per-user integrations use OAuth 2.0 authorization-code flow with PKCE. The docs also explicitly distinguish these methods from ordinary website login and state that there is no OAuth client-credentials grant.",
+    "notes": "The official Consensus documentation explicitly documents two authentication methods for MCP/API access. Shared server-side integrations can use an API key sent as a Bearer token, while per-user integrations use OAuth 2.0 authorization-code flow with PKCE. The docs also explicitly distinguish these methods from ordinary website login and state that there is no OAuth client-credentials grant.",
+    "review_reported_at": "2026-09-16T19:27:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.consensus.app/enterprise/connection-reference",
+      "https://docs.consensus.app/enterprise/security"
+    ]
   },
   {
     "item_id": "014:access_model",
