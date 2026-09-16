@@ -553,16 +553,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "Meta explicitly documents the Marketing API as a developer API for automating advertising across Meta technologies. It supports programmatic creation and management of campaigns, ad sets, ads and creatives, as well as performance analysis and insights. This directly establishes that Meta exposes an inbound developer API for advertising integrations.",
+    "notes": "Meta explicitly documents the Marketing API as a developer API for automating advertising across Meta technologies. It supports programmatic creation and management of campaigns, ad sets, ads and creatives, as well as performance analysis and insights. This directly establishes that Meta exposes an inbound developer API for advertising integrations.",
+    "review_reported_at": "2026-09-16T20:15:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview"
+    ]
   },
   {
     "item_id": "032:api_types",
@@ -580,16 +586,26 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which API protocols are explicitly documented for this product?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "The Marketing API is implemented through Meta Graph API endpoints, but \"Graph API\" is a product/API family name and does not mean GraphQL. The official documentation shows HTTP resource endpoints using methods such as GET and POST, including endpoints like POST /{ad-account-id}/ads, POST /{ad-account-id}/adsets, and POST /{ad-account-id}/campaigns. Under the assessment's protocol classification, this supports REST-style HTTP API access. The inspected sources do not establish GraphQL, so graphql should not be added.",
+    "notes": "The Marketing API is implemented through Meta Graph API endpoints, but \"Graph API\" is a product/API family name and does not mean GraphQL. The official documentation shows HTTP resource endpoints using methods such as GET and POST, including endpoints like POST /{ad-account-id}/ads, POST /{ad-account-id}/adsets, and POST /{ad-account-id}/campaigns. Under the assessment's protocol classification, this supports REST-style HTTP API access. The inspected sources do not establish GraphQL, so graphql should not be added.",
+    "review_reported_at": "2026-09-16T20:15:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview/rate-limiting"
+    ]
   },
   {
     "item_id": "037:mcp_available",

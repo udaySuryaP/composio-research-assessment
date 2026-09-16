@@ -158,3 +158,17 @@ the same paired claims. 24/40 items remain pending. Fourteen field corrections a
 seven apps, including two unscored supporting rationale corrections. Whole records
 remain needs_verification. Exact inspection times and missing capture metadata are not
 invented. Stage03 remains BLOCKED on remaining manual review and final verification.
+
+## Actual human review update — Meta Ads
+
+Uday reported api_available=yes and api_types=[rest], both frozen unknown claims judged
+incorrect. Retained the inspected current official Marketing API URLs and the distinction
+between Meta Graph API product naming and GraphQL protocol classification. No GraphQL or
+other protocol was inferred, and no unreviewed Meta access/auth/buildability fields changed.
+
+Cumulative partial review: 18 items across nine apps, 17 scored and one unclear/unscored.
+First pass 3/17 (17.65%), final 17/17 (100%), +82.35 percentage points on the same claims.
+22/40 items remain pending. Sixteen field corrections across eight apps, including two
+unscored supporting rationale corrections. Exact inspection times and missing capture
+metadata remain unasserted. Whole records remain needs_verification. Stage03 remains
+BLOCKED pending remaining actual manual review and final verification/pattern analysis.

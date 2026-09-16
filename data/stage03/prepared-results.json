@@ -2542,9 +2542,9 @@
       "unknown"
     ],
     "access_model": "unknown",
-    "api_available": "unknown",
+    "api_available": "yes",
     "api_types": [
-      "unknown"
+      "rest"
     ],
     "api_breadth": "unknown",
     "mcp_available": "unknown",
@@ -2552,13 +2552,64 @@
     "buildability": "unknown",
     "primary_blocker": "unknown",
     "buildability_rationale": "unknown",
-    "evidence": [],
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-032-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-032-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-032-api_types-1",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-032-api_types-2",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview/rate-limiting",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview/rate-limiting",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
       "quote_not_found",
-      "raw_identity_mismatch"
+      "raw_identity_mismatch",
+      "Stage03 correction: Meta explicitly documents the Marketing API as a developer API for automating advertising across Meta technologies. It supports programmatic creation and management of campaigns, ad sets, ads and creatives, as well as performance analysis and insights. This directly establishes that Meta exposes an inbound developer API for advertising integrations.",
+      "Stage03 correction: The Marketing API is implemented through Meta Graph API endpoints, but \"Graph API\" is a product/API family name and does not mean GraphQL. The official documentation shows HTTP resource endpoints using methods such as GET and POST, including endpoints like POST /{ad-account-id}/ads, POST /{ad-account-id}/adsets, and POST /{ad-account-id}/campaigns. Under the assessment's protocol classification, this supports REST-style HTTP API access. The inspected sources do not establish GraphQL, so graphql should not be added."
     ],
     "researched_at": "2026-09-16T17:19:01.488186+00:00",
     "run_id": "stage02-full-fallback-20260916"

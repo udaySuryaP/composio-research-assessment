@@ -578,5 +578,87 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "029:access_model",
     "evidence_note": "Actual Uday source inspection with paraphrased observations; verbatim quote, captured text hash and exact retrieval time not supplied and not fabricated."
+  },
+  {
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "field": "api_available",
+    "original_value": "unknown",
+    "corrected_value": "yes",
+    "reason": "Meta explicitly documents the Marketing API as a developer API for automating advertising across Meta technologies. It supports programmatic creation and management of campaigns, ad sets, ads and creatives, as well as performance analysis and insights. This directly establishes that Meta exposes an inbound developer API for advertising integrations.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-032-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-032-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:15:44+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "032:api_available",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations; verbatim quote, automated retrieval time and captured content hash not supplied and not fabricated."
+  },
+  {
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "field": "api_types",
+    "original_value": [
+      "unknown"
+    ],
+    "corrected_value": [
+      "rest"
+    ],
+    "reason": "The Marketing API is implemented through Meta Graph API endpoints, but \"Graph API\" is a product/API family name and does not mean GraphQL. The official documentation shows HTTP resource endpoints using methods such as GET and POST, including endpoints like POST /{ad-account-id}/ads, POST /{ad-account-id}/adsets, and POST /{ad-account-id}/campaigns. Under the assessment's protocol classification, this supports REST-style HTTP API access. The inspected sources do not establish GraphQL, so graphql should not be added.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-032-api_types-1",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-032-api_types-2",
+        "field": "api_types",
+        "claim": "[\"rest\"]",
+        "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview/rate-limiting",
+        "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview/rate-limiting",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:15:44+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "032:api_types",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations; verbatim quote, automated retrieval time and captured content hash not supplied and not fabricated."
   }
 ]
