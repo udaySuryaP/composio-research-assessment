@@ -1,5 +1,20 @@
 # 100 apps: evidence-first integration research
 
+## Stage 01 baseline
+
+See [STAGE01.md](STAGE01.md) for locked requirements, architecture, verification
+design and stage boundaries; `agent/schema.py` defines the canonical v1.0 contract.
+Existing data/UI predate Stage 01 and are preserved. The legacy pipeline is not yet
+wired to this contract or strict Structured Outputs; that is Stage 02 work.
+Do not run collection/review/build/deployment to validate this baseline. Safe offline
+check: `python -B -m unittest discover -s tests -v`.
+
+Python 3.10+; optional SDK dependency is pinned in `requirements-composio.txt`.
+Real keys belong in local shell variables (or a locally populated ignored `.env`
+explicitly exported into the process); the script does not auto-load `.env`.
+No live Composio/model call is claimed here. The following describes pre-existing
+implementation; STAGE01.md takes precedence for future stage contracts.
+
 A Composio Product Ops take-home by Uday, built with Codex AI assistance. The goal is to distinguish **documented capability**, **credential onboarding**, and **production permission** before building an agent toolkit.
 
 The report covers the exact 100 assigned apps in 10 categories. It includes authentication, access, API/MCP signals, recommendations, field-level evidence, an initial dataset, change log, verification worksheet and downloads. Unknown is an explicit finding, not a claim that no API exists.
