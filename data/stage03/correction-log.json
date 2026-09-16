@@ -1335,5 +1335,107 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "071:primary_blocker",
     "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim source capture, exact retrieval timestamp and text hash not supplied and not fabricated."
+  },
+  {
+    "app_id": 89,
+    "app_name": "Ramp",
+    "field": "access_model",
+    "original_value": "unknown",
+    "corrected_value": "admin_approval",
+    "reason": "Ramp supports different access paths depending on the integration model. Existing Ramp customers can create credentials for internal integrations, while server-to-server integrations use the OAuth 2.0 Client Credentials flow. Third-party or public integrations must use the Authorization Code flow, and the Ramp user granting access must have Developer API authorization permissions, typically an Admin or Business Owner. Partner integrations intended for other businesses follow Ramp's partner process: developers build and test in Sandbox, apply for production access, and Ramp reviews the integration before production approval. Sandbox access itself is also requested through a form. Therefore ordinary production integration access is conditioned by account/admin permissions, with additional Ramp approval for public partner integrations, rather than being universally self-service.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-089-access_model-1",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://docs.ramp.com/developer-api/v1/introduction",
+        "final_url": "https://docs.ramp.com/developer-api/v1/introduction",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-089-access_model-2",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://docs.ramp.com/developer-api/v1/authorization/scopes",
+        "final_url": "https://docs.ramp.com/developer-api/v1/authorization/scopes",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-089-access_model-3",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://docs.ramp.com/developer-api/v1/build-with-ramp",
+        "final_url": "https://docs.ramp.com/developer-api/v1/build-with-ramp",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-089-access_model-4",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://docs.ramp.com/developer-api/v1/sandbox-access",
+        "final_url": "https://docs.ramp.com/developer-api/v1/sandbox-access",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T21:06:29+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "089:access_model",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations. Exact retrieval timestamps, verbatim source capture and captured text hashes not supplied and not fabricated."
+  },
+  {
+    "app_id": 89,
+    "app_name": "Ramp",
+    "field": "api_available",
+    "original_value": "unknown",
+    "corrected_value": "yes",
+    "reason": "Ramp explicitly exposes an inbound Developer API for programmatic integrations. Its official documentation contains a broad REST API surface covering resources such as cards, transactions, bills, users, vendors, reimbursements, accounting, spend controls, audit logs, webhooks, and more. Ramp documents concrete authenticated endpoints under /developer/v1/, including GET, POST, PATCH, and DELETE operations. This clearly establishes a developer-facing API.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-089-api_available-1",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.ramp.com/developer-api/v1/",
+        "final_url": "https://docs.ramp.com/developer-api/v1/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-089-api_available-2",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.ramp.com/developer-api/v1/api",
+        "final_url": "https://docs.ramp.com/developer-api/v1/api",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T21:06:29+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "089:api_available",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations. Exact retrieval timestamps, verbatim source capture and captured text hashes not supplied and not fabricated."
   }
 ]
