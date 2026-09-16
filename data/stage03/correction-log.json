@@ -1217,5 +1217,84 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "069:api_types",
     "evidence_note": "Actual Uday inspection with paraphrased observations. Verbatim source capture, exact source retrieval timestamp and captured content hash were not supplied and are not fabricated."
+  },
+  {
+    "app_id": 80,
+    "app_name": "Harvest",
+    "field": "buildability",
+    "original_value": "unknown",
+    "corrected_value": "buildable",
+    "reason": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-080-buildability-1",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-080-buildability-2",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://help.getharvest.com/api-v2/",
+        "final_url": "https://help.getharvest.com/api-v2/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T21:02:44+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "080:buildability",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations. Source quote capture, exact retrieval time and content hash not supplied and not fabricated."
+  },
+  {
+    "app_id": 80,
+    "app_name": "Harvest",
+    "field": "buildability_rationale",
+    "original_value": "unknown",
+    "corrected_value": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "reason": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-080-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-080-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+        "url": "https://help.getharvest.com/api-v2/",
+        "final_url": "https://help.getharvest.com/api-v2/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T21:02:44+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "080:buildability",
+    "evidence_note": "Actual Uday inspection with paraphrased source observations. Source quote capture, exact retrieval time and content hash not supplied and not fabricated.",
+    "supporting_field_note": "Explicit human buildability notes transcribed as companion rationale; not an additional scored claim."
   }
 ]

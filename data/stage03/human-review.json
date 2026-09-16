@@ -1140,16 +1140,21 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://help.getharvest.com/api-v2/",
+    "observed_correct_value": "unknown",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
     "correction_reason": null,
-    "notes": null
+    "notes": "No official Harvest MCP server or Model Context Protocol documentation was found in the inspected official Harvest API documentation. Because absence of documentation is not proof of absence, MCP availability remains unknown and this claim should be excluded from accuracy scoring.",
+    "review_reported_at": "2026-09-16T21:02:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://help.getharvest.com/api-v2/"
+    ]
   },
   {
     "item_id": "080:buildability",
@@ -1165,16 +1170,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "no",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "notes": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "review_reported_at": "2026-09-16T21:02:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "https://help.getharvest.com/api-v2/"
+    ]
   },
   {
     "item_id": "071:primary_blocker",

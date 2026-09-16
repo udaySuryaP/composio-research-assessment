@@ -293,3 +293,18 @@ First pass 6/30 (20%), final 30/30 (100%), +80 percentage points on the same sco
 four unscored supporting rationale corrections. Exact inspection times and missing capture
 metadata remain unasserted. Whole records remain needs_verification. Stage03 remains
 BLOCKED pending remaining actual manual review and final verification/pattern analysis.
+
+## Actual human review update — Harvest
+
+Uday reported MCP=unknown, first/final correctness=unclear; excluded this claim from scoring
+and preserved absence-of-documentation caveat. Corrected buildability to buildable and
+transcribed explicit supporting rationale with its own unscored companion correction.
+Preserved self-service PAT versus registered OAuth application workflows and broad V2 API
+notes; no unreviewed auth, access, API breadth or MCP negative fields were inferred.
+
+Cumulative partial review: 34 items across seventeen apps, 31 scored and three unclear.
+First pass 6/31 (19.35%), final 31/31 (100%), +80.65 percentage points on the same claims.
+6/40 items remain pending. Thirty field corrections across fifteen apps, including five
+unscored supporting rationale corrections. Whole records remain needs_verification;
+missing capture metadata and exact inspection times are not fabricated. Stage03 remains
+BLOCKED pending remaining actual human review and final verification/pattern analysis.

@@ -65,8 +65,8 @@
       "unclear": 1
     },
     "buildability": {
-      "unknown": 82,
-      "buildable": 18
+      "unknown": 81,
+      "buildable": 19
     }
   },
   "array_count_note": "Auth and API type are multi-label app counts; totals may exceed 100. API breadth remains original free text; no guessed breadth buckets.",
@@ -104,8 +104,8 @@
       "buildable": 3
     },
     "8. Productivity and Project Management": {
-      "unknown": 7,
-      "buildable": 3
+      "unknown": 6,
+      "buildable": 4
     },
     "9. Finance and Fintech": {
       "unknown": 10

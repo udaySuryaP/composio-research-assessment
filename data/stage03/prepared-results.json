@@ -6259,9 +6259,9 @@
     "api_breadth": "unknown",
     "mcp_available": "unknown",
     "mcp_notes": "unknown",
-    "buildability": "unknown",
+    "buildability": "buildable",
     "primary_blocker": "unknown",
-    "buildability_rationale": "unknown",
+    "buildability_rationale": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
     "evidence": [
       {
         "evidence_id": "e1",
@@ -6274,13 +6274,63 @@
         "content_sha256": "384bced7295ab6469db844f016010b9ff1ffee780b4dfea3513d0c7bbb77276c",
         "quote": "Harvest Modern time tracking trusted by 70,000+ businesses.",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-080-buildability-1",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-080-buildability-2",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://help.getharvest.com/api-v2/",
+        "final_url": "https://help.getharvest.com/api-v2/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-080-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+        "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-080-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+        "url": "https://help.getharvest.com/api-v2/",
+        "final_url": "https://help.getharvest.com/api-v2/",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+      "Stage03 correction: Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration."
     ],
     "researched_at": "2026-09-16T17:24:25.646919+00:00",
     "run_id": "stage02-full-fallback-20260916"
