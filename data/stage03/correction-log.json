@@ -397,5 +397,159 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "014:api_available",
     "evidence_note": "Actual Uday inspection with paraphrased source observations; no verbatim quote, automated retrieval timestamp or captured text hash supplied. Missing metadata remains empty."
+  },
+  {
+    "app_id": 22,
+    "app_name": "Twilio",
+    "field": "buildability",
+    "original_value": "unknown",
+    "corrected_value": "buildable",
+    "reason": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-022-buildability-1",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-022-buildability-2",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://www.twilio.com/docs/usage/trials",
+        "final_url": "https://www.twilio.com/docs/usage/trials",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-022-buildability-3",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://www.twilio.com/docs/iam/api/account",
+        "final_url": "https://www.twilio.com/docs/iam/api/account",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:48:10+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "022:buildability",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; verbatim quote, captured text hash and exact retrieval time not supplied and not fabricated."
+  },
+  {
+    "app_id": 22,
+    "app_name": "Twilio",
+    "field": "buildability_rationale",
+    "original_value": "unknown",
+    "corrected_value": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+    "reason": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-022-buildability_rationale-1",
+        "field": "buildability_rationale",
+        "claim": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-022-buildability_rationale-2",
+        "field": "buildability_rationale",
+        "claim": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+        "url": "https://www.twilio.com/docs/usage/trials",
+        "final_url": "https://www.twilio.com/docs/usage/trials",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-022-buildability_rationale-3",
+        "field": "buildability_rationale",
+        "claim": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+        "url": "https://www.twilio.com/docs/iam/api/account",
+        "final_url": "https://www.twilio.com/docs/iam/api/account",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:48:10+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "022:buildability",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; verbatim quote, captured text hash and exact retrieval time not supplied and not fabricated.",
+    "supporting_field_note": "Explicit rationale transcribed from Uday buildability notes, not a separate scored sample claim."
+  },
+  {
+    "app_id": 22,
+    "app_name": "Twilio",
+    "field": "primary_blocker",
+    "original_value": "unknown",
+    "corrected_value": "trial_and_paid_account_restrictions",
+    "reason": "Twilio does not have a universal integration blocker, but trial accounts have significant operational restrictions. Trials expire after 30 days, are limited to verified recipients, restrict messaging and calls geographically, limit content and product functionality, and use trial phone numbers. Full functionality requires upgrading the account. Product-specific compliance and regulatory requirements can add further constraints, but the broad documented blocker across Twilio is the transition from a restricted trial environment to an upgraded paid account for unrestricted production use.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-022-primary_blocker-1",
+        "field": "primary_blocker",
+        "claim": "trial_and_paid_account_restrictions",
+        "url": "https://www.twilio.com/docs/usage/trials",
+        "final_url": "https://www.twilio.com/docs/usage/trials",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-022-primary_blocker-2",
+        "field": "primary_blocker",
+        "claim": "trial_and_paid_account_restrictions",
+        "url": "https://www.twilio.com/docs/usage/trials/try-out-sms",
+        "final_url": "https://www.twilio.com/docs/usage/trials/try-out-sms",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-022-primary_blocker-3",
+        "field": "primary_blocker",
+        "claim": "trial_and_paid_account_restrictions",
+        "url": "https://www.twilio.com/docs/usage/trials/try-out-voice",
+        "final_url": "https://www.twilio.com/docs/usage/trials/try-out-voice",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T19:48:10+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "022:primary_blocker",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; verbatim quote, captured text hash and exact retrieval time not supplied and not fabricated."
   }
 ]

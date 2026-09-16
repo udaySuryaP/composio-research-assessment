@@ -65,8 +65,8 @@
       "unclear": 1
     },
     "buildability": {
-      "unknown": 84,
-      "buildable": 16
+      "unknown": 83,
+      "buildable": 17
     }
   },
   "array_count_note": "Auth and API type are multi-label app counts; totals may exceed 100. API breadth remains original free text; no guessed breadth buckets.",
@@ -84,7 +84,8 @@
       "buildable": 2
     },
     "3. Communications and Messaging": {
-      "unknown": 10
+      "unknown": 9,
+      "buildable": 1
     },
     "4. Marketing, Ads, Email and Social": {
       "unknown": 8,

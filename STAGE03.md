@@ -125,3 +125,20 @@ points on the same 11 claims. 28/40 items remain pending. Ten field corrections 
 five apps remain, including the unscored Reducto companion rationale. Whole records
 remain needs_verification. Stage03 remains BLOCKED pending further human review;
 final dataset, final patterns and whole-sample conclusions are not yet complete.
+
+## Actual human review update — Twilio
+
+Uday reported buildability=buildable and primary_blocker=trial_and_paid_account_restrictions,
+both frozen unknown claims judged incorrect. Recorded both corrections and Uday's explicit
+supporting buildability rationale as a companion correction, never an extra scored claim.
+Preserved self-service ordinary API access and proof-of-concept capability versus restricted
+trial operation, paid production upgrade, and product-specific regulatory requirements.
+The report does not claim a universal technical block or unrestricted production operation.
+No unreviewed Twilio auth/access/API fields were changed or scored.
+
+Cumulative partial review: 14 items across seven apps, 13 scored and one unclear/unscored.
+First pass 2/13 (15.38%), final 13/13 (100%), +84.62 percentage points on the same claims.
+26/40 items remain pending. Thirteen field corrections across six apps, including two
+unscored supporting rationale corrections. Human source-capture and exact inspection times
+remain unasserted when not supplied. Whole records remain needs_verification. Stage03 is
+BLOCKED pending remaining human review, final verified dataset and supported final patterns.
