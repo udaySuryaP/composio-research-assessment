@@ -1,0 +1,444 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 62,
+    "app_name": "Vercel",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://vercel.com/docs/rest-api",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "ev2",
+        "field": "auth_methods",
+        "claim": "Authentication methods include OAuth Sign-in via GitHub, Google, GitLab, Bitbucket and API key usage as implied by SDK and REST API usage.",
+        "url": "https://vercel.com/pricing",
+        "final_url": "https://vercel.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+        "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+        "quote": "Access & Deployment Security Vercel protects your projects across access, application, and infrastructure security. OAuth Sign-in GitHub Google GitLab Bitbucket",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev3",
+        "field": "access_model",
+        "claim": "Users can upgrade from Hobby (free) to Pro (paid) directly in the Vercel dashboard, indicating a self-serve paid access model.",
+        "url": "https://vercel.com/pricing",
+        "final_url": "https://vercel.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+        "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+        "quote": "I have a Hobby account, how do I upgrade to a paid plan? Thanks for continuing to use Vercel! You can upgrade to Pro directly in the Vercel dashboard.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "provenance_mismatch",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:43:57.500927+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 62,
+    "app_name": "Vercel",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://vercel.com/docs/rest-api",
+    "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers a wide range of functionality including access groups, AI gateway, artifacts, billing, bulk redirects, checks, networking, connectors, deployments, DNS, and more, with detailed endpoints for creating, reading, updating, and deleting resources.",
+    "mcp_available": "no",
+    "mcp_notes": "No evidence of a marketplace or community marketplace was found in the retrieved documents.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official Vercel REST API documentation provides extensive REST endpoints for managing various aspects of the platform. Authentication methods include OAuth2 and API keys. The API is accessible via self-serve paid plans as indicated by the pricing and upgrade information. The breadth of the API is broad, covering many resources and operations, enabling programmatic interaction with Vercel accounts and projects.",
+    "evidence": [
+      {
+        "evidence_id": "ev1",
+        "field": "description",
+        "claim": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.921199+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev2",
+        "field": "auth_methods",
+        "claim": "Authentication methods include OAuth Sign-in via GitHub, Google, GitLab, Bitbucket and API key usage as implied by SDK and REST API usage.",
+        "url": "https://vercel.com/pricing",
+        "final_url": "https://vercel.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+        "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+        "quote": "Access & Deployment Security Vercel protects your projects across access, application, and infrastructure security. OAuth Sign-in GitHub Google GitLab Bitbucket",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev3",
+        "field": "access_model",
+        "claim": "Users can upgrade from Hobby (free) to Pro (paid) directly in the Vercel dashboard, indicating a self-serve paid access model.",
+        "url": "https://vercel.com/pricing",
+        "final_url": "https://vercel.com/pricing",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+        "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+        "quote": "I have a Hobby account, how do I upgrade to a paid plan? Thanks for continuing to use Vercel! You can upgrade to Pro directly in the Vercel dashboard.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev4",
+        "field": "api_available",
+        "claim": "Vercel provides a REST API as documented extensively in their official REST API reference.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:41.239364+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "# Vercel REST API Reference ... Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev5",
+        "field": "api_types",
+        "claim": "The API is RESTful as shown by the extensive REST API endpoints and HTTP methods documented.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:41.239364+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "## access-groups | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/access-groups/{idOrName}`] ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev6",
+        "field": "api_breadth",
+        "claim": "The API covers a wide range of functionality including access groups, AI gateway, artifacts, billing, bulk redirects, checks, networking, connectors, deployments, DNS, and more, with detailed endpoints for creating, reading, updating, and deleting resources.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:41.239364+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "## access-groups | Method | Endpoint | Description | ... ## api-ai-gateway | Method | Endpoint | Description | ... ## artifacts | Method | Endpoint | Description | ... ## billing | Method | Endpoint | Description | ... ## bulk-redirects | Method | Endpoint | Description | ... ## checks-v2 | Method | Endpoint | Description | ... ## networking | Method | Endpoint | Description | ... ## connect | Method | Endpoint | Description | ... ## deployments | Method | Endpoint | Description | ... ## dns | Method | Endpoint | Description | ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev7",
+        "field": "mcp_available",
+        "claim": "No evidence of a marketplace or community marketplace was found in the retrieved documents.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:41.239364+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "--- title: Vercel REST API Reference ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "ev8",
+        "field": "buildability",
+        "claim": "The official Vercel REST API documentation provides extensive REST endpoints for managing various aspects of the platform. Authentication methods include OAuth2 and API keys. The API is accessible via self-serve paid plans as indicated by the pricing and upgrade information. The breadth of the API is broad, covering many resources and operations, enabling programmatic interaction with Vercel accounts and projects.",
+        "url": "https://vercel.com/docs/rest-api",
+        "final_url": "https://vercel.com/docs/rest-api",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:43:41.239364+00:00",
+        "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+        "quote": "# Vercel REST API Reference ... Interact programmatically with your Vercel account using the SDK or direct HTTP requests.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:43:41.612980+00:00",
+    "run_id": "stage02-composio-augmentation-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "provenance_mismatch",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [
+    {
+      "query": "Vercel developer API authentication pricing access official docs",
+      "attempt": 1,
+      "response": {
+        "data": {
+          "answer": null,
+          "follow_up_questions": null,
+          "images": [],
+          "query": "Vercel developer API authentication pricing access official docs",
+          "request_id": "2cd3ae58-1770-4a09-a8ee-d9e5b6d05bf1",
+          "response_time": 0.9,
+          "results": [
+            {
+              "content": "|  |  |\n --- |\n| Has user API | Yes |\n| Auth method | Bearer token (personal access token or OAuth 2.0 access token) |\n| Base URL | Official docs |\n| SCIM available | Yes |\n| SCIM plan required | Enterprise (native); Pro with SCIM add-on ($150/month) |\n\n## Authentication\n\nAuth method: Bearer token (personal access token or OAuth 2.0 access token)\n\n### Setup steps [...] ### Setup steps\n\n1. Navigate to Vercel Dashboard → Settings → Tokens to create a personal access token.\n2. Select token scope (full account or specific team) and expiration.\n3. Pass the token in the Authorization header: 'Authorization: Bearer '.\n4. For OAuth 2.0: register an integration at , implement the authorization code flow, and exchange the code for an access token at .\n\n### Required scopes [...] Vercel's REST API exposes full team member lifecycle management under the /v1/teams/{teamId}/members and /v2/teams/{teamId}/members endpoint families, authenticated via Bearer token (personal access token or OAuth 2.0). The API is versioned per-endpoint - v1 and v2 are not interchangeable across all operations - so callers must verify the correct version for each call.",
+              "id": "dfbc5e-00",
+              "raw_content": null,
+              "score": 0.7004242,
+              "title": "Vercel User Management API Guide | Stitchflow",
+              "url": "https://www.stitchflow.com/user-management/vercel/api"
+            },
+            {
+              "content": "Drains Volume\n\n—\n\n$0.50 per 1 GB\n\nCustom\n\nRegional pricing↗\n\n### Access & Deployment Security\n\nVercel protects your projects across access, application, and infrastructure security.\n\nOAuth Sign-in\n\nGitHub\n\nGoogle\n\nGitLab\n\nBitbucket\n\nAccess Security\n\nMulti-Factor Authentication (MFA)\n\nRole-Based Access Control\n\n—\n\nTeam level\n\nTeam & project level\n\nAudit Logs\n\n—\n\n—\n\nSAML Single Sign-On (SSO)\n\n—\n\n$300 / month\n\nDirectory Sync (SCIM)\n\n—\n\n—\n\nPassport\n\n—\n\n—\n\nCustom\n\nAdvanced Deployment Protection\n\n— [...] Skew Protection\n\n—\n\nRolling Releases\n\n—\n\n1 project included\n\nCustom\n\nPreview Deployment Suffix\n\n—\n\n$100 / month\n\nTeam Seats\n\nDeveloper seat\n\n1\n\n$20 / month\n\nCustom\n\nViewer seat\n\n—\n\nUnlimited\n\nCustom\n\nBilling seat\n\n—\n\n1\n\nCustom\n\nVercel Toolbar\n\nComments\n\nLayout Shift Tool\n\nDraft Mode\n\nProductivity Integrations\n\nPreviewers\n\n—\n\nUnlimited\n\nUnlimited\n\nAccessibility Audit\n\nFlags Explorer - Unlimited Overrides\n\n150 overrides / month included\n\n150 overrides / month included [...] —\n\n$150 / month\n\nSSO Protected Previews\n\n—\n\n—\n\nStatic IPs (shared pool)\n\n—\n\n$100 / project / month\n\nStarting at $0.15 per GB\n\nCustom\n\nSecure Compute\n\n—\n\n—\n\nCustom\n\nBYOC\n\n—\n\n—\n\nCustom\n\n### Compliance\n\nBuilt-in support for global security and data protection standards. Security collateral available for Pro and Enterprise plans.\n\nCompliance\n\nSOC 2 Type 2\n\nPCI DSS\n\nISO 27001\n\nEU-U.S. DPF\n\nHIPAA BAA\n\n—\n\n$350 / month\n\nCustom\n\nCustom Security Questionnaire\n\n—\n\n—\n\nSign up for free",
+              "id": "c44588-01",
+              "raw_content": null,
+              "score": 0.65966886,
+              "title": "Vercel Pricing: Hobby, Pro, and Enterprise plans",
+              "url": "https://vercel.com/pricing"
+            },
+            {
+              "content": "- \\\\Pro\\\\ — $20/user/month, $20 in credits, v0-1.5-lg, Figma import, v0 API\n\n- \\\\Team\\\\ — $30/user/month, $30 in credits per user, shared billing, v0 API\n\n- \\\\Enterprise\\\\ — custom pricing, SAML SSO, training opt-out, priority access\n\nAdditional credits can be purchased on Pro and Team plans beyond the monthly allowance. [...] | Team | $30/user/month | For fast-moving teams and collaboration.  $30 of included monthly credits per user  Purchase additional credits outside of your monthly usage shared across your team  Centralized billing on vercel.com  Share chats and collaborate with your team  Access to v0 API | [...] | Plan | Cost | Key Inclusions |\n --- \n| Free | $0 | For people looking to explore.  $5 of included monthly credits  Deploy apps to Vercel  Access to v0-1.5-md  Sync with GitHub |\n| Pro (Vercel) | $20/user/month | For higher limits and power users.  $20 of included monthly credits  Purchase additional credits outside of your monthly usage  5× higher attachment size limit  Import from Figma  Access to v0-1.5-lg  Access to v0 API |",
+              "id": "34a8ce-02",
+              "raw_content": null,
+              "score": 0.5996498,
+              "title": "Vercel v0 Pricing: Plans, Credits & Limits (2026 Guide)",
+              "url": "https://uibakery.io/blog/vercel-v0-pricing-explained-what-you-get-and-how-it-compares"
+            },
+            {
+              "content": "The API supports any programming language or framework that can send HTTP requests.\n\n## API basics\n\nThe API is exposed as an HTTP/1 and HTTP/2 service over SSL. All endpoints live under the URL` and follow the REST architecture.\n\n## Authentication\n\nVercel Access Tokens are required to authenticate and use the Vercel API. Include the token in the `Authorization` header:\n\n`Authorization: Bearer` \n\nCreate and manage Access Tokens in youraccount settings.\n\n## Accessing team resources [...] List Auth Tokens — GET /v6/user/tokens — Retrieve a list of the current User's authentication tokens.\n SSO Token Exchange — POST /v1/integrations/sso/token — During the autorization process, Vercel sends the user to the provider \\redirectLogin\n [List FOCUS billing charges — GET /v1/billing/charges — Returns the billing charge data in FOCUS v1.3 JSONL format for a specified Vercel team, within [...] List Auth Tokens — GET /v6/user/tokens — Retrieve a list of the current User's authentication tokens.\n SSO Token Exchange — POST /v1/integrations/sso/token — During the autorization process, Vercel sends the user to the provider \\redirectLogin\n [List FOCUS billing charges — GET /v1/billing/charges — Returns the billing charge data in FOCUS v1.3 JSONL format for a specified Vercel team, within",
+              "id": "376a54-03",
+              "raw_content": null,
+              "score": 0.59089786,
+              "title": "Vercel REST API Reference",
+              "url": "https://vercel.com/docs/rest-api"
+            },
+            {
+              "content": "### Resources\n\n Changelog↗\n Blog↗\n Community↗\n Knowledge Base\n APIs & SDKs\n Templates\n\nGetting Started\n\nSign UpLog In\n\n# Pricing on Vercel\n\nVercel's pricing model includes billable metrics and pricing models across Managed Infrastructure and Developer Experience Platform resources.\n\nFor a full breakdown of Vercel's pricing by plan, see the pricing page.",
+              "id": "90ae96-04",
+              "raw_content": null,
+              "score": 0.5837973,
+              "title": "Pricing on Vercel",
+              "url": "https://vercel.com/docs/pricing"
+            }
+          ]
+        },
+        "error": null,
+        "successful": true
+      },
+      "ok": true,
+      "action": "COMPOSIO_SEARCH_TAVILY",
+      "version": "20260903_00",
+      "operation": "tools.execute",
+      "arguments": {
+        "query": "Vercel developer API authentication pricing access official docs"
+      },
+      "user_id": "uday-assessment"
+    },
+    {
+      "query": "Vercel MCP server official community",
+      "attempt": 1,
+      "response": {
+        "data": {
+          "answer": null,
+          "follow_up_questions": null,
+          "images": [],
+          "query": "Vercel MCP server official community",
+          "request_id": "617d3d29-f43d-404b-b442-465347e3abfe",
+          "response_time": 1,
+          "results": [
+            {
+              "content": "Skip to content\n\nDEV Community \n\nLog in    Create account\n\n## DEV Community\n\nRupa Tiwari\n\nRupa Tiwari\n\nPosted on  • Originally published at mcpplaygroundonline.com\n\n# 10 Things You Can Do With Vercel MCP Server\n\n#webdev #vercel #ai #mcp\n\nVercel MCP is Vercel's official Model Context Protocol server — a hosted endpoint at ` that uses OAuth so AI clients like Cursor, Claude, and VS Code Copilot can work with your Vercel account directly. [...] This is not the same as deploying your own MCP server to Vercel — this is Vercel's own server for managing your account. Everything below is taken directly from the official Vercel MCP tools reference.\n\n> 💡 Before you start: If you want to explore any MCP server's tools interactively before configuring your IDE, you can use the free browser-based tester at MCP Playground — paste the URL, connect, and browse tools without touching a config file.\n\n## Quick setup\n\nInstall helper (any client): [...] DEV Community \n\nWe're a place where coders share, stay up-to-date and grow their careers.\n\nLog in   Create account",
+              "id": "5b2d81-00",
+              "raw_content": null,
+              "score": 0.85567063,
+              "title": "10 Things You Can Do With Vercel MCP Server - DEV Community",
+              "url": "https://dev.to/rupa_tiwari_dd308948d710f/10-things-you-can-do-with-vercel-mcp-server-1c9j"
+            },
+            {
+              "content": "### Explore\n\n Customers\n Marketplace\n Partner Finder\n AWS\n Community↗\n\nEnterprise\n\nPricing\n\nGet a Demo\n\nLog InSign Up\n\n# Introducing Vercel MCP: Connect Vercel to your AI tools\n\n+5\n\nAllen Zhou, Brooke Mosby, Mark Roberts, Andrew Qu, Anthony Shew, Tom Knickman, Aparna Sinha\n\nBlog\n\nToday, we're launching the official Vercel MCP server, now in Public Beta. Vercel MCP is a secure, OAuth-compliant interface that lets AI clients interact with your Vercel projects. [...] Model Context Provider (MCP) servers expose tools that AI models can call to interact with external systems. The hosted Vercel MCP server connects your Vercel account to supported AI clients, enabling secure access to structured, read-only data.\n\nWith the tools defined in Vercel MCP, you can: [...] MCP is an emerging standard that allows AI models to interact with external systems in a structured, secure way. By implementing an MCP server, we’re making it possible for developers to connect Vercel to their AI-assisted environments.\n\nFor example:\n\n You could ask Cursor to build and deploy a Next.js app to Vercel\n If the deployment fails, Vercel MCP can fetch the logs right into your IDE, where the AI assistant can analyze the error and propose fixes\n\nMore on MCP servers in our MCP FAQ.",
+              "id": "e55d57-01",
+              "raw_content": null,
+              "score": 0.76847315,
+              "title": "Introducing Vercel MCP: Connect Vercel to your AI tools",
+              "url": "https://vercel.com/blog/introducing-vercel-mcp-connect-vercel-to-your-ai-tools"
+            },
+            {
+              "content": "## Quick Setup\n\nUse the `add-mcp` CLI to add the Vercel MCP to all your tools.\n\n`add-mcp`\n`npx -y add-mcp  -g`\n\n## What is Vercel MCP?\n\nVercel MCP is Vercel's official MCP server. It's a remote MCP with OAuth that gives AI tools secure access to your Vercel projects available at:\n\n`\n\n`\n\nIt integrates with popular AI assistants like Claude, enabling you to:\n\nVercel MCP implements the latest MCP Authorization\nand Streamable HTTP\nspecifications.\n\n## Available tools [...] Keep in mind that while Vercel MCP only operates within your Vercel account, any external tools you connect could potentially share data with systems outside Vercel.\n\nEnable human confirmation\n\nWas this helpful?\n\n## On this page\n\n## Agent Stack\n\n## Core Platform\n\n## Security\n\n## Tools\n\n## Frameworks\n\n## SDKs\n\n## Build\n\n## Learn\n\n## Explore\n\n## Company\n\n## Legal & Trust\n\n## Social\n\nVercel\nVercel\n\n## Cross-link map: Vercel MCP server (/docs/agent-resources/vercel-mcp)",
+              "id": "bdd9c5-02",
+              "raw_content": null,
+              "score": 0.70214266,
+              "title": "Use Vercel's MCP server",
+              "url": "https://vercel.com/docs/agent-resources/vercel-mcp"
+            },
+            {
+              "content": "## Overview\n\nVercel’s official remote MCP server for deployment platform and project management. It provides programmatic access to Vercel’s deployment infrastructure, project management, and documentation through a streamable-http transport.\n\n## Transport\n\n`Streamable-HTTP`\n\n## Tools\n\n search\\_vercel\\_documentation\n list\\_teams\n list\\_projects\n get\\_project\n list\\_deployments\n get\\_deployment\n get\\_deployment\\_events\n get\\_access\\_to\\_vercel\\_url\n web\\_fetch\\_vercel\\_url\n\n## Key Capabilities [...] Demo\n\n Platform\n + Use Case \n    - MCP Registry\n    - MCP Gateway\n    - MCP Runtime\n    - AI Gateway\n  + Industry \n    - Financial Services\n    - Manufacturing\n    - Retail\n    - Software\n    - Telecommunications\n  + Teams \n    - Platform Engineering\n    - AI Enablement\n    - Finance\n    - HR\n + Blog\n  + Docs\n  + Guides\n  + Case Studies\n  + Videos\n Registry\n + Company\n  + Contact\n\n Registry\n Vercel\n\n# Vercel\n\nOfficial\n\n22\n\nGitHub Repo\n\n## Overview [...] ## How It Works\n\nThe server provides a remote MCP connection via streamable-http transport that enables AI assistants to access Vercel’s deployment platform. It offers comprehensive tools for searching documentation, managing teams and projects, monitoring deployments and their events, and fetching content from Vercel URLs. The server uses OAuth for secure authentication and authorization.",
+              "id": "89b0cf-03",
+              "raw_content": null,
+              "score": 0.6932451,
+              "title": "Vercel MCP Server - Stacklok",
+              "url": "https://stacklok.com/registry/vercel"
+            },
+            {
+              "content": "The official “ChatGPT — Owned by Vercel MCP” integration cannot access my Vercel project, although the same Vercel account can access it normally in the dashboard. Account: lucianohoo Team: lucianohoos-projects Project: neo-vision Vercel plan: Hobby ChatGPT plan: Plus Results:...\n\n·\n\n## Custom domain times out on all Vercel Anycast IPs [...] HTML sanitization taxes. \\ \\\\Cortex AI & Native MCP:\\\\ Model Context Protocol server support (`/api/mcp`) for deterministic, schema-constrained block synthesis. \\ \\\\GitHub:\\\\  \\ \\\\Live Sandbox:\\\\  Looking forward to the review process and collaborating with the Vercel DX team! 🧱Axyl1410 Hi! I applied for the Summer 2026 Vercel OSS Program, but I’m not sure whether my application was successfully submitted. I also didn’t receive a confirmation email. Is there any way for applicants to verify [...] Hi Vercel team, I'm experiencing a network connectivity issue when accessing a Vercel-hosted application from Myanmar. My custom domain is configured through Cloudflare DNS with the Vercel-provided CNAME target: CNAME → 502c10584a1a36db.vercel-dns-017.com The Vercel DNS target...\n\n·\n\n## Official Vercel MCP in ChatGPT: empty teams and 403 after OAuth reconnection",
+              "id": "5264f9-04",
+              "raw_content": null,
+              "score": 0.64880073,
+              "title": "Vercel Community — Discussions, events, and projects",
+              "url": "https://community.vercel.com"
+            }
+          ]
+        },
+        "error": null,
+        "successful": true
+      },
+      "ok": true,
+      "action": "COMPOSIO_SEARCH_TAVILY",
+      "version": "20260903_00",
+      "operation": "tools.execute",
+      "arguments": {
+        "query": "Vercel MCP server official community"
+      },
+      "user_id": "uday-assessment"
+    }
+  ],
+  "retrievals": [
+    {
+      "requested_url": "https://vercel.com/pricing",
+      "final_url": "https://vercel.com/pricing",
+      "retrieved_at": "2026-09-16T17:43:40.150681+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Vercel Pricing: Hobby, Pro, and Enterprise plans Skip to content Copy Wordmark Copy Logo Download Brand Assets Brand Guidelines Products Agent Stack AI SDK AI Gateway Sandbox Passport Connect eve Core Platform Security Content Delivery Fluid Compute Observability Workflows CI/CD Tools Next.js Vercel Agent Vercel Plugin Open Source Domains ↗ v0 ↗ Resources Learn Docs About Blog Changelog Knowledge Base Build AI Apps Web Apps Marketing Sites Platforms Commerce Explore Customers Marketplace Partner Finder AWS Community ↗ Enterprise Pricing Get a Demo Log In Sign Up Ask AI Dashboard Products Agent Stack AI SDK AI Gateway Sandbox Passport Connect eve Core Platform Security Content Delivery Fluid Compute Observability Workflows CI/CD Tools Next.js Vercel Agent Vercel Plugin Open Source Domains ↗ v0 ↗ Resources Learn Docs About Blog Changelog Knowledge Base Build AI Apps Web Apps Marketing Sites Platforms Commerce Explore Customers Marketplace Partner Finder AWS Community ↗ Enterprise Pricing Get a Demo Log In Sign Up Scale your app, control your costs Hobby $0 /mo. The perfect starting place for your web app or personal project. Import your repo, deploy in seconds Automatic CI/CD Web Application Firewall Global, automated CDN Fluid compute DDoS Mitigation Traffic & performance insights Start deploying Pro Popular $20 /mo. Everything you need to build and scale your app. All Hobby features, plus: $20 of included usage credit Flat Rate CDN with traffic spike protection Advanced spend management Team collaboration & free viewer seats Cold start prevention Free custom domain Start a free trial Enterprise Custom Critical security, performance, observability, platform SLAs, and support. All Pro features, plus: Guest & Team access controls SCIM & Directory Sync Managed WAF Rulesets Multi-region compute & failover 99.99% SLA Advanced Support Get a demo All prices shown are in USD and exclude value-added tax (VAT), goods and services tax (GST), and other applicable taxes. Taxes are calculated based on your billing address and added to your invoice where required by law. Learn more about taxes . Learn about Fluid Compute No idle, no waste Only pay for actual execution time, not idle resources. LIMIT Learn about Spend Management Control your spending Set a limit, get alerts, and we'll stop usage before you go over budget. Hobby Pro Enterprise Hobby Pro Enterprise Vercel Delivery Network Ultra-fast, secure by default global application delivery. Vercel Network Global Points of Presence Vercel Regions Automatic Routing HTTPS Certificates TLS/SSL Encryption Traffic Load Balancing Private Inter-Region Network Automatic Region Failover Configurable Routing Reverse Proxy Rewrites Redirects Middleware Support Edge Requests 1M / month included Included in Flat Rate CDN Custom Fast Data Transfer 100 GB / month included Included in Flat Rate CDN Custom Regional pricing ↗ Vercel Firewall Customizable security to protect your applications. Web Application Firewall Custom Firewall Rules Up to 3 Up to 40 Up to 1,000 IP Blocking Up to 3 Up to 100 Up to 1,000 System Bypass Rules — Up to 25 Up to 100 Firewall Rate Limit Requests 1M allowed requests / month included Starting at $0.50 per 1M allowed requests Custom OWASP Core Ruleset (managed) — — Custom Bot Management Automated DDoS Mitigation AI Bots (managed ruleset) Bot Protection (managed ruleset) BotID Basic checks included $1 per 1,000 Deep Analysis checks Custom Attack Challenge Mode Regional pricing ↗ Content, Caching & Optimization Store and cache content close to your customers. Content Delivery Zero-config CDN cache Automated Compression Background Revalidation Stale-While-Revalidate Incremental Static Regeneration (ISR) ISR Reads 1M / month included Starting at $0.40 per 1M Custom ISR Writes 200k / month included Starting at $4 per 1M Custom Bulk Redirects 1K included per project $50 / month per 25K redirects Custom Blob Blob Storage Size 1 GB / month included $0.023 per GB Custom Blob Simple Operations 10K / month included $0.40 per 1M Custom Blob Advanced Operations 2K / month included $5 per 1M Custom Blob Data Transfer 10 GB / month included Included in Flat Rate CDN Custom Image Optimization Image Optimization Transformation 5K / month included Starting at $0.05 per 1K Custom Image Optimization Cache Reads 300K / month included Starting at $0.40 per 1M Custom Image Optimization Cache Writes 100K / month included Starting at $4 per 1M Custom Global Config Global Config Reads 100K / month included Starting at $3 per 1M reads Custom Global Config Writes 100 writes / month included $1 per 100 writes Custom Microfrontends Support Microfrontends 2 included projects 2 included projects then $250 per additional project Custom Microfrontends Routing 50K routed requests / month included $2 per 1M routed requests Custom Regional pricing ↗ Vercel Compute Dynamic, scalable functions to power your framework of choice. Now available with Fluid compute with Active CPU pricing . Vercel Functions Fluid Active CPU 4 hours / month included Starting at $0.128 per hour Custom Fluid Provisioned Memory 360 GB-hrs / month included Starting at $0.0106 per GB-hr Custom Function Invocations 1M / month included Starting at $0.60 per 1M Custom Service Requests Beta 1M requests / month included Starting at $0.50 per 1M Custom Vercel Sandbox Sandbox Active CPU 5 hours / month included Starting at $0.128 per hour Custom Sandbox Provisioned Memory 420 GB-hrs / month included Starting at $0.0212 per GB-hr Custom Sandbox Creations 5K / month included Starting at $0.60 per 1M Custom Sandbox Data Transfer 20 GB / month included Included in Flat Rate CDN Custom Concurrent Sandboxes 10 10K Custom Snapshot Storage 15 GB Starting at $0.08 per GB-month Custom Vercel Container Registry Image Storage Beta 10 GB / month included $0.10 per GB-month Custom Fast Origin Transfer 10 GB / month included Starting at $0.06 per GB Custom Vercel Workflows Workflow Events 50K events / month included $20 per 1M Custom Workflow Storage Writes 1 GB $0.50 per GB Custom Workflow Storage Retention — $0.50 per GB-month Custom Vercel Queues Beta API Operations 1M / month included Starting at $0.60 per 1M Custom Cron Jobs Regional pricing ↗ AI Build, deploy, and scale AI features with secure inference, durable workflows, and intelligent assistance. v0 — Paid add-on Paid add-on Vercel Agent Beta $0.25 / million tokens + pass-through token cost Custom Slack — Code Review — Investigations — AI Gateway Observability Image generation Bring your own key App attribution Managed fallback Load balancing Spend monitoring Embedding support Automatic retries Token Requests 500 requests / month included $3.00 per 1,000 requests Custom Triggers 1,000 triggers / month included $0.95 per 1,000 triggers Custom Build & Deploy Workflows from code to production. Builds Automatic CI/CD Environment Variables Build Logs Remote Cache Monorepo Support Webhook Triggers — Custom Environments — 1 environment 12 environments Build minutes Basic machines Included $0.007 per minute Custom Standard machines — $0.014 per minute Custom Enhanced machines — $0.028 per minute Custom Turbo machines — $0.105 per minute Custom Elastic machines — $0.0035 per CPU minute Custom Deployments Unlimited Deployments Environment Variables Instant Rollback Multi-tenant support Skew Protection — Rolling Releases — 1 project included Custom Preview Deployment Suffix — $100 / month Team Seats Developer seat 1 $20 / month Custom Viewer seat — Unlimited Custom Billing seat — 1 Custom Vercel Toolbar Comments Layout Shift Tool Draft Mode Productivity Integrations Previewers — Unlimited Unlimited Accessibility Audit Flags Explorer - Unlimited Overrides 150 overrides / month included 150 overrides / month included then $250 for unlimited overrides 150 overrides / month included then $250 for unlimited overrides Flag Requests 10K requests / month included $0.03 per 1K requests Custom Observability Frontend observability on Vercel helps you monitor, analyze, and manage your applications. Usage Dashboard Observability Observability Events Add-on $1.20 per 1M events Custom Extended retention — 30 days 30 days Advanced metrics — Query engine — Alerts — Speed Insights Plus Events 10K events / month included $10 / project / month $0.65 per 10K events Custom Web Analytics Events 50K events / month included $3 per 100K events Custom Web Analytics Plus Add-on $10 / month Reporting windows Additional 12 months (24 total) 24 months UTM Parameters Runtime Logs 1 hour of logs 1 day of logs 30 days with Observability Plus 3 days of logs 30 days with Observability Plus Session Tracing 1 hour of traces 1 day of traces 3 days of traces Drains Volume — $0.50 per 1 GB Custom Regional pricing ↗ Access & Deployment Security Vercel protects your projects across access, application, and infrastructure security. OAuth Sign-in GitHub Google GitLab Bitbucket Access Security Multi-Factor Authentication (MFA) Role-Based Access Control — Team level Team & project level Audit Logs — — SAML Single Sign-On (SSO) — $300 / month Directory Sync (SCIM) — — Passport — — Custom Password Protection — $20 / project / month SSO Protected Previews — — Static IPs (shared pool) — $100 / project / month Starting at $0.15 per GB Custom Secure Compute — — Custom BYOC — — Custom Compliance Built-in support for global security and data protection standards. Security collateral available for Pro and Enterprise plans. Compliance SOC 2 Type 2 PCI DSS ISO 27001 EU-U.S. DPF HIPAA BAA — $350 / month Custom TISAX Custom Security Questionnaire — — Sign up for free Start a free Pro trial Contact Sales Frequently asked questions 01 What currency are Vercel prices shown in, and do they include taxes? All prices shown are in USD and exclude value-added tax (VAT), goods and services tax (GST), and other applicable taxes. Taxes are calculated based on your billing address and added to your invoice where required by law. Learn more about taxes . 02 Which Vercel plan is right for me? Our Hobby plan is for personal, non-commercial use. Pro is designed for professional developers, freelancers, and businesses who need enhanced features and team collaboration. Enterprise is for teams seeking greater performance, collaboration, and security. Contact our sales team to learn more. 03 Do you offer custom invoicing? Yes, we offer custom invoicing for Enterprise customers. Contact our sales team to learn more. 04 What are the limits for each plan? Our limits are listed here . Pro plans have a $20 included credit to use across resources. Finally, check out our Fair Use Policy . 05 I went over my included credit. What can I do? We are glad you are growing with Vercel! You can continue to self serve or contact us to discuss your requirements and we can customize a plan for your team. 06 Can I buy additional usage? Yes! On top of your included credit on Pro, you can pay as you go, uncapped. If you have a free Hobby account, you are limited to the usage caps and cannot purchase additional usage. Read more details in our documentation . 07 I have a Hobby account, how do I upgrade to a paid plan? Thanks for continuing to use Vercel! You can upgrade to Pro directly in the Vercel dashboard. 08 Is there a limit to how many teams I can have? No, there is not a limit. 09 How does Vercel calculate usage? Learn more about usage in our documentation . 10 I want to transfer a domain name to Vercel. Is there a fee? Potentially. Transfer fees are dependent on the TLD and the domain renewal fee. The domain-transfer workflow will alert you of fees before initiating transfer. 11 Do cached responses affect usage? Caching responses can reduce the usage of Vercel Functions. If the function response is cached , it will not run and incur a Function invocation or any GB/hrs of duration. Any request made to Vercel will incur an Edge Request. Requests to static assets incur the same Fast Data Transfer usage if the response is cached or uncached. Further, Vercel automatically adds etags to all responses to prevent end users from downloading the same asset many times. Vercel CDN automatically compresses responses to reduce your Fast Data Transfer. 12 How can I manage my spend? We provide customers with tools to observe, control, and alert on their infrastructure spend with Spend Management . All new teams have a default on-demand usage budget of $200 (which can be customized) and receive email, web, and SMS notifications as you reach that amount. When reaching 100%, you can optionally configure Vercel to automatically pause all projects with a hard limit. Over the past year, we've added features to the platform based on your feedback to help automatically prevent runaway spend, including recursion protection , improved function defaults , hard spend limits , Attack Challenge Mode , and more. 13 What I can spend my included usage credit on? The included monthly usage credit can be spent as outlined in vercel.com/docs/plans/pro-plan#monthly-credit 14 What is Flat Rate CDN? Flat Rate CDN is an alternative to usage-based CDN billing available on Pro that provides teams with a predictable monthly bill and traffic spike protection. There are several advantages: Fixed monthly price : Pay a fixed amount for Vercel CDN each month, regardless of traffic and usage. Covers traffic spikes : CDN Requests, Fast Data Transfer, and other resources are no longer billed directly. No overages : Your bill will never increase because of temporary usage spikes. Learn more here. Can't decide? Talk to sales Get started for free Agent Stack AI SDK AI Gateway Sandbox Workflows Connect New Passport New eve New Core Platform CI/CD Content Delivery Fluid Compute Observability Security Platform Security WAF Bot Management BotID Tools Vercel Drop New Vercel Agent Vercel Plugin New Agent Skills Domains v0 Frameworks eve New Next.js Nuxt SvelteKit Nitro Turborepo Tanstack Start FastAPI All frameworks SDKs Vercel SDK Workflow SDK New Flags SDK Chat SDK New Que",
+      "content_sha256": "c45cd98af8ee64457cf8aa2b68e0575cff9f43d480206cd17dee399c2bee604d",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://vercel.com/docs/rest-api",
+      "final_url": "https://vercel.com/docs/rest-api",
+      "retrieved_at": "2026-09-16T17:43:40.921199+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "--- title: Vercel REST API Reference product: vercel url: /docs/rest-api canonical_url: \"https://vercel.com/docs/rest-api\" last_updated: 2026-09-16 type: reference prerequisites: [] related: - /docs/rest-api/access-groups/reads-an-access-group.md - /docs/rest-api/access-groups/update-an-access-group.md - /docs/rest-api/access-groups/deletes-an-access-group.md - /docs/rest-api/access-groups/list-members-of-an-access-group.md - /docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md summary: Interact programmatically with your Vercel account using the SDK or direct HTTP requests. install_vercel_plugin: npx plugins add vercel/vercel-plugin --- # Vercel REST API Reference Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. ## access-groups | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/reads-an-access-group.md) | Reads an access group | | **POST** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/update-an-access-group.md) | Update an access group | | **DELETE** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/deletes-an-access-group.md) | Deletes an access group | | **GET** | [`/v1/access-groups/{idOrName}/members`](/docs/rest-api/access-groups/list-members-of-an-access-group.md) | List members of an access group | | **GET** | [`/v1/access-groups`](/docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md) | List access groups for a team, project or member | | **POST** | [`/v1/access-groups`](/docs/rest-api/access-groups/creates-an-access-group.md) | Creates an access group | | **GET** | [`/v1/access-groups/{idOrName}/projects`](/docs/rest-api/access-groups/list-projects-of-an-access-group.md) | List projects of an access group | | **POST** | [`/v1/access-groups/{accessGroupIdOrName}/projects`](/docs/rest-api/access-groups/create-an-access-group-project.md) | Create an access group project | | **GET** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/reads-an-access-group-project.md) | Reads an access group project | | **PATCH** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/update-an-access-group-project.md) | Update an access group project | | **DELETE** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/delete-an-access-group-project.md) | Delete an access group project | ## api-ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/get-virtual-model-config.md) | Get virtual model config | | **POST** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/create-virtual-model-config.md) | Create virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/update-virtual-model-config.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config.md) | Delete virtual model config | | **GET** | [`/v1/ai-gateway/virtual-model-configs/list`](/docs/rest-api/api-ai-gateway/list-virtual-model-configs.md) | List virtual model configs | | **GET** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/get-virtual-model-config-1.md) | Get virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/update-virtual-model-config-1.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config-1.md) | Delete virtual model config | ## ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/list-rules.md) | List rules | | **POST** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/create-rule.md) | Create rule | | **PATCH** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/update-rule.md) | Update rule | | **DELETE** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/delete-rule.md) | Delete rule | ## artifacts | Method | Endpoint | Description | |---|---|---| | **POST** | [`/v8/artifacts/events`](/docs/rest-api/artifacts/record-an-artifacts-cache-usage-event.md) | Record an artifacts cache usage event | | **GET** | [`/v8/artifacts/status`](/docs/rest-api/artifacts/get-status-of-remote-caching-for-this-principal.md) | Get status of Remote Caching for this principal | | **GET** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/download-a-cache-artifact.md) | Download a cache artifact | | **PUT** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/upload-a-cache-artifact.md) | Upload a cache artifact | | **HEAD** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/check-if-a-cache-artifact-exists.md) | Check if a cache artifact exists | | **POST** | [`/v8/artifacts`](/docs/rest-api/artifacts/query-information-about-an-artifact.md) | Query information about an artifact | | **DELETE** | [`/v8/artifacts`](/docs/rest-api/artifacts/delete-all-cache-artifacts.md) | Delete all cache artifacts | ## billing | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/billing/charges`](/docs/rest-api/billing/list-focus-billing-charges.md) | List FOCUS billing charges | | **GET** | [`/v1/billing/contract-commitments`](/docs/rest-api/billing/list-focus-contract-commitments.md) | List FOCUS contract commitments | | **POST** | [`/v1/billing/buy`](/docs/rest-api/billing/purchase-credits.md) | Purchase credits | ## bulk-redirects | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/gets-project-level-redirects.md) | Gets project-level redirects. | | **PUT** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/stages-new-redirects-for-a-project.md) | Stages new redirects for a project. | | **PATCH** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/edit-a-project-level-redirect.md) | Edit a project-level redirect. | | **DELETE** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/delete-project-level-redirects.md) | Delete project-level redirects. | | **POST** | [`/v1/bulk-redirects/restore`](/docs/rest-api/bulk-redirects/restore-staged-project-level-redirects-to-their-production-version.md) | Restore staged project-level redirects to their production version. | | **GET** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/get-the-version-history-for-a-project-s-redirects.md) | Get the version history for a project's redirects. | | **POST** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/promote-a-staging-version-to-production-or-restore-a-previous-production-version.md) | Promote a staging version to production or restore a previous production version. | ## checks-v2 | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/list-all-checks-for-a-project.md) | List all checks for a project | | **POST** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/create-a-check.md) | Create a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/get-a-check.md) | Get a check | | **PATCH** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/update-a-check.md) | Update a check | | **DELETE** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/delete-a-check.md) | Delete a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}/runs`](/docs/rest-api/checks-v2/list-runs-for-a-check.md) | List runs for a check | | **GET** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/list-check-runs-for-a-deployment.md) | List check runs for a deployment | | **POST** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/create-a-check-run.md) | Create a check run | | **GET** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/get-a-check-run.md) | Get a check run | | **PATCH** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/update-a-check-run.md) | Update a check run | ## networking | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/connect/networks`](/docs/rest-api/networking/list-secure-compute-networks.md) | List Secure Compute networks | | **POST** | [`/v1/connect/networks`](/docs/rest-api/networking/create-a-secure-compute-network.md) | Create a Secure Compute network | | **GET** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/read-a-secure-compute-network.md) | Read a Secure Compute network | | **PATCH** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/update-a-secure-compute-network.md) | Update a Secure Compute network | | **DELETE** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/delete-a-secure-compute-network.md) | Delete a Secure Compute network | | **GET** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/list-privatelink-endpoints.md) | List PrivateLink endpoints | | **POST** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/create-a-privatelink-endpoint.md) | Create a PrivateLink endpoint | | **GET** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/read-a-privatelink-endpoint.md) | Read a PrivateLink endpoint | | **PATCH** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/update-a-privatelink-endpoint.md) | Update a PrivateLink endpoint | | **DELETE** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/delete-a-privatelink-endpoint.md) | Delete a PrivateLink endpoint | | **PATCH** | [`/v1/projects/{idOrName}/shared-connect-links`](/docs/rest-api/networking/configures-static-ips-for-a-project.md) | Configures Static IPs for a project | ## connect | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/connect/connectors`](/docs/rest-api/connect/list-connectors.md) | List connectors | | **GET** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/get-a-connector.md) | Get a connector | | **DELETE** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/delete-a-connector.md) | Delete a connector | | **POST** | [`/v1/connect/connectors`](/docs/rest-api/connect/create-a-connector.md) | Create a connector | | **PATCH** | [`/v2/connect/connectors/{connector}`](/docs/rest-api/connect/update-a-connector.md) | Update a connector | | **PATCH** | [`/v1/connect/connectors/{connector}/trigger-destinations`](/docs/rest-api/connect/update-connector-trigger-destinations.md) | Update connector trigger destinations | | **GET** | [`/v2/connect/connectors/{connector}/projects`](/docs/rest-api/connect/list-projects-for-a-connector.md) | List projects for a connector | | **GET** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/get-a-connector-project-connection.md) | Get a connector project connection | | **POST** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/create-or-update-a-connector-project-connection.md) | Create or update a connector project connection | | **DELETE** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/disconnect-a-connector-from-a-project.md) | Disconnect a connector from a project | | **GET** | [`/v2/connect/projects/{projectId}/connectors`](/docs/rest-api/connect/list-connectors-for-a-project.md) | List connectors for a project | | **POST** | [`/v1/connect/token/{connector}`](/docs/rest-api/connect/get-a-connect-token.md) | Get a Connect token | | **POST** | [`/v1/connect/authorize/{connector}`](/docs/rest-api/connect/create-a-connect-authorization-request.md) | Create a Connect authorization request | ## deployments | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v3/deployments/{idOrUrl}/events`](/docs/rest-api/deployments/get-deployment-events.md) | Get deployment events | | **PATCH** | [`/v1/deployments/{deploymentId}/integrations/{integrationConfigurationId}/resources/{resourceId}/actions/{action}`](/docs/rest-api/deployments/update-deployment-integration-action.md) | Update deployment integration action | | **GET** | [`/v13/deployments/{idOrUrl}`](/docs/rest-api/deployments/get-a-deployment-by-id-or-url.md) | Get a deployment by ID or URL | | **POST** | [`/v13/deployments`](/docs/rest-api/deployments/create-a-new-deployment.md) | Create a new deployment | | **PATCH** | [`/v12/deployments/{id}/cancel`](/docs/rest-api/deployments/cancel-a-deployment.md) | Cancel a deployment | | **POST** | [`/v2/files`](/docs/rest-api/deployments/upload-deployment-files.md) | Upload Deployment Files | | **GET** | [`/v6/deployments/{id}/files`](/docs/rest-api/deployments/list-deployment-files.md) | List Deployment Files | | **GET** | [`/v8/deployments/{id}/files/{fileId}`](/docs/rest-api/deployments/get-deployment-file-contents.md) | Get Deployment File Contents | | **GET** | [`/v7/deployments`](/docs/rest-api/deployments/list-deployments.md) | List deployments | | **DELETE** | [`/v13/deployments/{id}`](/docs/rest-api/deployments/delete-a-deployment.md) | Delete a Deployment | ## dns | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v5/domains/{domain}/records`](/docs/rest-api/dns/list-existing-dns-records.md) | List existing DNS records | | **POST** | [`/v2/domains/{domain}/records`](/docs/rest-api/dns/create-a-dns-record.md) | Create a DNS record | | **PATCH** | [`/v1/domains/records/{recordId}`](/docs/rest-api/dns/update-an-existing-dns-record.md) | Update an existing DNS record | | **DELETE** | [`/v2/domains/{domain}/records/{recordId",
+      "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://vercel.com/docs/rest-api/reference/welcome",
+      "final_url": "https://vercel.com/docs/rest-api",
+      "retrieved_at": "2026-09-16T17:43:41.239364+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "--- title: Vercel REST API Reference product: vercel url: /docs/rest-api canonical_url: \"https://vercel.com/docs/rest-api\" last_updated: 2026-09-16 type: reference prerequisites: [] related: - /docs/rest-api/access-groups/reads-an-access-group.md - /docs/rest-api/access-groups/update-an-access-group.md - /docs/rest-api/access-groups/deletes-an-access-group.md - /docs/rest-api/access-groups/list-members-of-an-access-group.md - /docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md summary: Interact programmatically with your Vercel account using the SDK or direct HTTP requests. install_vercel_plugin: npx plugins add vercel/vercel-plugin --- # Vercel REST API Reference Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work. ## access-groups | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/reads-an-access-group.md) | Reads an access group | | **POST** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/update-an-access-group.md) | Update an access group | | **DELETE** | [`/v1/access-groups/{idOrName}`](/docs/rest-api/access-groups/deletes-an-access-group.md) | Deletes an access group | | **GET** | [`/v1/access-groups/{idOrName}/members`](/docs/rest-api/access-groups/list-members-of-an-access-group.md) | List members of an access group | | **GET** | [`/v1/access-groups`](/docs/rest-api/access-groups/list-access-groups-for-a-team-project-or-member.md) | List access groups for a team, project or member | | **POST** | [`/v1/access-groups`](/docs/rest-api/access-groups/creates-an-access-group.md) | Creates an access group | | **GET** | [`/v1/access-groups/{idOrName}/projects`](/docs/rest-api/access-groups/list-projects-of-an-access-group.md) | List projects of an access group | | **POST** | [`/v1/access-groups/{accessGroupIdOrName}/projects`](/docs/rest-api/access-groups/create-an-access-group-project.md) | Create an access group project | | **GET** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/reads-an-access-group-project.md) | Reads an access group project | | **PATCH** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/update-an-access-group-project.md) | Update an access group project | | **DELETE** | [`/v1/access-groups/{accessGroupIdOrName}/projects/{projectId}`](/docs/rest-api/access-groups/delete-an-access-group-project.md) | Delete an access group project | ## api-ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/get-virtual-model-config.md) | Get virtual model config | | **POST** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/create-virtual-model-config.md) | Create virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/update-virtual-model-config.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config.md) | Delete virtual model config | | **GET** | [`/v1/ai-gateway/virtual-model-configs/list`](/docs/rest-api/api-ai-gateway/list-virtual-model-configs.md) | List virtual model configs | | **GET** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/get-virtual-model-config-1.md) | Get virtual model config | | **PATCH** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/update-virtual-model-config-1.md) | Update virtual model config | | **DELETE** | [`/v1/ai-gateway/virtual-model-configs/{vmcSlug}`](/docs/rest-api/api-ai-gateway/delete-virtual-model-config-1.md) | Delete virtual model config | ## ai-gateway | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/list-rules.md) | List rules | | **POST** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/create-rule.md) | Create rule | | **PATCH** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/update-rule.md) | Update rule | | **DELETE** | [`/v1/ai-gateway/rules`](/docs/rest-api/ai-gateway/delete-rule.md) | Delete rule | ## artifacts | Method | Endpoint | Description | |---|---|---| | **POST** | [`/v8/artifacts/events`](/docs/rest-api/artifacts/record-an-artifacts-cache-usage-event.md) | Record an artifacts cache usage event | | **GET** | [`/v8/artifacts/status`](/docs/rest-api/artifacts/get-status-of-remote-caching-for-this-principal.md) | Get status of Remote Caching for this principal | | **GET** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/download-a-cache-artifact.md) | Download a cache artifact | | **PUT** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/upload-a-cache-artifact.md) | Upload a cache artifact | | **HEAD** | [`/v8/artifacts/{hash}`](/docs/rest-api/artifacts/check-if-a-cache-artifact-exists.md) | Check if a cache artifact exists | | **POST** | [`/v8/artifacts`](/docs/rest-api/artifacts/query-information-about-an-artifact.md) | Query information about an artifact | | **DELETE** | [`/v8/artifacts`](/docs/rest-api/artifacts/delete-all-cache-artifacts.md) | Delete all cache artifacts | ## billing | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/billing/charges`](/docs/rest-api/billing/list-focus-billing-charges.md) | List FOCUS billing charges | | **GET** | [`/v1/billing/contract-commitments`](/docs/rest-api/billing/list-focus-contract-commitments.md) | List FOCUS contract commitments | | **POST** | [`/v1/billing/buy`](/docs/rest-api/billing/purchase-credits.md) | Purchase credits | ## bulk-redirects | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/gets-project-level-redirects.md) | Gets project-level redirects. | | **PUT** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/stages-new-redirects-for-a-project.md) | Stages new redirects for a project. | | **PATCH** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/edit-a-project-level-redirect.md) | Edit a project-level redirect. | | **DELETE** | [`/v1/bulk-redirects`](/docs/rest-api/bulk-redirects/delete-project-level-redirects.md) | Delete project-level redirects. | | **POST** | [`/v1/bulk-redirects/restore`](/docs/rest-api/bulk-redirects/restore-staged-project-level-redirects-to-their-production-version.md) | Restore staged project-level redirects to their production version. | | **GET** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/get-the-version-history-for-a-project-s-redirects.md) | Get the version history for a project's redirects. | | **POST** | [`/v1/bulk-redirects/versions`](/docs/rest-api/bulk-redirects/promote-a-staging-version-to-production-or-restore-a-previous-production-version.md) | Promote a staging version to production or restore a previous production version. | ## checks-v2 | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/list-all-checks-for-a-project.md) | List all checks for a project | | **POST** | [`/v2/projects/{projectIdOrName}/checks`](/docs/rest-api/checks-v2/create-a-check.md) | Create a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/get-a-check.md) | Get a check | | **PATCH** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/update-a-check.md) | Update a check | | **DELETE** | [`/v2/projects/{projectIdOrName}/checks/{checkId}`](/docs/rest-api/checks-v2/delete-a-check.md) | Delete a check | | **GET** | [`/v2/projects/{projectIdOrName}/checks/{checkId}/runs`](/docs/rest-api/checks-v2/list-runs-for-a-check.md) | List runs for a check | | **GET** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/list-check-runs-for-a-deployment.md) | List check runs for a deployment | | **POST** | [`/v2/deployments/{deploymentId}/check-runs`](/docs/rest-api/checks-v2/create-a-check-run.md) | Create a check run | | **GET** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/get-a-check-run.md) | Get a check run | | **PATCH** | [`/v2/deployments/{deploymentId}/check-runs/{checkRunId}`](/docs/rest-api/checks-v2/update-a-check-run.md) | Update a check run | ## networking | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v1/connect/networks`](/docs/rest-api/networking/list-secure-compute-networks.md) | List Secure Compute networks | | **POST** | [`/v1/connect/networks`](/docs/rest-api/networking/create-a-secure-compute-network.md) | Create a Secure Compute network | | **GET** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/read-a-secure-compute-network.md) | Read a Secure Compute network | | **PATCH** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/update-a-secure-compute-network.md) | Update a Secure Compute network | | **DELETE** | [`/v1/connect/networks/{networkId}`](/docs/rest-api/networking/delete-a-secure-compute-network.md) | Delete a Secure Compute network | | **GET** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/list-privatelink-endpoints.md) | List PrivateLink endpoints | | **POST** | [`/v1/networking/privatelink/endpoints`](/docs/rest-api/networking/create-a-privatelink-endpoint.md) | Create a PrivateLink endpoint | | **GET** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/read-a-privatelink-endpoint.md) | Read a PrivateLink endpoint | | **PATCH** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/update-a-privatelink-endpoint.md) | Update a PrivateLink endpoint | | **DELETE** | [`/v1/networking/privatelink/endpoints/{endpointId}`](/docs/rest-api/networking/delete-a-privatelink-endpoint.md) | Delete a PrivateLink endpoint | | **PATCH** | [`/v1/projects/{idOrName}/shared-connect-links`](/docs/rest-api/networking/configures-static-ips-for-a-project.md) | Configures Static IPs for a project | ## connect | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v2/connect/connectors`](/docs/rest-api/connect/list-connectors.md) | List connectors | | **GET** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/get-a-connector.md) | Get a connector | | **DELETE** | [`/v1/connect/connectors/{connector}`](/docs/rest-api/connect/delete-a-connector.md) | Delete a connector | | **POST** | [`/v1/connect/connectors`](/docs/rest-api/connect/create-a-connector.md) | Create a connector | | **PATCH** | [`/v2/connect/connectors/{connector}`](/docs/rest-api/connect/update-a-connector.md) | Update a connector | | **PATCH** | [`/v1/connect/connectors/{connector}/trigger-destinations`](/docs/rest-api/connect/update-connector-trigger-destinations.md) | Update connector trigger destinations | | **GET** | [`/v2/connect/connectors/{connector}/projects`](/docs/rest-api/connect/list-projects-for-a-connector.md) | List projects for a connector | | **GET** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/get-a-connector-project-connection.md) | Get a connector project connection | | **POST** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/create-or-update-a-connector-project-connection.md) | Create or update a connector project connection | | **DELETE** | [`/v1/connect/connectors/{connector}/projects/{projectId}`](/docs/rest-api/connect/disconnect-a-connector-from-a-project.md) | Disconnect a connector from a project | | **GET** | [`/v2/connect/projects/{projectId}/connectors`](/docs/rest-api/connect/list-connectors-for-a-project.md) | List connectors for a project | | **POST** | [`/v1/connect/token/{connector}`](/docs/rest-api/connect/get-a-connect-token.md) | Get a Connect token | | **POST** | [`/v1/connect/authorize/{connector}`](/docs/rest-api/connect/create-a-connect-authorization-request.md) | Create a Connect authorization request | ## deployments | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v3/deployments/{idOrUrl}/events`](/docs/rest-api/deployments/get-deployment-events.md) | Get deployment events | | **PATCH** | [`/v1/deployments/{deploymentId}/integrations/{integrationConfigurationId}/resources/{resourceId}/actions/{action}`](/docs/rest-api/deployments/update-deployment-integration-action.md) | Update deployment integration action | | **GET** | [`/v13/deployments/{idOrUrl}`](/docs/rest-api/deployments/get-a-deployment-by-id-or-url.md) | Get a deployment by ID or URL | | **POST** | [`/v13/deployments`](/docs/rest-api/deployments/create-a-new-deployment.md) | Create a new deployment | | **PATCH** | [`/v12/deployments/{id}/cancel`](/docs/rest-api/deployments/cancel-a-deployment.md) | Cancel a deployment | | **POST** | [`/v2/files`](/docs/rest-api/deployments/upload-deployment-files.md) | Upload Deployment Files | | **GET** | [`/v6/deployments/{id}/files`](/docs/rest-api/deployments/list-deployment-files.md) | List Deployment Files | | **GET** | [`/v8/deployments/{id}/files/{fileId}`](/docs/rest-api/deployments/get-deployment-file-contents.md) | Get Deployment File Contents | | **GET** | [`/v7/deployments`](/docs/rest-api/deployments/list-deployments.md) | List deployments | | **DELETE** | [`/v13/deployments/{id}`](/docs/rest-api/deployments/delete-a-deployment.md) | Delete a Deployment | ## dns | Method | Endpoint | Description | |---|---|---| | **GET** | [`/v5/domains/{domain}/records`](/docs/rest-api/dns/list-existing-dns-records.md) | List existing DNS records | | **POST** | [`/v2/domains/{domain}/records`](/docs/rest-api/dns/create-a-dns-record.md) | Create a DNS record | | **PATCH** | [`/v1/domains/records/{recordId}`](/docs/rest-api/dns/update-an-existing-dns-record.md) | Update an existing DNS record | | **DELETE** | [`/v2/domains/{domain}/records/{recordId",
+      "content_sha256": "32b8ad03c72f6bc3d747843560d0ffab576991e41783f4b74d960c9d10d5835f",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 12072,
+    "output_tokens": 1868
+  },
+  "failure": null
+}

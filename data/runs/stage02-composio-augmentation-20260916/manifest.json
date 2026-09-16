@@ -1,0 +1,189 @@
+{
+  "run_id": "stage02-composio-augmentation-20260916",
+  "started_at": "2026-09-16T17:42:49.730198+00:00",
+  "mode": "augmentation",
+  "status": "frozen",
+  "selected_ids": [
+    1,
+    40,
+    62,
+    87
+  ],
+  "selected_action": {
+    "slug": "COMPOSIO_SEARCH_TAVILY",
+    "input_schema": {
+      "type": "object",
+      "title": "TavilySearchRequest",
+      "required": [
+        "query"
+      ],
+      "properties": {
+        "query": {
+          "type": "string",
+          "title": "Query",
+          "examples": [
+            "climate change",
+            "quantum computing",
+            "best practices for REST API design"
+          ],
+          "description": "The primary text used to perform the search. This is the key term or phrase that the search functionality will use to retrieve results."
+        },
+        "max_results": {
+          "type": "integer",
+          "title": "Max Results",
+          "default": 5,
+          "examples": [
+            5,
+            10,
+            20
+          ],
+          "description": "The maximum number of search results that the API should return. This limits the size of the result set for the query."
+        },
+        "search_depth": {
+          "enum": [
+            "basic",
+            "advanced"
+          ],
+          "type": "string",
+          "title": "Search Depth",
+          "default": "basic",
+          "examples": [
+            "basic",
+            "advanced"
+          ],
+          "description": "Determines the thoroughness of the search. A 'basic' search might perform a quick and broad search, while 'advanced' could indicate a more intensive and narrow search."
+        },
+        "include_answer": {
+          "type": "boolean",
+          "title": "Include Answer",
+          "default": false,
+          "examples": [
+            true,
+            false
+          ],
+          "description": "Specifies whether to include direct answers to the query in the search results. Useful for queries that expect a factual answer."
+        },
+        "include_images": {
+          "type": "boolean",
+          "title": "Include Images",
+          "default": false,
+          "examples": [
+            true,
+            false
+          ],
+          "description": "A flag indicating whether to include images in the search results. When set to true, the response will contain image links related to the query."
+        },
+        "exclude_domains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "Exclude Domains",
+          "examples": [
+            [
+              "exclude.com",
+              "spam.com"
+            ],
+            [
+              "irrelevant.org",
+              "bannedsite.net"
+            ]
+          ],
+          "description": "A list of domain names to exclude from the search results. Results from these domains will not be included, which can help to filter out unwanted content."
+        },
+        "include_domains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "Include Domains",
+          "examples": [
+            [
+              "example.com",
+              "example.org"
+            ],
+            [
+              "mysite.com",
+              "myblog.net"
+            ]
+          ],
+          "description": "A list of domain names to include in the search results. Only results from these specified domains will be returned, allowing for targeted searches."
+        },
+        "include_raw_content": {
+          "type": "boolean",
+          "title": "Include Raw Content",
+          "default": false,
+          "examples": [
+            true,
+            false
+          ],
+          "description": "If set to true, the search results will include the raw content from the search index, which may contain unprocessed HTML or text."
+        }
+      }
+    },
+    "query_key": "query",
+    "version": "20260903_00",
+    "authentication": [
+      {
+        "fields": {
+          "auth_config_creation": {
+            "optional": [],
+            "required": []
+          },
+          "connected_account_initiation": {
+            "optional": [],
+            "required": []
+          }
+        },
+        "mode": "NO_AUTH",
+        "name": "Composio Search",
+        "auth_hint_url": null,
+        "deprecated_auth_provider_details": null,
+        "proxy": null,
+        "required_scopes": []
+      }
+    ]
+  },
+  "fallback": false,
+  "model": "gpt-4.1-mini-2025-04-14",
+  "bounds": {
+    "workers": 3,
+    "searches_per_app": 2,
+    "pages_per_app": 4,
+    "page_chars": 14000,
+    "total_input_chars": 42000,
+    "retrieval_timeout": 20,
+    "model_timeout": 90,
+    "retries": 1,
+    "response_bytes": 2000000
+  },
+  "input_sha256": "182098e4cccdf7e617800d199b52ccfdd921f527d03919ae59a125138c1a6656",
+  "prompt_sha256": "750626085c82e40b5a0b9d8d2e74c8d3fba1dab46bbeb73fafbb327ca64f1aed",
+  "schema_sha256": "bb92ad678759d41c4cea29603b3ad1d657db97ce3f4d1442f2324915ef90185c",
+  "finished_at": "2026-09-16T17:44:28.663200+00:00",
+  "accounted_for": 4,
+  "metrics": {
+    "model_requests": 4,
+    "failed_model_requests": 0,
+    "input_tokens": 27891,
+    "output_tokens": 8300
+  },
+  "search_calls": 8,
+  "retrieved_pages": 15,
+  "successful_pages": 9,
+  "failed_pages": 6,
+  "official_pages": 7,
+  "evidence_objects": 3,
+  "flag_counts": {
+    "no_usable_official_source": 1,
+    "low_confidence": 1,
+    "quote_not_found": 19,
+    "missing_field_evidence": 29,
+    "provenance_mismatch": 1,
+    "negative_without_explicit_evidence": 1,
+    "nonofficial_critical_evidence": 3
+  },
+  "hard_failures": 0,
+  "partial_unknown": 4,
+  "successful_records": 0
+}

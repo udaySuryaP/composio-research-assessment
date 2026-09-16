@@ -11,7 +11,7 @@ def audit(run_id):
     manifest=s.read(directory/'manifest.json')
     rows=s.read(directory/'first-pass.json')
     apps={a['id']:a for a in s.seeds()}
-    expected=sorted(apps) if manifest['mode']=='run' else [1,11,31,71]
+    expected=manifest['selected_ids'] if manifest['mode']=='augmentation' else (sorted(apps) if manifest['mode']=='run' else [1,11,31,71])
     errors=[]
     supplementary=[]
     if sorted(r['id'] for r in rows)!=expected:

@@ -1,0 +1,67 @@
+{
+  "run_id": "stage02-composio-augmentation-20260916",
+  "audited_at": "2026-09-16T17:45:56.408407+00:00",
+  "record_count": 4,
+  "errors": [],
+  "supplementary_flag_counts": {
+    "no_usable_official_source": 1,
+    "low_confidence": 4,
+    "all_research_fields_unknown": 2
+  },
+  "supplementary_flags": [
+    {
+      "id": 1,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    }
+  ],
+  "human_review": false,
+  "note": "Offline integrity/quality validation only; no semantic truth or accuracy claim.",
+  "baseline_files_verified": 105,
+  "readable_composio_candidates_consumed": 7,
+  "credential_scan": "CLEAN",
+  "scanned_files": 165
+}
