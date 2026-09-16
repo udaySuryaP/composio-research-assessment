@@ -1,0 +1,267 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 68,
+    "app_name": "MongoDB Atlas",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://mongodb.com/docs/atlas/api",
+    "description": "MongoDB Atlas provides a cloud database platform with an Administration API that allows management of Atlas clusters, projects, and organizations. It supports programmatic access to manage infrastructure but does not provide direct access to the data stored in clusters via this API.",
+    "auth_methods": [
+      "oauth2",
+      "digest"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "MongoDB Atlas provides a cloud database platform with an Administration API that allows management of Atlas clusters, projects, and organizations. It supports programmatic access to manage infrastructure but does not provide direct access to the data stored in clusters via this API.",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "The Atlas Administration API doesn't provide access to the data stored in your clusters. To read or write data in a database, you must authenticate to your cluster using the credentials for a database user with the appropriate read or write roles . You can use the Atlas Administration API to create and manage database users.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Get started for free in minutes Sign Up",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "Build with MongoDB Atlas Get started for free in minutes Sign Up",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Atlas Administration API supports OAuth 2.0 service account authentication and legacy HTTP Digest Authentication API keys, with detailed documentation on authentication and API usage. The API is RESTful and allows management of Atlas resources programmatically, enabling buildability.",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "Service accounts provide improved security over API keys by using the industry standard OAuth 2.0 protocol with the Client Credentials flow. A service account lets you manage permissions and create access tokens that authenticate API requests.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:23:13.584184+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 68,
+    "app_name": "MongoDB Atlas",
+    "category": "7. Developer, Infra and Data platforms",
+    "website": "http://mongodb.com/docs/atlas/api",
+    "description": "MongoDB Atlas provides a cloud database platform with an Administration API that allows management of Atlas clusters, projects, and organizations. It supports programmatic access to manage infrastructure but does not provide direct access to the data stored in clusters via this API.",
+    "auth_methods": [
+      "oauth2",
+      "digest"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows management of Atlas organizations, projects, clusters, and database users, including creating and managing database users, but does not provide access to the data stored in clusters.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The Atlas Administration API supports OAuth 2.0 service account authentication and legacy HTTP Digest Authentication API keys, with detailed documentation on authentication and API usage. The API is RESTful and allows management of Atlas resources programmatically, enabling buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "MongoDB Atlas provides a cloud database platform with an Administration API that allows management of Atlas clusters, projects, and organizations. It supports programmatic access to manage infrastructure but does not provide direct access to the data stored in clusters via this API.",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "The Atlas Administration API doesn't provide access to the data stored in your clusters. To read or write data in a database, you must authenticate to your cluster using the credentials for a database user with the appropriate read or write roles . You can use the Atlas Administration API to create and manage database users.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Get started for free in minutes Sign Up",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "Build with MongoDB Atlas Get started for free in minutes Sign Up",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication)",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The Atlas Administration API is a RESTful API",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "Atlas Administration API Authentication Methods - Atlas - MongoDB Docs For AI agents: a documentation index is available at https://www.mongodb.com/docs/llms.txt \u001a markdown versions of all pages are available by appending .md to any URL path.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "You can use the Atlas Administration API to create and manage database users. The API allows management of Atlas organizations, projects, clusters, and database users.",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "You can use the Atlas Administration API to create and manage database users. Many Atlas Administration API endpoint URLs follow the format of /api/atlas/<version>/groups/<GROUP-ID>/ , where <GROUP-ID> is your project ID .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The Atlas Administration API supports OAuth 2.0 service account authentication and legacy HTTP Digest Authentication API keys, with detailed documentation on authentication and API usage. The API is RESTful and allows management of Atlas resources programmatically, enabling buildability.",
+        "url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+        "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+        "quote": "Service accounts provide improved security over API keys by using the industry standard OAuth 2.0 protocol with the Client Credentials flow. A service account lets you manage permissions and create access tokens that authenticate API requests.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:00.638768+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "api_types",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+      "final_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+      "retrieved_at": "2026-09-16T17:22:58.123088+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Atlas Administration API Authentication Methods - Atlas - MongoDB Docs For AI agents: a documentation index is available at https://www.mongodb.com/docs/llms.txt — markdown versions of all pages are available by appending .md to any URL path. Products Platform Atlas Build and scale with an AI-ready platform Platform Services Database Deploy a multi-cloud database Search Deliver engaging search experiences Vector Search Design intelligent apps with gen AI Stream Processing Integrate MongoDB and Kafka Self Managed Enterprise Advanced Run and manage MongoDB yourself Community Edition Develop locally with MongoDB Tools Compass Work with MongoDB data in a GUI Integrations Integrations with third-party services Relational Migrator Migrate to MongoDB with confidence View All Products Explore our full developer suite arrow-right MongoDB 8.0 Our fastest version ever arrow-right Build with MongoDB Atlas Get started for free in minutes Sign Up Test Enterprise Advanced Develop with MongoDB on-premises Download Try Community Edition Explore the latest version of MongoDB Download Resources Documentation Atlas Documentation Get started using Atlas Server Documentation Learn to use MongoDB Tools and Connectors Learn how to connect to MongoDB MongoDB Drivers Use drivers and libraries for MongoDB Resources Hub Get help building the next big thing with MongoDB arrow-right Connect Community Join a global community of developers Courses and Certification Learn for free from MongoDB Events and Webinars Find an event or webinar near you Solutions Use cases Artificial Intelligence Modernization Payments Serverless Development Gaming Intelligent Search Edge and Mobile Industries Financial Services Telecommunications Healthcare Retail Public Sector Manufacturing Solutions Library Organized and tailored solutions to kick-start projects arrow-right AI Applications Program Expedite your AI journey with expert guidance Learn more arrow-right Startups and AI Innovators For world-changing ideas and AI pioneers Learn more arrow-right Customer Case Studies Hear directly from our users See Stories arrow-right Company Careers Start your next adventure Blog Read articles and announcements Newsroom Read press releases and news stories Partners Learn about our partner ecosystem Leadership Meet our executive team Company Learn more about who we are Contact Us Reach out to MongoDB Connect with an expert arrow-right Investors Visit our investor portal Learn more arrow-right Pricing Eng Support Sign In menu-vertical Get Started Products Platform Atlas Build and scale with an AI-ready platform Platform Services Database Deploy a multi-cloud database Search Deliver engaging search experiences Vector Search Design intelligent apps with gen AI Stream Processing Integrate MongoDB and Kafka Self Managed Enterprise Advanced Run and manage MongoDB yourself Community Edition Develop locally with MongoDB Tools Compass Work with MongoDB data in a GUI Integrations Integrations with third-party services Relational Migrator Migrate to MongoDB with confidence View All Products Explore our full developer suite arrow-right MongoDB 8.0 Our fastest version ever arrow-right Build with MongoDB Atlas Get started for free in minutes Sign Up Test Enterprise Advanced Develop with MongoDB on-premises Download Try Community Edition Explore the latest version of MongoDB Download Resources Documentation Atlas Documentation Get started using Atlas Server Documentation Learn to use MongoDB Tools and Connectors Learn how to connect to MongoDB MongoDB Drivers Use drivers and libraries for MongoDB Resources Hub Get help building the next big thing with MongoDB arrow-right Connect Community Join a global community of developers Courses and Certification Learn for free from MongoDB Events and Webinars Find an event or webinar near you Solutions Use cases Artificial Intelligence Modernization Payments Serverless Development Gaming Intelligent Search Edge and Mobile Industries Financial Services Telecommunications Healthcare Retail Public Sector Manufacturing Solutions Library Organized and tailored solutions to kick-start projects arrow-right AI Applications Program Expedite your AI journey with expert guidance Learn more arrow-right Startups and AI Innovators For world-changing ideas and AI pioneers Learn more arrow-right Customer Case Studies Hear directly from our users See Stories arrow-right Company Careers Start your next adventure Blog Read articles and announcements Newsroom Read press releases and news stories Partners Learn about our partner ecosystem Leadership Meet our executive team Company Learn more about who we are Contact Us Reach out to MongoDB Connect with an expert arrow-right Investors Visit our investor portal Learn more arrow-right Pricing Eng Support Sign In menu-vertical Get Started Docs Menu Ask MongoDB AI Docs Home / / Administration API Docs Home / Management / APIs / Administration API Docs Home / Management / APIs / Administration API Atlas Administration API Authentication Methods Copy page Important We recommend you use service accounts instead of API keys to authenticate to the Atlas Administration API. API keys are a legacy authentication method. To use the Atlas Administration API to manage your Atlas clusters, you must authenticate your API requests. The Atlas Administration API accepts the following authentication methods: Service account access tokens ( OAuth 2.0) API keys ( HTTP Digest Authentication) To learn how to use service accounts and API keys to configure programmatic access to your Atlas organizations and projects, see the Atlas Administration API Getting Started guide. The Atlas Administration API doesn't provide access to the data stored in your clusters. To read or write data in a database, you must authenticate to your cluster using the credentials for a database user with the appropriate read or write roles . You can use the Atlas Administration API to create and manage database users. Note Many Atlas Administration API endpoint URLs follow the format of /api/atlas/<version>/groups/<GROUP-ID>/ , where <GROUP-ID> is your project ID . For these resources, the service account or API keys that you use to authenticate the request must be a member of the organization that hosts the project. Otherwise, Atlas responds with a 401 error. The following sections describe the Atlas Administration API authentication methods: Service Accounts Overview Service accounts are the recommended method to manage authentication to the Atlas Administration API. Service accounts provide improved security over API keys by using the industry standard OAuth 2.0 protocol with the Client Credentials flow. A service account lets you manage permissions and create access tokens that authenticate API requests. Each service account has a client ID and a rotatable secret that function as a username and a password for creating access tokens. To learn how to construct an API request with an access token, see Make an API Request. Tip Service Account Token Best Practices Consider the following best practices when using service account tokens: Reuse tokens : Service account access tokens have a 1 hour (3600 seconds) lifespan, during which you can reuse the token multiple times. Avoid creating new tokens for every request. Generate new tokens when needed : While you can't refresh an access token, you can generate a new token when your current token is close to expiry. This prevents service interruptions and allows you to maintain authorized service account access. Revoke unnecessary tokens : When you no longer need a token, revoke the token's access to minimize security risks and ensure that only active tokens have access to your service account. Each service account belongs to exactly one organization, and you can grant it access to any number of projects within that organization. To give an organization-level service account access to a project, see Grant Existing Service Account Access to a Project. Atlas roles limit which operations a service account can authenticate with its access token. You must assign roles to service accounts as you would for users to ensure that the service account generates access tokens with the necessary permissions for the desired API calls. Important If a project-level service account has access to the organization or to other projects, you must have the Organization Owner role to manage its lifecycle, including rotating or revoking its secrets. You can't use a service account or its access token to log into Atlas through the Atlas UI. Service accounts only grant access to the Atlas Administration API, which does not include UI access or access to cluster data. To learn more about the limitations of service accounts, see MongoDB Limits and Thresholds. API Keys Overview Important We recommend you use service accounts instead of API keys to authenticate to the Atlas Administration API. API keys are a legacy authentication method. API keys are a legacy method of authenticating to the Atlas Administration API that uses HTTP Digest Authentication. API keys have two parts: a Public Key and a Private Key. These serve the same function as a username and a password to authenticate API requests. To learn how to construct an API request using API keys, see Make an API Request. Atlas hashes the Public Key and Private Key using a unique value called a nonce . The nonce is only valid for a short amount of time as per the HTTP Digest Authentication specification. This limited lifespan protects against replay attacks, where an attacker caches a Private Key to use it without time restriction. Each pair of API keys belongs to only one organization, and can grant access to any number of projects in that organization. To give organization-level API keys access to a project, see Grant Existing Service Account Access to a Project. Atlas roles limit which operations API keys can perform. You must assign roles to API keys as you would for users to ensure the API keys have the necessary permissions for the desired API calls. You can't use API keys to log into Atlas through the Atlas UI. API keys only grant access to the Atlas Administration API, which does not include UI access or access to cluster data. Next Steps To learn how to use and manage service accounts and API keys, see the following procedures: Grant Programmatic Access to an Organization Grant Programmatic Access to a Project Manage Programmatic Access to an Organization Manage Programmatic Access to a Project Manage Programmatic Access to Multiple Organizations Generate Service Account Token Revoke Service Account Token Back Admin API Overview Next Rotate Service Account Secrets Rate this page On this page Service Accounts Overview API Keys Overview Next Steps On this page Service Accounts Overview API Keys Overview Next Steps Documentation Database VoyageAI Models Get Started Deployment Development Management MongoDB Atlas Overview Atlas Users Organizations Projects Clusters Backup, Restore, and Archive Migrate or Import Data Monitor Clusters Manage Billing Explore Your Data Production Notes Reference APIs Administration API Get Started Admin API Overview API Authentication Methods Rotate Service Account Secrets API Rate Limits Versioning Overview Migrate to New API Version v2.0 API Specification V1.0 API Specification Versioned API Changelog API Error Codes Atlas Go SDK More API Resources Embedding and Reranking API MongoDB Cloud Status API Atlas Kubernetes Operator Atlas for Government Release Notes Enterprise Management Tools Ops Manager Controllers for Kubernetes Operator Cloud Manager Self-Managed Deployments Select a version Installation Clusters Sharding Storage Backup and Restore Monitor Clusters Security Search and Vector Search Operations Checklist Production Notes Exit Codes & Statuses Release Notes FAQ Infrastructure As Code Overview MongoDB Atlas Terraform Provider Get Started with Terraform Terraform Modules MongoDB Atlas AWS CloudFormation Resources GraphQL APIs on AWS Migrate to Flex Clusters Client Libraries Tools Atlas Architecture Center Documentation Database VoyageAI Models Get Started Deployment Development Management Client Libraries Tools Atlas Architecture Center MongoDB Atlas Overview Atlas Users Organizations Projects Clusters Backup, Restore, and Archive Migrate or Import Data Monitor Clusters Manage Billing Explore Your Data Production Notes Reference APIs Administration API Get Started Admin API Overview API Authentication Methods Rotate Service Account Secrets API Rate Limits Versioning Overview Migrate to New API Version v2.0 API Specification V1.0 API Specification Versioned API Changelog API Error Codes Atlas Go SDK More API Resources Embedding and Reranking API MongoDB Cloud Status API Atlas Kubernetes Operator Atlas for Government Release Notes Enterprise Management Tools Ops Manager Controllers for Kubernetes Operator Cloud Manager Self-Managed Deployments Select a version Installation Clusters Sharding Storage Backup and Restore Monitor Clusters Security Search and Vector Search Operations Checklist Production Notes Exit Codes & Statuses Release Notes FAQ Infrastructure As Code Overview MongoDB Atlas Terraform Provider Get Started with Terraform Terraform Modules MongoDB Atlas AWS CloudFormation Resources GraphQL APIs on AWS Migrate to Flex Clusters English English Português Español 한국어 日本語 简体中文 © 2026 MongoDB, Inc. About Careers Investor Relations Legal Privacy Policy GitHub Security Information Trust Center Connect with Us Support Contact Us Customer Portal Atlas Status Customer Support Deployment Options MongoDB Atlas Enterprise Advanced Community Edition Data Basics Vector Databases NoSQL Databases Document Databases RAG Database ACID Transactions MERN Stack MEAN Stack © 2026 MongoDB, Inc.",
+      "content_sha256": "9c0337ef46eb58169e5d8dc09873572c19a5954ffbfae8ed583c6ea56d702ac6",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3460,
+    "output_tokens": 1644
+  },
+  "failure": null
+}

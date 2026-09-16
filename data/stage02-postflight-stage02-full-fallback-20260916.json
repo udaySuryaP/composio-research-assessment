@@ -1,0 +1,1152 @@
+{
+  "run_id": "stage02-full-fallback-20260916",
+  "audited_at": "2026-09-16T17:30:55.546960+00:00",
+  "record_count": 100,
+  "errors": [],
+  "supplementary_flag_counts": {
+    "no_usable_official_source": 13,
+    "low_confidence": 100,
+    "all_research_fields_unknown": 19,
+    "buildability_without_rationale": 10,
+    "missing_field_evidence": 1,
+    "nonofficial_critical_evidence": 12,
+    "api_auth_contradiction": 1,
+    "official_repository_ownership_needs_check": 2
+  },
+  "supplementary_flags": [
+    {
+      "id": 1,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "flags": [
+        {
+          "code": "missing_field_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "description"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_types"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "buildability"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "buildability_rationale"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_breadth"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "api_available"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "api_auth_contradiction",
+          "field": "auth_methods"
+        },
+        {
+          "code": "official_repository_ownership_needs_check",
+          "field": "evidence"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "auth_methods"
+        },
+        {
+          "code": "nonofficial_critical_evidence",
+          "field": "access_model"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "flags": [
+        {
+          "code": "no_usable_official_source",
+          "field": null
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "all_research_fields_unknown",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "flags": [
+        {
+          "code": "buildability_without_rationale",
+          "field": "buildability"
+        },
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        },
+        {
+          "code": "official_repository_ownership_needs_check",
+          "field": "evidence"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "flags": [
+        {
+          "code": "low_confidence",
+          "field": null
+        }
+      ]
+    }
+  ],
+  "human_review": false,
+  "note": "Offline integrity/quality validation only; no semantic truth or accuracy claim."
+}

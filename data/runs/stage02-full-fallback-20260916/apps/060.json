@@ -1,0 +1,265 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 60,
+    "app_name": "Clay",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://clay.com/",
+    "description": "Clay provides an HTTP API that lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. It supports pulling external data into Clay tables or pushing data out from Clay using any HTTP method (GET, POST, PUT, DELETE). It supports API enrichment to add data to existing rows and importing data as a source to create new tables, with support for pagination and multiple authentication methods.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Clay provides an HTTP API that lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. It supports pulling external data into Clay tables or pushing data out from Clay using any HTTP method (GET, POST, PUT, DELETE). It supports API enrichment to add data to existing rows and importing data as a source to create new tables, with support for pagination and multiple authentication methods.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any endpoint and method (GET, POST, PUT, DELETE). Common use cases Pull customer data from your CRM. Create leads in your marketing platform. Update contact information in your database. Access public datasets (NYC Open Data, government APIs). Connect to custom tools without native Clay integrations.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "mixed_unknown_enum",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:22:24.232136+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 60,
+    "app_name": "Clay",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://clay.com/",
+    "description": "Clay provides an HTTP API that lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. It supports pulling external data into Clay tables or pushing data out from Clay using any HTTP method (GET, POST, PUT, DELETE). It supports API enrichment to add data to existing rows and importing data as a source to create new tables, with support for pagination and multiple authentication methods.",
+    "auth_methods": [
+      "api_key",
+      "bearer_token",
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "unknown"
+    ],
+    "api_breadth": "Supports any HTTP API endpoint with GET, POST, PUT, DELETE methods, including authentication headers, query parameters, request bodies, and pagination for data import up to 50,000 rows.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The HTTP API is fully documented with detailed setup instructions, supports standard HTTP methods, authentication via API keys or bearer tokens stored securely, and includes AI-assisted and manual configuration options. It supports enrichment and data import use cases with pagination and error handling, enabling building integrations with any RESTful API endpoint.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Clay provides an HTTP API that lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. It supports pulling external data into Clay tables or pushing data out from Clay using any HTTP method (GET, POST, PUT, DELETE). It supports API enrichment to add data to existing rows and importing data as a source to create new tables, with support for pagination and multiple authentication methods.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any endpoint and method (GET, POST, PUT, DELETE). Common use cases Pull customer data from your CRM. Create leads in your marketing platform. Update contact information in your database. Access public datasets (NYC Open Data, government APIs). Connect to custom tools without native Clay integrations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Supports API key and bearer token authentication stored securely at the workspace level, with optional manual header entry and support for JWT authentication via a separate account type.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "You can save your auth credentials in an HTTP API (Headers) account . Clay encrypts and stores the headers at the workspace level, making them reusable across any HTTP API enrichment column. ... For example: Key: Authorization | Value: Bearer YOUR_TOKEN Key: X-API-KEY | Value: YOUR_API_KEY ... If you're connecting to an API that uses JWT authentication (dynamically issued tokens), use the HTTP API with JWT Authentication action instead, which uses a separate account type that stores your token endpoint URL and credentials.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Clay HTTP API is available via self-serve paid access with sign up and workspace management.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "Open your Clay table and click Add enrichment . Search for and select HTTP API . ... You can also manage existing accounts at any time from Settings \u0012 Connections . Keep in mind that editing a saved account will affect every HTTP API enrichment column across your workspace that uses it.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Clay HTTP API is available and documented with detailed setup instructions for enrichment and source use cases.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. ... HTTP API enrichment ... HTTP API as source ... Supports pagination (up to 50,000 rows). Multiple pagination methods: page-based, offset, cursor, and full URL.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Clay HTTP API supports RESTful HTTP methods GET, POST, PUT, DELETE for API integration.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "HTTP method: GET, POST, PUT, or DELETE. Endpoint URL: The specific API endpoint address. ... Step 1: HTTP method Select the HTTP method based on what you want to do: GET \u0012 Retrieve data ... POST \u0012 Create new data ... PUT \u0012 Update existing data ... DELETE \u0012 Remove data",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Supports any HTTP API endpoint with GET, POST, PUT, DELETE methods, including authentication headers, query parameters, request bodies, and pagination for data import up to 50,000 rows.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. ... Supports pagination (up to 50,000 rows). Multiple pagination methods: page-based, offset, cursor, and full URL.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "The HTTP API is fully documented with detailed setup instructions, supports standard HTTP methods, authentication via API keys or bearer tokens stored securely, and includes AI-assisted and manual configuration options. It supports enrichment and data import use cases with pagination and error handling, enabling building integrations with any RESTful API endpoint.",
+        "url": "https://university.clay.com/docs/http-api-integration-overview",
+        "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+        "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+        "quote": "HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. ... Choose manual configuration if you need precise control or have complex requirements. ... Step 1: HTTP method Select the HTTP method based on what you want to do: GET \u0012 Retrieve data ... POST \u0012 Create new data ... PUT \u0012 Update existing data ... DELETE \u0012 Remove data. ... You can save your auth credentials in an HTTP API (Headers) account . Clay encrypts and stores the headers at the workspace level, making them reusable across any HTTP API enrichment column.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:07.785512+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "auth_methods"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "api_types"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://university.clay.com/docs/http-api-integration-overview",
+      "final_url": "https://university.clay.com/docs/http-api-integration-overview",
+      "retrieved_at": "2026-09-16T17:22:07.361879+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "HTTP API - Clay Docs Skip to main Review your year with Clay on Clayback.clay.com University home page Search University or ask AI. Learn your way. ⌘ K ​ Open workspace ​ Overview ​ Courses ​ Docs ​ Use case templates ​ Certifications ​ Cohorts ​ Clay.com Sign up to Clay Doc Topics Getting started Find Enrich Transform Web scraping Gen AI Export Settings & admin Signals & triggers Docs index ​ Log in Sign up ​ Overview ​ Courses ​ Docs ​ Use case templates ​ Certifications ​ Cohorts ​ Clay.com Sign up to Clay Doc Topics Getting started Find Enrich Transform Web scraping Gen AI Export Settings & admin Signals & triggers Docs index ​ ​ Overview ​ Courses ​ Docs ​ Use case templates ​ Certifications ​ Cohorts ​ Clay.com Doc Topics Getting started Find Enrich Transform Web scraping Gen AI Export Settings & admin Signals & triggers All docs / Getting started / HTTP API HTTP API Facilitate seamless integration and connectivity with any APIs. Overview HTTP API lets you send or retrieve data from any tool or database using an API endpoint, even when Clay doesn't offer a native integration. With it, you can pull external data into your Clay table or push data out from Clay using any endpoint and method (GET, POST, PUT, DELETE). Common use cases Pull customer data from your CRM. Create leads in your marketing platform. Update contact information in your database. Access public datasets (NYC Open Data, government APIs). Connect to custom tools without native Clay integrations. Choose your path Before you begin, decide which approach fits your needs. HTTP API enrichment (most common) Use this when you want to add API data to existing rows in your Clay table. Process data row by row. Add information to existing records. Works with any API endpoint. Jump to enrichment setup (see below). HTTP API as source Use this when you want to import data from an API to create a new table. Import datasets from external APIs. Build lists from third-party services. Start workflows with external data. Supports pagination (up to 50,000 rows). Multiple pagination methods: page-based, offset, cursor, and full URL. Jump to source setup (see below). Not sure which to choose? Already have a list of companies, people, or records in Clay? → Use enrichment. Need to pull a list from an external API? → Use as source. Storing authentication credentials at the workspace level Instead of entering API keys or bearer tokens manually in the Headers field each time, you can save your auth credentials in an HTTP API (Headers) account . Clay encrypts and stores the headers at the workspace level, making them reusable across any HTTP API enrichment column. Setting up an HTTP API (Headers) account from the enrichment panel: Open your Clay table and click Add enrichment . Search for and select HTTP API . In the enrichment panel, click the Select header account dropdown. Click + Add account . Under API Request Headers , add your auth credentials as key-value pairs — for example: Key: Authorization | Value: Bearer YOUR_TOKEN Key: X-API-KEY | Value: YOUR_API_KEY Name the account (e.g., Stripe API Key ) and click Save . The saved account will now appear in the Select header account dropdown. Select it to apply the headers to this enrichment. Note: You can also manage existing accounts at any time from Settings → Connections . Keep in mind that editing a saved account will affect every HTTP API enrichment column across your workspace that uses it. ‍ A few things to know: Connecting an account is optional. Not every API requires auth headers. If no account is selected, the enrichment will still run — as long as the API endpoint doesn't require authentication. The Headers field includes a reminder. When configuring the Headers field manually, Clay surfaces a tip directing you to use the HTTP API app account for secure credentials instead. Credentials entered manually in the Headers field are visible in plain text to anyone with access to the table column. Use a saved account to avoid exposing keys. APIs that require auth will return an error (e.g., access denied ) if no account is selected and no headers are passed manually. If you're connecting to an API that uses JWT authentication (dynamically issued tokens), use the HTTP API with JWT Authentication action instead, which uses a separate account type that stores your token endpoint URL and credentials. See the HTTP API with JWT Authentication guide for details. HTTP API enrichment Prerequisites Before configuring HTTP API, gather these details from your API documentation: HTTP method: GET, POST, PUT, or DELETE. Endpoint URL: The specific API endpoint address. Authentication: API key, bearer token, or other credentials. Parameters: Headers, query parameters, or body content as specified by the API. Pro tip: Always have the API documentation open before setting up HTTP API. Search for \"{Platform_name} API Documentation\" online (e.g., \"Gong API Documentation\"). Setup method: choose your approach When you add HTTP API to your table, you'll see two tabs: Generate (AI-assisted) and Configure (manual). Choose the method that works best for you. Option A: AI-assisted setup (recommended) Clay's Sculptor feature uses AI to automatically generate HTTP API configurations from natural language descriptions. This is now the default and recommended approach for most users. When to use AI-assisted setup You have API documentation available. You want faster, error-free setup. You're not familiar with API configuration. You want to avoid manual JSON formatting. 95% of users find AI-assisted setup faster and more reliable than manual configuration. How it works Step 1: Add HTTP API enrichment Open your Clay table. Click Add enrichment . Search for and select HTTP API . You'll automatically land on the Generate tab. Step 2: Describe what you want In natural language, describe what you want to accomplish. Examples: \"Find me the average temperature using OpenMeteo, using latitude and longitude\" \"Get customer data from Stripe using customer ID\" \"Create a new contact in HubSpot with name and email\" You don't need to specify exact column names, technical parameters, HTTP methods, or header formatting. Step 3: Add API documentation (optional) Paste a link to the API's documentation. This helps Sculptor better understand the API's capabilities and improve accuracy. While helpful, Sculptor can often figure out the configuration without it. Step 4: Generate configuration Click Generate API connection . Sculptor will automatically: Map your table columns to API parameters. Select the correct endpoint and method. Configure query parameters and optional fields. Set up authentication headers. Structure the request body for POST/PUT requests. Note: Processing time can vary. Be patient while Sculptor analyzes your request. Step 5: Review the configuration Sculptor shows you a summary of what it configured: Which columns were mapped. What optional fields were set. Authentication setup. Request structure. Step 6: Test before running Switch to the Configure tab to review detailed settings. Click Test to run on a single row. Verify the response data matches your needs. Adjust any settings if needed. Step 7: Run on your table Once verified, run the enrichment on your full table. Troubleshooting with AI If you encounter errors, you can use Sculptor to help diagnose issues: Paste error messages for suggested fixes. Share API docs to verify configuration. Get help interpreting unexpected responses. Sculptor understands common API patterns and can guide you through authentication issues, body formatting problems, and other configuration challenges. Tips for best results Provide complete information: Share the full API documentation URL when possible. Review before running: Verify the AI-generated configuration makes sense. Test first: Run on a single row before processing your entire table. Save as template: After successful setup, save your configuration for future use. Option B: Manual configuration Choose manual configuration if you need precise control or have complex requirements. You can also switch to the Configure tab at any time to adjust AI-generated settings. Step 1: HTTP method Select the HTTP method based on what you want to do: GET — Retrieve data (e.g., pull customer data from your CRM, fetch a list of users). POST — Create new data (e.g., create a new lead in your marketing platform, create a new contact). PUT — Update existing data (e.g., update contact information in your database, modify user information). DELETE — Remove data (e.g., remove outdated records, delete a record). Step 2: API endpoint URL Enter the complete URL where your request will be sent. Step 3: Query string parameters Add parameters to filter or refine your request. These appear in the URL after a ? symbol. Example: Key: email + Value: /Email Column Key: status + Value: active Step 4: JSON body For POST and PUT requests, specify the data to send in the request body. Important JSON formatting rules: String values need quotes: \"name\": \"Sam\" Numbers and booleans don't: \"age\": 30 , \"active\": true Dynamic column references for strings need quotes: \"email\": \"/Email Column\" Dynamic column references for numbers don't: \"count\": /Score Column Exception: Numbers with trailing zeros (e.g., 0004 ) need quotation marks. Example body configuration: { \"firstName\": \"/First Name Column\", \"lastName\": \"/Last Name Column\", \"email\": \"/Email Column\", \"score\": /Score Column, \"subscribed\": true } Common mistake: ❌ Wrong: {\"name\": /Name Column} ✅ Correct: {\"name\": \"/Name Column\"} ❌ Wrong: {\"name\": \"John\" \"age\": 30} ✅ Correct: {\"name\": \"John\", \"age\": 30} Step 5: Header fields Headers provide authentication and specify data formats. Add them as key-value pairs. Common header examples: Authorization (bearer token): Key: Authorization Value: Bearer YOUR_API_TOKEN_HERE API key in header: Key: X-API-Key Value: YOUR_API_KEY_HERE Content type (automatically set in Clay): Key: Content-Type Value: application/json Common mistake: Some data providers (like Apollo) have different API keys for different endpoints. Make sure you're using the correct key for your specific endpoint. Step 6: Field paths to return Specify which parts of the API response you want to retrieve. Use this to filter out unnecessary data. Example API response: { \"data\" : { \"user\" : { \"id\" : 12345 , \"name\" : \"John Doe\" , \"email\" : \"john@example.com\" } }} Field path to extract email: data.user.email This returns only: john@example.com Benefits: Faster processing, cleaner data, easier to work with. Step 7: Rate limiting Control how many API requests you can send within a given time frame. Check your API documentation for rate limits. Example configuration: Request limit: 10 Duration (ms): 1000 This means: 10 requests per second. Step 8: Remove empty fields from request Toggle ON to automatically exclude empty, null, or undefined fields from your request. Why use this: Prevents overwriting existing data with blank values. Avoids API errors from unexpected null values. Keeps requests clean and efficient. Advanced options Using integration templates Click the Browse templates button at the top of the integration window to access pre-configured setups for common use cases. Benefits: Faster setup — Configure in seconds. Reduced errors — Pre-tested configurations. Learning tool — See proper API structure. After using a template, you can adjust any settings to match your specific needs. Conditional runs Set up conditional run formulas to only execute HTTP API when required data is present. This prevents unnecessary API calls, error messages, and wasted credits. Example: Only run if email column is not empty. Testing and validation Before running on your entire table: Test with a single row. Verify the configuration works. Check the response data. Then run on full table. Why: Saves credits and catches errors early. HTTP API as source HTTP API as source allows you to import data directly from any HTTP API into Clay tables as a starting point for list building. When to use this Use HTTP API as source when you want to: Build lists from external APIs. Import datasets from third-party services. Create tables from endpoints returning multiple records. Start workflows with data from external sources. Example use cases: Pulling trip hazards from NYC Open Data API Importing event listings or class schedules Fetching product catalogs from e-commerce APIs Retrieving fantasy sports team data Accessing government or public datasets Setup steps Step 1: Start import Click Actions → View all sources . Search for Import data from an HTTP API . Select it. Step 2: Configure account (required) Select or create an account that contains your API authentication. Accounts are mandatory for sources because they securely store sensitive information like API keys and authorization tokens. Step 3: Configure request Configure your request settings: Method: Select HTTP method (typically GET for imports). Endpoint: Enter the API endpoint URL. Query parameters: Add key-value pairs for filtering data. Headers: Add authentication and other required headers. Body: Add request body if needed (for POST/PUT methods). Step 4: Specify results path This is a critical step unique to sources. Tell Clay exactly where in the API response your data array is located. Example: If your API returns: { \"items\" : [...], \"total\" : 10 } You'd specify items as the results path. Most APIs nest their data within a specific field rather than returning an array at the root level. Step 5: Configure optional settings Use static IP: Enable for allow-listing requirements. Remove empty values: Exclude null or empty fields. Follow redirects: Set max redirects if needed. Response timeout: Specify timeout in milliseconds. Retry on failure: Configure retry attempts and conditions. Pagination: Configure automatic pagination (see Pagination settings below). Step 6: Preview and import Preview the API response to verify the data structure. ",
+      "content_sha256": "c7a6e6e925f7aeb97f8671bda2a1ef50f19002e72a1f3ee54655be1f90731eb1",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4000,
+    "output_tokens": 2138
+  },
+  "failure": null
+}

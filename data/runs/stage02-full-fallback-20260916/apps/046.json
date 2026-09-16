@@ -1,0 +1,306 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 46,
+    "app_name": "Squarespace",
+    "category": "5. Ecommerce",
+    "website": "http://developers.squarespace.com/",
+    "description": "Squarespace provides Commerce APIs for managing ecommerce functionalities such as inventory, orders, products, contacts, discounts, transactions, and webhooks. It supports authenticated requests to access and manage merchant site data securely.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Squarespace provides Commerce APIs for managing ecommerce functionalities such as inventory, orders, products, contacts, discounts, transactions, and webhooks. It supports authenticated requests to access and manage merchant site data securely.",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Squarespace Developer Platform: APIs, Apps, and Docs Commerce APIs Webhooks Template Docs Custom Code Upcoming Changes Getting Started Overview Authentication and permissions OAuth Making requests Retrieve basic site information Using Commerce APIs Contacts Analytics Discounts Products Websites Inventory Orders Transactions Profiles WebhookSubscriptions Schemas Menu Copy page Getting Started Authentication and permissions To keep Squarespace merchant site data private and secure, every request to Commerce APIs must be authenticated and have minimum permissions.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:20:50.617396+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 46,
+    "app_name": "Squarespace",
+    "category": "5. Ecommerce",
+    "website": "http://developers.squarespace.com/",
+    "description": "Squarespace provides Commerce APIs for managing ecommerce functionalities such as inventory, orders, products, contacts, discounts, transactions, and webhooks. It supports authenticated requests to access and manage merchant site data securely.",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Squarespace Commerce APIs cover inventory, orders, products, contacts, discounts, transactions, profiles, and webhook subscriptions with read and write permissions depending on the API.",
+    "mcp_available": "official",
+    "mcp_notes": "Squarespace Extensions allow customers on any plan to optimize and expand their site. Developing new Extensions requires OAuth client registration.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with clear authentication methods (API key and OAuth 2.0), permission levels, and usage instructions. API keys can be generated via the merchant site interface, and OAuth is supported for Extensions development, enabling integration and buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Squarespace provides Commerce APIs for managing ecommerce functionalities such as inventory, orders, products, contacts, discounts, transactions, and webhooks. It supports authenticated requests to access and manage merchant site data securely.",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Squarespace Developer Platform: APIs, Apps, and Docs Commerce APIs Webhooks Template Docs Custom Code Upcoming Changes Getting Started Overview Authentication and permissions OAuth Making requests Retrieve basic site information Using Commerce APIs Contacts Analytics Discounts Products Websites Inventory Orders Transactions Profiles WebhookSubscriptions Schemas Menu Copy page Getting Started Authentication and permissions To keep Squarespace merchant site data private and secure, every request to Commerce APIs must be authenticated and have minimum permissions.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Authenticate requests by using an API key or OAuth access token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Authenticate requests by using an API key or OAuth access token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Using Commerce APIs Contacts Analytics Discounts Products Websites Inventory Orders Transactions Profiles WebhookSubscriptions Schemas ... Authenticate requests ... API permission levels ... API keys ... OAuth ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Making requests ... Using Commerce APIs ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "Squarespace Commerce APIs cover inventory, orders, products, contacts, discounts, transactions, profiles, and webhook subscriptions with read and write permissions depending on the API.",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "API permission levels Forms API Read Only ... Inventory API Read Only ... Read and Write ... Orders API Read Only ... Read and Write ... Products API Read Only ... Read and Write ... Contacts API Read Only ... Read and Write ... Discounts API Read Only ... Read and Write ... Webhook Subscriptions API (OAuth only) Read and Write ... Profiles API (maintenance mode) Read Only ... Transactions API Read Only ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Squarespace Extensions allow customers on any plan to optimize and expand their site in a few clicks. If you'd like to develop a new Extension, start the OAuth client process here.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_notes",
+        "claim": "Squarespace Extensions allow customers on any plan to optimize and expand their site. Developing new Extensions requires OAuth client registration.",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Squarespace Extensions allow customers on any plan to optimize and expand their site in a few clicks. If you'd like to develop a new Extension, start the OAuth client process here.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+        "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+        "quote": "Authenticate requests by using an API key or OAuth access token. A Squarespace merchant site can use both API keys and OAuth for data access, but Squarespace Extensions are required to use OAuth. Custom applications With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site. Follow the steps below to generate an API key for a custom application. Log in to a Squarespace site. In the left nav, click Settings ; scroll down and click Advanced . Click Developer API Keys . Click the GENERATE KEY button. In the dialog, add a key name under \"KEY NAME\", and select one or more Commerce APIs under \"PERMISSIONS\" and permission level. Record the generated key in a safe and secure place. For security reasons, this is the only time the API key is visible. API keys will never expire as long as the merchant site remains active.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:20:32.978913+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "final_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "retrieved_at": "2026-09-16T17:20:31.072263+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Squarespace Developer Platform: APIs, Apps, and Docs Commerce APIs Webhooks Template Docs Custom Code Upcoming Changes Getting Started Overview Authentication and permissions OAuth Making requests Retrieve basic site information Using Commerce APIs Contacts Analytics Discounts Products Websites Inventory Orders Transactions Profiles WebhookSubscriptions Schemas Menu Copy page Getting Started Authentication and permissions To keep Squarespace merchant site data private and secure, every request to Commerce APIs must be authenticated and have minimum permissions. However, authenticated requests automatically have access to public site data, such as site name, identifier, language, currency, time zone, and location. Read the permission levels for each Commerce API below. Then, depending on your development needs, authenticate requests by using an API key or OAuth access token. Remember: Requests only have access to data for the website that owns the API key or OAuth access token. API permission levels Forms API Read Only : View form submission data; for Zapier integration only Inventory API Read Only : View inventory stock levels Read and Write : Manage inventory stock levels Orders API Read Only : View order, fulfillment, and customer information (name, email, address, and more) Read and Write : View customer information (name, email, address, and more); manage order and fulfillment information Products API Read Only : View product information, including information for any images and variants; view Store Page information Read and Write : Manage product information, including information for any images and variants; view Store Page information Contacts API Read Only : View contact records, address books, and marketing preferences Read and Write : Manage contact records, address books, and marketing preferences Discounts API Read Only : View discount records Read and Write : Manage discount records Webhook Subscriptions API (OAuth only) Read and Write : Create, update, delete, and test webhook subscriptions Profiles API (maintenance mode — new integrations should use the Contacts API ) Read Only : View the name, address, email, marketing preferences, and other profile information of customers, subscribers, and other website users Transactions API Read Only : View transactional order, donation data, and customer information (email) Authenticating requests Depending on your development needs, you can use a generated API key or start the OAuth process with Squarespace to become a registered OAuth client. A Squarespace merchant site can use both API keys and OAuth for data access, but Squarespace Extensions are required to use OAuth. Custom applications With Squarespace's Commerce Advanced plan, you can develop a custom application for a Squarespace merchant site. Follow the steps below to generate an API key for a custom application. Log in to a Squarespace site. In the left nav, click Settings ; scroll down and click Advanced . Click Developer API Keys . Click the GENERATE KEY button. In the dialog, add a key name under \"KEY NAME\", and select one or more Commerce APIs under \"PERMISSIONS\" and permission level. Record the generated key in a safe and secure place. For security reasons, this is the only time the API key is visible. API keys will never expire as long as the merchant site remains active. Commercial development Squarespace Extensions allow customers on any plan to optimize and expand their site in a few clicks. If you'd like to develop a new Extension, start the OAuth client process here . Once you've obtained OAuth credentials, you can use our OAuth 2.0 Guide to learn how to authorize your application to integrate with Squarespace and use Squarespace APIs. Next steps Make requests to Commerce APIs Read the FAQ for answers to common questions Read our brand guidelines Overview OAuth On this page API permission levels Authenticating requests Custom applications Commercial development Next steps",
+      "content_sha256": "aa5f5ef7d6a4335940b197ce69db054c045f102697d85770fd1d8c9f151dd302",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1757,
+    "output_tokens": 2218
+  },
+  "failure": null
+}

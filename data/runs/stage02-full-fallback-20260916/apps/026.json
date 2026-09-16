@@ -1,0 +1,315 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 26,
+    "app_name": "Discord",
+    "category": "3. Communications and Messaging",
+    "website": "http://discord.com/",
+    "description": "Discord provides OAuth2 authentication flows including authorization code grant, implicit grant, client credentials, and special Discord flows for Bots and Webhooks. It supports various OAuth2 scopes for accessing user data and bot functionalities.",
+    "auth_methods": [
+      "oauth2",
+      "basic"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Discord provides OAuth2 authentication flows including authorization code grant, implicit grant, client credentials, and special Discord flows for Bots and Webhooks. It supports various OAuth2 scopes for accessing user data and bot functionalities.",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API. Within Discord, there are multiple types of OAuth2 authentication. We support the authorization code grant, the implicit grant, client credentials, and some modified special-for-Discord flows for Bots and Webhooks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form data body.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "The first step in implementing OAuth2 is registering a developer application and retrieving your client ID and client secret.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "Authorization URL Example https://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "Developer Portal Developer Portal Search... Navigation API Reference OAuth2 Home Bots & Companion Apps Social SDK Activities Guides Change Log Reference Developer Portal API & SDK Reference Developer Community API Reference",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:18:05.068526+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 26,
+    "app_name": "Discord",
+    "category": "3. Communications and Messaging",
+    "website": "http://discord.com/",
+    "description": "Discord provides OAuth2 authentication flows including authorization code grant, implicit grant, client credentials, and special Discord flows for Bots and Webhooks. It supports various OAuth2 scopes for accessing user data and bot functionalities.",
+    "auth_methods": [
+      "oauth2",
+      "basic"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Discord API supports OAuth2 authentication with multiple grant types, extensive OAuth2 scopes for user and bot access, and endpoints for token exchange, refresh, and revocation.",
+    "mcp_available": "official",
+    "mcp_notes": "Discord provides an official developer portal and API documentation for OAuth2 and bot integration.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official Discord documentation details OAuth2 flows with example requests and responses, including client authentication, token exchange, refresh, and revocation, enabling developers to build integrations using standard OAuth2 and REST API calls.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Discord provides OAuth2 authentication flows including authorization code grant, implicit grant, client credentials, and special Discord flows for Bots and Webhooks. It supports various OAuth2 scopes for accessing user data and bot functionalities.",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API. Within Discord, there are multiple types of OAuth2 authentication. We support the authorization code grant, the implicit grant, client credentials, and some modified special-for-Discord flows for Bots and Webhooks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form data body.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "The first step in implementing OAuth2 is registering a developer application and retrieving your client ID and client secret.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "Authorization URL Example https://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "Discord API supports OAuth2 authentication with multiple grant types, extensive OAuth2 scopes for user and bot access, and endpoints for token exchange, refresh, and revocation.",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "We support the authorization code grant, the implicit grant, client credentials, and some modified special-for-Discord flows for Bots and Webhooks. ... OAuth2 Scopes These are a list of all the OAuth2 scopes that Discord supports.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "Developer Portal Developer Portal Search... Navigation API Reference OAuth2 Home Bots & Companion Apps Social SDK Activities Guides Change Log Reference Developer Portal API & SDK Reference Developer Community API Reference",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.discord.com/developers/topics/oauth2",
+        "final_url": "https://docs.discord.com/developers/topics/oauth2",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+        "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+        "quote": "Authorization URL Example https://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0 ... Access Token Exchange Example import requests API_ENDPOINT = 'https://discord.com/api/v10' CLIENT_ID = '332269999912132097' CLIENT_SECRET = '937it3ow87i4ery69876wqire' REDIRECT_URI = 'https://nicememe.website' def exchange_code ( code ): data = { 'grant_type' : 'authorization_code' , 'code' : code, 'redirect_uri' : REDIRECT_URI } headers = { 'Content-Type' : 'application/x-www-form-urlencoded' } r = requests.post( ' %s /oauth2/token' % API_ENDPOINT , data = data, headers = headers, auth = ( CLIENT_ID , CLIENT_SECRET )) r.raise_for_status() return r.json()",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:47.668583+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.discord.com/developers/topics/oauth2",
+      "final_url": "https://docs.discord.com/developers/topics/oauth2",
+      "retrieved_at": "2026-09-16T17:17:46.806704+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "OAuth2 - Documentation - Discord Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Documentation - Discord home page Search... ⌘ K Help Center Developer Portal Developer Portal Search... Navigation API Reference OAuth2 Home Bots & Companion Apps Social SDK Activities Guides Change Log Reference Developer Portal API & SDK Reference Developer Community API Reference API Reference OAuth2 Opcodes and Status Codes Permissions Rate Limits Threads SDK Reference Social SDK Reference Embedded App SDK Reference HTTP API Resources Application Identity Profile Resource Application Role Connection Metadata Application Audit Log Auto Moderation Channel Emoji Entitlement Guild Guild Scheduled Event Guild Template Invite Lobby Message Poll SKU Soundboard Stage Instance Sticker Subscription User Voice Webhook Events Overview Using Gateway Gateway Events Webhook Events Voice & RPC Voice RPC Certified Devices close On this page Shared Resources State and Security Authorization Code Grant Implicit Grant Client Credentials Grant Bot Users Bot vs User Accounts Bot Authorization Flow Advanced Bot Authorization Two-Factor Authentication Requirement Webhooks Get Current Bot Application Information Get Current Authorization Information API Reference OAuth2 Copy page Copy page Copy page Copy page OAuth2 enables application developers to build applications that utilize authentication and data from the Discord API. Within Discord, there are multiple types of OAuth2 authentication. We support the authorization code grant, the implicit grant, client credentials, and some modified special-for-Discord flows for Bots and Webhooks. ​ Shared Resources The first step in implementing OAuth2 is registering a developer application and retrieving your client ID and client secret. Most people who will be implementing OAuth2 will want to find and utilize a library in the language of their choice. For those implementing OAuth2 from scratch, please see RFC 6749 for details. After you create your application with Discord, make sure that you have your client_id and client_secret handy. The next step is to figure out which OAuth2 flow is right for your purposes. OAuth2 URLs URL Description https://discord.com/oauth2/authorize Base authorization URL https://discord.com/api/oauth2/token Token URL https://discord.com/api/oauth2/token/revoke Token Revocation URL In accordance with the relevant RFCs, the token and token revocation URLs will only accept a content type of application/x-www-form-urlencoded . JSON content is not permitted and will return an error. OAuth2 Scopes These are a list of all the OAuth2 scopes that Discord supports. Some scopes require approval from Discord to use. Requesting them from a user without approval from Discord may cause errors or undocumented behavior in the OAuth2 flow. To inquire about access about scopes that are only available to approved partners, speak to your Discord account representative to see if they are a fit for your needs. Name Description activities.read allows your app to fetch data from a user’s “Now Playing/Recently Played” list — not currently available for apps activities.write allows your app to update a user’s activity - not currently available for apps (NOT REQUIRED FOR GAMESDK ACTIVITY MANAGER ) applications.builds.read allows your app to read build data for a user’s applications applications.builds.upload allows your app to upload/update builds for a user’s applications - only available to approved partners applications.commands allows your app to add commands to a guild - included by default with the bot scope applications.commands.update allows your app to update its commands using a Bearer token - client credentials grant only applications.commands.permissions.update allows your app to update permissions for its commands in a guild a user has permissions to applications.entitlements allows your app to read entitlements for a user’s applications applications.store.update allows your app to read and update store data (SKUs, store listings, achievements, etc.) for a user’s applications bot for oauth2 bots, this puts the bot in the user’s selected guild by default connections allows /users/@me/connections to return linked third-party accounts dm_channels.read allows your app to see information about the user’s DMs and group DMs - only available to approved partners email enables /users/@me to return an email gdm.join allows your app to join users to a group dm guilds allows /users/@me/guilds to return basic information about all of a user’s guilds guilds.join allows /guilds/{guild.id}/members/{user.id} to be used for joining users to a guild guilds.members.read allows /users/@me/guilds/{guild.id}/member to return a user’s member information in a guild identify allows /users/@me without email identify.premium allows your app to read a user’s Nitro subscription type as defined by premium_type on the User object - only available to approved partners messages.read for local rpc server api access, this allows you to read messages from all client channels (otherwise restricted to channels/guilds your app creates) relationships.read Allows your app to access a user’s Discord Friends list, their pending requests, and blocked users. This scope is part of our Social SDK - submit for access here . Social SDK Terms apply , including Section 5(a)(ii) to the data you obtain role_connections.write allows your app to update a user’s connection and metadata for the app rpc for local rpc server access, this allows you to control a user’s local Discord client - only available to approved partners rpc.activities.write for local rpc server access, this allows you to update a user’s activity - only available to approved partners rpc.notifications.read for local rpc server access, this allows you to receive notifications pushed out to the user - only available to approved partners rpc.voice.read for local rpc server access, this allows you to read a user’s voice settings and listen for voice events - only available to approved partners rpc.voice.write for local rpc server access, this allows you to update a user’s voice settings - only available to approved partners voice allows your app to connect to voice on user’s behalf and see all the voice members - only available to approved partners webhook.incoming this generates a webhook that is returned in the oauth token response for authorization code grants In order to add a user to a guild, your bot has to already belong to that guild. role_connections.write cannot be used with the Implicit grant type . ​ State and Security Before we dive into the semantics of the different OAuth2 grants, we should stop and discuss security, specifically the use of the state parameter. Cross-site request forgery , or CSRF, and Clickjacking are security vulnerabilities that must be addressed by individuals implementing OAuth. This is typically accomplished using the state parameter. state is sent in the authorization request and returned back in the response and should be a value that binds the user’s request to their authenticated state. For example, state could be a hash of the user’s session cookie, or some other nonce that can be linked to the user’s session. When a user begins an authorization flow on the client, a state is generated that is unique to that user’s request. This value is stored somewhere only accessible to the client and the user, i.e. protected by the same-origin policy . When the user is redirected, the state parameter is returned. The client validates the request by checking that the state returned matches the stored value. If they match, it is a valid authorization request. If they do not match, it’s possible that someone intercepted the request or otherwise falsely authorized themselves to another user’s resources, and the request should be denied. While Discord does not require the use of the state parameter, we support it and highly recommend that you implement it for the security of your own applications and data. ​ Authorization Code Grant The authorization code grant is what most developers will recognize as “standard OAuth2” and involves retrieving an access code and exchanging it for a user’s access token. It allows the authorization server to act as an intermediary between the client and the resource owner, so the resource owner’s credentials are never shared directly with the client. All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form data body. Authorization URL Example https://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0 client_id is your application’s client_id . scope is a list of OAuth2 scopes separated by url encoded spaces ( %20 ). redirect_uri is whatever URL you registered when creating your application, url-encoded. state is the unique string mentioned in State and Security . When someone navigates to this URL, they will be prompted to authorize your application for the requested scopes. On acceptance, they will be redirected to your redirect_uri , which will contain an additional querystring parameter, code . state will also be returned if previously sent, and should be validated at this point. prompt controls how the authorization flow handles existing authorizations. If a user has previously authorized your application with the requested scopes and prompt is set to consent , it will request them to reapprove their authorization. If set to none , it will skip the authorization screen and redirect them back to your redirect URI without requesting their authorization. For passthrough scopes, like bot and webhook.incoming , authorization is always required. The integration_type parameter specifies the installation context for the authorization. The installation context determines where the application will be installed, and is only relevant when scope contains applications.commands . When set to 0 (GUILD_INSTALL) the application will be authorized for installation to a server, and when set to 1 (USER_INSTALL) the application will be authorized for installation to a user. The application must be configured in the Developer Portal to support the provided integration_type . Redirect URL Example https://nicememe.website/?code=NhhvTDYsFcdgNLnnLijcl7Ku7bEEeee&state=15773059ghq9183habn code is now exchanged for the user’s access token by making a POST request to the token URL with the following parameters: grant_type - must be set to authorization_code code - the code from the querystring redirect_uri - the redirect_uri associated with this authorization, usually from your authorization URL Access Token Exchange Example import requests API_ENDPOINT = 'https://discord.com/api/v10' CLIENT_ID = '332269999912132097' CLIENT_SECRET = '937it3ow87i4ery69876wqire' REDIRECT_URI = 'https://nicememe.website' def exchange_code ( code ): data = { 'grant_type' : 'authorization_code' , 'code' : code, 'redirect_uri' : REDIRECT_URI } headers = { 'Content-Type' : 'application/x-www-form-urlencoded' } r = requests.post( ' %s /oauth2/token' % API_ENDPOINT , data = data, headers = headers, auth = ( CLIENT_ID , CLIENT_SECRET )) r.raise_for_status() return r.json() In response, you will receive: Access Token Response { \"access_token\" : \"6qrZcUqja7812RVdnEKjpzOL4CvHBFG\" , \"token_type\" : \"Bearer\" , \"expires_in\" : 604800 , \"refresh_token\" : \"D43f5y0ahjqew82jZ4NViEr2YafMKhue\" , \"scope\" : \"identify\" } Having the user’s access token allows your application to make certain requests to the API on their behalf, restricted to whatever scopes were requested. expires_in is how long, in seconds, until the returned access token expires, allowing you to anticipate the expiration and refresh the token. To refresh, make another POST request to the token URL with the following parameters: grant_type - must be set to refresh_token refresh_token - the user’s refresh token Refresh Token Exchange Example import requests API_ENDPOINT = 'https://discord.com/api/v10' CLIENT_ID = '332269999912132097' CLIENT_SECRET = '937it3ow87i4ery69876wqire' def refresh_token ( refresh_token ): data = { 'grant_type' : 'refresh_token' , 'refresh_token' : refresh_token } headers = { 'Content-Type' : 'application/x-www-form-urlencoded' } r = requests.post( ' %s /oauth2/token' % API_ENDPOINT , data = data, headers = headers, auth = ( CLIENT_ID , CLIENT_SECRET )) r.raise_for_status() return r.json() Boom; fresh access token response ! Token Revocation Example To disable an access or refresh token, you can revoke it by making a POST request to the token revocation URL with the following parameters: token - the access token or refresh token to revoke token_type_hint (optional) - the token parameter’s type—either access_token or refresh_token When you revoke a token, any active access or refresh tokens associated with that authorization will be revoked, regardless of the token and token_type_hint values you pass in. import requests API_ENDPOINT = 'https://discord.com/api/v10' CLIENT_ID = '332269999912132097' CLIENT_SECRET = '937it3ow87i4ery69876wqire' def revoke_access_token ( access_token ): data = { 'token' : access_token, 'token_type_hint' : 'access_token' } headers = { 'Content-Type' : 'application/x-www-form-urlencoded' } requests.post( ' %s /oauth2/token/revoke' % API_ENDPOINT , data = data, headers = headers, auth = ( CLIENT_ID , CLIENT_SECRET )) Boom; the tokens are safely revoked. ​ Implicit Grant The implicit OAuth2 grant is a simplified flow optimized for in-browser clients. Instead of issuing the client an authorization code to be exchanged for an access token, the client is directly issued an access token. The URL is formatted as follows: Authorization URL Example https://discord.com/oauth2/",
+      "content_sha256": "34f3c66b77630ef7effe1cb39b426cdf006e3dcfc6d67bd79c1cd0721ce84516",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3970,
+    "output_tokens": 1989
+  },
+  "failure": null
+}

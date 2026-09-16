@@ -1,0 +1,264 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 22,
+    "app_name": "Twilio",
+    "category": "3. Communications and Messaging",
+    "website": "http://twilio.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:45.899032+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 22,
+    "app_name": "Twilio",
+    "category": "3. Communications and Messaging",
+    "website": "http://twilio.com/",
+    "description": "Twilio provides APIs for communications and messaging, allowing developers to send SMS, voice, and other messages programmatically. It offers RESTful APIs and SDKs to interact with its services.",
+    "auth_methods": [
+      "basic",
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "Twilio offers a broad set of REST APIs for messaging, voice, and other communication services, with SDKs for multiple programming languages to simplify integration.",
+    "mcp_available": "official",
+    "mcp_notes": "Twilio provides an official console and developer portal for managing API keys, credentials, and account settings.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Twilio provides comprehensive official documentation with examples for authentication using API keys and Account SID/Auth Token, REST API endpoints, and SDKs in multiple languages, enabling developers to build integrations effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Twilio provides APIs for communications and messaging, allowing developers to send SMS, voice, and other messages programmatically. It offers RESTful APIs and SDKs to interact with its services.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "Twilio API requests | Twilio ... You can make an HTTP request to the Twilio API in the following ways: Make a raw HTTP request ... Use a Twilio SDK for your preferred programming language.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "To authenticate requests to the Twilio APIs, use HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "To authenticate requests to the Twilio APIs, use HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "Authentication can also be done using Account SID and Auth Token as HTTP Basic authentication username and password.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "When an API reference or guide specifies Account SID and Auth Token authentication, use the Account SID as the HTTP Basic authentication username and the Auth Token as the password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "Twilio offers self-serve paid access to its APIs via the Twilio Console and API keys.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "You can create an API key either in the Twilio Console or using the API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "Twilio provides REST APIs and SDKs for interacting with its services.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "You can make an HTTP request to the Twilio API in the following ways: ... Use a Twilio SDK for your preferred programming language.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "Twilio APIs use standard RESTful HTTP methods and provide SDKs for multiple programming languages.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "Twilio APIs use standard RESTful HTTP methods to perform actions on resources. ... Use a Twilio SDK for your preferred programming language.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Twilio provides an official console and developer portal for managing API keys, credentials, and account settings.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "You can create an API key either in the Twilio Console or using the API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "Twilio provides comprehensive official documentation with examples for authentication using API keys and Account SID/Auth Token, REST API endpoints, and SDKs in multiple languages, enabling developers to build integrations effectively.",
+        "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+        "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+        "quote": "You can make an HTTP request to the Twilio API in the following ways: Make a raw HTTP request ... Use a Twilio SDK for your preferred programming language. ... To authenticate requests to the Twilio APIs, use HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:29.324060+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "final_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "retrieved_at": "2026-09-16T17:17:28.605190+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Twilio API requests | Twilio Skip to content Skip to navigation Skip to topbar Go to the Twilio Docs home page Twilio Docs General Usage Get started Get started with your Twilio trial account Welcome to the new Twilio console A Beginner's Guide to the Command Line Set up your local development environment Twilio Console Assistant Twilio Console Assistant AI Nutrition Facts Trials Overview Try out SMS Messaging Try out Voice Try out Email Try out WhatsApp Twilio APIs Overview API requests API responses API mutation and conflict resolution API best practices REST API requests in PowerShell Accounts Overview Twilio Identity Access Management Documentation Subaccounts Twilio Identity Access Management Documentation Addresses Applications BulkExport API Overview Exports Configuration resource Exports Jobs: custom jobs Jobs resource Days resource Key Twilio Identity Access Management Documentation Usage records Usage triggers Monitor REST API Alerts Events Browse all of Twilio's APIs Additional Twilio Documentation Webhooks Introduction Get started with webhooks Webhooks configuration API Overview Configure webhook settings Configure webhook rules Authenticate with OAuth 2.0, Basic, or Digest Sign webhooks with shared keys Test webhook delivery Track webhook rule changes Choose webhook edge zones Override webhook connections Configuration API FAQs FAQ Security Preventing Fraud Anti-Fraud Developer's Guide Fraud & Abuse Response Guide Overview Validate Engage Contain Analyze Diagnose Example: RCA Summary Request Form Global Safe List API Troubleshooting and Security Twilio Debugger Debug events webhooks Alarms Availability and Reliability Security ISO/IEC Certification Reporting security vulnerabilities Store Your Twilio Credentials Securely Secure your app by validating incoming Twilio requests C# / ASP.NET C# / ASP.NET Core C# / ASP.NET WEB API Java / Servlets Node.js / Express PHP / Lumen Python / Django Python / Flask Ruby / Sinatra Go / Gin Billing Overview Billing Groups Maintenance Manage unused resources Twilio products: API docs, quickstarts, and tutorials Programmable Messaging Twilio Messaging Documentation Programmable Voice Twilio Voice Documentation Verify API Twilio Verify Documentation Twilio Workbench Twilio Logo Twilio Docs Search Search Messaging Voice Video Conversations Flex Studio All docs... Build with AI SDKs Help Center Help Center Search Log in Sign up Page tools Copy as markdown Useful for sharing or LLM Copy and view Copy as markdown View as markdown Open in assistant Open in ChatGPT Open in Claude Open in Cursor Open in Perplexity Build with AI Connect your AI agent Install Twilio Skills Accelerate development with AI On this page Ways to make requests to the Twilio APIs Authentication Use API keys Use your Account SID and Auth Token Twilio SDKs HTTP methods for API interactions Content type requirements Global Edge Locations and network entry Vanity URLs and security requirements How the Twilio APIs handle webhooks Next steps Looking for more inspiration? Visit the Developer Hub On this page Ways to make requests to the Twilio APIs Authentication Use API keys Use your Account SID and Auth Token Twilio SDKs HTTP methods for API interactions Content type requirements Global Edge Locations and network entry Vanity URLs and security requirements How the Twilio APIs handle webhooks Next steps Copy as markdown Copy and view Copy as markdown View as markdown Open in assistant Open in ChatGPT Open in Claude Open in Cursor Open in Perplexity Build with AI Connect your AI agent Install Twilio Skills Twilio API requests Positive Feedback Negative Feedback Learn how to authenticate your requests, what content type to use for API requests, and how the Twilio APIs handle webhooks. You'll also see examples of how to make requests to the Twilio APIs. Ways to make requests to the Twilio APIs ways-to-make-requests-to-the-twilio-apis page anchor Positive Feedback Negative Feedback You can make an HTTP request to the Twilio API in the following ways: Make a raw HTTP request either in your code (for example, by using a module like got in NodeJS (link takes you to an external page) ) or with a tool like Postman (link takes you to an external page) . Use a Twilio SDK for your preferred programming language. Use the Twilio CLI if you prefer working in the terminal. Authentication authentication page anchor Positive Feedback Negative Feedback (information) Environment variables Always store your credentials in environment variables before sharing any code or deploying to production. Learn more about setting environment variables (link takes you to an external page) . To authenticate requests to the Twilio APIs, use HTTP Basic authentication (link takes you to an external page) . Use your API key SID as the username and your API key secret as the password. (information) Regional API credentials Twilio API credentials are region-specific resources. If your account uses Twilio Regions , see Manage Regional API credentials . Use API keys use-api-keys page anchor Positive Feedback Negative Feedback An API key is a unique identifier that allows a client to access your Twilio account and create, read, update, or delete resources through the Twilio APIs. You can create multiple API keys for different purposes, such as for different developers or subsystems within your application. If a key is compromised or no longer used, you can revoke it to prevent unauthorized access. Use API keys for your applications unless the API reference or guide specifies Account SID and Auth Token authentication . If a key is compromised or no longer used, revoke it to prevent unauthorized access without affecting your other applications. You can create an API key either in the Twilio Console or using the API . The API key types are Main , Standard , and Restricted (Key resource v1 only). The following table describes each type: Key type Access permissions Create in Console Create with REST API Main Full access to all Twilio API resources. Equivalent to using your Account SID and Auth Token for API requests. Yes No Standard Access to all Twilio API resources, except for Accounts ( /Accounts ) or Keys ( /Accounts/{SID}/Keys , /v1/Keys ) resources. Yes Yes Restricted Customized, fine-grained access to specific Twilio API resources. Learn more about Restricted API keys . Yes Yes ( v1 only ) When making an API request, use your API key as the username and your API key secret as the password. Note : In the following example, you must use a Main API key. List accounts Link to code sample: List accounts curl Report code block Copy code block 1 curl -X GET \"https://api.twilio.com/2010-04-01/Accounts.json?PageSize=20\" \\ 2 -u $TWILIO_API_KEY : $TWILIO_API_SECRET The user remains logged in for the duration of the request. Learn more about how Twilio handles authentication . Use your Account SID and Auth Token using-your-account-sid-and-auth-token page anchor Positive Feedback Negative Feedback When an API reference or guide specifies Account SID and Auth Token authentication, use the Account SID as the HTTP Basic authentication username and the Auth Token as the password. Store these values in the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN environment variables. Follow the credential requirements for the operation you're performing: Accounts examples use Account SID and Auth Token authentication. For subaccount management , use the parent account's credentials. Main API keys are an alternative, but Standard API keys can't access Accounts resources. Auth Token promotion and Secondary Auth Token examples use Account SID and Auth Token authentication for token rotation. Test credential examples use your test Account SID and test Auth Token, not your live credentials or an API key. Guides such as A2P 10DLC onboarding for ISVs and the BrandRegistrations API reference specify which account's credentials to use. Don't substitute parent account credentials for subaccount credentials unless the guide supports that operation. For example, the following request lists accounts using Account SID and Auth Token authentication: List accounts with an Auth Token Link to code sample: List accounts with an Auth Token curl Report code block Copy code block 1 curl -X GET \"https://api.twilio.com/2010-04-01/Accounts.json?PageSize=20\" \\ 2 -u $TWILIO_ACCOUNT_SID : $TWILIO_AUTH_TOKEN Twilio SDKs twilio-sdks page anchor Positive Feedback Negative Feedback A Twilio SDK is a server-side SDK that helps you use Twilio's REST APIs, generate TwiML, and perform other common server-side programming tasks. Twilio SDKs can handle credential management and simplify the authentication process. All Twilio SDKs come with a Utilities class that validates requests by passing your credentials to the library. HTTP methods for API interactions http-methods-for-api-interactions page anchor Positive Feedback Negative Feedback Twilio APIs use standard RESTful HTTP methods to perform actions on resources. The following examples demonstrate the most common methods: POST : Create or update a resource. GET : Retrieve a resource. DELETE : Delete a resource. POST GET: List messages GET: Retrieve a message DELETE POST a new SMS message Link to code sample: POST a new SMS message Node.js Python C# Java Go PHP Ruby twilio-cli curl Report code block Copy code block 1 // Download the helper library from https://www.twilio.com/docs/node/install 2 const twilio = require ( \"twilio\" ); // Or, for ESM: import twilio from \"twilio\"; 3 4 // Find your Account SID at twilio.com/console 5 // Provision API Keys at twilio.com/console/runtime/api-keys 6 // and set the environment variables. See http://twil.io/secure 7 // For local testing, you can use your Account SID and Auth token 8 const accountSid = process.env. TWILIO_ACCOUNT_SID ; 9 const apiKey = process.env. TWILIO_API_KEY ; 10 const apiSecret = process.env. TWILIO_API_SECRET ; 11 const client = twilio (apiKey, apiSecret, { accountSid: accountSid }); 12 13 async function createMessage () { 14 const message = await client.messages. create ({ 15 body: \"Hello\" , 16 from: \"+14155552344\" , 17 to: \"+15558675310\" , 18 }); 19 20 console. log (message.body); 21 } 22 23 createMessage (); Response Note about this response Copy response 1 { 2 \"account_sid\" : \"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\" , 3 \"api_version\" : \"2010-04-01\" , 4 \"body\" : \"Hello\" , 5 \"date_created\" : \"Thu, 24 Aug 2023 05:01:45 +0000\" , 6 \"date_sent\" : \"Thu, 24 Aug 2023 05:01:45 +0000\" , 7 \"date_updated\" : \"Thu, 24 Aug 2023 05:01:45 +0000\" , 8 \"direction\" : \"outbound-api\" , 9 \"error_code\" : null , 10 \"error_message\" : null , 11 \"from\" : \"+14155552344\" , 12 \"num_media\" : \"0\" , 13 \"num_segments\" : \"1\" , 14 \"price\" : null , 15 \"price_unit\" : null , 16 \"messaging_service_sid\" : \"MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\" , 17 \"sid\" : \"SMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\" , 18 \"status\" : \"queued\" , 19 \"subresource_uris\" : { 20 \"media\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/SMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Media.json\" 21 }, 22 \"to\" : \"+15558675310\" , 23 \"uri\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/SMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json\" 24 } GET a list of messages Link to code sample: GET a list of messages Node.js Python C# Java Go PHP Ruby twilio-cli curl Report code block Copy code block 1 // Download the helper library from https://www.twilio.com/docs/node/install 2 const twilio = require ( \"twilio\" ); // Or, for ESM: import twilio from \"twilio\"; 3 4 // Find your Account SID at twilio.com/console 5 // Provision API Keys at twilio.com/console/runtime/api-keys 6 // and set the environment variables. See http://twil.io/secure 7 // For local testing, you can use your Account SID and Auth token 8 const accountSid = process.env. TWILIO_ACCOUNT_SID ; 9 const apiKey = process.env. TWILIO_API_KEY ; 10 const apiSecret = process.env. TWILIO_API_SECRET ; 11 const client = twilio (apiKey, apiSecret, { accountSid: accountSid }); 12 13 async function listMessage () { 14 const messages = await client.messages. list ({ limit: 20 }); 15 16 messages. forEach (( m ) => console. log (m.end)); 17 } 18 19 listMessage (); Response Note about this response Copy response 1 { 2 \"end\" : 1 , 3 \"first_page_uri\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages.json?To=%2B123456789&From=%2B987654321&DateSent%3E=2008-01-02&PageSize=2&Page=0\" , 4 \"next_page_uri\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages.json?To=%2B123456789&From=%2B987654321&DateSent%3E=2008-01-02&PageSize=2&Page=1&PageToken=PAMMc26223853f8c46b4ab7dfaa6abba0a26\" , 5 \"page\" : 0 , 6 \"page_size\" : 2 , 7 \"previous_page_uri\" : null , 8 \"messages\" : [ 9 { 10 \"account_sid\" : \"ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\" , 11 \"api_version\" : \"2010-04-01\" , 12 \"body\" : \"testing\" , 13 \"date_created\" : \"Fri, 24 May 2019 17:44:46 +0000\" , 14 \"date_sent\" : \"Fri, 24 May 2019 17:44:50 +0000\" , 15 \"date_updated\" : \"Fri, 24 May 2019 17:44:50 +0000\" , 16 \"direction\" : \"outbound-api\" , 17 \"error_code\" : null , 18 \"error_message\" : null , 19 \"from\" : \"+12019235161\" , 20 \"messaging_service_sid\" : \"MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\" , 21 \"num_media\" : \"0\" , 22 \"num_segments\" : \"1\" , 23 \"price\" : \"-0.00750\" , 24 \"price_unit\" : \"USD\" , 25 \"sid\" : \"SMded05904ccb347238880ca9264e8fe1c\" , 26 \"status\" : \"sent\" , 27 \"subresource_uris\" : { 28 \"media\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/SMded05904ccb347238880ca9264e8fe1c/Media.json\" , 29 \"feedback\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/SMded05904ccb347238880ca9264e8fe1c/Feedback.json\" 30 }, 31 \"to\" : \"+18182008801\" , 32 \"uri\" : \"/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/SMded05904ccb347238880ca9264e8fe1c.json\" 33 }, 34 { 35 \"account_sid\" : \"ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\" , 36 \"api_version\" : \"2010-04-01\" , 37 \"body\" : \"look mom I have media!\" , 38 \"date_created\" : \"Fri, 24 May 2019 17:44:46 +0000\" , 39 \"date",
+      "content_sha256": "668723b3400a10157406c945f4c57a863dd7329e3a6db594c75ec3851cb02504",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4422,
+    "output_tokens": 1749
+  },
+  "failure": null
+}

@@ -1,0 +1,304 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 75,
+    "app_name": "Asana",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developers.asana.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The API supports a wide range of operations including user management, project and task management, audit logs, SCIM, and organizational exports.",
+    "mcp_available": "official",
+    "mcp_notes": "Asana provides an official MCP server and compatible MCP clients for integration.",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Service Accounts are an Enterprise tier feature and can only be created by Asana super admins",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports a wide range of operations including user management, project and task management, audit logs, SCIM, and organizational exports.",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Some common use cases include: Creating periodic data backups Automating programmatic management of your Asana account. For example: User management and access based on company's policies Administrative tasks like team member management Cleaning up inactive projects Standardizing the structure of objects in your domain (e.g., portfolios, projects, custom fields, etc.) Building integrations that require access to all Asana data Authenticating Asana API endpoints that require service accounts. For example: Audit log Organizational exports SCIM",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Using Asana's MCP Server Compatible MCP Clients",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Asana provides an official MCP server and compatible MCP clients for integration.",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Using Asana's MCP Server Compatible MCP Clients",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "mixed_unknown_enum",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:23:53.104808+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 75,
+    "app_name": "Asana",
+    "category": "8. Productivity and Project Management",
+    "website": "http://developers.asana.com/",
+    "description": "Asana provides a productivity and project management platform with an API that supports various authentication methods including Personal Access Tokens (PAT), Service Accounts, OAuth, and OpenID Connect. The API allows programmatic access to Asana data and supports multiple user scenarios, including org-wide access via Service Accounts and multi-user sign-in via OAuth.",
+    "auth_methods": [
+      "api_key",
+      "oauth2",
+      "service_account",
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "unknown"
+    ],
+    "api_breadth": "The API supports a wide range of operations including user management, project and task management, audit logs, SCIM, and organizational exports.",
+    "mcp_available": "official",
+    "mcp_notes": "Asana provides an official MCP server and compatible MCP clients for integration.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with multiple authentication options suitable for different app needs, including PATs for simple scripts, OAuth for multi-user apps, and Service Accounts for enterprise-wide access. The official documentation provides detailed guides and examples, enabling developers to build integrations effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Asana provides a productivity and project management platform with an API that supports various authentication methods including Personal Access Tokens (PAT), Service Accounts, OAuth, and OpenID Connect. The API allows programmatic access to Asana data and supports multiple user scenarios, including org-wide access via Service Accounts and multi-user sign-in via OAuth.",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Asana\u0019s API has several options for authenticating. The purpose of your app, who uses it, and its features will dictate the method of auth that\u0019s best for your app. Here are the various authentication options and why you might want to use each of them. ... Personal access token A personal access token (PAT) is the quickest and simplest way to authenticate in the API. ... Service Account Similar to PATs, Service Accounts (SAs) are long-lived tokens that provide programmatic access to the API. ... OAuth OAuth is an open-standard authentication protocol that allows you to approve one application interacting with another on your behalf without providing your username and password. ... OpenID Connect OpenID Connect (OIDC) is an open authentication protocol that works on top of the OAuth 2.0.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Personal Access Token (PAT), Service Account, OAuth, OpenID Connect",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Personal access token ... Service Account ... OAuth ... OpenID Connect",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Service Accounts are an Enterprise tier feature and can only be created by Asana super admins",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Asana API is available",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Asana\u0019s API has several options for authenticating.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "REST API",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "API Reference",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports a wide range of operations including user management, project and task management, audit logs, SCIM, and organizational exports.",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Some common use cases include: Creating periodic data backups Automating programmatic management of your Asana account. For example: User management and access based on company's policies Administrative tasks like team member management Cleaning up inactive projects Standardizing the structure of objects in your domain (e.g., portfolios, projects, custom fields, etc.) Building integrations that require access to all Asana data Authenticating Asana API endpoints that require service accounts. For example: Audit log Organizational exports SCIM",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Using Asana's MCP Server Compatible MCP Clients",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Asana provides an official MCP server and compatible MCP clients for integration.",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "Using Asana's MCP Server Compatible MCP Clients",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.asana.com/docs/authentication",
+        "final_url": "https://developers.asana.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+        "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+        "quote": "The purpose of your app, who uses it, and its features will dictate the method of auth that\u0019s best for your app. Here are the various authentication options and why you might want to use each of them. ... Personal access token A personal access token (PAT) is the quickest and simplest way to authenticate in the API. ... Service Account Similar to PATs, Service Accounts (SAs) are long-lived tokens that provide programmatic access to the API. ... OAuth OAuth is an open-standard authentication protocol that allows you to approve one application interacting with another on your behalf without providing your username and password.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:36.698853+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "auth_methods"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "api_types"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.asana.com/docs/authentication",
+      "final_url": "https://developers.asana.com/docs/authentication",
+      "retrieved_at": "2026-09-16T17:23:34.690673+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication For AI agents: visit https://developers.asana.com/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version. Jump to Content Home Guides API Reference App directory Docs Forum My apps Guides App directory Docs Forum My apps Home Guides API Reference Authentication Overview Build an app with Asana Object hierarchy Common use cases Get started API explorer Developer sandbox Quick start guide FAQ feature guides Authentication Personal access token OAuth OAuth Code Samples / Libraries OAuth scopes OpenID Connect API Input/output options Batch requests Custom fields Custom external data Dates and times Rich text Rate limits Errors Pagination SCIM Audit log events Deprecations Workspace events Graph exports App components Building app components App components on tasks App components on rules UI builder Troubleshooting App component approval checklist Incoming web requests Manage your app Share your app App listing guidelines Publish your app Update your app Script Actions How to write a Script Action script Dynamic value inputs FAQ Webhooks Tutorials Export project statuses to CSV Automate status reports with Google Apps Scripts Resources API reference Client libraries JavaScript Migration guide: v3 Python Migration guide: v5 Ruby Java PHP MCP Server Using Asana's MCP Server Compatible MCP Clients Connecting Coding Clients to Asana's V2 server Integrating with Asana's MCP Server MCP Tools Reference Examples App component examples Custom field analysis Portfolio to CSV export Script action examples Triage bot Using bots Postman Collection Changelog Powered by Authentication Asana’s API has several options for authenticating. The purpose of your app, who uses it, and its features will dictate the method of auth that’s best for your app. Here are the various authentication options and why you might want to use each of them. 📘 View only View only license users have limited access to the API. To check if a user has a view only license, use the get a workspace membership API endpoint. For more information on view only licenses, see this article in the Help Center . Personal access token A personal access token (PAT) is the quickest and simplest way to authenticate in the API. PATs are long-lived tokens allowing programmatic authentication to the API and should be stored securely. PATs provide the same authorization (i.e., permissions and level of access to Asana data) through the API as the user who generated them has in the Asana web product . Using a PAT is a good way to get started quickly with the API regardless of which auth type you end up using in production. If you are building a script or simple app that doesn’t need to support multiple users logging in, then using a PAT with your production app is a sufficient option. If your app needs more access to data than you have in Asana, then you should consider using a Service Account . You will likely want to use OAuth if your app needs to support multiple users signing in to use the app. PATs are generated in the developer console . See the PAT documentation for more information. PAT attribution If you generate a PAT from your Asana account, any API actions that are authenticated with your PAT will be attributed to you in the Asana web product. For example, if a script uses your PAT to authenticate an API request to comment on a task, the comment will appear to be made by you in the Asana app. If you prefer against having your app’s actions to be authored by you, then you should provision a new Asana user (or guest account) and then generate the PAT from this new account. This user will act as a \"bot\" account. You should give the account a name and photo that will make it clear to Asana users that an app is taking action and not a person. More details on this approach can be found in the Bots and scopes section of this guide. Service Account Similar to PATs, Service Accounts (SAs) are long-lived tokens that provide programmatic access to the API. Service Accounts are an Enterprise tier feature and can only be created by Asana super admins (see more about admin roles at Asana ). Unlike PATs, SAs provide complete access to all data within your Asana account, including private user data. As such, SAs are ideal if your app needs to have org-wide authorization. Some common use cases include: Creating periodic data backups Automating programmatic management of your Asana account. For example: User management and access based on company's policies Administrative tasks like team member management Cleaning up inactive projects Standardizing the structure of objects in your domain (e.g., portfolios, projects, custom fields, etc.) Building integrations that require access to all Asana data Authenticating Asana API endpoints that require service accounts. For example: Audit log Organizational exports SCIM Instructions for Asana super admins to generate Service Accounts: Click the Apps tab from within the admin console Click Service Accounts Click the Add Service Account button 📘 Service Account Scopes To learn more about how Service Account scopes and how to configure them for your specific use case – check out our Service Account Scopes documentation OAuth OAuth is an open-standard authentication protocol that allows you to approve one application interacting with another on your behalf without providing your username and password. This is the best choice if multiple users need to sign in to your app. OAuth is more complex to implement than using token-based auth (i.e., PATs and SAs), but it offers more features and security. To implement OAuth, follow the detailed instructions in our OAuth documentation . OpenID Connect OpenID Connect (OIDC) is an open authentication protocol that works on top of the OAuth 2.0. The purpose of OIDC is for users to provide one set of credentials and access multiple sites. If you want to allow users to log into your app using their Asana account, the OpenID Connect protocol is a great way to have your apps users authenticate. See the OpenID Connect documentation for more information. Updated 11 months ago FAQ Personal access token Did this page help you? Yes No Copy Page Personal access token PAT attribution Service Account OAuth OpenID Connect",
+      "content_sha256": "5bc53c3f6c443a47a7634308924839482ab79de3fd2a0f356a26eb1114904874",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2268,
+    "output_tokens": 1955
+  },
+  "failure": null
+}

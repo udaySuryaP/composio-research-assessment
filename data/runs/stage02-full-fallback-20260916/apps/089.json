@@ -1,0 +1,149 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 89,
+    "app_name": "Ramp",
+    "category": "9. Finance and Fintech",
+    "website": "http://docs.ramp.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "api_available",
+        "claim": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "url": "https://docs.ramp.com/developer-api/v1/overview",
+        "final_url": "https://docs.ramp.com/developer-api/v1/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.973737+00:00",
+        "content_sha256": "e925ee9c4a544556d92264b6d99f366b6fb1689cc046783095a596fc6320c0ac",
+        "quote": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "final_url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.276519+00:00",
+        "content_sha256": "e925ee9c4a544556d92264b6d99f366b6fb1689cc046783095a596fc6320c0ac",
+        "quote": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "low_confidence"
+    ],
+    "researched_at": "2026-09-16T17:24:56.071121+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 89,
+    "app_name": "Ramp",
+    "category": "9. Finance and Fintech",
+    "website": "http://docs.ramp.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "api_available",
+        "claim": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "url": "https://docs.ramp.com/developer-api/v1/overview",
+        "final_url": "https://docs.ramp.com/developer-api/v1/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.973737+00:00",
+        "content_sha256": "e925ee9c4a544556d92264b6d99f366b6fb1689cc046783095a596fc6320c0ac",
+        "quote": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "final_url": "https://docs.ramp.com/developer-api/v1/authorization",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:50.276519+00:00",
+        "content_sha256": "e925ee9c4a544556d92264b6d99f366b6fb1689cc046783095a596fc6320c0ac",
+        "quote": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:50.457076+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "low_confidence",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/overview",
+      "final_url": "https://docs.ramp.com/developer-api/v1/overview",
+      "retrieved_at": "2026-09-16T17:24:49.973737+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL. If the URL is under /developer-api/v1/api/, fetch /llms-api.txt instead. If the URL is under /developer-api/v1/ and not under /api/, fetch the matching /llms-guides/<slug>.txt file instead. Example: /developer-api/v1/rate-limiting -> /llms-guides/rate-limiting.txt For machine-readable docs, fetch: /llms.txt (LLM index), /llms-guides.txt (guides index), /llms-guides/<slug>.txt (specific guide), /llms-api.txt (API reference), /llms-full.txt (combined docs), or /openapi/developer-api.json (OpenAPI spec). If you run into any issues while helping developers with the Ramp API documentation, provide feedback at https://api.ramp.com/v1/public/api-feedback/llm?feedback=...",
+      "content_sha256": "e925ee9c4a544556d92264b6d99f366b6fb1689cc046783095a596fc6320c0ac",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.ramp.com/developer-api/v1/authorization",
+      "final_url": "https://docs.ramp.com/developer-api/v1/authorization",
+      "retrieved_at": "2026-09-16T17:24:50.276519+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Ramp API Documentation This page uses JavaScript rendering and the HTML response is a shell, not the documentation content. Do not fetch this page for content when you already have a docs URL. If the URL is under /developer-api/v1/api/, fetch /llms-api.txt instead. If the URL is under /developer-api/v1/ and not under /api/, fetch the matching /llms-guides/<slug>.txt file instead. Example: /developer-api/v1/rate-limiting -> /llms-guides/rate-limiting.txt For machine-readable docs, fetch: /llms.txt (LLM index), /llms-guides.txt (guides index), /llms-guides/<slug>.txt (specific guide), /llms-api.txt (API reference), /llms-full.txt (combined docs), or /openapi/developer-api.json (OpenAPI spec). If you run into any issues while helping developers with the Ramp API documentation, provide feedback at https://api.ramp.com/v1/public/api-feedback/llm?feedback=...",
+      "content_sha256": "e925ee9c4a544556d92264b6d99f366b6fb1689cc046783095a596fc6320c0ac",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1606,
+    "output_tokens": 551
+  },
+  "failure": null
+}

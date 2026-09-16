@@ -1,0 +1,299 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 100,
+    "app_name": "Grain",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://grain.com/docs",
+    "description": "Grain provides an API for accessing and managing recordings, transcripts, users, teams, and hooks. It supports OAuth2, Personal Access Tokens, and Workspace Access Tokens for authentication. The API includes endpoints for listing, retrieving, uploading, downloading recordings, and managing tags and shares.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Grain provides an API for accessing and managing recordings, transcripts, users, teams, and hooks. It supports OAuth2, Personal Access Tokens, and Workspace Access Tokens for authentication. The API includes endpoints for listing, retrieving, uploading, downloading recordings, and managing tags and shares.",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Grain API Grain API Table of Contents Grain API Legacy Docs Authentication Personal Access Token Workspace Access Token OAuth2 Flow Diagram Step 1 Step 2 Step 3 Step 4 Step 5 Refresh Token Authenticating Calls Versions Rate Limits Endpoints OAuth2 Generate Token Refresh Token Recordings List Recordings Get Recording Get Recording Transcript (json) Get Recording Transcript (text formats) Download Recording Upload Recording Update Recording Add a Tag to a Recording Remove a Tag from a Recording Share Recording to an User Unshare Recording from an User Share Recording to a Team Unshare Recording from a Team Hooks Create Hook List Hooks Delete Hook Hook Payload Example Others List Users List Teams List Meeting Types Common Params Recording Filter Recording Include Highlight Include Hook Filter Common Responses Recording Highlight (aka Clip) Hook User Team Meeting Type AI Template Sections Legacy Docs If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Grain API Grain API Table of Contents Grain API Legacy Docs Authentication Personal Access Token Workspace Access Token OAuth2 Flow Diagram Step 1 Step 2 Step 3 Step 4 Step 5 Refresh Token Authenticating Calls Versions Rate Limits Endpoints OAuth2 Generate Token Refresh Token Recordings List Recordings Get Recording Get Recording Transcript (json) Get Recording Transcript (text formats) Download Recording Upload Recording Update Recording Add a Tag to a Recording Remove a Tag from a Recording Share Recording to an User Unshare Recording from an User Share Recording to a Team Unshare Recording from a Team Hooks Create Hook List Hooks Delete Hook Hook Payload Example Others List Users List Teams List Meeting Types Common Params Recording Filter Recording Include Highlight Include Hook Filter Common Responses Recording Highlight (aka Clip) Hook User Team Meeting Type AI Template Sections Legacy Docs If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "api_breadth",
+        "claim": "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Recordings List Recordings Endpoint POST /_/public-api/v2/recordings Params Param Type cursor string Used to paginate through the list. filter object Recording Filter include object Recording Include Response Field Type cursor string * nullable Can be sent as a param to retrieve the next page of the list recordings object array List of Recordings Example Request curl -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ --data '{\"filter\": {\"title_search\": \"hands\"}, \"include\": {\"participants\": true}}' \\ https://api.grain.com/_/public-api/v2/recordings Example Response { \"cursor\": \"ApJNWoNoBHcCdjJ3DWNocm9ub2xvZ2ljYWx3BGRlc2NoAm4HAO5FaSm2QgZuBwAVPC0qtkIG\", \"recordings\": [ { \"id\": \"pppp6666-qq77-rr88-ss99-tttt00000000\", \"title\": \"All Hands\", \"source\": \"zoom\", \"share_state\": \"public\", \"url\": \"https://grain.com/share/recording/pppp6666-qq77-rr88-ss99-tttt00000000\", \"media_type\": \"video\", \"tags\": [], \"start_datetime\": \"2025-01-01T09:30:00Z\", \"teams\": [ { \"id\": \"aaaa1111-bb22-cc33-dd44-eeee55555555\", \"name\": \"My Team\" } ], \"recorders\": [ { \"id\": \"kkkk1111-ll22-mm33-nn44-oooo55555555\", \"name\": \"Luke Skywalker\", \"email\": \"luke@example.com\", \"participant_id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\" } ], \"participants\": [ { \"id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\", \"name\": \"Luke Skywalker\", \"scope\": \"internal\", \"email\": \"luke@example.com\", \"confirmed_attendee\": true }, { \"id\": \"jjjj6666-kk77-ll88-mm99-nnnn00000000\", \"name\": \"Han Solo\", \"scope\": \"internal\", \"email\": \"solo@example.com\", \"confirmed_attendee\": false } ], \"end_datetime\": \"2025-01-01T10:00:00Z\", \"duration_ms\": 1800000, \"thumbnail_url\": \"https://media.grain.com/public_thumbnails/recordings/pppp6666\", \"meeting_type\": { \"id\": \"ffff6666-gg77-hh88-ii99-jjjj00000000\", \"name\": \"Project & Team Coordination\", \"scope\": \"internal\" } } ] }",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:26:34.019505+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 100,
+    "app_name": "Grain",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://grain.com/docs",
+    "description": "Grain provides an API for accessing and managing recordings, transcripts, users, teams, and hooks. It supports OAuth2, Personal Access Tokens, and Workspace Access Tokens for authentication. The API includes endpoints for listing, retrieving, uploading, downloading recordings, and managing tags and shares.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.",
+    "mcp_available": "no",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with detailed authentication flows (OAuth2, Personal Access Token, Workspace Access Token), endpoint descriptions, request and response examples, and rate limits. This enables building integrations with Grain's API.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Grain provides an API for accessing and managing recordings, transcripts, users, teams, and hooks. It supports OAuth2, Personal Access Tokens, and Workspace Access Tokens for authentication. The API includes endpoints for listing, retrieving, uploading, downloading recordings, and managing tags and shares.",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Grain API Grain API Table of Contents Grain API Legacy Docs Authentication Personal Access Token Workspace Access Token OAuth2 Flow Diagram Step 1 Step 2 Step 3 Step 4 Step 5 Refresh Token Authenticating Calls Versions Rate Limits Endpoints OAuth2 Generate Token Refresh Token Recordings List Recordings Get Recording Get Recording Transcript (json) Get Recording Transcript (text formats) Download Recording Upload Recording Update Recording Add a Tag to a Recording Remove a Tag from a Recording Share Recording to an User Unshare Recording from an User Share Recording to a Team Unshare Recording from a Team Hooks Create Hook List Hooks Delete Hook Hook Payload Example Others List Users List Teams List Meeting Types Common Params Recording Filter Recording Include Highlight Include Hook Filter Common Responses Recording Highlight (aka Clip) Hook User Team Meeting Type AI Template Sections Legacy Docs If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "OAuth2 Flow This authentication method is for developers building integrations with Grain to be used by any Grain users. Requests authenticated with these tokens are considered as \\\" Personal API\\\" and will have the same level of access as the authenticated user has. The API supports a standard OAuth2 Authorization Code flow, including the PKCE extension for client-side only authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "To authenticate API calls, the client must add the following header: Authorization: Bearer TOKEN where TOKEN is either the access token obtained in the OAuth2 flow, a Personal Access Token or a Workspace Access Token.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "auth_methods",
+        "claim": "other",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Personal Access Token These tokens can be generated to grant access to the API in a per-user basis. Requests authenticated with these tokens are considered as \\\" Personal API\\\" and will have the same level of access as the user that generated the token has. PATs can be generated here: https://grain.com/app/settings/integrations?tab=api Workspace Access Token These tokens can be generated to grant access to the API for a general workspace use case. Requests authenticated with these tokens are considered as \\\"Workspace API\\\" and will have access to ALL DATA from your workspace. WAT's can be generated here, by users with access: https://grain.com/app/settings/integrations?tab=api",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "PATs can be generated here: https://grain.com/app/settings/integrations?tab=api Workspace Access Token These tokens can be generated to grant access to the API for a general workspace use case. Requests authenticated with these tokens are considered as \\\"Workspace API\\\" and will have access to ALL DATA from your workspace. WAT's can be generated here, by users with access: https://grain.com/app/settings/integrations?tab=api",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Grain API Grain API Table of Contents Grain API Legacy Docs Authentication Personal Access Token Workspace Access Token OAuth2 Flow Diagram Step 1 Step 2 Step 3 Step 4 Step 5 Refresh Token Authenticating Calls Versions Rate Limits Endpoints OAuth2 Generate Token Refresh Token Recordings List Recordings Get Recording Get Recording Transcript (json) Get Recording Transcript (text formats) Download Recording Upload Recording Update Recording Add a Tag to a Recording Remove a Tag from a Recording Share Recording to an User Unshare Recording from an User Share Recording to a Team Unshare Recording from a Team Hooks Create Hook List Hooks Delete Hook Hook Payload Example Others List Users List Teams List Meeting Types Common Params Recording Filter Recording Include Highlight Include Hook Filter Common Responses Recording Highlight (aka Clip) Hook User Team Meeting Type AI Template Sections Legacy Docs If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Endpoints API Domain is: https://api.grain.com OAuth2 Generate Token Endpoint POST /_/public-api/oauth2/token Params Param client_id Obtained separately in Step 1 client_secret required for server-side applications Obtained separately in Step 1 grant_type Must be authorization_code code String obtained in Step 4 code_verifier String sent as code_challenge in Step 2 Response Field Type Recording List Recordings Endpoint POST /_/public-api/v2/recordings Params Param Type cursor string Used to paginate through the list. filter object Recording Filter include object Recording Include Response Field Type cursor string * nullable Can be sent as a param to retrieve the next page of the list recordings object array List of Recordings",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "api_breadth",
+        "claim": "The API supports managing recordings (list, get, upload, download), transcripts (json and text formats), users, teams, meeting types, hooks, and sharing functionality. It includes OAuth2 authentication with PKCE, Personal Access Tokens, and Workspace Access Tokens. Rate limits and versioning are documented.",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Recordings List Recordings Endpoint POST /_/public-api/v2/recordings Params Param Type cursor string Used to paginate through the list. filter object Recording Filter include object Recording Include Response Field Type cursor string * nullable Can be sent as a param to retrieve the next page of the list recordings object array List of Recordings Example Request curl -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ --data '{\"filter\": {\"title_search\": \"hands\"}, \"include\": {\"participants\": true}}' \\ https://api.grain.com/_/public-api/v2/recordings Example Response { \"cursor\": \"ApJNWoNoBHcCdjJ3DWNocm9ub2xvZ2ljYWx3BGRlc2NoAm4HAO5FaSm2QgZuBwAVPC0qtkIG\", \"recordings\": [ { \"id\": \"pppp6666-qq77-rr88-ss99-tttt00000000\", \"title\": \"All Hands\", \"source\": \"zoom\", \"share_state\": \"public\", \"url\": \"https://grain.com/share/recording/pppp6666-qq77-rr88-ss99-tttt00000000\", \"media_type\": \"video\", \"tags\": [], \"start_datetime\": \"2025-01-01T09:30:00Z\", \"teams\": [ { \"id\": \"aaaa1111-bb22-cc33-dd44-eeee55555555\", \"name\": \"My Team\" } ], \"recorders\": [ { \"id\": \"kkkk1111-ll22-mm33-nn44-oooo55555555\", \"name\": \"Luke Skywalker\", \"email\": \"luke@example.com\", \"participant_id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\" } ], \"participants\": [ { \"id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\", \"name\": \"Luke Skywalker\", \"scope\": \"internal\", \"email\": \"luke@example.com\", \"confirmed_attendee\": true }, { \"id\": \"jjjj6666-kk77-ll88-mm99-nnnn00000000\", \"name\": \"Han Solo\", \"scope\": \"internal\", \"email\": \"solo@example.com\", \"confirmed_attendee\": false } ], \"end_datetime\": \"2025-01-01T10:00:00Z\", \"duration_ms\": 1800000, \"thumbnail_url\": \"https://media.grain.com/public_thumbnails/recordings/pppp6666\", \"meeting_type\": { \"id\": \"ffff6666-gg77-hh88-ii99-jjjj00000000\", \"name\": \"Project & Team Coordination\", \"scope\": \"internal\" } } ] }",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_available",
+        "claim": "no",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "Grain API Grain API Table of Contents Grain API Legacy Docs Authentication Personal Access Token Workspace Access Token OAuth2 Flow Diagram Step 1 Step 2 Step 3 Step 4 Step 5 Refresh Token Authenticating Calls Versions Rate Limits Endpoints OAuth2 Generate Token Refresh Token Recordings List Recordings Get Recording Get Recording Transcript (json) Get Recording Transcript (text formats) Download Recording Upload Recording Update Recording Add a Tag to a Recording Remove a Tag from a Recording Share Recording to an User Unshare Recording from an User Share Recording to a Team Unshare Recording from a Team Hooks Create Hook List Hooks Delete Hook Hook Payload Example Others List Users List Teams List Meeting Types Common Params Recording Filter Recording Include Highlight Include Hook Filter Common Responses Recording Highlight (aka Clip) Hook User Team Meeting Type AI Template Sections Legacy Docs If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.grain.com/",
+        "final_url": "https://developers.grain.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+        "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+        "quote": "The API is well documented with detailed authentication flows (OAuth2, Personal Access Token, Workspace Access Token), endpoint descriptions, request and response examples, and rate limits. This enables building integrations with Grain's API.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:26:04.934220+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.grain.com/",
+      "final_url": "https://developers.grain.com/",
+      "retrieved_at": "2026-09-16T17:26:03.722212+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Grain API Grain API Table of Contents Grain API Legacy Docs Authentication Personal Access Token Workspace Access Token OAuth2 Flow Diagram Step 1 Step 2 Step 3 Step 4 Step 5 Refresh Token Authenticating Calls Versions Rate Limits Endpoints OAuth2 Generate Token Refresh Token Recordings List Recordings Get Recording Get Recording Transcript (json) Get Recording Transcript (text formats) Download Recording Upload Recording Update Recording Add a Tag to a Recording Remove a Tag from a Recording Share Recording to an User Unshare Recording from an User Share Recording to a Team Unshare Recording from a Team Hooks Create Hook List Hooks Delete Hook Hook Payload Example Others List Users List Teams List Meeting Types Common Params Recording Filter Recording Include Highlight Include Hook Filter Common Responses Recording Highlight (aka Clip) Hook User Team Meeting Type AI Template Sections Legacy Docs If you were part of the API Beta you can find the legacy docs here: (V1) Personal API Docs (V1) Workspace API Docs Please be aware that v1 will be sunset and some features won't be translated to v2. As such, we don't recommend usage of v1 anymore. Authentication Personal Access Token These tokens can be generated to grant access to the API in a per-user basis. Requests authenticated with these tokens are considered as \" Personal API\" and will have the same level of access as the user that generated the token has. PATs can be generated here: https://grain.com/app/settings/integrations?tab=api Workspace Access Token These tokens can be generated to grant access to the API for a general workspace use case. Requests authenticated with these tokens are considered as \"Workspace API\" and will have access to ALL DATA from your workspace. WAT's can be generated here, by users with access: https://grain.com/app/settings/integrations?tab=api OAuth2 Flow This authentication method is for developers building integrations with Grain to be used by any Grain users. Requests authenticated with these tokens are considered as \" Personal API\" and will have the same level of access as the authenticated user has. The API supports a standard OAuth2 Authorization Code flow, including the PKCE extension for client-side only authentication. A redirect URI prefix is required to register a new client. For browser-based client applications, a list of CORS origins can also be added. Diagram sequenceDiagram participant you as You actor user as User participant grain as Grain Note right of you: Step 1 you-->>grain: Request Client ID & Secret (manually) grain-->>you: Client ID & Secret Note right of you: Step 2 user->>you: Requests OAuth you->>user: Open or Redirects to oauth2/authorize user->>grain: oauth2/authorize Note left of grain: Step 3 grain->>user: Requests login user->>grain: Login grain->>user: Requests Confirm OAuth user->>grain: Confirms Note left of grain: Step 4 grain->>user: Redirects to redirect_uri w/code user->>you: redirect_uri w/code Note right of you: Step 5 you->>grain: POST oauth2/token w/code grain->>you: access_token & refresh_token Note right of you: Refresh you->>grain: POST oauth2/token w/refresh_token grain->>you: access_token & refresh_token Step 1 Obtain the client_id and client_secret (only for server-side applications) credentials. Step 2 Open the url https://grain.com/_/public-api/oauth2/authorize with the following query params. Param client_id Obtained separately in Step 1 redirect_uri Must be prefixed by the registered URI prefix response_type Must be code code_challenge A random string, hashed with SHA256 and base64 URL encoded code_challenge_method Must be S256 Step 3 If the user is not already signed in to Grain, they will be prompted to sign in. After being authenticated, the user will be prompted to confirm the OAuth2 connection. Step 4 The user will be redirected to redirect_uri from Step 2 with the code query param. Step 5 Make a POST request to generate the token. See OAuth2 Generate Token Refresh Token After the access_token has expired, you may generate a new one. See OAuth2 Refresh Token Authenticating Calls To authenticate API calls, the client must add the following header: Authorization: Bearer TOKEN where TOKEN is either the access token obtained in the OAuth2 flow, a Personal Access Token or a Workspace Access Token. Versions In addition to the authorization header, you must also include a Public-Api-Version header: Public-Api-Version: VERSION Versions in the Grain-API will be used to introduce and/or deprecate fields. Below is a list of supported versions: Versions 2025-10-31 * current version Rate Limits Grain allows a total of 300 requests per minute. Any requests beyond that limit will return a 429 Too Many Requests Additionally we also return the following headers with every request: Header x-ratelimit-limit Max number of requests allowed per window. (300/min) x-ratelimit-remaining Number of requests remaining in the current window. Retry-After * only added if the request exceeded the limit Number of seconds you must wait before submitting another request. Endpoints API Domain is: https://api.grain.com OAuth2 Generate Token Endpoint POST /_/public-api/oauth2/token Params Param client_id Obtained separately in Step 1 client_secret required for server-side applications Obtained separately in Step 1 grant_type Must be authorization_code code String obtained in Step 4 code_verifier String sent as code_challenge in Step 2 Response Field token_type Always bearer access_token Token to be used in the Authorization header refresh_token Token to be used to refresh the access_token (See Refresh Token ) expires_in Denotes how many seconds the access_token will live for after its generation. Note : Some legacy clients do not return refresh_token nor expires_in . For these cases the access_token does not expire. Example Request curl -X POST \\ -H 'Content-Type: application/json' \\ --data '{\"grant_type\": \"authorization_code\", \"code\": \"CODE\", \"client_id\": \"CLIENT_ID\", \"client_secret\": \"CLIENT_SECRET\"}' \\ https://api.grain.com/_/public-api/oauth2/token Example Response { \"token_type\": \"bearer\", \"access_token\": \"aaaaa33333EEEEENNNNNoooooKKKKK33333lllll\", \"refresh_token\": \"IIIIIQQQQQxxxxx4444422222CCCCCoooooWWWWW\", \"expires_in\": 3600 } Refresh Token Endpoint POST /_/public-api/oauth2/token Params Param client_id Obtained separately in Step 1 client_secret required for server-side applications Obtained separately in Step 1 grant_type Must be refresh_token refresh_token Obtained when generating or refreshing an access_token Response Field token_type Always bearer access_token Token to be used in the Authorization header refresh_token Token to be used to re-refresh the access_token expires_in Denotes how many seconds the access_token will live for after its generation. Example Request curl -X POST \\ -H 'Content-Type: application/json' \\ --data '{\"grant_type\": \"refresh_token\", \"refresh_token\": \"IIIIIQQQQQxxxxx4444422222CCCCCoooooWWWWW\", \"client_id\": \"CLIENT_ID\", \"client_secret\": \"CLIENT_SECRET\"}' \\ https://api.grain.com/_/public-api/oauth2/token Example Response { \"token_type\": \"bearer\", \"access_token\": \"bbbbb44444FFFFFOOOOOpppppLLLLL44444mmmmm\", \"refresh_token\": \"JJJJJRRRRRyyyyy5555533333DDDDDpppppXXXXX\", \"expires_in\": 3600 } Recordings List Recordings Endpoint POST /_/public-api/v2/recordings Params Param Type cursor string Used to paginate through the list. filter object Recording Filter include object Recording Include Response Field Type cursor string * nullable Can be sent as a param to retrieve the next page of the list recordings object array List of Recordings Example Request curl -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ --data '{\"filter\": {\"title_search\": \"hands\"}, \"include\": {\"participants\": true}}' \\ https://api.grain.com/_/public-api/v2/recordings Example Response { \"cursor\": \"ApJNWoNoBHcCdjJ3DWNocm9ub2xvZ2ljYWx3BGRlc2NoAm4HAO5FaSm2QgZuBwAVPC0qtkIG\", \"recordings\": [ { \"id\": \"pppp6666-qq77-rr88-ss99-tttt00000000\", \"title\": \"All Hands\", \"source\": \"zoom\", \"share_state\": \"public\", \"url\": \"https://grain.com/share/recording/pppp6666-qq77-rr88-ss99-tttt00000000\", \"media_type\": \"video\", \"tags\": [], \"start_datetime\": \"2025-01-01T09:30:00Z\", \"teams\": [ { \"id\": \"aaaa1111-bb22-cc33-dd44-eeee55555555\", \"name\": \"My Team\" } ], \"recorders\": [ { \"id\": \"kkkk1111-ll22-mm33-nn44-oooo55555555\", \"name\": \"Luke Skywalker\", \"email\": \"luke@example.com\", \"participant_id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\" } ], \"participants\": [ { \"id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\", \"name\": \"Luke Skywalker\", \"scope\": \"internal\", \"email\": \"luke@example.com\", \"confirmed_attendee\": true }, { \"id\": \"jjjj6666-kk77-ll88-mm99-nnnn00000000\", \"name\": \"Han Solo\", \"scope\": \"internal\", \"email\": \"solo@example.com\", \"confirmed_attendee\": false } ], \"end_datetime\": \"2025-01-01T10:00:00Z\", \"duration_ms\": 1800000, \"thumbnail_url\": \"https://media.grain.com/public_thumbnails/recordings/pppp6666\", \"meeting_type\": { \"id\": \"ffff6666-gg77-hh88-ii99-jjjj00000000\", \"name\": \"Project & Team Coordination\", \"scope\": \"internal\" } } ] } Get Recording Endpoint POST /_/public-api/v2/recordings/:recording_id Params Param Type include object Recording Include Response Field Type Recording object Example Request curl -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ --data '{\"include\": {\"participants\": true, \"calendar_event\": true}}' \\ https://api.grain.com/_/public-api/v2/recordings/pppp6666-qq77-rr88-ss99-tttt00000000 Example Response { \"id\": \"pppp6666-qq77-rr88-ss99-tttt00000000\", \"title\": \"All Hands\", \"source\": \"zoom\", \"share_state\": \"public\", \"url\": \"https://grain.com/share/recording/pppp6666-qq77-rr88-ss99-tttt00000000\", \"media_type\": \"video\", \"tags\": [], \"start_datetime\": \"2025-01-01T09:30:00Z\", \"teams\": [ { \"id\": \"aaaa1111-bb22-cc33-dd44-eeee55555555\", \"name\": \"My Team\" } ], \"recorders\": [ { \"id\": \"kkkk1111-ll22-mm33-nn44-oooo55555555\", \"name\": \"Luke Skywalker\", \"email\": \"luke@example.com\", \"participant_id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\" } ], \"participants\": [ { \"id\": \"eeee1111-ff22-gg33-hh44-iiii55555555\", \"name\": \"Luke Skywalker\", \"scope\": \"internal\", \"email\": \"luke@example.com\", \"confirmed_attendee\": true }, { \"id\": \"jjjj6666-kk77-ll88-mm99-nnnn00000000\", \"name\": \"Han Solo\", \"scope\": \"internal\", \"email\": \"solo@example.com\", \"confirmed_attendee\": false } ], \"end_datetime\": \"2025-01-01T10:00:00Z\", \"duration_ms\": 1800000, \"thumbnail_url\": \"https://media.grain.com/public_thumbnails/recordings/pppp6666\", \"meeting_type\": { \"id\": \"ffff6666-gg77-hh88-ii99-jjjj00000000\", \"name\": \"Project & Team Coordination\", \"scope\": \"internal\" }, \"calendar_event\": { \"ical_uid\": \"meeting-abc123\", \"scheduled_start_datetime\": \"2025-01-01T09:00:00Z\", \"scheduled_end_datetime\": \"2025-01-01T10:00:00Z\" } } Get Recording Transcript (json) Endpoint GET /_/public-api/v2/recordings/:recording_id/transcript Params N/A Response Field Type participant_id UUID string * nullable id of the participant speaker string Name of the participant start integer Timestamp in ms from the recording of when this section started. end integer Timestamp in ms from the recording of when this section ended. text string Text of this transcript section. Example Request curl \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ https://api.grain.com/_/public-api/v2/recordings/pppp6666-qq77-rr88-ss99-tttt00000000/transcript Example Response [ { \"start\": 8000, \"text\": \"Hello there.\", \"end\": 9000, \"speaker\": \"Obi Wan Kenobi\", \"participant_id\": \"oooo1111-pp22-qq33-rr44-ssss55555555\" }, { \"start\": 11482, \"text\": \"General Kenobi...\", \"end\": 13000, \"speaker\": \"General Grievous\", \"participant_id\": \"yyyy1111-zz22-aabb-cc44-dddd55555555\" } ] Get Recording Transcript (text formats) Endpoint GET /_/public-api/v2/recordings/:recording_id/transcript.txt GET /_/public-api/v2/recordings/:recording_id/transcript.vtt GET /_/public-api/v2/recordings/:recording_id/transcript.srt Params N/A Response Transcript text Example Request curl \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ https://api.grain.com/_/public-api/v2/recordings/pppp6666-qq77-rr88-ss99-tttt00000000/transcript.txt Example Response Obi Wan Kenobi: Hello there. General Grievous: General Kenobi... Download Recording Endpoint GET /_/public-api/v2/recordings/:recording_id/download Params N/A Response Recording file Example Request curl \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ -L --output recording.mp4 \\ https://api.grain.com/_/public-api/v2/recordings/pppp6666-qq77-rr88-ss99-tttt00000000/download Example Response Recording file Upload Recording Supported formats : .mov .mp4 .mp3 .m4a Step 1: Generate Upload URL First a URL has to be generated to which you will be able to upload the file to. Endpoint : POST /_/public-api/v2/recordings/upload Params Param Type filename required string Name of the upload file user_id **Workspace API Only required UUID string User to own the recording. Obtained through List Users Response Field Type uuid UUID string id of the upload, will be present in the upload hooks if a upload_status hook exists url string url to upload the file to max_duration_sec integer Max duration in seconds the upload can be max_upload_bytes integer Max size in bytes the upload can be Example Request curl -X POST \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer TOKEN\" \\ -H \"Public-Api-Version: 2025-10-31\" \\ --data '{\"filename\": \"recording.mp4\"}' \\ https://api.grain.com/_/public-api/v2/recordings/upload Example Response { \"url\": \"https://example.com/generated_url\", \"uuid\": \"eeee-1f2g-3h4i-5j6k-7890-abcd2222\", \"max_duration_sec\": 10800, \"max_upload_bytes\": 4294967296 } Step 2: Upload the file Now the file can be uploaded to the generated url. Please note that even after the upload finishes Grain still",
+      "content_sha256": "579b373c8762804b698efda92230302eb33304cc74234b919e7bc361df11eb34",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4669,
+    "output_tokens": 3355
+  },
+  "failure": null
+}

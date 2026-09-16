@@ -1,0 +1,267 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 17,
+    "app_name": "Plain",
+    "category": "2. Support and Helpdesk",
+    "website": "http://plain.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "graphql"
+    ],
+    "api_breadth": "GraphQL API covering customers, companies, tenants, threads, messaging, tasks, knowledge gaps, webhooks, and more.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "graphql",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "GraphQL API Authentication Documentation Developer API Reference GraphQL API Introduction",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "GraphQL API covering customers, companies, tenants, threads, messaging, tasks, knowledge gaps, webhooks, and more.",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "Customers Companies Tenants Threads Tiers Events Labels Messaging Snippets Tasks Knowledge gaps Notes Webhook targets Discussions Help center Building your own ticket importer Attachments API explorer GraphQL SDK Building Agents Overview Machine users Searching knowledge Build a support agent Build an internal agent Agent integrations Overview MCP server Agent skill Cursor Webhooks Overview Webhook Versions Webhook events Webhooks SDK Channels Authentication Headless portal Custom channels Customer Cards Overview Create a customer card Protocol Playground Examples UI Components Overview Badge Container CopyButton Divider LinkButton WorkflowButton PlainText Row Spacer Text UI components SDK Security Request signing mTLS Changelog Changelog",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:18.213745+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 17,
+    "app_name": "Plain",
+    "category": "2. Support and Helpdesk",
+    "website": "http://plain.com/",
+    "description": "Plain provides a GraphQL API for support and helpdesk functionalities, including features like customers, companies, tenants, threads, messaging, and more. It supports building support agents and integrations.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "graphql"
+    ],
+    "api_breadth": "GraphQL API covering customers, companies, tenants, threads, messaging, tasks, knowledge gaps, webhooks, and more.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation describes creating machine users and API keys with fine-grained permissions, and using the API key as a Bearer token in the Authorization header for API calls, indicating the API is accessible and usable for building integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Plain provides a GraphQL API for support and helpdesk functionalities, including features like customers, companies, tenants, threads, messaging, and more. It supports building support agents and integrations.",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "GraphQL API Authentication Documentation Developer API Reference GraphQL API Introduction ... Customers Companies Tenants Threads Tiers Events Labels Messaging Snippets Tasks Knowledge gaps Notes Webhook targets Discussions Help center Building your own ticket importer Attachments API explorer GraphQL SDK Building Agents Overview Machine users Searching knowledge Build a support agent Build an internal agent Agent integrations Overview MCP server Agent skill Cursor Webhooks Overview Webhook Versions Webhook events Webhooks SDK Channels Authentication Headless portal Custom channels Customer Cards Overview Create a customer card Protocol Playground Examples UI Components Overview Badge Container CopyButton Divider LinkButton WorkflowButton PlainText Row Spacer Text UI components SDK Security Request signing mTLS Changelog Changelog GraphQL API Authentication Create a machine user and an API key, and scope it with fine-grained permissions.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "Once you\u00039ve made an API key you should copy it and put it somewhere safe, as you will not be able to see it again once you navigate away. 3 Go build things \u001f680 Now that you have an API key, pass it on any API call as a header: Authorization: Bearer plainApiKey_xxx",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "Create a machine user Go to Settings \u0012 Machine Users and click + Add Machine User ... A machine user has two fields: Name: visible only to you and could indicate the usage e.g. \u001cAutoresponder\u001d Public name: This is the name visible to customers (if the machine user interacts with customers) e.g. \u001cMr Robot\u001d 2 Create an API Key Click \u001cAdd API key\u001d and select the permissions you need. When making API calls, if you have insufficient permissions, the error should tell you which permissions you need. The relevant documentation will tell you which permissions are required for each feature.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "GraphQL API Authentication Documentation Developer API Reference GraphQL API Introduction ... Create a machine user and an API key, and scope it with fine-grained permissions. A machine user can have several API keys, so you can rotate them without downtime. Each API key carries its own fine-grained permissions.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "graphql",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "GraphQL API Authentication Documentation Developer API Reference GraphQL API Introduction",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "GraphQL API covering customers, companies, tenants, threads, messaging, tasks, knowledge gaps, webhooks, and more.",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "Customers Companies Tenants Threads Tiers Events Labels Messaging Snippets Tasks Knowledge gaps Notes Webhook targets Discussions Help center Building your own ticket importer Attachments API explorer GraphQL SDK Building Agents Overview Machine users Searching knowledge Build a support agent Build an internal agent Agent integrations Overview MCP server Agent skill Cursor Webhooks Overview Webhook Versions Webhook events Webhooks SDK Channels Authentication Headless portal Custom channels Customer Cards Overview Create a customer card Protocol Playground Examples UI Components Overview Badge Container CopyButton Divider LinkButton WorkflowButton PlainText Row Spacer Text UI components SDK Security Request signing mTLS Changelog Changelog",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+        "final_url": "https://www.plain.com/docs/graphql/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+        "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+        "quote": "Create a machine user Go to Settings \u0012 Machine Users and click + Add Machine User ... 2 Create an API Key Click \u001cAdd API key\u001d and select the permissions you need. ... Now that you have an API key, pass it on any API call as a header: Authorization: Bearer plainApiKey_xxx",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:03.769779+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+      "final_url": "https://www.plain.com/docs/graphql/authentication",
+      "retrieved_at": "2026-09-16T17:16:59.673414+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication - Plain Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content Plain Docs home page Search... ⌘ K Help Center Changelog Blog Search... Navigation GraphQL API Authentication Documentation Developer API Reference GraphQL API Introduction Authentication Schema Pagination Error handling Error codes Customers Companies Tenants Threads Tiers Events Labels Messaging Snippets Tasks Knowledge gaps Notes Webhook targets Discussions Help center Building your own ticket importer Attachments API explorer GraphQL SDK Building Agents Overview Machine users Searching knowledge Build a support agent Build an internal agent Agent integrations Overview MCP server Agent skill Cursor Webhooks Overview Webhook Versions Webhook events Webhooks SDK Channels Authentication Headless portal Custom channels Customer Cards Overview Create a customer card Protocol Playground Examples UI Components Overview Badge Container CopyButton Divider LinkButton WorkflowButton PlainText Row Spacer Text UI components SDK Security Request signing mTLS Changelog Changelog GraphQL API Authentication Create a machine user and an API key, and scope it with fine-grained permissions. A machine user can have several API keys, so you can rotate them without downtime. Each API key carries its own fine-grained permissions. 1 Create a machine user Go to Settings → Machine Users and click + Add Machine User A machine user has two fields: Name: visible only to you and could indicate the usage e.g. “Autoresponder” Public name: This is the name visible to customers (if the machine user interacts with customers) e.g. “Mr Robot” 2 Create an API Key Click “Add API key” and select the permissions you need. When making API calls, if you have insufficient permissions, the error should tell you which permissions you need. The relevant documentation will tell you which permissions are required for each feature. Once you’ve made an API key you should copy it and put it somewhere safe, as you will not be able to see it again once you navigate away. 3 Go build things 🚀 Now that you have an API key, pass it on any API call as a header: Authorization: Bearer plainApiKey_xxx Was this page helpful? Yes No Introduction Schema twitter linkedin github Powered by This documentation is built and hosted on Mintlify, a developer documentation platform",
+      "content_sha256": "7c5c11b35a15fa6d38cea1f916f417d5de3b06b19e9a7bcfa41a96814473eb9e",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://www.plain.com/docs/api-reference/graphql/overview",
+      "final_url": "https://www.plain.com/docs/api-reference/graphql/overview",
+      "retrieved_at": "2026-09-16T17:17:01.488020+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1515,
+    "output_tokens": 1851
+  },
+  "failure": null
+}

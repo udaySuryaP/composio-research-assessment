@@ -1,0 +1,4734 @@
+[
+  {
+    "id": 1,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "flags": [
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "flags": [
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "unclear_claim_support",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "auth_methods"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "api_types"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "flags": [
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "flags": [
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "description"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "description"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "mixed_none_auth",
+        "field": "auth_methods"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "flags": [
+      {
+        "code": "unclear_claim_support",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "auth_methods"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "api_types"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "flags": [
+      {
+        "code": "provenance_mismatch",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "auth_methods"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "access_model"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "buildability"
+      },
+      {
+        "code": "provenance_mismatch",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "auth_methods"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "auth_methods"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "api_types"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "mixed_unknown_enum",
+        "field": "api_types"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "description"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "nonofficial_critical_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "raw_identity_mismatch",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "flags": [
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "flags": [
+      {
+        "code": "no_usable_official_source",
+        "field": null
+      },
+      {
+        "code": "low_confidence",
+        "field": null
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "description"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "description"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "api_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_breadth"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_available"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "auth_methods"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_breadth"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_available"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "flags": [
+      {
+        "code": "quote_not_found",
+        "field": "auth_methods"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "access_model"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "api_types"
+      },
+      {
+        "code": "quote_not_found",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "access_model"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "api_types"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "mcp_notes"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "primary_blocker"
+      },
+      {
+        "code": "missing_field_evidence",
+        "field": "buildability_rationale"
+      },
+      {
+        "code": "negative_without_explicit_evidence",
+        "field": "mcp_available"
+      }
+    ]
+  }
+]

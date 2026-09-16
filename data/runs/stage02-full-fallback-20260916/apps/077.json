@@ -1,0 +1,302 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 77,
+    "app_name": "ClickUp",
+    "category": "8. Productivity and Project Management",
+    "website": "http://clickup.com/api",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "ClickUp provides an official MCP server with setup instructions and supported tools.",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API supports personal tokens and OAuth2 for authentication.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "MCP ClickUp's MCP Server MCP Server Setup Instructions Supported Tools",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "ClickUp provides an official MCP server with setup instructions and supported tools.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "MCP ClickUp's MCP Server MCP Server Setup Instructions Supported Tools",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "mixed_unknown_enum",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:24:12.322894+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 77,
+    "app_name": "ClickUp",
+    "category": "8. Productivity and Project Management",
+    "website": "http://clickup.com/api",
+    "description": "ClickUp provides a productivity and project management platform with API access for tasks, views, comments, docs, webhooks, automation, goals, and more. The API supports personal tokens and OAuth2 for authentication, enabling access to user and workspace resources.",
+    "auth_methods": [
+      "api_key",
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "unknown"
+    ],
+    "api_breadth": "The API covers tasks, attachments, custom fields, views, comments, docs, webhooks, automation, goals, and more, with endpoints documented in OpenAPI format.",
+    "mcp_available": "official",
+    "mcp_notes": "ClickUp provides an official MCP server with setup instructions and supported tools.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with OpenAPI specs, supports personal API tokens and OAuth2 authentication, and offers an official MCP server, enabling building integrations and apps.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "ClickUp provides a productivity and project management platform with API access for tasks, views, comments, docs, webhooks, automation, goals, and more. The API supports personal tokens and OAuth2 for authentication, enabling access to user and workspace resources.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Tasks Tasks Attachments Move a task to a new List Custom Task Types Custom Fields Custom Fields Filter tasks using Custom Fields Range operator with Custom Fields Views Views Filter Views Communication Comments Chat Comment formatting Task comments pagination Docs Docs API limitation Webhooks Webhooks Webhook signature Webhook health status Space webhook payloads Folder webhook payloads List webhook payloads Task webhook payloads Automation Call webhook Goal and Target webhook Automation Call webhook Legacy payload FAQ Frequently asked questions Common Errors Authentication Authenticate to the ClickUp API using a personal token or OAuth.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API supports personal tokens and OAuth2 for authentication.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your requests.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Generate or regenerate a Personal API Token Log in to ClickUp. In the upper-right corner, click your avatar. Select Settings . In the sidebar, click Apps . Or click here to go directly to your settings. Under API Token , click Generate or Regenerate . Note You'll need to sign in to your ClickUp account in order to generate or regenerate a token. Personal tokens never expire.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Try the API in your web browser General ClickUp API v2 and v3 Terminology Rate Limits API availability by Plan Date formatting OpenAPI Specification",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers tasks, attachments, custom fields, views, comments, docs, webhooks, automation, goals, and more, with endpoints documented in OpenAPI format.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Tasks Tasks Attachments Move a task to a new List Custom Task Types Custom Fields Custom Fields Filter tasks using Custom Fields Range operator with Custom Fields Views Views Filter Views Communication Comments Chat Comment formatting Task comments pagination Docs Docs API limitation Webhooks Webhooks Webhook signature Webhook health status Space webhook payloads Folder webhook payloads List webhook payloads Task webhook payloads Automation Call webhook Goal and Target webhook Automation Call webhook Legacy payload FAQ Frequently asked questions Common Errors",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "MCP ClickUp's MCP Server MCP Server Setup Instructions Supported Tools",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "ClickUp provides an official MCP server with setup instructions and supported tools.",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "MCP ClickUp's MCP Server MCP Server Setup Instructions Supported Tools",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.clickup.com/docs/authentication",
+        "final_url": "https://developer.clickup.com/docs/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+        "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+        "quote": "Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:23:53.435879+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "mixed_unknown_enum",
+      "field": "api_types"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "api_types",
+    "buildability_rationale",
+    "description",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.clickup.com/docs/authentication",
+      "final_url": "https://developer.clickup.com/docs/authentication",
+      "retrieved_at": "2026-09-16T17:23:53.121591+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication For AI agents: visit https://developer.clickup.com/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version. Jump to Content Home Guides API Docs Guides Jump to Content Home Guides API Docs Authentication Getting Started Authentication Try the API in your web browser General ClickUp API v2 and v3 Terminology Rate Limits API availability by Plan Date formatting OpenAPI Specification MCP ClickUp's MCP Server MCP Server Setup Instructions Supported Tools Tasks Tasks Attachments Move a task to a new List Custom Task Types Custom Fields Custom Fields Filter tasks using Custom Fields Range operator with Custom Fields Views Views Filter Views Communication Comments Chat Comment formatting Task comments pagination Docs Docs API limitation Webhooks Webhooks Webhook signature Webhook health status Space webhook payloads Folder webhook payloads List webhook payloads Task webhook payloads Automation Call webhook payload Goal and Target webhook payloads Automation Call webhook Legacy payload FAQ Frequently asked questions Common Errors Authentication Authenticate to the ClickUp API using a personal token or OAuth. Authentication To use the ClickUp API, you must authenticate every request. For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow , allowing users to authorize Workspaces for your app. Include the token in the Authorization header of your requests. Both methods ensure that you and your users only have access to the information permitted by ClickUp. 👍 View the OAuth endpoints. Personal Token Use a personal API token for individual or testing purposes. Personal tokens begin with pk_ . Add the token to the header: Authorization: {personal_token} . This is also needed to use the Try-It feature in the API docs. Generate or regenerate a Personal API Token Log in to ClickUp. In the upper-right corner, click your avatar. Select Settings . In the sidebar, click Apps . Or click here to go directly to your settings. Under API Token , click Generate or Regenerate . 👀 Note You'll need to sign in to your ClickUp account in order to generate or regenerate a token. Click Copy to copy the personal token to your clipboard. Personal tokens never expire. Build Apps for others - OAuth Flow To allow others to use your app, implement the OAuth2 flow so each user has their own token for accessing their ClickUp resources. OAuth resources and specs: Authentication: OAuth 2.0 Grant Type: Authorization Code . Learn more . Authorization URL: https://app.clickup.com/api Access Token URL: https://api.clickup.com/api/v2/oauth/token 👀 Note ClickUp uses the authorization code grant type . Use your personal API key to use the Try-It feature in the API docs. Step 1: Create an OAuth app Only Workspace owners or admins can create OAuth apps. Log in to ClickUp. In the upper-right corner, click your avatar. Select Settings . In the sidebar, click Apps . Click Create new app . Name the app and add a redirect URL . You'll receive a client_id and secret . Step 2: Retrieve an Authorization Code Send users to this URL to connect their ClickUp account: https://app.clickup.com/api?client_id={client_id}&redirect_uri={redirect_uri} You can also add a state parameter: https://app.clickup.com/api?client_id={client_id}&redirect_uri={redirect_uri}&state={state} 👀 Note Non-SSL redirect URIs may not be supported in the future. Users will be redirected back to the redirect_uri with the authorization code after logging in. Select Workspaces Users can authorize one or more Workspaces. Use the Get Authorized Teams (Workspaces) endpoint to see which Workspaces are authorized. Redirect users to the authorization URL to modify Workspace permissions. Step 3: Request a Token Use the Get Access Token endpoint with client_id , client_secret , and code to get the access token. This token is used in the Authorization: Bearer {access_token} header for all API requests made on behalf of the user. The access token currently does not expire. This is subject to change. Learn more about OAuth: OAuth.net OAuth Simplified Digital Ocean Intro to OAuth 2.0 Updated 6 months ago Try the API in your web browser Did this page help you? Yes No Copy Page Authentication Personal Token Generate or regenerate a Personal API Token Build Apps for others - OAuth Flow Step 1: Create an OAuth app Step 2: Retrieve an Authorization Code Step 3: Request a Token © 2026 ClickUp Security Your Privacy Terms",
+      "content_sha256": "31065d1a2864ce28a917b1bd6ec532a4b0bcf0d98b87610fe426d9a6c38e1710",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1978,
+    "output_tokens": 1993
+  },
+  "failure": null
+}

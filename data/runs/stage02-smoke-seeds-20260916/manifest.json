@@ -1,0 +1,47 @@
+{
+  "run_id": "stage02-smoke-seeds-20260916",
+  "started_at": "2026-09-16T17:13:33.143143+00:00",
+  "status": "frozen",
+  "mode": "smoke",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "transport": "stdlib urllib Chat Completions",
+  "bounds": {
+    "workers": 3,
+    "searches_per_app": 2,
+    "pages_per_app": 4,
+    "page_chars": 14000,
+    "total_input_chars": 42000,
+    "retrieval_timeout": 20,
+    "model_timeout": 90,
+    "retries": 1,
+    "response_bytes": 2000000
+  },
+  "selected_action": null,
+  "fallback": true,
+  "input_sha256": "182098e4cccdf7e617800d199b52ccfdd921f527d03919ae59a125138c1a6656",
+  "prompt_sha256": "c1b2617e6641328cf653670dc5528b60b7e5b64b84d79bfa94213d57124ea86e",
+  "schema_sha256": "bb92ad678759d41c4cea29603b3ad1d657db97ce3f4d1442f2324915ef90185c",
+  "finished_at": "2026-09-16T17:14:04.905325+00:00",
+  "accounted_for": 4,
+  "metrics": {
+    "model_requests": 4,
+    "failed_model_requests": 0,
+    "input_tokens": 14323,
+    "output_tokens": 6914
+  },
+  "search_calls": 0,
+  "retrieved_pages": 7,
+  "successful_pages": 5,
+  "failed_pages": 2,
+  "official_pages": 5,
+  "evidence_objects": 6,
+  "flag_counts": {
+    "no_usable_official_source": 1,
+    "failed_or_missing_retrieval": 4,
+    "missing_field_evidence": 36,
+    "quote_not_found": 18
+  },
+  "hard_failures": 0,
+  "partial_unknown": 4,
+  "successful_records": 0
+}

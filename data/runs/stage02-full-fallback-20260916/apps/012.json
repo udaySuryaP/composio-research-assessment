@@ -1,0 +1,277 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 12,
+    "app_name": "Intercom",
+    "category": "2. Support and Helpdesk",
+    "website": "http://intercom.com/",
+    "description": "Intercom provides a platform for customer communication including support and helpdesk functionalities, allowing private and public app integrations via API.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Intercom offers a REST API for accessing and managing customer data, supporting private apps with Access Tokens and public apps with OAuth.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Intercom provides a platform for customer communication including support and helpdesk functionalities, allowing private and public app integrations via API.",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "Once you have a token, whether an access token or a token via the OAuth process, simply provide it as an Authorization:Bearer header in your requests",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "You can find your Access Token in the Configure > Authentication section in your app within the Developer Hub . It is also visible on the Test & Publish > Your Workspaces page. This displays workspaces that have the app installed.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "$ curl \\ -s https://api.intercom.io/users/5321a20f72cdbb4192000013 \\ -H 'Authorization:Bearer <access_token>' \\ -H 'Accept:application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "Intercom offers a REST API for accessing and managing customer data, supporting private apps with Access Tokens and public apps with OAuth.",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence"
+    ],
+    "researched_at": "2026-09-16T17:16:46.720384+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 12,
+    "app_name": "Intercom",
+    "category": "2. Support and Helpdesk",
+    "website": "http://intercom.com/",
+    "description": "Intercom provides a platform for customer communication including support and helpdesk functionalities, allowing private and public app integrations via API.",
+    "auth_methods": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Intercom offers a REST API for accessing and managing customer data, supporting private apps with Access Tokens and public apps with OAuth.",
+    "mcp_available": "unknown",
+    "mcp_notes": "No explicit evidence found regarding a Marketplace or Community Platform (MCP).",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Intercom provides official REST API documentation with clear authentication methods (Access Tokens for private apps and OAuth for public apps), and example usage, enabling developers to build integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Intercom provides a platform for customer communication including support and helpdesk functionalities, allowing private and public app integrations via API.",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "Once you have a token, whether an access token or a token via the OAuth process, simply provide it as an Authorization:Bearer header in your requests",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "You can find your Access Token in the Configure > Authentication section in your app within the Developer Hub . It is also visible on the Test & Publish > Your Workspaces page. This displays workspaces that have the app installed.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "$ curl \\ -s https://api.intercom.io/users/5321a20f72cdbb4192000013 \\ -H 'Authorization:Bearer <access_token>' \\ -H 'Accept:application/json'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "Intercom offers a REST API for accessing and managing customer data, supporting private apps with Access Tokens and public apps with OAuth.",
+        "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+        "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+        "quote": "To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:34.491725+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "retrieved_at": "2026-09-16T17:16:31.811906+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication | Intercom and Fin Developer Platform Skip to content Installation Docs API Reference Developer Hub App Store Search CMD+K Version: All versions No results This is version picker select, using it you can select a version of the API. Get Started Overview Set up a Workspace Authentication Build an App Build a Messenger App Build an App using Sheets Build an Inbox App Developer Guides Messenger Inbox Contacts Tickets Help Center Reporting Using the APIs Webhooks Fin Agent API News Center Domains Model Context Protocol (MCP) References Object Model REST API Reference Canvas Kit Reference Webhook Topics Public Apps & App Store Configure OAuth Build and Publish Apps App Store Guidelines Home / Authentication Authentication Copy To access the Intercom API, you have two authentication options depending on whether you app is public or private. An Access Token is for if you're using the API to access data in your own Intercom workspace, in other words, building a private app. OAuth is for if you're building a public app that accesses other people's Intercom data. Access Tokens Access Tokens can be used for the following cases: You want to use the API to build a private Intercom app You want to run scripts to create or get data from your Intercom workspace You want to use the API to programmatically automate certain actions in your Intercom workspace In all of these cases, the data you are accessing is your own team's customer data. How to get your Access Token We provide you with an Access Token as soon as you create an app on your workspace. You can find your Access Token in the Configure > Authentication section in your app within the Developer Hub . It is also visible on the Test & Publish > Your Workspaces page. This displays workspaces that have the app installed. More about how this works can be found in the Installing & Uninstalling Apps guide . Never give your Access Token to a third-party Your Access Token can give access to your private Intercom data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens. OAuth You should use OAuth if: You are requesting access to other people's Intercom accounts/data (for example, through an integration you've built) You currently ask people for their API Keys to request resources on their behalf You want to make it easier for your customers to share their customers' data with you Getting Started with OAuth To set up and test the OAuth installation flow in your development workspace by following this tutorial . Never ask users for their Access Token Asking your users for their Access Tokens rather than implementing OAuth is against our terms of service and may result in your API access being revoked. How to use the token Once you have a token, whether an access token or a token via the OAuth process, simply provide it as an Authorization:Bearer header in your requests, as shown below. If you want to go deeper on how the Authorization:Bearer header works please check out the full spec here . $ curl \\ -s https://api.intercom.io/users/5321a20f72cdbb4192000013 \\ -H 'Authorization:Bearer <access_token>' \\ -H 'Accept:application/json' Alternatively, helper functions are provided in some of our SDKs to authorize via Access Tokens. This means you don't need to specify the header explicitly - it's all done under the hood. intercom = Intercom :: Client . new ( token: '<access_token>' ); { \"token\" : '<access_token>' } var client = new Intercom. Client ({ token: '<access_token>' }); Was this page helpful? Set up a Workspace Previous page Build a Messenger App Next page On this page Access Tokens How to get your Access Token OAuth Getting Started with OAuth How to use the token Your privacy choices Privacy Policy © 2026 Intercom",
+      "content_sha256": "2ed05a7b551819b55c2f2e0b6de9439dd5c2b07f8bb87bdb86d28d5c5172e806",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1827,
+    "output_tokens": 1628
+  },
+  "failure": null
+}

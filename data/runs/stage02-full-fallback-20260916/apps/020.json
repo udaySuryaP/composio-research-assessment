@@ -1,0 +1,266 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 20,
+    "app_name": "Gladly",
+    "category": "2. Support and Helpdesk",
+    "website": "http://gladly.com/",
+    "description": "Gladly API provides a REST API and a Lookup API to facilitate customer service interactions by managing customer profile data, conversations, agents, public answers, and more. It enables seamless experiences by providing rich customer context and supports JSON payloads with consistent error handling.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Gladly API offers extensive REST endpoints including Agents, Public Answers, Conversations, Customers, Endpoints, Events, Export, Freeform Topics, Inboxes, Organization, Proactive Conversations, Reports, Tasks, Teams, User Identity, Topics, and Webhooks.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Gladly API provides a REST API and a Lookup API to facilitate customer service interactions by managing customer profile data, conversations, agents, public answers, and more. It enables seamless experiences by providing rich customer context and supports JSON payloads with consistent error handling.",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Gladly API Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Authentication REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download Introducing the Gladly API At Gladly, we believe that customer service is best when it's a conversation. That means more than just helping customers with one-off questions or issues: it's about making them feel known, valued, and respected for the individuals they are. The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. Overview You can integrate easily with Gladly by calling Gladly's REST API and implementing the Lookup API to provide data from your own services. Some examples of what you do through Gladly APIs include managing customer profile data, interacting with a customer's timeline, providing the latest information about a customer's orders, and more. REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Getting Started Think of this section as getting the keys to unlocking your access to the Gladly APIs. First, you'll need to set up an account with the necessary API permissions . With these permissions, you can then go on to create the API Token(s) you need to access Gladly's API resources . Permissions Gladly Administrators can set API permissions on an agent-by-agent basis. We'll discuss how this maps to API access in the section on authentication below. To allow a user to create API tokens and access the API: Log in to your Gladly instance. Open the menu on the top left-hand corner of the page. Navigate to Settings > *Users Search and click the user profile you wish to give access to. You'll see a permission called API User . Select it, while making sure to keep the user's Agent role intact. Hit Save to give access. We recommend creating a dedicated user to make API calls, whose account won't be used for agent and organization management. This will help you with any future audits of API activity vs. agent activity.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Gladly API Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Authentication REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download Introducing the Gladly API At Gladly, we believe that customer service is best when it's a conversation. That means more than just helping customers with one-off questions or issues: it's about making them feel known, valued, and respected for the individuals they are. The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. Overview You can integrate easily with Gladly by calling Gladly's REST API and implementing the Lookup API to provide data from your own services. Some examples of what you do through Gladly APIs include managing customer profile data, interacting with a customer's timeline, providing the latest information about a customer's orders, and more. REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Gladly API offers extensive REST endpoints including Agents, Public Answers, Conversations, Customers, Endpoints, Events, Export, Freeform Topics, Inboxes, Organization, Proactive Conversations, Reports, Tasks, Teams, User Identity, Topics, and Webhooks.",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:44.222054+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 20,
+    "app_name": "Gladly",
+    "category": "2. Support and Helpdesk",
+    "website": "http://gladly.com/",
+    "description": "Gladly API provides a REST API and a Lookup API to facilitate customer service interactions by managing customer profile data, conversations, agents, public answers, and more. It enables seamless experiences by providing rich customer context and supports JSON payloads with consistent error handling.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Gladly API offers extensive REST endpoints including Agents, Public Answers, Conversations, Customers, Endpoints, Events, Export, Freeform Topics, Inboxes, Organization, Proactive Conversations, Reports, Tasks, Teams, User Identity, Topics, and Webhooks.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Gladly provides detailed official REST API documentation with authentication instructions, endpoint descriptions, and examples, enabling developers to build integrations using token-based Basic Authentication and HTTPS.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Gladly API provides a REST API and a Lookup API to facilitate customer service interactions by managing customer profile data, conversations, agents, public answers, and more. It enables seamless experiences by providing rich customer context and supports JSON payloads with consistent error handling.",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Gladly API Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Authentication REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download Introducing the Gladly API At Gladly, we believe that customer service is best when it's a conversation. That means more than just helping customers with one-off questions or issues: it's about making them feel known, valued, and respected for the individuals they are. The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. Overview You can integrate easily with Gladly by calling Gladly's REST API and implementing the Lookup API to provide data from your own services. Some examples of what you do through Gladly APIs include managing customer profile data, interacting with a customer's timeline, providing the latest information about a customer's orders, and more. REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Authentication BasicAuth Gladly API uses token-based Basic Authentication . API tokens are associated with designated Gladly users. To create and use an API token, your user must have the API User permission. An API token can be used to perform any API request without restriction. user name password agent email API token The credentials must be passed via an Authorization HTTP header. All requests must be made over HTTPS. curl -u user@organization.com: $GLADLY_API_TOKEN \\\\ https://organization.gladly.com/api/v1/organization Security Scheme Type HTTP HTTP Authorization Scheme basic",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Getting Started Think of this section as getting the keys to unlocking your access to the Gladly APIs. First, you'll need to set up an account with the necessary API permissions . With these permissions, you can then go on to create the API Token(s) you need to access Gladly's API resources . Permissions Gladly Administrators can set API permissions on an agent-by-agent basis. We'll discuss how this maps to API access in the section on authentication below. To allow a user to create API tokens and access the API: Log in to your Gladly instance. Open the menu on the top left-hand corner of the page. Navigate to Settings > *Users Search and click the user profile you wish to give access to. You'll see a permission called API User . Select it, while making sure to keep the user's Agent role intact. Hit Save to give access. We recommend creating a dedicated user to make API calls, whose account won't be used for agent and organization management. This will help you with any future audits of API activity vs. agent activity.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Gladly API Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Authentication REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download Introducing the Gladly API At Gladly, we believe that customer service is best when it's a conversation. That means more than just helping customers with one-off questions or issues: it's about making them feel known, valued, and respected for the individuals they are. The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. Overview You can integrate easily with Gladly by calling Gladly's REST API and implementing the Lookup API to provide data from your own services. Some examples of what you do through Gladly APIs include managing customer profile data, interacting with a customer's timeline, providing the latest information about a customer's orders, and more. REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Gladly API offers extensive REST endpoints including Agents, Public Answers, Conversations, Customers, Endpoints, Events, Export, Freeform Topics, Inboxes, Organization, Proactive Conversations, Reports, Tasks, Teams, User Identity, Topics, and Webhooks.",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.gladly.com/rest/",
+        "final_url": "https://developer.gladly.com/rest/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+        "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+        "quote": "Authentication BasicAuth Gladly API uses token-based Basic Authentication . API tokens are associated with designated Gladly users. To create and use an API token, your user must have the API User permission. An API token can be used to perform any API request without restriction. user name password agent email API token The credentials must be passed via an Authorization HTTP header. All requests must be made over HTTPS. curl -u user@organization.com: $GLADLY_API_TOKEN \\\\ https://organization.gladly.com/api/v1/organization Security Scheme Type HTTP HTTP Authorization Scheme basic... Gladly provides detailed official REST API documentation with authentication instructions, endpoint descriptions, and examples, enabling developers to build integrations using token-based Basic Authentication and HTTPS.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:11.831719+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.gladly.com/rest/",
+      "final_url": "https://developer.gladly.com/rest/",
+      "retrieved_at": "2026-09-16T17:17:08.014692+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Gladly API Introducing the Gladly API Overview REST API Lookup API Testing Getting Started Permissions Creating API Tokens Replacing/Rotating API Tokens Authentication REST API Agents get List Agents get Get Agent get Get Agent CallRecorder patch Update Agent CallRecorder Public Answer get Search public answers get List public answers get List Help Center Answer Titles get Get public answer Answer Management get Get answers post Add answer get Get Answer patch Update Answer del Delete Answer get Get Answer Content put Add or Update Answer Content del Delete Answer Content Audiences get List Audiences Business Hours get List business hours post Create business hours get Get business hours put Update business hours del Delete business hours Communications post Send SMS post Send email Conversations Conversation Conversation Items get Get conversations for customer get Get conversation patch Update conversation post Create item get Get item del Delete item get Get media get Get voice transcript get Get attachment post Create item for customer del Delete item for customer get List items in conversation post Add Topics to Conversation del Delete Topic from Conversation post Add or Remove Freeform topic post Add note get Get note post Reply to message post Redact conversation item Customers post Create customer get Find customers get Get customer patch Update customer del Delete customer Endpoints get List Endpoints get Get Endpoint Events get List events Export get List schedules get List jobs get Get job del Delete job get Get file Freeform Topics get Get custom attribute Inboxes get List inboxes get Get inbox post Add or remove inbox agents Organization get Get organization Proactive Conversations post Create recipient collection for an existing proactive campaign Reports post Generate a report post Generate a work session report Tasks post Create task post Create task for customer get List tasks patch Update task get Get task post Add task comment get Get task comments get Get task comment Teams get List teams get Get team User Identity post Create a User Identity JWT Topics get List Topics post Add Topic get Get Topic patch Update Topic Webhooks post Create webhook get List webhooks patch Update webhook del Delete webhook get Get webhook Webhooks Summary Securing Webhooks Ping Event Retry Policy Logs Payloads Available Events Payloads post Events Lookup API Customer Lookup Resources Versioning URL Path Versioning Backwards Compatible Changes Non-Backwards Compatible Changes Error Handling Common Status Codes Programmatic Remediation Rate Limit Default Rate Limit Reporting API Rate Limit Handling Rate Limit Rich Content Launching Soon New Integrations New APIs Documentation Powered by ReDoc Gladly API ( 1.0 ) Download OpenAPI specification: Download Introducing the Gladly API At Gladly, we believe that customer service is best when it's a conversation. That means more than just helping customers with one-off questions or issues: it's about making them feel known, valued, and respected for the individuals they are. The Gladly API was built to help facilitate those relationships, providing agents with the rich customer context they need to deliver seamless experiences that make customers feel like they're more than just a number in a sea of others. Overview You can integrate easily with Gladly by calling Gladly's REST API and implementing the Lookup API to provide data from your own services. Some examples of what you do through Gladly APIs include managing customer profile data, interacting with a customer's timeline, providing the latest information about a customer's orders, and more. REST API Clients can access the REST API via HTTPS at your organization's Gladly domain (e.g. https://{organization}.gladly.com ). Resources follow REST semantics and utilize industry-standard HTTP verbs, response codes, and authentication schemes. In addition, all responses and payloads are in JSON with consistent error codes and formats. Lookup API The Gladly Lookup API allows your organization to provide data services to power the agent's experience with a complete view of your customers' information, transactions, and activity. You can provide a web service that implements the Lookup API and Gladly will call it when that data is needed. Like the REST API, the Lookup API is specified using REST semantics, and exchanges JSON requests and responses authenticated and signed with secure keys. Gladly will perform lookups when certain activities occur within Gladly, such as when a customer's profile is loaded. A detailed overview of Lookup Adaptor architecture, requests, resposnes and more can be found here . Testing Test the myriad possibilities of the Gladly API in a safe, secure space. We'll enable the Gladly API in a separate sandbox environment, so you can experiment freely without impacting your production environment (or vice versa). Your sandbox environment is accessible at https://{organization}.gladly.qa , where organization is your company name. For specific API endpoints, see documentation below. Getting Started Think of this section as getting the keys to unlocking your access to the Gladly APIs. First, you'll need to set up an account with the necessary API permissions . With these permissions, you can then go on to create the API Token(s) you need to access Gladly's API resources . Permissions Gladly Administrators can set API permissions on an agent-by-agent basis. We'll discuss how this maps to API access in the section on authentication below. To allow a user to create API tokens and access the API: Log in to your Gladly instance. Open the menu on the top left-hand corner of the page. Navigate to Settings > *Users Search and click the user profile you wish to give access to. You'll see a permission called API User . Select it, while making sure to keep the user's Agent role intact. Hit Save to give access. We recommend creating a dedicated user to make API calls, whose account won't be used for agent and organization management. This will help you with any future audits of API activity vs. agent activity. Creating API Tokens You must create an API token to access Gladly API resources (see above Permissions ). If your profile already has access to the API User permission, you'll see a menu item titled More settings . Click More settings : Click API Tokens , then the Create Token button on the upper right-hand corner of the page: A token will be generated and named, by default, New Token (though depending on whether you have existing tokens, it may be named New Token 2, or New Token 3, etc.). You can rename the token to something more easily referenceable by clicking the name to edit. This token will be associated with your agent profile, which we refer to as the API User in this document. For security purposes, you'll only see a new token once before you navigate away from the page. Replacing/Rotating API Tokens Should you lose this token, or wish to rotate your application keys, you can do the following: Generate a new token. Store the new token in a secure location. Delete the old token. Update your applications/scripts with the new token. Authentication BasicAuth Gladly API uses token-based Basic Authentication . API tokens are associated with designated Gladly users. To create and use an API token, your user must have the API User permission. An API token can be used to perform any API request without restriction. user name password agent email API token The credentials must be passed via an Authorization HTTP header. All requests must be made over HTTPS. curl -u user@organization.com: $GLADLY_API_TOKEN \\ https://organization.gladly.com/api/v1/organization Security Scheme Type HTTP HTTP Authorization Scheme basic Agents An Agent represents the user profile of a person who helps customers in Gladly. The API allows you to lookup Agents who participated in conversations with customers. List Agents Returns a list of agents. Responses 200 Agents get /api/v1/agents https://organization.gladly.com /api/v1/agents Response samples 200 Content type application/json Copy Expand all Collapse all [ { \"id\" : \"WmeA3Y51Q5ayCAaZ1AotIA\" , \"name\" : \"Amy Agent\" , \"emailAddress\" : \"amy.agent@company.com\" } ] Get Agent Get an agent profile by their unique id. path Parameters agentId required string Example: WmeA3Y51Q5ayCAaZ1AotIA id of the agent Responses 200 Agent get /api/v1/agents/{agentId} https://organization.gladly.com /api/v1/agents/{agentId} Response samples 200 Content type application/json Copy Expand all Collapse all { \"id\" : \"WmeA3Y51Q5ayCAaZ1AotIA\" , \"name\" : \"Amy Agent\" , \"emailAddress\" : \"amy.agent@company.com\" } Get Agent CallRecorder Get an agent call recording status. path Parameters agentId required string Example: WmeA3Y51Q5ayCAaZ1AotIA OR agent@customer.com Gladly ID or Gladly email address of the agent Responses 200 CallRecorder 404 Agent not found get /api/v1/agents/{agentId}/call-recorder https://organization.gladly.com /api/v1/agents/{agentId}/call-recorder Response samples 200 404 Content type application/json Copy Expand all Collapse all { \"agentId\" : \"WmeA3Y51Q5ayCAaZ1AotIA\" , \"customerId\" : \"ZcyobierQhucTS5GV1R2Fw\" , \"conversationItemId\" : \"g6UatsvAQC69AcDpOKF-yQ\" , \"recording\" : true } Update Agent CallRecorder Update an agent's active call recording status. This API allows changing the recording property. path Parameters agentId required string Example: WmeA3Y51Q5ayCAaZ1AotIA OR agent@customer.com Gladly ID or Gladly email address of the agent Request Body schema: application/json JSON patch of CallRecorder agentId string Id of the agent customerId string Id of the customer on the call, if the agent is on a call. If the agent is not on a call this is omitted conversationItemId string Id of the conversation item of the call, if the agent is on a call. If the agent is not on a call this is omitted recording boolean If the call is currently being recorded or not Responses 204 Call recording updated. If an agent is not on a call the update will do nothing. 404 Agent not found patch /api/v1/agents/{agentId}/call-recorder https://organization.gladly.com /api/v1/agents/{agentId}/call-recorder Request samples Payload Content type application/json Copy Expand all Collapse all { \"recording\" : false } Response samples 404 Content type application/json Copy Expand all Collapse all { \"errors\" : { \"code\" : \"not_exist\" , \"detail\" : \"agent WmeA3Y51Q5ayCAaZ1AotIA does not exist\" } } Public Answer A Public Answer in Gladly represents a consumer-facing Answer. The Public Answers API allows you to search and retrieve Public Answers (created directly in the Gladly UI), which you can display in the Chat web widget, use to build your website's help center/FAQ page, or publish on any page on your website. This API can be used without an API token because it only provides access to public content. You may also work with Gladly Support to enable CORS access so the API can be used directly from client-side javascript. How a user creates a public answer in Gladly How that answer is searched and displayed on the Chat Web widget Search public answers Returns a list of answers that match the provided query string. path Parameters orgId required string Example: ihKsWxiZCDVtXg1iwVmT9Q id of your organization You can look up the ID using the Get organization API. query Parameters q string Example: q=reset%20password search term lng string Example: lng=en-us language code audienceId string Example: audienceId=en-us Audience ID. The Audience ID can be retrieved by going to Settings > Audiences in Gladly, then clicking on the Edit button next to the Audience in question. The ID will be in the page URL. Responses 200 found answers get /api/v1/orgs/{orgId}/answers-search?q=search+terms https://organization.gladly.com /api/v1/orgs/{orgId}/answers-search?q=search+terms Response samples 200 Content type application/json Copy Expand all Collapse all [ { \"id\" : \"1grfSzATQLa334VDLCWc4A\" , \"name\" : \"How to reset your password\" } ] List public answers Returns the first 1000 public answers sorted alphabetically by name. path Parameters orgId required string Example: ihKsWxiZCDVtXg1iwVmT9Q id of your organization You can look up the ID using the Get organization API. query Parameters lng string Example: lng=es-419 Language of the answers returned Defaults to en-us audienceId string Example: audienceId=ihKsWxiZCDVtXg1iwVmT9Q Audience ID for answers returned - optional. The Audience ID can be retrieved by going to Settings > Audiences in Gladly, then clicking on the Edit button next to the Audience in question. The ID will be in the page URL. Responses 200 answers get /api/v1/orgs/{orgId}/answers?lng={lng}&audienceId={audienceId} https://organization.gladly.com /api/v1/orgs/{orgId}/answers?lng={lng}&audienceId={audienceId} Response samples 200 Content type application/json Copy Expand all Collapse all [ { \"id\" : \"1grfSzATQLa334VDLCWc4A\" , \"name\" : \"How to reset your password\" , \"bodyHtml\" : \"<div><a href=\\\"/reset-password\\\">Click here</a> to reset your password</div>\" , \"language\" : \"en-us\" , \"updatedAt\" : \"2023-05-22T10:00:00.000Z\" } ] List Help Center Answer Titles Returns an array of answers configured in Help Center sections with their ID and name path Parameters orgId required string Example: ihKsWxiZCDVtXg1iwVmT9Q id of your organization You can look up the ID using the Get organization API. helpCenterId required string Example: ihKsWxiZCDVtXg1iwVmT9Q Help Center ID You can look up the ID by going to Settings > Help Center in Gladly, then clicking on the 3 dots next to the Help Center and selecting Configure. Help Center ID will be in the URL query Parameters lng string Example: lng=es-419 Language of the answers returned Defaults to en-us audienceId string Example: audienceId=ihKsWxiZCDVtXg1iwVmT9Q Audience ID for answers returned - optional. The Audience ID can be retrieved by going to Settings > Audiences in Gladly, then clicking on the Edit button next to the Audie",
+      "content_sha256": "cf5feb5080c8d8a1b642acf6ae025243199b653cea9aaf52fcd0f3241a484537",
+      "error": null,
+      "status": 200,
+      "truncated_bytes": true
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4092,
+    "output_tokens": 3603
+  },
+  "failure": null
+}

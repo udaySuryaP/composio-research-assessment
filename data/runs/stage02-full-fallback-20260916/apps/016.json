@@ -1,0 +1,256 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 16,
+    "app_name": "LiveAgent",
+    "category": "2. Support and Helpdesk",
+    "website": "http://liveagent.com/",
+    "description": "LiveAgent is an integrated customer support software, ticketing system, live chat, social helpdesk and voice helpdesk. Based in cloud and accessible from everywhere, with SSL safety.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "LiveAgent is an integrated customer support software , ticketing system , live chat , social helpdesk and voice helpdesk . You name it, it's there. Based in cloud and accessible from everywhere, with SSL safety.",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "LiveAgent is an integrated customer support software , ticketing system , live chat , social helpdesk and voice helpdesk . You name it, it's there. Based in cloud and accessible from everywhere, with SSL safety.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "apikey",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "$service_url = 'https://example.com/api/conversations/[CONV_CODE]/messages&apikey=[API_KEY]'",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:02.410426+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 16,
+    "app_name": "LiveAgent",
+    "category": "2. Support and Helpdesk",
+    "website": "http://liveagent.com/",
+    "description": "LiveAgent is an integrated customer support software, ticketing system, live chat, social helpdesk and voice helpdesk. Based in cloud and accessible from everywhere, with SSL safety.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports standard REST operations including GET, POST, PUT, and DELETE for managing conversations, messages, and statuses.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation provides explicit examples of REST API calls using GET, POST, PUT, and DELETE methods with API key authentication, demonstrating the ability to build integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "LiveAgent is an integrated customer support software , ticketing system , live chat , social helpdesk and voice helpdesk . You name it, it's there. Based in cloud and accessible from everywhere, with SSL safety.",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "LiveAgent is an integrated customer support software , ticketing system , live chat , social helpdesk and voice helpdesk . You name it, it's there. Based in cloud and accessible from everywhere, with SSL safety.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "apikey",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "$service_url = 'https://example.com/api/conversations/[CONV_CODE]/messages&apikey=[API_KEY]'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "Example of calling GET request ... $service_url = 'https://example.com/api/conversations/[CONV_CODE]/messages&apikey=[API_KEY]'; ... Example of calling POST request ... $service_url = 'https://example.com/api/conversations'; ... $curl_post_data = array( ... 'apikey' => 'key001' ); ... Example of calling PUT request ... $service_url = 'https://example.com/api/conversations/cid123/status'; ... Example of calling DELETE request ... $service_url = 'https://example.com/api/conversations/[CONVERSATION_ID]'; ... 'apikey' => 'key001'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "How to make REST calls in PHP ... Example of calling GET request ... Example of calling POST request ... Example of calling PUT request ... Example of calling DELETE request",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_breadth",
+        "claim": "The API supports standard REST operations including GET, POST, PUT, and DELETE for managing conversations, messages, and statuses.",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "Example of calling GET request ... Example of calling POST request ... Example of calling PUT request ... Example of calling DELETE request",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "Example of calling GET request ... Example of calling POST request ... Example of calling PUT request ... Example of calling DELETE request",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability_rationale",
+        "claim": "The official documentation provides explicit examples of REST API calls using GET, POST, PUT, and DELETE methods with API key authentication, demonstrating the ability to build integrations.",
+        "url": "https://support.liveagent.com/061754-API",
+        "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+        "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+        "quote": "Example of calling GET request ... Example of calling POST request ... Example of calling PUT request ... Example of calling DELETE request",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:50.293814+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://support.liveagent.com/061754-API",
+      "final_url": "https://support.liveagent.com/061754-How-to-make-REST-calls-in-PHP?r=1",
+      "retrieved_at": "2026-09-16T17:16:48.102587+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "How to make REST calls in PHP My tickets Submit ticket Login How to make REST calls in PHP Home > Technical Support > LiveAgent API > REST API > API v1 > Documentation > How to make REST calls in PHP Example of calling GET request //next example will recieve all messages for specific conversation $service_url = 'https://example.com/api/conversations/[CONV_CODE]/messages&apikey=[API_KEY]'; $curl = curl_init($service_url); curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); $curl_response = curl_exec($curl); if ($curl_response === false) { $info = curl_getinfo($curl); curl_close($curl); die('error occured during curl exec. Additioanl info: ' . var_export($info)); } curl_close($curl); $decoded = json_decode($curl_response); if (isset($decoded->response->status) && $decoded->response->status == 'ERROR') { die('error occured: ' . $decoded->response->errormessage); } echo 'response ok!'; var_export($decoded->response); Example of calling POST request //next example will insert new conversation $service_url = 'https://example.com/api/conversations'; $curl = curl_init($service_url); $curl_post_data = array( 'message' => 'test message', 'useridentifier' => 'agent@example.com', 'department' => 'departmentId001', 'subject' => 'My first conversation', 'recipient' => 'recipient@example.com', 'apikey' => 'key001' ); curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); curl_setopt($curl, CURLOPT_POST, true); curl_setopt($curl, CURLOPT_POSTFIELDS, $curl_post_data); $curl_response = curl_exec($curl); if ($curl_response === false) { $info = curl_getinfo($curl); curl_close($curl); die('error occured during curl exec. Additioanl info: ' . var_export($info)); } curl_close($curl); $decoded = json_decode($curl_response); if (isset($decoded->response->status) && $decoded->response->status == 'ERROR') { die('error occured: ' . $decoded->response->errormessage); } echo 'response ok!'; var_export($decoded->response); Example of calling PUT request //next eample will change status of specific conversation to resolve $service_url = 'https://example.com/api/conversations/cid123/status'; $ch = curl_init($service_url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); curl_setopt($ch, CURLOPT_CUSTOMREQUEST, \"PUT\"); $data = array(\"status\" => 'R'); curl_setopt($ch, CURLOPT_POSTFIELDS,http_build_query($data)); $response = curl_exec($ch); if ( $response === false) { $info = curl_getinfo($ch); curl_close($ch); die('error occured during curl exec. Additioanl info: ' . var_export($info)); } curl_close($ch); $decoded = json_decode($response); if (isset($decoded->response->status) && $decoded->response->status == 'ERROR') { die('error occured: ' . $decoded->response->errormessage); } echo 'response ok!'; var_export($decoded->response); Example of calling DELETE request $service_url = 'https://example.com/api/conversations/[CONVERSATION_ID]'; $ch = curl_init($service_url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); curl_setopt($ch, CURLOPT_CUSTOMREQUEST, \"DELETE\"); $curl_post_data = array( 'note' => 'this is spam!', 'useridentifier' => 'agent@example.com', 'apikey' => 'key001' ); curl_setopt($curl, CURLOPT_POSTFIELDS, $curl_post_data); $response = curl_exec($ch); if ($curl_response === false) { $info = curl_getinfo($curl); curl_close($curl); die('error occured during curl exec. Additioanl info: ' . var_export($info)); } curl_close($curl); $decoded = json_decode($curl_response); if (isset($decoded->response->status) && $decoded->response->status == 'ERROR') { die('error occured: ' . $decoded->response->errormessage); } echo 'response ok!'; var_export($decoded->response); Updated: Sep 09, 2020 Other Articles Using REST API without mod_rewrite Complete API reference System outage! We are currently experiencing an unexpected outage which resulted in disabling some services for our customers. Our infrastructure administrators are actively working to identify the root cause of the issue and restore full functionality as soon as possible. We will continue to provide updates on our status page . Understood, continue... Contact Us Choose your prefered channel... Close Contact form Leave us a message... Chat with an Agent I prefer humans... Chat with a Bot Give our chatbot a chance... LiveAgent is an integrated customer support software , ticketing system , live chat , social helpdesk and voice helpdesk . You name it, it's there. Based in cloud and accessible from everywhere, with SSL safety. LiveAgent Pricing Testimonials Use Cases Integrations and Plugins Free Trial Most Popular Articles How to make REST calls in PHP Enable External Forwarding in Microsoft 365 Complete API reference Facebook application setup and Facebook page integration for standalone installations Email accounts configuration introduction How to submit Facebook application for review Microphone permissions for browser calls Facebook integration error - the user is enrolled in a blocking, logged-in checkpoint Creating, Managing & Integrating Chat Buttons LiveAgent Domain parking guide Socials Helpdesk software by LiveAgent © 2004-2026 Quality Unit, LLC. All rights reserved. Help desk software by LiveAgent ×",
+      "content_sha256": "164a7ff827a3fd6b8d05f3f766272d648854c934f8dfe857acd91ff19b9af141",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2237,
+    "output_tokens": 1587
+  },
+  "failure": null
+}

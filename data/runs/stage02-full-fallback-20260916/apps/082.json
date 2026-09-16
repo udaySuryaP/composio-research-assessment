@@ -1,0 +1,296 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 82,
+    "app_name": "Plaid",
+    "category": "9. Finance and Fintech",
+    "website": "http://plaid.com/docs",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Almost all Plaid API endpoints require a client_id and secret which may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "Almost all Plaid API endpoints require a client_id and secret . These may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "To gain access to the Plaid API, create an account on the Plaid Dashboard. Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Plaid provides an official MCP server integration as mentioned in the documentation, allowing integration with their API and developer tools.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "You can ask me all about the Plaid API. Try asking questions like: Pssst -- I also moonlight as your IDE's research librarian! Plug me in via the Plaid MCP Server .",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:24:44.142477+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 82,
+    "app_name": "Plaid",
+    "category": "9. Finance and Fintech",
+    "website": "https://plaid.com/docs/api/",
+    "description": "Plaid provides a JSON over HTTP API for accessing financial institution data, including accounts, transactions, identity, investments, and more. It uses a client_id and secret for authentication and supports environments such as Sandbox and Production. The API supports creating link tokens for client-side authentication via Plaid Link, exchanging public tokens for access tokens, and making product requests for user Items.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Plaid API offers a comprehensive set of RESTful endpoints for financial data access, including accounts, transactions, identity, investments, payments, and more, with support for webhooks and multiple environments.",
+    "mcp_available": "official",
+    "mcp_notes": "Plaid provides an official MCP server integration as mentioned in the documentation, allowing integration with their API and developer tools.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Plaid provides detailed official documentation, example code for client and server integration, a Quickstart app, client libraries, and a Postman collection, enabling developers to build integrations using their RESTful API with API key authentication.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Plaid provides a JSON over HTTP API for accessing financial institution data, including accounts, transactions, identity, investments, and more. It uses a client_id and secret for authentication and supports environments such as Sandbox and Production. The API supports creating link tokens for client-side authentication via Plaid Link, exchanging public tokens for access tokens, and making product requests for user Items.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "The Plaid API is JSON over HTTP. Requests are POST requests, and responses are JSON, with errors indicated in response bodies as error_code and error_type... Almost all Plaid API endpoints require a client_id and secret... Plaid has two environments: Sandbox and Production.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Almost all Plaid API endpoints require a client_id and secret which may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "Almost all Plaid API endpoints require a client_id and secret . These may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "To gain access to the Plaid API, create an account on the Plaid Dashboard. Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Plaid provides a comprehensive RESTful API accessible via HTTPS endpoints for Sandbox and Production environments.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "The Plaid API is JSON over HTTP... The Plaid API is served over HTTPS TLS v1.2... API host https://sandbox.plaid.com (Sandbox) https://production.plaid.com (Production) Plaid has two environments: Sandbox and Production.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Plaid API is a RESTful JSON over HTTP API with POST requests and JSON responses.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "The Plaid API is JSON over HTTP. Requests are POST requests, and responses are JSON...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Plaid API offers a comprehensive set of RESTful endpoints for financial data access, including accounts, transactions, identity, investments, payments, and more, with support for webhooks and multiple environments.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "API endpoints and webhooks For documentation on specific API endpoints and webhooks, use the navigation menu or search... Payments and Funding Auth Signal and Balance Identity Transfer Investments Move Payment Initiation (Europe) Virtual Accounts Financial Insights Transactions Investments Liabilities Enrich KYC/AML and anti-fraud Look up Dashboard users Identity Verification Monitor Credit and Underwriting Consumer Report (by Plaid Check) Assets Statements Income Instant Onboarding Plaid Layer Fundamentals Items Accounts Institutions Sandbox Link Users Consent OAuth Partnerships Processor tokens Processor partners Reseller partners",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Plaid provides an official MCP server integration as mentioned in the documentation, allowing integration with their API and developer tools.",
+        "url": "https://plaid.com/docs/api/",
+        "final_url": "https://plaid.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+        "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+        "quote": "You can ask me all about the Plaid API. Try asking questions like: Pssst -- I also moonlight as your IDE's research librarian! Plug me in via the Plaid MCP Server .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "Plaid provides detailed official documentation, example code for client and server integration, a Quickstart app, client libraries, and a Postman collection, enabling developers to build integrations using their RESTful API with API key authentication.",
+        "url": "https://plaid.com/docs/quickstart/",
+        "final_url": "https://plaid.com/docs/quickstart/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.054319+00:00",
+        "content_sha256": "68ff9a4781f980eead2f5aabde5580e9f8fd73a703b33c242084dd064ae94e48",
+        "quote": "The instructions below will guide you through the process of cloning the Quickstart repository, customizing the .env file with your own Plaid client ID and Sandbox secret, and finally, building and running the app... The Quickstart uses Plaid's optional React bindings for an integration that you trigger via your own client-side code... On the server side, the Quickstart calls /item/public_token/exchange to obtain an access_token... Plaid provides client libraries page for more information on Plaid's client libraries. The Postman collection is a convenient tool for exploring Plaid API endpoints without writing code.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:27.519439+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://plaid.com/docs/api/",
+      "final_url": "https://plaid.com/docs/api/",
+      "retrieved_at": "2026-09-16T17:24:24.623761+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "API - Overview | Plaid Docs Docs ALL DOCS API Overview # API endpoints and webhooks # API access # API protocols and headers # API host # API status and incidents # Storing API data # API field formats # OpenAPI definition file # Postman collection # Client libraries Libraries API versioning Postman Collection Webhooks Payments and Funding Auth Signal and Balance Identity Transfer Investments Move Payment Initiation (Europe) Virtual Accounts Financial Insights Transactions Investments Liabilities Enrich KYC/AML and anti-fraud Look up Dashboard users Identity Verification Monitor Credit and Underwriting Consumer Report (by Plaid Check) Assets Statements Income Instant Onboarding Plaid Layer Fundamentals Items Accounts Institutions Sandbox Link Users Consent OAuth Partnerships Processor tokens Processor partners Reseller partners Docs Search or Ask a Question Markdown Plaid.com Log in Get API Keys Open nav Close search modal Search the docs Ask Bill! Ask a question... Hi! I'm Bill! You can ask me all about the Plaid API. Try asking questions like: Pssst -- I also moonlight as your IDE's research librarian! Plug me in via the Plaid MCP Server . Note: Bill isn't perfect. He's just a robot platypus that reads our docs for fun. You should treat his answers with the same healthy skepticism you might treat any other answer on the internet. This chat may be logged for quality and training purposes. Please don't send Bill any PII -- he's scared of intimacy. All chats with Bill are subject to Plaid's Privacy Policy. API Reference Comprehensive reference for integrating with Plaid API endpoints API endpoints and webhooks For documentation on specific API endpoints and webhooks, use the navigation menu or search. API access To gain access to the Plaid API, create an account on the Plaid Dashboard . Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard. API protocols and headers The Plaid API is JSON over HTTP. Requests are POST requests, and responses are JSON, with errors indicated in response bodies as error_code and error_type (use these in preference to HTTP status codes for identifying application-level errors). All responses come as standard JSON, with a small subset returning binary data where appropriate. The Plaid API is served over HTTPS TLS v1.2 to ensure data privacy; HTTP and HTTPS with TLS versions other than 1.2 are not supported. Clients must use an up to date root certificate bundle as the only TLS verification path; certificate pinning should never be used. All requests must include a Content-Type of application/json and the body must be valid JSON. Almost all Plaid API endpoints require a client_id and secret . These may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET . Every Plaid API response includes a request_id , either in the body or (in the case of endpoints that return binary data, such as /asset_report/pdf/get ) in the response headers. For faster support, include the request_id when contacting support regarding a specific API call. API host https://sandbox.plaid.com (Sandbox) https://production.plaid.com (Production) Plaid has two environments: Sandbox and Production. Items cannot be moved between environments. The Sandbox environment supports only test Items. You can request Production API access via the Dashboard. API status and incidents API status is available at status.plaid.com . API status and incidents are also available programmatically via the following endpoints: https://status.plaid.com/api/v2/status.json for current status https://status.plaid.com/api/v2/incidents.json for current and historical incidents For a complete list of all API status information available programmatically, as well as more information on using these endpoints, see the Incident.io Status API documentation . For information on institution-specific insights, see Troubleshooting institution insights . Storing API data Any token returned by the API is sensitive and should be stored securely. Except for the public_token and link_token , all Plaid tokens are long-lasting and should never be exposed on the client side. Consumer data obtained from the Plaid API is sensitive information and should be managed accordingly. For guidance and best practices on how to store and handle sensitive data, see the Open Finance Data Security Standard . Identifiers used by the Plaid API that do not contain consumer data and are not keys or tokens are designed for usage in less sensitive contexts. The most common of these identifiers are the account_id , item_id , link_session_id , and request_id . These identifiers are commonly used for logging and debugging purposes. API field formats Strings Many string fields returned by Plaid APIs are reported exactly as returned by the financial institution. For this reason, Plaid does not have maximum length limits or standardized formats for strings returned by the API. In practice, field lengths of 280 characters will generally be adequate for storing returned strings, although Plaid does not guarantee this as a maximum string length. Numbers and money Plaid returns all currency values as decimal values in dollars (or the equivalent for the currency being used), rather than as integers. In some cases, it may be possible for a money value returned by the Plaid API to have more than two digits of precision -- this is common, for example, when reporting crypto balances. OpenAPI definition file OpenAPI is a standard format for describing RESTful APIs that allows those APIs to be integrated with tools for a wide variety of applications, including testing, client library generation, IDE integration, and more. The Plaid API is specified in our Plaid OpenAPI GitHub repo . Postman collection The Postman collection is a convenient tool for exploring Plaid API endpoints without writing code. The Postman collection provides pre-formatted requests for almost all of Plaid's API endpoints. All you have to do is fill in your API keys and any arguments. To get started, check out the Plaid Postman Collection Quickstart on GitHub. Client libraries See the client libraries page for more information on Plaid's client libraries. Developer community GitHub Stack Overflow YouTube Discord",
+      "content_sha256": "ec9196cdbea50355f718b2de1cd8babbbbee9fa9254af4f18c9bfd9664bd3fdc",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://plaid.com/docs/quickstart/",
+      "final_url": "https://plaid.com/docs/quickstart/",
+      "retrieved_at": "2026-09-16T17:24:26.054319+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Quickstart | Plaid Docs Docs ALL DOCS Quickstart Quickstart # Introduction # Quickstart setup # Create your first Item # How it works # Making API requests # Next steps Glossary Docs Search or Ask a Question Markdown Plaid.com Log in Get API Keys Open nav Close search modal Search the docs Ask Bill! Ask a question... Hi! I'm Bill! You can ask me all about the Plaid API. Try asking questions like: Pssst -- I also moonlight as your IDE's research librarian! Plug me in via the Plaid MCP Server . Note: Bill isn't perfect. He's just a robot platypus that reads our docs for fun. You should treat his answers with the same healthy skepticism you might treat any other answer on the internet. This chat may be logged for quality and training purposes. Please don't send Bill any PII -- he's scared of intimacy. All chats with Bill are subject to Plaid's Privacy Policy. Get started with the Quickstart A quick introduction to building with Plaid Want more video tutorials? The full getting started guide for the Quickstart app is available on YouTube. Don't want to write code? Check out the Plaid Postman Collection for a no-code way to get started with Plaid's API. Looking to get started with Identity Verification, Income Verification, Plaid Check (CRA), or Layer? For Identity Verification, check out the Identity Verification Quickstart . For Plaid Check (CRA), check out the Plaid Check (CRA) Quickstart . For Income, try the Income Verification Starter app . For Layer, use the Layer Quickstart . Introduction These instructions are also available on GitHub at the Quickstart Repo . Let's test out running Plaid locally by cloning the Quickstart app. You'll need API keys, which you can receive by signing up in the Dashboard . You'll have two different API keys, and there are two different Plaid environments. Today we'll start in the Sandbox environment. View the API Keys section of the Dashboard to find your Sandbox secret. API Key View Keys in Dashboard client_id Private identifier for your team secret Private key, one for each of the two environments Environment Sandbox Get started with test credentials and life-like data Production Test or launch your app with unlimited live credentials If you get stuck at any point in the Quickstart, help is just a click away! Check the Quickstart troubleshooting guide , ask Bill — Plaid's AI assistant — in the Dashboard, or chat with other developers in our Discord community . Quickstart setup Once you have your API keys, it's time to run the Plaid Quickstart locally! The instructions below will guide you through the process of cloning the Quickstart repository , customizing the .env file with your own Plaid client ID and Sandbox secret, and finally, building and running the app. Make sure you have npm installed before following along. If you're using Windows, ensure you have a terminal capable of running basic Unix shell commands. 1. Clone the Quickstart and run the backend Node ▼ # Note : If on Windows , run # git clone - c core . symlinks = true https : / / github . com / plaid / quickstart # instead to ensure correct symlink behavior git clone https : / / github . com / plaid / quickstart . git cd quickstart / node # Copy the . env . example file to . env , then fill # out PLAID_CLIENT_ID and PLAID_SECRET in . env cp . env . example . env # Install dependencies npm install # Start the backend app . / start . sh Open a new shell and start the frontend app. Your app will be running at http://localhost:3000 . Run the Quickstart frontend # Install dependencies cd quickstart/frontend npm install # Start the frontend app npm start # Go to http://localhost:3000 Visit localhost and log in with Sandbox credentials (typically user_good and pass_good , as indicated at the bottom of the page). Create your first Item Most API requests interact with an Item , which is a Plaid term for a login at a financial institution. A single end-user of your application might have accounts at different financial institutions, which means they would have multiple different Items. An Item is not the same as a financial institution account, although every account will be associated with an Item. For example, if a user has one login at their bank that allows them to access both their checking account and their savings account, a single Item would be associated with both of those accounts. Now that you have the Quickstart running, you'll add your first Item in the Sandbox environment. Once you've opened the Quickstart app on localhost, click the Launch Link button and select any institution. Use the Sandbox credentials to simulate a successful login. Sandbox credentials username: user_good password: pass_good If prompted to enter a 2FA code: 1234 Once you have entered your credentials and moved to the next screen, you have created your first Item! You can now make API calls for that Item by using the buttons in the Quickstart. In the next section, we'll explain what actually happened and how the Quickstart works. How it works As you might have noticed, you use both a server and a client-side component to access the Plaid APIs. The flow looks like this: The Plaid flow begins when your user wants to connect their bank account to your app. 1 Call /link/token/create to create a link_token and pass the temporary token to your app's client. 2 Use the link_token to open Link for your user. In the onSuccess callback , Link will provide a temporary public_token . This token can also be obtained on the backend via /link/token/get . 3 Call /item/public_token/exchange to exchange the public_token for a permanent access_token and item_id for the new Item . 4 Store the access_token and use it to make product requests for your user's Item . The first step is to create a new link_token by making a /link/token/create request and passing in the required configurations. This link_token is a short-lived, one-time use token that authenticates your app with Plaid Link , our frontend module. Several of the environment variables you configured when launching the Quickstart, such as PLAID_PRODUCTS , are used as parameters for the link_token . /link/token/create Node ▼ app . post ( '/api/create_link_token' , async function ( request , response ) { // Get the client_user_id by searching for the current user const user = await User . find ( ... ) ; const clientUserId = user . id ; const linkTokenRequest = { user : { // This should correspond to a unique id for the current user. client_user_id : clientUserId , } , client_name : 'Plaid Test App' , products : [ 'auth' ] , language : 'en' , webhook : 'https://webhook.example.com' , redirect_uri : 'https://domainname.com/oauth-page.html' , country_codes : [ 'US' ] , } ; try { const createTokenResponse = await client . linkTokenCreate ( linkTokenRequest ) ; response . json ( createTokenResponse . data ) ; } catch ( error ) { // handle error } } ) ; Once you have a link_token , you can use it to initialize Link . Link is a drop-in client-side module available for web, iOS, and Android that handles the authentication process. The Quickstart uses Plaid's optional React bindings for an integration that you trigger via your own client-side code. This is what your users use to log into their financial institution accounts. After a user submits their credentials within Link, Link provides you with a public_token via the onSuccess callback. The code below shows how the Quickstart passes the public_token from client-side code to the server. Both React and vanilla JavaScript examples are shown. Initialize Link React ▼ // APP COMPONENT // Upon rendering of App component, make a request to create and // obtain a link token to be used in the Link component import React , { useEffect , useState } from 'react' ; import { usePlaidLink } from 'react-plaid-link' ; const App = ( ) => { const [ linkToken , setLinkToken ] = useState ( null ) ; const generateToken = async ( ) => { const response = await fetch ( '/api/create_link_token' , { method : 'POST' , } ) ; const data = await response . json ( ) ; setLinkToken ( data . link_token ) ; } ; useEffect ( ( ) => { generateToken ( ) ; } , [ ] ) ; return linkToken != null ? < Link linkToken = { linkToken } /> : < > </ > ; } ; // LINK COMPONENT // Use Plaid Link and pass link token and onSuccess function // in configuration to initialize Plaid Link interface LinkProps { linkToken : string | null ; } const Link : React . FC < LinkProps > = ( props : LinkProps ) => { const onSuccess = React . useCallback ( async ( public_token , metadata ) => { // send public_token to server const response = await fetch ( '/api/set_access_token' , { method : 'POST' , headers : { 'Content-Type' : 'application/json' , } , body : JSON . stringify ( { public_token } ) , } ) ; // Handle response ... } , [ ] ) ; const config : Parameters < typeof usePlaidLink > [ 0 ] = { token : props . linkToken ! , onSuccess , } ; const { open , ready } = usePlaidLink ( config ) ; return ( < button onClick = { ( ) => open ( ) } disabled = { ! ready } > Link account </ button > ) ; } ; export default App ; Next, on the server side, the Quickstart calls /item/public_token/exchange to obtain an access_token , as illustrated in the code excerpt below. The access_token uniquely identifies an Item and is a required argument for most Plaid API endpoints. In your own code, you'll need to securely store your access_token in order to make API requests for that Item. /item/public_token/exchange Node ▼ app . post ( '/api/exchange_public_token' , async function ( request , response , next , ) { const publicToken = request . body . public_token ; try { const tokenResponse = await client . itemPublicTokenExchange ( { public_token : publicToken , } ) ; // These values should be saved to a persistent database and // associated with the currently signed-in user const accessToken = tokenResponse . data . access_token ; const itemID = tokenResponse . data . item_id ; response . json ( { public_token_exchange : 'complete' } ) ; } catch ( error ) { // handle error } } ) ; Making API requests Now that we've gone over the Link flow and token exchange process, we can explore what happens when you press a button in the Quickstart to make an API call. As an example, we'll look at the Quickstart's call to /accounts/get , which retrieves basic information, such as name and balance, about the accounts associated with an Item. The call is fairly straightforward and uses the access_token as a single argument to the Plaid client object. /accounts/get Node ▼ app . get ( '/api/accounts' , async function ( request , response , next ) { try { const accountsResponse = await client . accountsGet ( { access_token : accessToken , } ) ; prettyPrintResponse ( accountsResponse ) ; response . json ( accountsResponse . data ) ; } catch ( error ) { prettyPrintResponse ( error ) ; return response . json ( formatError ( error . response ) ) ; } } ) ; Example response data: /accounts/get response { \"accounts\" : [ { \"account_id\" : \"A3wenK5EQRfKlnxlBbVXtPw9gyazDWu1EdaZD\" , \"balances\" : { \"available\" : 100 , \"current\" : 110 , \"iso_currency_code\" : \"USD\" , \"limit\" : null , \"unofficial_currency_code\" : null } , \"mask\" : \"0000\" , \"name\" : \"Plaid Checking\" , \"official_name\" : \"Plaid Gold Standard 0% Interest Checking\" , \"subtype\" : \"checking\" , \"type\" : \"depository\" } , { \"account_id\" : \"GPnpQdbD35uKdxndAwmbt6aRXryj4AC1yQqmd\" , \"balances\" : { \"available\" : 200 , \"current\" : 210 , \"iso_currency_code\" : \"USD\" , \"limit\" : null , \"unofficial_currency_code\" : null } , \"mask\" : \"1111\" , \"name\" : \"Plaid Saving\" , \"official_name\" : \"Plaid Silver Standard 0.1% Interest Saving\" , \"subtype\" : \"savings\" , \"type\" : \"depository\" } , { \"account_id\" : \"nVRK5AmnpzFGv6LvpEoRivjk9p7N16F6wnZrX\" , \"balances\" : { \"available\" : null , \"current\" : 1000 , \"iso_currency_code\" : \"USD\" , \"limit\" : null , \"unofficial_currency_code\" : null } , \"mask\" : \"2222\" , \"name\" : \"Plaid CD\" , \"official_name\" : \"Plaid Bronze Standard 0.2% Interest CD\" , \"subtype\" : \"cd\" , \"type\" : \"depository\" } , ... ] , \"item\" : { \"available_products\" : [ \"assets\" , \"balance\" , \"identity\" , \"investments\" , \"transactions\" ] , \"billed_products\" : [ \"auth\" ] , \"consent_expiration_time\" : null , \"error\" : null , \"institution_id\" : \"ins_12\" , \"item_id\" : \"gVM8b7wWA5FEVkjVom3ri7oRXGG4mPIgNNrBy\" , \"webhook\" : \"https://requestb.in\" } , \"request_id\" : \"C3IZlexgvNTSukt\" } Next steps Congratulations, you have completed the Plaid Quickstart! From here, we invite you to modify the Quickstart code in order to get more practice with the Plaid API. There are a few directions you can go in now: Go to the docs homepage for links to product-specific documentation. For more sample apps, including a bare-bones minimal Plaid Quickstart implementation and apps demonstrating real world examples of funds transfer and personal financial management, see sample apps . Our YouTube playlist Plaid in 3 minutes has brief introductions to many Plaid products. For more detailed tutorial videos, see Plaid Academy . Looking to move money with a Plaid partner, such as Dwolla ? See Move money with our partners for partner-specific money movement Quickstarts. The Quickstart covers working with web apps. If your Plaid app will be on mobile, see Plaid Link to learn about getting started with mobile client-side setup. Need help? If you'd like to integrate with Plaid and don't have in-house technical resources, contact a Plaid integration partner to build a Plaid integration for you. Developer community GitHub Stack Overflow YouTube Discord",
+      "content_sha256": "68ff9a4781f980eead2f5aabde5580e9f8fd73a703b33c242084dd064ae94e48",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5564,
+    "output_tokens": 2013
+  },
+  "failure": null
+}

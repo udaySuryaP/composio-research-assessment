@@ -1,0 +1,144 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 3,
+    "app_name": "Pipedrive",
+    "category": "1. CRM and Sales",
+    "website": "http://pipedrive.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:15:53.063690+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 3,
+    "app_name": "Pipedrive",
+    "category": "1. CRM and Sales",
+    "website": "http://pipedrive.com/",
+    "description": "Pipedrive provides an API that requires authentication for all requests. It supports OAuth 2.0 for app integrations and API token authentication for API token integrations. The API token must be provided in the 'x-api-token' header for all requests.",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is documented with authentication methods including OAuth 2.0 and API token, and example requests are provided, indicating the API is accessible and usable for building integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Pipedrive provides an API that requires authentication for all requests. It supports OAuth 2.0 for app integrations and API token authentication for API token integrations. The API token must be provided in the 'x-api-token' header for all requests.",
+        "url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md",
+        "final_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:47.234521+00:00",
+        "content_sha256": "6e7f3df93521b8ef265fc659406c1e1ec3de2ba81814b5f76ab9694732f95024",
+        "quote": "All requests to our API need **authentication**. ... If you're creating an app Continue to OAuth 2.0 overview. ... If you're working with an API token integration The API token must be provided in the `x-api-token` header for all requests, for example: ```curl curl --request GET \\ --url \"https://companydomain.pipedrive.com/api/v2/deals\" \\ --header \"x-api-token: 659c9fddb16335e48cc67114694b52074e812e03\" ```",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:15:47.744523+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md",
+      "final_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md",
+      "retrieved_at": "2026-09-16T17:15:47.234521+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "--- updatedAt: 2026-01-05T14:54:16.000Z --- Fetch the complete documentation index at: https://pipedrive.readme.io/llms.txt. Use this file to discover all available pages before exploring further. Append .md to any documentation page URL to get its markdown version. # Authentication <Callout icon=\"📘\" theme=\"info\"> All requests to our API need **authentication**. </Callout> ## If you're creating an app Continue to [OAuth 2.0 overview](https://pipedrive.readme.io/docs/marketplace-oauth-api).\\ You can find our step-by-step guide to getting OAuth 2.0 implemented in your app in [OAuth authorization](https://pipedrive.readme.io/docs/marketplace-oauth-authorization) . ## If you're working with an API token integration The API token must be provided in the `x-api-token` header for all requests, for example: ```curl curl --request GET \\ --url \"https://companydomain.pipedrive.com/api/v2/deals\" \\ --header \"x-api-token: 659c9fddb16335e48cc67114694b52074e812e03\" ``` [How to find the API token?](https://pipedrive.readme.io/docs/how-to-find-the-api-token) <Callout icon=\"📘\" theme=\"info\"> Keep in mind that an API token is tied to a specific user and company, giving access to all user's data. You can only have one active API token at any time. If you change the API token, all existing integrations using this API token will not be able to make successful requests against our API and stop working. </Callout>",
+      "content_sha256": "6e7f3df93521b8ef265fc659406c1e1ec3de2ba81814b5f76ab9694732f95024",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1413,
+    "output_tokens": 530
+  },
+  "failure": null
+}

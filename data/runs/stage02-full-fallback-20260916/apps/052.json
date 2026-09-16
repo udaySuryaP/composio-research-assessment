@@ -1,0 +1,309 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 52,
+    "app_name": "SE Ranking",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://seranking.com/api",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "SE Ranking offers an official MCP allowing users to query data from inside AI assistants like Claude, Codex, Cursor, or any other AI tool with a 1-minute setup and no code required.",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Retrieve instant, structured JSON responses with up to 10 requests per second.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "SE Ranking offers an official MCP allowing users to query data from inside AI assistants like Claude, Codex, Cursor, or any other AI tool with a 1-minute setup and no code required.",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Query SE Ranking from inside any AI assistant Connect via MCP and work with your SEO and AEO data inside Claude, Codex, Cursor, or any other AI tool. 1-minute setup, no exports, no code, no workflow interruption.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:21:31.387974+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 52,
+    "app_name": "SE Ranking",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://seranking.com/api",
+    "description": "SE Ranking provides an SEO API to automate SEO and AEO workflows, offering access to a large keywords database, domain profiles, backlink data, website audits, AI search visibility, project management, and more. The API supports bulk processes and custom integrations, enabling users to analyze domain performance, monitor backlinks, run audits, track AI search presence, and manage projects at scale.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "SE Ranking's API covers keyword research, backlinks monitoring, domain analysis, website audits, AI search visibility, project management, and account management, providing extensive SEO and AEO data and functionality.",
+    "mcp_available": "official",
+    "mcp_notes": "SE Ranking offers an official MCP allowing users to query data from inside AI assistants like Claude, Codex, Cursor, or any other AI tool with a 1-minute setup and no code required.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is officially documented with detailed endpoints for SEO data and workflows, supports API key authentication, is accessible via self-serve paid plans, and includes official MCP integration for AI assistants, enabling straightforward integration and automation.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "SE Ranking provides an SEO API to automate SEO and AEO workflows, offering access to a large keywords database, domain profiles, backlink data, website audits, AI search visibility, project management, and more. The API supports bulk processes and custom integrations, enabling users to analyze domain performance, monitor backlinks, run audits, track AI search presence, and manage projects at scale.",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "SEO API: Automate your SEO and AEO workflows Connect via API for custom integrations and bulk processes... 5.5B Keywords database... 2.2B Domain profiles... Backlinks Get backlink summary... Website Audit Create audit... AI Search Get AI search overview... Project Management Create, update, and manage SE Ranking projects at scale.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Authentication Making requests Postman collection...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "API access is included in every SE Ranking plan... Buy a stand-alone API, start with pay-as-you-go, or combine with any SE Ranking subscription.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "SEO API: Automate your SEO and AEO workflows Connect via API for custom integrations and bulk processes...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Retrieve instant, structured JSON responses with up to 10 requests per second.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "SE Ranking's API covers keyword research, backlinks monitoring, domain analysis, website audits, AI search visibility, project management, and account management, providing extensive SEO and AEO data and functionality.",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Keyword Research API Backlinks API Domain Analysis API Website Audit API AI Search API Project Management API Account Management API",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Connect via MCP to query data from inside Claude or any AI assistant... 1-minute setup, no exports, no code, no workflow interruption.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "SE Ranking offers an official MCP allowing users to query data from inside AI assistants like Claude, Codex, Cursor, or any other AI tool with a 1-minute setup and no code required.",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "Query SE Ranking from inside any AI assistant Connect via MCP and work with your SEO and AEO data inside Claude, Codex, Cursor, or any other AI tool. 1-minute setup, no exports, no code, no workflow interruption.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "SEO API: Automate your SEO and AEO workflows Connect via API for custom integrations and bulk processes... Retrieve instant, structured JSON responses with up to 10 requests per second.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability_rationale",
+        "claim": "The API is officially documented with detailed endpoints for SEO data and workflows, supports API key authentication, is accessible via self-serve paid plans, and includes official MCP integration for AI assistants, enabling straightforward integration and automation.",
+        "url": "https://seranking.com/api.html",
+        "final_url": "https://seranking.com/api.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+        "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+        "quote": "API access is included in every SE Ranking plan... Connect via API for custom integrations and bulk processes... Query SE Ranking from inside any AI assistant Connect via MCP and work with your SEO and AEO data inside Claude, Codex, Cursor, or any other AI tool. 1-minute setup, no exports, no code, no workflow interruption.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:15.271778+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://seranking.com/api.html",
+      "final_url": "https://seranking.com/api.html",
+      "retrieved_at": "2026-09-16T17:21:13.907121+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "SEO API by SE Ranking: SEO & AEO Data at Scale Start doing more with your AI Visibility Data → SE Ranking Grow your visibility with AI SEO SE Visible Analyze AI visibility strategically Planable Manage your socials as a team API Solutions By business type Migrate to SE Ranking See product tour Agencies Enterprises Growing business Tools Core SEO tools AI Search tools Other SEO tools Agency Pack Content Marketing Local Marketing Software Integrations See product tour Rank Tracker Keyword Research On-Page SEO Checker Website Audit Competitor Analysis Tool Backlink Checker AI Search Toolkit AI Overviews Tracker AI Mode Tracker ChatGPT Tracker Gemini Tracker Perplexity Tracker ChatGPT ads tracker AI Mode ads tracker SERP Tracker Insights Keyword Grouper SEO Dashboard Agency Pack SEO Report Generator Lead Generator White Label Content Marketing Tool Content Editor AI Writer Resources Education Customer Hub Agency Catalog See product tour Blog Webinars Podcast Academy Help center What’s new Case studies Pricing Platform plans API Plans API & MCP API MCP Our data API Pricing See product tour API Keyword Research API Backlinks API Domain Analysis API MCP SEO Skills for Claude Marketing Skills for Claude Content Skills for Claude Products SE Ranking Grow your visibility with AI SEO SE Visible Analyze AI visibility strategically Planable Manage your socials as a team See product tour Start free trial en en English de Deutsch fr Français es Español nl Nederlands it Italiano pt Português ua Українська ru Русский あ 日本語 Sign in See product tour Start free trial Back API Introduction Getting API access API credit system API rate limits Integrations Data Studio MCP n8n Make.com Usage guidelines for commercial purposes Data Overview Getting started Authentication Making requests Postman collection Unit costs Plans and pricing Quickstarts Find keyword opportunities Assess AI search visibility Retrieve URLs with SEO issues Use Website Audit API for SEO growth Generate reports with SEOIntel Build authority with link building Analyze domain traffic & competitors Backlinks Get backlink summary Get backlink metrics List all backlinks Fetch backlinks in batches Get total backlinks count Export backlinks data List new/lost backlinks Get daily new/lost backlinks Get cumulative backlinks Get backlink anchor texts List referring domains Get referring domains count List new/lost referring domains Get daily new/lost referring domains List referring IPs Get total referring IPs count Get total referring subnets count List pages with backlinks Get page/domain authority Get domain authority Get domain authority distribution Get domain authority history Get page authority Get page authority history Domain Analysis Get domain overview by region Get worldwide domain overview Get worldwide URL overview Get traffic/keyword history Get keyword rankings Get domain pages Get domain subdomains Get paid ads by keyword Get paid ads for domain Get domain competitors Analyze keyword overlap/gaps Keyword Research Get Keywords metrics Get similar keywords Get related keywords Get question keywords Get longtail keywords AI Search Get AI search overview Get AI search leaderboard Discover brand by URL Get prompts by brand Get prompts by target Filtering results Website Audit Create audit List audits Get audit status Get audit report Get all crawled pages Get audit pages by issue Get all issues by URL Get all found links Get audit by date Update audit title Delete audit Recheck audit Account System Get subscription details Reference Glossary Regional codes SERP features Site Audit issue codes Error handling Project Overview Getting started API access and keys Making requests Rate limits Error handling Project Management List projects List project search engines Add search engine to project Change search engine in project Delete search engine from project List website keywords Get project summary statistics Get keyword statistics Get total number of ads chart Get historical dates Add keywords to project Add project Change project settings Delete project Delete keywords Set manual keyword position Run position check Project Groups Add project group Rename project group Delete project group List project groups Move projects to project group Keyword Groups Add keyword group Move keywords to another group Rename keyword group Delete keyword group List keyword groups Competitors Add competitor List competitors Get competitor keyword positions Delete competitor Get TOP 10 results Get TOP 100 results Get all competitors URL Tags List tags Add tag Update tag assignment Delete tag Analytics Traffic Get Google Search Console data Calculate SEO potential Account Management Get user profile List sub-accounts Create sub-account Get sub-account details Delete sub-account Update sub-account List shared projects List owned projects Share project with sub-account General Data List search engines List languages for Google List regions to get search volume Get keyword search volume Marketing Plan List plan items Add task Update task Delete task Set task status Website Audit Create audit List audits Get audit status Get audit report Get all crawled pages Get audit pages by issue Get all issues for URL Get all links Get audit history Update audit title Delete audit Recheck audit Backlink Checker List backlinks Add backlink Import backlinks list Update backlink import settings Start backlink import from Google Search Console Get backlink import status from Google Search Console Delete backlinks Recheck backlinks Get backlink statistics List disavowed backlinks Add disavowed backlinks Delete disavowed backlink List backlink groups Create backlink group Delete backlink group Rename backlink group Move backlinks to group AI Results Tracker Get site brand Save site brand List LLM engines Get LLM engine Create LLM engine Update LLM engine Delete LLM engine Get LLM status Get LLM statistics List prompts Add prompts Delete prompts Get prompt answer Get prompt rankings AIRT Sources Get sources summary List source domains List source pages Get sources recommendations AIRT Competitors Get competitors breakdown Get competitors check dates Get source metrics AIRT Groups List prompt groups Create prompt group Rename prompt group Delete prompt group Change group order Delete all prompts in group Move prompts to group Move all prompts from one group to another Local Marketing Overview Getting started Usage and limits Pagination Errors Locations List locations Get location details Location overview Get location overview Local Rankings Get Local Rankings keyword list Get Local Rankings positions Get rankings indexed percent Local Marketing Audit Get latest audit report Get audit report history Google Business Profile Get Google Business Profile metrics Get Google Business Profile keyword report Get Google Business Profile searches trend Business Listings List business listings Get business listings overview Reviews List reviews Get reviews overview SE Visible Overview Getting started Base URL Authentication Resource model Making requests Pagination Filtering and array parameters Date ranges and compare mode Usage and limits Errors Support Projects List projects Create project Get project details Delete a project Brands List tracked brands Create competitor brand List mentioned brands Get aggregated brand metrics Update brand Delete brand Add aliases to brand Topics Create topics Update a topic title Delete a topic Prompts List prompts or topics Delete prompts Create prompts for a topic Move prompts to a topic Get prompt details Get prompt result list Get prompt result details Sources Get project sources Reference AI models Sentiment Project status Country codes Language codes Source type URL category types Brand match mode Prompt list grouping Brand metrics dimensions and metrics Sort fields Date ranges and compare mode Array parameters Pagination Error codes Authentication Subscription Get subscription details API API access is included in every SE Ranking plan SEO API: Automate your SEO and AEO workflows Connect via API for custom integrations and bulk processes, or via MCP to query data from inside Claude or any AI assistant. Or do both. Start free trial See product tour No credit card required The data your workflows will run on 5.5B Keywords database 100% Accurate keyword rankings 188 Country database 25.5M+ AI prompts tracked 2.2B Domain profiles Choose how to put SE Ranking’s API to work Pick a workflow that fits your priorities and follow it straight through Know exactly where competitors outrank you across search and AI Analyze any domain’s performance, identify top competitors, and surface quick wins, competitor gaps, topic clusters, and AI Overviews where competitors appear but you don’t. Follow the guide Monitor your brand visibility across AI search engines at scale See how your brand and competitors appear across ChatGPT, Gemini, Perplexity, AI Mode, and AI Overviews. Track mentions, citations, and share of voice across major AI engines. Follow the guide Turn a completed site audit into structured URL lists for your pipelines Connect to a completed site audit, pull every URL affected by each issue type, and drill into individual pages for full metrics. Works for bulk triage, automated ticketing, or custom reporting workflows. Follow the guide Monitor backlinks and surface link-building opportunities Screen prospects by authority and backlink quality. Surface competitor links you’re missing, and track new and lost backlinks across all your domains automatically. Follow the guide Map global traffic and benchmark competitors across your key markets Get a full traffic picture for any domain, identify top-performing markets, benchmark organic competitors by region, and surface keyword gaps. Follow the guide Audit any site, identify ranking blockers, and verify improvements Pull health scores, issues, and affected URLs. Analyze internal linking, thin content, and page-level technical issues. Fix and confirm improved performance. Follow the guide Query SE Ranking from inside any AI assistant Connect via MCP and work with your SEO and AEO data inside Claude, Codex, Cursor, or any other AI tool. 1-minute setup, no exports, no code, no workflow interruption. Explore MCP Server Build processes that aren’t constrained by bandwidth Automation & Workflows Replace manual triggers with processes that run automatically across your client base: Automate data collection and generate multiple reports simultaneously. Manage multiple projects and client accounts from inside your stack. Build no-code automation workflows on SE Ranking’s data. Scalability & Big Data Access Run analyses at the volume your client base demands: Get direct access without logins, tool switching, or manual filtering. Process massive datasets across multiple client projects. Run bulk large-scale research and audits without limits. Integration & Developer Access Connect SE Ranking’s data to the tools where your team and clients already work: Route structured data into BI systems, custom apps, and reporting. Apply it to widgets and integrate it with other data sources. Retrieve instant, structured JSON responses with up to 10 requests per second. Plug SE Ranking data into tools you already use Connect SE Ranking to the tools your team already works in without custom development or rebuilding existing workflows n8n Open-source automation to build custom workflows via a visual builder. Link SE Ranking to your existing stack and trigger reports, sync keyword data, and automate tasks using n8n’s visual workflow builder. Connect to n8n Data Studio Live dashboards and client reports to blend SEO, AEO, GA4, and GSC data. Pull SE Ranking data directly into Data Studio to build always-current dashboards your clients and stakeholders can access directly. Connect to Data Studio Make Visual no-code automation to connect SE Ranking to the rest of your stack. Use Make’s visual interface to integrate SE Ranking with CRMs, project management tools, Slack, and more, without writing a line of code. Connect to Make Book a call with our team to map out your API integration See product tour Cover the full scope of SEO & AEO work with SE Ranking’s SEO API Keyword Research Analyze thousands of high-impact keywords at once using metrics like search volume, difficulty scores, CPC, seasonal trends, and more. Keyword Research API Backlinks Monitor backlinks at scale. Track new and lost links, analyze anchor texts, referring domains, and authority scores, access historical data, and more. Backlinks API Domain Analysis Track any domain’s performance in search. Monitor keywords, traffic, AI search presence, competitor overlap, and ranking history across 188+ regions. Domain Analysis API Website Audit Run large-scale, customizable SEO audits for any site. Receive structured reports on technical health, performance, and indexability. Website Audit API AI Search Analyze domain and brand performance across leading LLM engines. Track brand and link presence, share of voice, prompts, and AI traffic trends. AI Visibility API Project Management Create, update, and manage SE Ranking projects at scale. Add keywords, track rankings, run audits, and monitor backlinks across multiple client sites. View docs Pricing that fits how you use the API Buy a stand-alone API, start with pay-as-you-go, or combine with any SE Ranking subscription. SE Ranking api From $ 50.00 /250K credits Pay-as-you-go plan See product tour For SEOs who need API access to SEO data—without the tools Backlinks API Domain Research API Keyword Research API Website Audit API AI Search API Project Management API See full API pricing Bring SEO & AEO data into your own stack SEO & Marketing agencies Generate automated performance reports for multiple client accounts. Integrate SEO and AEO data with custom dashboards and CRMs. Get up-to-date and historical data to make data-driven decisions. Enterprise SEO teams & In-house specialists ",
+      "content_sha256": "9c3b24460a8d7a103587de9a36a0c5ca0c2d9d4b327092939691b5c0eb2cad36",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3580,
+    "output_tokens": 2095
+  },
+  "failure": null
+}

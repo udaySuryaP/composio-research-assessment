@@ -1,0 +1,293 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 41,
+    "app_name": "Shopify",
+    "category": "5. Ecommerce",
+    "website": "shopify.dev",
+    "description": "unknown",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The API supports a wide range of admin functionalities including analytics, apps, billing, customers, discounts, inventory, orders, products, shipping, store properties, webhooks, and more, accessible via GraphQL queries and mutations.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports a wide range of admin functionalities including analytics, apps, billing, customers, discounts, inventory, orders, products, shipping, store properties, webhooks, and more, accessible via GraphQL queries and mutations.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "Access Analytics Apps B2B Billing Bulk operations Cart Checkout and accounts configurations Checkout branding Common objects Customers Discounts and marketing Inventory Localizations Metafields Metaobjects Online store Orders Privacy Products and collections Retail Shipping and fulfillment Shopify Markets Shopify Payments Store properties Timeline events Webhooks Graph QL Types Full index",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:20:21.827181+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 41,
+    "app_name": "Shopify",
+    "category": "5. Ecommerce",
+    "website": "https://shopify.dev",
+    "description": "Shopify provides a GraphQL Admin API that lets you build apps and integrations to extend and enhance the Shopify admin. It supports building fast, reliable apps with official client libraries for Node.js, Ruby, React Router, and direct API access via HTTP requests. The API uses access tokens for authentication and enforces access scopes for security. It supports complex queries with rate limiting based on query cost points and returns detailed error codes and messages.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "graphql"
+    ],
+    "api_breadth": "The API supports a wide range of admin functionalities including analytics, apps, billing, customers, discounts, inventory, orders, products, shipping, store properties, webhooks, and more, accessible via GraphQL queries and mutations.",
+    "mcp_available": "official",
+    "mcp_notes": "Shopify provides official client libraries for Node.js, Ruby, React Router, and cURL examples for direct API access. There is also a GraphiQL app for exploring and building queries.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Shopify offers comprehensive official documentation, client libraries, and direct API access with clear authentication methods and extensive API coverage, enabling developers to build integrations effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Shopify provides a GraphQL Admin API that lets you build apps and integrations to extend and enhance the Shopify admin. It supports building fast, reliable apps with official client libraries for Node.js, Ruby, React Router, and direct API access via HTTP requests. The API uses access tokens for authentication and enforces access scopes for security. It supports complex queries with rate limiting based on query cost points and returns detailed error codes and messages.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "The Admin API lets you build apps and integrations that extend and enhance the Shopify admin. This page will help you get up and running with Shopify\u0019s GraphQL API. Install AI Toolkit Ask about this page Copy MD Choose a version: unstable 2026-10 release candidate 2026-07 latest 2026-04 2026-01 2025-10 2026-07 latest Overview Client libraries Authentication Endpoints and queries Rate limits Status and error codes Access Analytics Apps B2B Billing Bulk operations Cart Checkout and accounts configurations Checkout branding Common objects Customers Discounts and marketing Inventory Localizations Metafields Metaobjects Online store Orders Privacy Products and collections Retail Shipping and fulfillment Shopify Markets Shopify Payments Store properties Timeline events Webhooks Graph QL Types Full index GraphQL Admin API reference The Admin API lets you build apps and integrations that extend and enhance the Shopify admin. This page will help you get up and running with Shopify\u0019s GraphQL API. Install AI Toolkit Ask about this page Copy MD Choose a version: unstable 2026-10 release candidate 2026-07 latest 2026-04 2026-01 2025-10 2026-07 latest Anchor to Client libraries Client libraries Use Shopify\u0019s officially supported libraries to build fast, reliable apps with the programming languages and frameworks you already know. React Router The official package for React Router applications. Docs npm package GitHub repo Node.js The official client library for Node.js apps. No framework dependencies\u001fworks with any Node.js app. Docs npm package GitHub repo Ruby The official client library for Ruby apps. Docs Ruby gem GitHub repo cURL Use the curl utility to make API queries directly from the command line. Direct API Access Make requests to the Admin API directly from your app using the standard web fetch API . Requests are automatically authenticated and fast because Shopify handles them directly. Learn about direct API Access Configuration guide Other Need a different language? Check the list of community-supported libraries . React Router Node.js Ruby cURL Direct API Access Copy 1 2 npm install - g @shopify / cli @latest shopify app init 1 2 3 npm install -- save @ shopify /shopify-api # or yarn add @ shopify /shopify-api 1 bundle add shopify_api 1 2 # cURL is often available by default on macOS and Linux. # See http://curl.se/docs/install.html for more details. 1 2 3 # Enable Direct API access in App Home. [access.admin] embedded_app_direct_api_access = true Anchor to Authentication Authentication Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you. To set up authentication for your app type, see About app authentication . For the token types and the grants that issue them, see access tokens . The tabs show the same request through Shopify's client libraries and as a raw HTTP call. To keep the platform secure, apps need to request specific access scopes during the install process. Only request as much data access as your app needs to work. Learn more about building apps . React Router Node.js Ruby cURL Direct API Access Copy 1 2 3 4 5 6 7 8 import { authenticate } from \"../shopify.server\" ; export async function loader ( { request } ) { const { admin } = await authenticate . admin ( request ) ; const response = await admin . graphql ( `query { shop { name } }` , ) ; } 1 2 const client = new shopify . clients . Graphql ( { session } ) ; const response = await client . query ( { data : 'query { shop { name } }' } ) ; 1 2 3 4 5 6 7 8 session = ShopifyAPI::Auth:: Session . new ( shop: 'your-development-store.myshopify.com' , access_token: access_token , ) client = ShopifyAPI::Clients::Graphql::Admin . new ( session: session , ) response = client . query ( query: 'query { shop { name } }' ) 1 2 3 4 5 6 7 8 # Replace {SHOPIFY_ACCESS_TOKEN} with your actual access token curl - X POST \\ https :// { shop }. myshopify . com / admin / api / 2026 - 07 / graphql . json \\ - H 'Content-Type: application/json' \\ - H 'X-Shopify-Access-Token: {SHOPIFY_ACCESS_TOKEN}' \\ - d '{ \"query\": \"query { shop { name } }\" }' 1 2 3 4 5 6 7 8 // Authentication is handled automatically! const response = await fetch ( 'shopify:admin/api/2026-07/graphql.json' , { method : 'POST' , body : JSON . stringify ( { query : `query { shop { name } }` , } ) , } ) ; const { data } = await response . json ( ) ; console . log ( data ) ; React Router import { authenticate } from \"../shopify.server\"; export async function loader({request}) { const { admin } = await authenticate.admin(request); const response = await admin.graphql( `query { shop { name } }`, ); } Node.js const client = new shopify.clients.Graphql({session}); const response = await client.query({data: 'query { shop { name } }'}); Ruby session = ShopifyAPI::Auth::Session.new( shop: 'your-development-store.myshopify.com', access_token: access_token, ) client = ShopifyAPI::Clients::Graphql::Admin.new( session: session, ) response = client.query(query: 'query { shop { name } }') cURL # Replace {SHOPIFY_ACCESS_TOKEN} with your actual access token curl -X POST \\ https://{shop}.myshopify.com/admin/api/2026-07/graphql.json \\ -H 'Content-Type: application/json' \\ -H 'X-Shopify-Access-Token: {SHOPIFY_ACCESS_TOKEN}' \\ -d '{ \"query\": \"query { shop { name } }\" }' Direct API Access // Authentication is handled automatically! const response = await fetch('shopify:admin/api/2026-07/graphql.json', { method: 'POST', body: JSON.stringify({ query: `query { shop { name } }`, }), }); const { data } = await response.json(); console.log(data); Anchor to Endpoints and queries Endpoints and queries GraphQL queries are executed by sending POST HTTP requests to the endpoint: https://{store_name}.myshopify.com/admin/api/2026-07/graphql.json Queries begin with one of the objects listed under QueryRoot . The QueryRoot is the schema\u0019s entry-point for queries. Queries are equivalent to making a GET request in REST. The example shown is a query to get the ID and title of the first three products. Learn more about API usage . Note Explore and learn Shopify's Admin API using GraphiQL Explorer . To build queries and mutations with shop data, install Shopify\u0019s GraphiQL app . Note: Explore and learn Shopify's Admin API using GraphiQL Explorer . To build queries and mutations with shop data, install Shopify\u0019s GraphiQL app . POST https://{store_name}.myshopify.com/admin/api/2026-07/graphql.json React Router Node.js Ruby cURL Direct API Access Copy 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 import { authenticate } from \"../shopify.server\" ; export async function loader ( { request } ) { const { admin } = await authenticate . admin ( request ) ; const response = await admin . graphql ( `#graphql query getProducts { products (first: 3) { edges { node { id title } } } }` , ) ; const json = await response . json ( ) ; return { products : json ?. data ?. products ?. edges } ; } 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 const queryString = `{ products (first: 3) { edges { node { id title } } } }` // `session` is built as part of the OAuth process const client = new shopify . clients . Graphql ( { session } ) ; const products = await client . query ( { data : queryString , } ) ; 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 query = <<~GQL { products (first: 3) { edges { node { id title } } } } GQL # session is built as part of the OAuth process client = ShopifyAPI::Clients::Graphql::Admin . new ( session: session ) products = client . query ( query: query , ) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 # Get the ID and title of the three most recently added products curl - X POST https :// { store_name }. myshopify . com / admin / api / 2026 - 07 / graphql . json \\ - H 'Content-Type: application/json' \\ - H 'X-Shopify-Access-Token: {access_token}' \\ - d '{ \"query\": \"{ products(first: 3) { edges { node { id title } } } }\" }' 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 const response = await fetch ( 'shopify:admin/api/2026-07/graphql.json' , { method : 'POST' , body : JSON . stringify ( { query : `{ products(first: 3) { edges { node { id title } } } }` , } ) , } ) ; const { data } = await response . json ( ) ; console . log ( data ) ; React Router import { authenticate } from \"../shopify.server\"; export async function loader({request}) { const { admin } = await authenticate.admin(request); const response = await admin.graphql( `#graphql query getProducts { products (first: 3) { edges { node { id title } } } }`, ); const json = await response.json(); return { products: json?.data?.products?.edges }; } Node.js const queryString = `{ products (first: 3) { edges { node { id title } } } }` // `session` is built as part of the OAuth process const client = new shopify.clients.Graphql({session}); const products = await client.query({ data: queryString, }); Ruby query = <<~GQL { products (first: 3) { edges { node { id title } } } } GQL # session is built as part of the OAuth process client = ShopifyAPI::Clients::Graphql::Admin.new( session: session ) products = client.query( query: query, ) cURL # Get the ID and title of the three most recently added products curl -X POST https://{store_name}.myshopify.com/admin/api/2026-07/graphql.json \\ -H 'Content-Type: application/json' \\ -H 'X-Shopify-Access-Token: {access_token}' \\ -d '{ \"query\": \"{ products(first: 3) { edges { node { id title } } } }\" }' Direct API Access const response = await fetch('shopify:admin/api/2026-07/graphql.json', { method: 'POST', body: JSON.stringify({ query: `{ products(first: 3) { edges { node { id title } } } }`, }), }); const { data } = await response.json(); console.log(data); Anchor to Rate limits Rate limits The GraphQL Admin API is rate-limited using calculated query costs, measured in cost points. Each field returned by a query costs a set number of points. The total cost of a query is the maximum of possible fields selected, so more complex queries cost more to run. Learn more about rate limits . {} Request Copy 1 2 3 4 5 6 7 8 9 { products ( first : 1 ) { edges { node { title } } } } {} Response Copy 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 { \"data\" : { \"products\" : { \"edges\" : [ { \"node\" : { \"title\" : \"Hiking backpack\" } } ] } } , \"extensions\" : { \"cost\" : { \"requestedQueryCost\" : 3 , \"actualQueryCost\" : 3 , \"throttleStatus\" : { \"maximumAvailable\" : 1000.0 , \"currentlyAvailable\" : 997 , \"restoreRate\" : 50.0 } } } } Anchor to Status and error codes Status and error codes All API queries return HTTP status codes that contain more information about the response. Anchor to 200 OK 200 OK GraphQL HTTP status codes are different from REST API status codes. Most importantly, the GraphQL API can return a 200 OK response code in cases that would typically produce 4xx or 5xx errors in REST. Anchor to Error handling Error handling The response for the errors object contains additional detail to help you debug your operation. The response for mutations contains additional detail to help debug your query. To access this, you must request userErrors . Properties errors \u001f array A list of all errors returned Show error item properties errors[n]. message \u001f string Contains details about the error(s). errors[n]. extensions \u001f object Provides more information about the error(s) including properties and metadata. Show extensions properties errors[n].extensions.code \u001f string Shows error codes common to Shopify. Additional error codes may also be shown. Show common error codes THROTTLED The client has exceeded the rate limit . Similar to 429 Too Many Requests. ACCESS_ DENIED The client doesn\u001ft have correct authentication credentials. Similar to 401 Unauthorized. SHOP_ INACTIVE The shop is not active. This can happen when stores repeatedly exceed API rate limits or due to fraud risk. INTERNAL_ SERVER_ ERROR Shopify experienced an internal error while processing the request. This error is returned instead of 500 Internal Server Error in most circumstances.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "Shopify apps are self-serve paid, as developers can create and install apps using Shopify CLI and manage access scopes during install.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "To keep the platform secure, apps need to request specific access scopes during the install process. Only request as much data access as your app needs to work. Learn more about building apps.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "Shopify provides a GraphQL Admin API for app integrations.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "The Admin API lets you build apps and integrations that extend and enhance the Shopify admin. This page will help you get up and running with Shopify\u0019s GraphQL API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "Shopify Admin API is a GraphQL API.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "GraphQL Admin API reference Skip to main content Apps Storefronts Agents References Changelog Ask assistant / Help \u001f Log in Collapse sidebar GraphQL Admin API Choose a version: unstable 2026-10 release candidate 2026-07 latest 2026-04 2026-01 2025-10 2026-07 latest Overview Client libraries Authentication Endpoints and queries Rate limits Status and error codes Access Analytics Apps B2B Billing Bulk operations Cart Checkout and accounts configurations Checkout branding Common objects Customers Discounts and marketing Inventory Localizations Metafields Metaobjects Online store Orders Privacy Products and collections Retail Shipping and fulfillment Shopify Markets Shopify Payments Store properties Timeline events Webhooks Graph QL Types Full index GraphQL Admin API reference The Admin API lets you build apps and integrations that extend and enhance the Shopify admin. This page will help you get up and running with Shopify\u0019s GraphQL API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports a wide range of admin functionalities including analytics, apps, billing, customers, discounts, inventory, orders, products, shipping, store properties, webhooks, and more, accessible via GraphQL queries and mutations.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "Access Analytics Apps B2B Billing Bulk operations Cart Checkout and accounts configurations Checkout branding Common objects Customers Discounts and marketing Inventory Localizations Metafields Metaobjects Online store Orders Privacy Products and collections Retail Shipping and fulfillment Shopify Markets Shopify Payments Store properties Timeline events Webhooks Graph QL Types Full index",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Shopify provides official client libraries for Node.js, Ruby, React Router, and cURL examples for direct API access. There is also a GraphiQL app for exploring and building queries.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "Use Shopify\u0019s officially supported libraries to build fast, reliable apps with the programming languages and frameworks you already know. React Router The official package for React Router applications. Docs npm package GitHub repo Node.js The official client library for Node.js apps. No framework dependencies\u001fworks with any Node.js app. Docs npm package GitHub repo Ruby The official client library for Ruby apps. Docs Ruby gem GitHub repo cURL Use the curl utility to make API queries directly from the command line. Direct API Access Make requests to the Admin API directly from your app using the standard web fetch API . Requests are automatically authenticated and fast because Shopify handles them directly. Learn about direct API Access Configuration guide Other Need a different language? Check the list of community-supported libraries . React Router Node.js Ruby cURL Direct API Access",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "Shopify offers comprehensive official documentation, client libraries, and direct API access with clear authentication methods and extensive API coverage, enabling developers to build integrations effectively.",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+        "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+        "quote": "Use Shopify\u0019s officially supported libraries to build fast, reliable apps with the programming languages and frameworks you already know. React Router The official package for React Router applications. Docs npm package GitHub repo Node.js The official client library for Node.js apps. No framework dependencies\u001fworks with any Node.js app. Docs npm package GitHub repo Ruby The official client library for Ruby apps. Docs Ruby gem GitHub repo cURL Use the curl utility to make API queries directly from the command line. Direct API Access Make requests to the Admin API directly from your app using the standard web fetch API . Requests are automatically authenticated and fast because Shopify handles them directly. Learn about direct API Access Configuration guide",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:19:37.112607+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://shopify.dev/docs/api/admin-graphql",
+      "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "retrieved_at": "2026-09-16T17:19:35.541496+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "GraphQL Admin API reference Skip to main content Apps Storefronts Agents References Changelog Ask assistant / Help • Log in Collapse sidebar GraphQL Admin API Choose a version: unstable 2026-10 release candidate 2026-07 latest 2026-04 2026-01 2025-10 2026-07 latest Overview Client libraries Authentication Endpoints and queries Rate limits Status and error codes Access Analytics Apps B2B Billing Bulk operations Cart Checkout and accounts configurations Checkout branding Common objects Customers Discounts and marketing Inventory Localizations Metafields Metaobjects Online store Orders Privacy Products and collections Retail Shipping and fulfillment Shopify Markets Shopify Payments Store properties Timeline events Webhooks Graph QL Types Full index GraphQL Admin API reference The Admin API lets you build apps and integrations that extend and enhance the Shopify admin. This page will help you get up and running with Shopify’s GraphQL API. Install AI Toolkit Ask about this page Copy MD Choose a version: unstable 2026-10 release candidate 2026-07 latest 2026-04 2026-01 2025-10 2026-07 latest Anchor to Client libraries Client libraries Use Shopify’s officially supported libraries to build fast, reliable apps with the programming languages and frameworks you already know. React Router The official package for React Router applications. Docs npm package GitHub repo Node.js The official client library for Node.js apps. No framework dependencies—works with any Node.js app. Docs npm package GitHub repo Ruby The official client library for Ruby apps. Docs Ruby gem GitHub repo cURL Use the curl utility to make API queries directly from the command line. Direct API Access Make requests to the Admin API directly from your app using the standard web fetch API . Requests are automatically authenticated and fast because Shopify handles them directly. Learn about direct API Access Configuration guide Other Need a different language? Check the list of community-supported libraries . React Router Node.js Ruby cURL Direct API Access Copy 1 2 npm install - g @shopify / cli @latest shopify app init 1 2 3 npm install -- save @ shopify /shopify-api # or yarn add @ shopify /shopify-api 1 bundle add shopify_api 1 2 # cURL is often available by default on macOS and Linux. # See http://curl.se/docs/install.html for more details. 1 2 3 # Enable Direct API access in App Home. [access.admin] embedded_app_direct_api_access = true React Router npm install -g @shopify/cli@latest shopify app init Node.js npm install --save @shopify/shopify-api # or yarn add @shopify/shopify-api Ruby bundle add shopify_api cURL # cURL is often available by default on macOS and Linux. # See http://curl.se/docs/install.html for more details. Direct API Access # Enable Direct API access in App Home. [access.admin] embedded_app_direct_api_access = true Anchor to Authentication Authentication Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you. To set up authentication for your app type, see About app authentication . For the token types and the grants that issue them, see access tokens . The tabs show the same request through Shopify's client libraries and as a raw HTTP call. To keep the platform secure, apps need to request specific access scopes during the install process. Only request as much data access as your app needs to work. Learn more about building apps . React Router Node.js Ruby cURL Direct API Access Copy 1 2 3 4 5 6 7 8 import { authenticate } from \"../shopify.server\" ; export async function loader ( { request } ) { const { admin } = await authenticate . admin ( request ) ; const response = await admin . graphql ( `query { shop { name } }` , ) ; } 1 2 const client = new shopify . clients . Graphql ( { session } ) ; const response = await client . query ( { data : 'query { shop { name } }' } ) ; 1 2 3 4 5 6 7 8 session = ShopifyAPI::Auth:: Session . new ( shop: 'your-development-store.myshopify.com' , access_token: access_token , ) client = ShopifyAPI::Clients::Graphql::Admin . new ( session: session , ) response = client . query ( query: 'query { shop { name } }' ) 1 2 3 4 5 6 7 8 # Replace {SHOPIFY_ACCESS_TOKEN} with your actual access token curl - X POST \\ https :// { shop }. myshopify . com / admin / api / 2026 - 07 / graphql . json \\ - H 'Content-Type: application/json' \\ - H 'X-Shopify-Access-Token: {SHOPIFY_ACCESS_TOKEN}' \\ - d '{ \"query\": \"query { shop { name } }\" }' 1 2 3 4 5 6 7 8 9 10 // Authentication is handled automatically! const response = await fetch ( 'shopify:admin/api/2026-07/graphql.json' , { method : 'POST' , body : JSON . stringify ( { query : `query { shop { name } }` , } ) , } ) ; const { data } = await response . json ( ) ; console . log ( data ) ; React Router import { authenticate } from \"../shopify.server\"; export async function loader({request}) { const { admin } = await authenticate.admin(request); const response = await admin.graphql( `query { shop { name } }`, ); } Node.js const client = new shopify.clients.Graphql({session}); const response = await client.query({data: 'query { shop { name } }'}); Ruby session = ShopifyAPI::Auth::Session.new( shop: 'your-development-store.myshopify.com', access_token: access_token, ) client = ShopifyAPI::Clients::Graphql::Admin.new( session: session, ) response = client.query(query: 'query { shop { name } }') cURL # Replace {SHOPIFY_ACCESS_TOKEN} with your actual access token curl -X POST \\ https://{shop}.myshopify.com/admin/api/2026-07/graphql.json \\ -H 'Content-Type: application/json' \\ -H 'X-Shopify-Access-Token: {SHOPIFY_ACCESS_TOKEN}' \\ -d '{ \"query\": \"query { shop { name } }\" }' Direct API Access // Authentication is handled automatically! const response = await fetch('shopify:admin/api/2026-07/graphql.json', { method: 'POST', body: JSON.stringify({ query: `query { shop { name } }`, }), }); const { data } = await response.json(); console.log(data); Anchor to Endpoints and queries Endpoints and queries GraphQL queries are executed by sending POST HTTP requests to the endpoint: https://{store_name}.myshopify.com/admin/api/2026-07/graphql.json Queries begin with one of the objects listed under QueryRoot . The QueryRoot is the schema’s entry-point for queries. Queries are equivalent to making a GET request in REST. The example shown is a query to get the ID and title of the first three products. Learn more about API usage . Note Explore and learn Shopify's Admin API using GraphiQL Explorer . To build queries and mutations with shop data, install Shopify’s GraphiQL app . Note: Explore and learn Shopify's Admin API using GraphiQL Explorer . To build queries and mutations with shop data, install Shopify’s GraphiQL app . POST https://{store_name}.myshopify.com/admin/api/2026-07/graphql.json React Router Node.js Ruby cURL Direct API Access Copy 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 import { authenticate } from \"../shopify.server\" ; export async function loader ( { request } ) { const { admin } = await authenticate . admin ( request ) ; const response = await admin . graphql ( `#graphql query getProducts { products (first: 3) { edges { node { id title } } } }` , ) ; const json = await response . json ( ) ; return { products : json ?. data ?. products ?. edges } ; } 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 const queryString = `{ products (first: 3) { edges { node { id title } } } }` // `session` is built as part of the OAuth process const client = new shopify . clients . Graphql ( { session } ) ; const products = await client . query ( { data : queryString , } ) ; 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 query = <<~GQL { products (first: 3) { edges { node { id title } } } } GQL # session is built as part of the OAuth process client = ShopifyAPI::Clients::Graphql::Admin . new ( session: session ) products = client . query ( query: query , ) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 # Get the ID and title of the three most recently added products curl - X POST https :// { store_name }. myshopify . com / admin / api / 2026 - 07 / graphql . json \\ - H 'Content-Type: application/json' \\ - H 'X-Shopify-Access-Token: {access_token}' \\ - d '{ \"query\": \"{ products(first: 3) { edges { node { id title } } } }\" }' 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 const response = await fetch ( 'shopify:admin/api/2026-07/graphql.json' , { method : 'POST' , body : JSON . stringify ( { query : `{ products(first: 3) { edges { node { id title } } } }` , } ) , } ) ; const { data } = await response . json ( ) ; console . log ( data ) ; React Router import { authenticate } from \"../shopify.server\"; export async function loader({request}) { const { admin } = await authenticate.admin(request); const response = await admin.graphql( `#graphql query getProducts { products (first: 3) { edges { node { id title } } } }`, ); const json = await response.json(); return { products: json?.data?.products?.edges }; } Node.js const queryString = `{ products (first: 3) { edges { node { id title } } } }` // `session` is built as part of the OAuth process const client = new shopify.clients.Graphql({session}); const products = await client.query({ data: queryString, }); Ruby query = <<~GQL { products (first: 3) { edges { node { id title } } } } GQL # session is built as part of the OAuth process client = ShopifyAPI::Clients::Graphql::Admin.new( session: session ) products = client.query( query: query, ) cURL # Get the ID and title of the three most recently added products curl -X POST https://{store_name}.myshopify.com/admin/api/2026-07/graphql.json \\ -H 'Content-Type: application/json' \\ -H 'X-Shopify-Access-Token: {access_token}' \\ -d '{ \"query\": \"{ products(first: 3) { edges { node { id title } } } }\" }' Direct API Access const response = await fetch('shopify:admin/api/2026-07/graphql.json', { method: 'POST', body: JSON.stringify({ query: `{ products(first: 3) { edges { node { id title } } } }`, }), }); const { data } = await response.json(); console.log(data); Anchor to Rate limits Rate limits The GraphQL Admin API is rate-limited using calculated query costs, measured in cost points. Each field returned by a query costs a set number of points. The total cost of a query is the maximum of possible fields selected, so more complex queries cost more to run. Learn more about rate limits . {} Request Copy 1 2 3 4 5 6 7 8 9 { products ( first : 1 ) { edges { node { title } } } } {} Response Copy 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 { \"data\" : { \"products\" : { \"edges\" : [ { \"node\" : { \"title\" : \"Hiking backpack\" } } ] } } , \"extensions\" : { \"cost\" : { \"requestedQueryCost\" : 3 , \"actualQueryCost\" : 3 , \"throttleStatus\" : { \"maximumAvailable\" : 1000.0 , \"currentlyAvailable\" : 997 , \"restoreRate\" : 50.0 } } } } Anchor to Status and error codes Status and error codes All API queries return HTTP status codes that contain more information about the response. Anchor to 200 OK 200 OK GraphQL HTTP status codes are different from REST API status codes. Most importantly, the GraphQL API can return a 200 OK response code in cases that would typically produce 4xx or 5xx errors in REST. Anchor to Error handling Error handling The response for the errors object contains additional detail to help you debug your operation. The response for mutations contains additional detail to help debug your query. To access this, you must request userErrors . Properties errors • array A list of all errors returned Show error item properties errors[n]. message • string Contains details about the error(s). errors[n]. extensions • object Provides more information about the error(s) including properties and metadata. Show extensions properties errors[n]. extensions. code • string Shows error codes common to Shopify. Additional error codes may also be shown. Show common error codes THROTTLED The client has exceeded the rate limit . Similar to 429 Too Many Requests. ACCESS_ DENIED The client doesn’t have correct authentication credentials. Similar to 401 Unauthorized. SHOP_ INACTIVE The shop is not active. This can happen when stores repeatedly exceed API rate limits or due to fraud risk. INTERNAL_ SERVER_ ERROR Shopify experienced an internal error while processing the request. This error is returned instead of 500 Internal Server Error in most circumstances. Anchor to 4xx and 5xx status codes 4xx and 5xx status codes The 4xx and 5xx errors occur infrequently. They are often related to network communications, your account, or an issue with Shopify’s services. Many errors that would typically return a 4xx or 5xx status code, return an HTTP 200 errors response instead. Refer to the 200 OK section above for details. {} Sample 200 error responses Throttled Internal 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 { \"errors\" : [ { \"message\" : \"Query cost is 2003 , which exceeds the single query max cost limit ( 1000 ). See https : //shopify.dev/concepts/about-apis/rate-limits for more information on how the cost of a query is calculated. To query larger amounts of data with fewer limits , bulk operations should be used instead. See https : //shopify.dev/tutorials/perform-bulk-operations-with-admin-api for usage details. \" , \"extensions\" : { \"code\" : \"MAX_COST_EXCEEDED\" , \"cost\" : 2003 , \"maxCost\" : 1000 , \"documentation\" : \"https://shopify.dev/api/usage/limits#rate-limits\" } } ] } 1 2 3 4 5 6 7 8 9 10 11 12 { \"errors\" : [ { \"message\" : \"Internal error. Looks like something went wrong on our end. Request ID : 1 b 355 a 21 -7117 -44 c 5 -8 d 8 b -8948082 f 40 a 8 (include this in support requests).\" , \"extensions\" : { \"code\" : \"INTERNAL_SERVER_ERROR\" , \"requestId\" : \"1b355a21-7117-44c5-8d8b-8948082f40a8\" } } ] } Throttled { \"errors\": [ { \"message\": \"Query cost is 2003, which exceeds the single query max cost limit (1000). See https://shopify.dev/concepts/about-apis/rate-limits for",
+      "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens",
+      "final_url": "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens",
+      "retrieved_at": "2026-09-16T17:19:36.697718+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Access tokens Skip to main content Apps Storefronts Agents References Changelog Ask assistant / Help • Log in Apps Build Design Launch Collapse sidebar Getting started Build apps for Shopify Scaffold an app Build an app Dev tools Shopify AI Toolkit Shopify CLI for apps Stores Dev Dashboard Extending Shopify App surfaces Admin App Home Analytics Checkout Customer accounts Flow Online store Point of Sale Sidekick Building blocks Graph QL Extensions Shopify Functions Shopify QL Storefront MCP Events and webhooks App Events Metafields Metaobjects Authentication Use cases Marketing Discounts Product merchandising Purchase options Global markets Orders and fulfillment Payments Sales channels B2B Shopify Collective Blockchain Best practices Performance Accessibility Localize your app Integrating with Shopify Mobile support Non-deceptive code Compliance Security Full index Expand On this page Access tokens and ID tokens Access token types Token lifetimes Refresh, rotation, and revocation Get an access token Next steps Access tokens Install AI Toolkit Ask about this page Copy MD An access token is a credential your app sends with each API request. It authenticates your app to the API and carries a set of access scopes that authorize what your app can access. Shopify enforces those scopes on every request, returning only the data they allow. Your app obtains a token through an authorization flow called a grant, such as token exchange , then includes it in a request header on each call. Because a token is scoped to a specific set of permissions and can expire or be revoked, a leaked token exposes only what it was granted, and you can revoke access without rotating your app's core credentials. This page covers access tokens for the GraphQL Admin API , which authenticates requests with a token sent in the X-Shopify-Access-Token header. Other Shopify APIs issue their own token types and use their own headers. For which token and header each API expects, see Shopify API authentication . If you're setting up authentication for an app, start with About app authentication , which guides you to the flow for your app type. This page is the reference for the token types and grants themselves. Anchor to Access tokens and ID tokens Access tokens and ID tokens An access token and an ID token do two different jobs: Access token : Authenticates your app. It proves your app is allowed to call the API, and its access scopes determine what your app can read and write. ID token : Authenticates the user. It proves that a logged-in Shopify user is making the request from a specific store. It carries no permissions, and you can't use it to call a Shopify API. Your app gets the ID token first, then exchanges it for an access token. The ID token is how Shopify vouches for the user, and the access token is what your app sends on every GraphQL Admin API request. Anchor to Access token types Access token types The token type sets a token's lifetime and scope. Match it to what your app does: Offline access tokens : These are the default. They persist across sessions and cover most app work, including background tasks such as webhooks and scheduled jobs. Online access tokens : These are optional. Use them when your app needs to respect an individual staff member's permissions or attribute actions to them. Delegate access tokens : These are optional. Use them to give a subsystem scoped, limited access without sharing your app's full credentials. Offline and online access tokens are opaque strings that begin with shpat_ , whichever grant produced them. Delegate access tokens begin with shppa_ . Anchor to Offline access tokens Offline access tokens Offline access tokens persist beyond a merchant's session, and are what your app gets by default. In an embedded app, the app template sets one up for you. See Authentication for apps built with Shopify CLI . Use expiring offline access tokens for public apps that call the GraphQL Admin API. Shopify keeps one current expiring offline token per app and store: when your app acquires a new one through token exchange or the authorization code grant, older expiring offline tokens for the same app and store are retired. Retired access tokens stay valid until their expires_in duration ends so in-progress requests can complete. Refreshing a token follows its own rules. See Token refresh . Non-expiring offline tokens grant permanent access until the app is uninstalled or the secret is revoked. New public apps already can't use them for GraphQL Admin API requests, and existing public apps can't after January 1, 2027. See Migrate to expiring offline access tokens . Caution Public apps must use expiring offline access tokens for GraphQL Admin API requests by January 1, 2027. This doesn't apply to custom apps or apps created by merchants. If your app still requests non-expiring tokens, see Migrate to expiring offline access tokens . Caution: Public apps must use expiring offline access tokens for GraphQL Admin API requests by January 1, 2027. This doesn't apply to custom apps or apps created by merchants. If your app still requests non-expiring tokens, see Migrate to expiring offline access tokens . Anchor to Online access tokens Online access tokens Online access tokens are tied to the staff member who opened your app, and their lifespan matches that user's web session. Request them when your app needs to respect an individual user's permission level or attribute actions to a specific user. How you request one depends on how your app authenticates: apps built with Shopify CLI declare it in their configuration, and apps running their own authorization code grant add a parameter to the authorization URL. See Authentication for apps built with Shopify CLI or Request an online access token . An online token expires after 24 hours or when the user logs out of the Shopify admin, whichever comes first. Logging out revokes every online token minted during that web session, not just the current one. A user can also revoke their own access to your app at any time, which doesn't affect other users' tokens. Because each online token reflects one user's permissions, a request returns 403 Forbidden when the token is valid but the user lacks access, and 401 Unauthorized after the token expires. If your app caches data, scope the cache per user. The online token response includes an associated_user object describing the staff member who authorized it, alongside associated_user_scope (the intersection of your app's scopes and that user's permissions): id : Uniquely identifies the user. Use it to key per-user data. account_owner : true when the user owns the Shopify account. collaborator : true when the user is a collaborator rather than a staff member. email_verified : Whether the user's email is verified. The email field is always present, so trust it only when email_verified is true . This intersection applies to users who sign in after the app is installed. Installation itself is stricter: if your app requests online access and isn't yet installed on the store, the user installing it must have every scope your app requires, or the installation fails. Anchor to Delegate access tokens Delegate access tokens A delegate access token derives from your app's offline access token and carries only the scopes you specify. Use one when your app is split across server-side subsystems, so each one holds only what it needs. For example, a background job that processes orders doesn't need read access to products. See Delegate API access . Anchor to Token lifetimes Token lifetimes Some access tokens expire and some don't. A non-expiring token stays valid until the app is uninstalled or its credentials are revoked. Expiring offline access tokens come with a refresh_token that your app uses to get a new access token before the current one expires, without user interaction. The other expiring tokens have no refresh token: your app renews an online access token by re-running token exchange, and a client credentials token by repeating the same request. Expiring tokens limit the damage of a leak, because a stolen token stops working on its own. Use expiring offline access tokens for public apps calling the GraphQL Admin API. For how refresh works, see Token refresh . The following table lists how long each token lasts. Info Read the expires_in value from the token response rather than hard-coding a duration, so your app keeps working if a lifetime changes. Info: Read the expires_in value from the token response rather than hard-coding a duration, so your app keeps working if a lifetime changes. Token Lifetime Expiring offline access token 1 hour ( expires_in is 3600 ) Refresh token for an expiring offline access token 90 days ( refresh_token_expires_in is 7776000 ) when issued. Using it to refresh can shorten it. See Token refresh . Non-expiring offline access token No expiry. Valid until the app is uninstalled or its client secret is revoked. Online access token 24 hours, or until the user logs out of the Shopify admin, whichever comes first Access token from the client credentials grant 24 hours ( expires_in is 86399 ) Delegate access token Inherits the parent token's remaining lifetime, or the shorter expiresIn you request Anchor to Refresh, rotation, and revocation Refresh, rotation, and revocation Several actions and events renew or end an access token or the credentials behind it. They're easy to confuse, so the following table describes how each one works, including who triggers it, and where to learn more. Operation How it works Learn more Token refresh A Shopify app template refreshes an access token before it expires so your app keeps working without re-authenticating. If your app doesn't use a template, it refreshes tokens itself. How token refresh works Token retirement Shopify automatically retires your previous expiring offline token as your app acquires or refreshes tokens. On a refresh, the previous refresh token remains usable until your app uses the new refresh token, or until 30 days after its first use or its original expiry, whichever comes first. Token refresh Secret rotation You can rotate your app's client secret, which invalidates access tokens tied to the old secret and requires every store's token to be refreshed. It's a deliberate operation, not part of normal token renewal. Rotate your client secret Scope revocation Your app can give back optional access scopes it no longer needs, or a merchant can revoke ones they granted, narrowing what a token can do without ending access. Only optional scopes that were dynamically granted qualify. Revoke granted scopes dynamically Token revocation A merchant uninstalling your app, or you revoking the client secret, ends all of a token's access. Requests then return 401 , and your app re-authenticates the next time a merchant opens it. Response and error codes Anchor to Token refresh Token refresh Apps built from a Shopify app template refresh access tokens automatically, so most apps never refresh tokens themselves. You only implement refresh if your app doesn't use a template, and how you do it depends on context: When no merchant session is active, such as for background jobs and webhooks, use the stored refresh_token to renew an expiring offline token server-side, without user interaction. See Refresh an expiring offline token . When a token expires during an active merchant session, or when your app uses session-bound online tokens, acquire a new token instead of refreshing one. Re-run token exchange with the ID token from the current request, or send the merchant through the authorization code grant if your app isn't embedded. Don't do the two at the same time for the same store. Acquiring a token and refreshing one each retire the other's result, so one of the two tokens your app receives is already invalid when it arrives. Anchor to How refresh token rotation works How refresh token rotation works Every refresh returns a new access token and a new refresh token. Store both securely, and use the new refresh token in the next refresh request. Shopify doesn't invalidate the refresh token your app presented at the moment it issues the replacement. The presented refresh token stays usable until the earliest of the following: Your app uses the newer refresh token. Presenting it proves your app received it, so Shopify retires the previous one immediately. This is the normal case, and it happens on your app's next refresh. Your app acquires a new token. Token exchange and the authorization code grant retire every other refresh token for the app on the store right away. 30 days after your app first used that token to refresh. This caps how long an app that ignores the tokens it receives can keep refreshing from the same one. The original 90-day expiry. Anchor to Get an access token Get an access token Which grant you use depends on where your app runs and whose stores it acts on. All grants exchange their inputs for an access token at the same OAuth token endpoint: Copy 1 POST https://{shop}.myshopify.com/admin/oauth/access_token Info Apps created directly in the Shopify admin don't use a grant. Shopify pre-generates the access token when the merchant installs the app. You can no longer create these apps, but if you maintain one, see Generate access tokens for admin-created custom apps . Info: Apps created directly in the Shopify admin don't use a grant. Shopify pre-generates the access token when the merchant installs the app. You can no longer create these apps, but if you maintain one, see Generate access tokens for admin-created custom apps . Anchor to Token exchange grant Token exchange grant Embedded apps, running inside the Shopify admin, use this grant to exchange an ID token for an access token, without redirecting the merchant, either through an app template or directly. Send a POST request to the token endpoint with the following parameters in the body. For a walkthrough, see Authentication for apps ",
+      "content_sha256": "89641e5ae8447de3dd04bec61cd8d21118ac2e67d32d1016f94da4a09a028068",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 7577,
+    "output_tokens": 5407
+  },
+  "failure": null
+}

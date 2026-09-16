@@ -1,0 +1,304 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 99,
+    "app_name": "YouTube Transcript",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://transcriptapi.com/docs/",
+    "description": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. It supports extracting video transcripts, video metadata, searching YouTube videos or channels, resolving channel references, searching within channels, and retrieving playlist videos. The API supports multiple response formats including JSON and plain text, with options for timestamps and metadata.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. It supports extracting video transcripts, video metadata, searching YouTube videos or channels, resolving channel references, searching within channels, and retrieving playlist videos. The API supports multiple response formats including JSON and plain text, with options for timestamps and metadata.",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "YouTube Transcript API Reference The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The API is available with multiple REST endpoints documented at https://transcriptapi.com/docs/api/",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "YouTube Transcript API Reference The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:26:22.086941+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 99,
+    "app_name": "YouTube Transcript",
+    "category": "10. AI, Research and Media-native",
+    "website": "https://transcriptapi.com/docs/",
+    "description": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. It supports extracting video transcripts, video metadata, searching YouTube videos or channels, resolving channel references, searching within channels, and retrieving playlist videos. The API supports multiple response formats including JSON and plain text, with options for timestamps and metadata.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API provides endpoints for extracting YouTube video transcripts, retrieving video metadata, searching videos and channels, resolving channel identifiers, searching within channels, retrieving paginated channel uploads, latest videos via RSS, and playlist videos. It supports parameters for language selection, output format, timestamps inclusion, and metadata inclusion.",
+    "mcp_available": "official",
+    "mcp_notes": "TranscriptAPI supports integration with Model Context Protocol (MCP) for seamless integration with AI tools, including guides for ChatGPT, Claude, and OpenAI Agent Builder.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with clear authentication using Bearer tokens, a comprehensive set of REST endpoints, detailed request parameters, response formats, and example usage. The presence of official MCP documentation and integration guides further supports buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. It supports extracting video transcripts, video metadata, searching YouTube videos or channels, resolving channel references, searching within channels, and retrieving playlist videos. The API supports multiple response formats including JSON and plain text, with options for timestamps and metadata.",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "YouTube Transcript API Reference The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API uses Bearer token authentication. Include your API key in the Authorization header of every request: Authorization: Bearer YOUR_API_KEY",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "Authentication Section titled \u001cAuthentication\u001d The API uses Bearer token authentication. Include your API key in the Authorization header of every request: Authorization: Bearer YOUR_API_KEY Example: Terminal window curl -X GET \\\" https://transcriptapi.com/api/v2/youtube/transcript?video_url=... \\\" \\\\ -H \\\" Authorization: Bearer YOUR_API_KEY \\\" Get your API key from your API Keys dashboard .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "The API key is obtained from the dashboard and the API is self-serve paid with credit usage for most endpoints.",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "Credit Usage & Billing Credit Cost When Credits Are Charged Rate Limits Rate Limit Headers Best Practices Error Handling Retry Strategy Error Response Format ... Get your API key from your dashboard .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The API is available with multiple REST endpoints documented at https://transcriptapi.com/docs/api/",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "YouTube Transcript API Reference The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is RESTful with endpoints accessed via HTTP GET requests and parameters in query strings.",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "Base URL Section titled \u001cBase URL\u001d All API requests are made to: https://transcriptapi.com/api/v2 Endpoints Section titled \u001cEndpoints\u001d The API provides the following endpoints: Endpoint Description Credits GET /youtube/transcript Extract video transcript (supports a language priority list) 1 GET /youtube/info Video metadata + available transcript languages Free GET /youtube/search Search YouTube videos or channels 1 GET /youtube/channel/resolve Resolve @handle/URL to channel ID Free GET /youtube/channel/search Search within a channel (accepts @handle, URL, or UC\u001a ID) 1 GET /youtube/channel/videos Paginated channel uploads (accepts @handle, URL, or UC\u001a ID) 1/page GET /youtube/channel/latest Latest 15 videos via RSS (accepts @handle, URL, or UC\u001a ID) Free GET /youtube/playlist/videos Paginated playlist videos (accepts URL or playlist ID) 1/page",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API provides endpoints for extracting YouTube video transcripts, retrieving video metadata, searching videos and channels, resolving channel identifiers, searching within channels, retrieving paginated channel uploads, latest videos via RSS, and playlist videos. It supports parameters for language selection, output format, timestamps inclusion, and metadata inclusion.",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "The API provides the following endpoints: Endpoint Description Credits GET /youtube/transcript Extract video transcript (supports a language priority list) 1 GET /youtube/info Video metadata + available transcript languages Free GET /youtube/search Search YouTube videos or channels 1 GET /youtube/channel/resolve Resolve @handle/URL to channel ID Free GET /youtube/channel/search Search within a channel (accepts @handle, URL, or UC\u001a ID) 1 GET /youtube/channel/videos Paginated channel uploads (accepts @handle, URL, or UC\u001a ID) 1/page GET /youtube/channel/latest Latest 15 videos via RSS (accepts @handle, URL, or UC\u001a ID) Free GET /youtube/playlist/videos Paginated playlist videos (accepts URL or playlist ID) 1/page ... The API supports multiple response formats based on your parameters: JSON with timestamps (default) JSON without timestamps Text with timestamps Text without timestamps ... The API supports parameters such as video_url, format, include_timestamp, send_metadata, language.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "TranscriptAPI supports integration with Model Context Protocol (MCP) for seamless integration with AI tools, including guides for ChatGPT, Claude, and OpenAI Agent Builder.",
+        "url": "https://transcriptapi.com/docs/",
+        "final_url": "https://transcriptapi.com/docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.097850+00:00",
+        "content_sha256": "90a034735d656f1a3be5e3d8ff573f503e01498b0068b89d28b3cd54e8611d10",
+        "quote": "MCP Integration Use TranscriptAPI with Model Context Protocol for seamless integration with AI tools. View MCP Documentation \u0012 MCP Integration Guides: ChatGPT Setup Claude Setup OpenAI Agent Builder LLMS.txt AI-friendly documentation format for LLM context.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "TranscriptAPI supports integration with Model Context Protocol (MCP) for seamless integration with AI tools, including guides for ChatGPT, Claude, and OpenAI Agent Builder.",
+        "url": "https://transcriptapi.com/docs/",
+        "final_url": "https://transcriptapi.com/docs/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.097850+00:00",
+        "content_sha256": "90a034735d656f1a3be5e3d8ff573f503e01498b0068b89d28b3cd54e8611d10",
+        "quote": "MCP Integration Use TranscriptAPI with Model Context Protocol for seamless integration with AI tools. View MCP Documentation \u00021 MCP Integration Guides: ChatGPT Setup Claude Setup OpenAI Agent Builder LLMS.txt AI-friendly documentation format for LLM context.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "The API is well documented with clear authentication using Bearer tokens, a comprehensive set of REST endpoints, detailed request parameters, response formats, and example usage. The presence of official MCP documentation and integration guides further supports buildability.",
+        "url": "https://transcriptapi.com/docs/api/",
+        "final_url": "https://transcriptapi.com/docs/api/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+        "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+        "quote": "Quick Start Section titled \u001cQuick Start\u001d Here\u0019s how to make your first API request: Terminal window curl -X GET \\\" https://transcriptapi.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ \\\" \\\\ -H \\\" Authorization: Bearer YOUR_API_KEY \\\" ... Authentication Section titled \u001cAuthentication\u001d The API uses Bearer token authentication. Include your API key in the Authorization header of every request: Authorization: Bearer YOUR_API_KEY ... The API provides the following endpoints: Endpoint Description Credits GET /youtube/transcript Extract video transcript (supports a language priority list) 1 GET /youtube/info Video metadata + available transcript languages Free GET /youtube/search Search YouTube videos or channels 1 GET /youtube/channel/resolve Resolve @handle/URL to channel ID Free GET /youtube/channel/search Search within a channel (accepts @handle, URL, or UC\u001a ID) 1 GET /youtube/channel/videos Paginated channel uploads (accepts @handle, URL, or UC\u001a ID) 1/page GET /youtube/channel/latest Latest 15 videos via RSS (accepts @handle, URL, or UC\u001a ID) Free GET /youtube/playlist/videos Paginated playlist videos (accepts URL or playlist ID) 1/page ... MCP Integration Use TranscriptAPI with Model Context Protocol for seamless integration with AI tools. View MCP Documentation \u00021 MCP Integration Guides: ChatGPT Setup Claude Setup OpenAI Agent Builder LLMS.txt AI-friendly documentation format for LLM context.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:25:56.602861+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://transcriptapi.com/docs/",
+      "final_url": "https://transcriptapi.com/docs/",
+      "retrieved_at": "2026-09-16T17:25:54.097850+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "TranscriptAPI Documentation | TranscriptAPI.com Skip to content TranscriptAPI.com Search Ctrl K Cancel Select theme Dark Light Auto TranscriptAPI Documentation Extract YouTube video transcripts with a simple API call or through Model Context Protocol Get Started View API Reference Quick Access Section titled “Quick Access” API Reference Complete guide to transcripts, search, channel, and playlist endpoints with authentication, parameters, and examples. View API Reference → MCP Integration Use TranscriptAPI with Model Context Protocol for seamless integration with AI tools. View MCP Documentation → Guides & Tutorials Step-by-step guides for integrating TranscriptAPI into your applications and workflows. MCP Integration Guides: ChatGPT Setup Claude Setup OpenAI Agent Builder LLMS.txt AI-friendly documentation format for LLM context. Download the complete docs in a single text file. Download LLMS.txt → Support & Billing Get help with billing, credits, and other account-related questions. Contact Us Billing & Credits Next Getting Started",
+      "content_sha256": "90a034735d656f1a3be5e3d8ff573f503e01498b0068b89d28b3cd54e8611d10",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://transcriptapi.com/docs/api/",
+      "final_url": "https://transcriptapi.com/docs/api/",
+      "retrieved_at": "2026-09-16T17:25:54.790419+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "YouTube Transcript API Reference | TranscriptAPI.com Skip to content TranscriptAPI.com Search Ctrl K Cancel Select theme Dark Light Auto Home Getting Started LLMS.txt API API Reference MCP MCP Overview ChatGPT Claude OpenAI Agent Builder Contact Billing Select theme Dark Light Auto On this page Overview Base URL Endpoints Quick Start Authentication YouTube Transcript Request Parameters Response Formats YouTube Video Info Search Endpoint Parameters Response Channel Endpoints Resolve Channel Search Within Channel Channel Videos (Paginated) Channel Latest (RSS) Playlist Endpoint Credit Usage & Billing Credit Cost When Credits Are Charged Rate Limits Rate Limit Headers Best Practices Error Handling Retry Strategy Error Response Format 404 — No transcript for the requested languages 401 Unauthorized 402 Payment Required Code Examples Best Practices Error Handling Strategies Caching Recommendations Rate Limit Management Security Monitoring and Logging Related Resources Need Help? On this page Overview Base URL Endpoints Quick Start Authentication YouTube Transcript Request Parameters Response Formats YouTube Video Info Search Endpoint Parameters Response Channel Endpoints Resolve Channel Search Within Channel Channel Videos (Paginated) Channel Latest (RSS) Playlist Endpoint Credit Usage & Billing Credit Cost When Credits Are Charged Rate Limits Rate Limit Headers Best Practices Error Handling Retry Strategy Error Response Format 404 — No transcript for the requested languages 401 Unauthorized 402 Payment Required Code Examples Best Practices Error Handling Strategies Caching Recommendations Rate Limit Management Security Monitoring and Logging Related Resources Need Help? YouTube Transcript API Reference The YouTube Transcript API provides a simple and reliable way to extract transcripts from YouTube videos programmatically. This complete reference covers authentication, request parameters, response formats, and practical examples. Want to test the API interactively? Try our Swagger UI where you can make live requests right in your browser. Base URL Section titled “Base URL” All API requests are made to: https://transcriptapi.com/api/v2 Endpoints Section titled “Endpoints” The API provides the following endpoints: Endpoint Description Credits GET /youtube/transcript Extract video transcript (supports a language priority list) 1 GET /youtube/info Video metadata + available transcript languages Free GET /youtube/search Search YouTube videos or channels 1 GET /youtube/channel/resolve Resolve @handle/URL to channel ID Free GET /youtube/channel/search Search within a channel (accepts @handle, URL, or UC… ID) 1 GET /youtube/channel/videos Paginated channel uploads (accepts @handle, URL, or UC… ID) 1/page GET /youtube/channel/latest Latest 15 videos via RSS (accepts @handle, URL, or UC… ID) Free GET /youtube/playlist/videos Paginated playlist videos (accepts URL or playlist ID) 1/page Quick Start Section titled “Quick Start” Here’s how to make your first API request: Terminal window curl -X GET \" https://transcriptapi.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ \" \\ -H \" Authorization: Bearer YOUR_API_KEY \" Don’t have an API key yet? Get one from your dashboard . Expected Response: { \"video_id\" : \" dQw4w9WgXcQ \" , \"language\" : \" en \" , \"transcript\" : [ { \"text\" : \" Never gonna give you up \" , \"start\" : 0.0 , \"duration\" : 4.12 }, { \"text\" : \" Never gonna let you down \" , \"start\" : 4.12 , \"duration\" : 3.85 } ], \"length_seconds\" : 213 , \"lengthText\" : \" 3:33 \" } Try it Live Test this example and experiment with parameters in our interactive Swagger UI . Authentication Section titled “Authentication” The API uses Bearer token authentication. Include your API key in the Authorization header of every request: Authorization: Bearer YOUR_API_KEY Example: Terminal window curl -X GET \" https://transcriptapi.com/api/v2/youtube/transcript?video_url=... \" \\ -H \" Authorization: Bearer YOUR_API_KEY \" Get your API key from your API Keys dashboard . Security Best Practices Never expose your API key in client-side code Store API keys in environment variables Rotate keys regularly Use separate keys for different environments YouTube Transcript Section titled “YouTube Transcript” Request Parameters Section titled “Request Parameters” video_url (required) Section titled “video_url (required)” The YouTube video URL or video ID to fetch transcripts for. Property Value Type string Pattern ^([a-zA-Z0-9_-]{11}|https?://.\\*)$ Required Yes Accepted Formats: Full YouTube URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ Short YouTube URL: https://youtu.be/dQw4w9WgXcQ Video ID only: dQw4w9WgXcQ Examples: Terminal window # Full URL ? video_url = https://www.youtube.com/watch? v = dQw4w9WgXcQ # Short URL ? video_url = https://youtu.be/dQw4w9WgXcQ # Video ID only ? video_url = dQw4w9WgXcQ format (optional) Section titled “format (optional)” The output format for the transcript response. Property Value Type string Values json , text Default json json : Returns structured data with transcript segments text : Returns plain text transcript include_timestamp (optional) Section titled “include_timestamp (optional)” Whether to include timestamps in the transcript output. Property Value Type boolean Default true Behavior Matrix: Format include_timestamp Output json true Segments with text , start , duration json false Segments with only text text true Lines formatted as [123.45s] text text false Plain concatenated text send_metadata (optional) Section titled “send_metadata (optional)” Whether to include video metadata in the response. Property Value Type boolean Default false When enabled, includes: title : Video title author_name : Channel name author_url : Channel URL thumbnail_url : Video thumbnail language (optional) Section titled “language (optional)” A comma-separated priority list of language codes. The API returns the first one that’s available. Property Value Type string Default (omitted) — English, otherwise the video’s first available language Provide a list like de,en,asr ; codes are tried left to right and the first available wins. If none resolve, you receive a 404 that lists the languages the video does offer. Codes are case-insensitive and region is ignored ( en-GB / en-US → en , de-DE → de ), so de matches a German track. Up to 10 codes. asr requests the video’s auto-generated captions (ASR = automatic speech recognition). Use asr-<code> (for example asr-hi ) to request a specific auto-generated language. A plain code such as hi returns the creator’s captions when they exist, otherwise the auto-generated ones ( asr-hi ). The language field in a 200 response is the resolved code ( en , de , asr-hi , …), so you always know exactly which track you received. Detecting a video’s language When the response language comes back as an asr-<code> value (for example asr-hi ), it tells you two things at once: the transcript is auto-generated , and the video’s spoken language is that code (here, Hindi). So requesting asr is a handy way to discover what language a video is in. Tip: Call GET /youtube/info first — it’s free — to see which languages a video offers. Response Formats Section titled “Response Formats” The API supports multiple response formats based on your parameters: JSON with timestamps (default) JSON without timestamps Text with timestamps Text without timestamps { \"video_id\" : \" dQw4w9WgXcQ \" , \"language\" : \" en \" , \"transcript\" : [ { \"text\" : \" Never gonna give you up \" , \"start\" : 0.0 , \"duration\" : 4.12 }, { \"text\" : \" Never gonna let you down \" , \"start\" : 4.12 , \"duration\" : 3.85 } ], \"metadata\" : { \"title\" : \" Rick Astley - Never Gonna Give You Up \" , \"author_name\" : \" RickAstleyVEVO \" , \"author_url\" : \" https://www.youtube.com/@RickAstley \" , \"thumbnail_url\" : \" https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg \" }, \"length_seconds\" : 213 , \"lengthText\" : \" 3:33 \" } { \"video_id\" : \" dQw4w9WgXcQ \" , \"language\" : \" en \" , \"transcript\" : [ { \"text\" : \" Never gonna give you up \" }, { \"text\" : \" Never gonna let you down \" } ], \"length_seconds\" : 213 , \"lengthText\" : \" 3:33 \" } { \"video_id\" : \" dQw4w9WgXcQ \" , \"language\" : \" en \" , \"transcript\" : \" [0.0s] Never gonna give you up \\n [4.12s] Never gonna let you down \\n [7.97s] Never gonna run around and desert you \" , \"length_seconds\" : 213 , \"lengthText\" : \" 3:33 \" } { \"video_id\" : \" dQw4w9WgXcQ \" , \"language\" : \" en \" , \"transcript\" : \" Never gonna give you up Never gonna let you down Never gonna run around and desert you \" , \"length_seconds\" : 213 , \"lengthText\" : \" 3:33 \" } Video length fields Section titled “Video length fields” Every 200 response also includes the total video length as two top-level fields — you don’t need any parameter to get them: Field Type Description length_seconds integer Total video length in whole seconds (e.g. 213 ). lengthText string The same length, human-readable (e.g. 3:33 , or 1:02:45 for videos over an hour). Matches the lengthText from the search, channel, and playlist endpoints. Both are null when the source doesn’t expose a fixed length — live streams , and the rare fallback extraction path. They are independent of send_metadata . Response Headers Section titled “Response Headers” Header Description X-Cache-Status Cache status: HIT , PARTIAL-HIT , or MISS YouTube Video Info Section titled “YouTube Video Info” Discover a video’s metadata and the transcript languages it offers — before spending a transcript credit. Terminal window curl -X GET \" https://transcriptapi.com/api/v2/youtube/info?video_url=dQw4w9WgXcQ \" \\ -H \" Authorization: Bearer YOUR_API_KEY \" { \"video_id\" : \" dQw4w9WgXcQ \" , \"metadata\" : { \"title\" : \" ... \" , \"author_name\" : \" ... \" , \"author_url\" : \" ... \" , \"thumbnail_url\" : \" ... \" }, \"available_languages\" : [ { \"code\" : \" en \" , \"name\" : \" English \" }, { \"code\" : \" asr-en \" , \"name\" : \" English (auto-generated) \" } ] } Free — no credit is consumed. The same API key and active plan are required as for the transcript endpoint. Each available_languages code can be passed directly to the transcript endpoint’s language parameter (for example en , or asr-en for auto-generated English). Returns 404 when the video does not exist or has no captions. Search Endpoint Section titled “Search Endpoint” GET /youtube/search Search YouTube for videos or channels. Parameters Section titled “Parameters” Parameter Type Required Default Description q string Conditional — Search query (1–200 characters). Required for the first page. type string No video Result type: video or channel (first page only). continuation string Conditional — Continuation token from previous response (subsequent pages). Provide exactly one of q or continuation . When continuation is provided, q / type are ignored (the token already encodes them). Each call returns YouTube’s full page (~20 items). Use continuation_token to fetch more. Response Section titled “Response” Video search Channel search { \"results\" : [ { \"type\" : \" video \" , \"videoId\" : \" abc123xyz00 \" , \"title\" : \" The future of design — TED \" , \"channelId\" : \" UCAuUUnT6oDeKwE6v1NGQxug \" , \"channelTitle\" : \" TED \" , \"channelHandle\" : \" @TED \" , \"channelVerified\" : true , \"lengthText\" : \" 12:34 \" , \"viewCountText\" : \" 3.4M views \" , \"publishedTimeText\" : \" 2 years ago \" , \"hasCaptions\" : true , \"thumbnails\" : [ { \"url\" : \" https://i.ytimg.com/vi/abc123xyz00/default.jpg \" , \"width\" : 120 , \"height\" : 90 } ] } ], \"result_count\" : 20 , \"continuation_token\" : \" 4qmFsgKlARIYVVV1QVhGa2dz... \" , \"has_more\" : true } { \"results\" : [ { \"type\" : \" channel \" , \"channelId\" : \" UCAuUUnT6oDeKwE6v1NGQxug \" , \"title\" : \" TED \" , \"handle\" : \" @TED \" , \"url\" : \" https://www.youtube.com/@TED \" , \"description\" : \" Ideas worth spreading... \" , \"subscriberCount\" : \" 23.8M subscribers \" , \"verified\" : true , \"rssUrl\" : \" https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug \" , \"thumbnails\" : [ ... ] } ], \"result_count\" : 5 , \"continuation_token\" : \" 4qmFsgKlARIYVVV1QVhGa2dz... \" , \"has_more\" : true } Pagination flow: First request: ?q=design&type=video — returns first page + continuation_token Next request: ?continuation=4qmFsgKlARIYVVV1QVhGa2dz... — returns next page + new token Repeat until has_more is false or continuation_token is null Each page costs 1 credit. Example: Terminal window # First page curl -X GET \" https://transcriptapi.com/api/v2/youtube/search?q=innovation&type=video \" \\ -H \" Authorization: Bearer YOUR_API_KEY \" # Next page curl -X GET \" https://transcriptapi.com/api/v2/youtube/search?continuation=4qmFsgKlARIYVVV1QVhGa2dz... \" \\ -H \" Authorization: Bearer YOUR_API_KEY \" Channel Endpoints Section titled “Channel Endpoints” Resolve Channel Section titled “Resolve Channel” GET /youtube/channel/resolve Resolve any channel reference (@handle, URL, or UC… ID) to a canonical UC… channel ID. Free — no credits charged. Parameter Type Required Description input string Yes @handle, channel URL, or UC… ID (1–200 characters) Response: { \"channel_id\" : \" UCAuUUnT6oDeKwE6v1NGQxug \" , \"resolved_from\" : \" @TED \" } Fast Path If input is already a valid UC… channel ID (24 characters starting with UC ), the API returns immediately without any external lookup. Example: Terminal window curl -X GET \" https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@TED \" \\ -H \" Authorization: Bearer YOUR_API_KEY \" Search Within Channel Section titled “Search Within Channel” GET /youtube/channel/search Search for videos within a specific channel. Accepts an @handle, channel URL, or UC… channel ID. Parameter Type Required Default Description channel string Conditional — @handle, channel URL, or UC… channel ID (first page). q string Conditional — Search query (1–200 characters, first page). continuation string Conditional — Continuation token from previous response (subsequent pages). Provide exactly one of ( channel + q ) or continuation . When continuation is provided, channel / q are ignored. Each call returns YouTube’s full page (~30 items). Use",
+      "content_sha256": "b7e4749528ae92b1012182740d956327be7fd6abe99dadd3c5b57762b272b6ed",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5049,
+    "output_tokens": 2830
+  },
+  "failure": null
+}

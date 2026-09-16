@@ -1,0 +1,310 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 49,
+    "app_name": "Amazon Selling Partner",
+    "category": "5. Ecommerce",
+    "website": "http://developer-docs.amazon.com/sp-api",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "The API covers a wide range of functionalities including catalog items, orders, shipments, finances, listings, messaging, notifications, fulfillment, invoicing, and more, with extensive SDK support in multiple languages.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers a wide range of functionalities including catalog items, orders, shipments, finances, listings, messaging, notifications, fulfillment, invoicing, and more, with extensive SDK support in multiple languages.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "A+ Content API A+ Content API Create, edit, and publish A+ content Manage A+ content A+ Content Examples A+ Content API Rate Limits Amazon Warehousing and Distribution API Amazon Warehousing and Distribution API Create an inbound order for shipment Get inventory summaries Retrieve and filter inbound shipments Track an inbound shipment with expected and received SKU details Amazon Warehousing and Distribution API v2024-05-09 Reference App Integrations API App Integrations API Create and onboard an app notification template Sample sandbox notification templates Send an app notification Record app notification feedback Delete app notifications Application Management API Application Management API Set up credential rotation notifications Rotate your application's client secret Catalog Items API Catalog Items API Retrieve catalog item details Search catalog items Catalog Items API Rate Limits Catalog Items API v2022-04-01 Reference Customer Feedback API Customer Feedback API Get Feedback Insights for an ASIN Get Feedback Insights for a Browse Node Customer Feedback API Rate Limits Data Kiosk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Explorer User Guide Data Kiosk Query Processing Finished Notification Building Data Kiosk workflows guide Vendor Analytics Dataset Use Case Guide Schedule Data Kiosk Queries Delivery by Amazon API Delivery by Amazon API Submit an invoice for Delivery by Amazon and Self Ship orders Check the invoice submission status for Delivery by Amazon and Self Ship orders Easy Ship API Easy Ship API Schedule an Easy Ship package Reschedule an Easy Ship package Check the status of an Easy Ship package Find order items that require serial numbers Get shipping labels, invoice, and warranty documents External Fulfillment External Fulfillment Inventory API Publish Location-Level Inventory Retrieve Location-Level Inventory External Fulfillment Returns API Retrieve Return Information External Fulfillment Shipping API Retrieve a List of Shipments Process a Shipment Handle Easy Ship Cross-Border Orders External Fulfillment Errors External Fulfillment APIs Rate Limits Fulfillment By Amazon (FBA) FBA Inventory API Get inventory summaries FBA Inventory Dynamic Sandbox Guide Feeds API Feeds API Submit a feed Feed Type Values Easy Ship Feed Type Values Fulfillment By Amazon Feed Type Values Invoicing Feed Type Values Listings Feed Type Values Order Feed Type Values Feeds JSON Schemas Feeds API Best Practices Feeds API FAQ Feeds API Rate Limits Finances Finances API Get the latest transactions Determine payment transactions Retrieve the amount and status of a payment Retrieve your current balance Retrieve the financial events that make up a financial event group List Transactions Associated with an Order Retrieve a balance Retrieve a financial summary Finances API v2024-06-19 Reference Transfers API Retrieve payment method details and initiate a payout Retrieve payouts Retrieve expected payouts Invoices API Retrieve invoice headers Get invoice details Fulfillment Inbound API Fulfillment Inbound API Create an inbound shipment Create a shipment with an Amazon-partnered carrier (PCP) Create a shipment with a non-partnered carrier Inbound Shipments with the Pack Later workflow Ship Inventory to Amazon Fulfillment Centers in India Additional Functionality Fulfillment Inbound API FAQ Migrating Fulfillment Inbound workflows Fulfillment Inbound API Rate Limits Fulfillment Outbound API Fulfillment Outbound API Retrieve proof of delivery for a delivered package Retrieve a list of fulfillment orders Retrieve delivery tracking information Cancel a fulfillment order Retrieve a list of features Retrieve inventory eligible for Blank Box Retrieve Blank Box inventory for a specific SKU Create a Japan order with scheduled delivery and delivery time windows Create an MCF order for India Track a partially fulfilled order Create an order in hold status and then move it to shipped Track an order with an item's serial number Create an order with cross border fulfillment Create Orders with Unbranded Packaging and Block AMZL Services Get recipient details for attended deliveries Show the preview details of all ship speeds View order notifications with the Notifications API Create a return for an MCF order Get dynamic delivery offers Create a Japan order with delivery preferences Create a Japan order providing neighbor details in delivery preferences Create an MCF Order that Ships in Product Packaging Retrieve locker (delivery box) details for packages delivered in Japan Retrieve multi-shipment package tracking details Fulfillment Outbound Workflow Guide Place a Fulfillment Order Set Up Real-Time Notifications Track Delivery and Handle Order Outcomes Fulfillment Outbound Dynamic Sandbox Guide Fulfillment Outbound API Migration Guide Fulfillment Outbound Troubleshooting Guide Fulfillment Outbound API Rate Limits MCF Best Practices Invoicing Invoices API (Brazil Only) Export invoice files Invoices API FAQ Listings Listings Items API Create or fully update a listing Merge a listing Retrieve details about a listing for single or multiple Amazon stores Preview errors before partially updating a listing Preview errors before creating or fully updating a listing Partially update a listing Submit media attributes Update prices for multiple Amazon stores Search for listings items by product identifier or other listings parameters Manage purchasable offer Submit modular titles Guidance for Complex Attributes Delete a listing Manage Listings Issues Listings Items API Issues Troubleshooting Listings Items API Rate Limits Listings Restrictions API Get listings restrictions for an item in the catalog Listings Restrictions API Rate Limits Manage Product Listings with the Selling Partner API Building Listings Management Workflows Guide Understanding Amazon listing status and seller-fulfilled inventory management Listings Management Workflow Migration Mapping product attributes to the Listings Items API and JSON-based feeds Submit Listings data Manage Amazon Haul, Advanced Multiple-Offer, and Multiple-Fulfillment Use Cases Listings APIs FAQ Product Type Definitions API Search available Product Type Definitions Get Product Type Definition recommendations Get recommended browse nodes or item type keywords Retrieve a Product Type Definition Amazon Product Type Definitions Meta-Schema (v1) C# Example of Meta-Schema v1 Javascript Example of Meta-Schema v1 Java Example of Meta-Schema v1 Product Type Definitions API Rate Limits Merchant Fulfillment API Merchant Fulfillment API Fulfill seller-fulfilled Prime and non-Prime orders Cancel a shipment Manipulate shipping labels Include additional seller input data Subscribe to MFN notifications Messaging API Messaging API Send a message Notifications API Notifications API Create and Filter Notification Subscriptions Set up notifications using the Amazon EventBridge workflow Set up notifications using the Amazon Simple Queue Service workflow Notification Type Values Subscribe to the ORDER_CHANGE Notification Subscribe to shipment tr",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "no_usable_official_source",
+      "nonofficial_critical_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:21:38.257603+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 49,
+    "app_name": "Amazon Selling Partner",
+    "category": "5. Ecommerce",
+    "website": "http://developer-docs.amazon.com/sp-api",
+    "description": "The Amazon Selling Partner API (SP-API) provides programmatic access to Amazon's selling partner services, enabling developers to automate and manage various aspects of selling on Amazon, including listings, orders, shipments, finances, and more.",
+    "auth_methods": [
+      "oauth2",
+      "service_account"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "The API covers a wide range of functionalities including catalog items, orders, shipments, finances, listings, messaging, notifications, fulfillment, invoicing, and more, with extensive SDK support in multiple languages.",
+    "mcp_available": "official",
+    "mcp_notes": "Amazon provides an official Selling Partner Appstore and a Service Provider Network for listing and managing applications and services.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is officially documented with detailed onboarding steps, SDKs in multiple languages, and extensive API references, enabling developers to build applications integrating with Amazon Selling Partner services.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "The Amazon Selling Partner API (SP-API) provides programmatic access to Amazon's selling partner services, enabling developers to automate and manage various aspects of selling on Amazon, including listings, orders, shipments, finances, and more.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "Selling Partner API Onboarding Overview Onboarding as a Developer Step 1: Prepare for Registration Step 2: Create a Solution Provider Portal Account Step 3: Create a Developer Profile Step 4: Register a Sandbox Application Step 5: Make Your First Call to the SP-API Sandbox Step 6: Set up the Authorization Workflow Step 7: Register Your Production Application Step 8: Call the SP-API in Production Step 9: Test Your Application Step 10: List Your Application Onboarding as a Service Provider Step 1: Learn the Service Provider Registration and Permissions Workflow Step 2: Create a Solution Provider Portal Account for Your Company Step 3: Verify Your Identity Step 4: Complete the Service Profile for Your Company Step 5: Apply for Seller Central Roles Step 6: Invite Employees to Your Account Step 7: Connect With Sellers Step 8: List Your Service in the Service Provider Network Terminology Frequently Asked Questions SP-API General FAQ Solution Provider Portal FAQ Seller Authorizations FAQ Changelog SP-API Release Notes SP-API Deprecation Schedule SP-API Product Metadata Updates Directories SP-API Models SP-API Seller Use Cases SP-API Vendor Use Cases Seller Central URLs Vendor Central URLs Registration SP-API Registration Overview Register as a Public SP-API Developer Register as a Private SP-API Developer Register as a Private SP-API Vendor Register as a Service Provider (Setup and Migration) Developer Registration Request Status Third-Party Provider Registration Third-Party Provider Signature Guidance Service Provider Registration and Role Approval Process Overview Eligible Seller Central Roles for Service Providers Website Guidelines for Public Developers and Service Providers User Permissions for Service Providers Register your Application Update your Application Information Rotate your Application's LWA Credentials LWA Credentials FAQ View your Application Information and Credentials Learn How Sellers Authorize Service Providers Selling Partner API Roles Role Mappings for SP-API Operations Role Mappings for SP-API Types Policies and Agreements About Facial Data Authorization Authorize Applications Authorize Public Applications Selling Partner Appstore Authorization Workflow Website Authorization Workflow Authorize Private Applications Reauthorize Applications Reactivate Authorizations Revoke Authorizations Authorization Limits Special Authorization Types Authorize your Application to Access Vendor Groups Authorization with the Restricted Data Token Integration Building Robust Amazon SP-API Applications SP-API SDKs Connect to the Selling Partner API Using a Generated C# SDK Connecting to the Selling Partner API Using a Generated Java SDK Tutorial: Automate your SP-API calls using C# SDK Tutorial: Automate your SP-API calls using Java SDK Tutorial: Automate your SP-API calls using JavaScript SDK for Node.js Tutorial: Automate your SP-API calls using Python SDK Tutorial: Automate your SP-API calls using a prebuilt C# SDK Tutorial: Automate your SP-API calls using prebuilt Java SDK Tutorial: Automate your SP-API calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK Delete an Application From Your Developer Account Calling the SP-API Configuration Details SP-API Endpoints Store Identifiers Date and Time Formatting Grantless Operations Call Structure Connect to the SP-API Parse SP-API Responses Development Tools Selling Partner API Sandbox Using Postman for Selling Partner API Models Performance Management Usage Plans and Rate Limits Optimize Calls to the Selling Partner API Optimize Rate Limits for Application Workloads Solution Provider Portal Manage Users in Solution Provider Portal Manage Your Business And Contact information in Solution Provider Portal Update Your Developer Profile in Solution Provider Portal Unify Your Developer Accounts Verify Your Identity in Solution Provider Portal API Usage Metrics in Solution Provider Portal Tutorials Tutorial: Test Selling Partner API Endpoints Tutorial: Automate your SP-API Calls Using a C# SDK Tutorial: Automate your SP-API Calls Using a Java SDK Tutorial: Automate your SP-API Calls Using a JavaScript SDK for Node.js Tutorial: Automate your SP-API Calls Using a Python SDK Tutorial: Automate your SP-API Calls using a prebuilt C# SDK Tutorial: Automate your SP-API Calls using prebuilt Java SDK Tutorial: Automate your SP-API Calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API Calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK Tutorial: Authorize Multiple Vendor Central Accounts with a Single SP-API Application Tutorial: Retrieve Merchant Shipping Templates Tutorial: Grant the SP-API Permission to an Amazon SQS Queue Tutorial: Retrieve and Pass a Purchase Order Number to a Carrier Troubleshooting Troubleshoot SP-API Errors URL Encoding Resolve Common HTTP and Authorization Error Codes External Fulfillment Errors Listings Items API Issues Troubleshooting Selling Partner Appstore What is the Selling Partner Appstore? List Your App on the Selling Partner Appstore Edit Your Appstore Listing Check Listing Status Appstore Ratings and Reviews Press Releases and Promotions Service Provider Network List Your Service Security and Compliance SP-API Security and Compliance Overview Amazon Selling Partner API Guard Implementation Guide Architecture Overview Guard Components Guard Cost Guard Source Code Guard and Security Regional Guard Deployments Automated Guard Deployment AWS CloudFormation Template Update Guard Uninstall Guard Troubleshoot Guard Intellectual Property License Guard Legal Notice VAT Calculation Service Create and Upload Invoices Invoice Compliance and Correction Use Cases Error Handling Best Practices Launch Readiness Checklist Amazon Seller Data Access Best Practices Key Security Control Guidance Logging and Monitoring for Amazon SP-API Applications Network Protection Guidance Protect Amazon API Applications with Data Encryption Protect Amazon API Applications with Data Retention and Recovery Protect Amazon SP-API Applications with Incident Response Safeguarding Sensitive Credentials Vulnerability Management A+ Content API A+ Content API Create, edit, and publish A+ content Manage A+ content A+ Content Examples A+ Content API Rate Limits Amazon Warehousing and Distribution API Amazon Warehousing and Distribution API Create an inbound order for shipment Get inventory summaries Retrieve and filter inbound shipments Track an inbound shipment with expected and received SKU details Amazon Warehousing and Distribution API v2024-05-09 Reference App Integrations API App Integrations API Create and onboard an app notification template Sample sandbox notification templates Send an app notification Record app notification feedback Delete app notifications Application Management API Application Management API Set up credential rotation notifications Rotate your application's client secret Catalog Items API Catalog Items API Retrieve catalog item details Search catalog items Catalog Items API Rate Limits Catalog Items API v2022-04-01 Reference Customer Feedback API Customer Feedback API Get Feedback Insights for an ASIN Get Feedback Insights for a Browse Node Customer Feedback API Rate Limits Data Kiosk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Explorer User Guide Data Kiosk Query Processing Finished Notification Building Data Kiosk workflows guide Vendor Analytics Dataset Use Case Guide Schedule Data Kiosk Queries Delivery by Amazon API Delivery by Amazon API Submit an invoice for Delivery by Amazon and Self Ship orders Check the invoice submission status for Delivery by Amazon and Self Ship orders Easy Ship API Easy Ship API Schedule an Easy Ship package Reschedule an Easy Ship package Check the status of an Easy Ship package Find order items that require serial numbers Get shipping labels, invoice, and warranty documents External Fulfillment External Fulfillment Inventory API Publish Location-Level Inventory Retrieve Location-Level Inventory External Fulfillment Returns API Retrieve Return Information External Fulfillment Shipping API Retrieve a List of Shipments Process a Shipment Handle Easy Ship Cross-Border Orders External Fulfillment Errors External Fulfillment APIs Rate Limits Fulfillment By Amazon (FBA) FBA Inventory API Get inventory summaries FBA Inventory Dynamic Sandbox Guide Feeds API Feeds API Submit a feed Feed Type Values Easy Ship Feed Type Values Fulfillment By Amazon Feed Type Values Invoicing Feed Type Values Listings Feed Type Values Order Feed Type Values Feeds JSON Schemas Feeds API Best Practices Feeds API FAQ Feeds API Rate Limits Finances Finances API Get the latest transactions Determine payment transactions Retrieve the amount and status of a payment Retrieve your current balance Retrieve the financial events that make up a financial event group List Transactions Associated with an Order Retrieve a balance Retrieve a financial summary Finances API v2024-06-19 Reference Transfers API Retrieve payment method details and initiate a payout Retrieve payouts Retrieve expected payouts Invoices API Retrieve invoice headers Get invoice details Fulfillment Inbound API Fulfillment Inbound API Create an inbound shipment Create a shipment with an Amazon-partnered carrier (PCP) Create a shipment with a non-partnered carrier Inbound Shipments with the Pack Later workflow Ship Inventory to Amazon Fulfillment Centers in India Additional Functionality Fulfillment Inbound API FAQ Migrating Fulfillment Inbound workflows Fulfillment Inbound API Rate Limits Fulfillment Outbound API Fulfillment Outbound API Retrieve proof of delivery for a delivered package Retrieve a list of fulfillment orders Retrieve delivery tracking information Cancel a fulfillment order Retrieve a list of features Retrieve inventory eligible for Blank Box Retrieve Blank Box inventory for a specific SKU Create a Japan order with scheduled delivery and delivery time windows Create an MCF order for India Track a partially fulfilled order Create an order in hold status and then move it to shipped Track an order with an item's serial number Create an order with cross border fulfillment Create Orders with Unbranded Packaging and Block AMZL Services Get recipient details for attended deliveries Show the preview details of all ship speeds View order notifications with the Notifications API Create a Return for an MCF Order Get dynamic delivery offers Create a Japan order with delivery preferences Create a Japan order providing neighbor details in delivery preferences Create an MCF Order that Ships in Product Packaging Retrieve locker (delivery box) details for packages delivered in Japan Retrieve multi-shipment package tracking details Fulfillment Outbound Workflow Guide Place a Fulfillment Order Set Up Real-Time Notifications Track Delivery and Handle Order Outcomes Fulfillment Outbound Dynamic Sandbox Guide Fulfillment Outbound API Migration Guide Fulfillment Outbound Troubleshooting Guide Fulfillment Outbound API Rate Limits MCF Best Practices Invoicing Invoices API (Brazil Only) Export invoice files Invoices API FAQ Listings Listings Items API Create or fully update a listing Merge a listing Retrieve details about a listing for single or multiple Amazon stores Preview errors before partially updating a listing Preview errors before creating or fully updating a listing Partially update a listing Submit media attributes Update prices for multiple Amazon stores Search for listings items by product identifier or other listings parameters Manage purchasable offer Submit modular titles Guidance for Complex Attributes Delete a listing Manage Listings Issues Listings Items API Issues Troubleshooting Listings Items API Rate Limits Listings Restrictions API Get listings restrictions for an item in the catalog Listings Restrictions API Rate Limits Manage Product Listings with the Selling Partner API Building Listings Management Workflows Guide Understanding Amazon listing status and seller-fulfilled inventory management Listings Management Workflow Migration Mapping product attributes to the Listings Items API and JSON-based feeds Submit Listings data Manage Amazon Haul, Advanced Multiple-Offer, and Multiple-Fulfillment Use Cases Listings APIs FAQ Product Type Definitions API Search available Product Type Definitions Get Product Type Definition recommendations Get recommended browse nodes or item type keywords Retrieve a Product Type Definition Amazon Product Type Definitions Meta-Schema (v1) C# Example of Meta-Schema v1 Javascript Example of Meta-Schema v1 Java Example of Meta-Schema v1 Product Type Definitions API Rate Limits Merchant Fulfillment API Merchant Fulfillment API Fulfill seller-fulfilled Prime and non-Prime orders Cancel a shipment Manipulate shipping labels Include additional seller input data Subscribe to MFN notifications Messaging API Messaging API Send a message Notifications API Notifications API Create and Filter Notification Subscriptions Set up notifications using the Amazon EventBridge workflow Set up notifications using the Amazon Simple Queue Service workflow Notification Type Values Subscribe to the ORDER_CHANGE Notification Subscribe to shipment tr",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "The API uses OAuth 2.0 and service account authentication methods.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "Step 6: Set up the Authorization Workflow ... LWA Credentials FAQ ... Rotate your Application's LWA Credentials ... Authorize Applications ... Authorization with the Restricted Data Token Integration ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "The API is available via a self-serve paid model requiring developer registration and application approval.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "Onboarding as a Developer Step 1: Prepare for Registration Step 2: Create a Solution Provider Portal Account Step 3: Create a Developer Profile Step 4: Register a Sandbox Application Step 5: Make Your First Call to the SP-API Sandbox Step 6: Set up the Authorization Workflow Step 7: Register Your Production Application Step 8: Call the SP-API in Production Step 9: Test Your Application Step 10: List Your Application ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The Amazon Selling Partner API is available and documented with extensive references and SDKs.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "SP-API SDKs Connect to the Selling Partner API Using a Generated C# SDK Connecting to the Selling Partner API Using a Generated Java SDK Tutorial: Automate your SP-API calls using C# SDK Tutorial: Automate your SP-API calls using Java SDK Tutorial: Automate your SP-API calls using JavaScript SDK for Node.js Tutorial: Automate your SP-API calls using Python SDK Tutorial: Automate your SP-API calls using a prebuilt C# SDK Tutorial: Automate your SP-API calls using prebuilt Java SDK Tutorial: Automate your SP-API calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API supports REST endpoints and provides SDKs in multiple programming languages including C#, Java, JavaScript, PHP, and Python.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "SP-API SDKs Connect to the Selling Partner API Using a Generated C# SDK Connecting to the Selling Partner API Using a Generated Java SDK Tutorial: Automate your SP-API calls using C# SDK Tutorial: Automate your SP-API calls using Java SDK Tutorial: Automate your SP-API calls using JavaScript SDK for Node.js Tutorial: Automate your SP-API calls using Python SDK Tutorial: Automate your SP-API calls using a prebuilt C# SDK Tutorial: Automate your SP-API calls using prebuilt Java SDK Tutorial: Automate your SP-API calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API covers a wide range of functionalities including catalog items, orders, shipments, finances, listings, messaging, notifications, fulfillment, invoicing, and more, with extensive SDK support in multiple languages.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "A+ Content API A+ Content API Create, edit, and publish A+ content Manage A+ content A+ Content Examples A+ Content API Rate Limits Amazon Warehousing and Distribution API Amazon Warehousing and Distribution API Create an inbound order for shipment Get inventory summaries Retrieve and filter inbound shipments Track an inbound shipment with expected and received SKU details Amazon Warehousing and Distribution API v2024-05-09 Reference App Integrations API App Integrations API Create and onboard an app notification template Sample sandbox notification templates Send an app notification Record app notification feedback Delete app notifications Application Management API Application Management API Set up credential rotation notifications Rotate your application's client secret Catalog Items API Catalog Items API Retrieve catalog item details Search catalog items Catalog Items API Rate Limits Catalog Items API v2022-04-01 Reference Customer Feedback API Customer Feedback API Get Feedback Insights for an ASIN Get Feedback Insights for a Browse Node Customer Feedback API Rate Limits Data Kiosk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Explorer User Guide Data Kiosk Query Processing Finished Notification Building Data Kiosk workflows guide Vendor Analytics Dataset Use Case Guide Schedule Data Kiosk Queries Delivery by Amazon API Delivery by Amazon API Submit an invoice for Delivery by Amazon and Self Ship orders Check the invoice submission status for Delivery by Amazon and Self Ship orders Easy Ship API Easy Ship API Schedule an Easy Ship package Reschedule an Easy Ship package Check the status of an Easy Ship package Find order items that require serial numbers Get shipping labels, invoice, and warranty documents External Fulfillment External Fulfillment Inventory API Publish Location-Level Inventory Retrieve Location-Level Inventory External Fulfillment Returns API Retrieve Return Information External Fulfillment Shipping API Retrieve a List of Shipments Process a Shipment Handle Easy Ship Cross-Border Orders External Fulfillment Errors External Fulfillment APIs Rate Limits Fulfillment By Amazon (FBA) FBA Inventory API Get inventory summaries FBA Inventory Dynamic Sandbox Guide Feeds API Feeds API Submit a feed Feed Type Values Easy Ship Feed Type Values Fulfillment By Amazon Feed Type Values Invoicing Feed Type Values Listings Feed Type Values Order Feed Type Values Feeds JSON Schemas Feeds API Best Practices Feeds API FAQ Feeds API Rate Limits Finances Finances API Get the latest transactions Determine payment transactions Retrieve the amount and status of a payment Retrieve your current balance Retrieve the financial events that make up a financial event group List Transactions Associated with an Order Retrieve a balance Retrieve a financial summary Finances API v2024-06-19 Reference Transfers API Retrieve payment method details and initiate a payout Retrieve payouts Retrieve expected payouts Invoices API Retrieve invoice headers Get invoice details Fulfillment Inbound API Fulfillment Inbound API Create an inbound shipment Create a shipment with an Amazon-partnered carrier (PCP) Create a shipment with a non-partnered carrier Inbound Shipments with the Pack Later workflow Ship Inventory to Amazon Fulfillment Centers in India Additional Functionality Fulfillment Inbound API FAQ Migrating Fulfillment Inbound workflows Fulfillment Inbound API Rate Limits Fulfillment Outbound API Fulfillment Outbound API Retrieve proof of delivery for a delivered package Retrieve a list of fulfillment orders Retrieve delivery tracking information Cancel a fulfillment order Retrieve a list of features Retrieve inventory eligible for Blank Box Retrieve Blank Box inventory for a specific SKU Create a Japan order with scheduled delivery and delivery time windows Create an MCF order for India Track a partially fulfilled order Create an order in hold status and then move it to shipped Track an order with an item's serial number Create an order with cross border fulfillment Create Orders with Unbranded Packaging and Block AMZL Services Get recipient details for attended deliveries Show the preview details of all ship speeds View order notifications with the Notifications API Create a return for an MCF order Get dynamic delivery offers Create a Japan order with delivery preferences Create a Japan order providing neighbor details in delivery preferences Create an MCF Order that Ships in Product Packaging Retrieve locker (delivery box) details for packages delivered in Japan Retrieve multi-shipment package tracking details Fulfillment Outbound Workflow Guide Place a Fulfillment Order Set Up Real-Time Notifications Track Delivery and Handle Order Outcomes Fulfillment Outbound Dynamic Sandbox Guide Fulfillment Outbound API Migration Guide Fulfillment Outbound Troubleshooting Guide Fulfillment Outbound API Rate Limits MCF Best Practices Invoicing Invoices API (Brazil Only) Export invoice files Invoices API FAQ Listings Listings Items API Create or fully update a listing Merge a listing Retrieve details about a listing for single or multiple Amazon stores Preview errors before partially updating a listing Preview errors before creating or fully updating a listing Partially update a listing Submit media attributes Update prices for multiple Amazon stores Search for listings items by product identifier or other listings parameters Manage purchasable offer Submit modular titles Guidance for Complex Attributes Delete a listing Manage Listings Issues Listings Items API Issues Troubleshooting Listings Items API Rate Limits Listings Restrictions API Get listings restrictions for an item in the catalog Listings Restrictions API Rate Limits Manage Product Listings with the Selling Partner API Building Listings Management Workflows Guide Understanding Amazon listing status and seller-fulfilled inventory management Listings Management Workflow Migration Mapping product attributes to the Listings Items API and JSON-based feeds Submit Listings data Manage Amazon Haul, Advanced Multiple-Offer, and Multiple-Fulfillment Use Cases Listings APIs FAQ Product Type Definitions API Search available Product Type Definitions Get Product Type Definition recommendations Get recommended browse nodes or item type keywords Retrieve a Product Type Definition Amazon Product Type Definitions Meta-Schema (v1) C# Example of Meta-Schema v1 Javascript Example of Meta-Schema v1 Java Example of Meta-Schema v1 Product Type Definitions API Rate Limits Merchant Fulfillment API Merchant Fulfillment API Fulfill seller-fulfilled Prime and non-Prime orders Cancel a shipment Manipulate shipping labels Include additional seller input data Subscribe to MFN notifications Messaging API Messaging API Send a message Notifications API Notifications API Create and Filter Notification Subscriptions Set up notifications using the Amazon EventBridge workflow Set up notifications using the Amazon Simple Queue Service workflow Notification Type Values Subscribe to the ORDER_CHANGE Notification Subscribe to shipment tr",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "Amazon provides an official Selling Partner Appstore and a Service Provider Network for listing and managing applications and services.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "Selling Partner Appstore Authorization Workflow Website Authorization Workflow Authorize Private Applications Reauthorize Applications Reactivate Authorizations Revoke Authorizations Authorization Limits Special Authorization Types Authorize your Application to Access Vendor Groups Authorization with the Restricted Data Token Integration Building Robust Amazon SP-API Applications SP-API SDKs ... Selling Partner Appstore What is the Selling Partner Appstore? List Your App on the Selling Partner Appstore Edit Your Appstore Listing Check Listing Status Appstore Ratings and Reviews Press Releases and Promotions Service Provider Network List Your Service ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "The API is officially documented with detailed onboarding steps, SDKs in multiple languages, and extensive API references, enabling developers to build applications integrating with Amazon Selling Partner services.",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+        "source_kind": "third_party",
+        "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+        "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+        "quote": "Selling Partner API Onboarding Overview ... Step 1: Prepare for Registration ... Step 4: Register a Sandbox Application Step 5: Make Your First Call to the SP-API Sandbox Step 6: Set up the Authorization Workflow ... SP-API SDKs Connect to the Selling Partner API Using a Generated C# SDK Connecting to the Selling Partner API Using a Generated Java SDK Tutorial: Automate your SP-API calls using C# SDK Tutorial: Automate your SP-API calls using Java SDK Tutorial: Automate your SP-API calls using JavaScript SDK for Node.js Tutorial: Automate your SP-API calls using Python SDK Tutorial: Automate your SP-API calls using a prebuilt C# SDK Tutorial: Automate your SP-API calls using prebuilt Java SDK Tutorial: Automate your SP-API calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK ...",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:20:52.349308+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "nonofficial_critical_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+      "final_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+      "retrieved_at": "2026-09-16T17:20:50.634306+00:00",
+      "ok": true,
+      "source_kind": "third_party",
+      "text": "Register your Application For AI agents: visit https://developer-docs.amazon/sp-api/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version. Jump to Content Home Documentation Code Samples API Reference Announcements Models Release Notes FAQ GitHub Videos Developer Hub API Status Support Documentation Developer Hub API Status Support Home Documentation Code Samples API Reference Announcements Models Release Notes FAQ GitHub Videos Register your Application Get Started Welcome to SP-API Documentation What is the Selling Partner API? Selling Partner API Onboarding Overview Onboarding as a Developer Step 1: Prepare for Registration Step 2: Create a Solution Provider Portal Account Step 3: Create a Developer Profile Step 4: Register a Sandbox Application Step 5: Make Your First Call to the SP-API Sandbox Step 6: Set up the Authorization Workflow Step 7: Register Your Production Application Step 8: Call the SP-API in Production Step 9: Test Your Application Step 10: List Your Application Onboarding as a Service Provider Step 1: Learn the Service Provider Registration and Permissions Workflow Step 2: Create a Solution Provider Portal Account for Your Company Step 3: Verify Your Identity Step 4: Complete the Service Profile for Your Company Step 5: Apply for Seller Central Roles Step 6: Invite Employees to Your Account Step 7: Connect With Sellers Step 8: List Your Service in the Service Provider Network Terminology Frequently Asked Questions SP-API General FAQ Solution Provider Portal FAQ Seller Authorizations FAQ Changelog SP-API Release Notes SP-API Deprecation Schedule SP-API Product Metadata Updates Directories SP-API Models SP-API Seller Use Cases SP-API Vendor Use Cases Seller Central URLs Vendor Central URLs Registration SP-API Registration Overview Register as a Public SP-API Developer Register as a Private SP-API Developer Register as a Private SP-API Vendor Register as a Service Provider (Setup and Migration) Developer Registration Request Status Third-Party Provider Registration Third-Party Provider Signature Guidance Service Provider Registration and Role Approval Process Overview Eligible Seller Central Roles for Service Providers Website Guidelines for Public Developers and Service Providers User Permissions for Service Providers Register your Application Update your Application Information Rotate your Application's LWA Credentials LWA Credentials FAQ View your Application Information and Credentials Learn How Sellers Authorize Service Providers Selling Partner API Roles Role Mappings for SP-API Operations Role Mappings for SP-API Types Policies and Agreements About Facial Data Authorization Authorize Applications Authorize Public Applications Selling Partner Appstore Authorization Workflow Website Authorization Workflow Authorize Private Applications Reauthorize Applications Reactivate Authorizations Revoke Authorizations Authorization Limits Special Authorization Types Authorize your Application to Access Vendor Groups Authorization with the Restricted Data Token Integration Building Robust Amazon SP-API Applications SP-API SDKs Connect to the Selling Partner API Using a Generated C# SDK Connecting to the Selling Partner API Using a Generated Java SDK Tutorial: Automate your SP-API calls using C# SDK Tutorial: Automate your SP-API calls using Java SDK Tutorial: Automate your SP-API calls using JavaScript SDK for Node.js Tutorial: Automate your SP-API calls using Python SDK Tutorial: Automate your SP-API calls using a prebuilt C# SDK Tutorial: Automate your SP-API calls using prebuilt Java SDK Tutorial: Automate your SP-API calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK Delete an Application From Your Developer Account Calling the SP-API Configuration Details SP-API Endpoints Store Identifiers Date and Time Formatting Grantless Operations Call Structure Connect to the SP-API Parse SP-API Responses Development Tools Selling Partner API Sandbox Using Postman for Selling Partner API Models Performance Management Usage Plans and Rate Limits Optimize Calls to the Selling Partner API Optimize Rate Limits for Application Workloads Solution Provider Portal Manage Users in Solution Provider Portal Manage Your Business And Contact information in Solution Provider Portal Update Your Developer Profile in Solution Provider Portal Unify Your Developer Accounts Verify Your Identity in Solution Provider Portal API Usage Metrics in Solution Provider Portal Tutorials Tutorial: Test Selling Partner API Endpoints Tutorial: Automate your SP-API Calls Using a C# SDK Tutorial: Automate your SP-API Calls Using a Java SDK Tutorial: Automate your SP-API Calls Using a JavaScript SDK for Node.js Tutorial: Automate your SP-API Calls Using a Python SDK Tutorial: Automate your SP-API Calls using a prebuilt C# SDK Tutorial: Automate your SP-API Calls using prebuilt Java SDK Tutorial: Automate your SP-API Calls using a prebuilt JavaScript SDK Tutorial: Automate your SP-API Calls using prebuilt PHP SDK Tutorial: Automate your SP-API calls using a prebuilt Python SDK Tutorial: Authorize Multiple Vendor Central Accounts with a Single SP-API Application Tutorial: Retrieve Merchant Shipping Templates Tutorial: Grant the SP-API Permission to an Amazon SQS Queue Tutorial: Retrieve and Pass a Purchase Order Number to a Carrier Troubleshooting Troubleshoot SP-API Errors URL Encoding Resolve Common HTTP and Authorization Error Codes External Fulfillment Errors Listings Items API Issues Troubleshooting Selling Partner Appstore What is the Selling Partner Appstore? List Your App on the Selling Partner Appstore Edit Your Appstore Listing Check Listing Status Appstore Ratings and Reviews Press Releases and Promotions Service Provider Network List Your Service Security and Compliance SP-API Security and Compliance Overview Amazon Selling Partner API Guard Implementation Guide Architecture Overview Guard Components Guard Cost Guard Source Code Guard and Security Regional Guard Deployments Automated Guard Deployment AWS CloudFormation Template Update Guard Uninstall Guard Troubleshoot Guard Intellectual Property License Guard Legal Notice VAT Calculation Service Create and Upload Invoices Invoice Compliance and Correction Use Cases Error Handling Best Practices Launch Readiness Checklist Amazon Seller Data Access Best Practices Key Security Control Guidance Logging and Monitoring for Amazon SP-API Applications Network Protection Guidance Protect Amazon API Applications with Data Encryption Protect Amazon API Applications with Data Retention and Recovery Protect Amazon SP-API Applications with Incident Response Safeguarding Sensitive Credentials Vulnerability Management A+ Content API A+ Content API Create, edit, and publish A+ content Manage A+ content A+ Content Examples A+ Content API Rate Limits Amazon Warehousing and Distribution API Amazon Warehousing and Distribution API Create an inbound order for shipment Get inventory summaries Retrieve and filter inbound shipments Track an inbound shipment with expected and received SKU details Amazon Warehousing and Distribution API v2024-05-09 Reference App Integrations API App Integrations API Create and onboard an app notification template Sample sandbox notification templates Send an app notification Record app notification feedback Delete app notifications Application Management API Application Management API Set up credential rotation notifications Rotate your application's client secret Catalog Items API Catalog Items API Retrieve catalog item details Search catalog items Catalog Items API Rate Limits Catalog Items API v2022-04-01 Reference Customer Feedback API Customer Feedback API Get Feedback Insights for an ASIN Get Feedback Insights for a Browse Node Customer Feedback API Rate Limits Data Kiosk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Explorer User Guide Data Kiosk Query Processing Finished Notification Building Data Kiosk workflows guide Vendor Analytics Dataset Use Case Guide Schedule Data Kiosk Queries Delivery by Amazon API Delivery by Amazon API Submit an invoice for Delivery by Amazon and Self Ship orders Check the invoice submission status for Delivery by Amazon and Self Ship orders Easy Ship API Easy Ship API Schedule an Easy Ship package Reschedule an Easy Ship package Check the status of an Easy Ship package Find order items that require serial numbers Get shipping labels, invoice, and warranty documents External Fulfillment External Fulfillment Inventory API Publish Location-Level Inventory Retrieve Location-Level Inventory External Fulfillment Returns API Retrieve Return Information External Fulfillment Shipping API Retrieve a List of Shipments Process a Shipment Handle Easy Ship Cross-Border Orders External Fulfillment Errors External Fulfillment APIs Rate Limits Fulfillment By Amazon (FBA) FBA Inventory API Get inventory summaries FBA Inventory Dynamic Sandbox Guide Feeds API Feeds API Submit a feed Feed Type Values Easy Ship Feed Type Values Fulfillment By Amazon Feed Type Values Invoicing Feed Type Values Listings Feed Type Values Order Feed Type Values Feeds JSON Schemas Feeds API Best Practices Feeds API FAQ Feeds API Rate Limits Finances Finances API Get the latest transactions Determine payment transactions Retrieve the amount and status of a payment Retrieve your current balance Retrieve the financial events that make up a financial event group List Transactions Associated with an Order Retrieve a balance Retrieve a financial summary Finances API v2024-06-19 Reference Transfers API Retrieve payment method details and initiate a payout Retrieve payouts Retrieve expected payouts Invoices API Retrieve invoice headers Get invoice details Fulfillment Inbound API Fulfillment Inbound API Create an inbound shipment Create a shipment with an Amazon-partnered carrier (PCP) Create a shipment with a non-partnered carrier Inbound Shipments with the Pack Later workflow Ship Inventory to Amazon Fulfillment Centers in India Additional Functionality Fulfillment Inbound API FAQ Migrating Fulfillment Inbound workflows Fulfillment Inbound API Rate Limits Fulfillment Outbound API Fulfillment Outbound API Retrieve proof of delivery for a delivered package Retrieve a list of fulfillment orders Retrieve delivery tracking information Cancel a fulfillment order Retrieve a list of features Retrieve inventory eligible for Blank Box Retrieve Blank Box inventory for a specific SKU Create a Japan order with scheduled delivery and delivery time windows Create an MCF order for India Track a partially fulfilled order Create an order in hold status and then move it to shipped Track an order with an item's serial number Create an order with cross border fulfillment Create Orders with Unbranded Packaging and Block AMZL Services Get recipient details for attended deliveries Show the preview details of all ship speeds View order notifications with the Notifications API Create a return for an MCF order Get dynamic delivery offers Create a Japan order with delivery preferences Create a Japan order providing neighbor details in delivery preferences Create an MCF Order that Ships in Product Packaging Retrieve locker (delivery box) details for packages delivered in Japan Retrieve multi-shipment package tracking details Fulfillment Outbound Workflow Guide Place a Fulfillment Order Set Up Real-Time Notifications Track Delivery and Handle Order Outcomes Fulfillment Outbound Dynamic Sandbox Guide Fulfillment Outbound API Migration Guide Fulfillment Outbound Troubleshooting Guide Fulfillment Outbound API Rate Limits MCF Best Practices Invoicing Invoices API (Brazil Only) Export invoice files Invoices API FAQ Listings Listings Items API Create or fully update a listing Merge a listing Retrieve details about a listing for single or multiple Amazon stores Preview errors before partially updating a listing Preview errors before creating or fully updating a listing Partially update a listing Submit media attributes Update prices for multiple Amazon stores Search for listings items by product identifier or other listings parameters Manage purchasable offer Submit modular titles Guidance for Complex Attributes Delete a listing Manage Listings Issues Listings Items API Issues Troubleshooting Listings Items API Rate Limits Listings Restrictions API Get listings restrictions for an item in the catalog Listings Restrictions API Rate Limits Manage Product Listings with the Selling Partner API Building Listings Management Workflows Guide Understanding Amazon listing status and seller-fulfilled inventory management Listings Management Workflow Migration Mapping product attributes to the Listings Items API and JSON-based feeds Submit Listings data Manage Amazon Haul, Advanced Multiple-Offer, and Multiple-Fulfillment Use Cases Listings APIs FAQ Product Type Definitions API Search available Product Type Definitions Get Product Type Definition recommendations Get recommended browse nodes or item type keywords Retrieve a Product Type Definition Amazon Product Type Definitions Meta-Schema (v1) C# Example of Meta-Schema v1 Javascript Example of Meta-Schema v1 Java Example of Meta-Schema v1 Product Type Definitions API Rate Limits Merchant Fulfillment API Merchant Fulfillment API Fulfill seller-fulfilled Prime and non-Prime orders Cancel a shipment Manipulate shipping labels Include additional seller input data Subscribe to MFN notifications Messaging API Messaging API Send a message Notifications API Notifications API Create and Filter Notification Subscriptions Set up notifications using the Amazon EventBridge workflow Set up notifications using the Amazon Simple Queue Service workflow Notification Type Values Subscribe to the ORDER_CHANGE Notification Subscribe to shipment tr",
+      "content_sha256": "0e36fd4caba0687c11fc3f07a051cc4b7fed9e9510e58e9ce5969dd861f32b11",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3466,
+    "output_tokens": 5825
+  },
+  "failure": null
+}

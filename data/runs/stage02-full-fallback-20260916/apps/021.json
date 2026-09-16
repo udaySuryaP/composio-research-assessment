@@ -1,0 +1,252 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 21,
+    "app_name": "Slack",
+    "category": "3. Communications and Messaging",
+    "website": "http://slack.com/",
+    "description": "Slack apps use OAuth 2.0 to securely authenticate users and request access tokens. Apps must obtain necessary tokens and permissions via OAuth scopes added in app settings. Tokens include user tokens, bot tokens, and app tokens, with support for token rotation and expiry. Slack provides security best practices for managing authentication, such as validating tokens and protecting apps from unauthorized access.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Slack apps use OAuth 2.0 to securely authenticate users and request access tokens. Apps must obtain necessary tokens and permissions via OAuth scopes added in app settings. Tokens include user tokens, bot tokens, and app tokens, with support for token rotation and expiry. Slack provides security best practices for managing authentication, such as validating tokens and protecting apps from unauthorized access.",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Slack apps use OAuth scopes to govern what they can access. These are added in the app settings when building an app. You will attach these scopes to your tokens. Check out tokens to learn more. You can rotate those tokens too! Find out how on the Using token rotation page.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Learn how to use OAuth 2.0 to securely authenticate users and request access tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Slack apps use OAuth scopes to govern what they can access. These are added in the app settings when building an app. You will attach these scopes to your tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Slack Marketplace",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:30.227166+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 21,
+    "app_name": "Slack",
+    "category": "3. Communications and Messaging",
+    "website": "http://slack.com/",
+    "description": "Slack apps use OAuth 2.0 to securely authenticate users and request access tokens. Apps must obtain necessary tokens and permissions via OAuth scopes added in app settings. Tokens include user tokens, bot tokens, and app tokens, with support for token rotation and expiry. Slack provides security best practices for managing authentication, such as validating tokens and protecting apps from unauthorized access.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest",
+      "sdk"
+    ],
+    "api_breadth": "Slack provides a broad REST API with various endpoints for messaging, interactivity, workflows, and app management, supported by SDKs and CLI tools.",
+    "mcp_available": "official",
+    "mcp_notes": "Slack offers an official Slack Marketplace for app distribution and management.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Slack provides comprehensive official documentation on OAuth 2.0 authentication, token management, and API usage, along with SDKs and CLI tools, enabling developers to build integrations effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Slack apps use OAuth 2.0 to securely authenticate users and request access tokens. Apps must obtain necessary tokens and permissions via OAuth scopes added in app settings. Tokens include user tokens, bot tokens, and app tokens, with support for token rotation and expiry. Slack provides security best practices for managing authentication, such as validating tokens and protecting apps from unauthorized access.",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Slack apps use OAuth scopes to govern what they can access. These are added in the app settings when building an app. You will attach these scopes to your tokens. Check out tokens to learn more. You can rotate those tokens too! Find out how on the Using token rotation page.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Learn how to use OAuth 2.0 to securely authenticate users and request access tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Authentication is a critical part of the development process, but it doesn\u000e2\u000080\u000099t have to be daunting. With the right tools and best practices, you\u000e2\u000080\u000099ll have a secure, smooth authentication flow.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Slack apps use OAuth scopes to govern what they can access. These are added in the app settings when building an app. You will attach these scopes to your tokens.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Slack Marketplace",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.slack.dev/authentication/",
+        "final_url": "https://docs.slack.dev/authentication/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+        "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+        "quote": "Authentication is a critical part of the development process, but it doesn\u000e2\u000080\u000099t have to be daunting. With the right tools and best practices, you\u000e2\u000080\u000099ll have a secure, smooth authentication flow.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:19.479504+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.slack.dev/authentication/",
+      "final_url": "https://docs.slack.dev/authentication/",
+      "retrieved_at": "2026-09-16T17:17:18.230415+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication overview | Slack Developer Docs guide Skip to main content Guides Reference Samples Tools Changelog Dev Program MANAGE APPS Welcome! Quickstart Resources Slack platform concepts AI in Slack APIs App management App manifests Admin resources Authentication Overview Tokens Installing via OAuth authorization code flow Enterprise-managed authorization Using token rotation Using PKCE Verifying requests from Slack Authorizing with Postman Binding accounts across services Sign in with Slack Block Kit Enterprise Enterprise Search for apps GovSlack Interactivity Messaging Slack Marketplace Surfaces Workflows Legacy 日本語版ページ Authentication Copy as markdown On this page Authentication overview Authentication is a critical part of the development process, but it doesn’t have to be daunting. With the right tools and best practices, you’ll have a secure, smooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got you covered. Authentication basics ​ Before your app can access Slack data or interact with Slack workspaces, it must go through an authentication process. This involves obtaining the necessary tokens and permissions for your app to function properly. Slack apps use OAuth scopes to govern what they can access. These are added in the app settings when building an app. You will attach these scopes to your tokens. Check out tokens to learn more. You can rotate those tokens too! Find out how on the Using token rotation page. Key concepts ​ OAuth 2.0 : Learn how to use OAuth 2.0 to securely authenticate users and request access tokens. Tokens : Understand the different types of tokens your app can use (user tokens, bot tokens, and app tokens) and how to manage them, as well as employ token rotation and expiry to keep things fresh. Security best practices : Learn about security practices for managing authentication, such as validating tokens, handling sensitive data, and protecting your app from unauthorized access. Reference ​ Scopes and Permissions : Find the right permissions for your app to ensure access is limited to only the necessary data. Previous Using the Slack SCIM API Next Overview Copy as markdown Authentication basics Key concepts Reference . Tools Slack CLI Bolt frameworks Slack SDKs Block Kit Builder Developer program Code samples & tutorials LLM? Read llms.txt All tools Learn Learning paths Workshops Slack certifications Trailhead Resource library All learning resources Community Slack community Slack events Resources Docs Blog Slack marketplace Developer newsletter Manage Apps Your apps Status Privacy Terms Cookie Preferences Support Changelog Your Privacy Choices © 2026 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.",
+      "content_sha256": "218540cb41aadb5041791f8c5440dcc258f63929a8aac26d6bac57e721b00f47",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1568,
+    "output_tokens": 1308
+  },
+  "failure": null
+}

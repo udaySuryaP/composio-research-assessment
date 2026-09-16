@@ -1,0 +1,268 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 23,
+    "app_name": "Zoho Cliq",
+    "category": "3. Communications and Messaging",
+    "website": "http://zoho.com/cliq",
+    "description": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. The API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. It supports read-and-write operations similar to those available with the web client, uses JSON objects for responses, and supports multiple data centers with different domain endpoints.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports user and organization management, communication and collaboration features including chats, messages, threads, channels, scheduled messages, reminders, message components, meetings and events, remote work features, bots, databases, file and data management, and customization options such as custom domains, email, and themes.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. The API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. It supports read-and-write operations similar to those available with the web client, uses JSON objects for responses, and supports multiple data centers with different domain endpoints.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. API Root Endpoint The Zoho Cliq API is based on REST principles. It enables you to perform read-and-write operations similar to those available with our web client. The relative path prefix /v2/ indicates that we currently use version 2 of our API. This API adheres to HTTP standards, identifies Cliq users through OAuth, and responds to JSON objects. Each resource URL serves as a unique identifier, and you can access the URL for each resource by navigating to the API Root Endpoint. Download Zoho Cliq OpenAPI Document Download API Root Endpoint Click to copy https://cliq.zoho.com/api/v2 Authentication Zoho Cliq API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (also known as clients) to gain delegated access to protected resources in Zoho Cliq via an API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (also known as clients) to gain delegated access to protected resources in Zoho Cliq via an API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports user and organization management, communication and collaboration features including chats, messages, threads, channels, scheduled messages, reminders, message components, meetings and events, remote work features, bots, databases, file and data management, and customization options such as custom domains, email, and themes.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "User & Organization Management Users Overview Add Users Retrieve all users Update user details Retrieve a particular user Fetch list of user teams List user field layouts User Status Overview Add a new status Retrieve all statuses Add a transient status Delete transient status Retrieve current status Retrieve a user's status Update current status Delete status Userfields Overview Add a userfield Get all userfields Update a userfield Retrieve a particular userfield Delete a userfield Roles Overview Create a Role Get Roles Edit a Role Retrieve role details Delete a Role Update permissions of a role Get permissions of a role Add users to a role Get users in a role Delete users from a role Departments Overview Create a Department List all Departments Update Department Get Department Details Delete Department Add Department Members Get Department Members Delete Department Members Designations Overview Create a Designation Get Designation Details Update Designation Get Designation Details Delete Department Add Designation Members Get Designation Members Delete Designation Members Teams Overview Create a Team List all Teams Update a Team Retrieve a Team Delete a Team Add Team Members Get Team Members Delete Team Members Communication & Collaboration Chats Overview Retrieve all direct chats Retrieve the members of a chat Mute a chat Unmute a chat Pin a message Retrieve a pinned message Unpin a message Leave a group chat Messages Overview Get Messages Post message in a channel with CHANNEL_UNIQUE_NAME Post message in a channel with CHANNEL_ID Post message to a channel as bot Post message to a bot Post message in chat Post message to a user with EMAIL_ID Post message to a user with ZUID Edit a message Retrieve a message Delete a message Add a reaction Get Reactions Delete a reaction Threads Overview Create and send a thread message Send a message to an existing thread Get threads of a channel Auto follow Add followers to a thread Get thread followers Remove followers from a thread Get non-followers of a thread Join (follow) a thread Leave (unfollow) a thread Update the state of a thread Get main message of a thread Channels Overview Create a channel List all channels Update a channel Retrieve a channel Delete a channel Add Channel Members Get Channel Members Delete Channel Members Add a Bot to a Channel Update a Channel members role Approve a Channel Reject a Channel Join a Channel Leave a Channel Archive a Channel Unarchive a Channel Scheduled Messages Overview Send a scheduled message Get the list of scheduled messages Update a scheduled message Reminders Overview Create a reminder Get list of all reminders Update a reminder Retrieve a reminder Delete a reminder Delete Reminders Delete completed reminders Mark a reminder as complete Mark a reminder as incomplete Snooze a reminder Dismiss a snoozed reminder Assign users to a reminder Unassign a user from a reminder Remind assignee Remind assignees Message Components Message Content Overview Plain text Table List Label Image Charts Graphs Mentions Overview Mentioning a User Silent mentions Mentioning a Channel Mentioning all users in a channel Mentioning available users in a Channel Mentioning a Team Buttons Overview Message card buttons Confirmation popup Instant buttons Message Cards Overview Post a Message Card to a Channel Post a Message Card to a User Post a Message Card to a Chat Meetings & Events Calls & Meetings Overview History Get Participants Events Overview Get Calendars Create an Event Get Events Edit an Event Get Event Details Delete an Event Update an Event Status Upload Attachments to Event Calendar Remote Work Remote Work Overview Get remote status Trigger Remote Check in Trigger Remote Check out Developer Platform Bots Overview Retrieve Bot Subscribers Trigger Bot Calls Icons Databases Overview Add a record List records Update a record Retrieve a record Delete a record Widget Map Tickers Overview Add/Update a ticker Delete a ticker File and Data Management Files Overview Get Files Share files to a channel Share files to a bot Share files in a chat Share files to a user Maintenance - Bulk Export Overview Export Conversations Export Channels Export Members in a Conversation Export Messages Customization Custom Domain Overview Add a custom domain Verify a custom domain Retrieve a custom domain Delete a custom domain Custom Email Overview Update mail configuration Retrieve global mail configuration Reset mail configuration Custom Themes Overview Create custom theme Get all themes Update custom theme Get specific theme Delete custom theme",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:52.342764+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 23,
+    "app_name": "Zoho Cliq",
+    "category": "3. Communications and Messaging",
+    "website": "http://zoho.com/cliq",
+    "description": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. The API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. It supports read-and-write operations similar to those available with the web client, uses JSON objects for responses, and supports multiple data centers with different domain endpoints.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API supports user and organization management, communication and collaboration features including chats, messages, threads, channels, scheduled messages, reminders, message components, meetings and events, remote work features, bots, databases, file and data management, and customization options such as custom domains, email, and themes.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with a comprehensive REST API supporting OAuth 2.0 authentication, standard HTTP methods, and JSON responses. The documentation includes detailed endpoints for a wide range of features, enabling developers to build integrations effectively.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. The API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. It supports read-and-write operations similar to those available with the web client, uses JSON objects for responses, and supports multiple data centers with different domain endpoints.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. API Root Endpoint The Zoho Cliq API is based on REST principles. It enables you to perform read-and-write operations similar to those available with our web client. The relative path prefix /v2/ indicates that we currently use version 2 of our API. This API adheres to HTTP standards, identifies Cliq users through OAuth, and responds to JSON objects. Each resource URL serves as a unique identifier, and you can access the URL for each resource by navigating to the API Root Endpoint. Download Zoho Cliq OpenAPI Document Download API Root Endpoint Click to copy https://cliq.zoho.com/api/v2 Authentication Zoho Cliq API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (also known as clients) to gain delegated access to protected resources in Zoho Cliq via an API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (also known as clients) to gain delegated access to protected resources in Zoho Cliq via an API.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API supports user and organization management, communication and collaboration features including chats, messages, threads, channels, scheduled messages, reminders, message components, meetings and events, remote work features, bots, databases, file and data management, and customization options such as custom domains, email, and themes.",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "User & Organization Management Users Overview Add Users Retrieve all users Update user details Retrieve a particular user Fetch list of user teams List user field layouts User Status Overview Add a new status Retrieve all statuses Add a transient status Delete transient status Retrieve current status Retrieve a user's status Update current status Delete status Userfields Overview Add a userfield Get all userfields Update a userfield Retrieve a particular userfield Delete a userfield Roles Overview Create a Role Get Roles Edit a Role Retrieve role details Delete a Role Update permissions of a role Get permissions of a role Add users to a role Get users in a role Delete users from a role Departments Overview Create a Department List all Departments Update Department Get Department Details Delete Department Add Department Members Get Department Members Delete Department Members Designations Overview Create a Designation Get Designation Details Update Designation Get Designation Details Delete Department Add Designation Members Get Designation Members Delete Designation Members Teams Overview Create a Team List all Teams Update a Team Retrieve a Team Delete a Team Add Team Members Get Team Members Delete Team Members Communication & Collaboration Chats Overview Retrieve all direct chats Retrieve the members of a chat Mute a chat Unmute a chat Pin a message Retrieve a pinned message Unpin a message Leave a group chat Messages Overview Get Messages Post message in a channel with CHANNEL_UNIQUE_NAME Post message in a channel with CHANNEL_ID Post message to a channel as bot Post message to a bot Post message in chat Post message to a user with EMAIL_ID Post message to a user with ZUID Edit a message Retrieve a message Delete a message Add a reaction Get Reactions Delete a reaction Threads Overview Create and send a thread message Send a message to an existing thread Get threads of a channel Auto follow Add followers to a thread Get thread followers Remove followers from a thread Get non-followers of a thread Join (follow) a thread Leave (unfollow) a thread Update the state of a thread Get main message of a thread Channels Overview Create a channel List all channels Update a channel Retrieve a channel Delete a channel Add Channel Members Get Channel Members Delete Channel Members Add a Bot to a Channel Update a Channel members role Approve a Channel Reject a Channel Join a Channel Leave a Channel Archive a Channel Unarchive a Channel Scheduled Messages Overview Send a scheduled message Get the list of scheduled messages Update a scheduled message Reminders Overview Create a reminder Get list of all reminders Update a reminder Retrieve a reminder Delete a reminder Delete Reminders Delete completed reminders Mark a reminder as complete Mark a reminder as incomplete Snooze a reminder Dismiss a snoozed reminder Assign users to a reminder Unassign a user from a reminder Remind assignee Remind assignees Message Components Message Content Overview Plain text Table List Label Image Charts Graphs Mentions Overview Mentioning a User Silent mentions Mentioning a Channel Mentioning all users in a channel Mentioning available users in a Channel Mentioning a Team Buttons Overview Message card buttons Confirmation popup Instant buttons Message Cards Overview Post a Message Card to a Channel Post a Message Card to a User Post a Message Card to a Chat Meetings & Events Calls & Meetings Overview History Get Participants Events Overview Get Calendars Create an Event Get Events Edit an Event Get Event Details Delete an Event Update an Event Status Upload Attachments to Event Calendar Remote Work Remote Work Overview Get remote status Trigger Remote Check in Trigger Remote Check out Developer Platform Bots Overview Retrieve Bot Subscribers Trigger Bot Calls Icons Databases Overview Add a record List records Update a record Retrieve a record Delete a record Widget Map Tickers Overview Add/Update a ticker Delete a ticker File and Data Management Files Overview Get Files Share files to a channel Share files to a bot Share files in a chat Share files to a user Maintenance - Bulk Export Overview Export Conversations Export Channels Export Members in a Conversation Export Messages Customization Custom Domain Overview Add a custom domain Verify a custom domain Retrieve a custom domain Delete a custom domain Custom Email Overview Update mail configuration Retrieve global mail configuration Reset mail configuration Custom Themes Overview Create custom theme Get all themes Update custom theme Get specific theme Delete custom theme",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+        "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+        "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+        "quote": "Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. API Root Endpoint The Zoho Cliq API is based on REST principles. It enables you to perform read-and-write operations similar to those available with our web client. This API adheres to HTTP standards, identifies Cliq users through OAuth, and responds to JSON objects.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:30.696337+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "buildability",
+    "buildability_rationale",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://www.zoho.com/cliq/help/restapi/v2/",
+      "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/#overview",
+      "retrieved_at": "2026-09-16T17:17:30.243925+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Introduction | Zoho Cliq | API Documentation API Docs / No Results Found V2 V2 V3 (Latest) Resources Help Docs FAQ Developer Platform Extensions Developer Community Plans & Pricing Access Zoho Cliq Sign In API Docs Versions V2 V3 (Latest) Resources Help Docs FAQ Developer Platform Extensions Developer Community Plans & Pricing Access Zoho Cliq Sign In Introduction Introduction Overview Authentication Networks Multiple Data Centers Authentication Introduction to OAuth 2.0 Overview Terminologies Scopes Register your application Overview API Reference HTTP Methods Overview Pagination Overview Token Reference Errors Overview Glossary Overview CHAT_ID MESSAGE_ID THREAD_CHAT_ID SCHEDULED_MESSAGE_ID FILE_ID CHANNEL_ID CHANNEL_UNIQUE_NAME REMINDER_ID EVENT_ID BOT_UNIQUE_NAME BOT_ID SLASH_COMMAND_ID MESSAGE_ACTION_ID EXTENSION_ID EXTENSION_KEY EXTENSION_PROPERTY_KEY_NAME FUNCTION_ID WIDGET_ID MAP_ID DATASTORE_ID DATABASE_UNIQUE_NAME RECORD_ID USER_ID EMAIL_ID STATUS_ID USER_FIELD_ID DEPARTMENT_ID DESIGNATION_ID TEAM_ID ROLE_ID OpenAPI Specification (OAS) OpenAPI Specification (OAS) Overview Why use the OAS? Swagger API Hub Download OAS Postman Collection Postman Collection Overview What's in the collection? Why use the collection? Prerequisites Using the collection Keeping your fork up to date Data center configuration User & Organization Management Users Overview Add Users Retrieve all users Update user details Retrieve a particular user Fetch list of user teams List user field layouts User Status Overview Add a new status Retrieve all statuses Add a transient status Delete transient status Retrieve current status Retrieve a user's status Update current status Delete status Userfields Overview Add a userfield Get all userfields Update a userfield Retrieve a particular userfield Delete a userfield Roles Overview Create a Role Get Roles Edit a Role Retrieve role details Delete a Role Update permissions of a role Get permissions of a role Add users to a role Get users in a role Delete users from a role Departments Overview Create a Department List all Departments Update Department Get Department Details Delete Department Add Department Members Get Department Members Delete Department Members Designations Overview Create a Designation Get Designation Details Update Designation Get Designation Details Delete Department Add Designation Members Get Designation Members Delete Designation Members Teams Overview Create a Team List all Teams Update a Team Retrieve a Team Delete a Team Add Team Members Get Team Members Delete Team Members Communication & Collaboration Chats Overview Retrieve all direct chats Retrieve the members of a chat Mute a chat Unmute a chat Pin a message Retrieve a pinned message Unpin a message Leave a group chat Messages Overview Get Messages Post message in a channel with CHANNEL_UNIQUE_NAME Post message in a channel with CHANNEL_ID Post message to a channel as bot Post message to a bot Post message in chat Post message to a user with EMAIL_ID Post message to a user with ZUID Edit a message Retrieve a message Delete a message Add a reaction Get Reactions Delete a reaction Threads Overview Create and send a thread message Send a message to an existing thread Get threads of a channel Auto follow Add followers to a thread Get thread followers Remove followers from a thread Get non-followers of a thread Join (follow) a thread Leave (unfollow) a thread Update the state of a thread Get main message of a thread Channels Overview Create a channel List all channels Update a channel Retrieve a channel Delete a channel Add Channel Members Get Channel Members Delete Channel Members Add a Bot to a Channel Update a Channel members role Approve a Channel Reject a Channel Join a Channel Leave a Channel Archive a Channel Unarchive a Channel Scheduled Messages Overview Send a scheduled message Get the list of scheduled messages Update a scheduled message Reminders Overview Create a reminder Get list of all reminders Update a reminder Retrieve a reminder Delete a reminder Delete Reminders Delete completed reminders Mark a reminder as complete Mark a reminder as incomplete Snooze a reminder Dismiss a snoozed reminder Assign users to a reminder Unassign a user from a reminder Remind assignee Remind assignees Message Components Message Content Overview Plain text Table List Label Image Charts Graphs Mentions Overview Mentioning a User Silent mentions Mentioning a Channel Mentioning all users in a channel Mentioning available users in a Channel Mentioning a Team Buttons Overview Message card buttons Confirmation popup Instant buttons Message Cards Overview Post a Message Card to a Channel Post a Message Card to a User Post a Message Card to a Chat Meetings & Events Calls & Meetings Overview History Get Participants Events Overview Get Calendars Create an Event Get Events Edit an Event Get Event Details Delete an Event Update an Event Status Upload Attachments to Event Calendar Remote Work Remote Work Overview Get remote status Trigger Remote Check in Trigger Remote Check out Developer Platform Bots Overview Retrieve Bot Subscribers Trigger Bot Calls Icons Databases Overview Add a record List records Update a record Retrieve a record Delete a record Widget Map Tickers Overview Add/Update a ticker Delete a ticker File and Data Management Files Overview Get Files Share files to a channel Share files to a bot Share files in a chat Share files to a user Maintenance - Bulk Export Overview Export Conversations Export Channels Export Members in a Conversation Export Messages Customization Custom Domain Overview Add a custom domain Verify a custom domain Retrieve a custom domain Delete a custom domain Custom Email Overview Update mail configuration Retrieve global mail configuration Reset mail configuration Custom Themes Overview Create custom theme Get all themes Update custom theme Get specific theme Delete custom theme Zoho Cliq REST API Documentation AI Tools Open in ChatGPT Open in ChatGPT to ask questions about this page Open in Claude Open in Claude to ask questions about this page Copy as Markdown Copy this page as markdown to use with AI assistants View as Markdown Open this page as markdown in a new tab Zoho Cliq's REST API is built on RESTful architecture principles, enabling seamless communication between your applications and the Zoho Cliq platform. Our API leverages standard HTTP protocols, making integration straightforward and intuitive for developers. API Root Endpoint The Zoho Cliq API is based on REST principles. It enables you to perform read-and-write operations similar to those available with our web client. The relative path prefix /v2/ indicates that we currently use version 2 of our API. This API adheres to HTTP standards, identifies Cliq users through OAuth, and responds to JSON objects. Each resource URL serves as a unique identifier, and you can access the URL for each resource by navigating to the API Root Endpoint. Download Zoho Cliq OpenAPI Document Download API Root Endpoint Click to copy https://cliq.zoho.com/api/v2 Authentication Zoho Cliq API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (also known as clients) to gain delegated access to protected resources in Zoho Cliq via an API. What is OAuth 2.0? OAuth 2.0 is an industry-standard protocol that allows you to grant a third-party website or application (i.e., a client) delegated access to Zoho Cliq's protected resources via Zoho Cliq APIs. It is a way to authenticate and authorise API requests made to Zoho Cliq. Advantages of OAuth 2.0 Clients are not required to support password authentication or store user credentials, as authentication and authorisation are handled by exchanging OAuth tokens. Clients gain delegated access, i.e., access only to resources authorised by the user. Users can revoke a third-party application's delegated access at any time. OAuth access tokens expire after a set time. If the client faces a security breach, user data will be compromised only as long as the access token remains valid. Networks Cliq network is a dedicated space for collaborating with external business stakeholders such as partners, vendors, agencies, consultants, volunteers, and more. It equips you with an extensive set of configurable permissions to facilitate controlled, secure, and full-fledged external collaboration. In the case of networks, the API Root endpoint differs. All the network endpoints should have the prefix as /network/{NETWORK_UNIQUE_NAME} or /network/{NETWORK_ID} For example, the API Root endpoints to call information from a Cliq network named 'Zylker Clients' would be: https://cliq.zoho.com/network/zylkerclients zylkerclients is the unique name of the network. API Root Endpoint for Networks Click to copy https://cliq.zoho.com/network/ { NETWORK_UNIQUE_NAME } https://cliq.zoho.com/network/ { NETWORK_ID } Multiple Data Centers Zoho Cliq is hosted at multiple data centers, and therefore available on different domains. There are 9 different domains for Zoho Cliq's APIs, so you can use the one that is applicable to you. Data Center Domain Base API URI United States .com https://cliq.zoho.com/ Europe .eu https://cliq.zoho.eu/ India .in https://cliq.zoho.in/ Australia .au https://cliq.zoho.com.au/ China .cn https://cliq.zoho.com.cn/ Japan .jp https://cliq.zoho.jp/ Saudi Arabia .sa https://cliq.zoho.sa/ United Kingdom .uk https://cliq.zoho.uk/ Canada .zohocloud.ca https://cliq.zohocloud.ca/ The APIs on this page are for organizations hosted on the .com domain. If your organization is on a different domain, replace \".com\" with the appropriate domain for the API endpoints on this page before using them. Note: You can find out which domain you're accessing Zoho Cliq by checking the URL while accessing Zoho Cliq. ${resultObj.description}",
+      "content_sha256": "57dfa524c5ca0ff34b3412b756e6c4633dd2e2749d96a81684589bfa148fcc7c",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2960,
+    "output_tokens": 2716
+  },
+  "failure": null
+}

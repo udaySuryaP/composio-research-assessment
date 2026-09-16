@@ -1,0 +1,288 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 51,
+    "app_name": "DataForSEO",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://docs.dataforseo.com/",
+    "description": "DataForSEO provides a comprehensive API platform for SEO and data scraping tasks, including SERP data, keyword data, backlinks, on-page analysis, business data, and more, accessible via a unified API interface.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "DataForSEO provides a comprehensive API platform for SEO and data scraping tasks, including SERP data, keyword data, backlinks, on-page analysis, business data, and more, accessible via a unified API interface.",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:21:23.770612+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 51,
+    "app_name": "DataForSEO",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://docs.dataforseo.com/",
+    "description": "DataForSEO provides a comprehensive API platform for SEO and data scraping tasks, including SERP data, keyword data, backlinks, on-page analysis, business data, and more, accessible via a unified API interface.",
+    "auth_methods": [
+      "basic"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "DataForSEO offers a wide range of SEO and data scraping APIs covering SERP data, keyword research, backlinks, on-page SEO, business data, and various other SEO-related datasets.",
+    "mcp_available": "no",
+    "mcp_notes": "No evidence of a marketplace or community marketplace platform was found in the documentation.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is accessible via Basic Authentication using API credentials provided in the user dashboard. The documentation includes code examples in multiple programming languages and details on how to authenticate and make requests, indicating the API is ready for integration.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "DataForSEO provides a comprehensive API platform for SEO and data scraping tasks, including SERP data, keyword data, backlinks, on-page analysis, business data, and more, accessible via a unified API interface.",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "basic",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "Create a free account with DataForSEO, then go to the API Access tab in the account dashboard to find your API login and password, which you\u00199ll need to authenticate and use the DataForSEO APIs. Note that the API password is generated automatically by DataForSEO and is different from your account password.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "DataForSEO offers a wide range of SEO and data scraping APIs covering SERP data, keyword research, backlinks, on-page SEO, business data, and various other SEO-related datasets.",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "SERP API Overview ... Keyword Research ... Backlinks API Overview ... OnPage API Overview ... Business Data API Overview ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "no",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "No evidence of a marketplace or community marketplace platform was found in the documentation.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.dataforseo.com/v3/auth/",
+        "final_url": "https://docs.dataforseo.com/v3/auth/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+        "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+        "quote": "Create a free account with DataForSEO, then go to the API Access tab in the account dashboard to find your API login and password, which you\u00199ll need to authenticate and use the DataForSEO APIs. Note that the API password is generated automatically by DataForSEO and is different from your account password. DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks. The documentation includes code examples in multiple programming languages and details on how to authenticate and make requests, indicating the API is ready for integration.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:09.744687+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_breadth",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.dataforseo.com/v3/auth/",
+      "final_url": "https://docs.dataforseo.com/v3/auth/",
+      "retrieved_at": "2026-09-16T17:21:07.924965+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication – DataForSEO API v.3 Search ⌘ K Ask AI Pricing Sign In Sign Up Menu Example Introduction Authentication SERP API Overview Screenshot AI Summary Google Overview Locations Languages Organic Overview Task POST Tasks Ready Task GET Advanced Regular HTML Live Advanced Regular HTML AI Mode Overview Languages Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Maps Overview Task POST Tasks Ready Task GET Live Local Finder Overview Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML News Overview Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Images Overview Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Search By Image Overview Task POST Tasks Ready Task GET Advanced HTML Jobs Overview Locations Task POST Tasks Ready Task GET Advanced HTML Autocomplete Overview Task POST Tasks Ready Task GET Live Dataset Search Overview Task POST Tasks Ready Task GET Live Dataset Info Overview Task POST Tasks Ready Task GET Live Ads Advertisers Overview Locations Task POST Tasks Ready Task GET Live Ads Search Overview Locations Task POST Tasks Ready Task GET Live Finance Explore Overview Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Finance Markets Overview Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Finance Quote Overview Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Finance Ticker Search Overview Task POST Tasks Ready Task GET Live Bing Overview Locations Languages Organic Task POST Tasks Ready Task GET Advanced Regular HTML Live Advanced Regular HTML YouTube Overview Locations Languages Organic Overview Task POST Tasks Ready Task GET Live Video Info Overview Task POST Tasks Ready Task GET Live Video Subtitles Overview Task POST Tasks Ready Task GET Live Video Comments Overview Task POST Tasks Ready Task GET Live Yahoo Overview Locations Languages Organic Task POST Tasks Ready Task GET Advanced Regular HTML Live Advanced Regular HTML Baidu Overview Locations Languages Organic Task POST Tasks Ready Task GET Advanced Regular HTML Naver Overview Organic Task POST Tasks Ready Task GET Advanced Regular HTML Seznam Overview Locations Languages Organic Task POST Tasks Ready Task GET Advanced Regular HTML AI Optimization API Overview LLM Mentions Overview Filters Locations and Languages Search Mentions Target Metrics Multi-Target Metrics Top Mentioned Pages Top Mentioned Domains Top Mentioned Brands Top Mentioned Brand Categories Historical Timeseries Delta Timeseries New & Lost LLM Mentions Lite Target Metrics Lite Top Mentioned Domains Lite Top Mentioned Pages Lite Top Mentioned Brands Lite Top Mentioned Brand Categories Lite AI Keyword Data Overview Locations and Languages Keywords Search Volume Chat GPT LLM Responses Overview Models Task POST Tasks Ready Task GET Live LLM Scraper Overview Locations Languages Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Claude LLM Responses Overview Models Task POST Tasks Ready Task GET Live Gemini LLM Responses Overview Models Task POST Tasks Ready Task GET Live LLM Scraper Overview Locations Languages Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Perplexity LLM Responses Overview Models Live Keywords Data API Overview Google Ads Overview Migration Guide Google Ads Status Locations Languages Search Volume Task POST Tasks Ready Task GET Live Keywords For Site Task POST Tasks Ready Task GET Live Keywords For Keywords Task POST Tasks Ready Task GET Live Ad Traffic By Keywords Task POST Tasks Ready Task GET Live Bing Ads Overview Locations Languages Bing Ads Status Search Volume Task POST Tasks Ready Task GET Live Search Volume History Locations and Languages Task POST Tasks Ready Task GET Live Keywords For Site Task POST Tasks Ready Task GET Live Keywords For Keywords Task POST Tasks Ready Task GET Live Keyword Performance Locations and Languages Task POST Tasks Ready Task GET Live Keyword Suggestions For URL Languages Task POST Tasks Ready Task GET Live Audience Estimation Job Functions Industries Task POST Tasks Ready Task GET Live Google Trends Overview Locations Languages Categories Explore Task POST Tasks Ready Task GET Live DataForSEO Trends Overview Locations Explore Subregion Interests Demography Merged Data Clickstream Data Overview Locations and Languages DataForSEO Search Volume Global Search Volume Bulk Search Volume Domain Analytics API Overview Technologies Overview Filters Locations Languages Technologies Aggregation Technologies Technologies Summary Technology Stats Domains by Technology Domains by HTML Terms Domain Technologies Whois Overview Filters Whois Overview DataForSEO Labs API Overview Status Filters Locations and Languages Google Overview Categories Available History Keyword Research Keywords For Site Related Keywords Keyword Suggestions Keyword Ideas Bulk Keyword Difficulty Search Intent Keyword Overview Historical Keyword Data Market analysis Languages for Categories for Keywords Categories For Domain Categories for Keywords Keywords For Categories Domain Metrics By Categories Top Searches Competitor Research SERP Competitors Ranked Keywords Competitors Domain Domain Intersection Subdomains Relevant Pages Domain Rank Overview Historical SERPs Historical Rank Overview Page Intersection Bulk Traffic Estimation Historical Bulk Traffic Estimation Amazon Overview Bulk Search Volume Related Keywords Ranked Keywords Product Rank Overview Product Competitors Product Keyword Intersections Google Play Overview Bulk App Metrics Keywords For App App Competitors App Intersection App Store Overview Bulk App Metrics Keywords For App App Competitors App Intersection Backlinks API Overview Filters Index Summary History Backlinks Anchors Domain Pages Domain Pages Summary Referring Domains Referring Networks Competitors Domain Intersection Page Intersection Timeseries Summary ‌ New & Lost Timeseries Bulk Ranks Bulk Backlinks Bulk Spam Score Bulk Referring Domains Bulk New & Lost Backlinks Bulk New & Lost Referring Domains Bulk Pages Summary OnPage API Overview Filters and Thresholds Task POST Force Stop Tasks Ready Summary Pages Pages By Resource Resources Duplicate Tags Duplicate Content Links Redirect Chains Non-Indexable Waterfall Keyword Density Microdata Raw HTML Page Screenshot Content Parsing Content Parsing (Live) Instant Pages (Live) Lighthouse Overview Languages Audits Versions Task POST Tasks Ready Task GET Live Content Analysis API Overview Filters Locations Languages Categories Search Summary Sentiment Analysis Rating Distribution Phrase Trends Category Trends Merchant API Overview Google Shopping Overview Languages Locations Products Task POST Tasks Ready Task GET Advanced HTML Sellers Task POST Tasks Ready Task GET Sellers Ad URL Product Info Task POST Tasks Ready Task GET Reviews Task POST Tasks Ready Task GET Amazon Overview Locations Languages Products Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML ASIN Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Sellers Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML App Data API Overview Google Overview Categories Locations Languages App Searches Task POST Tasks Ready Task GET Advanced HTML App List Task POST Tasks Ready Task GET Advanced HTML App Info Task POST Tasks Ready Task GET Advanced HTML App Reviews Task POST Tasks Ready Task GET App Listings Categories Search Apple Overview Categories Locations Languages App Searches Task POST Tasks Ready Task GET App List Task POST Tasks Ready Task GET App Info Task POST Tasks Ready Task GET App Reviews Task POST Tasks Ready Task GET App Listings Categories Search Business Data API Overview Business Listings Overview Locations Categories Filters Search Categories Aggregation Google Overview Locations Languages Google My Business My Business Info Task POST Tasks Ready Task GET Live My Business Updates Task POST Tasks Ready Task GET Google Hotels Hotel Searches Task POST Tasks Ready Task GET Live Hotel Info Task POST Tasks Ready Task GET Advanced HTML Live Advanced HTML Google Reviews Task POST Tasks Ready Task GET Extended Reviews Task POST Tasks Ready Task GET Questions And Answers Task POST Tasks Ready Task GET Live Trustpilot Overview Trustpilot Search Task POST Tasks Ready Task GET Trustpilot Reviews Task POST Tasks Ready Task GET Tripadvisor Overview Locations Languages Tripadvisor Search Task POST Tasks Ready Task GET Tripadvisor Reviews Task POST Tasks Ready Task GET Databases Overview Backlink Domains Backlink Summary Database Google SERPs Databases SERPs Advanced SERPs Regular Keywords Databases Unified Search Databases Google Historical SERPs Databases Keywords Databases Bing Keywords Databases Amazon Products Databases Google Play SERPs Database Listings Database App Store SERPs Database Listings Database Whois Domains Database Business Listings Database Appendix AI-Optimized Response User Data Errors Sandbox ID List API Errors Webhook Resend Tasks Fixed Status Authentication from client import RestClient #You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip #Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access client = RestClient(\"login\", \"password\") #do something using System; using System.Net.Http; using System.Net.Http.Headers; using System.Text; using System.Threading.Tasks; using Newtonsoft.Json; namespace DataForSeoDemos { public static partial class Demos { public static async Task cmn_key_id() { var httpClient = new HttpClient { BaseAddress = new Uri(\"https://api.dataforseo.com/\"), //Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access DefaultRequestHeaders = { Authorization = new AuthenticationHeaderValue(\"Basic\", Convert.ToBase64String(Encoding.ASCII.GetBytes(\"login:password\"))) } }; // do something } } } Create a free account with DataForSEO, then go to the API Access tab in the account dashboard to find your API login and password, which you’ll need to authenticate and use the DataForSEO APIs. Note that the API password is generated automatically by DataForSEO and is different from your account password. DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programming language, Postman app, REST API platforms, and all major frameworks. Regardless of the programming language, your unique API token should be passed in the ‘Authorization’ header within the request in the following format: Authorization: Basic login:password Instead of “login” and “password”, use your API credentials encoded in Base64. For instance, the Base64-encoded ‘login:password’ value will have the following format: bG9naW46cGFzc3dvcmQ= So the whole string will look as follows: Authorization: Basic bG9naW46cGFzc3dvcmQ= Check the examples for PHP, Python, and C# on the right to see how it works with a particular programming language. Note that it is not possible to pass the login and password in URL parameters. Also, you do not have to make a separate authentication call to obtain API credentials. Basic authentication is the only way to access DataForSEO API; credentials should always be passed in the header of the request. To authorize, use this code: # Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access login=\"login\" password=\"password\" cred=\"$(printf ${login}:${password} | base64)\" curl --location --request GET \"https://example.com\" --header \"Authorization: Basic ${cred}\" --header \"Content-Type: application/json\" <?php require('RestClient.php'); //You can download this file from here https://cdn.dataforseo.com/v3/examples/php/php_RestClient.zip try { //Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access $client = new RestClient('https://api.dataforseo.com/', null, 'login', 'password'); //do something } catch (RestClientException $e) { echo \"n\"; print \"HTTP code: {$e->getHttpCode()}n\"; print \"Error code: {$e->getCode()}n\"; print \"Message: {$e->getMessage()}n\"; print $e->getTraceAsString(); echo \"n\"; exit(); } ?> # Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access const axios = require('axios'); axios({ method: 'get', url: 'https://example.com', auth: { username: 'login', password: 'password' } }).then(response => { console.log(response.data); }).catch(error => { console.log(error); }); from client import RestClient #You can download this file from here https://cdn.dataforseo.com/v3/examples/python/python_Client.zip #Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access client = RestClient(\"login\", \"password\") #do something using System; using System.Net.Http; using System.Net.Http.Headers; using System.Text; using System.Threading.Tasks; using Newtonsoft.Json; namespace DataForSeoDemos { public static partial class Demos { public static async Task cmn_key_id() { var httpClient = new HttpClient { BaseAddress = new Uri(\"https://api.dataforseo.com/\"), //Instead of 'login' and 'password' use your credentials from https://app.dataforseo.com/api-access DefaultRequestHeaders = { Authorization = new AuthenticationHeaderValue(\"Basic\", Convert.ToBase64String(Encoding.ASCII.GetBytes(\"login:password\"))) } }; // do something } } } cURL php Node.js Python cSharp",
+      "content_sha256": "a37087578a66d8a48d89a118aefbd5644d27372c9f1f41f89a52c24769c943c8",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 3537,
+    "output_tokens": 1755
+  },
+  "failure": null
+}

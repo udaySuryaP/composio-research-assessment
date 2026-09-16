@@ -1,0 +1,260 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 4,
+    "app_name": "Attio",
+    "category": "1. CRM and Sales",
+    "website": "http://attio.com/",
+    "description": "Attio provides a public REST API which exchanges JSON over HTTPS.",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Attio provides a public REST API with endpoints for authenticating requests, handling rate limits, filtering and sorting, paginating API results, configuring webhooks, and more as part of their developer platform.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "The official documentation states that Attio provides a public REST API with OAuth 2.0 authentication and detailed guidance on authenticating requests, rate limits, filtering, sorting, pagination, and webhooks, indicating that building integrations is feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Attio provides a public REST API which exchanges JSON over HTTPS.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Attio provides a public REST API which exchanges JSON over HTTPS.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Attio provides a public REST API which exchanges JSON over HTTPS. In this section, you will find guidance about working with the API. To get up and running, read our guide on how to authenticate requests .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Learn about the REST API",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_breadth",
+        "claim": "Attio provides a public REST API with endpoints for authenticating requests, handling rate limits, filtering and sorting, paginating API results, configuring webhooks, and more as part of their developer platform.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Building an OAuth flow for your app Working within our rate limits Setting up and listening to webhooks Filtering and sorting record and entry API queries Paginating API responses",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "buildability_rationale",
+        "claim": "The official documentation states that Attio provides a public REST API with OAuth 2.0 authentication and detailed guidance on authenticating requests, rate limits, filtering, sorting, pagination, and webhooks, indicating that building integrations is feasible.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Attio provides a public REST API which exchanges JSON over HTTPS. In this section, you will find guidance about working with the API. To get up and running, read our guide on how to authenticate requests . From there, feel free to explore other topics or jump straight to the reference documentation . Building an OAuth flow for your app Working within our rate limits Setting up and listening to webhooks Filtering and sorting record and entry API queries Paginating API responses",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:16:08.654747+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 4,
+    "app_name": "Attio",
+    "category": "1. CRM and Sales",
+    "website": "http://attio.com/",
+    "description": "Attio provides a public REST API which exchanges JSON over HTTPS.",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Attio provides a public REST API with endpoints for authenticating requests, handling rate limits, filtering and sorting, paginating API results, configuring webhooks, and more as part of their developer platform.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation states that Attio provides a public REST API with OAuth 2.0 authentication and detailed guidance on authenticating requests, rate limits, filtering, sorting, pagination, and webhooks, indicating that building integrations is feasible.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Attio provides a public REST API which exchanges JSON over HTTPS.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Attio provides a public REST API which exchanges JSON over HTTPS.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Learn about the REST API... Building an OAuth flow for your app... Authenticating requests",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Attio provides a public REST API which exchanges JSON over HTTPS. In this section, you will find guidance about working with the API. To get up and running, read our guide on how to authenticate requests .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Learn about the REST API",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_breadth",
+        "claim": "Attio provides a public REST API with endpoints for authenticating requests, handling rate limits, filtering and sorting, paginating API results, configuring webhooks, and more as part of their developer platform.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Building an OAuth flow for your app Working within our rate limits Setting up and listening to webhooks Filtering and sorting record and entry API queries Paginating API responses",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "buildability_rationale",
+        "claim": "The official documentation states that Attio provides a public REST API with OAuth 2.0 authentication and detailed guidance on authenticating requests, rate limits, filtering, sorting, pagination, and webhooks, indicating that building integrations is feasible.",
+        "url": "https://docs.attio.com/rest-api/overview",
+        "final_url": "https://docs.attio.com/rest-api/overview",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+        "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+        "quote": "Attio provides a public REST API which exchanges JSON over HTTPS. In this section, you will find guidance about working with the API. To get up and running, read our guide on how to authenticate requests . From there, feel free to explore other topics or jump straight to the reference documentation . Building an OAuth flow for your app Working within our rate limits Setting up and listening to webhooks Filtering and sorting record and entry API queries Paginating API responses",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:15:52.879633+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "auth_methods",
+    "buildability",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.attio.com/rest-api/overview",
+      "final_url": "https://docs.attio.com/rest-api/overview",
+      "retrieved_at": "2026-09-16T17:15:50.099508+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Overview - Attio Docs Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content The legacy app.ts layout is deprecated. New apps use the folder-based layout under src/app/ ; convert existing apps with the migration guide . Attio Docs home page Search... ⌘ K Ask Assistant ⌘ I Search... Navigation Introduction Overview Overview App SDK REST API MCP SQL Share Changelog Developer console Support Introduction Overview Guides Authenticating requests Handling rate limits Filtering and sorting Paginating API results Configuring webhooks Tutorials Connect an app to Attio through OAuth Attribute types Overview Actor reference Checkbox Currency Date Domain Email address Interaction Location (Personal) name Number Phone number Rating Record reference Select Status Text Timestamp Endpoint reference OpenAPI Core endpoints Standard objects SCIM 2.0 OAuth 2.0 Webhook reference Call recording events Comment events List events List attribute events List entry events Object attribute events Note events Note content events Record events Task events Workspace member events Introduction Overview Copy page Copy page Learn about the REST API Copy page Copy page Attio provides a public REST API which exchanges JSON over HTTPS. In this section, you will find guidance about working with the API. To get up and running, read our guide on how to authenticate requests . From there, feel free to explore other topics or jump straight to the reference documentation . Building an OAuth flow for your app Working within our rate limits Setting up and listening to webhooks Filtering and sorting record and entry API queries Paginating API responses If you’re looking to move beyond just the REST API and understand the Attio developer platform as a whole, you can find general documentation for Attio developers here . Was this page helpful? Yes No Authenticating requests x website Powered by This documentation is built and hosted on Mintlify, a developer documentation platform Assistant Responses are generated using AI and may contain mistakes.",
+      "content_sha256": "2ea51ffe9d884c0b3e058cbcd58c47a078e374a27af217995ea59ba923e0ca05",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.attio.com/rest-api/how-to/authentication",
+      "final_url": "https://docs.attio.com/rest-api/how-to/authentication",
+      "retrieved_at": "2026-09-16T17:15:51.171115+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1411,
+    "output_tokens": 1266
+  },
+  "failure": null
+}

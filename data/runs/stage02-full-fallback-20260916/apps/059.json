@@ -1,0 +1,258 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 59,
+    "app_name": "Waterfall.io",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://waterfall.io/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Pay only for what you actually use. No monthly commitments or short-term credit expiration - scale up or down whenever you need.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:22:26.113959+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 59,
+    "app_name": "Waterfall.io",
+    "category": "6. Data, SEO and Scraping",
+    "website": "https://www.waterfall.io/",
+    "description": "Waterfall.io is a B2B data solution that aggregates 30+ data vendors to provide verified emails, phone numbers, contact enrichment, job change tracking, and contact search with a unified data schema and high uptime. It offers a modular and scalable GTM API for building reliable data pipelines with real-time verified contact data globally, usage-based pricing, and enterprise-grade security and compliance.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Provides APIs for prospector, contact enrichment, phone enrichment, and job changes with unified data schema and high rate limits.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is documented with example curl, Python, and Node.js requests using an API key for authentication. The API supports multiple endpoints for prospector, contact enrichment, phone enrichment, and job changes, with high rate limits and 99.99% uptime. Direct developer support is available via Slack for onboarding and implementation help.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Waterfall.io is a B2B data solution that aggregates 30+ data vendors to provide verified emails, phone numbers, contact enrichment, job change tracking, and contact search with a unified data schema and high uptime. It offers a modular and scalable GTM API for building reliable data pipelines with real-time verified contact data globally, usage-based pricing, and enterprise-grade security and compliance.",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Waterfall | One B2B data solution to connect them all Products Contact enrich Verified emails & profiles, instantly Phone enrich Find phone numbers that convert Prospector Find contacts at your target accounts Job change Track your best customers Contact search Search any contact, at any company Docs Book a Call Lorem Ipsum Lorem Ipsum has been the industry's standard dummy text ever. Waterfall Enrichment api, powered by 30+ data vendors One GTM API to Track job changes Search for prospects Find verified emails Find mobile numbers Track job changes Verify emails *Waterfall\u000215 aggregates 30+ different data vendors so that you can maximize contact, email and mobile number coverage without signing multiple data vendors or long-term contracts. ... 99.99% uptime True 99.99% uptime with built-in redundancy. With 30+ data vendors, we keep running even if multiple providers go down. ... Usage-based pricing with no surprises. Pay for what you use, scale as you grow, no hidden fees. ... Enterprise-grade security, reliability and compliance We don\u0002t store, reuse or resell any of your data. ... SOC 2 Type II Certified ... GDPR & CCPA Full GDPR & CCPA compliance ... Enterprise-grade Security ... Monited by Drata Continuous security monitoring and compliance automation through Drata.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc ... Copy curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-api-key: your_key' \\\\ --data '{ \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 }' ... headers = { \"Content-Type\": \"application/json\", \"x-api-key\": \"your_key\" }",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Pay only for what you actually use. No monthly commitments or short-term credit expiration - scale up or down whenever you need.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc ... Copy curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-api-key: your_key' \\\\ --data '{ \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 }' ... import requests url = \"https://api.waterfall.io/v1/prospector\" headers = { \"Content-Type\": \"application/json\", \"x-api-key\": \"your_key\" } data = { \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 } r = requests.post(url, headers=headers, json=data) print(r.status_code, r.json())",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' ... import requests url = \"https://api.waterfall.io/v1/prospector\" headers = { \"Content-Type\": \"application/json\", \"x-api-key\": \"your_key\" } data = { \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 } r = requests.post(url, headers=headers, json=data) print(r.status_code, r.json())",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Provides APIs for prospector, contact enrichment, phone enrichment, and job changes with unified data schema and high rate limits.",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Prospector API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Contact Enrichment API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Phone Enrichment API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Job Changes API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Contact Enrichment API API Overview Modular & Scalable GTM API Everything you need to build reliable data pipelines - from flexible architecture to dedicated developer support Unified data schema One clean, consistent data format for all your contacts and target accounts. No more field mapping headaches or schema changes. High rate limits Unlike typical waterfall enrichment vendors who struggle with rate limits, we handle high volumes seamlessly - whether you need 100 or 1,000 requests per minute.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+        "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+        "quote": "Preview curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-waterfall-api-key: YOURKEY' \\\\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' ... Copy curl --location 'https://api.waterfall.io/v1/prospector' \\\\ --header 'Content-Type: application/json' \\\\ --header 'x-api-key: your_key' \\\\ --data '{ \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 }' ... import requests url = \"https://api.waterfall.io/v1/prospector\" headers = { \"Content-Type\": \"application/json\", \"x-api-key\": \"your_key\" } data = { \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 } r = requests.post(url, headers=headers, json=data) print(r.status_code, r.json()) ... Dedicated onboarding Direct access to our engineering team via Slack. Get implementation help, custom solutions, and <1hr response times from the people who built it.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:22:03.197549+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://waterfall.io/",
+      "final_url": "https://www.waterfall.io/",
+      "retrieved_at": "2026-09-16T17:22:01.983679+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Waterfall | One B2B data solution to connect them all Products Contact enrich Verified emails & profiles, instantly Phone enrich Find phone numbers that convert Prospector Find contacts at your target accounts Job change Track your best customers Contact search Search any contact, at any company Docs Book a Call Lorem Ipsum Lorem Ipsum has been the industry's standard dummy text ever. Waterfall Enrichment api, powered by 30+ data vendors One GTM API to Track job changes Search for prospects Find verified emails Find mobile numbers Track job changes Verify emails *Waterfall™ aggregates 30+ different data vendors so that you can maximize contact, email and mobile number coverage without signing multiple data vendors or long-term contracts. ✓ Thanks, we’ll review your request shortly. Something went wrong. Please try again or book a call. or book a call GTM & Revenue leaders at top B2B companies use Waterfall Why Waterfall? 3 reasons (plus a bonus) why these brands choose Waterfall Before All your data vendors AFTER > 1 Quality 1 Quality Before Incomplete & Outdated Data You’re working with outdated information. Emails bounce and phone numbers disconnect. Contact profiles don’t match reality. After Cleaned, Structured and Verified Data Every profile verified in real-time. What you see is current, accurate and ready to use. 2 Coverage 2 Coverage Before Missing Contact Coverage You look for complete profiles across multiple platforms. One vendor has North America covered but not Europe, others give you emails but no phones - leaving you with prospects you can't actually reach. After Global Contact Coverage You pull verified contact data that's comprehensive globally. Email, phone, title, company - all accurate and together in one place. 3 Cost 3 Cost Before Multiple Vendors, Multiple Costs & Integrations You pay for the same missing, partial or inaccurate data multiple times across vendors. Credits expire and subscriptions require minimum commitments regardless of actual usage. After One Contract & Integration, Complete Access Pay only for what you actually use. No monthly commitments or short-term credit expiration - scale up or down whenever you need. + Support + Support Before Pending Tickets. Ignored Emails. Limited Product Input You submit tickets and wait days for answers. Your emails get buried in their inbox. Feature requests are prioritized by contract size, not urgency or potential business impact. After Direct Access to Founders & Engineers Message our team directly in Slack - no tickets, no waiting. Your feedback turns into features in days, and we prioritize by impact, not account size. Customers Hear what our customers say about us Use cases How teams use Waterfall From GTM engineers and RevOps to PLG teams, here are the most effective ways our customers use Waterfall to improve data coverage and quality. Find Contacts Find contacts by website, job titles & location Find Verified Emails Find real-time verified emails Find Mobile Numbers Get direct numbers for more connects and conversations with decision-makers Track Champions Monitor your best customers in their new positions Match Emails to Business Profiles Turn emails into complete business profiles - ready for scoring, segmenting and outreach Preview curl --location 'https://api.waterfall.io/v1/prospector' \\ --header 'Content-Type: application/json' \\ --header 'x-waterfall-api-key: YOURKEY' \\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Prospector API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\ --header 'Content-Type: application/json' \\ --header 'x-waterfall-api-key: YOURKEY' \\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Contact Enrichment API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\ --header 'Content-Type: application/json' \\ --header 'x-waterfall-api-key: YOURKEY' \\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Phone Enrichment API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\ --header 'Content-Type: application/json' \\ --header 'x-waterfall-api-key: YOURKEY' \\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Job Changes API Preview curl --location 'https://api.waterfall.io/v1/prospector' \\ --header 'Content-Type: application/json' \\ --header 'x-waterfall-api-key: YOURKEY' \\ --data '{ \"domain\": \"stripe.com\", \"title_filter\": \"(marketing director)\", \"verified_only\":false, \"limit\": 50 }' View API doc Contact Enrichment API API Overview Modular & Scalable GTM API Everything you need to build reliable data pipelines - from flexible architecture to dedicated developer support Unified data schema One clean, consistent data format for all your contacts and target accounts. No more field mapping headaches or schema changes. High rate limits Unlike typical waterfall enrichment vendors who struggle with rate limits, we handle high volumes seamlessly - whether you need 100 or 1,000 requests per minute. 99.99% uptime True 99.99% uptime with built-in redundancy. With 30+ data vendors, we keep running even if multiple providers go down. Dedicated onboarding Direct access to our engineering team via Slack. Get implementation help, custom solutions, and <1hr response times from the people who built it. Transparent pricing Usage-based pricing with no surprises. Pay for what you use, scale as you grow, no hidden fees. CURL PYTHON NODE Quick start Copy curl --location 'https://api.waterfall.io/v1/prospector' \\ --header 'Content-Type: application/json' \\ --header 'x-api-key: your_key' \\ --data '{ \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 }' import requests url = \"https://api.waterfall.io/v1/prospector\" headers = { \"Content-Type\": \"application/json\", \"x-api-key\": \"your_key\" } data = { \"domain\": \"salesforce.com\", \"title_filters\": \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", \"location_countries\": [\"United States\",\"France\",\"Canada\"], \"limit\": 10 } r = requests.post(url, headers=headers, json=data) print(r.status_code, r.json()) import fetch from \"node-fetch\"; const res = await fetch(\"https://api.waterfall.io/v1/prospector\", { method: \"POST\", headers: { \"Content-Type\": \"application/json\", \"x-api-key\": \"your_key\" }, body: JSON.stringify({ domain: \"salesforce.com\", title_filters: \"(chief executive officer) OR (chief marketing officer) OR (chief operating officer) OR (chief revenue officer)\", location_countries: [\"United States\",\"France\",\"Canada\"], limit: 10 }) }); console.log(res.status, await res.json()); 99.99% uptime • 30+ sources View API docs → View API doc Enterprise-grade security, reliability and compliance We don’t store, reuse or resell any of your data. On top, our infrastructure design allow us to be up even multiple (hand-vetted) vendors go down. SOC 2 Type II Certified While most vendors stop at the required Security module, we went further - achieving the complete compliance suite with Confidentiality and Privacy modules. GDPR & CCPA Full GDPR & CCPA compliance with data minimization, processing records, and privacy by design. We're ready for your EU & US data requirements. Enterprise-grade Security We don't just claim security; we prove it with the industry's best. Our pen tests are conducted by the same auditors who secure brands like Snowflake and T-Mobile. Monited by Drata Continuous security monitoring and compliance automation through Drata. Real-time alerts and regular audits keep us ahead of threats. Book a call Every company has different needs. Talk to our team (most likely one of the founders) to share your use case and see how Waterfall can help. Waterfall aggregates 30+ different data vendors so that you can maximize contact, email and mobile number coverage and optimize cost. *Waterfall trademark pending. Legal Privacy Policy Terms Waterfall.io @2025 | All Rights Reserved.",
+      "content_sha256": "33b586eecf0aae6b8590c61087d58bec2688656a2226c6f56da85789fd21727f",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2847,
+    "output_tokens": 3088
+  },
+  "failure": null
+}

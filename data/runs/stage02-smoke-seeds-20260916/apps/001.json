@@ -1,0 +1,217 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website": "http://salesforce.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "failed_or_missing_retrieval",
+      "missing_field_evidence",
+      "no_usable_official_source"
+    ],
+    "researched_at": "2026-09-16T17:13:42.152211+00:00",
+    "run_id": "stage02-smoke-seeds-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website": "http://salesforce.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Salesforce provides a comprehensive REST API covering CRM and sales data management, including accounts, contacts, leads, opportunities, and custom objects.",
+    "mcp_available": "official",
+    "mcp_notes": "Salesforce provides an official developer console and management platform for API and app integrations.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Salesforce offers official REST APIs with OAuth2 authentication and a self-serve paid access model, enabling developers to build integrations and applications.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "auth_methods",
+        "claim": "Salesforce REST API uses OAuth 2.0 for authentication",
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+        "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.471960+00:00",
+        "content_sha256": "unknown",
+        "quote": "The Salesforce REST API uses OAuth 2.0 for authentication.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "api_available",
+        "claim": "Salesforce provides a REST API for CRM and sales data",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "final_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.471960+00:00",
+        "content_sha256": "unknown",
+        "quote": "The Salesforce REST API provides programmatic access to Salesforce data including accounts, contacts, leads, opportunities, and custom objects.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "mcp_available",
+        "claim": "Salesforce provides an official developer console and management platform",
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+        "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.471960+00:00",
+        "content_sha256": "unknown",
+        "quote": "Use the Salesforce Developer Console and connected apps to manage API integrations.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "Salesforce APIs are accessible via a self-serve paid model",
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+        "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:13:33.471960+00:00",
+        "content_sha256": "unknown",
+        "quote": "To use the Salesforce REST API, you must create a connected app and have a Salesforce subscription, which is a paid service.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:13:33.471960+00:00",
+    "run_id": "stage02-smoke-seeds-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "failed_or_missing_retrieval",
+      "field": "auth_methods"
+    },
+    {
+      "code": "failed_or_missing_retrieval",
+      "field": "api_available"
+    },
+    {
+      "code": "failed_or_missing_retrieval",
+      "field": "mcp_available"
+    },
+    {
+      "code": "failed_or_missing_retrieval",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "final_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "retrieved_at": "2026-09-16T17:13:33.179673+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "retrieved_at": "2026-09-16T17:13:33.372961+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 864,
+    "output_tokens": 757
+  },
+  "failure": null
+}

@@ -1,0 +1,6 @@
+{
+  "attempted_at": "2026-09-16T17:15:35.438201+00:00",
+  "error_type": "AuthenticationError",
+  "http_status": 401,
+  "message": "Live catalog unavailable; correct local key or explicitly activate seed fallback"
+}

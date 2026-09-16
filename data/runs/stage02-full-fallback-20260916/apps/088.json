@@ -1,0 +1,283 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 88,
+    "app_name": "Brex",
+    "category": "9. Finance and Fintech",
+    "website": "http://developer.brex.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "official",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.brex.com/guides/authentication",
+        "final_url": "https://developer.brex.com/guides/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+        "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+        "quote": "Sign in to dashboard.brex.com as an account admin or card admin . Go to Developer > Settings . If your company has not accepted the developer API agreement, please review the terms and conditions. These must be accepted to use the developer API. Click Create Token .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.brex.com/",
+        "final_url": "https://developer.brex.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.291389+00:00",
+        "content_sha256": "870e9b5650db79d054fbc0e1f755261cbe18122cf301f96d2bab4fa0dc2aef84",
+        "quote": "Using the Brex API, you can power your internal tools and create custom workflows. Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.brex.com/",
+        "final_url": "https://developer.brex.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.291389+00:00",
+        "content_sha256": "870e9b5650db79d054fbc0e1f755261cbe18122cf301f96d2bab4fa0dc2aef84",
+        "quote": "Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.brex.com/guides/authentication",
+        "final_url": "https://developer.brex.com/guides/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+        "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+        "quote": "Sign in to dashboard.brex.com as an account admin or card admin . Go to Developer > Settings .",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:25:17.874515+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 88,
+    "app_name": "Brex",
+    "category": "9. Finance and Fintech",
+    "website": "https://developer.brex.com/",
+    "description": "Brex is the first fully unified spend platform with global corporate cards, expense management, reimbursements, travel, and bill pay. It enables finance teams to control all of their spend in one place. The Brex API uses REST architecture, is defined using the OpenAPI specification, uses standard HTTP response codes and verbs, accepts and returns JSON, and requires HTTPS. The API includes endpoints for accounting, budgets, expenses, fields, onboarding, payments, team management, transactions, travel, and webhooks.",
+    "auth_methods": [
+      "bearer_token"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API covers a wide range of financial management functions including accounting, budgets, expenses, fields, onboarding, payments, team management, transactions, travel, and webhooks.",
+    "mcp_available": "official",
+    "mcp_notes": "Brex provides an official MCP (Managed Customer Portal) as indicated by the presence of a developer dashboard for token management and API usage.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with a clear authentication method using bearer tokens generated from the Brex dashboard. The API is RESTful, uses standard HTTP methods and JSON, and has comprehensive coverage of financial management features, making it feasible to build integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Brex is the first fully unified spend platform with global corporate cards, expense management, reimbursements, travel, and bill pay. It enables finance teams to control all of their spend in one place. The Brex API uses REST architecture, is defined using the OpenAPI specification, uses standard HTTP response codes and verbs, accepts and returns JSON, and requires HTTPS. The API includes endpoints for accounting, budgets, expenses, fields, onboarding, payments, team management, transactions, travel, and webhooks.",
+        "url": "https://developer.brex.com/",
+        "final_url": "https://developer.brex.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.291389+00:00",
+        "content_sha256": "870e9b5650db79d054fbc0e1f755261cbe18122cf301f96d2bab4fa0dc2aef84",
+        "quote": "Brex is the first fully unified spend platform \u001f with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create custom workflows. Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS. Explore our guides and review our API documentation to see how you can integrate with Brex. Accounting API : View and manage accounting data Budgets API : Manage budgets and budget programs Expenses API : View and manage card expenses data, receipt match and receipt uploads Fields API : View and manage fields and their options Onboarding API : Refer your customers and personal contacts to Brex and prefill signup information Payments API : Manage vendors and send ACH, domestic wires, and checks Team API : Manage users, locations, departments, and cards Transactions API : View your transactions, accounts, and statements Travel API : View trips made in Brex Travel Webhooks API : Send real-time notifications based on events",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "bearer_token",
+        "url": "https://developer.brex.com/guides/authentication",
+        "final_url": "https://developer.brex.com/guides/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+        "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+        "quote": "To start making calls to Brex APIs, generate a user token from your Brex dashboard and pass it along in your API call headers. ... To pass your user token to Brex APIs, add it as a header to your API calls in the following format: Authorization: \\\"Bearer {{your user_token here}}\\\"",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developer.brex.com/guides/authentication",
+        "final_url": "https://developer.brex.com/guides/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+        "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+        "quote": "Sign in to dashboard.brex.com as an account admin or card admin . Go to Developer > Settings . If your company has not accepted the developer API agreement, please review the terms and conditions. These must be accepted to use the developer API. Click Create Token .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developer.brex.com/",
+        "final_url": "https://developer.brex.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.291389+00:00",
+        "content_sha256": "870e9b5650db79d054fbc0e1f755261cbe18122cf301f96d2bab4fa0dc2aef84",
+        "quote": "Using the Brex API, you can power your internal tools and create custom workflows. Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developer.brex.com/",
+        "final_url": "https://developer.brex.com/",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.291389+00:00",
+        "content_sha256": "870e9b5650db79d054fbc0e1f755261cbe18122cf301f96d2bab4fa0dc2aef84",
+        "quote": "Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developer.brex.com/guides/authentication",
+        "final_url": "https://developer.brex.com/guides/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+        "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+        "quote": "Sign in to dashboard.brex.com as an account admin or card admin . Go to Developer > Settings .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developer.brex.com/guides/authentication",
+        "final_url": "https://developer.brex.com/guides/authentication",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+        "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+        "quote": "To start making calls to Brex APIs, generate a user token from your Brex dashboard and pass it along in your API call headers. ... To pass your user token to Brex APIs, add it as a header to your API calls in the following format: Authorization: \\\"Bearer {{your user_token here}}\\\"",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:51.856528+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.brex.com/",
+      "final_url": "https://developer.brex.com/",
+      "retrieved_at": "2026-09-16T17:24:49.291389+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Overview Skip to content API Guides Examples No-Code Options Support Changelog Search Ctrl+K Login Overview APIs Accounting Budgets & Limits Expenses Fields Onboarding Payments Team Transactions Travel Webhooks Brex MCP No-Code Options Community Supported Libraries Support Overview Copy Copy for LLM Copy page as Markdown for LLMs View as Markdown Open this page as Markdown Open in ChatGPT Get insights from ChatGPT Open in Claude Get insights from Claude Brex is the first fully unified spend platform — with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create custom workflows. Brex APIs use the REST architecture, are defined using the OpenAPI specification and use standard HTTP response codes and verbs. All APIs accept and return JSON and require HTTPS. Explore our guides and review our API documentation to see how you can integrate with Brex. Accounting API : View and manage accounting data Budgets API : Manage budgets and budget programs Expenses API : View and manage card expenses data, receipt match and receipt uploads Fields API : View and manage fields and their options Onboarding API : Refer your customers and personal contacts to Brex and prefill signup information Payments API : Manage vendors and send ACH, domestic wires, and checks Team API : Manage users, locations, departments, and cards Transactions API : View your transactions, accounts, and statements Travel API : View trips made in Brex Travel Webhooks API : Send real-time notifications based on events Quickstart Check out our quickstart guide to get up and running making your first Brex API call in just a few minutes. The rest of the guides and documentation provide more in-depth context. API Status Go to https://status.brex.com to see API and Brex system status. Join us on Slack Have feedback, questions, or ideas? Join our Slack community to discuss your API integrations with Brex employees and other developers. Was this helpful? Next page Accounting Copyright © Brex LLC 2019–2026. All rights reserved. Ask AI",
+      "content_sha256": "870e9b5650db79d054fbc0e1f755261cbe18122cf301f96d2bab4fa0dc2aef84",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://developer.brex.com/docs/authentication/",
+      "final_url": "https://developer.brex.com/guides/authentication",
+      "retrieved_at": "2026-09-16T17:24:49.952574+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Authentication Skip to content API Guides Examples No-Code Options Support Changelog Search Ctrl+K Login Quickstart Authentication Developer authentication Partner authentication User roles and permissions Pagination Rate limits Idempotency Error codes Versioning API Launch Stages Webhooks Onboarding Launch Checklist Authentication Developer authentication Partner authentication / Developer authentication Authentication Copy Copy for LLM Copy page as Markdown for LLMs View as Markdown Open this page as Markdown Open in ChatGPT Get insights from ChatGPT Open in Claude Get insights from Claude To start making calls to Brex APIs, generate a user token from your Brex dashboard and pass it along in your API call headers. 1. Generate a user token Sign in to dashboard.brex.com as an account admin or card admin . Go to Developer > Settings . If your company has not accepted the developer API agreement, please review the terms and conditions. These must be accepted to use the developer API. Click Create Token . Create a name for your token that will help you identify it. Choose what level of data access you need for your application; these are the scopes your token will have. The next screen will confirm your previous selections. Make sure it looks good, then select Allow Access . Your token is now created. Copy and store the token securely. You won't be able to see it again. Back on the developer page of your Brex dashboard, you should see your token listed now. As a security measure, part of the string is obfuscated. If you lose it, create a new one and replace the token. Caution : Your user token is private and should not be shared. Never check it into version control or save it somewhere publicly accessible. If your user token is compromised or leaked, make sure to revoke it. 2. Pass the user token in your API call headers To pass your user token to Brex APIs, add it as a header to your API calls in the following format: Authorization: \"Bearer {{your user_token here}}\" If, for example, your user token value is bxt_jBWQLZXtu1f4sVT6UjaWPp7Gh9nVGjzEZgRX , your header will be: Authorization: \"Bearer bxt_jBWQLZXtu1f4sVT6UjaWPp7Gh9nVGjzEZgRX\" Token revocation and expiration There are two scenarios where tokens will be invalid for authentication: User tokens will expire if they are not used to make an API call for 90 days User tokens associated to users in a non-active status will no longer work If your token is compromised, or you no longer need it, revoke the user token from the developer page in your Brex dashboard. Once revoked, any calls made with this token will immediately begin to fail. API Server Brex currently only offers a production API server at https://api.brex.com . This is the base URL for all API calls. Was this helpful? Previous page Quickstart Next page Partner authentication Copyright © Brex LLC 2019–2026. All rights reserved. Ask AI",
+      "content_sha256": "d656c0e758a120879e11673ba4532a54a5c871f7726e8fdbddc454743b46438f",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2213,
+    "output_tokens": 1827
+  },
+  "failure": null
+}

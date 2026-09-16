@@ -1,0 +1,297 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 36,
+    "app_name": "Klaviyo",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://developers.klaviyo.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key",
+      "oauth2",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key, oauth2, other (public key authentication)",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "To manage API keys, you must have an Owner, Admin, or Manager role on your Klaviyo account.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:19:19.729858+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 36,
+    "app_name": "Klaviyo",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://developers.klaviyo.com/",
+    "description": "Klaviyo provides server-side and client-side APIs for marketing automation. Server-side APIs use private key authentication or OAuth for secure access, while client-side APIs use public key authentication. The platform supports custom scopes to control access levels for API keys and OAuth tokens.",
+    "auth_methods": [
+      "api_key",
+      "oauth2",
+      "other"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Klaviyo offers a broad REST API covering accounts, campaigns, conversations, catalogs, coupons, data privacy, events, flows, forms, images, lists, metrics, profiles, push tokens, reporting, reviews, segments, subscriptions, tags, templates, tracking settings, and web feeds with fine-grained scopes for read and write access.",
+    "mcp_available": "official",
+    "mcp_notes": "Klaviyo supports OAuth for app integrations and access to the App Marketplace, enabling secure delegated access and app listing.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "Klaviyo provides detailed official documentation on authentication methods including private API keys, OAuth, and public keys, with examples and scope management. The API is RESTful and accessible via self-service with paid accounts. OAuth enables app marketplace integration, supporting buildability.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Klaviyo provides server-side and client-side APIs for marketing automation. Server-side APIs use private key authentication or OAuth for secure access, while client-side APIs use public key authentication. The platform supports custom scopes to control access levels for API keys and OAuth tokens.",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs). Read the table below to learn more about how each method can be used for authenticating API calls... Klaviyo allows you to generate multiple private keys for your applications... When setting up OAuth, you must provide designated scopes for each API authorization request you'll want to make.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key, oauth2, other (public key authentication)",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "To manage API keys, you must have an Owner, Admin, or Manager role on your Klaviyo account.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "All /api endpoints use API private keys to authenticate requests... OAuth to make authorized API calls... All /client endpoints use a public API key...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "curl --request GET --url https://a.klaviyo.com/api/{endpoint}/ --header 'Authorization: Klaviyo-API-Key your-private-api-key'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Klaviyo offers a broad REST API covering accounts, campaigns, conversations, catalogs, coupons, data privacy, events, flows, forms, images, lists, metrics, profiles, push tokens, reporting, reviews, segments, subscriptions, tags, templates, tracking settings, and web feeds with fine-grained scopes for read and write access.",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "See the full list of scopes needed for each of our APIs below: Accounts: accounts:read; Campaigns: campaigns:read, campaigns:write; Conversations: conversations:read, conversations:write; Catalogs: catalogs:read, catalogs:write; Coupons: coupons:read, coupons:write; Coupon codes: coupon-codes:read, coupon-codes:write; Data privacy: data-privacy:read, data-privacy:write; Events: events:read, events:write; Flows: flows:read, flows:write; Forms: forms:read; Images: images:read, images:write; Lists: lists:read, lists:write; Metrics: metrics:read, metrics:write; Profiles: profiles:read, profiles:write; Push tokens: push-tokens:read, push-tokens:write; Reporting: campaigns:read, flows:read, forms:read, segments:read; Reviews: reviews:read; Segments: segments:read, segments:write; Subscriptions: subscriptions:read, subscriptions:write; Tags: tags:read, tags:write; Templates: templates:read, templates:write; Tracking Settings: tracking-settings:read, tracking-settings:write; Web Feeds: web-feeds:read, web-feeds:write.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "If you're building an app with Klaviyo, use OAuth to provide secure delegated access to users via access tokens (required to enter Klaviyo’s App Marketplace).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_notes",
+        "claim": "Klaviyo supports OAuth for app integrations and access to the App Marketplace, enabling secure delegated access and app listing.",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "If you're building an app with Klaviyo, use OAuth to provide secure delegated access to users via access tokens (required to enter Klaviyo’s App Marketplace).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+        "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+        "quote": "Klaviyo provides detailed official documentation on authentication methods including private API keys, OAuth, and public keys, with examples and scope management. The API is RESTful and accessible via self-service with paid accounts. OAuth enables app marketplace integration, supporting buildability.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:19:02.327350+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+      "final_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+      "retrieved_at": "2026-09-16T17:19:01.504462+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "# Authenticate API requests Learn how to authenticate requests to Klaviyo endpoints. ## You will learn After reading this article, you will be able to distinguish which methods of authentication you should use for making calls with Klaviyo's server- and client-side APIs. You will also learn how to set custom scopes to protect you and your customers’ data. ## Server-side vs client-side APIs > 📘 > > Check out our video on <a href=\"https://www.youtube.com/watch?v=x0RjkP8T13A&list=PLHkNfHgtxcUanrkMnKPdkRzuWU7MGv_xM&index=3\" target=\"_blank\">client- and server-side tracking with Klaviyo's APIs</a>. A majority of Klaviyo’s APIs are server-side endpoints, which should be securely handled on your server rather than exposed in the browser. Handle sensitive information via server-side APIs, like bulk-creating events for one or more profiles. Client-side APIs are used to track and send user behavior data from the client to Klaviyo. They are designed to be called from publicly-searchable, client-side environments only (see [Client API reference](https://developers.klaviyo.com/en/reference/create_client_subscription)). Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs). Read the table below to learn more about how each method can be used for authenticating API calls: [block:html] { \"html\": \"<style type=\\\"text/css\\\">\\n.tg {border-collapse:collapse;border-spacing:0;}\\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\\n overflow:hidden;padding:10px 5px;word-break:normal;}\\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\\n font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\\n.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}\\n</style>\\n<table class=\\\"tg\\\"><thead>\\n <tr>\\n <th class=\\\"tg-73oq\\\" colspan=\\\"2\\\"><span style=\\\"font-weight:bold\\\">Server-side APIs</span></th>\\n <th class=\\\"tg-73oq\\\"><span style=\\\"font-weight:bold\\\">Client-side APIs</span></th>\\n </tr></thead>\\n<tbody>\\n <tr>\\n <td class=\\\"tg-73oq\\\"><span style=\\\"font-weight:bold\\\">Private key authentication</span><br>All /api endpoints use API private keys to authenticate requests. If you do not use an API key for your requests, or if you use a key from the wrong account, your call will return an error. A 400 error indicates an invalid or missing API key. </td>\\n <td class=\\\"tg-73oq\\\"><span style=\\\"font-weight:bold\\\">OAuth</span><br>If you are a tech partner integrating with Klaviyo, we recommend using OAuth to <a href=\\\"https://developers.klaviyo.com/en/docs/set_up_oauth\\\" target=\\\"_blank\\\">make authorized API calls</a>. OAuth offers multiple benefits over a private key integration, including security, usability, improved rate limits, and the ability to be listed in Klaviyo's App Marketplace.</td>\\n <td class=\\\"tg-73oq\\\"><span style=\\\"font-weight:bold\\\">Public key authentication</span><br>All /client endpoints use a public API key: your 6-character company ID, also known as a site ID. We recommend using the <a href=\\\"https://developers.klaviyo.com/en/docs/introduction_to_the_klaviyo_object\\\" target=\\\"_blank\\\">Klaviyo object</a> or our <a href=\\\"https://developers.klaviyo.com/en/docs/sdk_overview#mobile-sdks\\\" target=\\\"_blank\\\">Mobile SDKs</a> for interacting with our client-side APIs.</td>\\n </tr>\\n</tbody></table>\" } [/block] > 📘 > > To manage API keys, you must have an Owner, Admin, or Manager role on your Klaviyo account. ## Private key authentication Private API keys can be used to read and write data to your Klaviyo account. Klaviyo allows you to generate multiple private keys for your applications. > 🚧 > > For your account's security, your private API keys should never be used with Client endpoints, exposed in client-side code, or made accessible from public repositories. ### Create a private key To create a private key: 1. Navigate to your account’s *Settings* page and select **[API keys](https://www.klaviyo.com/settings/account/api-keys)**. 2. Under the *Private API Keys* section, select **Create Private API Key**. [block:image] { \"images\": [ { \"image\": [ \"https://files.readme.io/63e519eead1977ef41682d9be32ba3ddedf16c969cb6c2d7186c08b752aada8f-create_priv_key.png\", null, \"Settings page with button to create a private API key.\" ], \"align\": \"center\" } ] } [/block] 3. Provide a name for your private key and add any of the following scopes: * Custom Key \\ Allows you to decide how much access to give the third party. * Read-Only Key \\ Only allows third parties to view all data associated with the endpoint. * Full Access Key \\ Allows third parties to create, delete, or make changes to anything associated with that endpoint. > 🚧 > > Note that you cannot add a scope to an existing private key. You also cannot edit a private API key after it’s been created. If you need to remove access to a key based on its current scope, delete it and then create a new key with the correct scope. 4. When you have finished setting your key’s scopes, select **Create**. To protect your account from unauthorized access, you cannot view your private API keys in Klaviyo. After you have created your private API key, copy it to a secure location. [block:image] { \"images\": [ { \"image\": [ \"https://files.readme.io/cfd0b2644992669c753febf25d64a01d61ad35b4bb50480219908cd112540807-private_key_created.png\", null, \"Created private key with its Read/Write access endpoints.\" ], \"align\": \"center\" } ] } [/block] Private keys will have the prefix pk\\_ followed by a longer alphanumeric string. ### Use a private key Private key authentication for `/api` endpoints is performed by setting the following request header: ``` Authorization: Klaviyo-API-Key your-private-api-key ``` ```curl curl --request GET \\ --url https://a.klaviyo.com/api/{endpoint}/ \\ --header 'Authorization: Klaviyo-API-Key your-private-api-key' \\ --header 'accept: application/json' \\ --header 'revision: 2026-07-15' ``` ## Public key authentication Your 6-character public key, sometimes referred to as a site ID, is a short alphanumeric string that serves as the unique identifier for your Klaviyo account. Public keys cannot be used to access secure data in your account and are safe to share. Use your public key when you need to track people and events in client-side JavaScript code. Client-side API calls only require a public API key, also known as a `company_id`, for authentication: ```curl curl --request POST \\ --url 'https://a.klaviyo.com/client/subscriptions/?company_id=PUBLIC_API_KEY' \\ --header 'content-type: application/json' \\ --header 'revision: 2026-07-15' \\ --data ' ... ``` ## OAuth If you're building an app with Klaviyo, use [OAuth](https://developers.klaviyo.com/en/docs/set_up_oauth) to provide secure delegated access to users via access tokens (required to enter Klaviyo’s App Marketplace). When setting up OAuth, you must provide designated scopes for each API authorization request you'll want to make. ## Set custom scopes Setting custom scopes helps you protect your and your customers’ data by limiting what third parties can access. When requesting authorization to make API calls (OAuth), you should only request the scopes required to use your app. View the API reference documentation to understand which scopes you’ll need to define. For example, if your private key or Klaviyo app needs to create lists, your app needs the `lists:write` scope as shown in the following API reference documentation for the Create List endpoint: [block:image] { \"images\": [ { \"image\": [ \"https://files.readme.io/1470bbc-v2_scopes_refdoc_submit_app.png\", null, \"Create List API reference docs with lists:write scope highlighted\" ], \"align\": \"center\" } ] } [/block] See the full list of scopes needed for each of our APIs below: [block:html] { \"html\": \"<style>\\ndetails > summary {\\n cursor: pointer;\\n list-style-type: none;\\n }\\n \\n :root {\\n --recipe-button-color-hover:#FFFFFF;\\n \\n .accordion {\\n border-bottom: 1px solid;\\n border-bottom-color:#232426;\\n background-color:#FFFFFF;\\n \\n .accordion__item {\\n margin: 0;\\n\\n &[open] {\\n .accordion__item-title::after {\\n transform: rotate(180deg);\\n }\\n }\\n }\\n\\n .accordion__item-title {\\n margin-bottom: 0;\\n padding: 1.6rem 5.6rem 1.6rem 0;\\n position: relative;\\n font-size: 18px;\\n\\n &::after {\\n background-image: url(\\\"data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.842773 1L9.99974 10.157L19.1567 1' stroke='%23232426' stroke-width='1.5'/%3E%3C/svg%3E\\\");\\n background-position: center;\\n background-repeat: no-repeat;\\n background-size: contain;\\n content: '';\\n display: block;\\n height: 1.4rem;\\n position: absolute;\\n right: 1.6rem;\\n top: 1.8rem;\\n transition-property: transform;\\n transition-timing-function: ease-out;\\n transition-duration: 350ms;\\n width: 1.4rem;\\n }\\n }\\n\\n .accordion__item-content {\\n overflow: hidden;\\n padding: 0.8rem 1.6rem 1.6rem 0;\\n }\\n }\\n</style>\\n\\n<div class=\\\"accordion\\\">\\n<details class=\\\"accordion__item\\\" open>\\n<summary class=\\\"accordion__item-title\\\"><strong>Available scopes for each API </strong></summary>\\n<div class=\\\"accordion__item-content\\\">\\n<table>\\n <tr>\\n <td><b>API endpoint</b>\\n </td>\\n <td><b>Associated scopes</b>\\n </td>\\n </tr>\\n <tr>\\n <td>Accounts\\n </td>\\n <td><code>accounts:read</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Campaigns\\n </td>\\n <td><code>campaigns:read</code>\\n<p>\\n <code>campaigns:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Conversations\\n </td>\\n <td><code>conversations:read</code>\\n<p>\\n <code>conversations:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Catalogs\\n </td>\\n <td><code>catalogs:read</code>\\n<p>\\n <code>catalogs:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Coupons\\n </td>\\n <td><code>coupons:read</code>\\n<p>\\n <code>coupons:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Coupon codes\\n </td>\\n <td><code>coupon-codes:read</code>\\n<p>\\n <code>coupon-codes:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Data privacy\\n </td>\\n <td><code>data-privacy:read</code>\\n<p>\\n <code>data-privacy:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Events\\n </td>\\n <td><code>events:read</code>\\n<p>\\n <code>events:write</code> (allows for creating/updating profiles)\\n </td>\\n </tr>\\n <tr>\\n <td>Flows\\n </td>\\n <td><code>flows:read</code>\\n<p>\\n <code>flows:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Forms\\n </td>\\n <td><code>forms:read</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Images\\n </td>\\n <td><code>images:read</code>\\n<p>\\n <code>images:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Lists\\n </td>\\n <td><code>lists:read</code>\\n<p>\\n <code>lists:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Metrics\\n </td>\\n <td><code>metrics:read</code>\\n<p>\\n <code>metrics:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Profiles\\n </td>\\n <td><code>profiles:read</code>\\n<p>\\n <code>profiles:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Push tokens\\n </td>\\n <td><code>push-tokens:read</code>\\n<p>\\n <code>push-tokens:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Reporting\\n </td> <td><code>campaigns:read</code> <br><code>flows:read</code><p><code>forms:read</code> <br> <code>segments:read</code></td> \\n<p>\\n \\n<p></td>\\n </tr>\\n <tr>\\n <td>Reviews\\n </td>\\n <td><code>reviews:read</code>\\n<p> </td>\\n </tr>\\n <tr>\\n <td>Segments\\n </td>\\n <td><code>segments:read</code>\\n<p>\\n <code>segments:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Subscriptions\\n </td>\\n <td><code>subscriptions:read</code>\\n<p>\\n <code>subscriptions:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Tags\\n </td>\\n <td><code>tags:read</code>\\n<p>\\n <code>tags:write</code>\\n </td>\\n </tr>\\n <tr>\\n <td>Templates\\n </td>\\n <td><code>templates:read</code>\\n<p>\\n <code>templates:write</code>\\n </td>\\n </tr>\\n <td>Tracking Settings\\n </td>\\n <td><code>tracking-settings:read</code>\\n<p>\\n <code>tracking-settings:write</code>\\n </td>\\n </tr>\\n<td>Web Feeds\\n </td>\\n <td><code>web-feeds:read</code>\\n<p>\\n <code>web-feeds:write</code>\\n </td>\\n </tr>\\n</table>\\n</div>\\n</details>\\n</div>\" } [/block] ## Additional resources * [Make API calls with OAuth](https://developers.klaviyo.com/en/docs/set_up_oauth) * [Use Klaviyo's Postman collections](https://developers.klaviyo.com/en/docs/use_klaviyos_postman_collections) * [Introduction to the Klaviyo object](https://developers.klaviyo.com/en/docs/introduction_to_the_klaviyo_object)",
+      "content_sha256": "0491d1b68f5d785ded2580550dc53c6a4c516b2c28bdad275e009ded2465f2a5",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 5059,
+    "output_tokens": 2285
+  },
+  "failure": null
+}

@@ -1,0 +1,364 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 19,
+    "app_name": "Gorgias",
+    "category": "2. Support and Helpdesk",
+    "website": "http://gorgias.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access_model": "unknown",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows creating tickets, messages, integrating new channels, syncing data, and showing third-party data in tickets.",
+    "mcp_available": "official",
+    "mcp_notes": "Gorgias has a Developer Portal for app registration and submission, including a review process for public apps.",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "The documentation describes OAuth2 and API key authentication methods, a Developer Portal for app registration, and detailed API usage examples, enabling building integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Public app authentication can be done only via OAuth2 for which you will need to register on our Developer portal .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Private apps These apps should be used if you plan to access only your own Gorgias account data. You don't need to follow any special process to create a private app. For the authentication method, you can use Access Tokens .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "The API allows creating tickets, messages, integrating new channels, syncing data, and showing third-party data in tickets.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_notes",
+        "claim": "Gorgias has a Developer Portal for app registration and submission, including a review process for public apps.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability_rationale",
+        "claim": "The documentation describes OAuth2 and API key authentication methods, a Developer Portal for app registration, and detailed API usage examples, enabling building integrations.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:17:28.581635+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 19,
+    "app_name": "Gorgias",
+    "category": "2. Support and Helpdesk",
+    "website": "http://gorgias.com/",
+    "description": "Gorgias provides a support and helpdesk platform with API access for creating tickets, messages, and integrations. It supports private apps for accessing own account data and public apps for broader distribution via an app store.",
+    "auth_methods": [
+      "oauth2",
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows creating tickets, messages, integrating new channels, syncing data, and showing third-party data in tickets.",
+    "mcp_available": "official",
+    "mcp_notes": "Gorgias has a Developer Portal for app registration and submission, including a review process for public apps.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The documentation describes OAuth2 and API key authentication methods, a Developer Portal for app registration, and detailed API usage examples, enabling building integrations.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Gorgias provides a support and helpdesk platform with API access for creating tickets, messages, and integrations. It supports private apps for accessing own account data and public apps for broader distribution via an app store.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Private vs. Public App For AI agents: visit https://developers.gorgias.com/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version. Jump to Content Home Quickstart API Reference Changelog Quickstart Home Quickstart API Reference Changelog Private vs. Public App Introduction Private vs. Public App Authentication Access Tokens (API Keys) OAuth2 Bearer Token OAuth2 Scopes Building a Public App Overview Building a high-quality Gorgias app 1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database How to attach Gorgias tracking data to Shopify Cart and Checkout attributes Refresh Shopify Cart’s UI on Updates via Convert Powered by Private vs Public App Understand the difference between the two types and decide which one better fits your goals. Before you start creating your first Gorgias app you need to choose between two types of apps: Private apps These apps should be used if you plan to access only your own Gorgias account data. You don't need to follow any special process to create a private app. For the authentication method, you can use Access Tokens . Public apps These apps are published in our App Store and are available to thousands of shop owners. You need to follow a specific process which includes a review from the Gorgias team. Public app authentication can be done only via OAuth2 for which you will need to register on our Developer portal . Updated about 1 year ago Access Tokens (API Keys) Did this page help you? Yes No Copy Page Private apps Public apps",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "oauth2",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Public app authentication can be done only via OAuth2 for which you will need to register on our Developer portal .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Private apps These apps should be used if you plan to access only your own Gorgias account data. You don't need to follow any special process to create a private app. For the authentication method, you can use Access Tokens .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database How to attach Gorgias tracking data to Shopify Cart and Checkout attributes Refresh Shopify Cart’s UI on Updates via Convert Powered by Private vs Public App Understand the difference between the two types and decide which one better fits your goals. Before you start creating your first Gorgias app you need to choose between two types of apps: Private apps These apps should be used if you plan to access only your own Gorgias account data. You don't need to follow any special process to create a private app. For the authentication method, you can use Access Tokens . Public apps These apps are published in our App Store and are available to thousands of shop owners. You need to follow a specific process which includes a review from the Gorgias team. Public app authentication can be done only via OAuth2 for which you will need to register on our Developer portal .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "api_breadth",
+        "claim": "The API allows creating tickets, messages, integrating new channels, syncing data, and showing third-party data in tickets.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e9",
+        "field": "mcp_notes",
+        "claim": "Gorgias has a Developer Portal for app registration and submission, including a review process for public apps.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e10",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e11",
+        "field": "buildability_rationale",
+        "claim": "The documentation describes OAuth2 and API key authentication methods, a Developer Portal for app registration, and detailed API usage examples, enabling building integrations.",
+        "url": "https://developers.gorgias.com/docs",
+        "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+        "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+        "quote": "OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:17:05.423385+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "description",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.gorgias.com/docs",
+      "final_url": "https://developers.gorgias.com/docs/private-vs-public-app",
+      "retrieved_at": "2026-09-16T17:17:03.319979+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Private vs. Public App For AI agents: visit https://developers.gorgias.com/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version. Jump to Content Home Quickstart API Reference Changelog Quickstart Home Quickstart API Reference Changelog Private vs. Public App Introduction Private vs. Public App Authentication Access Tokens (API Keys) OAuth2 Bearer Token OAuth2 Scopes Building a Public App Overview Building a high-quality Gorgias app 1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Build and test your app 5. Submit app for review 6. Stay in touch Tutorials OAuth2 authentication for creating apps with Gorgias Create a ticket using API Create a new message in ticket via API Integrate with a new channel Create integrations and widgets Show 3rd-party data in tickets Sync Gorgias data with a database How to attach Gorgias tracking data to Shopify Cart and Checkout attributes Refresh Shopify Cart’s UI on Updates via Convert Powered by Private vs. Public App Understand the difference between the two types and decide which one better fits your goals. Before you start creating your first Gorgias app you need to choose between two types of apps: 🔐 Private apps These apps should be used if you plan to access only your own Gorgias account data. You don't need to follow any special process to create a private app. For the authentication method, you can use Access Tokens . 👥 Public apps These apps are published in our App Store and are available to thousands of shop owners. You need to follow a specific process which includes a review from the Gorgias team. 👉 Public app authentication can be done only via OAuth2 for which you will need to register on our Developer portal . Updated about 1 year ago Access Tokens (API Keys) Did this page help you? Yes No Copy Page 🔐 Private apps 👥 Public apps",
+      "content_sha256": "3c0cb27ba8c10c648a1f2cdcda64c16f1f51c74669f7a72cda17a888ec6675b3",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://developers.gorgias.com/docs/access-tokens",
+      "final_url": "https://developers.gorgias.com/docs/access-tokens",
+      "retrieved_at": "2026-09-16T17:17:04.793859+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1485,
+    "output_tokens": 2866
+  },
+  "failure": null
+}

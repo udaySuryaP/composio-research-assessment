@@ -1,0 +1,276 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 53,
+    "app_name": "Ahrefs",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://ahrefs.com/api",
+    "description": "unknown",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "API v3 provides access to multiple endpoints including Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, and management of Rank Tracker projects and Keywords Explorer lists.",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "To send requests to Ahrefs API, you'll need an API key. Only workspace owners and admins can create and manage API keys. This can be done in Account settings / API keys .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "Ahrefs API is available on eligible paid plans . On all other plans, you'll still have access to a limited set of free test queries .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "With Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "The reference contains an OpenAPI-compatible specification of each endpoint's request and response format.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "API v3 provides access to multiple endpoints including Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, and management of Rank Tracker projects and Keywords Explorer lists.",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:21:43.800215+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 53,
+    "app_name": "Ahrefs",
+    "category": "6. Data, SEO and Scraping",
+    "website": "http://ahrefs.com/api",
+    "description": "With Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "API v3 provides access to multiple endpoints including Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, and management of Rank Tracker projects and Keywords Explorer lists.",
+    "mcp_available": "unknown",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with an OpenAPI-compatible specification, supports API key authentication, and is accessible to eligible paid plans with clear usage limits and rate limiting policies.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "With Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists.",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "With Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists: Site Explorer : Overview stats and historical charts, Backlinks, Organic and paid traffic reports Keywords Explorer : Metrics for a single keyword or a list of keywords, Search volume history and volume by country, Keyword ideas reports Site Audit : Projects' Health Scores, full issue reports and content of crawled pages SERP Overview : Top 100 SERP results Rank Tracker : Project overview, Competitor reports and Rank Tracker SERPs Batch Analysis : Metrics for up to 100 targets per request Brand Radar : Brand overview stats, historical performance charts, and real prompts with citations across multiple AI agents Social Media Management : Channels, posts, activity history and metrics for connected social media accounts Content Helper : The core topics covered by the pages ranking for a keyword, with per-page coverage scores Management : Endpoints to manage your Rank Tracker projects and Keywords Explorer lists Subscription information : Your API limits and usage Public endpoints : Our crawler's IP addresses and ranges Eligibility Ahrefs API is available on eligible paid plans . On all other plans, you'll still have access to a limited set of free test queries . Plan limits All requests besides free test queries and the Rank Tracker , Management , Public and some other endpoints consume API units . The cost depends on the number of rows in a response and the fields requested. The minimum cost for any request is 50 units . If an endpoint is free, you'll see a note about that on its documentation page; otherwise, it consumes units. Related guide: Limits consumption info Please be advised that API units once consumed are non-refundable. We strongly encourage the use of our complimentary test queries for all development and testing purposes to mitigate any unintended usage of API units. We also recommend putting limits on your API keys, especially when you are in the testing and development stage. Eligible paid plans include a monthly API unit allowance. On plans that support pay-as-you-go usage, additional units are automatically charged once the included limit is exceeded. See also: Pricing page and Account settings / Limits & usage . API keys To send requests to Ahrefs API, you'll need an API key. Only workspace owners and admins can create and manage API keys. This can be done in Account settings / API keys . Related guide: API keys creation and management Basic usage Get a quick start with these API buttons in Ahrefs reports . Click on them to display the request as a cURL command. These buttons can be used as a query builder since the cURL command will be updated dynamically with any filters you apply to the report. Note that cURL contains all the fields and metrics shown in the current report. You can remove the fields you don't need to reduce the cost of a request. For full usage details, view our API reference in these docs. The reference contains an OpenAPI-compatible specification of each endpoint's request and response format. Rate limiting Ahrefs API is limited to 60 requests per minute by default. If this limit is exceeded, the API will respond with an HTTP 429 status code ( Too Many Requests ). Additionally, to maintain optimal performance and system stability, API requests may occasionally be rejected with the same HTTP 429 status code due to throttling. Throttling occurs dynamically based on real-time system load, resource availability, and the computational demands of your requests. Links Full OpenAPI spec Privacy policy Terms of use Next \u0019 Limits consumption On this page Eligibility Plan limits API keys Basic usage Rate limiting Links",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "To send requests to Ahrefs API, you'll need an API key. Only workspace owners and admins can create and manage API keys. This can be done in Account settings / API keys .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "Ahrefs API is available on eligible paid plans . On all other plans, you'll still have access to a limited set of free test queries .",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "With Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "The reference contains an OpenAPI-compatible specification of each endpoint's request and response format.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "API v3 provides access to multiple endpoints including Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, and management of Rank Tracker projects and Keywords Explorer lists.",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+        "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+        "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+        "quote": "The reference contains an OpenAPI-compatible specification of each endpoint's request and response format. To send requests to Ahrefs API, you'll need an API key. Only workspace owners and admins can create and manage API keys. This can be done in Account settings / API keys . Eligible paid plans include a monthly API unit allowance. On plans that support pay-as-you-go usage, additional units are automatically charged once the included limit is exceeded. Rate limiting Ahrefs API is limited to 60 requests per minute by default.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:21:25.927429+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+      "final_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+      "retrieved_at": "2026-09-16T17:21:23.787559+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Introduction | Ahrefs for Developers Docs Home REST API MCP Data Studio Bot Analytics Ahrefs Connect Search docs... ⌘K ✕ Products Home REST API MCP Data Studio Bot Analytics Ahrefs Connect Reference Introduction Limits consumption Free test queries API keys creation and management Parameters Filter syntax Changelog API Site Explorer Keywords Explorer Site Audit Rank Tracker SERP Overview Batch Analysis Subscription Information Management Brand Radar Content Helper Web Analytics GSC Insights Social Media Public Reference Introduction Limits consumption Free test queries API keys creation and management Parameters Filter syntax Changelog API Site Explorer Keywords Explorer Site Audit Rank Tracker SERP Overview Batch Analysis Subscription Information Management Brand Radar Content Helper Web Analytics GSC Insights Social Media Public Reference / Introduction Introduction With Ahrefs API, you can use data from your Ahrefs workspace to create custom integrations and automations. Currently, API v3 allows you to pull data from the Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management and Content Helper endpoints, as well as manage your Rank Tracker projects and Keywords Explorer lists: Site Explorer : Overview stats and historical charts, Backlinks, Organic and paid traffic reports Keywords Explorer : Metrics for a single keyword or a list of keywords, Search volume history and volume by country, Keyword ideas reports Site Audit : Projects' Health Scores, full issue reports and content of crawled pages SERP Overview : Top 100 SERP results Rank Tracker : Project overview, Competitor reports and Rank Tracker SERPs Batch Analysis : Metrics for up to 100 targets per request Brand Radar : Brand overview stats, historical performance charts, and real prompts with citations across multiple AI agents Social Media Management : Channels, posts, activity history and metrics for connected social media accounts Content Helper : The core topics covered by the pages ranking for a keyword, with per-page coverage scores Management : Endpoints to manage your Rank Tracker projects and Keywords Explorer lists Subscription information : Your API limits and usage Public endpoints : Our crawler's IP addresses and ranges Eligibility Ahrefs API is available on eligible paid plans . On all other plans, you'll still have access to a limited set of free test queries . Plan limits All requests besides free test queries and the Rank Tracker , Management , Public and some other endpoints consume API units . The cost depends on the number of rows in a response and the fields requested. The minimum cost for any request is 50 units . If an endpoint is free, you'll see a note about that on its documentation page; otherwise, it consumes units. Related guide: Limits consumption info Please be advised that API units once consumed are non-refundable. We strongly encourage the use of our complimentary test queries for all development and testing purposes to mitigate any unintended usage of API units. We also recommend putting limits on your API keys, especially when you are in the testing and development stage. Eligible paid plans include a monthly API unit allowance. On plans that support pay-as-you-go usage, additional units are automatically charged once the included limit is exceeded. See also: Pricing page and Account settings / Limits & usage . API keys To send requests to Ahrefs API, you'll need an API key. Only workspace owners and admins can create and manage API keys. This can be done in Account settings / API keys . Related guide: API keys creation and management Basic usage Get a quick start with these API buttons in Ahrefs reports . Click on them to display the request as a cURL command. These buttons can be used as a query builder since the cURL command will be updated dynamically with any filters you apply to the report. Note that cURL contains all the fields and metrics shown in the current report. You can remove the fields you don't need to reduce the cost of a request. For full usage details, view our API reference in these docs. The reference contains an OpenAPI-compatible specification of each endpoint's request and response format. Rate limiting Ahrefs API is limited to 60 requests per minute by default. If this limit is exceeded, the API will respond with an HTTP 429 status code ( Too Many Requests ). Additionally, to maintain optimal performance and system stability, API requests may occasionally be rejected with the same HTTP 429 status code due to throttling. Throttling occurs dynamically based on real-time system load, resource availability, and the computational demands of your requests. Links Full OpenAPI spec Privacy policy Terms of use Next → Limits consumption On this page Eligibility Plan limits API keys Basic usage Rate limiting Links",
+      "content_sha256": "ddc6b6a393c2abc3987b6a991d6db412bd68ef6b2932debdf0f1ae64eee5e3b8",
+      "error": null,
+      "status": 200
+    },
+    {
+      "requested_url": "https://docs.ahrefs.com/docs/api/reference/authentication",
+      "final_url": "https://docs.ahrefs.com/docs/api/reference/authentication",
+      "retrieved_at": "2026-09-16T17:21:24.956610+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 404
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1932,
+    "output_tokens": 2393
+  },
+  "failure": null
+}

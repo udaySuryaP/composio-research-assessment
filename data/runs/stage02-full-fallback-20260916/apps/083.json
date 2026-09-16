@@ -1,0 +1,287 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 83,
+    "app_name": "Binance",
+    "category": "9. Finance and Fintech",
+    "website": "http://binance-docs.github.io/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "negative_without_explicit_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:24:42.633016+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 83,
+    "app_name": "Binance",
+    "category": "9. Finance and Fintech",
+    "website": "http://binance-docs.github.io/",
+    "description": "Binance provides a comprehensive REST API for accessing public market data, trading endpoints, and account information. The API supports multiple base endpoints for performance and stability, returns JSON responses by default, and includes detailed rate limiting and error handling. It supports HMAC, RSA, and Ed25519 key types for authentication and requires signed requests for private endpoints.",
+    "auth_methods": [
+      "api_key",
+      "other"
+    ],
+    "access_model": "self_serve_free",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "Binance API offers extensive REST endpoints covering public market data, trading operations, and user account management, including order placement, cancellation, and querying, with detailed rate limits and security requirements.",
+    "mcp_available": "no",
+    "mcp_notes": "",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation provides detailed REST API endpoints, authentication methods including API keys with HMAC, RSA, and Ed25519 signatures, and clear instructions on request security and rate limits, enabling building integrations with Binance's API.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "Binance provides a comprehensive REST API for accessing public market data, trading endpoints, and account information. The API supports multiple base endpoints for performance and stability, returns JSON responses by default, and includes detailed rate limiting and error handling. It supports HMAC, RSA, and Ed25519 key types for authentication and requires signed requests for private endpoints.",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "# Public Rest API for Binance ... The following base endpoints are available. Please use whichever works best for your setup: ... Responses are in JSON by default. ... We support HMAC, RSA, and Ed25519 keys. ... Each endpoint has a security type indicating required API key permissions ... Except for NONE, all endpoints with a security type are considered SIGNED requests (i.e. including a signature).",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "* We support HMAC, RSA, and Ed25519 keys. For more information, please see [API Key types](faqs/api_key_types.md). ... API keys can be created on the API Management page of your Binance account. ... Secure endpoints require a valid API key to be specified and authenticated.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_free",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "API keys can be created on the API Management page of your Binance account. ... By default, an API key cannot TRADE. You need to enable trading in API Management first.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "# Public Rest API for Binance ... The following base endpoints are available. ... Each endpoint has a security type indicating required API key permissions ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "# Public Rest API for Binance ... The following base endpoints are available. ... Responses are in JSON by default. ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "Binance API offers extensive REST endpoints covering public market data, trading operations, and user account management, including order placement, cancellation, and querying, with detailed rate limits and security requirements.",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "# Public Rest API for Binance ... - Public API Endpoints ... - Trading endpoints ... - Account Endpoints ... - LIMITS ... - Request Security ...",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "no",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "No mention of any marketplace or community marketplace platform is found in the documentation.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+        "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+        "quote": "# Public Rest API for Binance ... We support HMAC, RSA, and Ed25519 keys. ... API keys can be created on the API Management page of your Binance account. ... Each endpoint has a security type indicating required API key permissions ...",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:27.419788+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "description"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "auth_methods"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "access_model"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_types"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "description"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "auth_methods"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "access_model"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_types"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "negative_without_explicit_evidence",
+      "field": "mcp_available"
+    }
+  ],
+  "deterministic_repairs": [
+    "access_model",
+    "api_available",
+    "api_breadth",
+    "api_types",
+    "auth_methods",
+    "buildability",
+    "buildability_rationale",
+    "description",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api",
+      "final_url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+      "retrieved_at": "2026-09-16T17:24:25.663855+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "Insufficient readable content; possible JS shell",
+      "status": 202
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+      "final_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+      "retrieved_at": "2026-09-16T17:24:26.649462+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "<!-- START doctoc generated TOC please keep comment here to allow auto update --> <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE --> - [Public Rest API for Binance](#public-rest-api-for-binance) - [General API Information](#general-api-information) - [HTTP Return Codes](#http-return-codes) - [Error Codes](#error-codes) - [General Information on Endpoints](#general-information-on-endpoints) - [LIMITS](#limits) - [General Info on Limits](#general-info-on-limits) - [IP Limits](#ip-limits) - [Unfilled Order Count](#unfilled-order-count) - [Data Sources](#data-sources) - [Request Security](#request-security) - [SIGNED Endpoint security](#signed-endpoint-security) - [Signature Case Sensitivity](#signature-case-sensitivity) - [Timing security](#timing-security) - [SIGNED Endpoint Examples for POST /api/v3/order](#signed-endpoint-examples-for-post-apiv3order) - [HMAC Keys](#hmac-keys) - [RSA Keys](#rsa-keys) - [Ed25519 Keys](#ed25519-keys) - [Public API Endpoints](#public-api-endpoints) - [General endpoints](#general-endpoints) - [Test connectivity](#test-connectivity) - [Check server time](#check-server-time) - [Exchange information](#exchange-information) - [Query Execution Rules](#query-execution-rules) - [Market Data endpoints](#market-data-endpoints) - [Order book](#order-book) - [Recent trades list](#recent-trades-list) - [Old trade lookup](#old-trade-lookup) - [Historical Block Trades](#historical-block-trades) - [Compressed/Aggregate trades list](#compressedaggregate-trades-list) - [Kline/Candlestick data](#klinecandlestick-data) - [UIKlines](#uiklines) - [Current average price](#current-average-price) - [24hr ticker price change statistics](#24hr-ticker-price-change-statistics) - [Trading Day Ticker](#trading-day-ticker) - [Symbol price ticker](#symbol-price-ticker) - [Symbol order book ticker](#symbol-order-book-ticker) - [Rolling window price change statistics](#rolling-window-price-change-statistics) - [Query Reference Price](#query-reference-price) - [Query Reference Price Calculation](#query-reference-price-calculation) - [Trading endpoints](#trading-endpoints) - [New order (TRADE)](#new-order-trade) - [Test new order (TRADE)](#test-new-order-trade) - [Cancel order (TRADE)](#cancel-order-trade) - [Cancel All Open Orders on a Symbol (TRADE)](#cancel-all-open-orders-on-a-symbol-trade) - [Cancel an Existing Order and Send a New Order (TRADE)](#cancel-an-existing-order-and-send-a-new-order-trade) - [Order Amend Keep Priority (TRADE)](#order-amend-keep-priority-trade) - [Order lists](#order-lists) - [New OCO - Deprecated (TRADE)](#new-oco---deprecated-trade) - [New Order list - OCO (TRADE)](#new-order-list---oco-trade) - [New Order list - OTO (TRADE)](#new-order-list---oto-trade) - [New Order list - OTOCO (TRADE)](#new-order-list---otoco-trade) - [New Order List - OPO (TRADE)](#new-order-list---opo-trade) - [New Order List - OPOCO (TRADE)](#new-order-list---opoco-trade) - [Cancel Order list (TRADE)](#cancel-order-list-trade) - [SOR](#sor) - [New order using SOR (TRADE)](#new-order-using-sor-trade) - [Test new order using SOR (TRADE)](#test-new-order-using-sor-trade) - [Account Endpoints](#account-endpoints) - [Account information (USER_DATA)](#account-information-user_data) - [Query order (USER_DATA)](#query-order-user_data) - [Current open orders (USER_DATA)](#current-open-orders-user_data) - [All orders (USER_DATA)](#all-orders-user_data) - [Query Order list (USER_DATA)](#query-order-list-user_data) - [Query all Order lists (USER_DATA)](#query-all-order-lists-user_data) - [Query Open Order lists (USER_DATA)](#query-open-order-lists-user_data) - [Account trade list (USER_DATA)](#account-trade-list-user_data) - [Query Unfilled Order Count (USER_DATA)](#query-unfilled-order-count-user_data) - [Query Prevented Matches (USER_DATA)](#query-prevented-matches-user_data) - [Query Allocations (USER_DATA)](#query-allocations-user_data) - [Query Commission Rates (USER_DATA)](#query-commission-rates-user_data) - [Query Order Amendments (USER_DATA)](#query-order-amendments-user_data) - [Query relevant filters (USER_DATA)](#query-relevant-filters-user_data) <!-- END doctoc generated TOC please keep comment here to allow auto update --> # Public Rest API for Binance ## General API Information * The following base endpoints are available. Please use whichever works best for your setup: * **https://api.binance.com** * **https://api-gcp.binance.com** * **https://api1.binance.com** * **https://api2.binance.com** * **https://api3.binance.com** * **https://api4.binance.com** * The last 4 endpoints in the point above (`api1`-`api4`) should give better performance but have less stability. * Responses are in JSON by default. To receive responses in SBE, refer to the [SBE FAQ](./faqs/sbe_faq.md) page. * Data is returned in **chronological order**, unless noted otherwise. * Without `startTime` or `endTime`, returns the most recent items up to the limit. * With `startTime`, returns oldest items from `startTime` up to the limit. * With `endTime`, returns most recent items up to `endTime` and the limit. * With both, behaves like `startTime` but does not exceed `endTime`. * All time and timestamp related fields in the JSON responses are in **milliseconds by default.** To receive the information in microseconds, please add the header `X-MBX-TIME-UNIT:MICROSECOND` or `X-MBX-TIME-UNIT:microsecond`. * We support HMAC, RSA, and Ed25519 keys. For more information, please see [API Key types](faqs/api_key_types.md). * Timestamp parameters (e.g. `startTime`, `endTime`, `timestamp`) can be passed in milliseconds or microseconds. * For APIs that only send public market data, please use the base endpoint **https://data-api.binance.vision**. Please refer to [Market Data Only](./faqs/market_data_only.md) page. * If there are enums or terms you want clarification on, please see the [SPOT Glossary](faqs/spot_glossary.md) for more information. * APIs have a timeout of 10 seconds when processing a request. If a response from the Matching Engine takes longer than this, the API responds with \"Timeout waiting for response from backend server. Send status unknown; execution status unknown.\" [(-1007 TIMEOUT)](errors.md#-1007-timeout) * This does not always mean that the request failed in the Matching Engine. * If the status of the request has not appeared in [User Data Stream](user-data-stream.md), please perform an API query for its status. * **Please avoid SQL keywords in requests** as they may trigger a security block by a WAF (Web Application Firewall) rule. See https://www.binance.com/en/support/faq/detail/360004492232 for more details. * If your request contains a symbol name containing non-ASCII characters, then the response may contain non-ASCII characters encoded in UTF-8. * Some endpoints may return asset and/or symbol names containing non-ASCII characters encoded in UTF-8 even if the request did not contain non-ASCII characters. ## HTTP Return Codes * HTTP `4XX` return codes are used for malformed requests; the issue is on the sender's side. * HTTP `403` return code is used when a WAF (Web Application Firewall) rule has been violated. This can indicate a rate limit violation or a security block. See https://www.binance.com/en/support/faq/detail/360004492232 for more details. * HTTP `409` return code is used when a cancelReplace order partially succeeds. (i.e. if the cancellation of the order fails but the new order placement succeeds.) * HTTP `429` return code is used when breaking a request rate limit. * HTTP `418` return code is used when an IP has been auto-banned for continuing to send requests after receiving `429` codes. * HTTP `5XX` return codes are used for internal errors; the issue is on Binance's side. It is important to **NOT** treat this as a failure operation; the execution status is **UNKNOWN** and could have been a success. ## Error Codes * Any endpoint can return an ERROR Sample Payload below: ```javascript { \"code\": -1121, \"msg\": \"Invalid symbol.\" } ``` * Specific error codes and messages are defined in [Errors Codes](./errors.md). ## General Information on Endpoints * For `GET` endpoints, parameters must be sent as a `query string`. * For `POST`, `PUT`, and `DELETE` endpoints, the parameters may be sent as a `query string` or in the `request body` with content type `application/x-www-form-urlencoded`. You may mix parameters between both the `query string` and `request body` if you wish to do so. * Parameters may be sent in any order. * If a parameter sent in both the `query string` and `request body`, the `query string` parameter will be used. ## LIMITS ### General Info on Limits * The following `intervalLetter` values for headers: * SECOND => S * MINUTE => M * HOUR => H * DAY => D * `intervalNum` describes the amount of the interval. For example, `intervalNum` 5 with `intervalLetter` M means \"Every 5 minutes\". * The `/api/v3/exchangeInfo` `rateLimits` array contains objects related to the exchange's `RAW_REQUESTS`, `REQUEST_WEIGHT`, and `ORDERS` rate limits. These are further defined in the `ENUM definitions` section under `Rate limiters (rateLimitType)`. * Requests fail with HTTP status code 429 when you exceed the request rate limit. ### IP Limits * Every request will contain `X-MBX-USED-WEIGHT-(intervalNum)(intervalLetter)` in the response headers which has the current used weight for the IP for all request rate limiters defined. * Each route has a `weight` which determines for the number of requests each endpoint counts for. Heavier endpoints and endpoints that do operations on multiple symbols will have a heavier `weight`. * When a 429 is received, it's your obligation as an API to back off and not spam the API. * **Repeatedly violating rate limits and/or failing to back off after receiving 429s will result in an automated IP ban (HTTP status 418).** * IP bans are tracked and **scale in duration** for repeat offenders, **from 2 minutes to 3 days**. * A `Retry-After` header is sent with a 418 or 429 responses and will give the **number of seconds** required to wait, in the case of a 429, to prevent a ban, or, in the case of a 418, until the ban is over. * **The limits on the API are based on the IPs, not the API keys.** ### Unfilled Order Count * Every successful order response will contain a `X-MBX-ORDER-COUNT-(intervalNum)(intervalLetter)` header indicating how many orders you have placed for that interval. <br></br> To monitor this, refer to [`GET api/v3/rateLimit/order`](#query-unfilled-order-count). * Rejected/unsuccessful orders are not guaranteed to have `X-MBX-ORDER-COUNT-**` headers in the response. * If you have exceeded this, you will receive a 429 error with the `Retry-After` header. * **Please note that if your orders are consistently filled by trades, you can continuously place orders on the API**. For more information, please see [Spot Unfilled Order Count Rules](./faqs/order_count_decrement.md). * **The number of unfilled orders is tracked for each account.** ## Data Sources * The API system is asynchronous, so some delay in the response is normal and expected. * Each endpoint has a data source indicating where the data is being retrieved, and thus which endpoints have the most up-to-date response. These are the three sources, ordered by least to most potential for delays in data updates. * **Matching Engine** - the data is from the Matching Engine * **Memory** - the data is from a server's local or external memory * **Database** - the data is taken directly from a database Some endpoints can have more than 1 data source. (e.g. Memory => Database) This means that the endpoint will check the first Data Source, and if it cannot find the value it's looking for it will check the next one. ## Request Security * Each endpoint has a security type indicating required API key permissions, shown next to the endpoint name (e.g., [New order (TRADE)](#new-order-trade). * If unspecified, the security type is `NONE`. * Except for `NONE`, all endpoints with a security type are considered `SIGNED` requests (i.e. including a `signature`). * Secure endpoints require a valid API key to be specified and authenticated. * API keys can be created on the [API Management](https://www.binance.com/en/support/faq/360002502072) page of your Binance account. * **Both API key and secret key are sensitive.** Never share them with anyone. If you notice unusual activity in your account, immediately revoke all the keys and contact Binance support. * API keys can be configured to allow access only to certain types of secure endpoints. * For example, you can have an API key with `TRADE` permission for trading, while using a separate API key with `USER_DATA` permission to monitor your order status. * By default, an API key cannot `TRADE`. You need to enable trading in API Management first. Security type | Description ------------- | ------------ `NONE` | Public market data `TRADE` | Trading on the exchange, placing and canceling orders `USER_DATA` | Private account information, such as order status and your trading history `USER_STREAM` | Managing User Data Stream subscriptions ### SIGNED Endpoint security * `SIGNED` endpoints require an additional parameter, `signature`, to be sent in the `query string` or `request body`. #### Signature Case Sensitivity * **HMAC:** Signatures generated using HMAC are **not case-sensitive**. This means the signature string can be verified regardless of letter casing. * **RSA:** Signatures generated using RSA are **case-sensitive**. * **Ed25519:** Signatures generated using Ed25519 are also **case-sensitive** Please consult [SIGNED request example (HMAC)](#hmac-keys), [SIGNED request example (RSA)](#rsa-keys), and [SIGNED request example (Ed25519)](#ed25519-keys) on how to compute signature, depending on which API key type you are using. <a id=\"timingsecurity\"></a> ### Timing security * `SIGNED` requests also require a `timestamp` parameter which should be the current timestamp either in milliseconds or microseconds. (See",
+      "content_sha256": "d71181f17957deed4ede51ba92d9788ba1b915d7b323be12e8c1317c2d0ddfbc",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 4461,
+    "output_tokens": 1848
+  },
+  "failure": null
+}

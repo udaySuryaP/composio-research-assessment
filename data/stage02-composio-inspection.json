@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-09-16T17:20:14.745182+00:00",
+  "sdk_package": "composio",
+  "sdk_version": "0.21.1",
+  "client_package_version": "1.43.0",
+  "live_catalog_status": "BLOCKED",
+  "observed_error_type": "AuthenticationError",
+  "observed_http_status": 401,
+  "sdk_catalog_attempts": 4,
+  "search_tool_invocations": 0,
+  "catalog_method": "Composio.toolkits.get(slug=\"composio_search\")",
+  "planned_tools_method": "Composio.tools.get_raw_composio_tools(toolkits=[\"composio_search\"],limit=100)",
+  "selected_toolkit": null,
+  "selected_action": null,
+  "live_input_schema": null,
+  "live_toolkit_version": null,
+  "public_catalog": {
+    "url": "https://docs.composio.dev/toolkits/composio_search",
+    "version": "20260903_00",
+    "tool_count": 22,
+    "candidate_slugs": [
+      "COMPOSIO_SEARCH_DUCK_DUCK_GO",
+      "COMPOSIO_SEARCH_TAVILY",
+      "COMPOSIO_SEARCH_WEB"
+    ]
+  },
+  "public_auth_documentation": {
+    "url": "https://docs.composio.dev/kb/guide/toolkits-tavily",
+    "summary": "composio_search is documented as requiring no separate Exa/Tavily authentication; project API key remains required. Account capability and action schema were not observed."
+  },
+  "fallback": "Explicit assigned seed-document URLs followed by actual retrieval and OpenAI strict extraction",
+  "no_success_claim": "No Composio discovery call succeeded or was attempted after catalog authentication failed."
+}

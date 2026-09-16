@@ -1,0 +1,294 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 10,
+    "app_name": "DealCloud",
+    "category": "1. CRM and Sales",
+    "website": "http://api.docs.dealcloud.com/",
+    "description": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "API Keys Authorization Token",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Welcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Most examples use HTTP requests, making them accessible regardless of your programming language.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Most examples use HTTP requests, making them accessible regardless of your programming language. You do not need to be an expert in HTTP to follow along, but you may pick up some basics through the examples. To try out the examples, you can use tools like Swagger, Postman, VSCode, or any other tool that supports HTTP requests.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found",
+      "raw_identity_mismatch"
+    ],
+    "researched_at": "2026-09-16T17:16:31.877844+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 10,
+    "app_name": "DealCloud",
+    "category": "1. CRM and Sales",
+    "website": "https://api.docs.dealcloud.com/docs",
+    "description": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The APIs are organized into functional areas including Authentication, User Management, Schema, Data, Backups, Publications, and Relationship Intelligence, each with multiple endpoints for specific tasks.",
+    "mcp_available": "official",
+    "mcp_notes": "DealCloud MCP Server client preview starting July 2026.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The API is well documented with REST endpoints, authentication via API keys, and organized functional areas. There is official MCP support with a client preview available. The documentation includes examples and tools like Swagger and Postman for testing, enabling straightforward integration.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "api_key",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "API Keys Authorization Token",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "self_serve_paid",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "yes",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Welcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "rest",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Most examples use HTTP requests, making them accessible regardless of your programming language.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The APIs are organized into functional areas including Authentication, User Management, Schema, Data, Backups, Publications, and Relationship Intelligence, each with multiple endpoints for specific tasks.",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Overview of Functional APIs Our APIs are organized into functional areas. Each area includes multiple endpoints designed to help you perform specific tasks related to that category. Authentication \u00131 Provides tokens for use with all other APIs. User Management \u00131 Endpoints for managing users. Schema \u00131 Endpoints to help you understand your site's structure. Data \u00131 Endpoints for manipulating site data. Backups \u00131 Endpoints for generating backup exports. Publications \u00131 Endpoints for working with real-time event APIs. Relationship Intelligence \u00131 Import data points for Relationship Intelligence.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "official",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "New: DealCloud MCP Server \u0014 client preview starting July 2026",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "buildable",
+        "url": "https://api.docs.dealcloud.com/docs",
+        "final_url": "https://api.docs.dealcloud.com/docs",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+        "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+        "quote": "Most examples use HTTP requests, making them accessible regardless of your programming language. You do not need to be an expert in HTTP to follow along, but you may pick up some basics through the examples. To try out the examples, you can use tools like Swagger, Postman, VSCode, or any other tool that supports HTTP requests.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:16:19.682162+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    },
+    {
+      "code": "raw_identity_mismatch",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [
+    "api_breadth",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://api.docs.dealcloud.com/docs",
+      "final_url": "https://api.docs.dealcloud.com/docs",
+      "retrieved_at": "2026-09-16T17:16:17.922988+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "Docs - DealCloud API Docs 🚀 New: DealCloud MCP Server — client preview starting July 2026 Feedback Feedback (opens in a new tab) API Reference Getting Started API Keys Authorization Token Pagination Rate Limits Status Codes and Handling Core Schema EntryTypes All Entry Types Entry Type by ID Fields All Fields Fields by EntryType Field by ID Multiple Field IDs Choice Field Values Site Metadata Currencies Field Types Field Units Filter Operations Mappings Mappings Types System Entry Types System Field Types Time Zones Users Data Cells Get Data List Entries List Entries using Filters Create, Update or Upsert Rows Query Get Update Create List Views Get Data using View History History or All History Historical Data Files Delete Merge Template Reports Get Template Generate Get Report User Management Create User Get User Get Users by ID Update User Delete User Get All User Groups Get User Group by ID Create Users Proxy Get User Proxy Invite Users User Activity Other Publications Getting Started Topics Poll Acknowledge Event Types Data Schema User Bootstrap Site Backups Request Backup Retrieve Backups Delete Encryption Relationship Intelligence POST Emails POST Meetings GET Status GET Settings Schema Contracts MCP Getting Started Authentication Available Tools SDKs Python Installation Authentication Usage Schema Data License C# Installation Authentication Logging Usage Schema Data License Guides How to Create a User How to Download Files How to Upload Files How to Backlink DMS Documents Real-Time Events from DealCloud Audit Trail for Read Events Making Requests on Behalf of Users Feedback (opens in a new tab) API Reference Getting Started API Keys Authorization Token Pagination Rate Limits Status Codes and Handling Core Schema EntryTypes All Entry Types Entry Type by ID Fields All Fields Fields by EntryType Field by ID Multiple Field IDs Choice Field Values Site Metadata Currencies Field Types Field Units Filter Operations Mappings Mappings Types System Entry Types System Field Types Time Zones Users Data Cells Get Data List Entries List Entries using Filters Create, Update or Upsert Rows Query Get Update Create List Views Get Data using View History History or All History Historical Data Files Delete Merge Template Reports Get Template Generate Get Report User Management Create User Get User Get Users by ID Update User Delete User Get All User Groups Get User Group by ID Create Users Proxy Get User Proxy Invite Users User Activity Other Publications Getting Started Topics Poll Acknowledge Event Types Data Schema User Bootstrap Site Backups Request Backup Retrieve Backups Delete Encryption Relationship Intelligence POST Emails POST Meetings GET Status GET Settings Schema Contracts MCP Getting Started Authentication Available Tools SDKs Python Installation Authentication Usage Schema Data License C# Installation Authentication Logging Usage Schema Data License Guides How to Create a User How to Download Files How to Upload Files How to Backlink DMS Documents Real-Time Events from DealCloud Audit Trail for Read Events Making Requests on Behalf of Users Light On This Page How to Run Examples Swagger Postman VSCode Configuration Overview of Functional APIs Question? Give us feedback → (opens in a new tab) Edit this page API Reference Docs Welcome to the DealCloud API Docs! This site provides a comprehensive overview of our REST APIs, their capabilities, and available endpoints. Whether you're building custom integrations, automating workflows, or exploring advanced use cases, you'll find detailed guidance, examples, and best practices throughout. To dive into sample implementations, visit the Guides section. How to Run Examples Most examples use HTTP requests, making them accessible regardless of your programming language. You do not need to be an expert in HTTP to follow along, but you may pick up some basics through the examples. To try out the examples, you can use tools like Swagger, Postman, VSCode, or any other tool that supports HTTP requests. Swagger Each DealCloud site provides an interactive Swagger page for testing API calls. Replace {{host}} with your site’s domain (e.g. example.dealcloud.com ). https://{{host}}/swagger Postman Postman can consume the Swagger/OpenAPI spec file exposed at https://{host}/swagger/current VSCode Configuration VSCode requires the REST Client plugin (opens in a new tab) Overview of Functional APIs Our APIs are organized into functional areas. Each area includes multiple endpoints designed to help you perform specific tasks related to that category. Authentication – Provides tokens for use with all other APIs. User Management – Endpoints for managing users. Schema – Endpoints to help you understand your site's structure. Data – Endpoints for manipulating site data. Backups – Endpoints for generating backup exports. Publications – Endpoints for working with real-time event APIs. Relationship Intelligence – Import data points for Relationship Intelligence. API Keys Light © 2026 Integration Appliance, Inc.",
+      "content_sha256": "cdf2cad20d443315d60060f70ac0569ce981a834eb36d4c5f173d9f6f6ca12db",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 1959,
+    "output_tokens": 1650
+  },
+  "failure": null
+}

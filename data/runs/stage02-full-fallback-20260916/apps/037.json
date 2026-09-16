@@ -1,0 +1,286 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 37,
+    "app_name": "systeme.io",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://systeme.io/",
+    "description": "systeme.io provides an API with recipes and code samples to help developers integrate and automate marketing and email functionalities. The API supports operations such as creating contacts, tags, and associating tags with contacts, using HTTP requests with JSON payloads.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "unknown",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "buildable",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "systeme.io provides an API with recipes and code samples to help developers integrate and automate marketing and email functionalities. The API supports operations such as creating contacts, tags, and associating tags with contacts, using HTTP requests with JSON payloads.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "The script used in the example just creates a contact and a tag and then adds the created tag to the created contact.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication is done using an API key passed in the 'X-API-Key' header.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "'X-API-Key' => 'your_secret_api_key'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "The API usage requires an API key and is self-serve with paid plans.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "const API_KEY = 'your_secret_api_key';",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is RESTful, accessed via HTTP requests with JSON payloads.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "$client = \\Symfony\\Component\\HttpClient\\HttpClient::create([ 'base_uri' => 'https://api.systeme.io/api/', 'headers' => [ 'X-API-Key' => 'your_secret_api_key', 'Content-Type' => 'application/json', ] ]);",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "The official documentation provides detailed API usage recipes, including authentication with API key, example HTTP requests, and instructions for setting up the environment and running code samples. This enables developers to build integrations using the REST API.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "Now you know what recipes are, why they are needed, and how to perform and test them yourself.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "missing_field_evidence",
+      "quote_not_found"
+    ],
+    "researched_at": "2026-09-16T17:19:25.883164+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 37,
+    "app_name": "systeme.io",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website": "http://systeme.io/",
+    "description": "systeme.io provides an API with recipes and code samples to help developers integrate and automate marketing and email functionalities. The API supports operations such as creating contacts, tags, and associating tags with contacts, using HTTP requests with JSON payloads.",
+    "auth_methods": [
+      "api_key"
+    ],
+    "access_model": "self_serve_paid",
+    "api_available": "yes",
+    "api_types": [
+      "rest"
+    ],
+    "api_breadth": "The API allows managing contacts, tags, and their associations, with endpoints for creating contacts, creating tags, and adding tags to contacts, as demonstrated in the PHP recipe example.",
+    "mcp_available": "official",
+    "mcp_notes": "The official documentation includes API recipes and usage guides, with examples in PHP using the symfony/http-client. The documentation is gradually updated and provides detailed instructions for developers.",
+    "buildability": "buildable",
+    "primary_blocker": "",
+    "buildability_rationale": "The official documentation provides detailed API usage recipes, including authentication with API key, example HTTP requests, and instructions for setting up the environment and running code samples. This enables developers to build integrations using the REST API.",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "field": "description",
+        "claim": "systeme.io provides an API with recipes and code samples to help developers integrate and automate marketing and email functionalities. The API supports operations such as creating contacts, tags, and associating tags with contacts, using HTTP requests with JSON payloads.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "The script used in the example just creates a contact and a tag and then adds the created tag to the created contact.",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e2",
+        "field": "auth_methods",
+        "claim": "Authentication is done using an API key passed in the 'X-API-Key' header.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "'X-API-Key' => 'your_secret_api_key'",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e3",
+        "field": "access_model",
+        "claim": "The API usage requires an API key and is self-serve with paid plans.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "const API_KEY = 'your_secret_api_key';",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e4",
+        "field": "api_available",
+        "claim": "The API is available and documented with example recipes and usage guides.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "API recipes and how to use them... Learn how to use our API through recipes",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e5",
+        "field": "api_types",
+        "claim": "The API is RESTful, accessed via HTTP requests with JSON payloads.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "$client = \\Symfony\\Component\\HttpClient\\HttpClient::create([ 'base_uri' => 'https://api.systeme.io/api/', 'headers' => [ 'X-API-Key' => 'your_secret_api_key', 'Content-Type' => 'application/json', ] ]);",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e6",
+        "field": "api_breadth",
+        "claim": "The API allows managing contacts, tags, and their associations, with endpoints for creating contacts, creating tags, and adding tags to contacts, as demonstrated in the PHP recipe example.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "$contactCreatedResponse = $client->request('POST', 'contacts', ...); ... $tagCreatedResponse = $client->request('POST', 'tags', ...); ... $client->request('POST', \"contacts/{$contactId}/tags\", ...);",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e7",
+        "field": "mcp_available",
+        "claim": "The official documentation includes API recipes and usage guides, with examples in PHP using the symfony/http-client.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "API recipes and how to use them... Learn how to use our API through recipes",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "e8",
+        "field": "buildability",
+        "claim": "The official documentation provides detailed API usage recipes, including authentication with API key, example HTTP requests, and instructions for setting up the environment and running code samples. This enables developers to build integrations using the REST API.",
+        "url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+        "source_kind": "official",
+        "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+        "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+        "quote": "Now you know what recipes are, why they are needed, and how to perform and test them yourself.",
+        "supports_claim": "yes"
+      }
+    ],
+    "research_confidence": "high",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:19:12.394595+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "quote_not_found",
+      "field": "api_available"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "api_breadth"
+    },
+    {
+      "code": "quote_not_found",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "api_breadth"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_available"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "mcp_notes"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "primary_blocker"
+    },
+    {
+      "code": "missing_field_evidence",
+      "field": "buildability_rationale"
+    }
+  ],
+  "deterministic_repairs": [
+    "api_available",
+    "api_breadth",
+    "buildability_rationale",
+    "mcp_available",
+    "mcp_notes",
+    "primary_blocker"
+  ],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://developer.systeme.io/docs/",
+      "final_url": "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+      "retrieved_at": "2026-09-16T17:19:10.564807+00:00",
+      "ok": true,
+      "source_kind": "official",
+      "text": "API recipes and how to use them For AI agents: visit https://developer.systeme.io/llms.txt for an index of all pages formatted in Markdown and endpoints in OpenAPI. Append .md to any documentation page URL to get its markdown version. Jump to Content Guides Recipes API Reference API Reference Guides API Reference Guides Recipes API Reference API recipes and how to use them API Basics API recipes and how to use them Webhooks Webhooks Events CONTACT_OPT_IN CONTACT_CREATED CONTACT_TAG_ADDED CONTACT_TAG_REMOVED SALE_NEW SALE_CANCELED MCP Server MCP Server Powered by API recipes and how to use them Learn how to use our API through recipes 📘 Please note This page, as well as all of our documentation, will be gradually updated to include more information. We strive to provide you with the best experience with our system. About the recipes and the stack used Recipes are a simple way to walk developers through a code sample step by step to help them get started with API. Here is an example recipe to help you learn and use our API successfully. Currently, we will write recipes in PHP. Below are some explanations of the components used in the recipes. Composer Composer is a dependency manager for PHP applications. This powerful tool makes working with code easier. For example, Composer can be used to install an HTTP client package, which will simplify interaction with our API. Here is an example of connecting the Composer autoloader in a recipe: PHP <?php require_once '/path/to/autoload.php'; Next, Composer will help you load the classes needed in your scripts. HTTP client symfony/http-client component is a low-level HTTP client that provides utilities to consume APIs. Here's how we use this client in our recipes: PHP <?php require_once '/path/to/autoload.php'; // Just instantiate a known client (thanks to Composer autoloading) // by static factory method, with required options $client = \\Symfony\\Component\\HttpClient\\HttpClient::create([ 'base_uri' => 'https://api.systeme.io/api/', 'headers' => [ 'X-API-Key' => 'your_secret_api_key', 'Content-Type' => 'application/json', ] ]); How to try a recipe The approach will be approximately the same, regardless of the programming language used: Prepare the environment and dependencies (i.e. using packages/libraries); Modify the recipe according to your needs and configure your API credentials; Run the prepared recipe and check the result; Debug (optional) . Below is a short manual on working with PHP recipes. Requirements All you need to run the recipe are basic CLI skills, installed PHP, and installed Composer, and any text or code editor. 1. Prepare dependencies Create a new directory with two new files with the following content: composer.json recipe.php { \"type\": \"project\", \"require\": { \"php\": \"^8.3\", \"symfony/http-client\": \"*\" } } <?php require_once '/path/to/autoload.php'; const API_KEY = 'your_secret_api_key'; $client = \\Symfony\\Component\\HttpClient\\HttpClient::create([ 'base_uri' => 'https://api.systeme.io/api/', // Base API URI 'headers' => [ 'X-API-Key' => API_KEY, // Your API key 'Content-Type' => 'application/json', // Default content type ] ]); $contactCreatedResponse = $client->request('POST', 'contacts', [ 'body' => json_encode([ 'email' => ' [email protected] ', 'locale' => 'en', 'fields' => [ [ 'slug' => 'country', 'value' => 'FR', ], [ 'slug' => 'phone_number', 'value' => '123456', ], ], ]), ]); $decodedResponse = json_decode($contactCreatedResponse->getContent(), true); $contactId = $decodedResponse['id']; $tagCreatedResponse = $client->request('POST', 'tags', [ 'body' => json_encode([ 'name' => 'my_tag' . uniqid() ]), ]); $decodedResponse = json_decode($tagCreatedResponse->getContent(), true); $tagId = $decodedResponse['id']; $client->request('POST', \"contacts/{$contactId}/tags\", [ 'body' => json_encode([ 'tagId' => $tagId ]), ]); If your PHP version differs from those set in the sample composer.json , you can change it. Typically, you can check the installed version of PHP by running php -v in the command line. Two files were created: composer.json - with Composer settings and dependencies for a project; recipe.php - recipe file, which we will modify and run. After this, you should install the required composer dependencies ( symfony/http-client ) by running the following console command in your working directory: composer install . This command will create two new elements in your working directory: A service composer.lock file (which \"locks\" a dependency's version); A vendor directory - with required autoload.php and source code of used dependencies. 2. Modify the recipe and configure credentials Modify some recipe lines: recipe.php <?php require_once './vendor/autoload.php'; // Set path to generated autoload.php file const API_KEY = 'your_secret_api_key'; // Substitute you API key here // ... $contactCreatedResponse = $client->request('POST', 'contacts', [ 'body' => json_encode([ 'email' => ' [email protected] ', // Set a desired contact's email here ... ]), ]); // ... $tagCreatedResponse = $client->request('POST', 'tags', [ 'body' => json_encode([ 'name' => 'my_tag' // Set a desired tag name here ]), ]); // ... That's all the preparation needed to run the recipe. 3. Run the recipe and check the result To run the prepared recipe script, run the following console command in the working directory: php recipe.php . The script used in the example just creates a contact and a tag and then adds the created tag to the created contact. Now, you can check the result in the API: find and check this contact and tag. 4. Debug the recipe You can use a specialized PHP debugger (e.g. xDebug ) to debug the recipe script, or just dump the variables at each step (e.g. with a var_dump , var_export , and echo functions). Summary Now you know what recipes are, why they are needed, and how to perform and test them yourself. If you are unable to run the recipe, please: Make sure that you have prepared properly: Environment - installed PHP, Composer, and dependencies; Script - copied the right code and set a correct path to autoloader.php and valid credentials; Make sure that you are sending valid data to the server: using correct identifiers, email addresses, etc. If you receive errors from our API, please check them. Usually, they contain useful information; Check out the SystemeIO help . If you are sure that the error is on our side, please contact our support team . Please provide the details of the error that occurred, including the time and context: which recipe you tried to execute (or which request), what data you sent, and what error you received. We try to analyze every scenario and help every user. Updated 10 months ago Webhooks Did this page help you? Yes No Copy Page About the recipes and the stack used Composer HTTP client How to try a recipe Requirements 1. Prepare dependencies 2. Modify the recipe and configure credentials 3. Run the recipe and check the result 4. Debug the recipe Summary",
+      "content_sha256": "9c0094b99afda69035b785677ca80def78190ae6cb8df487bfa1eb6a1ab9b978",
+      "error": null,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 2602,
+    "output_tokens": 1778
+  },
+  "failure": null
+}

@@ -1,0 +1,104 @@
+{
+  "record": {
+    "schema_version": "1.0",
+    "id": 90,
+    "app_name": "PitchBook",
+    "category": "9. Finance and Fintech",
+    "website": "http://pitchbook.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "low",
+    "verification_status": "needs_verification",
+    "verification_notes": [
+      "low_confidence",
+      "no_usable_official_source"
+    ],
+    "researched_at": "2026-09-16T17:24:58.461497+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "raw_extraction": {
+    "schema_version": "1.0",
+    "id": 90,
+    "app_name": "PitchBook",
+    "category": "9. Finance and Fintech",
+    "website": "http://pitchbook.com/",
+    "description": "unknown",
+    "auth_methods": [
+      "unknown"
+    ],
+    "access_model": "unknown",
+    "api_available": "unknown",
+    "api_types": [
+      "unknown"
+    ],
+    "api_breadth": "unknown",
+    "mcp_available": "unknown",
+    "mcp_notes": "unknown",
+    "buildability": "unknown",
+    "primary_blocker": "unknown",
+    "buildability_rationale": "unknown",
+    "evidence": [],
+    "research_confidence": "unknown",
+    "verification_status": "first_pass",
+    "verification_notes": [],
+    "researched_at": "2026-09-16T17:24:56.241310+00:00",
+    "run_id": "stage02-full-fallback-20260916"
+  },
+  "quality_flags": [
+    {
+      "code": "no_usable_official_source",
+      "field": null
+    },
+    {
+      "code": "low_confidence",
+      "field": null
+    }
+  ],
+  "deterministic_repairs": [],
+  "discovery": [],
+  "retrievals": [
+    {
+      "requested_url": "https://pitchbook.com/products/direct-data",
+      "final_url": "https://pitchbook.com/products/direct-data",
+      "retrieved_at": "2026-09-16T17:24:56.087288+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "requested_url": "https://pitchbook.com/help/PitchBook-api",
+      "final_url": "https://pitchbook.com/help/PitchBook-api",
+      "retrieved_at": "2026-09-16T17:24:56.180203+00:00",
+      "ok": false,
+      "source_kind": "official",
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "HTTPError",
+      "status": 403
+    }
+  ],
+  "metrics": {
+    "model_requests": 1,
+    "failed_model_requests": 0,
+    "input_tokens": 901,
+    "output_tokens": 156
+  },
+  "failure": null
+}

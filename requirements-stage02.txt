@@ -1,0 +1,2 @@
+composio==0.21.1
+jsonschema==4.26.0
