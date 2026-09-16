@@ -5520,7 +5520,7 @@
     "mcp_available": "unknown",
     "mcp_notes": "unknown",
     "buildability": "unknown",
-    "primary_blocker": "unknown",
+    "primary_blocker": "workspace_content_sharing_and_permission_requirements",
     "buildability_rationale": "unknown",
     "evidence": [
       {
@@ -5546,13 +5546,38 @@
         "content_sha256": "e4ef5706f3290d2f64221c9b61ba0ea1d2e9ef6384e31e41ee4015ca7363708a",
         "quote": "API Reference CLI Reference Workers Admin API Changelog Examples Get started Overview Quickstart Personal access tokens Internal connections Public connections Authorization API token security Preparing for users List on the Marketplace Agent APIs Notion Agent APIs Agent Skills API Notion MCP API versions Upgrading to 2026-03-11 Upgrading to 2025-09-03 Data APIs Working with page content Working with databases Working with views Working with comments Working with markdown content Working with files and media",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-071-primary_blocker-1",
+        "field": "primary_blocker",
+        "claim": "workspace_content_sharing_and_permission_requirements",
+        "url": "https://developers.notion.com/guides/get-started/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-071-primary_blocker-2",
+        "field": "primary_blocker",
+        "claim": "workspace_content_sharing_and_permission_requirements",
+        "url": "https://developers.notion.com/guides/mcp/overview",
+        "final_url": "https://developers.notion.com/guides/mcp/overview",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: Notion integration access is conditioned by workspace permissions and explicit content authorization. Internal connections must be created by a workspace owner, and pages must be manually shared with the connection before API calls can access them; otherwise requests fail. Public connections use OAuth and users select the pages/databases they want to share, but the page picker only exposes resources for which the user has full access. MCP access is likewise user-authorized through OAuth and can be controlled by workspace or organization administrators. The practical blocker is therefore permission and content-sharing scope, not a universal pricing or sales gate."
     ],
     "researched_at": "2026-09-16T17:23:34.670512+00:00",
     "run_id": "stage02-full-fallback-20260916"

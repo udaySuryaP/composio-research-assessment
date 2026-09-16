@@ -308,3 +308,18 @@ First pass 6/31 (19.35%), final 31/31 (100%), +80.65 percentage points on the sa
 unscored supporting rationale corrections. Whole records remain needs_verification;
 missing capture metadata and exact inspection times are not fabricated. Stage03 remains
 BLOCKED pending remaining actual human review and final verification/pattern analysis.
+
+## Actual human review update — Notion
+
+Uday corrected primary_blocker to workspace_content_sharing_and_permission_requirements
+and confirmed auth_methods=[oauth2, bearer_token]. Preserved internal workspace-owner
+creation/content sharing, public OAuth page-picker access, and administrative MCP controls.
+Token-exchange HTTP Basic is not classified as normal API auth. No universal pricing/sales
+gate was asserted. Only blocker changed; no canonical Notion state was accessed or modified.
+
+Cumulative partial review: 36 items across eighteen apps, 33 scored and three unclear.
+First pass 7/33 (21.21%), final 33/33 (100%), +78.79 percentage points on the same claims.
+4/40 items remain pending. Thirty-one field corrections across sixteen apps, including
+five unscored companion rationale corrections. Whole records remain needs_verification;
+missing source-capture metadata and exact inspection timestamps are not fabricated.
+Stage03 remains BLOCKED pending remaining actual manual review and final verification.

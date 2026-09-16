@@ -1296,5 +1296,44 @@
     "review_item_id": "080:buildability",
     "evidence_note": "Actual Uday inspection with paraphrased source observations. Source quote capture, exact retrieval time and content hash not supplied and not fabricated.",
     "supporting_field_note": "Explicit human buildability notes transcribed as companion rationale; not an additional scored claim."
+  },
+  {
+    "app_id": 71,
+    "app_name": "Notion",
+    "field": "primary_blocker",
+    "original_value": "unknown",
+    "corrected_value": "workspace_content_sharing_and_permission_requirements",
+    "reason": "Notion integration access is conditioned by workspace permissions and explicit content authorization. Internal connections must be created by a workspace owner, and pages must be manually shared with the connection before API calls can access them; otherwise requests fail. Public connections use OAuth and users select the pages/databases they want to share, but the page picker only exposes resources for which the user has full access. MCP access is likewise user-authorized through OAuth and can be controlled by workspace or organization administrators. The practical blocker is therefore permission and content-sharing scope, not a universal pricing or sales gate.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-071-primary_blocker-1",
+        "field": "primary_blocker",
+        "claim": "workspace_content_sharing_and_permission_requirements",
+        "url": "https://developers.notion.com/guides/get-started/authorization",
+        "final_url": "https://developers.notion.com/guides/get-started/authorization",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-071-primary_blocker-2",
+        "field": "primary_blocker",
+        "claim": "workspace_content_sharing_and_permission_requirements",
+        "url": "https://developers.notion.com/guides/mcp/overview",
+        "final_url": "https://developers.notion.com/guides/mcp/overview",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T21:04:36+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "071:primary_blocker",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations. Verbatim source capture, exact retrieval timestamp and text hash not supplied and not fabricated."
   }
 ]

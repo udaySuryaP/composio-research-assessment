@@ -1202,16 +1202,22 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developers.notion.com/guides/get-started/authorization",
+    "observed_correct_value": "workspace_content_sharing_and_permission_requirements",
+    "first_pass_correct": "no",
+    "final_value": "workspace_content_sharing_and_permission_requirements",
+    "final_correct": "yes",
+    "correction_reason": "Notion integration access is conditioned by workspace permissions and explicit content authorization. Internal connections must be created by a workspace owner, and pages must be manually shared with the connection before API calls can access them; otherwise requests fail. Public connections use OAuth and users select the pages/databases they want to share, but the page picker only exposes resources for which the user has full access. MCP access is likewise user-authorized through OAuth and can be controlled by workspace or organization administrators. The practical blocker is therefore permission and content-sharing scope, not a universal pricing or sales gate.",
+    "notes": "Notion integration access is conditioned by workspace permissions and explicit content authorization. Internal connections must be created by a workspace owner, and pages must be manually shared with the connection before API calls can access them; otherwise requests fail. Public connections use OAuth and users select the pages/databases they want to share, but the page picker only exposes resources for which the user has full access. MCP access is likewise user-authorized through OAuth and can be controlled by workspace or organization administrators. The practical blocker is therefore permission and content-sharing scope, not a universal pricing or sales gate.",
+    "review_reported_at": "2026-09-16T21:04:36+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.notion.com/guides/get-started/authorization",
+      "https://developers.notion.com/guides/mcp/overview"
+    ]
   },
   {
     "item_id": "071:auth_methods",
@@ -1234,16 +1240,28 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.notion.com/guides/get-started/authorization",
+    "observed_correct_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "final_correct": "yes",
     "correction_reason": null,
-    "notes": null
+    "notes": "Notion documents static API tokens for internal connections and personal access tokens, both transmitted as Bearer tokens in the Authorization header. Public connections use OAuth 2.0 Authorization Code flow to obtain access and refresh tokens, and the resulting access token authenticates subsequent REST API requests. Notion MCP is a remote Notion-hosted server that is authorized through OAuth. HTTP Basic Authentication appears only during the OAuth code-to-token exchange using the client ID and client secret, so it is not classified as the normal API authentication method.",
+    "review_reported_at": "2026-09-16T21:04:36+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.notion.com/guides/get-started/authorization",
+      "https://developers.notion.com/guides/mcp/overview"
+    ]
   },
   {
     "item_id": "089:access_model",
