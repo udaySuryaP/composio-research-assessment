@@ -6,7 +6,7 @@ PASS means the specified workflow or qualified representation exists, not that a
 
 | Requirement | Status | Evidence / boundary |
 |---|---|---|
-| 100 supplied apps represented | PASS | 100 accepted identities; original rows 1–90 reconciled; user confirmed final ten. |
+| 100 supplied apps represented | PASS | 100 accepted identities; original rows 1â€“90 reconciled; user confirmed final ten. |
 | 10 categories | PASS | Ten categories, ten apps each. |
 | Purpose captured | PARTIAL | Purpose schema and first-pass extraction exist; full matrix emphasizes critical verified fields; purpose is not independently verified for all apps. |
 | Auth where verified | PASS | Checked labels preserved; unresolved fields abstain. |
@@ -66,6 +66,6 @@ PASS means the specified workflow or qualified representation exists, not that a
 | Requirement | Status | Evidence / boundary |
 |---|---|---|
 | HTML under 10 MB | PASS | 81,369 bytes. |
-| Public live URL | BLOCKED | Pending Stage 05 deployment and hosted QA; update after verification. |
+| Public live URL | PASS | HTTPS 200; accepted upload SHA-256 equals hosted response; anonymous Chromium desktop/mobile QA passed. |
 | GitHub repository | PASS | Public canonical repository; Stage 05 branch pushed. |
 | Runnable README | PASS | Offline checks, dependencies, artifact and history distinctions. |
