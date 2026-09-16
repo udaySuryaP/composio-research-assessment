@@ -551,5 +551,32 @@
     "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
     "review_item_id": "022:primary_blocker",
     "evidence_note": "Actual Uday source inspection with paraphrased observations; verbatim quote, captured text hash and exact retrieval time not supplied and not fabricated."
+  },
+  {
+    "app_id": 29,
+    "app_name": "Aircall",
+    "field": "access_model",
+    "original_value": "unknown",
+    "corrected_value": "admin_approval",
+    "reason": "Aircall API access is permission-gated at the company level. Integrations can only be enabled or installed by an Aircall Admin. Existing Aircall customers can create Basic Auth credentials for their own company from Company Settings > API Keys. For public or multi-company integrations, Aircall requires OAuth, and developers must obtain client_id and client_secret from Aircall after submitting the partner/OAuth setup form. Marketplace listing also requires OAuth. The inspected source does not establish a universal paid-plan gate for ordinary API access, so admin_approval is the best overall access-model classification, with additional partner approval/provisioning for public integrations.",
+    "evidence": [
+      {
+        "evidence_id": "stage03-human-029-access_model",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      }
+    ],
+    "method": "human_review",
+    "timestamp": "2026-09-16T20:09:46+00:00",
+    "timestamp_basis": "Actual human report receipt/correction recording; exact inspection time not supplied",
+    "review_item_id": "029:access_model",
+    "evidence_note": "Actual Uday source inspection with paraphrased observations; verbatim quote, captured text hash and exact retrieval time not supplied and not fabricated."
   }
 ]

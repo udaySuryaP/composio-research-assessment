@@ -142,3 +142,19 @@ First pass 2/13 (15.38%), final 13/13 (100%), +84.62 percentage points on the sa
 unscored supporting rationale corrections. Human source-capture and exact inspection times
 remain unasserted when not supplied. Whole records remain needs_verification. Stage03 is
 BLOCKED pending remaining human review, final verified dataset and supported final patterns.
+
+## Actual human review update — Aircall
+
+Uday confirmed auth_methods=[oauth2, basic] and corrected access_model from unknown to
+admin_approval. Retained company-level admin installation requirements, self-company
+Basic credentials (api_id/api_token), and partner/OAuth provisioning requirements for
+public/multi-company integrations and marketplace listing. Bearer is OAuth transport;
+no additional auth enum was inferred. No universal paid-plan gate was asserted.
+Only access_model changed; the confirmed authentication finding is not a correction.
+
+Cumulative partial review: 16 reviewed claims across eight apps, 15 scored and one
+unclear/unscored. First pass 3/15 (20%), final 15/15 (100%), +80 percentage points on
+the same paired claims. 24/40 items remain pending. Fourteen field corrections across
+seven apps, including two unscored supporting rationale corrections. Whole records
+remain needs_verification. Exact inspection times and missing capture metadata are not
+invented. Stage03 remains BLOCKED on remaining manual review and final verification.

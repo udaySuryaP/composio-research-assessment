@@ -2299,7 +2299,7 @@
       "oauth2",
       "basic"
     ],
-    "access_model": "unknown",
+    "access_model": "admin_approval",
     "api_available": "yes",
     "api_types": [
       "rest"
@@ -2358,13 +2358,26 @@
         "content_sha256": "18a38631688ec194d9362f64376dff4582ccd5a31ee09de44af4418786f6bd06",
         "quote": "Aircall Public API is a classic REST API.",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-029-access_model",
+        "field": "access_model",
+        "claim": "admin_approval",
+        "url": "https://developers.aircall.io/api-references",
+        "final_url": "https://developers.aircall.io/api-references",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
     "verification_status": "needs_verification",
     "verification_notes": [
       "missing_field_evidence",
-      "quote_not_found"
+      "quote_not_found",
+      "Stage03 correction: Aircall API access is permission-gated at the company level. Integrations can only be enabled or installed by an Aircall Admin. Existing Aircall customers can create Basic Auth credentials for their own company from Company Settings > API Keys. For public or multi-company integrations, Aircall requires OAuth, and developers must obtain client_id and client_secret from Aircall after submitting the partner/OAuth setup form. Marketplace listing also requires OAuth. The inspected source does not establish a universal paid-plan gate for ordinary API access, so admin_approval is the best overall access-model classification, with additional partner approval/provisioning for public integrations."
     ],
     "researched_at": "2026-09-16T17:18:25.405208+00:00",
     "run_id": "stage02-full-fallback-20260916"

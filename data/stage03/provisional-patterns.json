@@ -13,8 +13,8 @@
       "digest": 1
     },
     "access_model": {
-      "unknown": 51,
-      "admin_approval": 3,
+      "unknown": 50,
+      "admin_approval": 4,
       "self_serve_paid": 35,
       "self_serve_free": 10,
       "self_serve_trial": 1

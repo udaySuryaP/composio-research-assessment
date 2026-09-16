@@ -487,16 +487,27 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.aircall.io/api-references",
+    "observed_correct_value": [
+      "oauth2",
+      "basic"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "oauth2",
+      "basic"
+    ],
+    "final_correct": "yes",
     "correction_reason": null,
-    "notes": null
+    "notes": "Aircall's official Public API documentation explicitly supports two authentication methods: OAuth 2.0 and HTTP Basic Authentication. OAuth is intended for apps built for multiple Aircall companies and marketplace integrations. Basic Authentication is intended for Aircall customers building for their own account, using api_id as the username and api_token as the password. OAuth access tokens are used as Bearer tokens.",
+    "review_reported_at": "2026-09-16T20:09:46+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.aircall.io/api-references"
+    ]
   },
   {
     "item_id": "029:access_model",
@@ -512,16 +523,21 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://developers.aircall.io/api-references",
+    "observed_correct_value": "admin_approval",
+    "first_pass_correct": "no",
+    "final_value": "admin_approval",
+    "final_correct": "yes",
+    "correction_reason": "Aircall API access is permission-gated at the company level. Integrations can only be enabled or installed by an Aircall Admin. Existing Aircall customers can create Basic Auth credentials for their own company from Company Settings > API Keys. For public or multi-company integrations, Aircall requires OAuth, and developers must obtain client_id and client_secret from Aircall after submitting the partner/OAuth setup form. Marketplace listing also requires OAuth. The inspected source does not establish a universal paid-plan gate for ordinary API access, so admin_approval is the best overall access-model classification, with additional partner approval/provisioning for public integrations.",
+    "notes": "Aircall API access is permission-gated at the company level. Integrations can only be enabled or installed by an Aircall Admin. Existing Aircall customers can create Basic Auth credentials for their own company from Company Settings > API Keys. For public or multi-company integrations, Aircall requires OAuth, and developers must obtain client_id and client_secret from Aircall after submitting the partner/OAuth setup form. Marketplace listing also requires OAuth. The inspected source does not establish a universal paid-plan gate for ordinary API access, so admin_approval is the best overall access-model classification, with additional partner approval/provisioning for public integrations.",
+    "review_reported_at": "2026-09-16T20:09:46+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.aircall.io/api-references"
+    ]
   },
   {
     "item_id": "032:api_available",
