@@ -1,0 +1,290 @@
+[
+  {
+    "app_id": 2,
+    "app": "HubSpot",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2"
+    ],
+    "first_value": "unknown",
+    "final_value": [
+      "OAuth2"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    ],
+    "notes": "OAuth is required for multi-account installs; installer needs Super Admin or Marketplace Access permissions. Plan-dependent scopes still need checking.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 12,
+    "app": "Intercom",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_value": [
+      "API key"
+    ],
+    "final_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+    ],
+    "notes": "Checked the explicit authentication protocol in retrieved official documentation.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 43,
+    "app": "BigCommerce",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_value": [
+      "Basic",
+      "token"
+    ],
+    "final_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://developer.bigcommerce.com/docs/start/authentication"
+    ],
+    "notes": "Basic credentials in the Tax Provider API section belong to the external tax service; core store access uses its own token/OAuth model.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 60,
+    "app": "Clay",
+    "field": "auth",
+    "expected_value": "unknown",
+    "first_value": [
+      "API key",
+      "token"
+    ],
+    "final_value": "unknown",
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://university.clay.com/docs/http-api-integration-overview"
+    ],
+    "notes": "This source describes Clay calling external APIs. It does not establish Clay own API credentials, inbound surface or onboarding.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 62,
+    "app": "Vercel",
+    "field": "auth",
+    "expected_value": "unknown",
+    "first_value": [
+      "API key"
+    ],
+    "final_value": "unknown",
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://vercel.com/docs/rest-api",
+      "https://vercel.com/docs/rest-api/reference/welcome",
+      "https://vercel.com/docs/rest-api/reference/welcome#authentication"
+    ],
+    "notes": "REST index contains API-key management endpoints; that alone does not prove API-key authentication. Retrieve auth-specific documentation.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 68,
+    "app": "MongoDB Atlas",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2",
+      "other"
+    ],
+    "first_value": [
+      "API key",
+      "OAuth2"
+    ],
+    "final_value": [
+      "OAuth2",
+      "other"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "notes": "Service-account OAuth is recommended; legacy API keys use HTTP Digest, not HTTP Basic.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 72,
+    "app": "Airtable",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_value": [
+      "API key"
+    ],
+    "final_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+      "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api"
+    ],
+    "notes": "Legacy API keys are deprecated. PAT/OAuth routes and free-plan rate limits should be verified in current docs.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 80,
+    "app": "Harvest",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_value": [
+      "Basic",
+      "OAuth2"
+    ],
+    "final_value": [
+      "OAuth2",
+      "token"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+    ],
+    "notes": "Personal access tokens replaced Basic auth from API v1; do not report Basic as a current v2 method.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 92,
+    "app": "Otter AI",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2"
+    ],
+    "first_value": [
+      "API key"
+    ],
+    "final_value": [
+      "OAuth2"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"
+    ],
+    "notes": "Official MCP uses OAuth. The help page says there is no public API key; do not label a generic API-key route as available.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 22,
+    "app": "Twilio",
+    "field": "auth",
+    "expected_value": [
+      "API key",
+      "Basic"
+    ],
+    "first_value": [
+      "API key",
+      "Basic"
+    ],
+    "final_value": [
+      "API key",
+      "Basic"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://www.twilio.com/docs/usage/requests-to-twilio"
+    ],
+    "notes": "Checked the explicit authentication protocol in retrieved official documentation.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 81,
+    "app": "Stripe",
+    "field": "auth",
+    "expected_value": [
+      "API key"
+    ],
+    "first_value": [
+      "API key",
+      "Basic"
+    ],
+    "final_value": [
+      "API key"
+    ],
+    "first_correct": false,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://docs.stripe.com/api/authentication",
+      "https://docs.stripe.com/mcp"
+    ],
+    "notes": "Test-mode keys provide sandbox capability; live-mode permissions and money-moving actions need separate checks.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  },
+  {
+    "app_id": 21,
+    "app": "Slack",
+    "field": "auth",
+    "expected_value": [
+      "OAuth2"
+    ],
+    "first_value": [
+      "OAuth2"
+    ],
+    "final_value": [
+      "OAuth2"
+    ],
+    "first_correct": true,
+    "final_correct": true,
+    "kind": "AI-evaluated challenge set",
+    "reviewer": "Codex AI session",
+    "source_urls": [
+      "https://docs.slack.dev/authentication/"
+    ],
+    "notes": "Checked the explicit authentication protocol in retrieved official documentation.",
+    "selection": "Nine ambiguity/error cases and three control cases, deliberately selected; not random or independent. This is not human or population accuracy."
+  }
+]

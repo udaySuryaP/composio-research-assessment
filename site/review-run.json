@@ -1,0 +1,7 @@
+{
+  "engine": "AI-session-assisted deterministic evidence rules",
+  "reviewed_at": "2026-09-16T16:36:02.899921+00:00",
+  "apps": 100,
+  "changes": 152,
+  "note": "No unattended LLM API was invoked. AI helped inspect retrieved excerpts, author exception rules and explain caveats. Rules are replayable; semantic accuracy needs human review."
+}

@@ -1,0 +1,950 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "website_hint": "[salesforce.com](http://salesforce.com/)",
+    "docs_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "1. CRM and Sales",
+    "website_hint": "[hubspot.com](http://hubspot.com/)",
+    "docs_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "1. CRM and Sales",
+    "website_hint": "[pipedrive.com](http://pipedrive.com/)",
+    "docs_urls": [
+      "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "category": "1. CRM and Sales",
+    "website_hint": "[attio.com](http://attio.com/)",
+    "docs_urls": [
+      "https://docs.attio.com/rest-api/overview",
+      "https://docs.attio.com/rest-api/how-to/authentication",
+      "https://docs.attio.com/rest-api/how-to/authentication-and-authorization"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "category": "1. CRM and Sales",
+    "website_hint": "[twenty.com](http://twenty.com/) (open-source CRM)",
+    "docs_urls": [
+      "https://docs.twenty.com/developers/extend/capabilities/apis"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "category": "1. CRM and Sales",
+    "website_hint": "[podio.com](http://podio.com/)",
+    "docs_urls": [
+      "https://developers.podio.com/authentication"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "1. CRM and Sales",
+    "website_hint": "[zoho.com/crm](http://zoho.com/crm)",
+    "docs_urls": [
+      "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "category": "1. CRM and Sales",
+    "website_hint": "[close.com](http://close.com/)",
+    "docs_urls": [
+      "https://developer.close.com/"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "category": "1. CRM and Sales",
+    "website_hint": "[copper.com](http://copper.com/)",
+    "docs_urls": [
+      "https://developer.copper.com/",
+      "https://developer.copper.com/authentication/",
+      "https://developer.copper.com/#authentication"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "1. CRM and Sales",
+    "website_hint": "[api.docs.dealcloud.com](http://api.docs.dealcloud.com/)",
+    "docs_urls": [
+      "https://api.docs.dealcloud.com/docs"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[zendesk.com](http://zendesk.com/)",
+    "docs_urls": [
+      "https://developer.zendesk.com/api-reference/introduction/security-and-auth/"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[intercom.com](http://intercom.com/)",
+    "docs_urls": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[freshdesk.com](http://freshdesk.com/)",
+    "docs_urls": [
+      "https://developers.freshdesk.com/api/"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[front.com](http://front.com/)",
+    "docs_urls": [
+      "https://dev.frontapp.com/docs/authentication.md"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[usepylon.com](http://usepylon.com/)",
+    "docs_urls": [
+      "https://docs.usepylon.com/pylon-docs/developer/api",
+      "https://docs.usepylon.com/pylon-docs/developer/authentication",
+      "https://docs.usepylon.com/pylon-docs/developer/api/authentication"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[liveagent.com](http://liveagent.com/)",
+    "docs_urls": [
+      "https://support.liveagent.com/061754-API"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[plain.com](http://plain.com/)",
+    "docs_urls": [
+      "https://www.plain.com/docs/api-reference/graphql/authentication",
+      "https://www.plain.com/docs/api-reference/graphql/overview"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[helpscout.com](http://helpscout.com/)",
+    "docs_urls": [
+      "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "https://developer.helpscout.com/mailbox-api/"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[gorgias.com](http://gorgias.com/)",
+    "docs_urls": [
+      "https://developers.gorgias.com/docs",
+      "https://developers.gorgias.com/docs/access-tokens"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "category": "2. Support and Helpdesk",
+    "website_hint": "[gladly.com](http://gladly.com/)",
+    "docs_urls": [
+      "https://developer.gladly.com/rest/"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[slack.com](http://slack.com/)",
+    "docs_urls": [
+      "https://docs.slack.dev/authentication/"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[twilio.com](http://twilio.com/)",
+    "docs_urls": [
+      "https://www.twilio.com/docs/usage/requests-to-twilio"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[zoho.com/cliq](http://zoho.com/cliq)",
+    "docs_urls": [
+      "https://www.zoho.com/cliq/help/restapi/v2/"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[open.larksuite.com](http://open.larksuite.com/)",
+    "docs_urls": [
+      "https://open.larksuite.com/document/server-docs/api-call-guide/calling-process/get-access-token"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[pumble.com](http://pumble.com/)",
+    "docs_urls": [
+      "https://pumble.com/help/workspace-administration/api/"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[discord.com](http://discord.com/)",
+    "docs_urls": [
+      "https://docs.discord.com/developers/topics/oauth2"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[core.telegram.org](http://core.telegram.org/)",
+    "docs_urls": [
+      "https://core.telegram.org/bots/api"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[developers.facebook.com/docs/whatsapp](http://developers.facebook.com/docs/whatsapp)",
+    "docs_urls": [
+      "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started/"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[aircall.io](http://aircall.io/)",
+    "docs_urls": [
+      "https://developer.aircall.io/api-references/"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "category": "3. Communications and Messaging",
+    "website_hint": "[developer.vonage.com](http://developer.vonage.com/)",
+    "docs_urls": [
+      "https://developer.vonage.com/en/getting-started/concepts/authentication"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[developers.google.com/google-ads](http://developers.google.com/google-ads)",
+    "docs_urls": [
+      "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+      "https://developers.google.com/google-ads/api/docs/get-started/dev-token",
+      "https://developers.google.com/google-ads/api/docs/oauth/overview"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[developers.facebook.com/docs/marketing-apis](http://developers.facebook.com/docs/marketing-apis)",
+    "docs_urls": [
+      "https://developers.facebook.com/docs/marketing-apis/"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[learn.microsoft.com/linkedin/marketing](http://learn.microsoft.com/linkedin/marketing)",
+    "docs_urls": [
+      "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access",
+      "https://learn.microsoft.com/en-us/linkedin/marketing/getting-started"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[highlevel.stoplight.io](http://highlevel.stoplight.io/)",
+    "docs_urls": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[mailchimp.com/developer](http://mailchimp.com/developer)",
+    "docs_urls": [
+      "https://mailchimp.com/developer/marketing/docs/fundamentals/"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[developers.klaviyo.com](http://developers.klaviyo.com/)",
+    "docs_urls": [
+      "https://developers.klaviyo.com/en/docs/authenticate_.md"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[systeme.io](http://systeme.io/) (funnel builder)",
+    "docs_urls": [
+      "https://developer.systeme.io/docs/"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[developers.pinterest.com](http://developers.pinterest.com/)",
+    "docs_urls": [
+      "https://developers.pinterest.com/docs/getting-started/authentication/"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[developers.facebook.com/docs/threads](http://developers.facebook.com/docs/threads)",
+    "docs_urls": [
+      "https://developers.facebook.com/docs/threads/get-started/"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "4. Marketing, Ads, Email and Social",
+    "website_hint": "[sendgrid.com](http://sendgrid.com/)",
+    "docs_urls": [
+      "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "category": "5. Ecommerce",
+    "website_hint": "shopify.dev",
+    "docs_urls": [
+      "https://shopify.dev/docs/api/admin-graphql",
+      "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "5. Ecommerce",
+    "website_hint": "[woocommerce.com/document/woocommerce-rest-api](http://woocommerce.com/document/woocommerce-rest-api)",
+    "docs_urls": [
+      "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "category": "5. Ecommerce",
+    "website_hint": "[developer.bigcommerce.com](http://developer.bigcommerce.com/)",
+    "docs_urls": [
+      "https://developer.bigcommerce.com/docs/start/authentication"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "category": "5. Ecommerce",
+    "website_hint": "[developer.salesforce.com/docs/commerce](http://developer.salesforce.com/docs/commerce)",
+    "docs_urls": [
+      "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "5. Ecommerce",
+    "website_hint": "[developer.adobe.com/commerce](http://developer.adobe.com/commerce)",
+    "docs_urls": [
+      "https://developer.adobe.com/commerce/webapi/get-started/authentication/"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "category": "5. Ecommerce",
+    "website_hint": "[developers.squarespace.com](http://developers.squarespace.com/)",
+    "docs_urls": [
+      "https://developers.squarespace.com/commerce-apis/authentication-and-permissions"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "category": "5. Ecommerce",
+    "website_hint": "[api-docs.ecwid.com](http://api-docs.ecwid.com/)",
+    "docs_urls": [
+      "https://docs.ecwid.com/",
+      "https://docs.ecwid.com/api-reference/rest-api/getting-started"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "category": "5. Ecommerce",
+    "website_hint": "[gumroad.com/api](http://gumroad.com/api)",
+    "docs_urls": [
+      "https://gumroad.com/api"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "category": "5. Ecommerce",
+    "website_hint": "[developer-docs.amazon.com/sp-api](http://developer-docs.amazon.com/sp-api)",
+    "docs_urls": [
+      "https://developer-docs.amazon.com/sp-api/docs/registering-your-application"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "5. Ecommerce",
+    "website_hint": "[fanbasis.com](http://fanbasis.com/)",
+    "docs_urls": [
+      "https://fanbasis.com/"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[docs.dataforseo.com](http://docs.dataforseo.com/)",
+    "docs_urls": [
+      "https://docs.dataforseo.com/v3/auth/"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[seranking.com/api](http://seranking.com/api)",
+    "docs_urls": [
+      "https://seranking.com/api.html"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[ahrefs.com/api](http://ahrefs.com/api)",
+    "docs_urls": [
+      "https://docs.ahrefs.com/docs/api/reference/introduction",
+      "https://docs.ahrefs.com/docs/api/reference/authentication"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[docs.mrscraper.com](http://docs.mrscraper.com/)",
+    "docs_urls": [
+      "https://docs.mrscraper.com/"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[docs.apify.com](http://docs.apify.com/)",
+    "docs_urls": [
+      "https://docs.apify.com/api/v2"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "firecrawl.dev",
+    "docs_urls": [
+      "https://docs.firecrawl.dev/introduction",
+      "https://docs.firecrawl.dev/mcp-server"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[brightdata.com](http://brightdata.com/)",
+    "docs_urls": [
+      "https://docs.brightdata.com/api-reference/authentication"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[github.com/sherlock-project/sherlock](http://github.com/sherlock-project/sherlock)",
+    "docs_urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[waterfall.io](http://waterfall.io/) (contact/company intel)",
+    "docs_urls": [
+      "https://waterfall.io/"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "category": "6. Data, SEO and Scraping",
+    "website_hint": "[clay.com](http://clay.com/)",
+    "docs_urls": [
+      "https://university.clay.com/docs/http-api-integration-overview"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[docs.github.com/rest](http://docs.github.com/rest)",
+    "docs_urls": [
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "https://docs.github.com/en/copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization/about-the-github-mcp-server",
+      "https://github.com/github/github-mcp-server"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[vercel.com/docs/rest-api](http://vercel.com/docs/rest-api)",
+    "docs_urls": [
+      "https://vercel.com/docs/rest-api",
+      "https://vercel.com/docs/rest-api/reference/welcome",
+      "https://vercel.com/docs/rest-api/reference/welcome#authentication"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[docs.netlify.com/api](http://docs.netlify.com/api)",
+    "docs_urls": [
+      "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[developers.cloudflare.com/api](http://developers.cloudflare.com/api)",
+    "docs_urls": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[supabase.com/docs](http://supabase.com/docs)",
+    "docs_urls": [
+      "https://supabase.com/docs/reference/api/introduction",
+      "https://supabase.com/docs/guides/getting-started/mcp"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[neo4j.com/docs/api](http://neo4j.com/docs/api)",
+    "docs_urls": [
+      "https://neo4j.com/docs/query-api/current/",
+      "https://neo4j.com/docs/query-api/current/auth/"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[docs.snowflake.com](http://docs.snowflake.com/)",
+    "docs_urls": [
+      "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[mongodb.com/docs/atlas/api](http://mongodb.com/docs/atlas/api)",
+    "docs_urls": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[docs.datadoghq.com/api](http://docs.datadoghq.com/api)",
+    "docs_urls": [
+      "https://docs.datadoghq.com/api/latest/authentication/"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "category": "7. Developer, Infra and Data platforms",
+    "website_hint": "[docs.sentry.io/api](http://docs.sentry.io/api)",
+    "docs_urls": [
+      "https://docs.sentry.io/api/auth/"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[developers.notion.com](http://developers.notion.com/)",
+    "docs_urls": [
+      "https://developers.notion.com/docs/authorization",
+      "https://developers.notion.com/docs/mcp"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[airtable.com/developers](http://airtable.com/developers)",
+    "docs_urls": [
+      "https://airtable.com/developers/web/api/introduction",
+      "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+      "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "developers.linear.app",
+    "docs_urls": [
+      "https://linear.app/developers/graphql",
+      "https://linear.app/docs/mcp"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[developer.atlassian.com](http://developer.atlassian.com/)",
+    "docs_urls": [
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[developers.asana.com](http://developers.asana.com/)",
+    "docs_urls": [
+      "https://developers.asana.com/docs/authentication"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[developer.monday.com](http://developer.monday.com/)",
+    "docs_urls": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[clickup.com/api](http://clickup.com/api)",
+    "docs_urls": [
+      "https://developer.clickup.com/docs/authentication"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[coda.io/developers](http://coda.io/developers)",
+    "docs_urls": [
+      "https://coda.io/developers/apis/v1"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[smartsheet.com/developers](http://smartsheet.com/developers)",
+    "docs_urls": [
+      "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "category": "8. Productivity and Project Management",
+    "website_hint": "[harvestapp.com](http://harvestapp.com/) ([help.getharvest.com/api-v2](http://help.getharvest.com/api-v2))",
+    "docs_urls": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[stripe.com/docs/api](http://stripe.com/docs/api)",
+    "docs_urls": [
+      "https://docs.stripe.com/api/authentication",
+      "https://docs.stripe.com/mcp"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[plaid.com/docs](http://plaid.com/docs)",
+    "docs_urls": [
+      "https://plaid.com/docs/api/",
+      "https://plaid.com/docs/quickstart/"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[binance-docs.github.io](http://binance-docs.github.io/)",
+    "docs_urls": [
+      "https://developers.binance.com/docs/binance-spot-api-docs/rest-api",
+      "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Paygent Connect",
+    "category": "9. Finance and Fintech",
+    "website_hint": "paygent (NMI-powered)",
+    "docs_urls": [
+      "https://paygent.io/"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[ipayx.ai/docs](http://ipayx.ai/docs)",
+    "docs_urls": [
+      "https://ipayx.ai/docs"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[developer.intuit.com](http://developer.intuit.com/)",
+    "docs_urls": [
+      "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "https://intuitdeveloper.github.io/getstarted/"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[developer.xero.com](http://developer.xero.com/)",
+    "docs_urls": [
+      "https://developer.xero.com/documentation/guides/oauth2/auth-flow",
+      "https://developer.xero.com/documentation/guides/oauth2/overview",
+      "https://developer.xero.com/faq/getting-started"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[developer.brex.com](http://developer.brex.com/)",
+    "docs_urls": [
+      "https://developer.brex.com/",
+      "https://developer.brex.com/docs/authentication/"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[docs.ramp.com](http://docs.ramp.com/)",
+    "docs_urls": [
+      "https://docs.ramp.com/developer-api/v1/overview",
+      "https://docs.ramp.com/developer-api/v1/authorization",
+      "https://docs.ramp.com/llms-full.txt"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "9. Finance and Fintech",
+    "website_hint": "[pitchbook.com](http://pitchbook.com/) (research API)",
+    "docs_urls": [
+      "https://pitchbook.com/products/direct-data",
+      "https://pitchbook.com/help/PitchBook-api"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "docs_urls": [
+      "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/set-up-notebooklm"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://help.otter.ai/hc/en-us/articles/40888232155031-Otter-MCP",
+    "docs_urls": [
+      "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://developers.fathom.ai/",
+    "docs_urls": [
+      "https://developers.fathom.ai/",
+      "https://developers.fathom.ai/quickstart"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://consensus.app/home/blog/consensus-api/",
+    "docs_urls": [
+      "https://consensus.app/",
+      "https://docs.consensus.app/docs/mcp"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://docs.reducto.ai/",
+    "docs_urls": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/api-reference/authentication"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://docs.devin.ai/api-reference/overview",
+    "docs_urls": [
+      "https://docs.devin.ai/api-reference/overview",
+      "https://docs.devin.ai/work-with-devin/devin-mcp"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://higgsfield.ai/cli",
+    "docs_urls": [
+      "https://higgsfield.ai/cli",
+      "https://docs.higgsfield.ai/"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://github.com/mermaid-js/mermaid-cli",
+    "docs_urls": [
+      "https://github.com/mermaid-js/mermaid-cli"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://transcriptapi.com/docs/",
+    "docs_urls": [
+      "https://transcriptapi.com/docs/",
+      "https://transcriptapi.com/docs/api/",
+      "https://transcriptapi.com/docs/mcp/",
+      "https://transcriptapi.com/docs/llms.txt"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "10. AI, Research and Media-native",
+    "website_hint": "https://grain.com/docs",
+    "docs_urls": [
+      "https://developers.grain.com/"
+    ]
+  }
+]

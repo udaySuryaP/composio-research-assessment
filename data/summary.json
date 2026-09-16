@@ -1,0 +1,177 @@
+{
+  "total": 100,
+  "expected": 100,
+  "missing_apps": 0,
+  "counts": {
+    "auth": {
+      "OAuth2": 43,
+      "token": 31,
+      "unknown": 16,
+      "API key": 30,
+      "Basic": 10,
+      "other": 5,
+      "other: local execution; no service auth": 2
+    },
+    "access": {
+      "trial": 9,
+      "admin": 5,
+      "unknown": 71,
+      "partner": 3,
+      "free": 8,
+      "paid": 4
+    },
+    "api": {
+      "REST; breadth needs endpoint inventory": 31,
+      "HTTP API; breadth needs endpoint inventory": 33,
+      "GraphQL; breadth needs endpoint inventory": 3,
+      "Documented API (protocol unverified); breadth needs endpoint inventory": 8,
+      "unknown": 21,
+      "REST + GraphQL; breadth needs endpoint inventory": 2,
+      "Local CLI; no hosted API asserted": 2
+    },
+    "mcp": {
+      "unknown": 85,
+      "official": 15
+    },
+    "buildability": {
+      "conditional": 76,
+      "unknown": 19,
+      "buildable": 5
+    }
+  },
+  "categories": {
+    "1. CRM and Sales": {
+      "total": 10,
+      "access": {
+        "trial": 1,
+        "admin": 2,
+        "unknown": 7
+      },
+      "buildability": {
+        "conditional": 10
+      }
+    },
+    "2. Support and Helpdesk": {
+      "total": 10,
+      "access": {
+        "unknown": 6,
+        "trial": 2,
+        "admin": 1,
+        "partner": 1
+      },
+      "buildability": {
+        "conditional": 9,
+        "unknown": 1
+      }
+    },
+    "3. Communications and Messaging": {
+      "total": 10,
+      "access": {
+        "unknown": 9,
+        "free": 1
+      },
+      "buildability": {
+        "unknown": 3,
+        "conditional": 6,
+        "buildable": 1
+      }
+    },
+    "4. Marketing, Ads, Email and Social": {
+      "total": 10,
+      "access": {
+        "unknown": 9,
+        "partner": 1
+      },
+      "buildability": {
+        "conditional": 7,
+        "unknown": 3
+      }
+    },
+    "5. Ecommerce": {
+      "total": 10,
+      "access": {
+        "unknown": 9,
+        "paid": 1
+      },
+      "buildability": {
+        "conditional": 4,
+        "unknown": 6
+      }
+    },
+    "6. Data, SEO and Scraping": {
+      "total": 10,
+      "access": {
+        "free": 3,
+        "trial": 1,
+        "paid": 1,
+        "unknown": 5
+      },
+      "buildability": {
+        "conditional": 7,
+        "buildable": 2,
+        "unknown": 1
+      }
+    },
+    "7. Developer, Infra and Data platforms": {
+      "total": 10,
+      "access": {
+        "unknown": 10
+      },
+      "buildability": {
+        "conditional": 9,
+        "unknown": 1
+      }
+    },
+    "8. Productivity and Project Management": {
+      "total": 10,
+      "access": {
+        "unknown": 8,
+        "free": 1,
+        "trial": 1
+      },
+      "buildability": {
+        "conditional": 9,
+        "buildable": 1
+      }
+    },
+    "9. Finance and Fintech": {
+      "total": 10,
+      "access": {
+        "trial": 4,
+        "free": 1,
+        "unknown": 3,
+        "admin": 1,
+        "partner": 1
+      },
+      "buildability": {
+        "conditional": 8,
+        "unknown": 2
+      }
+    },
+    "10. AI, Research and Media-native": {
+      "total": 10,
+      "access": {
+        "paid": 2,
+        "unknown": 5,
+        "free": 2,
+        "admin": 1
+      },
+      "buildability": {
+        "conditional": 7,
+        "unknown": 2,
+        "buildable": 1
+      }
+    }
+  },
+  "human_accuracy": {
+    "scored_fields": 0,
+    "first_correct": 0,
+    "final_correct": 0,
+    "reviewed_apps": 0,
+    "note": "Completed human sample fields only, deduplicated by app and field; not population accuracy."
+  },
+  "quote_grounded_fields": 203,
+  "unknown_fields": 212,
+  "readable_documents": 126,
+  "generated_at": "2026-09-16T16:36:02.906767+00:00"
+}

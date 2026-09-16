@@ -1,0 +1,1900 @@
+[
+  {
+    "app_id": 60,
+    "app": "Clay",
+    "field": "auth",
+    "before": [
+      "API key",
+      "token"
+    ],
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "This source describes Clay calling external APIs. It does not establish Clay own API credentials, inbound surface or onboarding.",
+    "source_url": "https://university.clay.com/docs/http-api-integration-overview",
+    "reviewed_at": "2026-09-16T16:36:02.724595+00:00"
+  },
+  {
+    "app_id": 80,
+    "app": "Harvest",
+    "field": "auth",
+    "before": [
+      "Basic",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Personal access tokens replaced Basic auth from API v1; do not report Basic as a current v2 method.",
+    "source_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.822033+00:00"
+  },
+  {
+    "app_id": 80,
+    "app": "Harvest",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Personal access tokens replaced Basic auth from API v1; do not report Basic as a current v2 method.",
+    "source_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.822037+00:00"
+  },
+  {
+    "app_id": 68,
+    "app": "MongoDB Atlas",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "other"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Service-account OAuth is recommended; legacy API keys use HTTP Digest, not HTTP Basic.",
+    "source_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.766826+00:00"
+  },
+  {
+    "app_id": 68,
+    "app": "MongoDB Atlas",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Service-account OAuth is recommended; legacy API keys use HTTP Digest, not HTTP Basic.",
+    "source_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.766831+00:00"
+  },
+  {
+    "app_id": 43,
+    "app": "BigCommerce",
+    "field": "auth",
+    "before": [
+      "Basic",
+      "token"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Basic credentials in the Tax Provider API section belong to the external tax service; core store access uses its own token/OAuth model.",
+    "source_url": "https://developer.bigcommerce.com/docs/start/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.698783+00:00"
+  },
+  {
+    "app_id": 43,
+    "app": "BigCommerce",
+    "field": "api",
+    "before": "GraphQL",
+    "after": "REST + GraphQL; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Basic credentials in the Tax Provider API section belong to the external tax service; core store access uses its own token/OAuth model.",
+    "source_url": "https://developer.bigcommerce.com/docs/start/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.698789+00:00"
+  },
+  {
+    "app_id": 12,
+    "app": "Intercom",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.519674+00:00"
+  },
+  {
+    "app_id": 12,
+    "app": "Intercom",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.519678+00:00"
+  },
+  {
+    "app_id": 53,
+    "app": "Ahrefs",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Eligible paid plans have API access; other plans only have limited free test queries, not a generally free API.",
+    "source_url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+    "reviewed_at": "2026-09-16T16:36:02.709721+00:00"
+  },
+  {
+    "app_id": 92,
+    "app": "Otter AI",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Official MCP uses OAuth. The help page says there is no public API key; do not label a generic API-key route as available.",
+    "source_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+    "reviewed_at": "2026-09-16T16:36:02.865629+00:00"
+  },
+  {
+    "app_id": 97,
+    "app": "higgsfield",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "other"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "MCP account sign-in and server-side API key ID/secret are separate paths. Generation consumes platform credits.",
+    "source_url": "https://higgsfield.ai/cli",
+    "reviewed_at": "2026-09-16T16:36:02.874952+00:00"
+  },
+  {
+    "app_id": 97,
+    "app": "higgsfield",
+    "field": "access",
+    "before": "unknown",
+    "after": "paid",
+    "kind": "AI-assisted rule review",
+    "reason": "MCP account sign-in and server-side API key ID/secret are separate paths. Generation consumes platform credits.",
+    "source_url": "https://higgsfield.ai/cli",
+    "reviewed_at": "2026-09-16T16:36:02.874956+00:00"
+  },
+  {
+    "app_id": 97,
+    "app": "higgsfield",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "MCP account sign-in and server-side API key ID/secret are separate paths. Generation consumes platform credits.",
+    "source_url": "https://docs.higgsfield.ai/",
+    "reviewed_at": "2026-09-16T16:36:02.874959+00:00"
+  },
+  {
+    "app_id": 91,
+    "app": "NotebookLM",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "The retrieved API is Gemini Notebook Enterprise (formerly NotebookLM Enterprise), not the consumer NotebookLM UI. IAM, licensing and preview status matter.",
+    "source_url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "reviewed_at": "2026-09-16T16:36:02.861965+00:00"
+  },
+  {
+    "app_id": 91,
+    "app": "NotebookLM",
+    "field": "access",
+    "before": "unknown",
+    "after": "paid",
+    "kind": "AI-assisted rule review",
+    "reason": "The retrieved API is Gemini Notebook Enterprise (formerly NotebookLM Enterprise), not the consumer NotebookLM UI. IAM, licensing and preview status matter.",
+    "source_url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "reviewed_at": "2026-09-16T16:36:02.861969+00:00"
+  },
+  {
+    "app_id": 91,
+    "app": "NotebookLM",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "The retrieved API is Gemini Notebook Enterprise (formerly NotebookLM Enterprise), not the consumer NotebookLM UI. IAM, licensing and preview status matter.",
+    "source_url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "reviewed_at": "2026-09-16T16:36:02.861972+00:00"
+  },
+  {
+    "app_id": 1,
+    "app": "Salesforce",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+    "reviewed_at": "2026-09-16T16:36:02.500467+00:00"
+  },
+  {
+    "app_id": 1,
+    "app": "Salesforce",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-dev-org.html",
+    "reviewed_at": "2026-09-16T16:36:02.500475+00:00"
+  },
+  {
+    "app_id": 1,
+    "app": "Salesforce",
+    "field": "api",
+    "before": "unknown",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart-oauth.html",
+    "reviewed_at": "2026-09-16T16:36:02.500481+00:00"
+  },
+  {
+    "app_id": 2,
+    "app": "HubSpot",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth is required for multi-account installs; installer needs Super Admin or Marketplace Access permissions. Plan-dependent scopes still need checking.",
+    "source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+    "reviewed_at": "2026-09-16T16:36:02.504718+00:00"
+  },
+  {
+    "app_id": 2,
+    "app": "HubSpot",
+    "field": "access",
+    "before": "unknown",
+    "after": "admin",
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth is required for multi-account installs; installer needs Super Admin or Marketplace Access permissions. Plan-dependent scopes still need checking.",
+    "source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+    "reviewed_at": "2026-09-16T16:36:02.504729+00:00"
+  },
+  {
+    "app_id": 2,
+    "app": "HubSpot",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth is required for multi-account installs; installer needs Super Admin or Marketplace Access permissions. Plan-dependent scopes still need checking.",
+    "source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+    "reviewed_at": "2026-09-16T16:36:02.504737+00:00"
+  },
+  {
+    "app_id": 3,
+    "app": "Pipedrive",
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md",
+    "reviewed_at": "2026-09-16T16:36:02.505896+00:00"
+  },
+  {
+    "app_id": 3,
+    "app": "Pipedrive",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://pipedrive.readme.io/docs/core-api-concepts-authentication.md",
+    "reviewed_at": "2026-09-16T16:36:02.505906+00:00"
+  },
+  {
+    "app_id": 5,
+    "app": "Twenty",
+    "field": "access",
+    "before": "unknown",
+    "after": "admin",
+    "kind": "AI-assisted rule review",
+    "reason": "Workspace schema changes the API; key creation and role scoping need workspace access. Cloud pricing versus self-hosting is a separate check.",
+    "source_url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+    "reviewed_at": "2026-09-16T16:36:02.507688+00:00"
+  },
+  {
+    "app_id": 5,
+    "app": "Twenty",
+    "field": "api",
+    "before": "GraphQL",
+    "after": "GraphQL; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Workspace schema changes the API; key creation and role scoping need workspace access. Cloud pricing versus self-hosting is a separate check.",
+    "source_url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+    "reviewed_at": "2026-09-16T16:36:02.507698+00:00"
+  },
+  {
+    "app_id": 6,
+    "app": "Podio",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.podio.com/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.513451+00:00"
+  },
+  {
+    "app_id": 6,
+    "app": "Podio",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.podio.com/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.513460+00:00"
+  },
+  {
+    "app_id": 9,
+    "app": "Copper",
+    "field": "api",
+    "before": "unknown",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.copper.com/",
+    "reviewed_at": "2026-09-16T16:36:02.517026+00:00"
+  },
+  {
+    "app_id": 10,
+    "app": "DealCloud",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://api.docs.dealcloud.com/docs",
+    "reviewed_at": "2026-09-16T16:36:02.517687+00:00"
+  },
+  {
+    "app_id": 10,
+    "app": "DealCloud",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://api.docs.dealcloud.com/docs",
+    "reviewed_at": "2026-09-16T16:36:02.517692+00:00"
+  },
+  {
+    "app_id": 11,
+    "app": "Zendesk",
+    "field": "auth",
+    "before": [
+      "Basic"
+    ],
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth is the recommended distribution path; basic/API-token customers face migration. Do not design a new multi-customer toolkit around legacy basic auth.",
+    "source_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "reviewed_at": "2026-09-16T16:36:02.518798+00:00"
+  },
+  {
+    "app_id": 11,
+    "app": "Zendesk",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth is the recommended distribution path; basic/API-token customers face migration. Do not design a new multi-customer toolkit around legacy basic auth.",
+    "source_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "reviewed_at": "2026-09-16T16:36:02.518804+00:00"
+  },
+  {
+    "app_id": 13,
+    "app": "Freshdesk",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "Basic"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "API key is sent as the Basic-auth username with a dummy password; counting these as independent onboarding options would be misleading.",
+    "source_url": "https://developers.freshdesk.com/api/",
+    "reviewed_at": "2026-09-16T16:36:02.556783+00:00"
+  },
+  {
+    "app_id": 13,
+    "app": "Freshdesk",
+    "field": "access",
+    "before": "paid",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "API key is sent as the Basic-auth username with a dummy password; counting these as independent onboarding options would be misleading.",
+    "source_url": "https://developers.freshdesk.com/api/",
+    "reviewed_at": "2026-09-16T16:36:02.556789+00:00"
+  },
+  {
+    "app_id": 13,
+    "app": "Freshdesk",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "API key is sent as the Basic-auth username with a dummy password; counting these as independent onboarding options would be misleading.",
+    "source_url": "https://developers.freshdesk.com/api/",
+    "reviewed_at": "2026-09-16T16:36:02.556793+00:00"
+  },
+  {
+    "app_id": 14,
+    "app": "Front",
+    "field": "auth",
+    "before": [
+      "token"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://dev.frontapp.com/docs/authentication.md",
+    "reviewed_at": "2026-09-16T16:36:02.557897+00:00"
+  },
+  {
+    "app_id": 14,
+    "app": "Front",
+    "field": "mcp",
+    "before": "official",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://dev.frontapp.com/docs/authentication.md",
+    "reviewed_at": "2026-09-16T16:36:02.557901+00:00"
+  },
+  {
+    "app_id": 14,
+    "app": "Front",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://dev.frontapp.com/docs/authentication.md",
+    "reviewed_at": "2026-09-16T16:36:02.557904+00:00"
+  },
+  {
+    "app_id": 15,
+    "app": "Pylon",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Only admins can create API tokens; customer authorization is required.",
+    "source_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.558866+00:00"
+  },
+  {
+    "app_id": 15,
+    "app": "Pylon",
+    "field": "access",
+    "before": "unknown",
+    "after": "admin",
+    "kind": "AI-assisted rule review",
+    "reason": "Only admins can create API tokens; customer authorization is required.",
+    "source_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+    "reviewed_at": "2026-09-16T16:36:02.558873+00:00"
+  },
+  {
+    "app_id": 15,
+    "app": "Pylon",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Only admins can create API tokens; customer authorization is required.",
+    "source_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.558879+00:00"
+  },
+  {
+    "app_id": 17,
+    "app": "Plain",
+    "field": "api",
+    "before": "GraphQL",
+    "after": "GraphQL; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://www.plain.com/docs/api-reference/graphql/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.559784+00:00"
+  },
+  {
+    "app_id": 19,
+    "app": "Gorgias",
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Private token use differs from public OAuth distribution, which requires Gorgias review. The primary access label describes public distribution.",
+    "source_url": "https://developers.gorgias.com/docs",
+    "reviewed_at": "2026-09-16T16:36:02.561285+00:00"
+  },
+  {
+    "app_id": 19,
+    "app": "Gorgias",
+    "field": "access",
+    "before": "unknown",
+    "after": "partner",
+    "kind": "AI-assisted rule review",
+    "reason": "Private token use differs from public OAuth distribution, which requires Gorgias review. The primary access label describes public distribution.",
+    "source_url": "https://developers.gorgias.com/docs",
+    "reviewed_at": "2026-09-16T16:36:02.561289+00:00"
+  },
+  {
+    "app_id": 20,
+    "app": "Gladly",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.gladly.com/rest/",
+    "reviewed_at": "2026-09-16T16:36:02.571040+00:00"
+  },
+  {
+    "app_id": 20,
+    "app": "Gladly",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.gladly.com/rest/",
+    "reviewed_at": "2026-09-16T16:36:02.571046+00:00"
+  },
+  {
+    "app_id": 22,
+    "app": "Twilio",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+    "reviewed_at": "2026-09-16T16:36:02.574006+00:00"
+  },
+  {
+    "app_id": 23,
+    "app": "Zoho Cliq",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://www.zoho.com/cliq/help/restapi/v2/",
+    "reviewed_at": "2026-09-16T16:36:02.575570+00:00"
+  },
+  {
+    "app_id": 25,
+    "app": "Pumble",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "API addon installation and workspace permissions required; public docs say available on all plans.",
+    "source_url": "https://pumble.com/help/workspace-administration/api/",
+    "reviewed_at": "2026-09-16T16:36:02.576285+00:00"
+  },
+  {
+    "app_id": 25,
+    "app": "Pumble",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "API addon installation and workspace permissions required; public docs say available on all plans.",
+    "source_url": "https://pumble.com/help/workspace-administration/api/",
+    "reviewed_at": "2026-09-16T16:36:02.576288+00:00"
+  },
+  {
+    "app_id": 27,
+    "app": "Telegram",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://core.telegram.org/bots/api",
+    "reviewed_at": "2026-09-16T16:36:02.616664+00:00"
+  },
+  {
+    "app_id": 27,
+    "app": "Telegram",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://core.telegram.org/bots/api",
+    "reviewed_at": "2026-09-16T16:36:02.616671+00:00"
+  },
+  {
+    "app_id": 28,
+    "app": "WhatsApp Business",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Test-number onboarding and production business/phone setup differ. Production permissions and messaging charges need verification.",
+    "source_url": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started/",
+    "reviewed_at": "2026-09-16T16:36:02.619239+00:00"
+  },
+  {
+    "app_id": 28,
+    "app": "WhatsApp Business",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Test-number onboarding and production business/phone setup differ. Production permissions and messaging charges need verification.",
+    "source_url": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started/",
+    "reviewed_at": "2026-09-16T16:36:02.619244+00:00"
+  },
+  {
+    "app_id": 29,
+    "app": "Aircall",
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic",
+      "OAuth2",
+      "token"
+    ],
+    "after": [
+      "Basic",
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Customer Basic-auth credentials and technology-partner OAuth are different paths; do not treat both as identical onboarding.",
+    "source_url": "https://developer.aircall.io/api-references/",
+    "reviewed_at": "2026-09-16T16:36:02.643393+00:00"
+  },
+  {
+    "app_id": 29,
+    "app": "Aircall",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Customer Basic-auth credentials and technology-partner OAuth are different paths; do not treat both as identical onboarding.",
+    "source_url": "https://developer.aircall.io/api-references/",
+    "reviewed_at": "2026-09-16T16:36:02.643400+00:00"
+  },
+  {
+    "app_id": 30,
+    "app": "Vonage",
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic"
+    ],
+    "after": [
+      "API key",
+      "Basic",
+      "other"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Product-specific JWT, key/secret and Basic methods; advanced messaging/webhook features differ.",
+    "source_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.649703+00:00"
+  },
+  {
+    "app_id": 30,
+    "app": "Vonage",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Product-specific JWT, key/secret and Basic methods; advanced messaging/webhook features differ.",
+    "source_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.649708+00:00"
+  },
+  {
+    "app_id": 33,
+    "app": "LinkedIn Ads",
+    "field": "access",
+    "before": "unknown",
+    "after": "partner",
+    "kind": "AI-assisted rule review",
+    "reason": "Restricted APIs are reviewed for partnership fit; customer role and member consent are additional gates.",
+    "source_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access",
+    "reviewed_at": "2026-09-16T16:36:02.661810+00:00"
+  },
+  {
+    "app_id": 36,
+    "app": "Klaviyo",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+    "reviewed_at": "2026-09-16T16:36:02.668041+00:00"
+  },
+  {
+    "app_id": 36,
+    "app": "Klaviyo",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.klaviyo.com/en/docs/authenticate_.md",
+    "reviewed_at": "2026-09-16T16:36:02.668046+00:00"
+  },
+  {
+    "app_id": 38,
+    "app": "Pinterest",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.670867+00:00"
+  },
+  {
+    "app_id": 39,
+    "app": "Threads (Meta)",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.facebook.com/docs/threads/get-started/",
+    "reviewed_at": "2026-09-16T16:36:02.672296+00:00"
+  },
+  {
+    "app_id": 40,
+    "app": "SendGrid",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.672686+00:00"
+  },
+  {
+    "app_id": 41,
+    "app": "Shopify",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Prefer GraphQL Admin API; token lifecycle, merchant install and production app distribution still need checking.",
+    "source_url": "https://shopify.dev/docs/api/admin-graphql",
+    "reviewed_at": "2026-09-16T16:36:02.675476+00:00"
+  },
+  {
+    "app_id": 41,
+    "app": "Shopify",
+    "field": "api",
+    "before": "GraphQL",
+    "after": "REST + GraphQL; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Prefer GraphQL Admin API; token lifecycle, merchant install and production app distribution still need checking.",
+    "source_url": "https://shopify.dev/docs/api/admin-graphql",
+    "reviewed_at": "2026-09-16T16:36:02.675480+00:00"
+  },
+  {
+    "app_id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "other",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "PaaS/Magento OAuth 1.0a and bearer-token auth differ from Adobe SaaS IMS authentication. Scope the toolkit to a deployment type.",
+    "source_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.701500+00:00"
+  },
+  {
+    "app_id": 46,
+    "app": "Squarespace",
+    "field": "access",
+    "before": "unknown",
+    "after": "paid",
+    "kind": "AI-assisted rule review",
+    "reason": "Merchant key/API permission levels differ from commercial OAuth Extensions. Plan eligibility requires further confirmation.",
+    "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+    "reviewed_at": "2026-09-16T16:36:02.702823+00:00"
+  },
+  {
+    "app_id": 46,
+    "app": "Squarespace",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Merchant key/API permission levels differ from commercial OAuth Extensions. Plan eligibility requires further confirmation.",
+    "source_url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+    "reviewed_at": "2026-09-16T16:36:02.702828+00:00"
+  },
+  {
+    "app_id": 51,
+    "app": "DataForSEO",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.dataforseo.com/v3/auth/",
+    "reviewed_at": "2026-09-16T16:36:02.706464+00:00"
+  },
+  {
+    "app_id": 51,
+    "app": "DataForSEO",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.dataforseo.com/v3/auth/",
+    "reviewed_at": "2026-09-16T16:36:02.706468+00:00"
+  },
+  {
+    "app_id": 52,
+    "app": "SE Ranking",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "API can be tested during a trial; higher volume may require API add-on or funded pay-as-you-go. Trial is not free production.",
+    "source_url": "https://seranking.com/api.html",
+    "reviewed_at": "2026-09-16T16:36:02.708441+00:00"
+  },
+  {
+    "app_id": 55,
+    "app": "Apify",
+    "field": "auth",
+    "before": [
+      "API key",
+      "token"
+    ],
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.apify.com/api/v2",
+    "reviewed_at": "2026-09-16T16:36:02.712297+00:00"
+  },
+  {
+    "app_id": 55,
+    "app": "Apify",
+    "field": "api",
+    "before": "unknown",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.apify.com/api/v2",
+    "reviewed_at": "2026-09-16T16:36:02.712301+00:00"
+  },
+  {
+    "app_id": 56,
+    "app": "Firecrawl",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Limited no-key trial calls are documented; full tools and higher limits depend on a team plan or API key.",
+    "source_url": "https://docs.firecrawl.dev/introduction",
+    "reviewed_at": "2026-09-16T16:36:02.715852+00:00"
+  },
+  {
+    "app_id": 57,
+    "app": "Bright Data",
+    "field": "mcp",
+    "before": "official",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "API key auth differs from proxy-native username/password access. Billing applies.",
+    "source_url": "https://docs.brightdata.com/api-reference/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.717440+00:00"
+  },
+  {
+    "app_id": 57,
+    "app": "Bright Data",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "API key auth differs from proxy-native username/password access. Billing applies.",
+    "source_url": "https://docs.brightdata.com/api-reference/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.717444+00:00"
+  },
+  {
+    "app_id": 58,
+    "app": "Sherlock",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "other: local execution; no service auth"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Local CLI, not an authenticated hosted SaaS API. Wrap the process with bounded execution and validate inputs.",
+    "source_url": "https://github.com/sherlock-project/sherlock",
+    "reviewed_at": "2026-09-16T16:36:02.718918+00:00"
+  },
+  {
+    "app_id": 58,
+    "app": "Sherlock",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Local CLI, not an authenticated hosted SaaS API. Wrap the process with bounded execution and validate inputs.",
+    "source_url": "https://github.com/sherlock-project/sherlock",
+    "reviewed_at": "2026-09-16T16:36:02.718922+00:00"
+  },
+  {
+    "app_id": 58,
+    "app": "Sherlock",
+    "field": "api",
+    "before": "unknown",
+    "after": "Local CLI; no hosted API asserted",
+    "kind": "AI-assisted rule review",
+    "reason": "Local CLI, not an authenticated hosted SaaS API. Wrap the process with bounded execution and validate inputs.",
+    "source_url": "https://github.com/sherlock-project/sherlock",
+    "reviewed_at": "2026-09-16T16:36:02.718925+00:00"
+  },
+  {
+    "app_id": 61,
+    "app": "GitHub",
+    "field": "auth",
+    "before": [
+      "Basic"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Use a scoped PAT or OAuth/GitHub App for customer data; password authentication is explicitly unsupported. Rate limits apply.",
+    "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "reviewed_at": "2026-09-16T16:36:02.730187+00:00"
+  },
+  {
+    "app_id": 61,
+    "app": "GitHub",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Use a scoped PAT or OAuth/GitHub App for customer data; password authentication is explicitly unsupported. Rate limits apply.",
+    "source_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "reviewed_at": "2026-09-16T16:36:02.730191+00:00"
+  },
+  {
+    "app_id": 62,
+    "app": "Vercel",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "REST index contains API-key management endpoints; that alone does not prove API-key authentication. Retrieve auth-specific documentation.",
+    "source_url": "https://vercel.com/docs/rest-api",
+    "reviewed_at": "2026-09-16T16:36:02.749228+00:00"
+  },
+  {
+    "app_id": 62,
+    "app": "Vercel",
+    "field": "access",
+    "before": "paid",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "REST index contains API-key management endpoints; that alone does not prove API-key authentication. Retrieve auth-specific documentation.",
+    "source_url": "https://vercel.com/docs/rest-api",
+    "reviewed_at": "2026-09-16T16:36:02.749234+00:00"
+  },
+  {
+    "app_id": 62,
+    "app": "Vercel",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "REST index contains API-key management endpoints; that alone does not prove API-key authentication. Retrieve auth-specific documentation.",
+    "source_url": "https://vercel.com/docs/rest-api",
+    "reviewed_at": "2026-09-16T16:36:02.749238+00:00"
+  },
+  {
+    "app_id": 63,
+    "app": "Netlify",
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "reviewed_at": "2026-09-16T16:36:02.755764+00:00"
+  },
+  {
+    "app_id": 63,
+    "app": "Netlify",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "reviewed_at": "2026-09-16T16:36:02.755781+00:00"
+  },
+  {
+    "app_id": 64,
+    "app": "Cloudflare",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+    "reviewed_at": "2026-09-16T16:36:02.757501+00:00"
+  },
+  {
+    "app_id": 65,
+    "app": "Supabase",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Management API OAuth/PAT and project data APIs are separate surfaces. Scope MCP to a project and enable read-only mode for initial testing.",
+    "source_url": "https://supabase.com/docs/reference/api/introduction",
+    "reviewed_at": "2026-09-16T16:36:02.763754+00:00"
+  },
+  {
+    "app_id": 65,
+    "app": "Supabase",
+    "field": "access",
+    "before": "paid",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "Management API OAuth/PAT and project data APIs are separate surfaces. Scope MCP to a project and enable read-only mode for initial testing.",
+    "source_url": "https://supabase.com/docs/reference/api/introduction",
+    "reviewed_at": "2026-09-16T16:36:02.763760+00:00"
+  },
+  {
+    "app_id": 65,
+    "app": "Supabase",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Management API OAuth/PAT and project data APIs are separate surfaces. Scope MCP to a project and enable read-only mode for initial testing.",
+    "source_url": "https://supabase.com/docs/reference/api/introduction",
+    "reviewed_at": "2026-09-16T16:36:02.763764+00:00"
+  },
+  {
+    "app_id": 67,
+    "app": "Snowflake",
+    "field": "auth",
+    "before": [
+      "token"
+    ],
+    "after": [
+      "OAuth2",
+      "other",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth, PAT, key-pair and workload federation vary; Snowflake account roles and compute costs matter.",
+    "source_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.765575+00:00"
+  },
+  {
+    "app_id": 67,
+    "app": "Snowflake",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "OAuth, PAT, key-pair and workload federation vary; Snowflake account roles and compute costs matter.",
+    "source_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.765580+00:00"
+  },
+  {
+    "app_id": 69,
+    "app": "Datadog",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "API key"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Write operations need an API key; reads also need an application key. Use scopes and organization permissions.",
+    "source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.775540+00:00"
+  },
+  {
+    "app_id": 69,
+    "app": "Datadog",
+    "field": "mcp",
+    "before": "official",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "Write operations need an API key; reads also need an application key. Use scopes and organization permissions.",
+    "source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.775549+00:00"
+  },
+  {
+    "app_id": 69,
+    "app": "Datadog",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Write operations need an API key; reads also need an application key. Use scopes and organization permissions.",
+    "source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.775553+00:00"
+  },
+  {
+    "app_id": 70,
+    "app": "Sentry",
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic",
+      "OAuth2",
+      "token"
+    ],
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.sentry.io/api/auth/",
+    "reviewed_at": "2026-09-16T16:36:02.779480+00:00"
+  },
+  {
+    "app_id": 70,
+    "app": "Sentry",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.sentry.io/api/auth/",
+    "reviewed_at": "2026-09-16T16:36:02.779485+00:00"
+  },
+  {
+    "app_id": 71,
+    "app": "Notion",
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.notion.com/docs/authorization",
+    "reviewed_at": "2026-09-16T16:36:02.782073+00:00"
+  },
+  {
+    "app_id": 71,
+    "app": "Notion",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.notion.com/docs/authorization",
+    "reviewed_at": "2026-09-16T16:36:02.782078+00:00"
+  },
+  {
+    "app_id": 72,
+    "app": "Airtable",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Legacy API keys are deprecated. PAT/OAuth routes and free-plan rate limits should be verified in current docs.",
+    "source_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+    "reviewed_at": "2026-09-16T16:36:02.785212+00:00"
+  },
+  {
+    "app_id": 72,
+    "app": "Airtable",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Legacy API keys are deprecated. PAT/OAuth routes and free-plan rate limits should be verified in current docs.",
+    "source_url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+    "reviewed_at": "2026-09-16T16:36:02.785216+00:00"
+  },
+  {
+    "app_id": 72,
+    "app": "Airtable",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Legacy API keys are deprecated. PAT/OAuth routes and free-plan rate limits should be verified in current docs.",
+    "source_url": "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api",
+    "reviewed_at": "2026-09-16T16:36:02.785219+00:00"
+  },
+  {
+    "app_id": 73,
+    "app": "Linear",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2",
+      "token"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://linear.app/developers/graphql",
+    "reviewed_at": "2026-09-16T16:36:02.787382+00:00"
+  },
+  {
+    "app_id": 73,
+    "app": "Linear",
+    "field": "api",
+    "before": "GraphQL",
+    "after": "GraphQL; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://linear.app/developers/graphql",
+    "reviewed_at": "2026-09-16T16:36:02.787386+00:00"
+  },
+  {
+    "app_id": 75,
+    "app": "Asana",
+    "field": "auth",
+    "before": [
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.asana.com/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.813319+00:00"
+  },
+  {
+    "app_id": 75,
+    "app": "Asana",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.asana.com/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.813324+00:00"
+  },
+  {
+    "app_id": 76,
+    "app": "Monday.com",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.monday.com/api-reference/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.814035+00:00"
+  },
+  {
+    "app_id": 76,
+    "app": "Monday.com",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.monday.com/api-reference/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.814038+00:00"
+  },
+  {
+    "app_id": 76,
+    "app": "Monday.com",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.monday.com/api-reference/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.814041+00:00"
+  },
+  {
+    "app_id": 77,
+    "app": "ClickUp",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.clickup.com/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.815003+00:00"
+  },
+  {
+    "app_id": 77,
+    "app": "ClickUp",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.clickup.com/docs/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.815007+00:00"
+  },
+  {
+    "app_id": 78,
+    "app": "Coda",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Coda reference now presents Superhuman Docs branding; verify current host/product mapping before integration.",
+    "source_url": "https://coda.io/developers/apis/v1",
+    "reviewed_at": "2026-09-16T16:36:02.819591+00:00"
+  },
+  {
+    "app_id": 78,
+    "app": "Coda",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Coda reference now presents Superhuman Docs branding; verify current host/product mapping before integration.",
+    "source_url": "https://coda.io/developers/apis/v1",
+    "reviewed_at": "2026-09-16T16:36:02.819595+00:00"
+  },
+  {
+    "app_id": 79,
+    "app": "Smartsheet",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2",
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Paid-plan restrictions require a plan-specific source; creating a token does not alone prove free API access.",
+    "source_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.820174+00:00"
+  },
+  {
+    "app_id": 79,
+    "app": "Smartsheet",
+    "field": "mcp",
+    "before": "official",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "Paid-plan restrictions require a plan-specific source; creating a token does not alone prove free API access.",
+    "source_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.820177+00:00"
+  },
+  {
+    "app_id": 79,
+    "app": "Smartsheet",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Paid-plan restrictions require a plan-specific source; creating a token does not alone prove free API access.",
+    "source_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.820180+00:00"
+  },
+  {
+    "app_id": 81,
+    "app": "Stripe",
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic"
+    ],
+    "after": [
+      "API key"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Test-mode keys provide sandbox capability; live-mode permissions and money-moving actions need separate checks.",
+    "source_url": "https://docs.stripe.com/api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.824100+00:00"
+  },
+  {
+    "app_id": 81,
+    "app": "Stripe",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Test-mode keys provide sandbox capability; live-mode permissions and money-moving actions need separate checks.",
+    "source_url": "https://docs.stripe.com/api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.824104+00:00"
+  },
+  {
+    "app_id": 81,
+    "app": "Stripe",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Test-mode keys provide sandbox capability; live-mode permissions and money-moving actions need separate checks.",
+    "source_url": "https://docs.stripe.com/api/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.824106+00:00"
+  },
+  {
+    "app_id": 82,
+    "app": "Plaid",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Sandbox is self-serve; production product access and commercial approval require separate checking.",
+    "source_url": "https://plaid.com/docs/quickstart/",
+    "reviewed_at": "2026-09-16T16:36:02.826269+00:00"
+  },
+  {
+    "app_id": 82,
+    "app": "Plaid",
+    "field": "api",
+    "before": "unknown",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Sandbox is self-serve; production product access and commercial approval require separate checking.",
+    "source_url": "https://plaid.com/docs/api/",
+    "reviewed_at": "2026-09-16T16:36:02.826273+00:00"
+  },
+  {
+    "app_id": 83,
+    "app": "Binance",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+    "reviewed_at": "2026-09-16T16:36:02.842018+00:00"
+  },
+  {
+    "app_id": 83,
+    "app": "Binance",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://raw.githubusercontent.com/binance/binance-spot-api-docs/master/rest-api.md",
+    "reviewed_at": "2026-09-16T16:36:02.842025+00:00"
+  },
+  {
+    "app_id": 86,
+    "app": "QuickBooks",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://intuitdeveloper.github.io/getstarted/",
+    "reviewed_at": "2026-09-16T16:36:02.842721+00:00"
+  },
+  {
+    "app_id": 86,
+    "app": "QuickBooks",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://intuitdeveloper.github.io/getstarted/",
+    "reviewed_at": "2026-09-16T16:36:02.842724+00:00"
+  },
+  {
+    "app_id": 86,
+    "app": "QuickBooks",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://intuitdeveloper.github.io/getstarted/",
+    "reviewed_at": "2026-09-16T16:36:02.842728+00:00"
+  },
+  {
+    "app_id": 87,
+    "app": "Xero",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2"
+    ],
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.xero.com/faq/getting-started",
+    "reviewed_at": "2026-09-16T16:36:02.843468+00:00"
+  },
+  {
+    "app_id": 87,
+    "app": "Xero",
+    "field": "access",
+    "before": "unknown",
+    "after": "trial",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.xero.com/faq/getting-started",
+    "reviewed_at": "2026-09-16T16:36:02.843472+00:00"
+  },
+  {
+    "app_id": 87,
+    "app": "Xero",
+    "field": "api",
+    "before": "unknown",
+    "after": "Documented API (protocol unverified); breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developer.xero.com/faq/getting-started",
+    "reviewed_at": "2026-09-16T16:36:02.843475+00:00"
+  },
+  {
+    "app_id": 88,
+    "app": "Brex",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "token"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Brex currently documents only a production API server; do not promise a free sandbox.",
+    "source_url": "https://developer.brex.com/docs/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.844098+00:00"
+  },
+  {
+    "app_id": 88,
+    "app": "Brex",
+    "field": "access",
+    "before": "unknown",
+    "after": "admin",
+    "kind": "AI-assisted rule review",
+    "reason": "Brex currently documents only a production API server; do not promise a free sandbox.",
+    "source_url": "https://developer.brex.com/docs/authentication/",
+    "reviewed_at": "2026-09-16T16:36:02.844102+00:00"
+  },
+  {
+    "app_id": 88,
+    "app": "Brex",
+    "field": "api",
+    "before": "unknown",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Brex currently documents only a production API server; do not promise a free sandbox.",
+    "source_url": "https://developer.brex.com/",
+    "reviewed_at": "2026-09-16T16:36:02.844104+00:00"
+  },
+  {
+    "app_id": 89,
+    "app": "Ramp",
+    "field": "auth",
+    "before": [
+      "API key",
+      "Basic",
+      "OAuth2",
+      "token"
+    ],
+    "after": [
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.ramp.com/llms-full.txt",
+    "reviewed_at": "2026-09-16T16:36:02.857505+00:00"
+  },
+  {
+    "app_id": 89,
+    "app": "Ramp",
+    "field": "mcp",
+    "before": "official",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.ramp.com/developer-api/v1/overview",
+    "reviewed_at": "2026-09-16T16:36:02.857513+00:00"
+  },
+  {
+    "app_id": 89,
+    "app": "Ramp",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.ramp.com/llms-full.txt",
+    "reviewed_at": "2026-09-16T16:36:02.857517+00:00"
+  },
+  {
+    "app_id": 90,
+    "app": "PitchBook",
+    "field": "access",
+    "before": "trial",
+    "after": "partner",
+    "kind": "AI-assisted rule review",
+    "reason": "API contracts are separate from platform subscriptions; contact the Direct Data team for access.",
+    "source_url": "https://pitchbook.com/help/PitchBook-api",
+    "reviewed_at": "2026-09-16T16:36:02.858220+00:00"
+  },
+  {
+    "app_id": 90,
+    "app": "PitchBook",
+    "field": "api",
+    "before": "unknown",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "API contracts are separate from platform subscriptions; contact the Direct Data team for access.",
+    "source_url": "https://pitchbook.com/help/PitchBook-api",
+    "reviewed_at": "2026-09-16T16:36:02.858224+00:00"
+  },
+  {
+    "app_id": 93,
+    "app": "Fathom",
+    "field": "auth",
+    "before": [
+      "API key"
+    ],
+    "after": [
+      "API key",
+      "OAuth2"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://developers.fathom.ai/",
+    "reviewed_at": "2026-09-16T16:36:02.867883+00:00"
+  },
+  {
+    "app_id": 95,
+    "app": "Reducto",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.reducto.ai/api-reference/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.871996+00:00"
+  },
+  {
+    "app_id": 95,
+    "app": "Reducto",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Refined exact matching and abstained from unsupported keywords; this is an AI review, not a human check.",
+    "source_url": "https://docs.reducto.ai/api-reference/authentication",
+    "reviewed_at": "2026-09-16T16:36:02.872002+00:00"
+  },
+  {
+    "app_id": 96,
+    "app": "Devin",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "Official MCP is authenticated. REST versions and organization/member roles affect available operations.",
+    "source_url": "https://docs.devin.ai/api-reference/overview",
+    "reviewed_at": "2026-09-16T16:36:02.872884+00:00"
+  },
+  {
+    "app_id": 98,
+    "app": "Mermaid CLI",
+    "field": "auth",
+    "before": "unknown",
+    "after": [
+      "other: local execution; no service auth"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "Local CLI needs no service credential. Browser/runtime dependencies and subprocess input isolation are the main packaging considerations.",
+    "source_url": "https://github.com/mermaid-js/mermaid-cli",
+    "reviewed_at": "2026-09-16T16:36:02.876652+00:00"
+  },
+  {
+    "app_id": 98,
+    "app": "Mermaid CLI",
+    "field": "access",
+    "before": "unknown",
+    "after": "free",
+    "kind": "AI-assisted rule review",
+    "reason": "Local CLI needs no service credential. Browser/runtime dependencies and subprocess input isolation are the main packaging considerations.",
+    "source_url": "https://github.com/mermaid-js/mermaid-cli",
+    "reviewed_at": "2026-09-16T16:36:02.876657+00:00"
+  },
+  {
+    "app_id": 98,
+    "app": "Mermaid CLI",
+    "field": "api",
+    "before": "unknown",
+    "after": "Local CLI; no hosted API asserted",
+    "kind": "AI-assisted rule review",
+    "reason": "Local CLI needs no service credential. Browser/runtime dependencies and subprocess input isolation are the main packaging considerations.",
+    "source_url": "https://github.com/mermaid-js/mermaid-cli",
+    "reviewed_at": "2026-09-16T16:36:02.876660+00:00"
+  },
+  {
+    "app_id": 99,
+    "app": "YouTube Transcript",
+    "field": "auth",
+    "before": [
+      "API key",
+      "OAuth2",
+      "token"
+    ],
+    "after": [
+      "API key"
+    ],
+    "kind": "AI-assisted rule review",
+    "reason": "This is the paid TranscriptAPI service from the brief, not an official YouTube transcript endpoint.",
+    "source_url": "https://transcriptapi.com/docs/api/",
+    "reviewed_at": "2026-09-16T16:36:02.884893+00:00"
+  },
+  {
+    "app_id": 99,
+    "app": "YouTube Transcript",
+    "field": "access",
+    "before": "paid",
+    "after": "unknown",
+    "kind": "AI-assisted rule review",
+    "reason": "This is the paid TranscriptAPI service from the brief, not an official YouTube transcript endpoint.",
+    "source_url": "https://transcriptapi.com/docs/",
+    "reviewed_at": "2026-09-16T16:36:02.884901+00:00"
+  },
+  {
+    "app_id": 99,
+    "app": "YouTube Transcript",
+    "field": "api",
+    "before": "REST",
+    "after": "REST; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "This is the paid TranscriptAPI service from the brief, not an official YouTube transcript endpoint.",
+    "source_url": "https://transcriptapi.com/docs/mcp/",
+    "reviewed_at": "2026-09-16T16:36:02.884907+00:00"
+  },
+  {
+    "app_id": 100,
+    "app": "Grain",
+    "field": "access",
+    "before": "unknown",
+    "after": "admin",
+    "kind": "AI-assisted rule review",
+    "reason": "PAT/workspace tokens differ from public OAuth; the OAuth client ID/secret registration process is manual in the docs.",
+    "source_url": "https://developers.grain.com/",
+    "reviewed_at": "2026-09-16T16:36:02.890874+00:00"
+  },
+  {
+    "app_id": 100,
+    "app": "Grain",
+    "field": "api",
+    "before": "unknown",
+    "after": "HTTP API; breadth needs endpoint inventory",
+    "kind": "AI-assisted rule review",
+    "reason": "PAT/workspace tokens differ from public OAuth; the OAuth client ID/secret registration process is manual in the docs.",
+    "source_url": "https://developers.grain.com/",
+    "reviewed_at": "2026-09-16T16:36:02.890882+00:00"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "finished_at": "2026-09-16T16:30:33.842940+00:00",
+  "mode": "baseline",
+  "app_count_requested": 100,
+  "errors": [],
+  "composio_discovery": false,
+  "note": "Quote validation measures grounding, not factual accuracy. Human review is recorded separately."
+}
