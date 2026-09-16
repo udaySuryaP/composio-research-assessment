@@ -4,7 +4,7 @@
   "counts": {
     "auth_methods": {
       "unknown": 54,
-      "oauth2": 24,
+      "oauth2": 25,
       "api_key": 13,
       "bearer_token": 11,
       "basic": 5,

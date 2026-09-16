@@ -3204,6 +3204,7 @@
     "website": "shopify.dev",
     "description": "unknown",
     "auth_methods": [
+      "oauth2",
       "bearer_token"
     ],
     "access_model": "unknown",
@@ -3215,7 +3216,7 @@
     "mcp_available": "unknown",
     "mcp_notes": "unknown",
     "buildability": "unknown",
-    "primary_blocker": "unknown",
+    "primary_blocker": "review_and_permission_requirements",
     "buildability_rationale": "unknown",
     "evidence": [
       {
@@ -3241,6 +3242,78 @@
         "content_sha256": "54712baf8172b01e267abc2ea416f44f5cc088e612540e3ccafa92a5e65353e7",
         "quote": "Access Analytics Apps B2B Billing Bulk operations Cart Checkout and accounts configurations Checkout branding Common objects Customers Discounts and marketing Inventory Localizations Metafields Metaobjects Online store Orders Privacy Products and collections Retail Shipping and fulfillment Shopify Markets Shopify Payments Store properties Timeline events Webhooks Graph QL Types Full index",
         "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-041-primary_blocker-1",
+        "field": "primary_blocker",
+        "claim": "review_and_permission_requirements",
+        "url": "https://shopify.dev/docs/apps/launch/distribution",
+        "final_url": "https://shopify.dev/docs/apps/launch/distribution",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-041-primary_blocker-2",
+        "field": "primary_blocker",
+        "claim": "review_and_permission_requirements",
+        "url": "https://shopify.dev/docs/apps/launch/distribution/select-distribution-method",
+        "final_url": "https://shopify.dev/docs/apps/launch/distribution/select-distribution-method",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-041-primary_blocker-3",
+        "field": "primary_blocker",
+        "claim": "review_and_permission_requirements",
+        "url": "https://shopify.dev/docs/api/usage/access-scopes",
+        "final_url": "https://shopify.dev/docs/api/usage/access-scopes",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-041-primary_blocker-4",
+        "field": "primary_blocker",
+        "claim": "review_and_permission_requirements",
+        "url": "https://shopify.dev/docs/apps/launch/protected-customer-data",
+        "final_url": "https://shopify.dev/docs/apps/launch/protected-customer-data",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-041-auth_methods-1",
+        "field": "auth_methods",
+        "claim": "[\"oauth2\", \"bearer_token\"]",
+        "url": "https://shopify.dev/docs/api/usage/authentication",
+        "final_url": "https://shopify.dev/docs/api/usage/authentication",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
+      },
+      {
+        "evidence_id": "stage03-human-041-auth_methods-2",
+        "field": "auth_methods",
+        "claim": "[\"oauth2\", \"bearer_token\"]",
+        "url": "https://shopify.dev/docs/api/admin-graphql",
+        "final_url": "https://shopify.dev/docs/api/admin-graphql",
+        "source_kind": "official",
+        "retrieved_at": "",
+        "content_sha256": "",
+        "quote": "",
+        "supports_claim": "yes"
       }
     ],
     "research_confidence": "low",
@@ -3248,7 +3321,9 @@
     "verification_notes": [
       "missing_field_evidence",
       "quote_not_found",
-      "raw_identity_mismatch"
+      "raw_identity_mismatch",
+      "Stage03 correction: Shopify integration access depends on the app's distribution model and requested data. Custom-distribution apps can be installed on a specific store, or multiple stores within the same Shopify Plus organization, without Shopify app approval. Public-distribution apps intended for multiple merchants require Shopify approval through App Review before App Store distribution. Access is also scope-based, and certain sensitive capabilities require additional permission or Shopify approval, including protected customer data and restricted scopes. Therefore Shopify is buildable, but broad/public integrations are conditioned by review and permission requirements rather than a universal access block.",
+      "Stage03 correction: Shopify's GraphQL Admin API authenticates requests with an access token sent in the X-Shopify-Access-Token header. Shopify documents OAuth, usually token exchange or the authorization code grant depending on app type, as the standard flow for obtaining that token when an app acts on behalf of a merchant. Therefore OAuth2 is the authorization/token-acquisition mechanism, while the issued bearer-style access token authenticates individual API requests."
     ],
     "researched_at": "2026-09-16T17:20:21.827181+00:00",
     "run_id": "stage02-full-fallback-20260916"

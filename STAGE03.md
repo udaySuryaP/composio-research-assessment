@@ -187,3 +187,19 @@ First pass 4/19 (21.05%), final 19/19 (100%), +78.95 percentage points on the sa
 unscored supporting rationale corrections. Missing exact inspection times/capture metadata
 remain unasserted. Whole records remain needs_verification. Stage03 remains BLOCKED on
 remaining actual human review and final source verification/pattern analysis.
+
+## Actual human review update — Shopify
+
+Uday corrected auth_methods from [bearer_token] to [oauth2, bearer_token] and primary_blocker
+from unknown to review_and_permission_requirements. Both first-pass claims judged incorrect.
+Preserved OAuth authorization/token acquisition versus X-Shopify-Access-Token request use,
+custom distribution versus public App Review, and scope/protected-data approval caveats.
+The conditional public/sensitive-data requirements are not asserted as a universal access
+block. No other Shopify fields were changed or scored from these two reviewed claims.
+
+Cumulative partial review: 22 items across eleven apps, 21 scored and one unclear/unscored.
+First pass 4/21 (19.05%), final 21/21 (100%), +80.95 percentage points on the same claims.
+18/40 items remain pending. Twenty field corrections across ten apps, including three
+unscored companion rationale corrections. Missing source-capture metadata and exact
+inspection times remain unasserted. Whole records remain needs_verification. Stage03
+remains BLOCKED pending remaining actual human review and final verification/patterns.

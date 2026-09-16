@@ -687,16 +687,24 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://shopify.dev/docs/apps/launch/distribution",
+    "observed_correct_value": "review_and_permission_requirements",
+    "first_pass_correct": "no",
+    "final_value": "review_and_permission_requirements",
+    "final_correct": "yes",
+    "correction_reason": "Shopify integration access depends on the app's distribution model and requested data. Custom-distribution apps can be installed on a specific store, or multiple stores within the same Shopify Plus organization, without Shopify app approval. Public-distribution apps intended for multiple merchants require Shopify approval through App Review before App Store distribution. Access is also scope-based, and certain sensitive capabilities require additional permission or Shopify approval, including protected customer data and restricted scopes. Therefore Shopify is buildable, but broad/public integrations are conditioned by review and permission requirements rather than a universal access block.",
+    "notes": "Shopify integration access depends on the app's distribution model and requested data. Custom-distribution apps can be installed on a specific store, or multiple stores within the same Shopify Plus organization, without Shopify app approval. Public-distribution apps intended for multiple merchants require Shopify approval through App Review before App Store distribution. Access is also scope-based, and certain sensitive capabilities require additional permission or Shopify approval, including protected customer data and restricted scopes. Therefore Shopify is buildable, but broad/public integrations are conditioned by review and permission requirements rather than a universal access block.",
+    "review_reported_at": "2026-09-16T20:33:32+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://shopify.dev/docs/apps/launch/distribution",
+      "https://shopify.dev/docs/apps/launch/distribution/select-distribution-method",
+      "https://shopify.dev/docs/api/usage/access-scopes",
+      "https://shopify.dev/docs/apps/launch/protected-customer-data"
+    ]
   },
   {
     "item_id": "041:auth_methods",
@@ -718,16 +726,28 @@
     ],
     "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
     "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
-    "reviewer": null,
+    "reviewer": "Uday",
     "reviewed_at": null,
-    "source_status": null,
-    "observed_source_url": null,
-    "observed_correct_value": null,
-    "first_pass_correct": null,
-    "final_value": null,
-    "final_correct": null,
-    "correction_reason": null,
-    "notes": null
+    "source_status": "usable",
+    "observed_source_url": "https://shopify.dev/docs/api/usage/authentication",
+    "observed_correct_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "Shopify's GraphQL Admin API authenticates requests with an access token sent in the X-Shopify-Access-Token header. Shopify documents OAuth, usually token exchange or the authorization code grant depending on app type, as the standard flow for obtaining that token when an app acts on behalf of a merchant. Therefore OAuth2 is the authorization/token-acquisition mechanism, while the issued bearer-style access token authenticates individual API requests.",
+    "notes": "Shopify's GraphQL Admin API authenticates requests with an access token sent in the X-Shopify-Access-Token header. Shopify documents OAuth, usually token exchange or the authorization code grant depending on app type, as the standard flow for obtaining that token when an app acts on behalf of a merchant. Therefore OAuth2 is the authorization/token-acquisition mechanism, while the issued bearer-style access token authenticates individual API requests.",
+    "review_reported_at": "2026-09-16T20:33:32+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://shopify.dev/docs/api/usage/authentication",
+      "https://shopify.dev/docs/api/admin-graphql"
+    ]
   },
   {
     "item_id": "050:access_model",
