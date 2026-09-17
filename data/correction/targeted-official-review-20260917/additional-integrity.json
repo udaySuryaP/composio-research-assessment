@@ -1,0 +1,10 @@
+{
+  "sealed_production_code_matches": {
+    "agent/production_research.py": true,
+    "agent/production_qa.py": true
+  },
+  "browser_excerpt_source_hash_errors": 0,
+  "packaged_output_hash_errors": 0,
+  "packaged_outputs_rechecked": 35,
+  "browser_source_document_captures": 6
+}

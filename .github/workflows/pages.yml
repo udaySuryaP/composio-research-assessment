@@ -1,5 +1,7 @@
 name: Publish case study
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,13 +31,11 @@ jobs:
       - run: python -B -m agent.stage02 verify-freeze --run-id stage02-full-fallback-20260916
       - run: python -B -m agent.stage03_finalize check
       - run: python -B -m agent.stage03 check
-      - run: python -B -m agent.stage04 check
-      - run: node submission/check-interactions.cjs
-      - run: python -B -m agent.stage03_security
-      - run: python -B -m agent.stage05 publish "${{ runner.temp }}/stage05-pages"
+      - run: python -B final_build.py
+      - run: python -B -m agent.release publish "${{ runner.temp }}/assessment-pages"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ runner.temp }}/stage05-pages
+          path: ${{ runner.temp }}/assessment-pages
       - id: deployment
         uses: actions/deploy-pages@v4

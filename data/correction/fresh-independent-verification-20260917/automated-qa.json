@@ -1,0 +1,22 @@
+{
+  "citation_integrity_errors": [],
+  "retained_historical_citations_checked_against_protected_baseline": 7239,
+  "baseline_layer_files_checked": 37,
+  "baseline_layer_hash_mismatches": [],
+  "quota_checkpoint_files_checked": 870,
+  "quota_hash_mismatches": [],
+  "protected_history_files": 791,
+  "protected_history_unchanged": true,
+  "canonical_tracked_files_compared": 229,
+  "canonical_tracked_differences": [],
+  "records": 100,
+  "field_dispositions": 1300,
+  "new_citations_are_labeled_paraphrases": true,
+  "tests": {
+    "passed": 136,
+    "failed": 0,
+    "log": "tests-final-approved.log",
+    "environment": "Established canonical .venv interpreter, repository under review; mocked/offline fixtures. Sandbox-only initial attempts failed due missing dependencies/temporary-directory cleanup. Final authorized run passed."
+  },
+  "historical_exact_snippet_and_source_hashes_rechecked": true
+}

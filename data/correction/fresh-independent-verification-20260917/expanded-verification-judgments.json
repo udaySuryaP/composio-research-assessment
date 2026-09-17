@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "auth_methods",
+    "original_value": [
+      "unknown"
+    ],
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "REST resource clients use OAuth2 through external client apps or existing connected apps; new connected-app creation is restricted from Spring 26.",
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "api_types",
+    "original_value": [
+      "unknown"
+    ],
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Salesforce REST API guide explicitly documents REST resources.",
+    "source_keys": [
+      "turn9view0"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "access_model",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Org edition and user API Enabled permission required; Professional edition needs API add-on. Use external client app OAuth; creating connected apps is restricted from Spring 26.",
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "buildability_rationale",
+    "original_value": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete.",
+    "original_status": "source_backed_with_caveat",
+    "judgment": "caveat_needed",
+    "reason": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification.",
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "api_types",
+    "original_value": [
+      "unknown"
+    ],
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Official page explicitly describes its OAuth API as REST with JSON responses.",
+    "source_keys": [
+      "gumroad"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "api_breadth",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Rendered official resource methods; breadth is limited to inspected documented categories.",
+    "source_keys": [
+      "gumroad"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "access_model",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Register OAuth application, obtain application ID/secret and generate own access token, or authorize OAuth with scopes; license verification is a separate route.",
+    "source_keys": [
+      "gumroad"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "buildability_rationale",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "OAuth application/token onboarding and REST resource methods documented; scopes and authorization apply. No integration executed.",
+    "source_keys": [
+      "gumroad"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "api_breadth",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Checkout and webhook breadth restricted to freshly rendered docs explicitly mapped to fanbasis.com.",
+    "source_keys": [
+      "fanbasis"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "access_model",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Commas dashboard Account -> API Keys generates a scoped key; requests to www.fanbasis.com production endpoints include x-api-key. Exact brand mapping limited to documented host.",
+    "source_keys": [
+      "fanbasis"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "buildability_rationale",
+    "original_value": "unknown",
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "Scoped key issuance and checkout resource requests documented for explicitly identified fanbasis.com host. Rebranded Commas docs mapping caveat retained; no integration executed.",
+    "source_keys": [
+      "fanbasis"
+    ],
+    "expansion_reason": "Affected same-app onboarding/readiness dependency; sources reviewed before replacement."
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "field": "auth_methods",
+    "original_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "original_status": "source_backed_with_caveat",
+    "judgment": "correct",
+    "reason": "API token per user/company and OAuth documented.",
+    "source_keys": [
+      "turn9view1"
+    ],
+    "expansion_reason": "Four adjacent preserved automated authentication records, checked to bound unsupported-label failure mode."
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "field": "auth_methods",
+    "original_value": [
+      "oauth2",
+      "api_key",
+      "bearer_token"
+    ],
+    "original_status": "source_backed_with_caveat",
+    "judgment": "correct",
+    "reason": "OAuth/workspace API keys use bearer; list is non-exhaustive, Basic token delivery also documented.",
+    "source_keys": [
+      "turn12view2"
+    ],
+    "expansion_reason": "Four adjacent preserved automated authentication records, checked to bound unsupported-label failure mode."
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "field": "auth_methods",
+    "original_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "original_status": "source_backed_with_caveat",
+    "judgment": "correct",
+    "reason": "Bearer API keys and OAuth external-app route documented.",
+    "source_keys": [
+      "turn9view2"
+    ],
+    "expansion_reason": "Four adjacent preserved automated authentication records, checked to bound unsupported-label failure mode."
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "field": "auth_methods",
+    "original_value": [
+      "unknown"
+    ],
+    "original_status": "unresolved",
+    "judgment": "caveat_needed",
+    "reason": "OAuth2 with server, client, password and app flows; client ID/secret and access-token header documented.",
+    "source_keys": [
+      "turn9view3"
+    ],
+    "expansion_reason": "Four adjacent preserved automated authentication records, checked to bound unsupported-label failure mode."
+  }
+]

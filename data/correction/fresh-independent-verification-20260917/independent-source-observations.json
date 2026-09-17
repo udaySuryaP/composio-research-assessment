@@ -1,0 +1,105 @@
+{
+  "method": "Fresh source observations recorded before full sample-value comparison; not fully blinded: initial handoff/sample read exposed some saved values. Reviewer is this task's agent, not a human or statistically independent second reviewer.",
+  "observations": [
+    {
+      "id": 36,
+      "note": "Private/public API keys and OAuth; managing keys requires Owner/Admin/Manager; scoped keys and resource endpoints documented.",
+      "official_url": "https://developers.klaviyo.com/en/docs/authenticate_"
+    },
+    {
+      "id": 41,
+      "note": "Admin GraphQL carries access tokens and scopes; app distribution determines review. Public app approval does not gate every custom integration.",
+      "official_url": "https://shopify.dev/docs/api/admin-graphql/latest"
+    },
+    {
+      "id": 43,
+      "note": "OAuth-based store/app/account credentials; app install grant creates access token; alternate endpoint auth differs.",
+      "official_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    },
+    {
+      "id": 49,
+      "note": "Application registration and selling-partner authorization precede access; LWA refresh-token/client-credentials routes and restricted data tokens documented.",
+      "official_url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api"
+    },
+    {
+      "id": 60,
+      "note": "API key is separate from CLI login. Platform now says all plans including free/trial; Tables structured queries need Enterprise sync; Windows unsupported.",
+      "official_url": "https://university.clay.com/docs/clay-api-cli"
+    },
+    {
+      "id": 61,
+      "note": "GitHub organization repository calls itself official; remote MCP hosted by GitHub. REST supports PAT/app/Actions tokens and unauthenticated limited calls.",
+      "official_url": "https://github.com/github/github-mcp-server"
+    },
+    {
+      "id": 68,
+      "note": "Atlas Administration API supports recommended OAuth service accounts and legacy digest keys; roles and project organization membership required; excludes cluster data.",
+      "official_url": "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    },
+    {
+      "id": 73,
+      "note": "Linear centrally hosts and manages its MCP; GraphQL supports personal API keys/OAuth2 with endpoint and example queries/mutations.",
+      "official_url": "https://linear.app/docs/mcp"
+    },
+    {
+      "id": 76,
+      "note": "Personal V2 token issued from developer center; user permissions mirrored; app tokens scoped; free developer account for testing.",
+      "official_url": "https://developer.monday.com/api-reference/docs/authentication"
+    },
+    {
+      "id": 81,
+      "note": "Stripe describes own remote MCP; resource API keys use Basic or bearer delivery; Dashboard keys and test calls documented.",
+      "official_url": "https://docs.stripe.com/api/authentication"
+    },
+    {
+      "id": 69,
+      "note": "Migration blog distinguishes current SAT from planned M2M OAuth; legacy keys continue. Migration alone is not proof of API unbuildability.",
+      "official_url": "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    },
+    {
+      "id": 90,
+      "note": "Separate standalone API contract; Direct Data request; API key or authentication token. Outreach readiness, not self-service certification.",
+      "official_url": "https://pitchbook.com/help/PitchBook-api"
+    },
+    {
+      "id": 48,
+      "note": "Web tool empty, browser rendered OAuth2 REST documentation, application registration/token generation, scopes and resource methods. Prior capture limitation recoverable.",
+      "official_url": "https://gumroad.com/api"
+    },
+    {
+      "id": 50,
+      "note": "Browser renders Commas docs explicitly naming fanbasis.com production APIs; x-api-key header and Account/API Keys onboarding. Product-name mapping limited to this documented domain.",
+      "official_url": "https://apidocs.fan/api/basics"
+    },
+    {
+      "id": 84,
+      "note": "gopaygent.com browser mentions Paygent Connect but assigned NMI-powered/paygent.io identity still not deterministically matched; generic same-name vendors not interchangeable.",
+      "official_url": "https://www.gopaygent.com/"
+    },
+    {
+      "id": 85,
+      "note": "Docs/developer opens fail; browser docs timed out. No current readable assigned-product authentication/resource evidence recovered.",
+      "official_url": "https://ipayx.com/docs"
+    },
+    {
+      "id": 12,
+      "note": "Private access token versus public OAuth; public installs reviewed, private own paid workspace exempt. MCP URL failed web opening; browser recovery needed.",
+      "official_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+    },
+    {
+      "id": 34,
+      "note": "OAuth authorization-code route and private integration static bearer tokens documented; API v1 keys end-of-life; service-account classification not established.",
+      "official_url": "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html"
+    },
+    {
+      "id": 2,
+      "note": "OAuth plus static auth supported; scope/tier entitlement matters. UI content approvals/payment exports must not be imported as generic API onboarding gates.",
+      "official_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview"
+    },
+    {
+      "id": 1,
+      "note": "REST official guide documents resource CRUD and OAuth onboarding. General blog does not alone establish business logic/AI agent endpoint breadth; more specific routes required.",
+      "official_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html"
+    }
+  ]
+}

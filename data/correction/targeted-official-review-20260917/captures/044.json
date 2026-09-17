@@ -1,0 +1,27 @@
+{
+  "retrievals": [
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "retrieved_at": "2026-09-17T14:39:13.791515+00:00",
+      "source_kind": "official",
+      "ok": false,
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fragments": [],
+      "error": "HTTPError"
+    },
+    {
+      "requested_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html",
+      "final_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html",
+      "retrieved_at": "2026-09-17T14:39:14.371323+00:00",
+      "source_kind": "official",
+      "ok": false,
+      "text": "",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fragments": [],
+      "error": "HTTPError"
+    }
+  ],
+  "passages": {}
+}

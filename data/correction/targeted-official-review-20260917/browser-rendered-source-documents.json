@@ -1,0 +1,264 @@
+[
+  {
+    "requested_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "retrieved_at": "2026-09-17T14:47:55.223067+00:00",
+    "source_kind": "official",
+    "ok": true,
+    "text": "Most of our REST endpoints and GraphQL Admin API endpoints use the `X-Auth-Token` header to authenticate to BigCommerce servers. For more about the APIs that do NOT use the `X-Auth-Token` header, consult this article’s sections on dynamic tokens and same-origin CORS authentication .\n\nThe `X-Auth-Token` header uses access tokens to authenticate requests. Create an OAuth API account to generate access tokens. Pass the access token as the value of the `X-Auth-Token` header of the request you want to authenticate.\n\nFor a request to succeed, the access token’s API account must have permission to receive the response. Configure your API account with the minimum set of OAuth scopes that your implementation needs.",
+    "content_sha256": "768c9ba3a247fd557d27d692c2645e399c4ed165f8a3354e123d0b48e7f2a2fb",
+    "fragments": [
+      {
+        "text": "Most of our REST endpoints and GraphQL Admin API endpoints use the `X-Auth-Token` header to authenticate to BigCommerce servers. For more about the APIs that do NOT use the `X-Auth-Token` header, consult this article’s sections on dynamic tokens and same-origin CORS authentication .",
+        "heading": "Official browser-rendered body excerpt; line 910",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 910
+      },
+      {
+        "text": "The `X-Auth-Token` header uses access tokens to authenticate requests. Create an OAuth API account to generate access tokens. Pass the access token as the value of the `X-Auth-Token` header of the request you want to authenticate.",
+        "heading": "Official browser-rendered body excerpt; line 911",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 911
+      },
+      {
+        "text": "For a request to succeed, the access token’s API account must have permission to receive the response. Configure your API account with the minimum set of OAuth scopes that your implementation needs.",
+        "heading": "Official browser-rendered body excerpt; line 917",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 917
+      }
+    ],
+    "error": null,
+    "capture_type": "browser_rendered_selected_body_lines",
+    "browser_archive": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\targeted-official-review-20260917\\browser-batch-4.json",
+    "browser_archive_sha256": "0c97d6a5e761849a65a79cfc6a078bbd6638231b6e5113e76e971faef95e44d9",
+    "browser_ref": "turn4view5",
+    "full_page_capture": false
+  },
+  {
+    "requested_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "retrieved_at": "2026-09-17T14:47:55.223963+00:00",
+    "source_kind": "official",
+    "ok": true,
+    "text": "Merchants generate single-store API credentials when they create API accounts in their store control panel, in the Settings > Store-level API accounts†login.bigcommerce.com menu. Use these credentials to read and change one store’s data with BigCommerce’s APIs. You can’t change store-level access tokens or OAuth scopes.\n\n  * An `access_token`, which accompanies most REST API requests.\n\nYou can create app-level API accounts in the Developer Portal†build.bigcommerce.com . After a store owner or authorized user installs and authorizes an app, most apps use access tokens generated from the API account’s client ID, client secret, and a temporary grant code to read and change store data. Generate access tokens with the BigCommerce-initiated grant code authorization flow.",
+    "content_sha256": "1b801da4d7b977fcf110cbe9105d5f2319bc15c0ea9a361e00956b0c2a4c0d82",
+    "fragments": [
+      {
+        "text": "Merchants generate single-store API credentials when they create API accounts in their store control panel, in the Settings > Store-level API accounts†login.bigcommerce.com menu. Use these credentials to read and change one store’s data with BigCommerce’s APIs. You can’t change store-level access tokens or OAuth scopes.",
+        "heading": "Official browser-rendered body excerpt; line 695",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 695
+      },
+      {
+        "text": "  * An `access_token`, which accompanies most REST API requests.",
+        "heading": "Official browser-rendered body excerpt; line 698",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 698
+      },
+      {
+        "text": "You can create app-level API accounts in the Developer Portal†build.bigcommerce.com . After a store owner or authorized user installs and authorizes an app, most apps use access tokens generated from the API account’s client ID, client secret, and a temporary grant code to read and change store data. Generate access tokens with the BigCommerce-initiated grant code authorization flow.",
+        "heading": "Official browser-rendered body excerpt; line 724",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 724
+      }
+    ],
+    "error": null,
+    "capture_type": "browser_rendered_selected_body_lines",
+    "browser_archive": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\targeted-official-review-20260917\\browser-batch-8.json",
+    "browser_archive_sha256": "b05606b6bf51bc6b82b52b469a55d8ae16e6dbf60e7ad1fdcafbb0e7601a5e4b",
+    "browser_ref": "turn8view3",
+    "full_page_capture": false
+  },
+  {
+    "requested_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "final_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+    "retrieved_at": "2026-09-17T14:47:55.224650+00:00",
+    "source_kind": "official",
+    "ok": true,
+    "text": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations.\n\nBigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials.",
+    "content_sha256": "215b838f06c4f4ff7cdbe5b8645033d2d78f7d8de955ba7e868337a4bd79f204",
+    "fragments": [
+      {
+        "text": "BigCommerce offers a suite of APIs that let you manage store data, sign customers in, make client-side queries for product information, and write apps that integrate third-party services into store operations.",
+        "heading": "Official browser-rendered body excerpt; line 661",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 661
+      },
+      {
+        "text": "BigCommerce offers three types of OAuth-based API accounts to developers who wish to use BigCommerce’s REST APIs: store-level credentials, app-level credentials, and account-level credentials. This section describes the difference between the three, how to obtain and revoke account credentials, and the use cases for each. It also contains a reference for available OAuth scopes and provides a compelling list of reasons to migrate from legacy API tokens to OAuth credentials.",
+        "heading": "Official browser-rendered body excerpt; line 667",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 667
+      }
+    ],
+    "error": null,
+    "capture_type": "browser_rendered_selected_body_lines",
+    "browser_archive": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\targeted-official-review-20260917\\browser-batch-8.json",
+    "browser_archive_sha256": "b05606b6bf51bc6b82b52b469a55d8ae16e6dbf60e7ad1fdcafbb0e7601a5e4b",
+    "browser_ref": "turn8view4",
+    "full_page_capture": false
+  },
+  {
+    "requested_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+    "final_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+    "retrieved_at": "2026-09-17T14:47:55.225262+00:00",
+    "source_kind": "official",
+    "ok": true,
+    "text": "Authorization for the B2C Commerce API resources is handled not through user permissions, but through client permissions.\n\nTo authorize this wide range of client types, we’ve defined a set of scopes based on the OAuth 2.1 standard. The available scopes give you control over exactly what clients are authorized to do with the SCAPI Admin APIs and Shopper APIs.",
+    "content_sha256": "3484615d22d4d3d32982354da57b8fe6676559c60772c68529776be9f4b538c9",
+    "fragments": [
+      {
+        "text": "Authorization for the B2C Commerce API resources is handled not through user permissions, but through client permissions.",
+        "heading": "Official browser-rendered body excerpt; line 3",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 3
+      },
+      {
+        "text": "To authorize this wide range of client types, we’ve defined a set of scopes based on the OAuth 2.1 standard. The available scopes give you control over exactly what clients are authorized to do with the SCAPI Admin APIs and Shopper APIs.",
+        "heading": "Official browser-rendered body excerpt; line 7",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 7
+      }
+    ],
+    "error": null,
+    "capture_type": "browser_rendered_selected_body_lines",
+    "browser_archive": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\targeted-official-review-20260917\\browser-batch-5.json",
+    "browser_archive_sha256": "7f1989c17d79b5703f56816ab73c081b6eba0904dcb2ea4421f5f16d1c877d27",
+    "browser_ref": "turn5view0",
+    "full_page_capture": false
+  },
+  {
+    "requested_url": "https://pitchbook.com/help/PitchBook-api",
+    "final_url": "https://pitchbook.com/help/PitchBook-api",
+    "retrieved_at": "2026-09-17T14:47:55.225926+00:00",
+    "source_kind": "official",
+    "ok": true,
+    "text": "Find information about PitchBook’s API solution and discover how it can meet your business needs. Our API is a separate offering from the PitchBook Platform that requires a standalone contract agreement.\n\nPitchBook’s API solution allows you to call specific PitchBook data into your internal business systems on demand. This flexible solution means you have access to PitchBook’s expansive database. It’s the ideal integration for CRM enrichment, allowing you to extract data on an ad-hoc basis that meets the needs of your organization.\n\nThe PitchBook API is a RESTful implementation that most HTTP clients can easily access in your chosen language or via a web browser. Every call will use the same base URL: https://api.pitchbook.com†api.pitchbook.com L38: Available data points\n\nThe API solution offers a variety of relational endpoints, including financing details, deal stock information, as well as AI-powered VC exit predictor data. See the full list from our API Endpoints Overview document.†pitchbook.highspot.com L40: \n\nTo start your API connection, you will need to send a request directly to our Direct Data team through this link. L43: Or if you’re a PitchBook client, you can also head to the Plugins & Apps section from the My PitchBook section of the left-hand sidebar on the PitchBook Platform and choose PitchBook API.\n\nOur team will work with you to understand the insights and data you’re looking for and help you establish the API connection through an API key or authentication token. Available data for each entity type is packaged across several endpoints so you can map the data to your desired format and structure.",
+    "content_sha256": "05cf0297b8b7f41214dd2e1d52dacce8e48d09db4ba234cd735600da530e303e",
+    "fragments": [
+      {
+        "text": "Find information about PitchBook’s API solution and discover how it can meet your business needs. Our API is a separate offering from the PitchBook Platform that requires a standalone contract agreement.",
+        "heading": "Official browser-rendered body excerpt; line 6",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 6
+      },
+      {
+        "text": "PitchBook’s API solution allows you to call specific PitchBook data into your internal business systems on demand. This flexible solution means you have access to PitchBook’s expansive database. It’s the ideal integration for CRM enrichment, allowing you to extract data on an ad-hoc basis that meets the needs of your organization.",
+        "heading": "Official browser-rendered body excerpt; line 15",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 15
+      },
+      {
+        "text": "The PitchBook API is a RESTful implementation that most HTTP clients can easily access in your chosen language or via a web browser. Every call will use the same base URL: https://api.pitchbook.com†api.pitchbook.com L38: Available data points",
+        "heading": "Official browser-rendered body excerpt; line 37",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 37
+      },
+      {
+        "text": "The API solution offers a variety of relational endpoints, including financing details, deal stock information, as well as AI-powered VC exit predictor data. See the full list from our API Endpoints Overview document.†pitchbook.highspot.com L40: ",
+        "heading": "Official browser-rendered body excerpt; line 39",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 39
+      },
+      {
+        "text": "To start your API connection, you will need to send a request directly to our Direct Data team through this link. L43: Or if you’re a PitchBook client, you can also head to the Plugins & Apps section from the My PitchBook section of the left-hand sidebar on the PitchBook Platform and choose PitchBook API.",
+        "heading": "Official browser-rendered body excerpt; line 42",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 42
+      },
+      {
+        "text": "Our team will work with you to understand the insights and data you’re looking for and help you establish the API connection through an API key or authentication token. Available data for each entity type is packaged across several endpoints so you can map the data to your desired format and structure.",
+        "heading": "Official browser-rendered body excerpt; line 51",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 51
+      }
+    ],
+    "error": null,
+    "capture_type": "browser_rendered_selected_body_lines",
+    "browser_archive": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\targeted-official-review-20260917\\browser-batch-6.json",
+    "browser_archive_sha256": "997e78fad73690aee28951d71e3cc7f4668059dd291fcfc53facd196dd0a65db",
+    "browser_ref": "turn6view0",
+    "full_page_capture": false
+  },
+  {
+    "requested_url": "https://developers.clay.com/",
+    "final_url": "https://developers.clay.com/",
+    "retrieved_at": "2026-09-17T14:47:55.226588+00:00",
+    "source_kind": "official",
+    "ok": true,
+    "text": "Use Clay from agents, terminals, backend services, internal tools, and custom apps.\n\nClay used to live primarily in the Clay UI. Now Clay also works where your agents, developers, and business systems already are. Use the developer platform to search Clay’s GTM data, run reusable Clay logic, read table data, and work with Audiences programmatically.\n\nTables (Enterprise) | Query existing Clay table data from known tables\n\n  * Need existing table data? Use Tables . Tables are Enterprise only.",
+    "content_sha256": "36ddc0e848a8dc5c299ce7209ca91998afc06c7042b94739f713d56faa240073",
+    "fragments": [
+      {
+        "text": "Use Clay from agents, terminals, backend services, internal tools, and custom apps.",
+        "heading": "Official browser-rendered body excerpt; line 19",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 19
+      },
+      {
+        "text": "Clay used to live primarily in the Clay UI. Now Clay also works where your agents, developers, and business systems already are. Use the developer platform to search Clay’s GTM data, run reusable Clay logic, read table data, and work with Audiences programmatically.",
+        "heading": "Official browser-rendered body excerpt; line 21",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 21
+      },
+      {
+        "text": "Tables (Enterprise) | Query existing Clay table data from known tables",
+        "heading": "Official browser-rendered body excerpt; line 45",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 45
+      },
+      {
+        "text": "  * Need existing table data? Use Tables . Tables are Enterprise only.",
+        "heading": "Official browser-rendered body excerpt; line 57",
+        "category": "body",
+        "tag": "browser_line",
+        "ancestry": [],
+        "browser_line": 57
+      }
+    ],
+    "error": null,
+    "capture_type": "browser_rendered_selected_body_lines",
+    "browser_archive": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\targeted-official-review-20260917\\browser-batch-8.json",
+    "browser_archive_sha256": "b05606b6bf51bc6b82b52b469a55d8ae16e6dbf60e7ad1fdcafbb0e7601a5e4b",
+    "browser_ref": "turn8view2",
+    "full_page_capture": false
+  }
+]

@@ -1,2 +1,5 @@
-data/runs/** -text
-data/runs/** whitespace=cr-at-eol
+submission/composio-assessment-uday.html -text
+submission/history/*.html -text
+final-artifact-20260917/composio-assessment-uday.html -text
+data/correction/** -text
+data/publication/** -text

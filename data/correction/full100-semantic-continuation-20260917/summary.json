@@ -1,0 +1,228 @@
+{
+  "status": "PARTIAL",
+  "run_id": "full100-semantic-continuation-20260917",
+  "completion_count": 100,
+  "field_counts": {
+    "purpose": {
+      "source_backed": 44,
+      "unresolved": 56
+    },
+    "auth_methods": {
+      "unresolved": 31,
+      "source_backed_with_caveat": 69
+    },
+    "api_types": {
+      "unresolved": 57,
+      "source_backed_with_caveat": 43
+    },
+    "api_available": {
+      "source_backed_with_caveat": 77,
+      "unresolved": 23
+    },
+    "api_breadth": {
+      "source_backed_with_caveat": 76,
+      "unresolved": 24
+    },
+    "access_model": {
+      "source_backed_with_caveat": 64,
+      "unresolved": 36
+    },
+    "mcp_available": {
+      "unresolved": 63,
+      "source_backed_with_caveat": 37
+    },
+    "mcp_provider": {
+      "unresolved": 60,
+      "source_backed_with_caveat": 40
+    },
+    "mcp_ownership": {
+      "unresolved": 68,
+      "source_backed_with_caveat": 32
+    },
+    "mcp_notes": {
+      "unresolved": 60,
+      "source_backed_with_caveat": 40
+    },
+    "buildability": {
+      "source_backed_with_caveat": 66,
+      "unresolved": 34
+    },
+    "buildability_rationale": {
+      "source_backed_with_caveat": 74,
+      "unresolved": 26
+    },
+    "primary_blocker": {
+      "source_backed_with_caveat": 36,
+      "unresolved": 64
+    }
+  },
+  "all_critical_unresolved": [
+    {
+      "id": 23,
+      "app": "Zoho Cliq"
+    },
+    {
+      "id": 36,
+      "app": "Klaviyo"
+    },
+    {
+      "id": 41,
+      "app": "Shopify"
+    },
+    {
+      "id": 43,
+      "app": "BigCommerce"
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud"
+    },
+    {
+      "id": 48,
+      "app": "Gumroad"
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis"
+    },
+    {
+      "id": 60,
+      "app": "Clay"
+    },
+    {
+      "id": 61,
+      "app": "GitHub"
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas"
+    },
+    {
+      "id": 69,
+      "app": "Datadog"
+    },
+    {
+      "id": 73,
+      "app": "Linear"
+    },
+    {
+      "id": 76,
+      "app": "Monday.com"
+    },
+    {
+      "id": 81,
+      "app": "Stripe"
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect"
+    },
+    {
+      "id": 85,
+      "app": "iPayX"
+    },
+    {
+      "id": 90,
+      "app": "PitchBook"
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript"
+    }
+  ],
+  "unresolved_reasons": {
+    "No independently supported assigned-product evidence for auth_methods": 15,
+    "No independently supported assigned-product evidence for api_types": 45,
+    "No independently supported assigned-product evidence for mcp_available": 51,
+    "No independently supported assigned-product evidence for mcp_provider": 48,
+    "No independently supported assigned-product evidence for mcp_ownership": 56,
+    "No independently supported assigned-product evidence for mcp_notes": 48,
+    "No independently supported assigned-product evidence for primary_blocker": 7,
+    "The documentation passages show Podio supports multiple OAuth2 flows including app authentication flow, server-side flow, and username and password flow, not only 'oauth2' as a single method. The fact lists only 'oauth2' without specifying flows, but the passages indicate multiple OAuth2 flows and username/password flow as well, so the fact is incomplete and thus unsupported as stated.": 1,
+    "No independently supported assigned-product evidence for access_model": 27,
+    "Positive readiness dependencies failed independent field audit": 4,
+    "Only REST API is explicitly documented with resource actions and usage (d14:b16). GraphQL is described as a query language available in certain editions but no actual API resource or endpoint documentation is provided, and GraphQL APIs are not available in trial versions (d17:b2, d17:b7, d17:b8). Thus, GraphQL API availability is not sufficiently documented as an API type.": 1,
+    "Passages d11:b511, d0:b87, d3:b87, d11:b517, d11:b520, d4:b284, d4:b285, d0:b89, d3:b89, d2:b72, d2:b77, d2:b66, d4:b275, d4:b277, d4:b278, d4:b280, d4:b282, d4:b293, d5:b514, d5:b518, and d5:b522 provide core resource and authentication evidence but also note incomplete credential onboarding or coherent auth/API support, indicating that buildability needs further investigation.": 1,
+    "No independently supported assigned-product evidence for purpose": 47,
+    "Although core resource evidence is retained, the documentation lacks complete credential onboarding or coherent authentication/API support details necessary to confirm buildability, as noted in passages d0:b193 and d2:b193.": 1,
+    "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed. No absence-of-blockers claim.": 31,
+    "No independently supported assigned-product evidence for api_available": 9,
+    "No independently supported assigned-product evidence for api_breadth": 10,
+    "There is insufficient coherent documented resource API, authentication, and credential onboarding evidence in the provided passages to support buildability; the fact is marked unresolved and no supporting passages are provided.": 1,
+    "No independently supported assigned-product evidence for buildability_rationale": 1,
+    "Insufficient coherent documented resource API, authentication and credential onboarding evidence.": 14,
+    "Insufficient coherent documented resource API, authentication and credential onboarding evidence. No absence-of-blockers claim.": 7,
+    "Independent field audit failed: ValueError: Missing or duplicate field review": 57,
+    "Although core resource evidence exists, passages d4:b7 and d4:b9 indicate that enterprise administrator approval and permission configuration are required before API calls succeed, and the documentation does not confirm complete credential onboarding or coherent auth/API support, thus buildability is not fully supported.": 1,
+    "The rationale is that prerequisite enterprise admin approval and data permission configuration are mandatory, and the documentation does not confirm complete onboarding or coherent auth/API support, as per passages d4:b7 and d4:b9.": 1,
+    "While core resource evidence and API key generation are documented, the documentation notes that credential onboarding or coherent auth/API support is incomplete or not fully certified, making buildability uncertain.": 1,
+    "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.": 12,
+    "Passages mention system user access tokens and user access tokens but do not mention api_key or personal_access_token as authentication methods. Only access tokens (system user and user) are documented.": 1,
+    "HTTPError: HTTP Error 429: Too Many Requests": 52,
+    "ValueError: Docs inaccessible or source unreadable: no selectable body evidence": 39,
+    "Passages indicate that while core resource evidence is retained, credential onboarding or coherent auth/API support is incomplete, and full prerequisite inventory is not certified, leading to a conclusion that buildability needs further investigation and is not fully supported.": 1,
+    "The documentation and usage passages (d0:b189, d1:b189) describe a command-line tool with options but do not provide evidence of a documented API or protocol for programmatic access. The evidence shows CLI usage, not an API.": 1,
+    "While the tool can check usernames across 400+ social networks and create output files, there is no documented API resource or actions described in the passages. The evidence only supports CLI functionality, not API breadth.": 1,
+    "The passages indicate core resource evidence is present but credential onboarding or coherent auth/API support is incomplete. No evidence of a coherent API or authentication flow is documented.": 1,
+    "The rationale is that core resource evidence is retained but credential onboarding or coherent auth/API support is incomplete, as supported by the inspected documentation passages.": 1,
+    "The cited body passage is corrupted or unreadable and does not provide any verifiable information about authentication methods such as API key usage.": 1,
+    "The cited body passage is corrupted or unreadable and does not provide any verifiable evidence about buildability or credential onboarding for the Datadog API.": 1,
+    "The cited body passage is corrupted or unreadable and does not provide any verifiable rationale or evidence regarding buildability or authentication/API support completeness.": 1,
+    "While the documentation provides core resource evidence and authentication details, it notes that credential onboarding or coherent auth/API support is incomplete and requires further investigation. There is no explicit complete onboarding or execution proof, so buildability is not fully confirmed.": 1,
+    "Passages d0:b5, d1:b8, and d1:b12 provide documentation and examples but do not demonstrate complete credential onboarding or coherent auth/API support necessary for buildability; thus, buildability is not fully supported.": 1,
+    "While core resource evidence and example requests are provided, the documentation lacks complete and coherent details on credential onboarding or full authentication and API support to confirm buildability. The status and rationale note incomplete credential onboarding and coherent auth/API support (passages d4:b67, d4:b68, d4:b99, d4:b100, d4:b101, d4:b102, d4:b103, d4:b104, d4:b105, d4:b79, d5:b94, d5:b95, d5:b92, d5:b93, d5:b96, d6:b46, d6:b47, d6:b51). Thus, buildability is unsupported.": 1,
+    "While core resource evidence is present in passages d0:b166, d3:b189, d3:b206, d8:b150, d10:b170, and d10:b194, the documentation indicates incomplete credential onboarding or coherent auth/API support, making buildability unclear.": 1,
+    "Passages d2:b128 and d3:b157 describe authentication using GitHub tokens and npm login for package registry access, but do not mention API key authentication. Therefore, the claim that 'api_key' is an auth method is not supported by the cited passages.": 1
+  },
+  "readiness_distribution": {
+    "needs_further_investigation": 5,
+    "buildable_with_documented_constraints": 50,
+    "unresolved": 34,
+    "gated_or_outreach_required": 10,
+    "likely_buildable_from_public_docs": 1
+  },
+  "search_attempts": 1304,
+  "search_successes": 1303,
+  "retrieval_attempts": 1255,
+  "readable_pages": 1154,
+  "capture_errors": [],
+  "exact_citations": 6922,
+  "failures": [
+    {
+      "id": 41,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 44,
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence"
+    },
+    {
+      "id": 48,
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence"
+    },
+    {
+      "id": 60,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 76,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 81,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 85,
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence"
+    }
+  ],
+  "semantic_qa": "Independent model challenge plus deterministic body/official-identity/protocol/MCP/surface guards; not human accuracy. Unsupported atoms downgraded independently.",
+  "ready_for_fresh_sample": true,
+  "historical_overlap_count": 40,
+  "finished_at": "2026-09-17T14:18:19.603602+00:00"
+}

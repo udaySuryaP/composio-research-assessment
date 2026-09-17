@@ -1,0 +1,4522 @@
+[
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Email and SMS marketing with customer-data-driven personalization.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d3:b144"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d3:b144"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key",
+        "oauth2"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Private keys/OAuth apply to server APIs; public site IDs apply to client APIs. These credentials are not interchangeable."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b8"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b8"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b148"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b148"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Inspected server actions include bulk event creation for profiles.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b148"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b148"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Account keys are self-managed by Owner/Admin/Manager; server scopes must match intended endpoints.",
+          "atom_id": "targeted-36-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d5:b73",
+        "d5:b81"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d5:b73",
+      "d5:b81"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Owner/Admin/Manager role needed to manage API keys; endpoint scopes constrain access.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d5:b73",
+        "d5:b81"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d5:b73",
+      "d5:b81"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Server API and key onboarding are documented; role and scope requirements apply.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b8",
+        "d5:b73",
+        "d7:b148"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b8",
+      "d5:b73",
+      "d7:b148"
+    ]
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Server API and key onboarding are documented; role and scope requirements apply.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Server API and key onboarding are documented; role and scope requirements apply.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b8",
+        "d5:b73",
+        "d7:b148"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b8",
+      "d5:b73",
+      "d7:b148"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "other"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "GraphQL Admin API access token in X-Shopify-Access-Token; acquisition flow depends on app type."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b123"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b123"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b123"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b123"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "graphql"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b123"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b123"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Admin GraphQL product queries are evidenced; broader endpoint census not established.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b404"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b404"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Install app on a development store for testing; app scopes requested during installation.",
+          "atom_id": "targeted-41-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d9:b96",
+        "d0:b125"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d9:b96",
+      "d0:b125"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Required app scopes and installation; development-store evidence does not certify production distribution.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b125",
+        "d9:b96"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b125",
+      "d9:b96"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Admin API token/authentication and app testing are documented; production distribution remains route-specific.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b123",
+        "d9:b96",
+        "d0:b125"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b123",
+      "d9:b96",
+      "d0:b125"
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Admin API token/authentication and app testing are documented; production distribution remains route-specific.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Admin API token/authentication and app testing are documented; production distribution remains route-specific.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b123",
+        "d9:b96",
+        "d0:b125"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b123",
+      "d9:b96",
+      "d0:b125"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for auth_methods",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "oauth2"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Store tokens and app installation grants are distinct OAuth-based account routes; token header does not imply every API uses this scheme."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:1"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:1"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_available",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:2:0"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:2:0"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_types",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "rest",
+        "graphql"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_breadth",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Store data management, customer sign-in, and client-side product queries.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:2:0"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:2:0"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for access_model",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Store-level credentials from merchant control panel; app-level credentials require store authorization.",
+          "atom_id": "targeted-43-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:1:0",
+        "browser:1:2"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:1:0",
+      "browser:1:2"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "API account scopes must permit the intended operations.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:2"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:2"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence.",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "OAuth API accounts and credential onboarding are documented; account route and scopes constrain operations.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:1",
+        "browser:1:0",
+        "browser:0:2"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:1",
+      "browser:1:0",
+      "browser:0:2"
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence.",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "OAuth API accounts and credential onboarding are documented; account route and scopes constrain operations.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "OAuth API accounts and credential onboarding are documented; account route and scopes constrain operations.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:1",
+        "browser:1:0",
+        "browser:0:2"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:1",
+      "browser:1:0",
+      "browser:0:2"
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0"
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "configuration",
+          "surface": "primary",
+          "qualification": "B2C Commerce SCAPI client permissions and OAuth-based scopes; pricing and client onboarding not established.",
+          "atom_id": "targeted-44-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:1"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:1"
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "SCAPI Admin and Shopper API scope-controlled resources; endpoint census unresolved.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:1"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:1"
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Client permissions and SCAPI scopes must be configured; credential onboarding remains unresolved.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0",
+        "browser:0:1"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0",
+      "browser:0:1"
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "needs_further_investigation",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "SCAPI existence and client authorization evidenced, but coherent resource authentication and onboarding are not established by these pages.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0",
+        "browser:0:1"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0",
+      "browser:0:1"
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "SCAPI existence and client authorization evidenced, but coherent resource authentication and onboarding are not established by these pages.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "SCAPI existence and client authorization evidenced, but coherent resource authentication and onboarding are not established by these pages.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0",
+        "browser:0:1"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0",
+      "browser:0:1"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for auth_methods",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "oauth2"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Login with Amazon access tokens for non-restricted operations; restricted PII operations require RDTs; grantless calls use client credentials."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d0:b584",
+        "target:d0:b586"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d0:b584",
+      "target:d0:b586"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_available",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d0:b584"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d0:b584"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_breadth",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Catalog item lookup example and restricted-operation authorization are evidenced.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d0:b616",
+        "target:d0:b584"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d0:b616",
+      "target:d0:b584"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for access_model",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "registration",
+          "surface": "primary",
+          "qualification": "SP-API developer and application registration required; public apps must be listed in the Selling Partner Appstore.",
+          "atom_id": "targeted-49-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d1:b575",
+        "target:d1:b579"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d1:b575",
+      "target:d1:b579"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Developer/application registration and selling-partner authorization; restricted operations require RDTs.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d1:b575",
+        "target:d0:b586",
+        "target:d0:b584"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d1:b575",
+      "target:d0:b586",
+      "target:d0:b584"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence.",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Connection and authorization workflow documented; developer registration, selling-partner consent and restricted-data requirements apply.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d1:b575",
+        "target:d0:b586",
+        "target:d0:b584"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d1:b575",
+      "target:d0:b586",
+      "target:d0:b584"
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence.",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Connection and authorization workflow documented; developer registration, selling-partner consent and restricted-data requirements apply.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Connection and authorization workflow documented; developer registration, selling-partner consent and restricted-data requirements apply.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d1:b575",
+        "target:d0:b586",
+        "target:d0:b584"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d1:b575",
+      "target:d0:b586",
+      "target:d0:b584"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b158"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b158"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b135"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b135"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Searches, routines and read-only table data; no table creation or record writes certified.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b135",
+        "d7:b163"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b135",
+      "d7:b163"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Public API has its own key, issued through CLI; current developer overview labels Tables Enterprise.",
+          "atom_id": "targeted-60-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b158",
+        "browser:0:3"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b158",
+      "browser:0:3"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Tables access is Enterprise in current developer docs; prior University text mentions basic reads on any plan, so precise entitlement requires verification.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b164",
+        "browser:0:3"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b164",
+      "browser:0:3"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Public API key and resource actions documented. Table entitlement differs across official pages; restrict claims to searches/routines and verify the table route.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b158",
+        "d7:b135",
+        "d7:b164",
+        "browser:0:3"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b158",
+      "d7:b135",
+      "d7:b164",
+      "browser:0:3"
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Public API key and resource actions documented. Table entitlement differs across official pages; restrict claims to searches/routines and verify the table route.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Public API key and resource actions documented. Table entitlement differs across official pages; restrict claims to searches/routines and verify the table route.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d7:b158",
+        "d7:b135",
+        "d7:b164",
+        "browser:0:3"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d7:b158",
+      "d7:b135",
+      "d7:b164",
+      "browser:0:3"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_types",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "rest"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b293"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b293"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b293"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b293"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Inspected REST actions retrieve app and app-installation information.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d5:b272"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d5:b272"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for access_model",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Personal access tokens can be created for personal REST API use; permissions and organization policies apply.",
+          "atom_id": "targeted-61-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b293",
+        "d0:b294",
+        "d0:b298"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b293",
+      "d0:b294",
+      "d0:b298"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Endpoint permissions; classic tokens need authorization for SAML SSO organizations.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b294",
+        "d0:b298"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b294",
+      "d0:b298"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Personal REST integration has documented token creation and endpoint permissions; organization SAML policies can add authorization.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b293",
+        "d0:b294",
+        "d0:b298"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b293",
+      "d0:b294",
+      "d0:b298"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Personal REST integration has documented token creation and endpoint permissions; organization SAML policies can add authorization.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Personal REST integration has documented token creation and endpoint permissions; organization SAML policies can add authorization.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b293",
+        "d0:b294",
+        "d0:b298"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b293",
+      "d0:b294",
+      "d0:b298"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b210"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b210"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "GitHub-hosted remote GitHub MCP Server; local version also documented.",
+          "atom_id": "targeted-61-mcp"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b210"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b210"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "GitHub-hosted remote GitHub MCP Server; local version also documented.",
+          "atom_id": "targeted-61-mcp-owner"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b210"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b210"
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "GitHub-hosted remote GitHub MCP Server; local version also documented.; resource API authentication and MCP authentication are separate surfaces.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b210"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b210"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "oauth2",
+        "api_key"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Atlas Administration API service-account OAuth tokens recommended; API keys use legacy HTTP Digest. Neither authorizes cluster database reads/writes."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b160",
+        "d0:b186"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b160",
+      "d0:b186"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b159"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b159"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Atlas cluster administration and database-user management; cluster data requires separate database-user authentication.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b159",
+        "d0:b163"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b159",
+      "d0:b163"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Service account client ID/secret create access tokens; assigned Atlas roles constrain operations.",
+          "atom_id": "targeted-68-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b171",
+        "d0:b179"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b171",
+      "d0:b179"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Atlas role permissions and separate cluster database-user credentials for data access.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b179",
+        "d0:b163"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b179",
+      "d0:b163"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Administration API credential flow and roles documented; this assessment does not certify cluster-data integration.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b171",
+        "d0:b179",
+        "d0:b163"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b171",
+      "d0:b179",
+      "d0:b163"
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Administration API credential flow and roles documented; this assessment does not certify cluster-data integration.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Administration API credential flow and roles documented; this assessment does not certify cluster-data integration.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b171",
+        "d0:b179",
+        "d0:b163"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b171",
+      "d0:b179",
+      "d0:b163"
+    ]
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_available",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d2:b450"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d2:b450"
+    ]
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_breadth",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Configuration, querying and management APIs; intake covers metrics, logs and traces.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d2:b467",
+        "target:d2:b468"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d2:b467",
+      "target:d2:b468"
+    ]
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Authentication migration: legacy application keys continue; blog distinguishes current SATs from planned M2M OAuth. Endpoint eligibility not resolved.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d2:b450",
+        "target:d2:b448"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d2:b450",
+      "target:d2:b448"
+    ]
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "The cited body passage is corrupted or unreadable and does not provide any verifiable evidence about buildability or credential onboarding for the Datadog API.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "needs_further_investigation",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "API existence is evidenced but changing credential routes and endpoint-specific onboarding require further investigation.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d2:b450",
+        "target:d2:b448"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d2:b450",
+      "target:d2:b448"
+    ]
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "The cited body passage is corrupted or unreadable and does not provide any verifiable rationale or evidence regarding buildability or authentication/API support completeness.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "API existence is evidenced but changing credential routes and endpoint-specific onboarding require further investigation.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "API existence is evidenced but changing credential routes and endpoint-specific onboarding require further investigation.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d2:b450",
+        "target:d2:b448"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "target:d2:b450",
+      "target:d2:b448"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key",
+        "oauth2"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b58"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b58"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b52"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b52"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "graphql"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b52"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b52"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Issue queries and team issue webhooks are evidenced.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b65",
+        "d0:b109"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b65",
+      "d0:b109"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for access_model",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Personal keys created in Security & access settings; OAuth2 recommended for applications used by others.",
+          "atom_id": "targeted-73-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b63",
+        "d0:b60"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b63",
+      "d0:b60"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "GraphQL API, personal key creation and OAuth recommendation documented; app-user permissions remain route-specific.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b52",
+        "d0:b58",
+        "d0:b63"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b52",
+      "d0:b58",
+      "d0:b63"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "GraphQL API, personal key creation and OAuth recommendation documented; app-user permissions remain route-specific.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "GraphQL API, personal key creation and OAuth recommendation documented; app-user permissions remain route-specific.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b52",
+        "d0:b58",
+        "d0:b63"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b52",
+      "d0:b58",
+      "d0:b63"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b72"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b72"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Linear centrally hosted MCP Server; Streamable HTTP with OAuth or direct bearer/key options.",
+          "atom_id": "targeted-73-mcp"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b72"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b72"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "Linear centrally hosted MCP Server; Streamable HTTP with OAuth or direct bearer/key options.",
+          "atom_id": "targeted-73-mcp-owner"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b72"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b72"
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Linear centrally hosted MCP Server; Streamable HTTP with OAuth or direct bearer/key options.; resource API authentication and MCP authentication are separate surfaces.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b72"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b72"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "personal_access_token"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b149"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b149"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b45"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b45"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "graphql"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b45"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b45"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Workflow API and board/column/item/account permissions evidenced; endpoint census unestablished.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b45",
+        "d0:b153"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b45",
+      "d0:b153"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Users with API access retrieve personal token through Developer Center; permissions mirror UI.",
+          "atom_id": "targeted-76-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b159",
+        "d0:b162",
+        "d0:b150"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b159",
+      "d0:b162",
+      "d0:b150"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Account API eligibility and user platform permissions; no universal free-plan access claim.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b159",
+        "d0:b150"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b159",
+      "d0:b150"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "GraphQL platform API and token access documented for eligible users; platform permissions constrain calls.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b45",
+        "d0:b149",
+        "d0:b159",
+        "d0:b150"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b45",
+      "d0:b149",
+      "d0:b159",
+      "d0:b150"
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "GraphQL platform API and token access documented for eligible users; platform permissions constrain calls.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "GraphQL platform API and token access documented for eligible users; platform permissions constrain calls.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b45",
+        "d0:b149",
+        "d0:b159",
+        "d0:b150"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b45",
+      "d0:b149",
+      "d0:b159",
+      "d0:b150"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key",
+        "basic"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b150",
+        "d0:b153"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b150",
+      "d0:b153"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b150"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b150"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Keys managed in Dashboard; test sandbox and live restricted-key permissions differ.",
+          "atom_id": "targeted-81-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b150",
+        "d0:b151"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b150",
+      "d0:b151"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Live restricted-key permissions limit API operations; live payment eligibility not certified.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b151"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b151"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documented API-key authentication and Dashboard onboarding support sandbox integration; live eligibility remains unverified.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b150",
+        "d0:b151",
+        "d0:b153"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b150",
+      "d0:b151",
+      "d0:b153"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Documented API-key authentication and Dashboard onboarding support sandbox integration; live eligibility remains unverified.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documented API-key authentication and Dashboard onboarding support sandbox integration; live eligibility remains unverified.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b150",
+        "d0:b151",
+        "d0:b153"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b150",
+      "d0:b151",
+      "d0:b153"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b89",
+        "d1:b91"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b89",
+      "d1:b91"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Stripe MCP Server, vendor-hosted; OAuth and restricted-key routes are separate from resource API auth.",
+          "atom_id": "targeted-81-mcp"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b89",
+        "d1:b91"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b89",
+      "d1:b91"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "Stripe MCP Server, vendor-hosted; OAuth and restricted-key routes are separate from resource API auth.",
+          "atom_id": "targeted-81-mcp-owner"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b89",
+        "d1:b91"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b89",
+      "d1:b91"
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "HTTPError: HTTP Error 429: Too Many Requests",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Stripe MCP Server, vendor-hosted; OAuth and restricted-key routes are separate from resource API auth.; resource API authentication and MCP authentication are separate surfaces.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b89",
+        "d1:b91"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b89",
+      "d1:b91"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for auth_methods",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key",
+        "other"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Vendor describes API key or authentication token; exact token issuance/grant scheme is not documented here."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:5"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:5"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_available",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:2"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:2"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_types",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "rest"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:2"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:2"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_breadth",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Financing details, deal stock information and VC exit predictor endpoints.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:3"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:3"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for access_model",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "sales_contact",
+          "surface": "primary",
+          "qualification": "Separate API offering requires standalone contract and Direct Data team request.",
+          "atom_id": "targeted-90-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0",
+        "browser:0:4"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0",
+      "browser:0:4"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Standalone API contract and Direct Data outreach.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0",
+        "browser:0:4"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:0",
+      "browser:0:4"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence.",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "gated_or_outreach_required",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "API and access mechanism evidenced; standalone contract and Direct Data outreach gate the route.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:2",
+        "browser:0:0",
+        "browser:0:4"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:2",
+      "browser:0:0",
+      "browser:0:4"
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Insufficient coherent documented resource API, authentication and credential onboarding evidence.",
+        "caveats": [],
+        "derivation": true
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "API and access mechanism evidenced; standalone contract and Direct Data outreach gate the route.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "API and access mechanism evidenced; standalone contract and Direct Data outreach gate the route.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:2",
+        "browser:0:0",
+        "browser:0:4"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "browser:0:2",
+      "browser:0:0",
+      "browser:0:4"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "TranscriptAPI retrieves YouTube video transcripts programmatically.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b115"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b115"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for auth_methods",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Assigned product is TranscriptAPI.com, a third-party transcript service; API key sent as Bearer token. MCP OAuth is a separate surface."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b155"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b155"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b115"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b115"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for api_types",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "rest"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b215"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b215"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Transcripts, search, channel and playlist endpoints.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d0:b23"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d0:b23"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for access_model",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "API key from dashboard; requests consume credits and exhausted credits return 402.",
+          "atom_id": "targeted-99-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b131",
+        "d1:b583"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b131",
+      "d1:b583"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Available request credits and transcript availability; credit exhaustion returns 402.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b583"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b583"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Resource API key onboarding and transcript endpoints documented; credit and transcript-availability constraints remain.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b115",
+        "d1:b155",
+        "d1:b131",
+        "d1:b583"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b115",
+      "d1:b155",
+      "d1:b131",
+      "d1:b583"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Resource API key onboarding and transcript endpoints documented; credit and transcript-availability constraints remain.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Resource API key onboarding and transcript endpoints documented; credit and transcript-availability constraints remain.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b115",
+        "d1:b155",
+        "d1:b131",
+        "d1:b583"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d1:b115",
+      "d1:b155",
+      "d1:b131",
+      "d1:b583"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b129",
+        "d2:b206"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b129",
+      "d2:b206"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "TranscriptAPI.com native MCP endpoint; OAuth/API-key options; not a Google-owned YouTube server.",
+          "atom_id": "targeted-99-mcp"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b129",
+        "d2:b206"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b129",
+      "d2:b206"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "TranscriptAPI.com native MCP endpoint; OAuth/API-key options; not a Google-owned YouTube server.",
+          "atom_id": "targeted-99-mcp-owner"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b129",
+        "d2:b206"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b129",
+      "d2:b206"
+    ]
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Independent field audit failed: ValueError: Missing or duplicate field review",
+        "caveats": [],
+        "derivation": false
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "TranscriptAPI.com native MCP endpoint; OAuth/API-key options; not a Google-owned YouTube server.; resource API authentication and MCP authentication are separate surfaces.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d2:b129",
+        "d2:b206"
+      ]
+    },
+    "reviewer": "Codex agent; not a human verification sample",
+    "evidence_ids": [
+      "d2:b129",
+      "d2:b206"
+    ]
+  }
+]

@@ -1,0 +1,1537 @@
+[
+  {
+    "item_id": "002:auth_methods",
+    "sample_kind": "unbiased",
+    "app_id": 2,
+    "app_name": "HubSpot",
+    "category": "1. CRM and Sales",
+    "field": "auth_methods",
+    "first_pass_value": [
+      "oauth2"
+    ],
+    "first_pass_evidence_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    ],
+    "official_source_candidates": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+    "observed_correct_value": [
+      "oauth2"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "oauth2"
+    ],
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "The official HubSpot documentation explicitly states that OAuth uses authorization tokens to connect an app to a HubSpot account. Apps intended for installation by multiple HubSpot accounts or listing on the HubSpot Marketplace must use OAuth. The flow exchanges an authorization code using the app's client ID and client secret for an access token and refresh token, and the access token is then used to authenticate API calls. This page supports OAuth2 as an authentication method for HubSpot's developer API.",
+    "review_reported_at": "2026-09-16T19:15:23+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report.",
+    "corrected_value": [
+      "oauth2"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "002:access_model",
+    "sample_kind": "unbiased",
+    "app_id": 2,
+    "app_name": "HubSpot",
+    "category": "1. CRM and Sales",
+    "field": "access_model",
+    "first_pass_value": "self_serve_paid",
+    "first_pass_evidence_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    ],
+    "official_source_candidates": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+    "observed_correct_value": "admin_approval",
+    "first_pass_correct": "no",
+    "final_value": "admin_approval",
+    "final_correct": "yes",
+    "correction_reason": "This page does not establish that API access is paid. Instead, it explicitly states that users installing apps in a HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions. Therefore the first-pass value self_serve_paid is not supported by this source. The documented restriction is an account permission/admin requirement. This finding concerns permission to install/authorize the integration; the page does not by itself establish HubSpot's broader pricing or developer-plan requirements.",
+    "notes": "This page does not establish that API access is paid. Instead, it explicitly states that users installing apps in a HubSpot account must either be a Super Admin or have HubSpot Marketplace Access permissions. Therefore the first-pass value self_serve_paid is not supported by this source. The documented restriction is an account permission/admin requirement. This finding concerns permission to install/authorize the integration; the page does not by itself establish HubSpot's broader pricing or developer-plan requirements.",
+    "review_reported_at": "2026-09-16T19:15:23+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report.",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+        "atom_id": "a10"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+        "atom_id": "a14"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+        "atom_id": "a17"
+      },
+      {
+        "gate": "paid_plan",
+        "surface": "primary",
+        "qualification": "HubSpot payments require a paid HubSpot subscription and a bank account in the same country as the company's registration.",
+        "atom_id": "a18"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+        "atom_id": "a19"
+      }
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "001:api_available",
+    "sample_kind": "unbiased",
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "field": "api_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "The official Salesforce REST API documentation explicitly states that REST API provides programmatic access to Salesforce data and can be used to integrate Salesforce into applications. It also states that API resources are accessed through HTTP requests to URIs. This directly establishes that Salesforce exposes an inbound developer API.",
+    "notes": "The official Salesforce REST API documentation explicitly states that REST API provides programmatic access to Salesforce data and can be used to integrate Salesforce into applications. It also states that API resources are accessed through HTTP requests to URIs. This directly establishes that Salesforce exposes an inbound developer API.",
+    "review_reported_at": "2026-09-16T19:18:09+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report.",
+    "observed_source_urls": [
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm"
+    ],
+    "corrected_value": "yes",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "001:api_types",
+    "sample_kind": "unbiased",
+    "app_id": 1,
+    "app_name": "Salesforce",
+    "category": "1. CRM and Sales",
+    "field": "api_types",
+    "first_pass_value": [
+      "unknown"
+    ],
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which API protocols are explicitly documented for this product?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "The inspected official sources explicitly document Salesforce REST API and state that it follows RESTful principles, uses resources exposed by URIs, and is accessed through HTTP requests. These sources support \"rest\". They do not by themselves establish additional API types such as SOAP or GraphQL, so no other protocol types should be added from this review.",
+    "notes": "The inspected official sources explicitly document Salesforce REST API and state that it follows RESTful principles, uses resources exposed by URIs, and is accessed through HTTP requests. These sources support \"rest\". They do not by themselves establish additional API types such as SOAP or GraphQL, so no other protocol types should be added from this review.",
+    "review_reported_at": "2026-09-16T19:18:09+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied. review_reported_at is the recorded receipt time of the actual human report.",
+    "observed_source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "095:mcp_available",
+    "sample_kind": "unbiased",
+    "app_id": 95,
+    "app_name": "Reducto",
+    "category": "10. AI, Research and Media-native",
+    "field": "mcp_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/api-reference/authentication"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.reducto.ai/",
+    "observed_correct_value": "official",
+    "first_pass_correct": "no",
+    "final_value": "official",
+    "final_correct": "yes",
+    "correction_reason": "The official Reducto documentation explicitly states that Reducto integrates into AI agent workflows via its MCP server, and links to an MCP Server page. The Quickstart also instructs developers to install `mcp-server-reducto` and lists the tools exposed by that server. Because this is documented directly in Reducto's own documentation, the MCP availability is official rather than merely community-provided.",
+    "notes": "The official Reducto documentation explicitly states that Reducto integrates into AI agent workflows via its MCP server, and links to an MCP Server page. The Quickstart also instructs developers to install `mcp-server-reducto` and lists the tools exposed by that server. Because this is documented directly in Reducto's own documentation, the MCP availability is official rather than merely community-provided.",
+    "review_reported_at": "2026-09-16T19:20:24+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied; report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/quickstart"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "095:buildability",
+    "sample_kind": "unbiased",
+    "app_id": 95,
+    "app_name": "Reducto",
+    "category": "10. AI, Research and Media-native",
+    "field": "buildability",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/api-reference/authentication"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.reducto.ai/",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "no",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "notes": "The official documentation shows a straightforward developer onboarding path: developers can create a free Reducto account, generate an API key in Studio, authenticate with `REDUCTO_API_KEY`, and call documented REST endpoints or use official Python, Node.js, and Go SDKs. The docs also provide an official MCP server, CLI, quickstart examples, and multiple API endpoints such as parse, extract, split, and edit. No partner, sales, or admin approval gate is established in the inspected sources. Based on the documented self-service credentials, available API surface, SDKs, MCP server, and usable documentation, integration is buildable.",
+    "review_reported_at": "2026-09-16T19:20:24+00:00",
+    "timestamp_note": "Exact source-inspection time not supplied; report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.reducto.ai/",
+      "https://docs.reducto.ai/quickstart"
+    ],
+    "corrected_value": "unresolved",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "094:primary_blocker",
+    "sample_kind": "unbiased",
+    "app_id": 94,
+    "app_name": "Consensus",
+    "category": "10. AI, Research and Media-native",
+    "field": "primary_blocker",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://consensus.app/",
+      "https://docs.consensus.app/docs/mcp"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.consensus.app/enterprise/connection-reference",
+    "observed_correct_value": "paid_or_enterprise_access_requirements",
+    "first_pass_correct": "no",
+    "final_value": "paid_or_enterprise_access_requirements",
+    "final_correct": "yes",
+    "correction_reason": "Consensus does expose both an MCP server and an API, so integration is not technically blocked. However, access is commercially conditioned. The documentation states that API-key gateway credentials map to the Enterprise tier, while paid plans provide defined request limits and paper limits. Some enterprise-specific setups, such as confidential OAuth clients for gateways that cannot use Dynamic Client Registration, require contacting sales for manual provisioning. Therefore the practical blocker is not lack of API/MCP capability, but paid/Enterprise access requirements and, for some gateway configurations, sales-assisted credential provisioning.",
+    "notes": "Consensus does expose both an MCP server and an API, so integration is not technically blocked. However, access is commercially conditioned. The documentation states that API-key gateway credentials map to the Enterprise tier, while paid plans provide defined request limits and paper limits. Some enterprise-specific setups, such as confidential OAuth clients for gateways that cannot use Dynamic Client Registration, require contacting sales for manual provisioning. Therefore the practical blocker is not lack of API/MCP capability, but paid/Enterprise access requirements and, for some gateway configurations, sales-assisted credential provisioning.",
+    "review_reported_at": "2026-09-16T19:27:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.consensus.app/enterprise/connection-reference",
+      "https://docs.consensus.app/enterprise"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "094:auth_methods",
+    "sample_kind": "unbiased",
+    "app_id": 94,
+    "app_name": "Consensus",
+    "category": "10. AI, Research and Media-native",
+    "field": "auth_methods",
+    "first_pass_value": [
+      "unknown"
+    ],
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://consensus.app/",
+      "https://docs.consensus.app/docs/mcp"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.consensus.app/enterprise/connection-reference",
+    "observed_correct_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "The official Consensus documentation explicitly documents two authentication methods for MCP/API access. Shared server-side integrations can use an API key sent as a Bearer token, while per-user integrations use OAuth 2.0 authorization-code flow with PKCE. The docs also explicitly distinguish these methods from ordinary website login and state that there is no OAuth client-credentials grant.",
+    "notes": "The official Consensus documentation explicitly documents two authentication methods for MCP/API access. Shared server-side integrations can use an API key sent as a Bearer token, while per-user integrations use OAuth 2.0 authorization-code flow with PKCE. The docs also explicitly distinguish these methods from ordinary website login and state that there is no OAuth client-credentials grant.",
+    "review_reported_at": "2026-09-16T19:27:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.consensus.app/enterprise/connection-reference",
+      "https://docs.consensus.app/enterprise/security"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "014:access_model",
+    "sample_kind": "unbiased",
+    "app_id": 14,
+    "app_name": "Front",
+    "category": "2. Support and Helpdesk",
+    "field": "access_model",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://dev.frontapp.com/docs/authentication.md"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://dev.frontapp.com/docs/authentication",
+    "observed_correct_value": "admin_approval",
+    "first_pass_correct": "no",
+    "final_value": "admin_approval",
+    "final_correct": "yes",
+    "correction_reason": "Front provides a self-service developer path, but using account-level API credentials is permission-gated. The official API-token documentation states that a user must be an admin to create or manage API tokens. The OAuth documentation also states that end users authorizing OAuth apps must be admins, except for Front's MCP server, which uses user-scoped tokens and can be authorized by any teammate. Public integrations must use OAuth unless Front grants an exception. The inspected sources do not establish a paid-plan or sales gate for ordinary Core API access, so the access model is best classified as admin_approval rather than self_serve_paid or sales_gated.",
+    "notes": "Front provides a self-service developer path, but using account-level API credentials is permission-gated. The official API-token documentation states that a user must be an admin to create or manage API tokens. The OAuth documentation also states that end users authorizing OAuth apps must be admins, except for Front's MCP server, which uses user-scoped tokens and can be authorized by any teammate. Public integrations must use OAuth unless Front grants an exception. The inspected sources do not establish a paid-plan or sales gate for ordinary Core API access, so the access model is best classified as admin_approval rather than self_serve_paid or sales_gated.",
+    "review_reported_at": "2026-09-16T19:32:32+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://dev.frontapp.com/docs/authentication",
+      "https://dev.frontapp.com/docs/create-and-revoke-api-tokens",
+      "https://dev.frontapp.com/docs/oauth"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "014:api_available",
+    "sample_kind": "unbiased",
+    "app_id": 14,
+    "app_name": "Front",
+    "category": "2. Support and Helpdesk",
+    "field": "api_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://dev.frontapp.com/docs/authentication.md"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://dev.frontapp.com/docs/authentication",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "Front explicitly exposes a Core API for external integrations. The official documentation shows authenticated requests to https://api2.frontapp.com/, including creating and updating Front resources, and states that API tokens can be used for integrations or scripts that make programmatic updates through the API. This directly establishes an inbound developer API.",
+    "notes": "Front explicitly exposes a Core API for external integrations. The official documentation shows authenticated requests to https://api2.frontapp.com/, including creating and updating Front resources, and states that API tokens can be used for integrations or scripts that make programmatic updates through the API. This directly establishes an inbound developer API.",
+    "review_reported_at": "2026-09-16T19:32:32+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://dev.frontapp.com/docs/authentication",
+      "https://dev.frontapp.com/docs/core-api-getting-started"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "013:api_types",
+    "sample_kind": "unbiased",
+    "app_id": 13,
+    "app_name": "Freshdesk",
+    "category": "2. Support and Helpdesk",
+    "field": "api_types",
+    "first_pass_value": [
+      "rest"
+    ],
+    "first_pass_evidence_urls": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "official_source_candidates": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which API protocols are explicitly documented for this product?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.freshdesk.com/api/",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "The official Freshdesk API documentation establishes a REST-style HTTP API under /api/v2/ resources, including endpoints such as /api/v2/tickets and /api/v2/contacts. No additional API protocol type is established by the inspected source.",
+    "observed_source_urls": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "review_reported_at": "2026-09-16T19:41:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "013:mcp_available",
+    "sample_kind": "unbiased",
+    "app_id": 13,
+    "app_name": "Freshdesk",
+    "category": "2. Support and Helpdesk",
+    "field": "mcp_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://developers.freshworks.com/docs/?tab=products",
+    "observed_correct_value": "unclear",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
+    "correction_reason": null,
+    "notes": "I inspected the official Freshworks/Freshdesk developer documentation and did not find any mention of MCP or Model Context Protocol. The official developer index lists Freshdesk App SDK, REST APIs, and Widget APIs, but no MCP integration was documented in the sources I reviewed. Because absence from these inspected pages does not prove that Freshdesk has no MCP server elsewhere, the claim remains unresolved rather than being marked \"no\".",
+    "observed_source_urls": [
+      "https://developers.freshworks.com/docs/?tab=products",
+      "https://developers.freshdesk.com/api/"
+    ],
+    "review_reported_at": "2026-09-16T19:41:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "corrected_value": "yes",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "022:buildability",
+    "sample_kind": "unbiased",
+    "app_id": 22,
+    "app_name": "Twilio",
+    "category": "3. Communications and Messaging",
+    "field": "buildability",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://www.twilio.com/docs/usage/requests-to-twilio"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "no",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+    "notes": "Twilio is directly buildable. The official documentation provides public REST APIs, SDKs, CLI support, API-key and Account SID/Auth Token authentication, and a self-service Twilio Console. New users receive a 30-day trial with real API requests and responses, allowing proof-of-concept development before upgrading. No partner, sales, or manual approval gate is required for ordinary API access. Product-specific restrictions still apply, especially during trial and for regulated communications use cases.",
+    "review_reported_at": "2026-09-16T19:48:10+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "https://www.twilio.com/docs/usage/trials",
+      "https://www.twilio.com/docs/iam/api/account"
+    ],
+    "corrected_value": "unresolved",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "022:primary_blocker",
+    "sample_kind": "unbiased",
+    "app_id": 22,
+    "app_name": "Twilio",
+    "category": "3. Communications and Messaging",
+    "field": "primary_blocker",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://www.twilio.com/docs/usage/requests-to-twilio"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://www.twilio.com/docs/usage/trials",
+    "observed_correct_value": "trial_and_paid_account_restrictions",
+    "first_pass_correct": "no",
+    "final_value": "trial_and_paid_account_restrictions",
+    "final_correct": "yes",
+    "correction_reason": "Twilio does not have a universal integration blocker, but trial accounts have significant operational restrictions. Trials expire after 30 days, are limited to verified recipients, restrict messaging and calls geographically, limit content and product functionality, and use trial phone numbers. Full functionality requires upgrading the account. Product-specific compliance and regulatory requirements can add further constraints, but the broad documented blocker across Twilio is the transition from a restricted trial environment to an upgraded paid account for unrestricted production use.",
+    "notes": "Twilio does not have a universal integration blocker, but trial accounts have significant operational restrictions. Trials expire after 30 days, are limited to verified recipients, restrict messaging and calls geographically, limit content and product functionality, and use trial phone numbers. Full functionality requires upgrading the account. Product-specific compliance and regulatory requirements can add further constraints, but the broad documented blocker across Twilio is the transition from a restricted trial environment to an upgraded paid account for unrestricted production use.",
+    "review_reported_at": "2026-09-16T19:48:10+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://www.twilio.com/docs/usage/trials",
+      "https://www.twilio.com/docs/usage/trials/try-out-sms",
+      "https://www.twilio.com/docs/usage/trials/try-out-voice"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "029:auth_methods",
+    "sample_kind": "unbiased",
+    "app_id": 29,
+    "app_name": "Aircall",
+    "category": "3. Communications and Messaging",
+    "field": "auth_methods",
+    "first_pass_value": [
+      "oauth2",
+      "basic"
+    ],
+    "first_pass_evidence_urls": [
+      "https://developers.aircall.io/api-references"
+    ],
+    "official_source_candidates": [
+      "https://developers.aircall.io/api-references",
+      "https://developer.aircall.io/api-references/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.aircall.io/api-references",
+    "observed_correct_value": [
+      "oauth2",
+      "basic"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "oauth2",
+      "basic"
+    ],
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "Aircall's official Public API documentation explicitly supports two authentication methods: OAuth 2.0 and HTTP Basic Authentication. OAuth is intended for apps built for multiple Aircall companies and marketplace integrations. Basic Authentication is intended for Aircall customers building for their own account, using api_id as the username and api_token as the password. OAuth access tokens are used as Bearer tokens.",
+    "review_reported_at": "2026-09-16T20:09:46+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.aircall.io/api-references"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "029:access_model",
+    "sample_kind": "unbiased",
+    "app_id": 29,
+    "app_name": "Aircall",
+    "category": "3. Communications and Messaging",
+    "field": "access_model",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developer.aircall.io/api-references/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.aircall.io/api-references",
+    "observed_correct_value": "admin_approval",
+    "first_pass_correct": "no",
+    "final_value": "admin_approval",
+    "final_correct": "yes",
+    "correction_reason": "Aircall API access is permission-gated at the company level. Integrations can only be enabled or installed by an Aircall Admin. Existing Aircall customers can create Basic Auth credentials for their own company from Company Settings > API Keys. For public or multi-company integrations, Aircall requires OAuth, and developers must obtain client_id and client_secret from Aircall after submitting the partner/OAuth setup form. Marketplace listing also requires OAuth. The inspected source does not establish a universal paid-plan gate for ordinary API access, so admin_approval is the best overall access-model classification, with additional partner approval/provisioning for public integrations.",
+    "notes": "Aircall API access is permission-gated at the company level. Integrations can only be enabled or installed by an Aircall Admin. Existing Aircall customers can create Basic Auth credentials for their own company from Company Settings > API Keys. For public or multi-company integrations, Aircall requires OAuth, and developers must obtain client_id and client_secret from Aircall after submitting the partner/OAuth setup form. Marketplace listing also requires OAuth. The inspected source does not establish a universal paid-plan gate for ordinary API access, so admin_approval is the best overall access-model classification, with additional partner approval/provisioning for public integrations.",
+    "review_reported_at": "2026-09-16T20:09:46+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.aircall.io/api-references"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "032:api_available",
+    "sample_kind": "unbiased",
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "field": "api_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developers.facebook.com/docs/marketing-apis/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "Meta explicitly documents the Marketing API as a developer API for automating advertising across Meta technologies. It supports programmatic creation and management of campaigns, ad sets, ads and creatives, as well as performance analysis and insights. This directly establishes that Meta exposes an inbound developer API for advertising integrations.",
+    "notes": "Meta explicitly documents the Marketing API as a developer API for automating advertising across Meta technologies. It supports programmatic creation and management of campaigns, ad sets, ads and creatives, as well as performance analysis and insights. This directly establishes that Meta exposes an inbound developer API for advertising integrations.",
+    "review_reported_at": "2026-09-16T20:15:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "032:api_types",
+    "sample_kind": "unbiased",
+    "app_id": 32,
+    "app_name": "Meta Ads",
+    "category": "4. Marketing, Ads, Email and Social",
+    "field": "api_types",
+    "first_pass_value": [
+      "unknown"
+    ],
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developers.facebook.com/docs/marketing-apis/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which API protocols are explicitly documented for this product?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "The Marketing API is implemented through Meta Graph API endpoints, but \"Graph API\" is a product/API family name and does not mean GraphQL. The official documentation shows HTTP resource endpoints using methods such as GET and POST, including endpoints like POST /{ad-account-id}/ads, POST /{ad-account-id}/adsets, and POST /{ad-account-id}/campaigns. Under the assessment's protocol classification, this supports REST-style HTTP API access. The inspected sources do not establish GraphQL, so graphql should not be added.",
+    "notes": "The Marketing API is implemented through Meta Graph API endpoints, but \"Graph API\" is a product/API family name and does not mean GraphQL. The official documentation shows HTTP resource endpoints using methods such as GET and POST, including endpoints like POST /{ad-account-id}/ads, POST /{ad-account-id}/adsets, and POST /{ad-account-id}/campaigns. Under the assessment's protocol classification, this supports REST-style HTTP API access. The inspected sources do not establish GraphQL, so graphql should not be added.",
+    "review_reported_at": "2026-09-16T20:15:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api",
+      "https://developers.facebook.com/documentation/ads-commerce/marketing-api/overview/rate-limiting"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "037:mcp_available",
+    "sample_kind": "unbiased",
+    "app_id": 37,
+    "app_name": "systeme.io",
+    "category": "4. Marketing, Ads, Email and Social",
+    "field": "mcp_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developer.systeme.io/docs/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developer.systeme.io/reference/api",
+    "observed_correct_value": "official",
+    "first_pass_correct": "no",
+    "final_value": "official",
+    "final_correct": "yes",
+    "correction_reason": "Systeme.io officially documents and operates its own MCP server. The documentation explicitly describes “our MCP server,” requires an MCP key generated from the Systeme.io dashboard, documents authentication through X-MCP-Key or mcpKey, and lists supported contact, tag, contact-field, and newsletter operations. The MCP server is therefore official rather than community-published.",
+    "notes": "Systeme.io officially documents and operates its own MCP server. The documentation explicitly describes “our MCP server,” requires an MCP key generated from the Systeme.io dashboard, documents authentication through X-MCP-Key or mcpKey, and lists supported contact, tag, contact-field, and newsletter operations. The MCP server is therefore official rather than community-published.",
+    "review_reported_at": "2026-09-16T20:26:58+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developer.systeme.io/reference/api",
+      "https://developer.systeme.io/llms.txt"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "037:buildability",
+    "sample_kind": "unbiased",
+    "app_id": 37,
+    "app_name": "systeme.io",
+    "category": "4. Marketing, Ads, Email and Social",
+    "field": "buildability",
+    "first_pass_value": "buildable",
+    "first_pass_evidence_urls": [
+      "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them"
+    ],
+    "official_source_candidates": [
+      "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them",
+      "https://developer.systeme.io/docs/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developer.systeme.io/reference/api",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "yes",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "Systeme.io provides a self-service Public API with documented RESTful endpoints and examples. Developers can generate a Public API key directly from the Systeme.io dashboard and authenticate requests using the X-API-Key header. The API supports programmatic operations such as contact and tag management, cursor-based pagination, PATCH updates, and documented POST/GET examples. No partner, sales, or manual approval gate is established in the inspected documentation for ordinary API access. This supports the existing buildable classification.",
+    "review_reported_at": "2026-09-16T20:26:58+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developer.systeme.io/reference/api",
+      "https://developer.systeme.io/docs/api-recipes-and-how-to-use-them"
+    ],
+    "corrected_value": "unresolved",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "041:primary_blocker",
+    "sample_kind": "unbiased",
+    "app_id": 41,
+    "app_name": "Shopify",
+    "category": "5. Ecommerce",
+    "field": "primary_blocker",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://shopify.dev/docs/api/admin-graphql",
+      "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://shopify.dev/docs/apps/launch/distribution",
+    "observed_correct_value": "review_and_permission_requirements",
+    "first_pass_correct": "no",
+    "final_value": "review_and_permission_requirements",
+    "final_correct": "yes",
+    "correction_reason": "Shopify integration access depends on the app's distribution model and requested data. Custom-distribution apps can be installed on a specific store, or multiple stores within the same Shopify Plus organization, without Shopify app approval. Public-distribution apps intended for multiple merchants require Shopify approval through App Review before App Store distribution. Access is also scope-based, and certain sensitive capabilities require additional permission or Shopify approval, including protected customer data and restricted scopes. Therefore Shopify is buildable, but broad/public integrations are conditioned by review and permission requirements rather than a universal access block.",
+    "notes": "Shopify integration access depends on the app's distribution model and requested data. Custom-distribution apps can be installed on a specific store, or multiple stores within the same Shopify Plus organization, without Shopify app approval. Public-distribution apps intended for multiple merchants require Shopify approval through App Review before App Store distribution. Access is also scope-based, and certain sensitive capabilities require additional permission or Shopify approval, including protected customer data and restricted scopes. Therefore Shopify is buildable, but broad/public integrations are conditioned by review and permission requirements rather than a universal access block.",
+    "review_reported_at": "2026-09-16T20:33:32+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://shopify.dev/docs/apps/launch/distribution",
+      "https://shopify.dev/docs/apps/launch/distribution/select-distribution-method",
+      "https://shopify.dev/docs/api/usage/access-scopes",
+      "https://shopify.dev/docs/apps/launch/protected-customer-data"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "041:auth_methods",
+    "sample_kind": "unbiased",
+    "app_id": 41,
+    "app_name": "Shopify",
+    "category": "5. Ecommerce",
+    "field": "auth_methods",
+    "first_pass_value": [
+      "bearer_token"
+    ],
+    "first_pass_evidence_urls": [
+      "https://shopify.dev/docs/api/admin-graphql/latest"
+    ],
+    "official_source_candidates": [
+      "https://shopify.dev/docs/api/admin-graphql/latest",
+      "https://shopify.dev/docs/api/admin-graphql",
+      "https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://shopify.dev/docs/api/usage/authentication",
+    "observed_correct_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "Shopify's GraphQL Admin API authenticates requests with an access token sent in the X-Shopify-Access-Token header. Shopify documents OAuth, usually token exchange or the authorization code grant depending on app type, as the standard flow for obtaining that token when an app acts on behalf of a merchant. Therefore OAuth2 is the authorization/token-acquisition mechanism, while the issued bearer-style access token authenticates individual API requests.",
+    "notes": "Shopify's GraphQL Admin API authenticates requests with an access token sent in the X-Shopify-Access-Token header. Shopify documents OAuth, usually token exchange or the authorization code grant depending on app type, as the standard flow for obtaining that token when an app acts on behalf of a merchant. Therefore OAuth2 is the authorization/token-acquisition mechanism, while the issued bearer-style access token authenticates individual API requests.",
+    "review_reported_at": "2026-09-16T20:33:32+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://shopify.dev/docs/api/usage/authentication",
+      "https://shopify.dev/docs/api/admin-graphql"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "050:access_model",
+    "sample_kind": "unbiased",
+    "app_id": 50,
+    "app_name": "fanbasis",
+    "category": "5. Ecommerce",
+    "field": "access_model",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://fanbasis.com/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://apidocs.fan/api/basics",
+    "observed_correct_value": "unknown",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
+    "correction_reason": null,
+    "notes": "The documentation establishes self-service API-key creation from Account → API Keys and does not show a partner, sales, or manual approval gate. However, the inspected source does not state whether API access is available on a free plan, trial plan, or paid plan. Because the schema requires one of self_serve_free, self_serve_trial, or self_serve_paid, the pricing tier cannot be classified from the available evidence and should remain unknown.",
+    "observed_source_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "reported_proposed_final_value": "unknown",
+    "review_processing_status": "completed_unclear",
+    "review_reported_at": "2026-09-16T20:42:49+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual clarification receipt time recorded separately.",
+    "review_history": [
+      {
+        "item_id": "050:access_model",
+        "sample_kind": "unbiased",
+        "app_id": 50,
+        "app_name": "fanbasis",
+        "category": "5. Ecommerce",
+        "field": "access_model",
+        "first_pass_value": "unknown",
+        "first_pass_evidence_urls": [],
+        "official_source_candidates": [
+          "https://fanbasis.com/"
+        ],
+        "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+        "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+        "reviewer": "Uday",
+        "reviewed_at": null,
+        "source_status": "usable",
+        "observed_source_url": "https://apidocs.fan/api/basics",
+        "observed_correct_value": "self_serve",
+        "first_pass_correct": "no",
+        "final_value": null,
+        "final_correct": "yes",
+        "correction_reason": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+        "notes": "Developer access is self-service. API keys can be created directly from the Commas dashboard under Account → API Keys, and default keys include all documented scopes unless narrowed. The docs do not establish a partner, sales, or manual-approval requirement for ordinary API access. Access is scope-controlled through API-key permissions, but credential creation itself is available from the account dashboard.",
+        "observed_source_urls": [
+          "https://apidocs.fan/api/basics"
+        ],
+        "reported_proposed_final_value": "self_serve",
+        "review_processing_status": "pending_schema_mapping",
+        "mapping_note": "Human reports self-service credential creation but does not establish free/trial/paid classification. self_serve is not an allowed canonical access_model enum. Preserve report verbatim; working dataset remains unknown and claim unscored pending mapping clarification.",
+        "review_reported_at": "2026-09-16T20:40:52+00:00",
+        "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately."
+      }
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "050:api_available",
+    "sample_kind": "unbiased",
+    "app_id": 50,
+    "app_name": "fanbasis",
+    "category": "5. Ecommerce",
+    "field": "api_available",
+    "first_pass_value": "yes",
+    "first_pass_evidence_urls": [
+      "https://commas.com/"
+    ],
+    "official_source_candidates": [
+      "https://fanbasis.com/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://apidocs.fan/api/basics",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "yes",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "fanbasis/Commas explicitly documents an inbound developer API. Requests are made to documented HTTP endpoints under https://www.fanbasis.com/public-api/ and authenticated with an x-api-key header. The documentation includes concrete GET and POST endpoints for products, checkout sessions, transactions, customers, subscriptions, invoices, refunds, webhooks, and related resources. This clearly establishes a developer-facing API rather than only outbound webhooks or marketing integrations.",
+    "observed_source_urls": [
+      "https://apidocs.fan/api/basics",
+      "https://www.fanbasis.com/public-api/"
+    ],
+    "review_reported_at": "2026-09-16T20:40:52+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "052:api_types",
+    "sample_kind": "unbiased",
+    "app_id": 52,
+    "app_name": "SE Ranking",
+    "category": "6. Data, SEO and Scraping",
+    "field": "api_types",
+    "first_pass_value": [
+      "rest"
+    ],
+    "first_pass_evidence_urls": [
+      "https://seranking.com/api.html"
+    ],
+    "official_source_candidates": [
+      "https://seranking.com/api.html"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which API protocols are explicitly documented for this product?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://seranking.com/api.html",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "SE Ranking documents HTTP API endpoints with resource-style URLs, standard HTTP methods, JSON responses, authorization headers, and HTTP status codes. Examples include GET requests to endpoints such as /v1/account/subscription and /v1/backlinks/summary. This supports the existing REST classification.",
+    "review_reported_at": "2026-09-16T20:46:09+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://seranking.com/api.html",
+      "https://seranking.com/api/api-credits-system/"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "052:mcp_available",
+    "sample_kind": "unbiased",
+    "app_id": 52,
+    "app_name": "SE Ranking",
+    "category": "6. Data, SEO and Scraping",
+    "field": "mcp_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://seranking.com/api.html"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://seranking.com/api.html",
+    "observed_correct_value": "official",
+    "first_pass_correct": "no",
+    "final_value": "official",
+    "final_correct": "yes",
+    "correction_reason": "SE Ranking officially documents and hosts its own remote MCP server at https://api.seranking.com/mcp. The documentation states that it is centrally hosted and managed by SE Ranking, supports Streamable HTTP transport, uses OAuth 2.1 with dynamic client registration, and exposes 160+ tools across keyword research, backlinks, domain analysis, audits, AI Search visibility, SERP analysis, and project management. This is an official MCP implementation, not a community connector.",
+    "notes": "SE Ranking officially documents and hosts its own remote MCP server at https://api.seranking.com/mcp. The documentation states that it is centrally hosted and managed by SE Ranking, supports Streamable HTTP transport, uses OAuth 2.1 with dynamic client registration, and exposes 160+ tools across keyword research, backlinks, domain analysis, audits, AI Search visibility, SERP analysis, and project management. This is an official MCP implementation, not a community connector.",
+    "review_reported_at": "2026-09-16T20:46:09+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://seranking.com/api.html",
+      "https://api.seranking.com/mcp"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "054:buildability",
+    "sample_kind": "unbiased",
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "category": "6. Data, SEO and Scraping",
+    "field": "buildability",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.mrscraper.com/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "no",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+    "notes": "MrScraper is directly buildable. Users can create API tokens for authentication, access documented scraping and results APIs, and use an official hosted MCP server or the published open-source MCP package. The platform has a free plan with no credit card required, while paid plans increase quotas and capabilities. Integration does not require partner or sales approval for ordinary use. Practical integrations can programmatically fetch pages, run AI or manual scrapers, rerun saved configurations, retrieve results, inspect account status, and perform SERP queries.",
+    "review_reported_at": "2026-09-16T20:49:27+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.mrscraper.com/docs/getting-started/api-token",
+      "https://docs.mrscraper.com/docs/getting-started/billing",
+      "https://docs.mrscraper.com/docs/getting-started/mcp-server"
+    ],
+    "corrected_value": "unresolved",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "054:primary_blocker",
+    "sample_kind": "unbiased",
+    "app_id": 54,
+    "app_name": "MrScraper",
+    "category": "6. Data, SEO and Scraping",
+    "field": "primary_blocker",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.mrscraper.com/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.mrscraper.com/docs/getting-started/api-token",
+    "observed_correct_value": "usage_quota_and_target_site_constraints",
+    "first_pass_correct": "no",
+    "final_value": "usage_quota_and_target_site_constraints",
+    "final_correct": "yes",
+    "correction_reason": "There is no documented approval or access gate preventing ordinary integration. The main documented constraints are usage quotas/tokens and target-site complexity. Every plan has finite token allowances, and further usage can require upgrading. Scraping cost and reliability also vary with JavaScript complexity, page size, bandwidth, data volume, proxy requirements, retries, and AI-processing load. These constraints condition scale and individual scraping jobs rather than blocking API integration itself.",
+    "notes": "There is no documented approval or access gate preventing ordinary integration. The main documented constraints are usage quotas/tokens and target-site complexity. Every plan has finite token allowances, and further usage can require upgrading. Scraping cost and reliability also vary with JavaScript complexity, page size, bandwidth, data volume, proxy requirements, retries, and AI-processing load. These constraints condition scale and individual scraping jobs rather than blocking API integration itself.",
+    "review_reported_at": "2026-09-16T20:49:27+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.mrscraper.com/docs/getting-started/api-token",
+      "https://docs.mrscraper.com/docs/getting-started/billing",
+      "https://docs.mrscraper.com/docs/getting-started/mcp-server"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "064:auth_methods",
+    "sample_kind": "unbiased",
+    "app_id": 64,
+    "app_name": "Cloudflare",
+    "category": "7. Developer, Infra and Data platforms",
+    "field": "auth_methods",
+    "first_pass_value": [
+      "bearer_token"
+    ],
+    "first_pass_evidence_urls": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/"
+    ],
+    "official_source_candidates": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+    "observed_correct_value": [
+      "oauth2",
+      "bearer_token",
+      "api_key"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "oauth2",
+      "bearer_token",
+      "api_key"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "Cloudflare documents three relevant authentication mechanisms. API Tokens are sent in the Authorization header using the Bearer scheme and are the recommended method for API access. Cloudflare also still supports the legacy Global API Key, though it is explicitly discouraged for new integrations. For third-party applications, Cloudflare supports OAuth 2.0 Authorization Code flows, including PKCE for public clients. Therefore the first-pass bearer-token-only classification was incomplete.",
+    "notes": "Cloudflare documents three relevant authentication mechanisms. API Tokens are sent in the Authorization header using the Bearer scheme and are the recommended method for API access. Cloudflare also still supports the legacy Global API Key, though it is explicitly discouraged for new integrations. For third-party applications, Cloudflare supports OAuth 2.0 Authorization Code flows, including PKCE for public clients. Therefore the first-pass bearer-token-only classification was incomplete.",
+    "review_reported_at": "2026-09-16T20:53:09+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "https://developers.cloudflare.com/fundamentals/api/get-started/keys/",
+      "https://developers.cloudflare.com/fundamentals/oauth/"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "064:access_model",
+    "sample_kind": "unbiased",
+    "app_id": 64,
+    "app_name": "Cloudflare",
+    "category": "7. Developer, Infra and Data platforms",
+    "field": "access_model",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+    "observed_correct_value": "self_serve_free",
+    "first_pass_correct": "no",
+    "final_value": "self_serve_free",
+    "final_correct": "yes",
+    "correction_reason": "Cloudflare credentials are self-service. Users can create API Tokens directly from the Cloudflare dashboard, while authorized account roles can also create OAuth clients. Cloudflare's OAuth documentation explicitly lists availability on Free, Pro, Business, and Enterprise plans, establishing that developer authorization capabilities are available on the Free tier. Ordinary API-token creation does not require partner or sales approval. Account-level OAuth client creation does require an authorized account role, and administrators can restrict public OAuth application access, but this is a permissions constraint rather than a paid or partner gate.",
+    "notes": "Cloudflare credentials are self-service. Users can create API Tokens directly from the Cloudflare dashboard, while authorized account roles can also create OAuth clients. Cloudflare's OAuth documentation explicitly lists availability on Free, Pro, Business, and Enterprise plans, establishing that developer authorization capabilities are available on the Free tier. Ordinary API-token creation does not require partner or sales approval. Account-level OAuth client creation does require an authorized account role, and administrators can restrict public OAuth application access, but this is a permissions constraint rather than a paid or partner gate.",
+    "review_reported_at": "2026-09-16T20:53:09+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "https://developers.cloudflare.com/fundamentals/oauth/"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "069:api_available",
+    "sample_kind": "unbiased",
+    "app_id": 69,
+    "app_name": "Datadog",
+    "category": "7. Developer, Infra and Data platforms",
+    "field": "api_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.datadoghq.com/api/latest/authentication/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "Datadog explicitly exposes an inbound developer API. The authentication documentation states that all Datadog API requests must be authenticated and distinguishes API keys for write access from application keys for read access. The API reference documents concrete programmatic endpoints, including GET, POST, PATCH, and DELETE operations under /api/v1 and /api/v2. This clearly establishes a developer-facing API for programmatic integration.",
+    "notes": "Datadog explicitly exposes an inbound developer API. The authentication documentation states that all Datadog API requests must be authenticated and distinguishes API keys for write access from application keys for read access. The API reference documents concrete programmatic endpoints, including GET, POST, PATCH, and DELETE operations under /api/v1 and /api/v2. This clearly establishes a developer-facing API for programmatic integration.",
+    "review_reported_at": "2026-09-16T20:56:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.datadoghq.com/api/latest/authentication/",
+      "https://docs.datadoghq.com/api/latest/authn-mappings/"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "069:api_types",
+    "sample_kind": "unbiased",
+    "app_id": 69,
+    "app_name": "Datadog",
+    "category": "7. Developer, Infra and Data platforms",
+    "field": "api_types",
+    "first_pass_value": [
+      "unknown"
+    ],
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.datadoghq.com/api/latest/authentication/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which API protocols are explicitly documented for this product?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "observed_correct_value": [
+      "rest"
+    ],
+    "first_pass_correct": "no",
+    "final_value": [
+      "rest"
+    ],
+    "final_correct": "yes",
+    "correction_reason": "Datadog documents resource-oriented HTTP endpoints using standard HTTP verbs such as GET, POST, PATCH, and DELETE, with versioned paths including /api/v1 and /api/v2. The AuthN Mappings reference shows CRUD-style operations on resource URLs across Datadog regions. This supports classifying the API as REST. No additional protocol is established by the inspected sources.",
+    "notes": "Datadog documents resource-oriented HTTP endpoints using standard HTTP verbs such as GET, POST, PATCH, and DELETE, with versioned paths including /api/v1 and /api/v2. The AuthN Mappings reference shows CRUD-style operations on resource URLs across Datadog regions. This supports classifying the API as REST. No additional protocol is established by the inspected sources.",
+    "review_reported_at": "2026-09-16T20:56:20+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.datadoghq.com/api/latest/authentication/",
+      "https://docs.datadoghq.com/api/latest/authn-mappings/"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "080:mcp_available",
+    "sample_kind": "unbiased",
+    "app_id": 80,
+    "app_name": "Harvest",
+    "category": "8. Productivity and Project Management",
+    "field": "mcp_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://help.getharvest.com/api-v2/",
+    "observed_correct_value": "unknown",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
+    "correction_reason": null,
+    "notes": "No official Harvest MCP server or Model Context Protocol documentation was found in the inspected official Harvest API documentation. Because absence of documentation is not proof of absence, MCP availability remains unknown and this claim should be excluded from accuracy scoring.",
+    "review_reported_at": "2026-09-16T21:02:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://help.getharvest.com/api-v2/"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "080:buildability",
+    "sample_kind": "unbiased",
+    "app_id": 80,
+    "app_name": "Harvest",
+    "category": "8. Productivity and Project Management",
+    "field": "buildability",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Considering auth, onboarding, gates, breadth and docs, is integration buildable, conditional, blocked or unknown?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "observed_correct_value": "buildable",
+    "first_pass_correct": "no",
+    "final_value": "buildable",
+    "final_correct": "yes",
+    "correction_reason": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "notes": "Harvest is directly buildable as an integration. Developers can create Personal Access Tokens self-service from the Harvest ID Developers section for scripts and internal integrations, or register OAuth2 applications for integrations used by other Harvest users. Harvest documents Authorization Code OAuth2 for server-side applications, bearer access tokens, account scopes, and a broad V2 API covering users, projects, time entries, invoices, expenses, clients, estimates, reports, tasks, roles, and other resources. No partner or sales approval requirement is established for ordinary API integration.",
+    "review_reported_at": "2026-09-16T21:02:44+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "https://help.getharvest.com/api-v2/"
+    ],
+    "corrected_value": "unresolved",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "071:primary_blocker",
+    "sample_kind": "unbiased",
+    "app_id": 71,
+    "app_name": "Notion",
+    "category": "8. Productivity and Project Management",
+    "field": "primary_blocker",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://developers.notion.com/docs/authorization",
+      "https://developers.notion.com/docs/mcp"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "What concrete restriction blocks integration, if any? Absence of evidence is not proof of no blocker.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.notion.com/guides/get-started/authorization",
+    "observed_correct_value": "workspace_content_sharing_and_permission_requirements",
+    "first_pass_correct": "no",
+    "final_value": "workspace_content_sharing_and_permission_requirements",
+    "final_correct": "yes",
+    "correction_reason": "Notion integration access is conditioned by workspace permissions and explicit content authorization. Internal connections must be created by a workspace owner, and pages must be manually shared with the connection before API calls can access them; otherwise requests fail. Public connections use OAuth and users select the pages/databases they want to share, but the page picker only exposes resources for which the user has full access. MCP access is likewise user-authorized through OAuth and can be controlled by workspace or organization administrators. The practical blocker is therefore permission and content-sharing scope, not a universal pricing or sales gate.",
+    "notes": "Notion integration access is conditioned by workspace permissions and explicit content authorization. Internal connections must be created by a workspace owner, and pages must be manually shared with the connection before API calls can access them; otherwise requests fail. Public connections use OAuth and users select the pages/databases they want to share, but the page picker only exposes resources for which the user has full access. MCP access is likewise user-authorized through OAuth and can be controlled by workspace or organization administrators. The practical blocker is therefore permission and content-sharing scope, not a universal pricing or sales gate.",
+    "review_reported_at": "2026-09-16T21:04:36+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.notion.com/guides/get-started/authorization",
+      "https://developers.notion.com/guides/mcp/overview"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "071:auth_methods",
+    "sample_kind": "unbiased",
+    "app_id": 71,
+    "app_name": "Notion",
+    "category": "8. Productivity and Project Management",
+    "field": "auth_methods",
+    "first_pass_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "first_pass_evidence_urls": [
+      "https://developers.notion.com/guides/get-started/authorization"
+    ],
+    "official_source_candidates": [
+      "https://developers.notion.com/guides/get-started/authorization",
+      "https://developers.notion.com/docs/authorization",
+      "https://developers.notion.com/docs/mcp"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which methods authenticate the developer API? Distinguish end-user login and third-party examples.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://developers.notion.com/guides/get-started/authorization",
+    "observed_correct_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "first_pass_correct": "yes",
+    "final_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "final_correct": "yes",
+    "correction_reason": null,
+    "notes": "Notion documents static API tokens for internal connections and personal access tokens, both transmitted as Bearer tokens in the Authorization header. Public connections use OAuth 2.0 Authorization Code flow to obtain access and refresh tokens, and the resulting access token authenticates subsequent REST API requests. Notion MCP is a remote Notion-hosted server that is authorized through OAuth. HTTP Basic Authentication appears only during the OAuth code-to-token exchange using the client ID and client secret, so it is not classified as the normal API authentication method.",
+    "review_reported_at": "2026-09-16T21:04:36+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://developers.notion.com/guides/get-started/authorization",
+      "https://developers.notion.com/guides/mcp/overview"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "089:access_model",
+    "sample_kind": "unbiased",
+    "app_id": 89,
+    "app_name": "Ramp",
+    "category": "9. Finance and Fintech",
+    "field": "access_model",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://docs.ramp.com/developer-api/v1/overview",
+      "https://docs.ramp.com/developer-api/v1/authorization",
+      "https://docs.ramp.com/llms-full.txt"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Can a developer obtain API access directly, or is payment, admin, partner or sales approval required?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.ramp.com/developer-api/v1/introduction",
+    "observed_correct_value": "admin_approval",
+    "first_pass_correct": "no",
+    "final_value": "admin_approval",
+    "final_correct": "yes",
+    "correction_reason": "Ramp supports different access paths depending on the integration model. Existing Ramp customers can create credentials for internal integrations, while server-to-server integrations use the OAuth 2.0 Client Credentials flow. Third-party or public integrations must use the Authorization Code flow, and the Ramp user granting access must have Developer API authorization permissions, typically an Admin or Business Owner. Partner integrations intended for other businesses follow Ramp's partner process: developers build and test in Sandbox, apply for production access, and Ramp reviews the integration before production approval. Sandbox access itself is also requested through a form. Therefore ordinary production integration access is conditioned by account/admin permissions, with additional Ramp approval for public partner integrations, rather than being universally self-service.",
+    "notes": "Ramp supports different access paths depending on the integration model. Existing Ramp customers can create credentials for internal integrations, while server-to-server integrations use the OAuth 2.0 Client Credentials flow. Third-party or public integrations must use the Authorization Code flow, and the Ramp user granting access must have Developer API authorization permissions, typically an Admin or Business Owner. Partner integrations intended for other businesses follow Ramp's partner process: developers build and test in Sandbox, apply for production access, and Ramp reviews the integration before production approval. Sandbox access itself is also requested through a form. Therefore ordinary production integration access is conditioned by account/admin permissions, with additional Ramp approval for public partner integrations, rather than being universally self-service.",
+    "review_reported_at": "2026-09-16T21:06:29+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.ramp.com/developer-api/v1/introduction",
+      "https://docs.ramp.com/developer-api/v1/authorization/scopes",
+      "https://docs.ramp.com/developer-api/v1/build-with-ramp",
+      "https://docs.ramp.com/developer-api/v1/sandbox-access"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "089:api_available",
+    "sample_kind": "unbiased",
+    "app_id": 89,
+    "app_name": "Ramp",
+    "category": "9. Finance and Fintech",
+    "field": "api_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [
+      "https://docs.ramp.com/developer-api/v1/overview"
+    ],
+    "official_source_candidates": [
+      "https://docs.ramp.com/developer-api/v1/overview",
+      "https://docs.ramp.com/developer-api/v1/authorization",
+      "https://docs.ramp.com/llms-full.txt"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Does this product expose an inbound developer API? Outbound webhooks alone do not establish this.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "usable",
+    "observed_source_url": "https://docs.ramp.com/developer-api/v1/",
+    "observed_correct_value": "yes",
+    "first_pass_correct": "no",
+    "final_value": "yes",
+    "final_correct": "yes",
+    "correction_reason": "Ramp explicitly exposes an inbound Developer API for programmatic integrations. Its official documentation contains a broad REST API surface covering resources such as cards, transactions, bills, users, vendors, reimbursements, accounting, spend controls, audit logs, webhooks, and more. Ramp documents concrete authenticated endpoints under /developer/v1/, including GET, POST, PATCH, and DELETE operations. This clearly establishes a developer-facing API.",
+    "notes": "Ramp explicitly exposes an inbound Developer API for programmatic integrations. Its official documentation contains a broad REST API surface covering resources such as cards, transactions, bills, users, vendors, reimbursements, accounting, spend controls, audit logs, webhooks, and more. Ramp documents concrete authenticated endpoints under /developer/v1/, including GET, POST, PATCH, and DELETE operations. This clearly establishes a developer-facing API.",
+    "review_reported_at": "2026-09-16T21:06:29+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://docs.ramp.com/developer-api/v1/",
+      "https://docs.ramp.com/developer-api/v1/api"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "084:api_types",
+    "sample_kind": "unbiased",
+    "app_id": 84,
+    "app_name": "Paygent Connect",
+    "category": "9. Finance and Fintech",
+    "field": "api_types",
+    "first_pass_value": [
+      "unknown"
+    ],
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://paygent.io/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Which API protocols are explicitly documented for this product?",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://paygent.io/",
+    "observed_correct_value": [
+      "unknown"
+    ],
+    "first_pass_correct": "unclear",
+    "final_value": [
+      "unknown"
+    ],
+    "final_correct": "unclear",
+    "correction_reason": null,
+    "notes": "The assigned product identity could not be reliably matched to the currently documented Paygent developer product. Search results surface multiple distinct products using the Paygent name, including an AI-agent payments product at api.paygent.tech and other unrelated Paygent payment/billing products. None was sufficiently established as the assigned \"Paygent Connect\" product. Therefore no API protocol classification should be borrowed from another similarly named product, and api_types remains unknown.",
+    "review_reported_at": "2026-09-16T21:09:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://paygent.io/"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "fresh_human_check": false
+  },
+  {
+    "item_id": "084:mcp_available",
+    "sample_kind": "unbiased",
+    "app_id": 84,
+    "app_name": "Paygent Connect",
+    "category": "9. Finance and Fintech",
+    "field": "mcp_available",
+    "first_pass_value": "unknown",
+    "first_pass_evidence_urls": [],
+    "official_source_candidates": [
+      "https://paygent.io/"
+    ],
+    "source_candidate_note": "Stage02 official attribution/seed; Uday must confirm product identity and ownership. Candidate may not support this field.",
+    "what_to_verify": "Is an MCP server documented? Check publisher ownership; an app marketplace is not MCP.",
+    "reviewer": "Uday",
+    "reviewed_at": null,
+    "source_status": "unclear",
+    "observed_source_url": "https://paygent.io/",
+    "observed_correct_value": "unknown",
+    "first_pass_correct": "unclear",
+    "final_value": "unknown",
+    "final_correct": "unclear",
+    "correction_reason": null,
+    "notes": "An official MCP server is documented for the separate Paygent AI-agent payments product at api.paygent.tech, including a hosted MCP endpoint. However, product identity could not be established between that product and the assigned \"Paygent Connect\" record. To avoid incorrectly substituting a similarly named product, MCP availability for the assigned product remains unknown.",
+    "review_reported_at": "2026-09-16T21:09:22+00:00",
+    "timestamp_note": "Exact inspection time not supplied; actual report receipt time recorded separately.",
+    "observed_source_urls": [
+      "https://paygent.io/"
+    ],
+    "corrected_value": "unknown",
+    "fresh_human_check": false
+  }
+]

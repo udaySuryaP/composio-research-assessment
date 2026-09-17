@@ -1,0 +1,219 @@
+{
+  "atom_downgrades": [
+    {
+      "id": 1,
+      "atom_id": "a11",
+      "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+    },
+    {
+      "id": 1,
+      "atom_id": "a12",
+      "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+    },
+    {
+      "id": 2,
+      "atom_id": "a18",
+      "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+    },
+    {
+      "id": 4,
+      "atom_id": "a5",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a6",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a7",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a8",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a17",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 8,
+      "atom_id": "a0",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    }
+  ],
+  "subset_projection_changes": [
+    {
+      "id": 1,
+      "field": "access_model",
+      "before": [
+        {
+          "gate": "paid_plan",
+          "surface": "primary",
+          "qualification": "Most Salesforce products require paid subscriptions, generally annual contracts, to use in production.",
+          "atom_id": "a12"
+        }
+      ],
+      "after": "unknown",
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 1,
+      "field": "primary_blocker",
+      "before": "access:paid_plan: Most Salesforce products require paid subscriptions, generally annual contracts, to use in production. [primary]",
+      "after": "unknown",
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 2,
+      "field": "auth_methods",
+      "before": [
+        "oauth2"
+      ],
+      "after": [
+        "oauth2",
+        "personal_access_token"
+      ],
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 2,
+      "field": "access_model",
+      "before": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+          "atom_id": "a10"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+          "atom_id": "a14"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+          "atom_id": "a17"
+        },
+        {
+          "gate": "paid_plan",
+          "surface": "primary",
+          "qualification": "HubSpot payments require a paid HubSpot subscription and a bank account in the same country as the company's registration.",
+          "atom_id": "a18"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+          "atom_id": "a19"
+        }
+      ],
+      "after": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+          "atom_id": "a10"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+          "atom_id": "a14"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+          "atom_id": "a17"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+          "atom_id": "a19"
+        }
+      ],
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 2,
+      "field": "primary_blocker",
+      "before": "access:admin_permission: Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize. [primary]; access:admin_permission: Super Admin permission is required to set up content approval workflows and approve content in HubSpot. [primary]; access:paid_plan: HubSpot payments require a paid HubSpot subscription and a bank account in the same country as the company's registration. [primary]; access:admin_permission: Super Admin permissions are required to export payment reports in HubSpot payments. [primary]",
+      "after": "access:admin_permission: Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize. [primary]; access:admin_permission: Super Admin permission is required to set up content approval workflows and approve content in HubSpot. [primary]; access:admin_permission: Super Admin permissions are required to export payment reports in HubSpot payments. [primary]",
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 4,
+      "field": "auth_methods",
+      "before": [
+        "oauth2",
+        "bearer_token"
+      ],
+      "after": [
+        "oauth2",
+        "api_key",
+        "bearer_token"
+      ],
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 4,
+      "field": "api_breadth",
+      "before": "Inspected documented actions: The REST API supports read operations such as fetching user information and listing records.; The MCP interface supports creating new records, tasks, comments, and notes in the Attio workspace.; The MCP interface supports updating lists, list entries, tasks, notes, and comments in the Attio workspace.; The MCP interface supports deleting comments created by the user.; The MCP interface supports managing pipelines, tasks, comments, and notes, enabling comprehensive CRM management through AI tools.",
+      "after": "Inspected documented actions: The REST API supports read operations such as fetching user information and listing records.",
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 8,
+      "field": "auth_methods",
+      "before": [
+        "api_key",
+        "oauth2",
+        "basic"
+      ],
+      "after": [
+        "oauth2",
+        "basic"
+      ],
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 28,
+      "field": "auth_methods",
+      "before": [
+        "unknown"
+      ],
+      "after": [
+        "api_key",
+        "service_account",
+        "personal_access_token"
+      ],
+      "reason": "Existing deterministic final atom/subset QA"
+    },
+    {
+      "id": 61,
+      "field": "auth_methods",
+      "before": [
+        "unknown"
+      ],
+      "after": [
+        "personal_access_token",
+        "basic",
+        "oauth2",
+        "bearer_token",
+        "service_account",
+        "api_key"
+      ],
+      "reason": "Existing deterministic final atom/subset QA"
+    }
+  ],
+  "field_integrity_downgrades": []
+}

@@ -1,0 +1,74 @@
+{
+  "retrievals": [
+    {
+      "requested_url": "https://gumroad.com/api",
+      "final_url": "https://gumroad.com/api",
+      "retrieved_at": "2026-09-17T14:39:13.791699+00:00",
+      "source_kind": "official",
+      "ok": false,
+      "text": "API",
+      "content_sha256": "c8e5998f6a3955c21d858936fe05c69621724d7f825c6e17793002a0fa798bf9",
+      "fragments": [
+        {
+          "text": "API",
+          "heading": "",
+          "tag": "head",
+          "ancestry": [
+            "html",
+            "head"
+          ],
+          "category": "hidden",
+          "section_context": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "requested_url": "https://gumroad.com/help/article/67-the-settings-menu",
+      "final_url": "https://gumroad.com/help/article/67-the-settings-menu",
+      "retrieved_at": "2026-09-17T14:39:14.269825+00:00",
+      "source_kind": "official",
+      "ok": false,
+      "text": "Account settings - Gumroad Help Center",
+      "content_sha256": "e7dd620806ba7f6155081ad62bd5f59ab635c297e3e8903882f0d35824414d7b",
+      "fragments": [
+        {
+          "text": "Account settings - Gumroad Help Center",
+          "heading": "",
+          "tag": "head",
+          "ancestry": [
+            "html",
+            "head"
+          ],
+          "category": "hidden",
+          "section_context": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "requested_url": "https://gumroad.com/help/article/76-license-keys",
+      "final_url": "https://gumroad.com/help/article/76-license-keys",
+      "retrieved_at": "2026-09-17T14:39:15.612365+00:00",
+      "source_kind": "official",
+      "ok": false,
+      "text": "License keys - Gumroad Help Center",
+      "content_sha256": "068a7e3a9c2f08c0274296de80848fa5fd879455c3eadbc6219871a40384a334",
+      "fragments": [
+        {
+          "text": "License keys - Gumroad Help Center",
+          "heading": "",
+          "tag": "head",
+          "ancestry": [
+            "html",
+            "head"
+          ],
+          "category": "hidden",
+          "section_context": []
+        }
+      ],
+      "error": null
+    }
+  ],
+  "passages": {}
+}

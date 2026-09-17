@@ -1,0 +1,1164 @@
+{
+  "status": "PARTIAL",
+  "completion_count": 100,
+  "run_id": "full100-production-live-20260917",
+  "field_counts": {
+    "purpose": {
+      "source_backed": 10,
+      "source_backed_with_caveat": 0,
+      "unresolved": 90
+    },
+    "auth_methods": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 10,
+      "unresolved": 90
+    },
+    "api_types": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 8,
+      "unresolved": 92
+    },
+    "api_available": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 13,
+      "unresolved": 87
+    },
+    "api_breadth": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 13,
+      "unresolved": 87
+    },
+    "access_model": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 10,
+      "unresolved": 90
+    },
+    "mcp_available": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 8,
+      "unresolved": 92
+    },
+    "mcp_provider": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 9,
+      "unresolved": 91
+    },
+    "mcp_ownership": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 8,
+      "unresolved": 92
+    },
+    "mcp_notes": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 9,
+      "unresolved": 91
+    },
+    "buildability": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 7,
+      "unresolved": 93
+    },
+    "buildability_rationale": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 9,
+      "unresolved": 91
+    },
+    "primary_blocker": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 5,
+      "unresolved": 95
+    }
+  },
+  "all_critical_unresolved": [
+    {
+      "id": 11,
+      "app": "Zendesk"
+    },
+    {
+      "id": 15,
+      "app": "Pylon"
+    },
+    {
+      "id": 16,
+      "app": "LiveAgent"
+    },
+    {
+      "id": 18,
+      "app": "Help Scout"
+    },
+    {
+      "id": 19,
+      "app": "Gorgias"
+    },
+    {
+      "id": 20,
+      "app": "Gladly"
+    },
+    {
+      "id": 21,
+      "app": "Slack"
+    },
+    {
+      "id": 22,
+      "app": "Twilio"
+    },
+    {
+      "id": 23,
+      "app": "Zoho Cliq"
+    },
+    {
+      "id": 24,
+      "app": "Lark (Larksuite)"
+    },
+    {
+      "id": 25,
+      "app": "Pumble"
+    },
+    {
+      "id": 26,
+      "app": "Discord"
+    },
+    {
+      "id": 27,
+      "app": "Telegram"
+    },
+    {
+      "id": 28,
+      "app": "WhatsApp Business"
+    },
+    {
+      "id": 29,
+      "app": "Aircall"
+    },
+    {
+      "id": 30,
+      "app": "Vonage"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads"
+    },
+    {
+      "id": 32,
+      "app": "Meta Ads"
+    },
+    {
+      "id": 33,
+      "app": "LinkedIn Ads"
+    },
+    {
+      "id": 34,
+      "app": "GoHighLevel"
+    },
+    {
+      "id": 35,
+      "app": "Mailchimp"
+    },
+    {
+      "id": 36,
+      "app": "Klaviyo"
+    },
+    {
+      "id": 37,
+      "app": "systeme.io"
+    },
+    {
+      "id": 38,
+      "app": "Pinterest"
+    },
+    {
+      "id": 39,
+      "app": "Threads (Meta)"
+    },
+    {
+      "id": 40,
+      "app": "SendGrid"
+    },
+    {
+      "id": 41,
+      "app": "Shopify"
+    },
+    {
+      "id": 42,
+      "app": "WooCommerce"
+    },
+    {
+      "id": 43,
+      "app": "BigCommerce"
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud"
+    },
+    {
+      "id": 45,
+      "app": "Magento (Adobe Commerce)"
+    },
+    {
+      "id": 46,
+      "app": "Squarespace"
+    },
+    {
+      "id": 47,
+      "app": "Ecwid"
+    },
+    {
+      "id": 48,
+      "app": "Gumroad"
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis"
+    },
+    {
+      "id": 51,
+      "app": "DataForSEO"
+    },
+    {
+      "id": 52,
+      "app": "SE Ranking"
+    },
+    {
+      "id": 53,
+      "app": "Ahrefs"
+    },
+    {
+      "id": 54,
+      "app": "MrScraper"
+    },
+    {
+      "id": 55,
+      "app": "Apify"
+    },
+    {
+      "id": 56,
+      "app": "Firecrawl"
+    },
+    {
+      "id": 57,
+      "app": "Bright Data"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock"
+    },
+    {
+      "id": 59,
+      "app": "Waterfall.io"
+    },
+    {
+      "id": 60,
+      "app": "Clay"
+    },
+    {
+      "id": 61,
+      "app": "GitHub"
+    },
+    {
+      "id": 62,
+      "app": "Vercel"
+    },
+    {
+      "id": 63,
+      "app": "Netlify"
+    },
+    {
+      "id": 64,
+      "app": "Cloudflare"
+    },
+    {
+      "id": 65,
+      "app": "Supabase"
+    },
+    {
+      "id": 66,
+      "app": "Neo4j"
+    },
+    {
+      "id": 67,
+      "app": "Snowflake"
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas"
+    },
+    {
+      "id": 69,
+      "app": "Datadog"
+    },
+    {
+      "id": 70,
+      "app": "Sentry"
+    },
+    {
+      "id": 71,
+      "app": "Notion"
+    },
+    {
+      "id": 72,
+      "app": "Airtable"
+    },
+    {
+      "id": 73,
+      "app": "Linear"
+    },
+    {
+      "id": 74,
+      "app": "Jira"
+    },
+    {
+      "id": 75,
+      "app": "Asana"
+    },
+    {
+      "id": 76,
+      "app": "Monday.com"
+    },
+    {
+      "id": 77,
+      "app": "ClickUp"
+    },
+    {
+      "id": 78,
+      "app": "Coda"
+    },
+    {
+      "id": 79,
+      "app": "Smartsheet"
+    },
+    {
+      "id": 80,
+      "app": "Harvest"
+    },
+    {
+      "id": 81,
+      "app": "Stripe"
+    },
+    {
+      "id": 82,
+      "app": "Plaid"
+    },
+    {
+      "id": 83,
+      "app": "Binance"
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect"
+    },
+    {
+      "id": 85,
+      "app": "iPayX"
+    },
+    {
+      "id": 86,
+      "app": "QuickBooks"
+    },
+    {
+      "id": 87,
+      "app": "Xero"
+    },
+    {
+      "id": 88,
+      "app": "Brex"
+    },
+    {
+      "id": 89,
+      "app": "Ramp"
+    },
+    {
+      "id": 90,
+      "app": "PitchBook"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM"
+    },
+    {
+      "id": 92,
+      "app": "Otter AI"
+    },
+    {
+      "id": 93,
+      "app": "Fathom"
+    },
+    {
+      "id": 94,
+      "app": "Consensus"
+    },
+    {
+      "id": 95,
+      "app": "Reducto"
+    },
+    {
+      "id": 96,
+      "app": "Devin"
+    },
+    {
+      "id": 97,
+      "app": "higgsfield"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI"
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript"
+    },
+    {
+      "id": 100,
+      "app": "Grain"
+    }
+  ],
+  "major_unresolved_reasons": {
+    "claim_rejected_or_evidence_insufficient": 23,
+    "readiness_evidence_insufficient": 6,
+    "no_supported_field_evidence_found": 23,
+    "model_service_credit_exhaustion_or_429": 1077,
+    "docs_inaccessible_or_unreadable": 39,
+    "identity_ambiguous_or_official_source_unreadable": 13
+  },
+  "specific_unresolved_reasons": {
+    "Evidence insufficient: Missing passage": 3,
+    "Evidence insufficient: Product pricing/trial/sales evidence does not establish API credential/access eligibility; Missing passage": 1,
+    "Evidence insufficient: Explicit MCP evidence absent": 10,
+    "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.": 1,
+    "Evidence insufficient: Explicit protocol classification absent": 3,
+    "No independently supported assigned-product evidence for primary_blocker": 7,
+    "No independently supported assigned-product evidence for mcp_available": 3,
+    "No independently supported assigned-product evidence for mcp_ownership": 3,
+    "The documentation passages show Podio supports multiple OAuth2 flows including app authentication flow, server-side flow, and username and password flow, not only 'oauth2' as a single method. The fact lists only 'oauth2' without specifying flows, but the passages indicate multiple OAuth2 flows and username/password flow as well, so the fact is incomplete and thus unsupported as stated.": 1,
+    "No independently supported assigned-product evidence for api_types": 1,
+    "No independently supported assigned-product evidence for access_model": 3,
+    "No independently supported assigned-product evidence for mcp_provider": 1,
+    "No independently supported assigned-product evidence for mcp_notes": 1,
+    "Positive readiness dependencies failed independent field audit": 2,
+    "Only REST API is explicitly documented with resource actions and usage (d14:b16). GraphQL is described as a query language available in certain editions but no actual API resource or endpoint documentation is provided, and GraphQL APIs are not available in trial versions (d17:b2, d17:b7, d17:b8). Thus, GraphQL API availability is not sufficiently documented as an API type.": 1,
+    "Evidence insufficient: Product is reserved for purpose; invalid integration mode": 4,
+    "Passages d11:b511, d0:b87, d3:b87, d11:b517, d11:b520, d4:b284, d4:b285, d0:b89, d3:b89, d2:b72, d2:b77, d2:b66, d4:b275, d4:b277, d4:b278, d4:b280, d4:b282, d4:b293, d5:b514, d5:b518, and d5:b522 provide core resource and authentication evidence but also note incomplete credential onboarding or coherent auth/API support, indicating that buildability needs further investigation.": 1,
+    "No independently supported assigned-product evidence for purpose": 1,
+    "Although core resource evidence is retained, the documentation lacks complete credential onboarding or coherent authentication/API support details necessary to confirm buildability, as noted in passages d0:b193 and d2:b193.": 1,
+    "HTTPError: HTTP Error 429: Too Many Requests": 42,
+    "Model credit balance exhausted before composite readiness review; reviewed core facts retained independently": 6,
+    "No independently supported assigned-product evidence for auth_methods": 1,
+    "No independently supported assigned-product evidence for api_breadth": 1,
+    "There is insufficient coherent documented resource API, authentication, and credential onboarding evidence in the provided passages to support buildability; the fact is marked unresolved and no supporting passages are provided.": 1,
+    "No independently supported assigned-product evidence for buildability_rationale": 1,
+    "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities": 1029,
+    "ValueError: Docs inaccessible or source unreadable: no selectable body evidence": 39,
+    "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered": 13
+  },
+  "readiness_distribution": {
+    "needs_further_investigation": 1,
+    "buildable_with_documented_constraints": 6,
+    "unresolved": 93
+  },
+  "search_attempts": 1304,
+  "search_successes": 1303,
+  "retrieval_attempts": 1255,
+  "readable_pages": 1154,
+  "exact_citation_refs": 860,
+  "capture_mismatches": 0,
+  "deterministic_qa_downgrades": [],
+  "atom_qa_downgrades": [
+    {
+      "id": 1,
+      "atom_id": "a11",
+      "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+    },
+    {
+      "id": 1,
+      "atom_id": "a12",
+      "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+    },
+    {
+      "id": 2,
+      "atom_id": "a18",
+      "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+    },
+    {
+      "id": 4,
+      "atom_id": "a5",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a6",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a7",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a8",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 4,
+      "atom_id": "a17",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    },
+    {
+      "id": 8,
+      "atom_id": "a0",
+      "reason": "MCP surface cannot establish resource API/access facts"
+    }
+  ],
+  "failures": [
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 12,
+      "app": "Intercom",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 14,
+      "app": "Front",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 15,
+      "app": "Pylon",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 16,
+      "app": "LiveAgent",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 17,
+      "app": "Plain",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 18,
+      "app": "Help Scout",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 19,
+      "app": "Gorgias",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 20,
+      "app": "Gladly",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 21,
+      "app": "Slack",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 22,
+      "app": "Twilio",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 23,
+      "app": "Zoho Cliq",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 24,
+      "app": "Lark (Larksuite)",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 26,
+      "app": "Discord",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 27,
+      "app": "Telegram",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 28,
+      "app": "WhatsApp Business",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 29,
+      "app": "Aircall",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 30,
+      "app": "Vonage",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 32,
+      "app": "Meta Ads",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 33,
+      "app": "LinkedIn Ads",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 34,
+      "app": "GoHighLevel",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 35,
+      "app": "Mailchimp",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 36,
+      "app": "Klaviyo",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 37,
+      "app": "systeme.io",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 38,
+      "app": "Pinterest",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 39,
+      "app": "Threads (Meta)",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 40,
+      "app": "SendGrid",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 41,
+      "app": "Shopify",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 42,
+      "app": "WooCommerce",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 43,
+      "app": "BigCommerce",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud",
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+      "field_audit_failure": null
+    },
+    {
+      "id": 45,
+      "app": "Magento (Adobe Commerce)",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 46,
+      "app": "Squarespace",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 47,
+      "app": "Ecwid",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 48,
+      "app": "Gumroad",
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+      "field_audit_failure": null
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 51,
+      "app": "DataForSEO",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 52,
+      "app": "SE Ranking",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 53,
+      "app": "Ahrefs",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 54,
+      "app": "MrScraper",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 55,
+      "app": "Apify",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 56,
+      "app": "Firecrawl",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 57,
+      "app": "Bright Data",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 59,
+      "app": "Waterfall.io",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 60,
+      "app": "Clay",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 62,
+      "app": "Vercel",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 63,
+      "app": "Netlify",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 64,
+      "app": "Cloudflare",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 65,
+      "app": "Supabase",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 66,
+      "app": "Neo4j",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 67,
+      "app": "Snowflake",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 69,
+      "app": "Datadog",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 70,
+      "app": "Sentry",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 72,
+      "app": "Airtable",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 73,
+      "app": "Linear",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 74,
+      "app": "Jira",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 75,
+      "app": "Asana",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 76,
+      "app": "Monday.com",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 77,
+      "app": "ClickUp",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 78,
+      "app": "Coda",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 79,
+      "app": "Smartsheet",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 80,
+      "app": "Harvest",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 81,
+      "app": "Stripe",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 82,
+      "app": "Plaid",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 83,
+      "app": "Binance",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+      "field_audit_failure": null
+    },
+    {
+      "id": 86,
+      "app": "QuickBooks",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 87,
+      "app": "Xero",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 88,
+      "app": "Brex",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 89,
+      "app": "Ramp",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 90,
+      "app": "PitchBook",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 92,
+      "app": "Otter AI",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 95,
+      "app": "Reducto",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 97,
+      "app": "higgsfield",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities",
+      "field_audit_failure": null
+    }
+  ],
+  "historical_review_overlap": 40,
+  "historical_same_value": 6,
+  "fresh_human_checks": 0,
+  "ready_for_independent_sample": false,
+  "readiness_caveat": "Documentation-based inference only; no integration executed and no exhaustive setup/alternative-route certification.",
+  "semantic_qa": "Retained atoms have completed independent model challenges plus deterministic official identity/body/protocol/MCP/surface/access guards. Projected-field model challenges completed where recorded; final subset projections and recovered atom-review projections preserve only independently challenged retained facts. Credit-blocked unreviewed candidates are unasserted. Composite readiness from incomplete reviews is unresolved. This is automated source-support QA, not fresh measured accuracy.",
+  "protected_state": {
+    "history_files": 330,
+    "history_unchanged": true,
+    "tracked_files_compared": 229,
+    "tracked_differences": [],
+    "canonical_branch": "main",
+    "canonical_head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "canonical_status": "",
+    "branch": "correction/research-coverage",
+    "head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "working_tree": "?? ATOMIC-PILOT-HANDOFF.md\n?? BODY-PILOT-HANDOFF.md\n?? CORRECTION-AUDIT-HANDOFF.md\n?? CORRECTION-INTEGRITY-AUDIT.json\n?? PATH-PILOT-HANDOFF.md\n?? STRICT-PILOT-HANDOFF.md\n?? SURFACE-PILOT-HANDOFF.md\n?? agent/atomic_contracts.py\n?? agent/atomic_pilot_preflight.py\n?? agent/atomic_pilot_primary.py\n?? agent/atomic_pilot_recover.py\n?? agent/body_handoff.py\n?? agent/body_pilot.py\n?? agent/body_pilot_seal.py\n?? agent/body_primary_decisions.py\n?? agent/body_review_pack.py\n?? agent/coverage_correction.py\n?? agent/path_audit.py\n?? agent/path_contracts.py\n?? agent/path_handoff.py\n?? agent/path_pilot.py\n?? agent/production_diagnostic.py\n?? agent/production_qa.py\n?? agent/production_research.py\n?? agent/strict_pilot_audit.py\n?? agent/strict_pilot_finalize.py\n?? agent/strict_pilot_handoff.py\n?? agent/surface_pilot_finalize.py\n?? agent/surface_validation.py\n?? atomic-pilot-context-audit.log\n?? atomic-pilot-recovery.log\n?? atomic-pilot-run.log\n?? atomic-tests-before.log\n?? atomic-tests-final.log\n?? body-pilot-run.log\n?? body-pilot-seal.log\n?? body-pilot-v2-run.log\n?? body-pilot-v3-run.log\n?? body-tests-approved.log\n?? body-tests-before.log\n?? body-tests-final.log\n?? data/correction/\n?? path-pilot-run.log\n?? path-pilot-seal.log\n?? path-tests-approved.log\n?? path-tests-before.log\n?? path-tests-final.log\n?? path-tests-postpilot.log\n?? production-full100-capture-only.log\n?? production-full100-live.log\n?? production-full100-qa.log\n?? production-full100-resume.log\n?? production-full100-resume6.log\n?? production-full100-run.log\n?? production-qa-prepare.log\n?? production-tests-approved.log\n?? production-tests-before.log\n?? production-tests-current.log\n?? production-tests-final.log\n?? production-tests-targeted-final.log\n?? production-tests-targeted.log\n?? surface-pilot-context-audit.log\n?? surface-pilot-run.log\n?? surface-tests-before.log\n?? surface-tests-final.log\n?? tests/fixtures/\n?? tests/test_atomic_contracts.py\n?? tests/test_body_pilot.py\n?? tests/test_coverage_correction.py\n?? tests/test_path_pilot.py\n?? tests/test_production_research.py\n?? tests/test_surface_validation.py\n",
+    "tracked_diff": "",
+    "accepted_sha256": "ea6c6914eb61e597ab8f428bd50abd7e1d5b5ca649bdeaef859bc6bd2dfab9c6",
+    "accepted_bytes": 81369
+  },
+  "model_blocked_apps": [
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    45,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "extraction_completed_apps": 17,
+  "atom_review_completed_apps": 14,
+  "projected_field_review_completed_apps": 11,
+  "research_attempt_note": "Search/retrieval counts are persisted app attempts; interrupted in-flight calls before checkpoints are not included. All 100 assigned apps have fresh source research attempts, but model-blocked extraction is incomplete."
+}

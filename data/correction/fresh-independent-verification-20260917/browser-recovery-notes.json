@@ -1,0 +1,11 @@
+{
+  "capture_type": "selected rendered-body observations transcribed from this task's browser tool responses; not full-page DOM archive",
+  "opened_during_verification": true,
+  "sources": [
+    {"key":"gumroad", "url":"https://gumroad.com/api", "exact_excerpt":"The Gumroad OAuth API is based around REST.", "observations":"Rendered official docs establish OAuth2, JSON responses, OAuth application registration with application ID/secret, Generate access token on application page, scopes, products/sales/subscriptions/user resources. Verify License endpoint does not require OAuth application; public product reads may be unauthenticated."},
+    {"key":"fanbasis", "url":"https://apidocs.fan/api/basics", "exact_excerpt":"Every API request must include your API key in the x-api-key header.", "observations":"Rendered Commas docs explicitly identify www.fanbasis.com production API host and scoped API keys. Quick-start at https://apidocs.fan/start-here/quick-start documents dashboard Account -> API Keys and checkout session POST, product price, payment link response; webhooks. Brand mapping is limited to explicit fanbasis.com host in these docs."},
+    {"key":"intercom", "url":"https://developers.intercom.com/docs/guides/mcp", "exact_excerpt":"Intercom hosts a remote MCP server", "observations":"Rendered first-party page gives US and EU endpoints mcp.intercom.com/mcp and mcp.eu.intercom.com/mcp; AU not yet available. Remote authenticated MCP, OAuth/bearer support and fourteen tools described. SSE endpoint deprecated."},
+    {"key":"paygent", "url":"https://www.gopaygent.com/", "exact_excerpt":"Build marketplace payments, revenue sharing, and automated onboarding with Paygent Connect.", "observations":"Rendered candidate site names Paygent Connect. Candidate /developers/docs contains Pathfinder API, Collect.js and Three-Step Redirect information. This alone does not deterministically establish equivalence to assigned NMI-powered/paygent.io identity; no positive assigned-product fields inferred."},
+    {"key":"ipayx", "url":"https://ipayx.com/docs", "exact_excerpt":null, "observations":"Web docs/developer attempts failed and browser returned ERR_CONNECTION_TIMED_OUT. No positive assigned-product field inferred."}
+  ]
+}

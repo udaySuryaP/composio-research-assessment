@@ -1,0 +1,1779 @@
+[
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "auth_methods",
+    "value": [
+      "api_key",
+      "oauth2"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.klaviyo.com/en/docs/authenticate_.md"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Private/public API keys and OAuth; managing keys requires Owner/Admin/Manager; scoped keys and resource endpoints documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.klaviyo.com/en/docs/authenticate_"
+    ],
+    "source_keys": [
+      "turn0view0"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Account keys are self-managed by Owner/Admin/Manager; server scopes must match intended endpoints.",
+        "atom_id": "targeted-36-access"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.klaviyo.com/en/v2023-01-24/docs/retrieve_api_credentials"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Private/public API keys and OAuth; managing keys requires Owner/Admin/Manager; scoped keys and resource endpoints documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.klaviyo.com/en/docs/authenticate_"
+    ],
+    "source_keys": [
+      "turn0view0"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.klaviyo.com/en/docs/authenticate_.md",
+      "https://developers.klaviyo.com/en/v2023-01-24/docs/retrieve_api_credentials",
+      "https://developers.klaviyo.com/en/docs/authenticate_"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Private/public API keys and OAuth; managing keys requires Owner/Admin/Manager; scoped keys and resource endpoints documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.klaviyo.com/en/docs/authenticate_"
+    ],
+    "source_keys": [
+      "turn0view0"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "auth_methods",
+    "value": [
+      "other"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://shopify.dev/docs/api/admin-graphql/latest"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Admin GraphQL carries access tokens and scopes; app distribution determines review. Public app approval does not gate every custom integration. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://shopify.dev/docs/api/admin-graphql/latest",
+      "https://shopify.dev/docs/apps/launch/app-store-review/pass-app-review"
+    ],
+    "source_keys": [
+      "turn0view2",
+      "turn5view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Install app on a development store for testing; app scopes requested during installation.",
+        "atom_id": "targeted-41-access"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://shopify.dev/docs/apps/launch/app-store-review/pass-app-review",
+      "https://shopify.dev/docs/api/admin-graphql/latest"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Admin GraphQL carries access tokens and scopes; app distribution determines review. Public app approval does not gate every custom integration. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://shopify.dev/docs/api/admin-graphql/latest",
+      "https://shopify.dev/docs/apps/launch/app-store-review/pass-app-review"
+    ],
+    "source_keys": [
+      "turn0view2",
+      "turn5view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://shopify.dev/docs/api/admin-graphql/latest",
+      "https://shopify.dev/docs/apps/launch/app-store-review/pass-app-review"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Admin GraphQL carries access tokens and scopes; app distribution determines review. Public app approval does not gate every custom integration. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://shopify.dev/docs/api/admin-graphql/latest",
+      "https://shopify.dev/docs/apps/launch/app-store-review/pass-app-review"
+    ],
+    "source_keys": [
+      "turn0view2",
+      "turn5view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "auth_methods",
+    "value": [
+      "oauth2"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "OAuth-based store/app/account credentials; app install grant creates access token; alternate endpoint auth differs. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    ],
+    "source_keys": [
+      "turn7view6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Store-level credentials from merchant control panel; app-level credentials require store authorization.",
+        "atom_id": "targeted-43-access"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "OAuth-based store/app/account credentials; app install grant creates access token; alternate endpoint auth differs. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    ],
+    "source_keys": [
+      "turn7view6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "OAuth-based store/app/account credentials; app install grant creates access token; alternate endpoint auth differs. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+    ],
+    "source_keys": [
+      "turn7view6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "auth_methods",
+    "value": [
+      "oauth2"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Application registration and selling-partner authorization precede access; LWA refresh-token/client-credentials routes and restricted data tokens documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+      "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+      "https://developer-docs.amazon/sp-api/lang-de_DE/docs/list-your-app-on-the-selling-partner-appstore",
+      "https://developer-docs.amazon/sp-api/lang-de_DE/docs/register-as-a-public-developer"
+    ],
+    "source_keys": [
+      "turn4view1",
+      "turn7view7",
+      "turn8search5",
+      "turn8search6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "registration",
+        "surface": "primary",
+        "qualification": "SP-API developer and application registration required; public apps must be listed in the Selling Partner Appstore.",
+        "atom_id": "targeted-49-access"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Universal public-Appstore-listing gate is over-broad: official registration/listing guidance conflicts about unlisted public routes. Registration/authorization remain established; policy applicability must be qualified.",
+    "current_official_urls": [
+      "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+      "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+      "https://developer-docs.amazon/sp-api/lang-de_DE/docs/list-your-app-on-the-selling-partner-appstore",
+      "https://developer-docs.amazon/sp-api/lang-de_DE/docs/register-as-a-public-developer"
+    ],
+    "source_keys": [
+      "turn4view1",
+      "turn7view7",
+      "turn8search5",
+      "turn8search6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview",
+      "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Application registration and selling-partner authorization precede access; LWA refresh-token/client-credentials routes and restricted data tokens documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+      "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+      "https://developer-docs.amazon/sp-api/lang-de_DE/docs/list-your-app-on-the-selling-partner-appstore",
+      "https://developer-docs.amazon/sp-api/lang-de_DE/docs/register-as-a-public-developer"
+    ],
+    "source_keys": [
+      "turn4view1",
+      "turn7view7",
+      "turn8search5",
+      "turn8search6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "primary_blocker",
+    "value": "Tables access is Enterprise in current developer docs; prior University text mentions basic reads on any plan, so precise entitlement requires verification.",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://university.clay.com/docs/clay-api-cli",
+      "https://developers.clay.com/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "API key is separate from CLI login. Platform now says all plans including free/trial; Tables structured queries need Enterprise sync; Windows unsupported. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://university.clay.com/docs/clay-api-cli",
+      "https://developers.clay.com/",
+      "https://developers.clay.com/quickstart"
+    ],
+    "source_keys": [
+      "turn1view0",
+      "turn1view1",
+      "turn7view5"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "auth_methods",
+    "value": [
+      "api_key"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://university.clay.com/docs/clay-api-cli"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "API key is separate from CLI login. Platform now says all plans including free/trial; Tables structured queries need Enterprise sync; Windows unsupported. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://university.clay.com/docs/clay-api-cli",
+      "https://developers.clay.com/",
+      "https://developers.clay.com/quickstart"
+    ],
+    "source_keys": [
+      "turn1view0",
+      "turn1view1",
+      "turn7view5"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://university.clay.com/docs/clay-api-cli",
+      "https://developers.clay.com/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "API key is separate from CLI login. Platform now says all plans including free/trial; Tables structured queries need Enterprise sync; Windows unsupported. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://university.clay.com/docs/clay-api-cli",
+      "https://developers.clay.com/",
+      "https://developers.clay.com/quickstart"
+    ],
+    "source_keys": [
+      "turn1view0",
+      "turn1view1",
+      "turn7view5"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "mcp_ownership",
+    "value": [
+      {
+        "surface": "mcp_native",
+        "label": "mcp:vendor_owned",
+        "note": "GitHub-hosted remote GitHub MCP Server; local version also documented.",
+        "atom_id": "targeted-61-mcp-owner"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://github.com/github/github-mcp-server"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "GitHub organization repository calls itself official; remote MCP hosted by GitHub. REST supports PAT/app/Actions tokens and unauthenticated limited calls. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://github.com/github/github-mcp-server",
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+    ],
+    "source_keys": [
+      "turn6view7",
+      "turn10view0"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "auth_methods",
+    "value": [
+      "personal_access_token",
+      "basic",
+      "oauth2",
+      "bearer_token",
+      "service_account",
+      "api_key"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+      "https://docs.github.com/en/rest/apps/apps"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "unsupported",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "API key and service account are not established resource-auth classes. Basic is documented only for app client ID/secret on selected token-management endpoints; user-password Basic is unsupported.",
+    "current_official_urls": [
+      "https://github.com/github/github-mcp-server",
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+    ],
+    "source_keys": [
+      "turn6view7",
+      "turn10view0"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "GitHub organization repository calls itself official; remote MCP hosted by GitHub. REST supports PAT/app/Actions tokens and unauthenticated limited calls. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://github.com/github/github-mcp-server",
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+    ],
+    "source_keys": [
+      "turn6view7",
+      "turn10view0"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "auth_methods",
+    "value": [
+      "oauth2",
+      "api_key"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Atlas Administration API supports recommended OAuth service accounts and legacy digest keys; roles and project organization membership required; excludes cluster data. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "source_keys": [
+      "turn4view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Service account client ID/secret create access tokens; assigned Atlas roles constrain operations.",
+        "atom_id": "targeted-68-access"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Atlas Administration API supports recommended OAuth service accounts and legacy digest keys; roles and project organization membership required; excludes cluster data. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "source_keys": [
+      "turn4view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Atlas Administration API supports recommended OAuth service accounts and legacy digest keys; roles and project organization membership required; excludes cluster data. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://www.mongodb.com/docs/atlas/api/api-authentication/"
+    ],
+    "source_keys": [
+      "turn4view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "mcp_ownership",
+    "value": [
+      {
+        "surface": "mcp_native",
+        "label": "mcp:vendor_owned",
+        "note": "Linear centrally hosted MCP Server; Streamable HTTP with OAuth or direct bearer/key options.",
+        "atom_id": "targeted-73-mcp-owner"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://linear.app/docs/mcp"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Linear centrally hosts and manages its MCP; GraphQL supports personal API keys/OAuth2 with endpoint and example queries/mutations. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://linear.app/docs/mcp",
+      "https://linear.app/developers/graphql"
+    ],
+    "source_keys": [
+      "turn6view6",
+      "turn5view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "auth_methods",
+    "value": [
+      "api_key",
+      "oauth2"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://linear.app/developers/graphql"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Linear centrally hosts and manages its MCP; GraphQL supports personal API keys/OAuth2 with endpoint and example queries/mutations. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://linear.app/docs/mcp",
+      "https://linear.app/developers/graphql"
+    ],
+    "source_keys": [
+      "turn6view6",
+      "turn5view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://linear.app/developers/graphql"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Linear centrally hosts and manages its MCP; GraphQL supports personal API keys/OAuth2 with endpoint and example queries/mutations. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://linear.app/docs/mcp",
+      "https://linear.app/developers/graphql"
+    ],
+    "source_keys": [
+      "turn6view6",
+      "turn5view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "auth_methods",
+    "value": [
+      "personal_access_token"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Personal V2 token issued from developer center; user permissions mirrored; app tokens scoped; free developer account for testing. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "source_keys": [
+      "turn4view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Users with API access retrieve personal token through Developer Center; permissions mirror UI.",
+        "atom_id": "targeted-76-access"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Personal V2 token issued from developer center; user permissions mirrored; app tokens scoped; free developer account for testing. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "source_keys": [
+      "turn4view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developer.monday.com/",
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Personal V2 token issued from developer center; user permissions mirrored; app tokens scoped; free developer account for testing. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developer.monday.com/api-reference/docs/authentication"
+    ],
+    "source_keys": [
+      "turn4view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "mcp_ownership",
+    "value": [
+      {
+        "surface": "mcp_native",
+        "label": "mcp:vendor_owned",
+        "note": "Stripe MCP Server, vendor-hosted; OAuth and restricted-key routes are separate from resource API auth.",
+        "atom_id": "targeted-81-mcp-owner"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.stripe.com/mcp"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Stripe describes own remote MCP; resource API keys use Basic or bearer delivery; Dashboard keys and test calls documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://docs.stripe.com/mcp",
+      "https://docs.stripe.com/api/authentication"
+    ],
+    "source_keys": [
+      "turn6view8",
+      "turn4view5"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "auth_methods",
+    "value": [
+      "api_key",
+      "basic"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.stripe.com/api/authentication"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Stripe describes own remote MCP; resource API keys use Basic or bearer delivery; Dashboard keys and test calls documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://docs.stripe.com/mcp",
+      "https://docs.stripe.com/api/authentication"
+    ],
+    "source_keys": [
+      "turn6view8",
+      "turn4view5"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://docs.stripe.com/api/authentication"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Stripe describes own remote MCP; resource API keys use Basic or bearer delivery; Dashboard keys and test calls documented. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://docs.stripe.com/mcp",
+      "https://docs.stripe.com/api/authentication"
+    ],
+    "source_keys": [
+      "turn6view8",
+      "turn4view5"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "primary_blocker",
+    "value": "Authentication migration: legacy application keys continue; blog distinguishes current SATs from planned M2M OAuth. Endpoint eligibility not resolved.",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Migration blog distinguishes current SAT from planned M2M OAuth; legacy keys continue. Migration alone is not proof of API unbuildability. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    ],
+    "source_keys": [
+      "turn5view2",
+      "turn3view11"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "buildability",
+    "value": "needs_further_investigation",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Migration blog distinguishes current SAT from planned M2M OAuth; legacy keys continue. Migration alone is not proof of API unbuildability. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    ],
+    "source_keys": [
+      "turn5view2",
+      "turn3view11"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "api_available",
+    "value": "yes",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Migration blog distinguishes current SAT from planned M2M OAuth; legacy keys continue. Migration alone is not proof of API unbuildability. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://www.datadoghq.com/blog/datadog-api-authentication/"
+    ],
+    "source_keys": [
+      "turn5view2",
+      "turn3view11"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "primary_blocker",
+    "value": "Standalone API contract and Direct Data outreach.",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Separate standalone API contract; Direct Data request; API key or authentication token. Outreach readiness, not self-service certification. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "source_keys": [
+      "turn4view6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "auth_methods",
+    "value": [
+      "api_key",
+      "other"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Separate standalone API contract; Direct Data request; API key or authentication token. Outreach readiness, not self-service certification. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "source_keys": [
+      "turn4view6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "buildability",
+    "value": "gated_or_outreach_required",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "stratum": "targeted-agent-correction",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Separate standalone API contract; Direct Data request; API key or authentication token. Outreach readiness, not self-service certification. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "source_keys": [
+      "turn4view6"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "auth_methods",
+    "value": [
+      "unknown"
+    ],
+    "status": "unresolved",
+    "unresolved_reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": true,
+    "evidence_note": "Previously unresolved capture/identity limitation is recoverable from freshly rendered official docs. Completion opportunity, not an incorrect positive claim. Web tool empty, browser rendered OAuth2 REST documentation, application registration/token generation, scopes and resource methods. Prior capture limitation recoverable.",
+    "current_official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "api_available",
+    "value": "unknown",
+    "status": "unresolved",
+    "unresolved_reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": true,
+    "evidence_note": "Previously unresolved capture/identity limitation is recoverable from freshly rendered official docs. Completion opportunity, not an incorrect positive claim. Web tool empty, browser rendered OAuth2 REST documentation, application registration/token generation, scopes and resource methods. Prior capture limitation recoverable.",
+    "current_official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "buildability",
+    "value": "unresolved",
+    "status": "unresolved",
+    "unresolved_reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": true,
+    "evidence_note": "Previously unresolved capture/identity limitation is recoverable from freshly rendered official docs. Completion opportunity, not an incorrect positive claim. Web tool empty, browser rendered OAuth2 REST documentation, application registration/token generation, scopes and resource methods. Prior capture limitation recoverable.",
+    "current_official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "auth_methods",
+    "value": [
+      "unknown"
+    ],
+    "status": "unresolved",
+    "unresolved_reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": true,
+    "evidence_note": "Previously unresolved capture/identity limitation is recoverable from freshly rendered official docs. Completion opportunity, not an incorrect positive claim. Browser renders Commas docs explicitly naming fanbasis.com production APIs; x-api-key header and Account/API Keys onboarding. Product-name mapping limited to this documented domain.",
+    "current_official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "api_available",
+    "value": "unknown",
+    "status": "unresolved",
+    "unresolved_reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": true,
+    "evidence_note": "Previously unresolved capture/identity limitation is recoverable from freshly rendered official docs. Completion opportunity, not an incorrect positive claim. Browser renders Commas docs explicitly naming fanbasis.com production APIs; x-api-key header and Account/API Keys onboarding. Product-name mapping limited to this documented domain.",
+    "current_official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "buildability",
+    "value": "unresolved",
+    "status": "unresolved",
+    "unresolved_reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": true,
+    "evidence_note": "Previously unresolved capture/identity limitation is recoverable from freshly rendered official docs. Completion opportunity, not an incorrect positive claim. Browser renders Commas docs explicitly naming fanbasis.com production APIs; x-api-key header and Account/API Keys onboarding. Product-name mapping limited to this documented domain.",
+    "current_official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "auth_methods",
+    "value": [
+      "unknown"
+    ],
+    "status": "unresolved",
+    "unresolved_reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": true,
+    "original_unresolved": true,
+    "evidence_note": "Appropriately unresolved uncertainty handling; no positive factual assertion. gopaygent.com browser mentions Paygent Connect but assigned NMI-powered/paygent.io identity still not deterministically matched; generic same-name vendors not interchangeable.",
+    "current_official_urls": [
+      "https://www.gopaygent.com/"
+    ],
+    "source_keys": [
+      "paygent"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "api_available",
+    "value": "unknown",
+    "status": "unresolved",
+    "unresolved_reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": true,
+    "original_unresolved": true,
+    "evidence_note": "Appropriately unresolved uncertainty handling; no positive factual assertion. gopaygent.com browser mentions Paygent Connect but assigned NMI-powered/paygent.io identity still not deterministically matched; generic same-name vendors not interchangeable.",
+    "current_official_urls": [
+      "https://www.gopaygent.com/"
+    ],
+    "source_keys": [
+      "paygent"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "buildability",
+    "value": "unresolved",
+    "status": "unresolved",
+    "unresolved_reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": true,
+    "original_unresolved": true,
+    "evidence_note": "Appropriately unresolved uncertainty handling; no positive factual assertion. gopaygent.com browser mentions Paygent Connect but assigned NMI-powered/paygent.io identity still not deterministically matched; generic same-name vendors not interchangeable.",
+    "current_official_urls": [
+      "https://www.gopaygent.com/"
+    ],
+    "source_keys": [
+      "paygent"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "auth_methods",
+    "value": [
+      "unknown"
+    ],
+    "status": "unresolved",
+    "unresolved_reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": true,
+    "original_unresolved": true,
+    "evidence_note": "Appropriately unresolved uncertainty handling; no positive factual assertion. Docs/developer opens fail; browser docs timed out. No current readable assigned-product authentication/resource evidence recovered.",
+    "current_official_urls": [
+      "https://ipayx.com/docs"
+    ],
+    "source_keys": [
+      "ipayx"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "api_available",
+    "value": "unknown",
+    "status": "unresolved",
+    "unresolved_reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": true,
+    "original_unresolved": true,
+    "evidence_note": "Appropriately unresolved uncertainty handling; no positive factual assertion. Docs/developer opens fail; browser docs timed out. No current readable assigned-product authentication/resource evidence recovered.",
+    "current_official_urls": [
+      "https://ipayx.com/docs"
+    ],
+    "source_keys": [
+      "ipayx"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "buildability",
+    "value": "unresolved",
+    "status": "unresolved",
+    "unresolved_reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+    "URLs": [],
+    "stratum": "unresolved/source-identity",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": true,
+    "original_unresolved": true,
+    "evidence_note": "Appropriately unresolved uncertainty handling; no positive factual assertion. Docs/developer opens fail; browser docs timed out. No current readable assigned-product authentication/resource evidence recovered.",
+    "current_official_urls": [
+      "https://ipayx.com/docs"
+    ],
+    "source_keys": [
+      "ipayx"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "field": "auth_methods",
+    "value": [
+      "bearer_token",
+      "oauth2"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+      "https://developers.intercom.com/docs"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Private access token versus public OAuth; public installs reviewed, private own paid workspace exempt. MCP URL failed web opening; browser recovery needed. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs/publish-to-the-app-store/review-publish-your-app",
+      "https://developers.intercom.com/docs/guides/mcp"
+    ],
+    "source_keys": [
+      "turn4view8",
+      "turn6view3",
+      "intercom"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Access Tokens are automatically provided when creating an app in the Developer Hub for private apps; OAuth credentials are created via OAuth flow for public apps.",
+        "atom_id": "a2"
+      },
+      {
+        "gate": "public_app_review",
+        "surface": "primary",
+        "qualification": "Public apps require review and approval by Intercom before being available for installation; private apps do not require review.",
+        "atom_id": "a6"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/setting-up-oauth",
+      "https://developers.intercom.com/docs/publish-to-the-app-store/review-publish-your-app"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Private access token versus public OAuth; public installs reviewed, private own paid workspace exempt. MCP URL failed web opening; browser recovery needed. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs/publish-to-the-app-store/review-publish-your-app",
+      "https://developers.intercom.com/docs/guides/mcp"
+    ],
+    "source_keys": [
+      "turn4view8",
+      "turn6view3",
+      "intercom"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "field": "mcp_ownership",
+    "value": [
+      {
+        "surface": "mcp_native",
+        "label": "mcp:ownership",
+        "note": "Intercom owns and operates the MCP server at https://mcp.intercom.com/mcp.",
+        "atom_id": "a19"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.intercom.com/docs/guides/mcp"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Private access token versus public OAuth; public installs reviewed, private own paid workspace exempt. MCP URL failed web opening; browser recovery needed. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs/publish-to-the-app-store/review-publish-your-app",
+      "https://developers.intercom.com/docs/guides/mcp"
+    ],
+    "source_keys": [
+      "turn4view8",
+      "turn6view3",
+      "intercom"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "auth_methods",
+    "value": [
+      "oauth2",
+      "api_key",
+      "service_account"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://marketplace.gohighlevel.com/docs/2023-02-21/intro/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "unsupported",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "V2 supports OAuth and private integration bearer tokens; API v1 keys are end-of-life. Service-account classification is not established.",
+    "current_official_urls": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/"
+    ],
+    "source_keys": [
+      "turn4view7",
+      "turn10view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "public_app",
+        "qualification": "Developers must sign up for a developer account in the Marketplace to create OAuth apps and obtain client credentials.",
+        "atom_id": "a1"
+      },
+      {
+        "gate": "credential_creation",
+        "surface": "personal_integration",
+        "qualification": "Private Integration tokens can be generated from the UI in account settings without OAuth flow.",
+        "atom_id": "a13"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "https://marketplace.gohighlevel.com/docs/oauth/CreateDeveloperAccount/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "OAuth authorization-code route and private integration static bearer tokens documented; API v1 keys end-of-life; service-account classification not established. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/"
+    ],
+    "source_keys": [
+      "turn4view7",
+      "turn10view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "buildability",
+    "value": "likely_buildable_from_public_docs",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://marketplace.gohighlevel.com/docs/2023-02-21/intro/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/",
+      "https://marketplace.gohighlevel.com/docs/index.html"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "OAuth authorization-code route and private integration static bearer tokens documented; API v1 keys end-of-life; service-account classification not established. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/"
+    ],
+    "source_keys": [
+      "turn4view7",
+      "turn10view3"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "auth_methods",
+    "value": [
+      "oauth2",
+      "personal_access_token"
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+      "https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "unsupported",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Personal access keys authenticate the CLI, not general resource API requests. Current resource onboarding distinguishes OAuth and static bearer tokens.",
+    "current_official_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes"
+    ],
+    "source_keys": [
+      "turn7view4",
+      "turn6view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "access_model",
+    "value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+        "atom_id": "a10"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+        "atom_id": "a14"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+        "atom_id": "a17"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+        "atom_id": "a19"
+      }
+    ],
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+      "https://community.hubspot.com/t/required-user-permission-for-scope-crm-objects-users-read/131203",
+      "https://knowledge.hubspot.com/website-and-landing-pages/approve-hubspot-content",
+      "https://knowledge.hubspot.com/payment-processing/payments-frequently-asked-questions"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "unsupported",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Saved gates import content-approval and payment-export UI roles into API onboarding. Current API docs establish app auth, scopes and tier entitlement instead.",
+    "current_official_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes"
+    ],
+    "source_keys": [
+      "turn7view4",
+      "turn6view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "buildability",
+    "value": "buildable_with_documented_constraints",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/oauth/working-with-oauth",
+      "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/oauth-quickstart-guide",
+      "https://community.hubspot.com/t/necessary-permissions-to-authorize-the-required-scopes/142758",
+      "https://community.hubspot.com/t/required-user-permission-for-scope-crm-objects-users-read/131203",
+      "https://knowledge.hubspot.com/website-and-landing-pages/approve-hubspot-content",
+      "https://knowledge.hubspot.com/payment-processing/payments-frequently-asked-questions"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "OAuth plus static auth supported; scope/tier entitlement matters. UI content approvals/payment exports must not be imported as generic API onboarding gates. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes"
+    ],
+    "source_keys": [
+      "turn7view4",
+      "turn6view4"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "buildability",
+    "value": "needs_further_investigation",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.salesforce.com/blog/what-does-salesforce-do/?bc=OTH"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "caveat_needed",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Conservative investigation label is not a false API claim, but current REST/OAuth/permissions docs now establish constrained documentation-based onboarding.",
+    "current_official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "api_breadth",
+    "value": "Inspected documented actions: Salesforce platform allows managing business logic, workflows, and AI agents via APIs and platform tools.",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.salesforce.com/blog/what-does-salesforce-do/?bc=OTH"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "unsupported",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "Generic platform blog does not establish the stated business-logic/workflow/AI-agent resource breadth. REST guide establishes records, queries, collections and metadata.",
+    "current_official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "api_available",
+    "value": "yes",
+    "status": "source_backed_with_caveat",
+    "unresolved_reason": null,
+    "URLs": [
+      "https://www.salesforce.com/blog/what-does-salesforce-do/?bc=OTH"
+    ],
+    "stratum": "preserved-API-base",
+    "verification_state": "VERIFIED",
+    "judgment": "correct",
+    "appropriately_unresolved": false,
+    "original_unresolved": false,
+    "evidence_note": "REST official guide documents resource CRUD and OAuth onboarding. General blog does not alone establish business logic/AI agent endpoint breadth; more specific routes required. Existing qualifications retained; documentation-based, no execution or exhaustive inventory certification.",
+    "current_official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reviewer": "Codex agent current-source review, not human verification",
+    "fully_blinded": false
+  }
+]

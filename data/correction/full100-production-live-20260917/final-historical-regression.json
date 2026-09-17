@@ -1,0 +1,455 @@
+[
+  {
+    "id": 1,
+    "field": "api_available",
+    "historical_value": "yes",
+    "corrected_value": "yes",
+    "same": true,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 1,
+    "field": "api_types",
+    "historical_value": [
+      "rest"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 2,
+    "field": "auth_methods",
+    "historical_value": [
+      "oauth2"
+    ],
+    "corrected_value": [
+      "oauth2",
+      "personal_access_token"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 2,
+    "field": "access_model",
+    "historical_value": "admin_approval",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+        "atom_id": "a10"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+        "atom_id": "a14"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+        "atom_id": "a17"
+      },
+      {
+        "gate": "admin_permission",
+        "surface": "primary",
+        "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+        "atom_id": "a19"
+      }
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 13,
+    "field": "api_types",
+    "historical_value": [
+      "rest"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 13,
+    "field": "mcp_available",
+    "historical_value": "unknown",
+    "corrected_value": "yes",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 14,
+    "field": "access_model",
+    "historical_value": "admin_approval",
+    "corrected_value": [
+      {
+        "gate": "public_app_review",
+        "surface": "primary",
+        "qualification": "Public integrations must undergo review and use OAuth unless an exception is granted.",
+        "atom_id": "a7"
+      },
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "API tokens can be self-generated in user settings for quick testing or private integrations.",
+        "atom_id": "a14"
+      }
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 14,
+    "field": "api_available",
+    "historical_value": "yes",
+    "corrected_value": "yes",
+    "same": true,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 22,
+    "field": "buildability",
+    "historical_value": "buildable",
+    "corrected_value": "unresolved",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 22,
+    "field": "primary_blocker",
+    "historical_value": "trial_and_paid_account_restrictions",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 29,
+    "field": "auth_methods",
+    "historical_value": [
+      "oauth2",
+      "basic"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 29,
+    "field": "access_model",
+    "historical_value": "admin_approval",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 32,
+    "field": "api_available",
+    "historical_value": "yes",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 32,
+    "field": "api_types",
+    "historical_value": [
+      "rest"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 37,
+    "field": "mcp_available",
+    "historical_value": "official",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 37,
+    "field": "buildability",
+    "historical_value": "buildable",
+    "corrected_value": "unresolved",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 41,
+    "field": "primary_blocker",
+    "historical_value": "review_and_permission_requirements",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 41,
+    "field": "auth_methods",
+    "historical_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 50,
+    "field": "access_model",
+    "historical_value": "unknown",
+    "corrected_value": "unknown",
+    "same": true,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 50,
+    "field": "api_available",
+    "historical_value": "yes",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 52,
+    "field": "api_types",
+    "historical_value": [
+      "rest"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 52,
+    "field": "mcp_available",
+    "historical_value": "official",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 54,
+    "field": "buildability",
+    "historical_value": "buildable",
+    "corrected_value": "unresolved",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 54,
+    "field": "primary_blocker",
+    "historical_value": "usage_quota_and_target_site_constraints",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 64,
+    "field": "auth_methods",
+    "historical_value": [
+      "oauth2",
+      "bearer_token",
+      "api_key"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 64,
+    "field": "access_model",
+    "historical_value": "self_serve_free",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 69,
+    "field": "api_available",
+    "historical_value": "yes",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 69,
+    "field": "api_types",
+    "historical_value": [
+      "rest"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 71,
+    "field": "primary_blocker",
+    "historical_value": "workspace_content_sharing_and_permission_requirements",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 71,
+    "field": "auth_methods",
+    "historical_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 80,
+    "field": "mcp_available",
+    "historical_value": "unknown",
+    "corrected_value": "unknown",
+    "same": true,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 80,
+    "field": "buildability",
+    "historical_value": "buildable",
+    "corrected_value": "unresolved",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 84,
+    "field": "api_types",
+    "historical_value": [
+      "unknown"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": true,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 84,
+    "field": "mcp_available",
+    "historical_value": "unknown",
+    "corrected_value": "unknown",
+    "same": true,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 89,
+    "field": "access_model",
+    "historical_value": "admin_approval",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 89,
+    "field": "api_available",
+    "historical_value": "yes",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 94,
+    "field": "primary_blocker",
+    "historical_value": "paid_or_enterprise_access_requirements",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 94,
+    "field": "auth_methods",
+    "historical_value": [
+      "api_key",
+      "oauth2"
+    ],
+    "corrected_value": [
+      "unknown"
+    ],
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 95,
+    "field": "mcp_available",
+    "historical_value": "official",
+    "corrected_value": "unknown",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  },
+  {
+    "id": 95,
+    "field": "buildability",
+    "historical_value": "buildable",
+    "corrected_value": "unresolved",
+    "same": false,
+    "fresh_human_check": false,
+    "comparison_limit": "Readiness/access schema changed; non-identical values do not establish regression or accuracy"
+  }
+]

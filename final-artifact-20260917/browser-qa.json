@@ -1,0 +1,161 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "offline": false,
+    "status": "PASS",
+    "geometry": {
+      "viewport": 1440,
+      "pageWidth": 1440,
+      "matrixWidth": 2400,
+      "matrixContainerWidth": 1174
+    },
+    "assets": {
+      "externalAssets": 0,
+      "appIds": 100
+    },
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:8765/composio-assessment-uday.html"
+    ],
+    "checks": [
+      "100 rows",
+      "no body overflow",
+      "search",
+      "category",
+      "combined filters",
+      "65 constrained",
+      "zero results",
+      "reset",
+      "unresolved evidence",
+      "caveated source links",
+      "download 100 reviewed rows",
+      "candidate anchor",
+      "no external assets or requests"
+    ]
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "offline": false,
+    "status": "PASS",
+    "geometry": {
+      "viewport": 390,
+      "pageWidth": 390,
+      "matrixWidth": 354,
+      "matrixContainerWidth": 354
+    },
+    "assets": {
+      "externalAssets": 0,
+      "appIds": 100
+    },
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:8765/composio-assessment-uday.html"
+    ],
+    "checks": [
+      "100 rows",
+      "no body overflow",
+      "search",
+      "category",
+      "combined filters",
+      "65 constrained",
+      "zero results",
+      "reset",
+      "unresolved evidence",
+      "caveated source links",
+      "download 100 reviewed rows",
+      "candidate anchor",
+      "no external assets or requests"
+    ]
+  },
+  {
+    "name": "offline-desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "offline": true,
+    "status": "PASS",
+    "geometry": {
+      "viewport": 1440,
+      "pageWidth": 1440,
+      "matrixWidth": 2400,
+      "matrixContainerWidth": 1174
+    },
+    "assets": {
+      "externalAssets": 0,
+      "appIds": 100
+    },
+    "errors": [],
+    "requests": [
+      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/research-correction/final-artifact-20260917/composio-assessment-uday.html"
+    ],
+    "checks": [
+      "100 rows",
+      "no body overflow",
+      "search",
+      "category",
+      "combined filters",
+      "65 constrained",
+      "zero results",
+      "reset",
+      "unresolved evidence",
+      "caveated source links",
+      "download 100 reviewed rows",
+      "candidate anchor",
+      "no external assets or requests"
+    ]
+  },
+  {
+    "name": "offline-mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "offline": true,
+    "status": "PASS",
+    "geometry": {
+      "viewport": 390,
+      "pageWidth": 390,
+      "matrixWidth": 354,
+      "matrixContainerWidth": 354
+    },
+    "assets": {
+      "externalAssets": 0,
+      "appIds": 100
+    },
+    "errors": [],
+    "requests": [
+      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/research-correction/final-artifact-20260917/composio-assessment-uday.html"
+    ],
+    "checks": [
+      "100 rows",
+      "no body overflow",
+      "search",
+      "category",
+      "combined filters",
+      "65 constrained",
+      "zero results",
+      "reset",
+      "unresolved evidence",
+      "caveated source links",
+      "download 100 reviewed rows",
+      "candidate anchor",
+      "no external assets or requests"
+    ]
+  },
+  {
+    "name": "offline-no-javascript",
+    "status": "PASS",
+    "checks": [
+      "all static report and 100 matrix records retained; native evidence disclosures accessible"
+    ]
+  }
+]
