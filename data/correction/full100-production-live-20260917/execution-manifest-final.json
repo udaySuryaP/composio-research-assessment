@@ -1,0 +1,24 @@
+{
+  "status": "PARTIAL",
+  "runtime": "U:/composio-research-assessment/.venv/Scripts/python.exe",
+  "commands": [
+    "python -m agent.production_research --run-id full100-production-20260917",
+    "python -m agent.production_research --run-id full100-production-live-20260917",
+    "python -m agent.production_research --run-id full100-production-live-20260917 --resume",
+    "python -m agent.production_research --run-id full100-production-live-20260917 --resume --workers 6",
+    "python -m agent.production_research --run-id full100-production-live-20260917 --resume --workers 6 --capture-only",
+    "python -m agent.production_qa --run-id full100-production-live-20260917 --prepare",
+    "python -m agent.production_qa --run-id full100-production-live-20260917",
+    "python -m unittest discover -s tests -v"
+  ],
+  "field_status_totals": {
+    "source_backed": 10,
+    "source_backed_with_caveat": 109,
+    "unresolved": 1181
+  },
+  "tests_passed": 136,
+  "tests_total": 136,
+  "fresh_human_checks": 0,
+  "stopped_at": "Full-100 research-attempt dataset and automated QA; semantic extraction incomplete due model credit exhaustion",
+  "sealed_at": "2026-09-17T12:51:02.297598+00:00"
+}

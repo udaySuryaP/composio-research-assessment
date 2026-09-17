@@ -1,0 +1,15 @@
+{
+  "history_files": 330,
+  "history_unchanged": true,
+  "tracked_files_compared": 229,
+  "tracked_differences": [],
+  "canonical_branch": "main",
+  "canonical_head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+  "canonical_status": "",
+  "branch": "correction/research-coverage",
+  "head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+  "working_tree": "?? ATOMIC-PILOT-HANDOFF.md\n?? BODY-PILOT-HANDOFF.md\n?? CORRECTION-AUDIT-HANDOFF.md\n?? CORRECTION-INTEGRITY-AUDIT.json\n?? PATH-PILOT-HANDOFF.md\n?? STRICT-PILOT-HANDOFF.md\n?? SURFACE-PILOT-HANDOFF.md\n?? agent/atomic_contracts.py\n?? agent/atomic_pilot_preflight.py\n?? agent/atomic_pilot_primary.py\n?? agent/atomic_pilot_recover.py\n?? agent/body_handoff.py\n?? agent/body_pilot.py\n?? agent/body_pilot_seal.py\n?? agent/body_primary_decisions.py\n?? agent/body_review_pack.py\n?? agent/coverage_correction.py\n?? agent/path_audit.py\n?? agent/path_contracts.py\n?? agent/path_handoff.py\n?? agent/path_pilot.py\n?? agent/production_diagnostic.py\n?? agent/production_qa.py\n?? agent/production_research.py\n?? agent/strict_pilot_audit.py\n?? agent/strict_pilot_finalize.py\n?? agent/strict_pilot_handoff.py\n?? agent/surface_pilot_finalize.py\n?? agent/surface_validation.py\n?? atomic-pilot-context-audit.log\n?? atomic-pilot-recovery.log\n?? atomic-pilot-run.log\n?? atomic-tests-before.log\n?? atomic-tests-final.log\n?? body-pilot-run.log\n?? body-pilot-seal.log\n?? body-pilot-v2-run.log\n?? body-pilot-v3-run.log\n?? body-tests-approved.log\n?? body-tests-before.log\n?? body-tests-final.log\n?? data/correction/\n?? path-pilot-run.log\n?? path-pilot-seal.log\n?? path-tests-approved.log\n?? path-tests-before.log\n?? path-tests-final.log\n?? path-tests-postpilot.log\n?? production-full100-capture-only.log\n?? production-full100-live.log\n?? production-full100-resume.log\n?? production-full100-resume6.log\n?? production-full100-run.log\n?? production-qa-prepare.log\n?? production-tests-approved.log\n?? production-tests-before.log\n?? production-tests-current.log\n?? production-tests-targeted-final.log\n?? production-tests-targeted.log\n?? surface-pilot-context-audit.log\n?? surface-pilot-run.log\n?? surface-tests-before.log\n?? surface-tests-final.log\n?? tests/fixtures/\n?? tests/test_atomic_contracts.py\n?? tests/test_body_pilot.py\n?? tests/test_coverage_correction.py\n?? tests/test_path_pilot.py\n?? tests/test_production_research.py\n?? tests/test_surface_validation.py\n",
+  "tracked_diff": "",
+  "accepted_sha256": "ea6c6914eb61e597ab8f428bd50abd7e1d5b5ca649bdeaef859bc6bd2dfab9c6",
+  "accepted_bytes": 81369
+}

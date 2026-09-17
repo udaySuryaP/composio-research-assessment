@@ -1,0 +1,47 @@
+{
+  "citation_integrity_errors": [],
+  "citations_checked": {
+    "retained": 7239,
+    "fresh": 44
+  },
+  "protected_manifests": {
+    "quota": {
+      "files": 870,
+      "mismatches": []
+    },
+    "targeted": {
+      "files": 37,
+      "mismatches": []
+    },
+    "verification": {
+      "files": 27,
+      "mismatches": []
+    }
+  },
+  "protected_history_files": 791,
+  "protected_history_unchanged": true,
+  "canonical_tracked_files": 229,
+  "canonical_differences": [],
+  "canonical_status": "",
+  "tracked_diff": "",
+  "tests": {
+    "passed": 136,
+    "failed": 0,
+    "log": "tests-approved.log",
+    "sandbox_attempt": "136 run, five temporary-directory cleanup errors; established-runtime unrestricted rerun passed"
+  },
+  "security_scans": {
+    "local_absolute_path": false,
+    "recognizable_secret": false,
+    "external_runtime": false
+  },
+  "unsafe_evidence_urls": [],
+  "self_contained_external_assets": [],
+  "matrix_records": 100,
+  "html_bytes": 7554153,
+  "html_sha256": "0236cf4124273b73d76dd7ba925ab77963da405c1a23c1e97c3fb6e0a338706b",
+  "top_words": 246,
+  "two_minute_boundary": "Editorial review of title, metrics and executive summary; word count provided. No timed human comprehension test or guarantee.",
+  "reproducible_metric_scope_checks": "PASS",
+  "original_assignment_reference": "Recovered criteria in STAGE01.md and retained stage02-input-reconciliation.json. Exact original attachment not available in this local mirror; rows 1–90 were reconciled historically and final ten accepted by user."
+}

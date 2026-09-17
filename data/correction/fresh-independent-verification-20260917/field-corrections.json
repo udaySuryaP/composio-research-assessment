@@ -1,0 +1,1080 @@
+[
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "personal_access_token",
+        "basic",
+        "oauth2",
+        "bearer_token",
+        "service_account",
+        "api_key"
+      ],
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Retained independent resource facts",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted.",
+          "Final projection is a subset of independently reviewed retained atoms after strict semantic guards; no new app fact asserted."
+        ],
+        "derivation": false
+      },
+      "refs": [
+        "d0:b284",
+        "d0:b293",
+        "d0:b294",
+        "d0:b295",
+        "d0:b296",
+        "d0:b298",
+        "d0:b300",
+        "d0:b307",
+        "d0:b309",
+        "d0:b304",
+        "d0:b325",
+        "d0:b336",
+        "d14:b307",
+        "d12:b473"
+      ]
+    },
+    "judgment": "unsupported",
+    "corrected_value": [
+      "personal_access_token",
+      "basic",
+      "oauth2",
+      "bearer_token"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+    ],
+    "source_keys": [
+      "turn10view0"
+    ],
+    "reason": "API key and service account are not established resource-auth classes. Basic is documented only for app client ID/secret on selected token-management endpoints; user-password Basic is unsupported."
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "oauth2",
+        "api_key",
+        "service_account"
+      ],
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Retained independent resource facts",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "refs": [
+        "d7:b33",
+        "d7:b35",
+        "d4:b77",
+        "d5:b90",
+        "d5:b95",
+        "d5:b101",
+        "d5:b87",
+        "d5:b88"
+      ]
+    },
+    "judgment": "unsupported",
+    "corrected_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+      "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/"
+    ],
+    "source_keys": [
+      "turn4view7",
+      "turn10view3"
+    ],
+    "reason": "V2 supports OAuth and private integration bearer tokens; API v1 keys are end-of-life. Service-account classification is not established."
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "oauth2",
+        "personal_access_token"
+      ],
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Retained independent resource facts",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Final projection is a subset of independently reviewed retained atoms after strict semantic guards; no new app fact asserted."
+        ],
+        "derivation": false
+      },
+      "refs": [
+        "d0:b49",
+        "d15:b63"
+      ]
+    },
+    "judgment": "unsupported",
+    "corrected_value": [
+      "oauth2",
+      "bearer_token"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview"
+    ],
+    "source_keys": [
+      "turn7view4"
+    ],
+    "reason": "Personal access keys authenticate the CLI, not general resource API requests. Current resource onboarding distinguishes OAuth and static bearer tokens."
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "access_model",
+    "original": {
+      "value": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+          "atom_id": "a10"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+          "atom_id": "a14"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+          "atom_id": "a17"
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+          "atom_id": "a19"
+        }
+      ],
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Only explicitly documented access dimensions; unspecified pricing/access remains unknown",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Final projection is a subset of independently reviewed retained atoms after strict semantic guards; no new app fact asserted."
+        ],
+        "derivation": false
+      },
+      "refs": [
+        "d0:b59",
+        "d0:b60",
+        "d6:b11",
+        "d6:b8",
+        "d9:b75",
+        "d11:b208"
+      ]
+    },
+    "judgment": "unsupported",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Create app credentials; OAuth for multi-account apps or static bearer auth for a single account. Requested resource scopes and account-tier entitlement apply; UI approval/payment-export permissions are not generic API onboarding gates.",
+        "atom_id": "verification-2-access"
+      }
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes"
+    ],
+    "source_keys": [
+      "turn7view4",
+      "turn6view4"
+    ],
+    "reason": "Create app credentials; OAuth for multi-account apps or static bearer auth for a single account. Requested resource scopes and account-tier entitlement apply; UI approval/payment-export permissions are not generic API onboarding gates."
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "access_model",
+    "original": {
+      "value": [
+        {
+          "gate": "registration",
+          "surface": "primary",
+          "qualification": "SP-API developer and application registration required; public apps must be listed in the Selling Partner Appstore.",
+          "atom_id": "targeted-49-access"
+        }
+      ],
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "refs": [
+        "target:d1:b575",
+        "target:d1:b579"
+      ]
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Register developer/application and obtain relevant selling-partner authorization. Restricted data may need RDT. Public app distribution/listing policy is route-specific and inconsistent across currently indexed official guidance; verify applicable policy before distribution.",
+        "atom_id": "verification-49-access"
+      }
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+      "https://developer-docs.amazon.com/sp-api/docs/registering-your-application"
+    ],
+    "source_keys": [
+      "turn4view1",
+      "turn7view7"
+    ],
+    "reason": "Register developer/application and obtain relevant selling-partner authorization. Restricted data may need RDT. Public app distribution/listing policy is route-specific and inconsistent across currently indexed official guidance; verify applicable policy before distribution."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "api_breadth",
+    "original": {
+      "value": "Inspected documented actions: Salesforce platform allows managing business logic, workflows, and AI agents via APIs and platform tools.",
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Inspected resource/action groups, not endpoint census",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": false
+      },
+      "refs": [
+        "d22:b69",
+        "d22:b81",
+        "d22:b104"
+      ]
+    },
+    "judgment": "unsupported",
+    "corrected_value": "REST resources include records, collections, query results, metadata and API information; documented resource operations access, create and manipulate data.",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm"
+    ],
+    "source_keys": [
+      "turn9view0"
+    ],
+    "reason": "Generic platform blog does not establish the stated business-logic/workflow/AI-agent resource breadth. REST guide establishes records, queries, collections and metadata."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "unknown"
+      ],
+      "status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Missing passage",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a3",
+            "reason": "Missing passage"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      "oauth2"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reason": "REST resource clients use OAuth2 through external client apps or existing connected apps; new connected-app creation is restricted from Spring 26."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "api_types",
+    "original": {
+      "value": [
+        "unknown"
+      ],
+      "status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Missing passage",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a4",
+            "reason": "Missing passage"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      "rest"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm"
+    ],
+    "source_keys": [
+      "turn9view0"
+    ],
+    "reason": "Salesforce REST API guide explicitly documents REST resources."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "access_model",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Product pricing/trial/sales evidence does not establish API credential/access eligibility; Missing passage",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a11",
+            "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+          },
+          {
+            "atom_id": "a12",
+            "reason": "Product pricing/trial/sales evidence does not establish API credential/access eligibility"
+          },
+          {
+            "atom_id": "a13",
+            "reason": "Missing passage"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Org edition and user API Enabled permission required; Professional edition needs API add-on. Use external client app OAuth; creating connected apps is restricted from Spring 26.",
+        "atom_id": "verification-1-access"
+      }
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reason": "Org edition and user API Enabled permission required; Professional edition needs API add-on. Use external client app OAuth; creating connected apps is restricted from Spring 26."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "buildability",
+    "original": {
+      "value": "needs_further_investigation",
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": true
+      },
+      "refs": [
+        "d22:b69",
+        "d22:b81",
+        "d22:b104"
+      ]
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "buildable_with_documented_constraints",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reason": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification."
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "buildability_rationale",
+    "original": {
+      "value": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete.",
+      "status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": true
+      },
+      "refs": [
+        "d22:b69",
+        "d22:b81",
+        "d22:b104"
+      ]
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification.",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html"
+    ],
+    "source_keys": [
+      "turn9view0",
+      "turn12view0",
+      "turn12view1",
+      "turn12view0",
+      "turn12view1"
+    ],
+    "reason": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "unknown"
+      ],
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      "oauth2"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "OAuth2 application/client credentials, generated access token and scopes documented. License verification and some public product reads have separate unauthenticated routes."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "api_available",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "yes",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "Rendered official OAuth API documents resource methods and responses."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "api_types",
+    "original": {
+      "value": [
+        "unknown"
+      ],
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      "rest"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "Official page explicitly describes its OAuth API as REST with JSON responses."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "api_breadth",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "Inspected documented resource methods cover products, sales, subscriptions and user public information.",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "Rendered official resource methods; breadth is limited to inspected documented categories."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "access_model",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Register OAuth application, obtain application ID/secret and generate own access token, or authorize OAuth with scopes; license verification is a separate route.",
+        "atom_id": "verification-48-access"
+      }
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "Register OAuth application, obtain application ID/secret and generate own access token, or authorize OAuth with scopes; license verification is a separate route."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "buildability",
+    "original": {
+      "value": "unresolved",
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "buildable_with_documented_constraints",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "OAuth application/token onboarding and REST resource methods documented; scopes and authorization apply. No integration executed."
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "buildability_rationale",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "OAuth application/token onboarding and REST resource methods documented; scopes and authorization apply. No integration executed.",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://gumroad.com/api"
+    ],
+    "source_keys": [
+      "gumroad"
+    ],
+    "reason": "OAuth application/token onboarding and REST resource methods documented; scopes and authorization apply. No integration executed."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "unknown"
+      ],
+      "status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      "api_key"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reason": "Commas docs explicitly identify www.fanbasis.com production API and x-api-key scoped authentication; brand mapping limited to that host."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "api_available",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a1",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a2",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a3",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a4",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a5",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a6",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "yes",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reason": "Official-domain-mapped developer docs establish checkout API requests and payment-link responses."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "api_breadth",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a1",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a2",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a3",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a4",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a5",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a6",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "Inspected documented checkout-session creation and payment-link response; docs also describe subscriptions and webhooks.",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reason": "Checkout and webhook breadth restricted to freshly rendered docs explicitly mapped to fanbasis.com."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "access_model",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a7",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a8",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      {
+        "gate": "credential_creation",
+        "surface": "primary",
+        "qualification": "Commas dashboard Account -> API Keys generates a scoped key; requests to www.fanbasis.com production endpoints include x-api-key. Exact brand mapping limited to documented host.",
+        "atom_id": "verification-50-access"
+      }
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reason": "Commas dashboard Account -> API Keys generates a scoped key; requests to www.fanbasis.com production endpoints include x-api-key. Exact brand mapping limited to documented host."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "buildability",
+    "original": {
+      "value": "unresolved",
+      "status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "buildable_with_documented_constraints",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reason": "Scoped key issuance and checkout resource requests documented for explicitly identified fanbasis.com host. Rebranded Commas docs mapping caveat retained; no integration executed."
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "buildability_rationale",
+    "original": {
+      "value": "unknown",
+      "status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": "Scoped key issuance and checkout resource requests documented for explicitly identified fanbasis.com host. Rebranded Commas docs mapping caveat retained; no integration executed.",
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://apidocs.fan/api/basics"
+    ],
+    "source_keys": [
+      "fanbasis"
+    ],
+    "reason": "Scoped key issuance and checkout resource requests documented for explicitly identified fanbasis.com host. Rebranded Commas docs mapping caveat retained; no integration executed."
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "field": "auth_methods",
+    "original": {
+      "value": [
+        "unknown"
+      ],
+      "status": {
+        "status": "unresolved",
+        "reason": "The documentation passages show Podio supports multiple OAuth2 flows including app authentication flow, server-side flow, and username and password flow, not only 'oauth2' as a single method. The fact lists only 'oauth2' without specifying flows, but the passages indicate multiple OAuth2 flows and username/password flow as well, so the fact is incomplete and thus unsupported as stated.",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 12,
+          "readable_pages": 12
+        }
+      },
+      "refs": []
+    },
+    "judgment": "caveat_needed",
+    "corrected_value": [
+      "oauth2"
+    ],
+    "corrected_status": "source_backed_with_caveat",
+    "official_urls": [
+      "https://developers.podio.com/authentication"
+    ],
+    "source_keys": [
+      "turn9view3"
+    ],
+    "reason": "OAuth2 with server, client, password and app flows; client ID/secret and access-token header documented."
+  }
+]

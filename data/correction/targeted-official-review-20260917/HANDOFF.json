@@ -1,0 +1,467 @@
+{
+  "status": "VERIFICATION-READY",
+  "ready_for_fresh_independent_verification": true,
+  "automated_completion_preserved": {
+    "extraction": 96,
+    "atom_review": 93,
+    "valid_field_review": 84
+  },
+  "missing_valid_API_field_review_ids": [
+    36,
+    41,
+    43,
+    44,
+    48,
+    49,
+    50,
+    60,
+    61,
+    68,
+    73,
+    76,
+    81,
+    84,
+    85,
+    99
+  ],
+  "targeted_review_ids": [
+    36,
+    41,
+    43,
+    44,
+    48,
+    49,
+    50,
+    60,
+    61,
+    68,
+    69,
+    73,
+    76,
+    81,
+    84,
+    85,
+    90,
+    99
+  ],
+  "targeted_completed_gap_fields": 117,
+  "targeted_source_backed_apps": [
+    36,
+    41,
+    43,
+    44,
+    49,
+    60,
+    61,
+    68,
+    69,
+    73,
+    76,
+    81,
+    90,
+    99
+  ],
+  "targeted_unresolved_only_apps": [
+    48,
+    50,
+    84,
+    85
+  ],
+  "field_counts": {
+    "purpose": {
+      "source_backed": 45,
+      "unresolved": 53,
+      "source_backed_with_caveat": 2
+    },
+    "auth_methods": {
+      "unresolved": 17,
+      "source_backed_with_caveat": 83,
+      "source_backed": 0
+    },
+    "api_types": {
+      "unresolved": 49,
+      "source_backed_with_caveat": 51,
+      "source_backed": 0
+    },
+    "api_available": {
+      "source_backed_with_caveat": 92,
+      "unresolved": 8,
+      "source_backed": 0
+    },
+    "api_breadth": {
+      "source_backed_with_caveat": 90,
+      "unresolved": 10,
+      "source_backed": 0
+    },
+    "access_model": {
+      "unresolved": 24,
+      "source_backed_with_caveat": 76,
+      "source_backed": 0
+    },
+    "mcp_available": {
+      "unresolved": 58,
+      "source_backed_with_caveat": 42,
+      "source_backed": 0
+    },
+    "mcp_provider": {
+      "unresolved": 55,
+      "source_backed_with_caveat": 45,
+      "source_backed": 0
+    },
+    "mcp_ownership": {
+      "unresolved": 63,
+      "source_backed_with_caveat": 37,
+      "source_backed": 0
+    },
+    "mcp_notes": {
+      "unresolved": 55,
+      "source_backed_with_caveat": 45,
+      "source_backed": 0
+    },
+    "buildability": {
+      "source_backed_with_caveat": 81,
+      "unresolved": 19,
+      "source_backed": 0
+    },
+    "buildability_rationale": {
+      "source_backed_with_caveat": 89,
+      "unresolved": 11,
+      "source_backed": 0
+    },
+    "primary_blocker": {
+      "unresolved": 52,
+      "source_backed_with_caveat": 48,
+      "source_backed": 0
+    }
+  },
+  "total_status_counts": {
+    "source_backed": 45,
+    "unresolved": 474,
+    "source_backed_with_caveat": 781
+  },
+  "all_critical_unresolved_apps": [
+    {
+      "id": 48,
+      "app": "Gumroad"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis"
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect"
+    },
+    {
+      "id": 85,
+      "app": "iPayX"
+    }
+  ],
+  "all_critical_unresolved_count": 4,
+  "readiness_distribution": {
+    "needs_further_investigation": 7,
+    "buildable_with_documented_constraints": 62,
+    "unresolved": 19,
+    "gated_or_outreach_required": 11,
+    "likely_buildable_from_public_docs": 1
+  },
+  "specific_unresolved_reasons": {
+    "Evidence insufficient: Missing passage": 14,
+    "Evidence insufficient: Product pricing/trial/sales evidence does not establish API credential/access eligibility; Missing passage": 1,
+    "Evidence insufficient: Explicit MCP evidence absent": 52,
+    "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.": 9,
+    "Evidence insufficient: Explicit protocol classification absent": 26,
+    "No independently supported assigned-product evidence for primary_blocker": 7,
+    "No independently supported assigned-product evidence for mcp_available": 22,
+    "No independently supported assigned-product evidence for mcp_ownership": 23,
+    "The documentation passages show Podio supports multiple OAuth2 flows including app authentication flow, server-side flow, and username and password flow, not only 'oauth2' as a single method. The fact lists only 'oauth2' without specifying flows, but the passages indicate multiple OAuth2 flows and username/password flow as well, so the fact is incomplete and thus unsupported as stated.": 1,
+    "No independently supported assigned-product evidence for api_types": 4,
+    "No independently supported assigned-product evidence for access_model": 14,
+    "No independently supported assigned-product evidence for mcp_provider": 15,
+    "No independently supported assigned-product evidence for mcp_notes": 14,
+    "Positive readiness dependencies failed independent field audit": 4,
+    "Only REST API is explicitly documented with resource actions and usage (d14:b16). GraphQL is described as a query language available in certain editions but no actual API resource or endpoint documentation is provided, and GraphQL APIs are not available in trial versions (d17:b2, d17:b7, d17:b8). Thus, GraphQL API availability is not sufficiently documented as an API type.": 1,
+    "Evidence insufficient: Product is reserved for purpose; invalid integration mode": 4,
+    "Passages d11:b511, d0:b87, d3:b87, d11:b517, d11:b520, d4:b284, d4:b285, d0:b89, d3:b89, d2:b72, d2:b77, d2:b66, d4:b275, d4:b277, d4:b278, d4:b280, d4:b282, d4:b293, d5:b514, d5:b518, and d5:b522 provide core resource and authentication evidence but also note incomplete credential onboarding or coherent auth/API support, indicating that buildability needs further investigation.": 1,
+    "No independently supported assigned-product evidence for purpose": 38,
+    "Although core resource evidence is retained, the documentation lacks complete credential onboarding or coherent authentication/API support details necessary to confirm buildability, as noted in passages d0:b193 and d2:b193.": 1,
+    "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed. No absence-of-blockers claim.": 29,
+    "No independently supported assigned-product evidence for auth_methods": 3,
+    "No independently supported assigned-product evidence for api_breadth": 2,
+    "There is insufficient coherent documented resource API, authentication, and credential onboarding evidence in the provided passages to support buildability; the fact is marked unresolved and no supporting passages are provided.": 1,
+    "No independently supported assigned-product evidence for buildability_rationale": 1,
+    "No independently supported assigned-product evidence for api_available": 1,
+    "Insufficient coherent documented resource API, authentication and credential onboarding evidence.": 4,
+    "Insufficient coherent documented resource API, authentication and credential onboarding evidence. No absence-of-blockers claim.": 2,
+    "Evidence insufficient: Explicit MCP evidence absent; Missing passage": 1,
+    "Evidence insufficient: MCP mode mismatch": 41,
+    "Although core resource evidence exists, passages d4:b7 and d4:b9 indicate that enterprise administrator approval and permission configuration are required before API calls succeed, and the documentation does not confirm complete credential onboarding or coherent auth/API support, thus buildability is not fully supported.": 1,
+    "The rationale is that prerequisite enterprise admin approval and data permission configuration are mandatory, and the documentation does not confirm complete onboarding or coherent auth/API support, as per passages d4:b7 and d4:b9.": 1,
+    "Evidence insufficient: MCP evidence cannot establish resource API facts": 5,
+    "While core resource evidence and API key generation are documented, the documentation notes that credential onboarding or coherent auth/API support is incomplete or not fully certified, making buildability uncertain.": 1,
+    "Evidence insufficient: Missing passage; Explicit protocol classification absent": 1,
+    "Evidence insufficient: MCP evidence cannot establish resource API facts; Explicit protocol classification absent": 1,
+    "Official resource evidence exists but inspected body does not explicitly establish an assigned-product protocol label for this route.": 7,
+    "No explicit rendered official server/setup/ownership passage retained in this targeted review for this field; absence of a passage does not establish MCP absence.": 40,
+    "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.": 11,
+    "Authorization/scoping evidence alone does not establish resource authentication token type and acquisition for the assigned route.": 1,
+    "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.": 13,
+    "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.": 13,
+    "Passages indicate that while core resource evidence is retained, credential onboarding or coherent auth/API support is incomplete, and full prerequisite inventory is not certified, leading to a conclusion that buildability needs further investigation and is not fully supported.": 1,
+    "The documentation and usage passages (d0:b189, d1:b189) describe a command-line tool with options but do not provide evidence of a documented API or protocol for programmatic access. The evidence shows CLI usage, not an API.": 1,
+    "While the tool can check usernames across 400+ social networks and create output files, there is no documented API resource or actions described in the passages. The evidence only supports CLI functionality, not API breadth.": 1,
+    "The passages indicate core resource evidence is present but credential onboarding or coherent auth/API support is incomplete. No evidence of a coherent API or authentication flow is documented.": 1,
+    "The rationale is that core resource evidence is retained but credential onboarding or coherent auth/API support is incomplete, as supported by the inspected documentation passages.": 1,
+    "Evidence insufficient: Product pricing/trial/sales evidence does not establish API credential/access eligibility": 1,
+    "Conflicting or transitioning official authentication descriptions: legacy dual keys versus newer PAT/SAT and planned OAuth routes; endpoint-specific supported grant/eligibility not established.": 1,
+    "Inspected official passages do not establish access_model for the assigned route; alternatives and additional requirements remain unasserted.": 1,
+    "Reviewed official passages do not establish a specific primary blocker; no blocker-absence assertion.": 1,
+    "Inspected official passages do not establish api_breadth for the assigned route; alternatives and additional requirements remain unasserted.": 1,
+    "While the documentation provides core resource evidence and authentication details, it notes that credential onboarding or coherent auth/API support is incomplete and requires further investigation. There is no explicit complete onboarding or execution proof, so buildability is not fully confirmed.": 1,
+    "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered": 13,
+    "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.": 13,
+    "Passages d0:b5, d1:b8, and d1:b12 provide documentation and examples but do not demonstrate complete credential onboarding or coherent auth/API support necessary for buildability; thus, buildability is not fully supported.": 1,
+    "While core resource evidence and example requests are provided, the documentation lacks complete and coherent details on credential onboarding or full authentication and API support to confirm buildability. The status and rationale note incomplete credential onboarding and coherent auth/API support (passages d4:b67, d4:b68, d4:b99, d4:b100, d4:b101, d4:b102, d4:b103, d4:b104, d4:b105, d4:b79, d5:b94, d5:b95, d5:b92, d5:b93, d5:b96, d6:b46, d6:b47, d6:b51). Thus, buildability is unsupported.": 1,
+    "Evidence insufficient: MCP evidence cannot establish resource API facts; The atom claims no authentication is required for Devin MCP server, but passage d1:b155 states API key authentication is required; no anonymous access is allowed.": 1,
+    "While core resource evidence is present in passages d0:b166, d3:b189, d3:b206, d8:b150, d10:b170, and d10:b194, the documentation indicates incomplete credential onboarding or coherent auth/API support, making buildability unclear.": 1,
+    "Evidence insufficient: MCP surface cannot establish resource API/access facts; MCP evidence cannot establish resource API facts": 1,
+    "Passages d2:b128 and d3:b157 describe authentication using GitHub tokens and npm login for package registry access, but do not mention API key authentication. Therefore, the claim that 'api_key' is an auth method is not supported by the cited passages.": 1
+  },
+  "unresolved_reason_distribution": {
+    "no_supported_field_evidence_or_specific_constraint": 144,
+    "no_explicit_MCP_evidence": 216,
+    "readiness_evidence_insufficient": 61,
+    "docs_inaccessible_or_no_selectable_body": 26,
+    "identity_ambiguous_or_rebrand_unestablished": 26,
+    "conflicting_or_transitioning_documentation": 1
+  },
+  "citations": 7280,
+  "citation_source_hash_errors": 0,
+  "capture_fragment_hash_errors": 0,
+  "quota_stop_artifacts_checked": 870,
+  "quota_stop_hash_mismatches": [],
+  "deterministic_field_downgrades": [],
+  "fresh_human_checks": 0,
+  "API_calls_this_strategy": 0,
+  "readiness_caveat": "Documentation inference only; no integration run; unresolved is an evidence disposition, not proof of absence.",
+  "protected_state": {
+    "history_files": 791,
+    "history_unchanged": true,
+    "tracked_files_compared": 229,
+    "tracked_differences": [],
+    "canonical_branch": "main",
+    "canonical_head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "canonical_status": "",
+    "branch": "correction/research-coverage",
+    "head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "working_tree": "?? ATOMIC-PILOT-HANDOFF.md\n?? BODY-PILOT-HANDOFF.md\n?? CORRECTION-AUDIT-HANDOFF.md\n?? CORRECTION-INTEGRITY-AUDIT.json\n?? PATH-PILOT-HANDOFF.md\n?? STRICT-PILOT-HANDOFF.md\n?? SURFACE-PILOT-HANDOFF.md\n?? agent/atomic_contracts.py\n?? agent/atomic_pilot_preflight.py\n?? agent/atomic_pilot_primary.py\n?? agent/atomic_pilot_recover.py\n?? agent/body_handoff.py\n?? agent/body_pilot.py\n?? agent/body_pilot_seal.py\n?? agent/body_primary_decisions.py\n?? agent/body_review_pack.py\n?? agent/coverage_correction.py\n?? agent/path_audit.py\n?? agent/path_contracts.py\n?? agent/path_handoff.py\n?? agent/path_pilot.py\n?? agent/production_diagnostic.py\n?? agent/production_qa.py\n?? agent/production_research.py\n?? agent/strict_pilot_audit.py\n?? agent/strict_pilot_finalize.py\n?? agent/strict_pilot_handoff.py\n?? agent/surface_pilot_finalize.py\n?? agent/surface_validation.py\n?? atomic-pilot-context-audit.log\n?? atomic-pilot-recovery.log\n?? atomic-pilot-run.log\n?? atomic-tests-before.log\n?? atomic-tests-final.log\n?? body-pilot-run.log\n?? body-pilot-seal.log\n?? body-pilot-v2-run.log\n?? body-pilot-v3-run.log\n?? body-tests-approved.log\n?? body-tests-before.log\n?? body-tests-final.log\n?? continuation-followup.log\n?? continuation-full100-retry.log\n?? continuation-full100.log\n?? continuation-tests-approved.log\n?? continuation-tests.log\n?? continue_full100.py\n?? data/correction/\n?? path-pilot-run.log\n?? path-pilot-seal.log\n?? path-tests-approved.log\n?? path-tests-before.log\n?? path-tests-final.log\n?? path-tests-postpilot.log\n?? production-full100-capture-only.log\n?? production-full100-live.log\n?? production-full100-qa.log\n?? production-full100-resume.log\n?? production-full100-resume6.log\n?? production-full100-run.log\n?? production-qa-prepare.log\n?? production-tests-approved.log\n?? production-tests-before.log\n?? production-tests-current.log\n?? production-tests-final.log\n?? production-tests-targeted-final.log\n?? production-tests-targeted.log\n?? retry_full100.py\n?? surface-pilot-context-audit.log\n?? surface-pilot-run.log\n?? surface-tests-before.log\n?? surface-tests-final.log\n?? targeted_capture.py\n?? targeted_handoff.py\n?? targeted_review.py\n?? tests/fixtures/\n?? tests/test_atomic_contracts.py\n?? tests/test_body_pilot.py\n?? tests/test_coverage_correction.py\n?? tests/test_path_pilot.py\n?? tests/test_production_research.py\n?? tests/test_surface_validation.py\n",
+    "tracked_diff": "",
+    "accepted_sha256": "ea6c6914eb61e597ab8f428bd50abd7e1d5b5ca649bdeaef859bc6bd2dfab9c6",
+    "accepted_bytes": 81369
+  },
+  "tests": {
+    "passed": 136,
+    "total": 136,
+    "result": "PASS",
+    "log": "tests-final.log",
+    "initial_attempts": "System Python lacked jsonschema; preserved runtime sandbox attempt hit five temp cleanup errors. Final authorized runtime rerun passed."
+  },
+  "next_action": "Fresh independent verification sample after reviewing handoff; do not yet rebuild HTML or publish/submit.",
+  "sample_design": {
+    "apps": 20,
+    "field_records": 60,
+    "targeted_apps": [
+      36,
+      41,
+      43,
+      49,
+      60,
+      61,
+      68,
+      73,
+      76,
+      81,
+      69,
+      90
+    ],
+    "unresolved_apps": [
+      48,
+      50,
+      84,
+      85
+    ],
+    "automated_apps": [
+      12,
+      34,
+      2,
+      1
+    ],
+    "execution": "NOT STARTED",
+    "method": "Open first-party sources independently of correction excerpts; compare each claim and scope. Classify correct, caveat needed, unsupported, or unverifiable. Do not treat unresolved as false. Report strata separately, not as a random dataset-wide accuracy estimate.",
+    "blind_review": "Hide saved proposed values/excerpts until reviewer records an independent source-based judgment where feasible; use a second reviewer/agent independent of correction author.",
+    "user_role": "Judge the verification outcomes and unresolved caveats; no broad app research or API credit purchase needed."
+  },
+  "deterministic_QA_change_counts": {
+    "atom_downgrades": 9,
+    "subset_projection_changes": 10,
+    "field_integrity_downgrades": 0
+  },
+  "completed_targeted_gap_fields_by_app": {
+    "36": [
+      "purpose",
+      "auth_methods",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "41": [
+      "auth_methods",
+      "api_available",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "43": [
+      "auth_methods",
+      "api_available",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "44": [
+      "api_available",
+      "access_model",
+      "api_breadth",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "49": [
+      "auth_methods",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "60": [
+      "auth_methods",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "61": [
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "68": [
+      "auth_methods",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "69": [
+      "api_available",
+      "api_breadth",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "73": [
+      "auth_methods",
+      "api_available",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "buildability",
+      "buildability_rationale",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "76": [
+      "auth_methods",
+      "api_available",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "81": [
+      "auth_methods",
+      "api_available",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "90": [
+      "auth_methods",
+      "api_available",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "99": [
+      "purpose",
+      "auth_methods",
+      "api_available",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "primary_blocker",
+      "buildability",
+      "buildability_rationale",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ]
+  },
+  "strategy_provenance": "Preserved API run plus separate Codex-agent official-source research layer. No replacement provider/model/key, full-run restart, API quota retries, or fresh human verification.",
+  "additional_integrity": {
+    "sealed_production_code_matches": {
+      "agent/production_research.py": true,
+      "agent/production_qa.py": true
+    },
+    "browser_excerpt_source_hash_errors": 0,
+    "packaged_output_hash_errors": 0,
+    "packaged_outputs_rechecked": 35,
+    "browser_source_document_captures": 6
+  }
+}

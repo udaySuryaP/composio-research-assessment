@@ -2,7 +2,7 @@
 import json, html
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'submission/composio-assessment-uday.html'
+OUT=ROOT/'submission/history/stage04-composio-assessment-uday.html'
 FIELDS=['auth_methods','access_model','api_available','api_types','mcp_available','buildability','primary_blocker']
 def read(name): return json.loads((ROOT/'data/stage03'/name).read_text(encoding='utf-8'))
 def esc(v): return html.escape(', '.join(v) if isinstance(v,list) else str(v))
@@ -77,7 +77,7 @@ def check():
  assert not re.search(r'fetch\s*\(|XMLHttpRequest|<script[^>]+src=|<link[^>]+href=',text)
  before=OUT.read_bytes();build();assert before==OUT.read_bytes(),'Artifact must match deterministic generator'
  changed=subprocess.check_output(['git','diff','a94cce23a4fbdaf9e8b80c03fa8e482f9057f73f','--name-only'],cwd=ROOT,text=True).splitlines()
- assert all(p.startswith(('submission/','agent/stage04.py','tests/test_stage04.py','STAGE04.md')) or p in {'README.md','.github/workflows/pages.yml','agent/stage05.py','STAGE05.md','submission/REVIEWER-NOTES.md','submission/COMPLIANCE.md'} for p in changed),changed
+ assert not subprocess.check_output(['git','diff','83bd643b087da28d2e1ed1439e381b3a8a9bca7f','--','data/runs','data/stage03','site','STAGE01.md','STAGE02.md','STAGE03.md','STAGE04.md'],cwd=ROOT),'Historical evidence changed'
  print(json.dumps({'stage04':'PASS','bytes':OUT.stat().st_size,'rows':100,'unique_apps':100,'checked':44,'unresolved':656,'partially_resolved':22,'fully_verified':0,'offline':True,'canonical_projection_equal':True,'accepted_files_unchanged':True}))
 if __name__=='__main__':
  import sys

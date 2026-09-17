@@ -1,0 +1,813 @@
+{
+  "status": "PARTIAL",
+  "run_id": "full100-production-live-20260917",
+  "completion_count": 100,
+  "field_counts": {
+    "purpose": {
+      "source_backed": 10,
+      "unresolved": 90
+    },
+    "auth_methods": {
+      "unresolved": 93,
+      "source_backed_with_caveat": 7
+    },
+    "api_types": {
+      "unresolved": 94,
+      "source_backed_with_caveat": 6
+    },
+    "api_available": {
+      "source_backed_with_caveat": 10,
+      "unresolved": 90
+    },
+    "api_breadth": {
+      "source_backed_with_caveat": 10,
+      "unresolved": 90
+    },
+    "access_model": {
+      "source_backed_with_caveat": 8,
+      "unresolved": 92
+    },
+    "mcp_available": {
+      "unresolved": 95,
+      "source_backed_with_caveat": 5
+    },
+    "mcp_provider": {
+      "unresolved": 94,
+      "source_backed_with_caveat": 6
+    },
+    "mcp_ownership": {
+      "unresolved": 95,
+      "source_backed_with_caveat": 5
+    },
+    "mcp_notes": {
+      "unresolved": 94,
+      "source_backed_with_caveat": 6
+    },
+    "buildability": {
+      "source_backed_with_caveat": 7,
+      "unresolved": 93
+    },
+    "buildability_rationale": {
+      "source_backed_with_caveat": 9,
+      "unresolved": 91
+    },
+    "primary_blocker": {
+      "source_backed_with_caveat": 4,
+      "unresolved": 96
+    }
+  },
+  "all_critical_unresolved": [
+    {
+      "id": 11,
+      "app": "Zendesk"
+    },
+    {
+      "id": 12,
+      "app": "Intercom"
+    },
+    {
+      "id": 14,
+      "app": "Front"
+    },
+    {
+      "id": 15,
+      "app": "Pylon"
+    },
+    {
+      "id": 16,
+      "app": "LiveAgent"
+    },
+    {
+      "id": 17,
+      "app": "Plain"
+    },
+    {
+      "id": 18,
+      "app": "Help Scout"
+    },
+    {
+      "id": 19,
+      "app": "Gorgias"
+    },
+    {
+      "id": 20,
+      "app": "Gladly"
+    },
+    {
+      "id": 21,
+      "app": "Slack"
+    },
+    {
+      "id": 22,
+      "app": "Twilio"
+    },
+    {
+      "id": 23,
+      "app": "Zoho Cliq"
+    },
+    {
+      "id": 24,
+      "app": "Lark (Larksuite)"
+    },
+    {
+      "id": 25,
+      "app": "Pumble"
+    },
+    {
+      "id": 26,
+      "app": "Discord"
+    },
+    {
+      "id": 27,
+      "app": "Telegram"
+    },
+    {
+      "id": 28,
+      "app": "WhatsApp Business"
+    },
+    {
+      "id": 29,
+      "app": "Aircall"
+    },
+    {
+      "id": 30,
+      "app": "Vonage"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads"
+    },
+    {
+      "id": 32,
+      "app": "Meta Ads"
+    },
+    {
+      "id": 33,
+      "app": "LinkedIn Ads"
+    },
+    {
+      "id": 34,
+      "app": "GoHighLevel"
+    },
+    {
+      "id": 35,
+      "app": "Mailchimp"
+    },
+    {
+      "id": 36,
+      "app": "Klaviyo"
+    },
+    {
+      "id": 37,
+      "app": "systeme.io"
+    },
+    {
+      "id": 38,
+      "app": "Pinterest"
+    },
+    {
+      "id": 39,
+      "app": "Threads (Meta)"
+    },
+    {
+      "id": 40,
+      "app": "SendGrid"
+    },
+    {
+      "id": 41,
+      "app": "Shopify"
+    },
+    {
+      "id": 42,
+      "app": "WooCommerce"
+    },
+    {
+      "id": 43,
+      "app": "BigCommerce"
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud"
+    },
+    {
+      "id": 45,
+      "app": "Magento (Adobe Commerce)"
+    },
+    {
+      "id": 46,
+      "app": "Squarespace"
+    },
+    {
+      "id": 47,
+      "app": "Ecwid"
+    },
+    {
+      "id": 48,
+      "app": "Gumroad"
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis"
+    },
+    {
+      "id": 51,
+      "app": "DataForSEO"
+    },
+    {
+      "id": 52,
+      "app": "SE Ranking"
+    },
+    {
+      "id": 53,
+      "app": "Ahrefs"
+    },
+    {
+      "id": 54,
+      "app": "MrScraper"
+    },
+    {
+      "id": 55,
+      "app": "Apify"
+    },
+    {
+      "id": 56,
+      "app": "Firecrawl"
+    },
+    {
+      "id": 57,
+      "app": "Bright Data"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock"
+    },
+    {
+      "id": 59,
+      "app": "Waterfall.io"
+    },
+    {
+      "id": 60,
+      "app": "Clay"
+    },
+    {
+      "id": 61,
+      "app": "GitHub"
+    },
+    {
+      "id": 62,
+      "app": "Vercel"
+    },
+    {
+      "id": 63,
+      "app": "Netlify"
+    },
+    {
+      "id": 64,
+      "app": "Cloudflare"
+    },
+    {
+      "id": 65,
+      "app": "Supabase"
+    },
+    {
+      "id": 66,
+      "app": "Neo4j"
+    },
+    {
+      "id": 67,
+      "app": "Snowflake"
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas"
+    },
+    {
+      "id": 69,
+      "app": "Datadog"
+    },
+    {
+      "id": 70,
+      "app": "Sentry"
+    },
+    {
+      "id": 71,
+      "app": "Notion"
+    },
+    {
+      "id": 72,
+      "app": "Airtable"
+    },
+    {
+      "id": 73,
+      "app": "Linear"
+    },
+    {
+      "id": 74,
+      "app": "Jira"
+    },
+    {
+      "id": 75,
+      "app": "Asana"
+    },
+    {
+      "id": 76,
+      "app": "Monday.com"
+    },
+    {
+      "id": 77,
+      "app": "ClickUp"
+    },
+    {
+      "id": 78,
+      "app": "Coda"
+    },
+    {
+      "id": 79,
+      "app": "Smartsheet"
+    },
+    {
+      "id": 80,
+      "app": "Harvest"
+    },
+    {
+      "id": 81,
+      "app": "Stripe"
+    },
+    {
+      "id": 82,
+      "app": "Plaid"
+    },
+    {
+      "id": 83,
+      "app": "Binance"
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect"
+    },
+    {
+      "id": 85,
+      "app": "iPayX"
+    },
+    {
+      "id": 86,
+      "app": "QuickBooks"
+    },
+    {
+      "id": 87,
+      "app": "Xero"
+    },
+    {
+      "id": 88,
+      "app": "Brex"
+    },
+    {
+      "id": 89,
+      "app": "Ramp"
+    },
+    {
+      "id": 90,
+      "app": "PitchBook"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM"
+    },
+    {
+      "id": 92,
+      "app": "Otter AI"
+    },
+    {
+      "id": 93,
+      "app": "Fathom"
+    },
+    {
+      "id": 94,
+      "app": "Consensus"
+    },
+    {
+      "id": 95,
+      "app": "Reducto"
+    },
+    {
+      "id": 96,
+      "app": "Devin"
+    },
+    {
+      "id": 97,
+      "app": "higgsfield"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI"
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript"
+    },
+    {
+      "id": 100,
+      "app": "Grain"
+    }
+  ],
+  "unresolved_reasons": {
+    "No independently supported assigned-product evidence for auth_methods": 3,
+    "No independently supported assigned-product evidence for api_types": 4,
+    "No independently supported assigned-product evidence for mcp_available": 6,
+    "No independently supported assigned-product evidence for mcp_provider": 5,
+    "No independently supported assigned-product evidence for mcp_ownership": 6,
+    "No independently supported assigned-product evidence for mcp_notes": 5,
+    "No independently supported assigned-product evidence for primary_blocker": 7,
+    "The documentation passages show Podio supports multiple OAuth2 flows including app authentication flow, server-side flow, and username and password flow, not only 'oauth2' as a single method. The fact lists only 'oauth2' without specifying flows, but the passages indicate multiple OAuth2 flows and username/password flow as well, so the fact is incomplete and thus unsupported as stated.": 1,
+    "No independently supported assigned-product evidence for access_model": 3,
+    "Positive readiness dependencies failed independent field audit": 2,
+    "Only REST API is explicitly documented with resource actions and usage (d14:b16). GraphQL is described as a query language available in certain editions but no actual API resource or endpoint documentation is provided, and GraphQL APIs are not available in trial versions (d17:b2, d17:b7, d17:b8). Thus, GraphQL API availability is not sufficiently documented as an API type.": 1,
+    "Passages d11:b511, d0:b87, d3:b87, d11:b517, d11:b520, d4:b284, d4:b285, d0:b89, d3:b89, d2:b72, d2:b77, d2:b66, d4:b275, d4:b277, d4:b278, d4:b280, d4:b282, d4:b293, d5:b514, d5:b518, and d5:b522 provide core resource and authentication evidence but also note incomplete credential onboarding or coherent auth/API support, indicating that buildability needs further investigation.": 1,
+    "No independently supported assigned-product evidence for purpose": 1,
+    "Although core resource evidence is retained, the documentation lacks complete credential onboarding or coherent authentication/API support details necessary to confirm buildability, as noted in passages d0:b193 and d2:b193.": 1,
+    "HTTPError: HTTP Error 429: Too Many Requests": 65,
+    "No independently supported assigned-product evidence for api_available": 1,
+    "No independently supported assigned-product evidence for api_breadth": 1,
+    "There is insufficient coherent documented resource API, authentication, and credential onboarding evidence in the provided passages to support buildability; the fact is marked unresolved and no supporting passages are provided.": 1,
+    "No independently supported assigned-product evidence for buildability_rationale": 1,
+    "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities": 1053,
+    "ValueError: Docs inaccessible or source unreadable: no selectable body evidence": 39
+  },
+  "readiness_distribution": {
+    "needs_further_investigation": 1,
+    "buildable_with_documented_constraints": 6,
+    "unresolved": 93
+  },
+  "search_attempts": 1304,
+  "search_successes": 1303,
+  "retrieval_attempts": 1255,
+  "readable_pages": 1154,
+  "capture_errors": [],
+  "exact_citations": 702,
+  "failures": [
+    {
+      "id": 11,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 12,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 14,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 15,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 16,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 17,
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 18,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 19,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 20,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 21,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 22,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 23,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 24,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 25,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 26,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 27,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 28,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 29,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 30,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 31,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 32,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 33,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 34,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 35,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 36,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 37,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 38,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 39,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 40,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 41,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 42,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 43,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 44,
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence"
+    },
+    {
+      "id": 45,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 46,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 47,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 48,
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence"
+    },
+    {
+      "id": 49,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 50,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 51,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 52,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 53,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 54,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 55,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 56,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 57,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 58,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 59,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 60,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 61,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 62,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 63,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 64,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 65,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 66,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 67,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 68,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 69,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 70,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 71,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 72,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 73,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 74,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 75,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 76,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 77,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 78,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 79,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 80,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 81,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 82,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 83,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 84,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 85,
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence"
+    },
+    {
+      "id": 86,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 87,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 88,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 89,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 90,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 91,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 92,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 93,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 94,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 95,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 96,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 97,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 98,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 99,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    },
+    {
+      "id": 100,
+      "failure": "RuntimeError: model_service_credit_balance_exhausted: fresh sources captured; extraction/semantic review blocked, not evidence that the product lacks these capabilities"
+    }
+  ],
+  "semantic_qa": "Independent model challenge plus deterministic body/official-identity/protocol/MCP/surface guards; not human accuracy. Unsupported atoms downgraded independently.",
+  "ready_for_fresh_sample": true,
+  "historical_overlap_count": 40,
+  "finished_at": "2026-09-17T12:47:11.063481+00:00"
+}

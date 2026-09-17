@@ -1,0 +1,29 @@
+{
+  "retrievals": [
+    {
+      "requested_url": "https://paygent.io/",
+      "final_url": "https://paygent.io/",
+      "retrieved_at": "2026-09-17T14:39:21.793095+00:00",
+      "source_kind": "official",
+      "ok": false,
+      "text": "window.onload=function(){window.location.href=\"/lander\"}",
+      "content_sha256": "6525c7cbcf52f274ffc5cbe01fd43c03fd77e9463d0757999a596776f0d4184b",
+      "fragments": [
+        {
+          "text": "window.onload=function(){window.location.href=\"/lander\"}",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        }
+      ],
+      "error": null
+    }
+  ],
+  "passages": {}
+}

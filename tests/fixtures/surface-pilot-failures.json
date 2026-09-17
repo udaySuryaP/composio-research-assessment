@@ -1,0 +1,114 @@
+[
+  {
+    "app_id": 11,
+    "app": "Zendesk",
+    "field": "auth_methods",
+    "label": "bearer_token",
+    "context": "resource_api",
+    "passage_id": "d1:p1",
+    "span": {
+      "text": "gram Direct LINE MessageBird SMS Telegram Twilio SMS Twitter DM Viber WeChat WhatsApp Web Widget and SDKs Android SDK iOS SDK Unity SDK Web Widget On this page Authentication methods Access scopes Basic authentication JWT authentication When to use JWTs Time-based expiration of credentials Authenticating users in SDKs Signing a JWT Step 1 - Obtain an API key Step 2 - Use the library available for your platform to create the JWT Step 3 - Start using the Sunshine Conversations API Specifying the scope of access Secure credential handling Serving credentials to a browser or mobile application Rotating credentials API authentication On this page Authentication methods Access scopes Basic authentication JWT authentication When to use JWTs Time-based expiration of credentials Authenticating users in SDKs Signing a JWT Step 1 - Obtain an API key Step 2 - Use the library available for your platform to create the JWT Step 3 - Start using the Sunshine Conversations API Specifying the scope of access Secure credential handling Serving credentials to a browser or mobile application Rotating credentials Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . Authentication methods The Sunshine Conversations API supports two authentication types: basic authentica",
+      "source_index": 1,
+      "url": "https://developer.zendesk.com/documentation/conversations/getting-started/api-authentication/",
+      "source_kind": "official"
+    },
+    "quote": "Sunshine Conversations' authentication scheme is distinct from Zendesk API tokens . This guide explains specifically how to authenticate requests against the Sunshine Conversations API . Authentication methods The Sunshine Conversations API supports two authentication types: basic authentica",
+    "source_run": "strict-pilot-20260917"
+  },
+  {
+    "app_id": 26,
+    "app": "Discord",
+    "field": "auth_methods",
+    "label": "basic",
+    "context": "resource_api",
+    "passage_id": "d0:p8",
+    "span": {
+      "text": "ate parameter, we support it and highly recommend that you implement it for the security of your own applications and data. ​ Authorization Code Grant The authorization code grant is what most developers will recognize as “standard OAuth2” and involves retrieving an access code and exchanging it for a user’s access token. It allows the authorization server to act as an intermediary between the client and the resource owner, so the resource owner’s credentials are never shared directly with the client. All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form data body. Authorization URL Example https://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0 client_id is your application’s client_id . scope is a list of OAuth2 scopes separated by url encoded spaces ( %20 ). redirect_uri is whatever URL you registered when creating your application, url-encoded. state is the unique string mentioned in State and Security . When someone navigates to this URL, they will be prompted to authorize your application for the requested scopes. On acceptance, they will be redirected to your redirect_uri , which will contain an additional querystring parameter, code . stat",
+      "source_index": 0,
+      "url": "https://docs.discord.com/developers/topics/oauth2",
+      "source_kind": "official"
+    },
+    "quote": "All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form data body. Authorization URL Example https://discord.com/oauth2/authorize?response_type=code&client_id=157730590492196864&scope=identify%20guilds.join&state=15773059ghq9183habn&redirect_uri=https%3A%2F%2Fnicememe.website&prompt=consent&integration_type=0 client_id is your application’s client_id . scope is a list of OAuth2 scopes separated by url encoded spaces ( %20 ). redirect_uri is whatever URL you registered when creating your application, url-encoded. state is th",
+    "source_run": "strict-pilot-20260917"
+  },
+  {
+    "app_id": 55,
+    "app": "Apify",
+    "field": "auth_methods",
+    "label": "oauth2",
+    "context": "resource_api",
+    "passage_id": "d4:p3",
+    "span": {
+      "text": "his could be Anthropic's Claude for Desktop, a VS Code extension with MCP support, or any application that implements the MCP specification. The official MCP documentation maintains a list of compatible clients. Connect and authorize You can connect to the Apify MCP server in two ways: use our hosted service using Streamable HTTP with OAuth , or run the server locally for development and testing using local stdio . SSE transport deprecated Server-Sent Events (SSE) transport will be removed on April 1, 2026. The Apify MCP server now uses Streamable HTTP, in line with the official MCP specification. Visit mcp.apify.com to update your client configuration. Structured output schemas The hosted Apify MCP server at https://mcp.apify.com supports output schema inference for structured Actor results. Actor tools automatically include inferred output schemas with field-level type information. This helps AI agents understand the expected result structure before calling an Actor. The local stdio server does not support this feature. Streamable HTTP with OAuth (recommended) Add https://mcp.apify.com to your MCP client. On first connection, your browser opens so you can sign in to Apify and approve access. To authorize without signing in, use your Apify API token instead. OAuth Bearer token This flow authorizes the server without putting your API token in the client configuration. { \"mcpSer",
+      "source_index": 4,
+      "url": "https://docs.apify.com/integrations/mcp",
+      "source_kind": "official"
+    },
+    "quote": "OAuth , or run the server locally for development and testing using local stdio . SSE transport deprecated Server-Sent Events (SSE) transport will be removed on April 1, 2026. The Apify MCP server now uses Streamable HTTP, in line with the official MCP specification. Visit mcp.apify.com to update your client configuration. Structured output schemas The hosted Apify MCP server at https://mcp.apify.com supports output schema inference for structured Actor results. Actor tools automatically include inferred output schemas with field-level type information. This helps AI agents understand the expe",
+    "source_run": "strict-pilot-20260917"
+  },
+  {
+    "app_id": 61,
+    "app": "GitHub",
+    "field": "access_model",
+    "label": "self_serve_paid",
+    "context": "developer_onboarding",
+    "passage_id": "d3:p1",
+    "span": {
+      "text": " all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} Try GitHub, the complete developer platform We get it, there's a lot you can do with GitHub. That’s why we've packed all of it into a single risk-free trial that includes GitHub Enterprise, Copilot, and Advanced Security. Start free for 30 days Free The basics for individuals and organizations $ 0 USD per month $ 0 USD per month forever Join for free Unlimited public/private repositories Host open source projects in public GitHub repositories, accessible",
+      "source_index": 3,
+      "url": "https://github.com/pricing",
+      "source_kind": "official"
+    },
+    "quote": "Try GitHub, the complete developer platform We get it, there's a lot you can do with GitHub. That’s why we've packed all of it into a single risk-free trial that includes GitHub Enterprise, Copilot, and Advanced Security. Start free for 30 days Free The basics for individuals and organizations $ 0 USD per month $ 0 USD per month forever Join for free Unlimited public/private repositories Host open source projects in public GitHub repositories, accessible",
+    "source_run": "strict-pilot-20260917"
+  },
+  {
+    "app_id": 72,
+    "app": "Airtable",
+    "field": "auth_methods",
+    "label": "api_key",
+    "context": "resource_api",
+    "passage_id": "d1:p3",
+    "span": {
+      "text": "Delete token . Regenerating a token will cause a warning message to appear. Remember that any services currently using this token will need to be updated with the new token that is generated. FAQs What can my personal access tokens access? Unlike legacy API keys, which have the same access as your Airtable account, you can limit and configure the access of your personal access tokens. You can do this by selecting the scopes (what endpoints the token can use) and access/resources (which bases and workspaces the token can access) when creating or updating a token. Regardless of the scopes and access a user selects for their token, the token will only be able to perform actions that the user creating it is allowed to do. For example, to create a new field in a base via the API, the user must be a Creator collaborator in the base and the token must have the schema.bases:write scope and the base added as a resource. For more information about how scopes and access work, see the Authentication developer reference . For more information about configuring your token's access, refer to the personal access tokens guide . How do I find my API key? On Jan 18, 2023, we began the deprecating user API keys, completing the deprecation process on Feb 1, 2024, meaning: API Keys can no longer access the Airtable API. Webhooks created with user API keys will not expire, but can no longer be create",
+      "source_index": 1,
+      "url": "https://support.airtable.com/articles/9934989703-creating-personal-access-tokens",
+      "source_kind": "official"
+    },
+    "quote": "How do I find my API key? On Jan 18, 2023, we began the deprecating user API keys, completing the deprecation process on Feb 1, 2024, meaning: API Keys can no longer access the Airtable API. Webhooks created with user API keys will not expire, but can no longer be create",
+    "source_run": "strict-pilot-20260917"
+  },
+  {
+    "app_id": 42,
+    "app": "WooCommerce",
+    "field": "access_model",
+    "label": "self_serve_paid",
+    "context": "developer_onboarding",
+    "passage_id": "d2:p1",
+    "span": {
+      "text": "he REST API on GitHub. Requirements ↑ Back to top Before generating API keys, confirm that your WordPress permalinks are set to a human-readable format. Go to Settings > Permalinks in your WordPress dashboard and select any option other than Plain . Day and name is a common default that works well. Generate API keys ↑ Back to top The WooCommerce REST API uses a key system to control access. Each set of keys is linked to a WordPress user on your site. You can create keys with different permission levels depending on what the connected application needs. To create or manage keys for a specific WordPress user: Go to WooCommerce > Settings > Advanced > REST API . Select Create an API key or Add Key . The Key Details screen opens. Enter a Description to identify what the key is used for. Select the User you want to generate a key for from the dropdown. Select a level of access for this API key from the Permissions dropdown: Read — allows the application to retrieve data from your store Write — allows the application to create and update data in your store Read/Write — allows the application both read and write access Select Generate API Key . After generating the key, the screen displays your Consumer Key , Consumer Secret , a QR Code , and a Revoke Key link. Copy the Consumer Key and Consumer Secret and enter them in the application you are connecting to. The application may also r",
+      "source_index": 2,
+      "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "source_kind": "official"
+    },
+    "quote": "The WooCommerce REST API uses a key system to control access. Each set of keys is linked to a WordPress user on your site. You can create keys with different permission levels depending on what the connected application needs. To create or manage keys for a specific WordPress user: Go to WooCommerce > Settings > Advanced > REST API . Select Create an API key or Add Key . The Key Details screen opens. Enter a Description to identify what the key is used for. Select the User you want to generate a key for from the dropdown. Select a level of access for this API key from the Permissions dropdown:",
+    "source_run": "strict-pilot-20260917"
+  },
+  {
+    "app_id": 72,
+    "app": "Airtable",
+    "field": "access_model",
+    "label": "admin_approval",
+    "context": "developer_onboarding",
+    "passage_id": "d2:p0",
+    "span": {
+      "text": "Getting started with Airtable's Web API | Airtable Help Center Contact support Sign up for free All Collections › Integrating with Airtable › API Getting started with Airtable's Web API Last updated 1 month ago Plan availability All plan types with varying call limitations Permissions Generally, workspace Owner or base Creator permissions are useful for working with Airtable's Web API. Enterprise Scale and Business customers will also find that having admin permissions is necessary to access certain information via API calls. Platform(s) Web/Browser, Mac app, and Windows app API record limits You can access the documentation for the Web API here , or directly from your base by clicking on the Help button in the upper right-hand corner while you are logged in on a laptop or desktop. This will bring up a list of additional resources. You will find a link to the API documentation at the bottom of that list. When you list records with Airtable's API, you won't necessarily get all of them at once. Instead, you will receive them in pages of up to 100 records at a time. As soon as a table has more than 100 records, you will need to make multiple requests, one per page. If your table has 501 records, the results will be spread across 6 pages, and therefore 6 HTTP requests are needed to fully capture all of that table's records. Your first request might look something like this with you",
+      "source_index": 2,
+      "url": "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api",
+      "source_kind": "official"
+    },
+    "quote": "Permissions Generally, workspace Owner or base Creator permissions are useful for working with Airtable's Web API. Enterprise Scale and Business customers will also find that having admin permissions is necessary to access certain information via API calls. Platform(s) Web/Browser, Mac app, and Windows app API record limits You can access the documentation for the Web API here , or directly from your base by clicking on the Help button in the upper right-hand corner while you are logged in on a laptop or desktop. This will bring up a list of additional resources. You will find a link to the AP",
+    "source_run": "strict-pilot-20260917"
+  }
+]

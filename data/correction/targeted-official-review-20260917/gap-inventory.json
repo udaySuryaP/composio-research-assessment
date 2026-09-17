@@ -1,0 +1,1688 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\001.json",
+    "checkpoint_sha256": "3d11a015b9c3d9baceaec82b47927c9077c594a99e77d9b7507ed5170bcdb7f7",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\002.json",
+    "checkpoint_sha256": "907cbb02e94aa13c4f9d7b76cf1e85a6c9705b37b011c525132a21b6a057ea26",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\003.json",
+    "checkpoint_sha256": "0d91e62ad413036de0bd882c5bb2fee6a87f98c9dd40523a1f29571aeafd3dc8",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\004.json",
+    "checkpoint_sha256": "71dd3348cd557b2d4c6282ad91ea2bdb0e14e80204266cd5efc645da8af51758",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\005.json",
+    "checkpoint_sha256": "a127bb2491606315d33cefa1bcf6493d004b0ef7cf3b8b369dcf58a79fe531a9",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_ownership",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\006.json",
+    "checkpoint_sha256": "671b39fbff53764aabb48b465c4561108b5c46860f4dd1b6596127f2555c3708",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\007.json",
+    "checkpoint_sha256": "dfb95551f806ba23f829b69c1e6d3a9b66000489744c3fb64abd94dfb73e5998",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\008.json",
+    "checkpoint_sha256": "f5cec8caf912eea7b5c059531b3364a0f9f08a35b3264eaa23c19e01df6aa949",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "access_model",
+      "buildability",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\009.json",
+    "checkpoint_sha256": "00454f953e5f8f1cb9f0f8a03168cfc0d89958208fe1ac9daa02823800600d51",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\010.json",
+    "checkpoint_sha256": "f820a50b829fafb702789ecad4550d750caf6232118f31f9933f3db1ed83c494",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\011.json",
+    "checkpoint_sha256": "b33643c67643861c3dbf24c3f80f5bde1bf3d4fd594253e764b1450fefbe5ac9",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\012.json",
+    "checkpoint_sha256": "660c91392e63ef1f08c9d8e37b0f8524d49a2c9110d38d7605461d25175c8646",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\013.json",
+    "checkpoint_sha256": "e2246ff784d49c02edeea6fcfe31c5b392e4f38867ce2529c4d426324882c8b0",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\014.json",
+    "checkpoint_sha256": "ffecf72352a24efc92867fe1e674b527f792095ab7a94f675407f1094770ecf2",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\015.json",
+    "checkpoint_sha256": "b0c39b398d57525c20aa1a05a322d216967f26115e8f26594b0ed59c3daa87e0",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\016.json",
+    "checkpoint_sha256": "eebdab96d15b3c1288327016d2d813acd7225d3ad17851d61cb9ffd8aa2a44c7",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\017.json",
+    "checkpoint_sha256": "4a1e417b09b35d744be8d6f1d1a5a6ddb341cce859dc30f685f1986eb29156f3",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\018.json",
+    "checkpoint_sha256": "a9bb2833682aaaba6e3218ae624600d5d71b7b94925896fcd462f5b88f576af7",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\019.json",
+    "checkpoint_sha256": "53a13c881fb6df75a2af2133f9362a1e49c7989c66db608090e0a8615dc9073b",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_ownership",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\020.json",
+    "checkpoint_sha256": "c20cca60c792d76cb2fa85795f4a443fa7ce9a5daabf5e7d34fb210bfa86e92a",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\021.json",
+    "checkpoint_sha256": "3bd865494479771b8f05a3c9baf3ab444e6041091790a6446561c3a079f4101c",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\022.json",
+    "checkpoint_sha256": "8baeb6cd6ef091b3735864ad486a84aa83ddbd6da324579397e5677b0d94ca8b",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\023.json",
+    "checkpoint_sha256": "41faee5b34ec35aad37e7dda6e8877d94fc70142b8b50da33e5276127c061cb1",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "access_model",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 24,
+    "app": "Lark (Larksuite)",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\024.json",
+    "checkpoint_sha256": "b7addcb7b31148897883050f414ea11341a0d2ee832871e5dc3858a906e42129",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\025.json",
+    "checkpoint_sha256": "ae72380ad8c356aaa65bcfe0d703c956a196603771eede09b7e745e2d9401fec",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "access_model",
+      "buildability",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\026.json",
+    "checkpoint_sha256": "e5585887284c9ed06288cfcd19e8a6b5512ee28b16e99ab3a3be217b92bd9e07",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\027.json",
+    "checkpoint_sha256": "5acf7da37ee3325d1bdc736e5a08150fa215139cc8262254015bc05bfe99f866",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\028.json",
+    "checkpoint_sha256": "2617a7138b91c67fc4bacf31312179b841d59f5c951c26c285a9ad242c3fbc1a",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\029.json",
+    "checkpoint_sha256": "132c32ef16dd77c7505ee43223c118131ef002ef54d89973e248fda869198559",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\030.json",
+    "checkpoint_sha256": "c5373509551b61c04e582fb05f0884a1d0ddb7efe1b017b20689c490360ccb0a",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\031.json",
+    "checkpoint_sha256": "09e44cc32385d2195edb578d3facd43420590b2cfdbf6846140b9ccfa1535671",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\032.json",
+    "checkpoint_sha256": "ac648298cf85f78856393a09b2e94ff2b534ae37ac8bafe7b409e23be444b2cb",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\033.json",
+    "checkpoint_sha256": "5a816d39e7b9b5dc6da384971dd464355fa42ec0e513c7925b5da2936d280477",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\034.json",
+    "checkpoint_sha256": "24f7a66e3a8f74db65daf64fb0a45d15aaf5fbe52a6e4a09b03630a6fc2387ce",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\035.json",
+    "checkpoint_sha256": "070a9ea614fccefc485d13251edaa826377127be7ad2c65624f5a4d9e966cef9",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\036.json",
+    "checkpoint_sha256": "2004be3fe5ee85582c8e16936ba30560df8f98514ce2329bdeac65d20688d862",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": "ValueError: Missing or duplicate field review"
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\037.json",
+    "checkpoint_sha256": "aef2a0e3349a0aaa41e5041cf27d974a28bb5f2093ad96e25632398c996d164f",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "api_breadth",
+      "access_model",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\038.json",
+    "checkpoint_sha256": "f857bbd2fc764df2127d00a5a6d71a036b094636f45b15947527c396d9c238c3",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 39,
+    "app": "Threads (Meta)",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\039.json",
+    "checkpoint_sha256": "af9693c1d4204c95184a96811121d1a80c6c5854832c3330e02aac1fab58cc77",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\040.json",
+    "checkpoint_sha256": "b913b791fc8caf49150fb26fcb8e862d620a3766e4bbfa42222ab09361727b63",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\041.json",
+    "checkpoint_sha256": "d9d6060470ea0026a65e500eb08dd94f36f7f34b404026a8b3c9d1329df2392a",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+    "field_audit_failure": null
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\042.json",
+    "checkpoint_sha256": "85aa34dfffdd6173e0200c2a47e5f55733245b6c1da0fd32be81577b97bdcf47",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\043.json",
+    "checkpoint_sha256": "953b285c9d20c95f20f0057e2f9eceeb7574df9713b3b045e0b7c66b83bfd078",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\044.json",
+    "checkpoint_sha256": "b241c9f688f4fd1dd95708ec31fd03fab1ce4d2fada8f117ddb99b030e8fe198",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+    "field_audit_failure": null
+  },
+  {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\045.json",
+    "checkpoint_sha256": "a2124b9b0df3fb24550373864618b4f0da8c5b141de27b33649d85290c1955b1",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\046.json",
+    "checkpoint_sha256": "2f8d3383d389bd92983f03011f70dba709f7e87c8349ae6f1c125a1c7df179b7",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\047.json",
+    "checkpoint_sha256": "b19f39691dbdf4fd23add88fb152f9e3ade541e9a861479b5ca6740c5be1ee50",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\048.json",
+    "checkpoint_sha256": "8b50cb1872db841ccb81e47ce9ec6a8413c10b334986301f6e10161d6133e5ec",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+    "field_audit_failure": null
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\049.json",
+    "checkpoint_sha256": "1416070441c1ea5b8415d9e2c8269f6b6df46834e3f7c0b4b0645e762efd2048",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\050.json",
+    "checkpoint_sha256": "a743338919f8a871872b5161f2a456706f60128c637ed01c416b56f086b7ddd5",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\051.json",
+    "checkpoint_sha256": "f4e6f6ae71eb104a00c21d7e99cca796bcd88dea577d322265a0130c8b9937aa",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\052.json",
+    "checkpoint_sha256": "72f9164762b037a8d96362cf380ae0562a79fa061232ee604775f63daf2d3d3c",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\053.json",
+    "checkpoint_sha256": "ad308c38a3eb02eec3dba8fd92baf5c45aab80756ca8ee20fbaee9351b9cbe8d",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\054.json",
+    "checkpoint_sha256": "624264d91e57bf42b008ccdafb05dd1f1d67092f6a4ca5176c4e0252a4485384",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\055.json",
+    "checkpoint_sha256": "2663ea78433482d4c404bd1822fb7e4a5448331db8d036ab3a4035300c2593b5",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "buildability"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\056.json",
+    "checkpoint_sha256": "0bd553603237b1befc88b794164fba07328d8e87d718a21ca7b197b11f6feb07",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\057.json",
+    "checkpoint_sha256": "3e258b2680537b737545c78e5945c4f1910a25ab144e8eee58c8be06c3e64931",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_ownership"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\058.json",
+    "checkpoint_sha256": "7bdf8f616cf509012ec072dfe4601ab824fc18941ce1c541605b055d3fc6d083",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\059.json",
+    "checkpoint_sha256": "c8b45c07669bd80dc33877a98c44446569c8d368d365447efac62feb1d3d5f16",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\060.json",
+    "checkpoint_sha256": "8d8662dbbff7b01a3a2439d6dff923ec0487fc3e32bf9771f285b8a2e7d2cb70",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+    "field_audit_failure": null
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\061.json",
+    "checkpoint_sha256": "16d6e7fbb1fbb66b6e9a1276762c39f8242e1a12b22481803d7f9382069f7fa9",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": "ValueError: Missing or duplicate field review"
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\062.json",
+    "checkpoint_sha256": "09104d50b8646b0842e27778079c631cb1c2e2f1aa3d05f9b08540a14a2ea87d",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\063.json",
+    "checkpoint_sha256": "4ac1cc73a7fc9b9f3d1c4dde4cfd07fb4e26ec87e7e172d4252a397135cf393c",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "access_model",
+      "mcp_ownership",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\064.json",
+    "checkpoint_sha256": "1e4bb911b29ddd299cbaaf50c0faa8ed3f1a465c4a38e518ed52640acb3facb5",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "access_model"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\065.json",
+    "checkpoint_sha256": "f824a8a7866f3b5a365fa85a49ad127e1a173c4898eb45d16279a7b16756bc74",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_ownership",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\066.json",
+    "checkpoint_sha256": "9f85a6c88d93afebbeda2a41ecf4e0646da239e4e3dde1131f55449d74c80033",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\067.json",
+    "checkpoint_sha256": "836df74c677b08d1c1c53ee95f86e59fa2554bced4adfb7d13242992594ff133",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\068.json",
+    "checkpoint_sha256": "48394dad01ad4bd044bed26a6354acda6f55b746593f2453825dd0204a344072",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": "ValueError: Missing or duplicate field review"
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\069.json",
+    "checkpoint_sha256": "c970b8d3b7916d32570297052f1621ff1d75ee4fcb3fb8c922a78a14d6c90968",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\070.json",
+    "checkpoint_sha256": "97b3e607f00a6f5ee1a470f058429676c9dc2c66f283c7f28d1b95113f4b126c",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\071.json",
+    "checkpoint_sha256": "0c28337d54b70b6171998cf709ad1d861f7e030d6da7a69966f6445750b2c358",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\072.json",
+    "checkpoint_sha256": "0e89ae19de6323b6cdc08c4206aba769d34c80f1de8599c04ed723a319cf0d72",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "mcp_ownership"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\073.json",
+    "checkpoint_sha256": "d5917d236cbf234fcebbd761ec2003c8e43f8665f539c08afda32638fdddfbf5",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": "ValueError: Missing or duplicate field review"
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\074.json",
+    "checkpoint_sha256": "a877cae35dadc76094cec27abb1f14f4df97ae1215d98173b37e50ee54f41b33",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\075.json",
+    "checkpoint_sha256": "73857ed6e24b379d69a82bf7d78860ebbb386a0966d4d155f8557524d794b17f",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\076.json",
+    "checkpoint_sha256": "d0980d385e0abe2cd3b071c3c009ea5f6fcdab215671d544b0ff9a5e33235f90",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+    "field_audit_failure": null
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\077.json",
+    "checkpoint_sha256": "69fec2825623461fbaec3f719499b1ad3defa742d705aa412a96a40039b5088f",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "access_model",
+      "mcp_available",
+      "mcp_ownership",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\078.json",
+    "checkpoint_sha256": "b0bbb1cdb7803d16e5c94f67520a46899faddfc6e575c5f3715b6ce412f0af14",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\079.json",
+    "checkpoint_sha256": "8608ff2f2e32cacfbca26c56d5fe9ccb2232af9e4a8dfe6462c8f948c8b326b2",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_ownership",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\080.json",
+    "checkpoint_sha256": "bfa5dd2f8f6a8597a846ee365694121d984601f0ebdf0544376f5a7d9b41d032",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\081.json",
+    "checkpoint_sha256": "0a71d00901a97b86130ebd1408e73bbbe78a65ef6252137fea01388370a0cbfc",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+    "field_audit_failure": null
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\082.json",
+    "checkpoint_sha256": "4f28452ebf2a5bf02a0ebc43cd4ec7b3eeae8b030ab3b1ba8d8fbaf89c0c6a25",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\083.json",
+    "checkpoint_sha256": "851969f0b6dae257760cbba8f0d3cfdd34ddb0ea49e6701c2f9d61ab8d6c3d4f",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\084.json",
+    "checkpoint_sha256": "73ee5359710313775ff7235ce2b77eced285ad9280810f619125eae501480dc3",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\085.json",
+    "checkpoint_sha256": "d358da0caa08b1e1a0fc7b9df72addf3393d7c6a64efa5ea3b320c16d57dec36",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+    "field_audit_failure": null
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\086.json",
+    "checkpoint_sha256": "ca08b3953220a0611e9d6e8d01ad7dcb31f2a8bbd8f0bd4b435f330955c69992",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\087.json",
+    "checkpoint_sha256": "9f95ce5bfd671b1cd3ea9c6af1d0117f5e33a1f9bb89621bcccab16a5d16252d",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\088.json",
+    "checkpoint_sha256": "f0e05143e901dc200db612ecb6578fd30578673ec2b01471761ebadccebc8a4a",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\089.json",
+    "checkpoint_sha256": "0b0e8e8eb7c0c7fe8d8dfd3fe6dade4aa507c24fbb049455591317be02cfd0d2",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\090.json",
+    "checkpoint_sha256": "dd1042a9728bc9390cce8800e4485892189599e1770f3f40170f98cee36cbd0a",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\091.json",
+    "checkpoint_sha256": "d3615c8a1ac688cc83504c5ed0815c82088094cb5d722d84a6181f0ba8ae3197",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\092.json",
+    "checkpoint_sha256": "3be4063dd8ce68746c08737a8136fd64ff9c6498421e8d4fbff94b41de33daee",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\093.json",
+    "checkpoint_sha256": "bbb3ec0deafececb0b2264c23db10084479b62a394af36b7ed23e57f1326d85d",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\094.json",
+    "checkpoint_sha256": "fdb5e88280ce87f5984fd03c09183d348f0e54f163637534bfa8a1a64f4608db",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "buildability"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\095.json",
+    "checkpoint_sha256": "0a84d8c91702a056dda60dc4dafb1e7cb685ee2478db7178db2d8e4468c56ba4",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\096.json",
+    "checkpoint_sha256": "6b6d3648f3e3160abd9794d4c0edb81a4a6c9e30a9059729b8584a930d774abe",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "buildability"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 97,
+    "app": "higgsfield",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\097.json",
+    "checkpoint_sha256": "cf398346e6a8616a6ae066c46d323304239a3cbec844e79be150157fe43e5326",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\098.json",
+    "checkpoint_sha256": "3c4980196c2d5643ac14df471d7896c074b7ea0b9e401edcdee7494de36084e4",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "auth_methods",
+      "api_types",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\retry-history\\apps\\099.json",
+    "checkpoint_sha256": "0613adcd1c3943a926bb32da3bea8cdf4a74e13a263adc66bd05d3910a60b0d1",
+    "valid_API_projected_field_review": false,
+    "unresolved_fields": [
+      "purpose",
+      "auth_methods",
+      "api_types",
+      "api_available",
+      "api_breadth",
+      "access_model",
+      "mcp_available",
+      "mcp_provider",
+      "mcp_ownership",
+      "mcp_notes",
+      "buildability",
+      "buildability_rationale",
+      "primary_blocker"
+    ],
+    "failure": null,
+    "field_audit_failure": "ValueError: Missing or duplicate field review"
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "source_checkpoint": "C:\\Users\\udays\\.codex\\.chatgpt-projects\\g-p-6aaabda9d3ac8191ad4e4853ce3a6def\\research-correction\\data\\correction\\full100-semantic-continuation-20260917\\apps\\100.json",
+    "checkpoint_sha256": "cb2f6bdc61a434e582622d3773ece5dd1f6f75e016206525194b8420c8ae60bb",
+    "valid_API_projected_field_review": true,
+    "unresolved_fields": [
+      "api_types"
+    ],
+    "failure": null,
+    "field_audit_failure": null
+  }
+]

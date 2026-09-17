@@ -1,0 +1,715 @@
+{
+  "retrievals": [
+    {
+      "requested_url": "https://www.ipayx.ai/developers",
+      "final_url": "https://www.ipayx.ai/developers",
+      "retrieved_at": "2026-09-17T14:39:22.237497+00:00",
+      "source_kind": "official",
+      "ok": true,
+      "text": "if (window.location.hostname === 'ipayx.ai') { window.location.replace('https://www.ipayx.ai' + window.location.pathname + window.location.search + window.location.hash); }\n\niPayX Protocol — FINTRAC-registered FX forensic audit layer\n\nwindow.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} var consent = localStorage.getItem('cookie-consent'); var hasAnalyticsConsent = (consent === 'analytics' || consent === 'all' || consent === 'accepted'); gtag('consent', 'default', { analytics_storage: hasAnalyticsConsent ? 'granted' : 'denied', ad_storage: 'denied', }); var s = document.createElement('script'); s.src = 'https://www.googletagmanager.com/gtag/js?id=G-45Z1P8XE31'; s.async = true; document.head.appendChild(s); gtag('js', new Date()); gtag('config', 'G-45Z1P8XE31'); // Google Ads — replace AW-XXXXXXXXXX with your real Google Ads ID gtag('config', 'AW-8051084151'); gtag('config', 'AW-17979656788'); if (hasAnalyticsConsent) { (function initApollo(){ var n = Math.random().toString(36).substring(7); var o = document.createElement(\"script\"); o.src = \"https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=\" + n; o.async = true; o.defer = true; o.onload = function(){ window.trackingFunctions.onLoad({appId:\"68fa45910371c5001196a883\"}) }; document.head.appendChild(o); })(); }\n\n_linkedin_partner_id = \"8909474\"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);\n\n(function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName(\"script\")[0]; var b = document.createElement(\"script\"); b.type = \"text/javascript\";b.async = true; b.src = \"https://snap.licdn.com/li.lms-analytics/insight.min.js\"; s.parentNode.insertBefore(b, s); })(window.lintrk);\n\ndocument.documentElement.classList.remove('dark');document.documentElement.style.colorScheme='light';\n\niPayX Protocol — Neutral FX Verification Layer\n\niPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers. We audit foreign-exchange transactions, compare the rate a bank or card network applied against the real-time mid-market rate, reveal invisible spreads, quantify FX costs, and project annual savings.\n\nHow It Works\n\nEnter your transaction – Amount, currencies (e.g. CAD → USD), and the rate your bank applied.\n\nWe capture the mid-market rate – From regulated interbank data sources at the exact transaction time.\n\nInstant audit report – Spread %, FX cost in your base currency, execution grade (A/B/C), and annual savings projection.\n\nTrust & Compliance\n\nMSB FINTRAC C10001283 | 0-custody | AES-256 | Built in Canada 🇨🇦\n\nLinks\n\nHome\n\nPricing\n\nMethodology\n\nAbout\n\nPartners\n\nPrivacy Policy\n\nTerms of Service\n\nContact: info@ipayx.ai\n\n{ \"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"logo\": \"https://www.ipayx.ai/og-image.png\", \"description\": \"FINTRAC-registered (MSB C10001283) FX forensic audit layer. Audits FX transactions to reveal invisible spreads and reduce cross-border payment costs.\", \"foundingDate\": \"2024\", \"address\": { \"@type\": \"PostalAddress\", \"addressCountry\": \"CA\" }, \"contactPoint\": { \"@type\": \"ContactPoint\", \"email\": \"info@ipayx.ai\", \"contactType\": \"sales\" } }\n\n{ \"@context\": \"https://schema.org\", \"@type\": \"SoftwareApplication\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"applicationCategory\": \"FinanceApplication\", \"operatingSystem\": \"Web\", \"description\": \"Audit your FX transactions. Compare your bank's rate against the mid-market rate, uncover invisible spreads, and project annual savings.\", \"offers\": { \"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"CAD\" }, \"featureList\": [\"60+ currency pairs\",\"CSV bulk audit\",\"Execution scoring\",\"Annual savings projection\",\"PDF report generation\",\"15 language support\"] }",
+      "content_sha256": "91c60202da17b08db48d3372a280c97f23f784b1e9f611225147f5009338dd04",
+      "fragments": [
+        {
+          "text": "if (window.location.hostname === 'ipayx.ai') { window.location.replace('https://www.ipayx.ai' + window.location.pathname + window.location.search + window.location.hash); }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "iPayX Protocol — FINTRAC-registered FX forensic audit layer",
+          "heading": "",
+          "tag": "head",
+          "ancestry": [
+            "html",
+            "head"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} var consent = localStorage.getItem('cookie-consent'); var hasAnalyticsConsent = (consent === 'analytics' || consent === 'all' || consent === 'accepted'); gtag('consent', 'default', { analytics_storage: hasAnalyticsConsent ? 'granted' : 'denied', ad_storage: 'denied', }); var s = document.createElement('script'); s.src = 'https://www.googletagmanager.com/gtag/js?id=G-45Z1P8XE31'; s.async = true; document.head.appendChild(s); gtag('js', new Date()); gtag('config', 'G-45Z1P8XE31'); // Google Ads — replace AW-XXXXXXXXXX with your real Google Ads ID gtag('config', 'AW-8051084151'); gtag('config', 'AW-17979656788'); if (hasAnalyticsConsent) { (function initApollo(){ var n = Math.random().toString(36).substring(7); var o = document.createElement(\"script\"); o.src = \"https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=\" + n; o.async = true; o.defer = true; o.onload = function(){ window.trackingFunctions.onLoad({appId:\"68fa45910371c5001196a883\"}) }; document.head.appendChild(o); })(); }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "_linkedin_partner_id = \"8909474\"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "(function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName(\"script\")[0]; var b = document.createElement(\"script\"); b.type = \"text/javascript\";b.async = true; b.src = \"https://snap.licdn.com/li.lms-analytics/insight.min.js\"; s.parentNode.insertBefore(b, s); })(window.lintrk);",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "document.documentElement.classList.remove('dark');document.documentElement.style.colorScheme='light';",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "body",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "iPayX Protocol — Neutral FX Verification Layer",
+          "heading": "",
+          "tag": "h1",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h1"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "iPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers. We audit foreign-exchange transactions, compare the rate a bank or card network applied against the real-time mid-market rate, reveal invisible spreads, quantify FX costs, and project annual savings.",
+          "heading": "",
+          "tag": "p",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "p"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "How It Works",
+          "heading": "",
+          "tag": "h2",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h2"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Enter your transaction – Amount, currencies (e.g. CAD → USD), and the rate your bank applied.",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ol",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "We capture the mid-market rate – From regulated interbank data sources at the exact transaction time.",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ol",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Instant audit report – Spread %, FX cost in your base currency, execution grade (A/B/C), and annual savings projection.",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ol",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Trust & Compliance",
+          "heading": "",
+          "tag": "h2",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h2"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "MSB FINTRAC C10001283 | 0-custody | AES-256 | Built in Canada 🇨🇦",
+          "heading": "",
+          "tag": "p",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "p"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Links",
+          "heading": "",
+          "tag": "h2",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h2"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Home",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Pricing",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Methodology",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "About",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Partners",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Privacy Policy",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Terms of Service",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Contact: info@ipayx.ai",
+          "heading": "",
+          "tag": "p",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "p"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "{ \"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"logo\": \"https://www.ipayx.ai/og-image.png\", \"description\": \"FINTRAC-registered (MSB C10001283) FX forensic audit layer. Audits FX transactions to reveal invisible spreads and reduce cross-border payment costs.\", \"foundingDate\": \"2024\", \"address\": { \"@type\": \"PostalAddress\", \"addressCountry\": \"CA\" }, \"contactPoint\": { \"@type\": \"ContactPoint\", \"email\": \"info@ipayx.ai\", \"contactType\": \"sales\" } }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "body",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "{ \"@context\": \"https://schema.org\", \"@type\": \"SoftwareApplication\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"applicationCategory\": \"FinanceApplication\", \"operatingSystem\": \"Web\", \"description\": \"Audit your FX transactions. Compare your bank's rate against the mid-market rate, uncover invisible spreads, and project annual savings.\", \"offers\": { \"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"CAD\" }, \"featureList\": [\"60+ currency pairs\",\"CSV bulk audit\",\"Execution scoring\",\"Annual savings projection\",\"PDF report generation\",\"15 language support\"] }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "body",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "requested_url": "https://www.ipayx.ai/docs",
+      "final_url": "https://www.ipayx.ai/docs",
+      "retrieved_at": "2026-09-17T14:39:24.366474+00:00",
+      "source_kind": "official",
+      "ok": true,
+      "text": "if (window.location.hostname === 'ipayx.ai') { window.location.replace('https://www.ipayx.ai' + window.location.pathname + window.location.search + window.location.hash); }\n\niPayX Protocol — FINTRAC-registered FX forensic audit layer\n\nwindow.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} var consent = localStorage.getItem('cookie-consent'); var hasAnalyticsConsent = (consent === 'analytics' || consent === 'all' || consent === 'accepted'); gtag('consent', 'default', { analytics_storage: hasAnalyticsConsent ? 'granted' : 'denied', ad_storage: 'denied', }); var s = document.createElement('script'); s.src = 'https://www.googletagmanager.com/gtag/js?id=G-45Z1P8XE31'; s.async = true; document.head.appendChild(s); gtag('js', new Date()); gtag('config', 'G-45Z1P8XE31'); // Google Ads — replace AW-XXXXXXXXXX with your real Google Ads ID gtag('config', 'AW-8051084151'); gtag('config', 'AW-17979656788'); if (hasAnalyticsConsent) { (function initApollo(){ var n = Math.random().toString(36).substring(7); var o = document.createElement(\"script\"); o.src = \"https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=\" + n; o.async = true; o.defer = true; o.onload = function(){ window.trackingFunctions.onLoad({appId:\"68fa45910371c5001196a883\"}) }; document.head.appendChild(o); })(); }\n\n_linkedin_partner_id = \"8909474\"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);\n\n(function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName(\"script\")[0]; var b = document.createElement(\"script\"); b.type = \"text/javascript\";b.async = true; b.src = \"https://snap.licdn.com/li.lms-analytics/insight.min.js\"; s.parentNode.insertBefore(b, s); })(window.lintrk);\n\ndocument.documentElement.classList.remove('dark');document.documentElement.style.colorScheme='light';\n\niPayX Protocol — Neutral FX Verification Layer\n\niPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers. We audit foreign-exchange transactions, compare the rate a bank or card network applied against the real-time mid-market rate, reveal invisible spreads, quantify FX costs, and project annual savings.\n\nHow It Works\n\nEnter your transaction – Amount, currencies (e.g. CAD → USD), and the rate your bank applied.\n\nWe capture the mid-market rate – From regulated interbank data sources at the exact transaction time.\n\nInstant audit report – Spread %, FX cost in your base currency, execution grade (A/B/C), and annual savings projection.\n\nTrust & Compliance\n\nMSB FINTRAC C10001283 | 0-custody | AES-256 | Built in Canada 🇨🇦\n\nLinks\n\nHome\n\nPricing\n\nMethodology\n\nAbout\n\nPartners\n\nPrivacy Policy\n\nTerms of Service\n\nContact: info@ipayx.ai\n\n{ \"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"logo\": \"https://www.ipayx.ai/og-image.png\", \"description\": \"FINTRAC-registered (MSB C10001283) FX forensic audit layer. Audits FX transactions to reveal invisible spreads and reduce cross-border payment costs.\", \"foundingDate\": \"2024\", \"address\": { \"@type\": \"PostalAddress\", \"addressCountry\": \"CA\" }, \"contactPoint\": { \"@type\": \"ContactPoint\", \"email\": \"info@ipayx.ai\", \"contactType\": \"sales\" } }\n\n{ \"@context\": \"https://schema.org\", \"@type\": \"SoftwareApplication\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"applicationCategory\": \"FinanceApplication\", \"operatingSystem\": \"Web\", \"description\": \"Audit your FX transactions. Compare your bank's rate against the mid-market rate, uncover invisible spreads, and project annual savings.\", \"offers\": { \"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"CAD\" }, \"featureList\": [\"60+ currency pairs\",\"CSV bulk audit\",\"Execution scoring\",\"Annual savings projection\",\"PDF report generation\",\"15 language support\"] }",
+      "content_sha256": "91c60202da17b08db48d3372a280c97f23f784b1e9f611225147f5009338dd04",
+      "fragments": [
+        {
+          "text": "if (window.location.hostname === 'ipayx.ai') { window.location.replace('https://www.ipayx.ai' + window.location.pathname + window.location.search + window.location.hash); }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "iPayX Protocol — FINTRAC-registered FX forensic audit layer",
+          "heading": "",
+          "tag": "head",
+          "ancestry": [
+            "html",
+            "head"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} var consent = localStorage.getItem('cookie-consent'); var hasAnalyticsConsent = (consent === 'analytics' || consent === 'all' || consent === 'accepted'); gtag('consent', 'default', { analytics_storage: hasAnalyticsConsent ? 'granted' : 'denied', ad_storage: 'denied', }); var s = document.createElement('script'); s.src = 'https://www.googletagmanager.com/gtag/js?id=G-45Z1P8XE31'; s.async = true; document.head.appendChild(s); gtag('js', new Date()); gtag('config', 'G-45Z1P8XE31'); // Google Ads — replace AW-XXXXXXXXXX with your real Google Ads ID gtag('config', 'AW-8051084151'); gtag('config', 'AW-17979656788'); if (hasAnalyticsConsent) { (function initApollo(){ var n = Math.random().toString(36).substring(7); var o = document.createElement(\"script\"); o.src = \"https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=\" + n; o.async = true; o.defer = true; o.onload = function(){ window.trackingFunctions.onLoad({appId:\"68fa45910371c5001196a883\"}) }; document.head.appendChild(o); })(); }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "_linkedin_partner_id = \"8909474\"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "(function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName(\"script\")[0]; var b = document.createElement(\"script\"); b.type = \"text/javascript\";b.async = true; b.src = \"https://snap.licdn.com/li.lms-analytics/insight.min.js\"; s.parentNode.insertBefore(b, s); })(window.lintrk);",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "head",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "document.documentElement.classList.remove('dark');document.documentElement.style.colorScheme='light';",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "body",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "iPayX Protocol — Neutral FX Verification Layer",
+          "heading": "",
+          "tag": "h1",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h1"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "iPayX Protocol is the neutral FX verification layer for fintech sales teams and FX brokers. We audit foreign-exchange transactions, compare the rate a bank or card network applied against the real-time mid-market rate, reveal invisible spreads, quantify FX costs, and project annual savings.",
+          "heading": "",
+          "tag": "p",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "p"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "How It Works",
+          "heading": "",
+          "tag": "h2",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h2"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Enter your transaction – Amount, currencies (e.g. CAD → USD), and the rate your bank applied.",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ol",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "We capture the mid-market rate – From regulated interbank data sources at the exact transaction time.",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ol",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Instant audit report – Spread %, FX cost in your base currency, execution grade (A/B/C), and annual savings projection.",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ol",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Trust & Compliance",
+          "heading": "",
+          "tag": "h2",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h2"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "MSB FINTRAC C10001283 | 0-custody | AES-256 | Built in Canada 🇨🇦",
+          "heading": "",
+          "tag": "p",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "p"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Links",
+          "heading": "",
+          "tag": "h2",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "h2"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Home",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Pricing",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Methodology",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "About",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Partners",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Privacy Policy",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Terms of Service",
+          "heading": "",
+          "tag": "li",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "ul",
+            "li"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "Contact: info@ipayx.ai",
+          "heading": "",
+          "tag": "p",
+          "ancestry": [
+            "html",
+            "body",
+            "noscript",
+            "div",
+            "p"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "{ \"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"logo\": \"https://www.ipayx.ai/og-image.png\", \"description\": \"FINTRAC-registered (MSB C10001283) FX forensic audit layer. Audits FX transactions to reveal invisible spreads and reduce cross-border payment costs.\", \"foundingDate\": \"2024\", \"address\": { \"@type\": \"PostalAddress\", \"addressCountry\": \"CA\" }, \"contactPoint\": { \"@type\": \"ContactPoint\", \"email\": \"info@ipayx.ai\", \"contactType\": \"sales\" } }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "body",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        },
+        {
+          "text": "{ \"@context\": \"https://schema.org\", \"@type\": \"SoftwareApplication\", \"name\": \"iPayX Protocol\", \"url\": \"https://www.ipayx.ai\", \"applicationCategory\": \"FinanceApplication\", \"operatingSystem\": \"Web\", \"description\": \"Audit your FX transactions. Compare your bank's rate against the mid-market rate, uncover invisible spreads, and project annual savings.\", \"offers\": { \"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"CAD\" }, \"featureList\": [\"60+ currency pairs\",\"CSV bulk audit\",\"Execution scoring\",\"Annual savings projection\",\"PDF report generation\",\"15 language support\"] }",
+          "heading": "",
+          "tag": "script",
+          "ancestry": [
+            "html",
+            "body",
+            "script"
+          ],
+          "category": "hidden",
+          "section_context": []
+        }
+      ],
+      "error": null
+    }
+  ],
+  "passages": {}
+}

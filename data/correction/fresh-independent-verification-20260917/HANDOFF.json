@@ -1,0 +1,138 @@
+{
+  "status": "VERIFICATION PARTIAL",
+  "sample_apps": 20,
+  "sample_records": 60,
+  "pre_review_outcomes": {
+    "correct": 47,
+    "caveat_needed": 8,
+    "unsupported": 5,
+    "unverifiable": 0
+  },
+  "appropriately_unresolved": 6,
+  "original_unresolved_records": 12,
+  "supported_claim_outcomes": {
+    "correct": 41,
+    "caveat_needed": 2,
+    "unsupported": 5
+  },
+  "unresolved_handling_outcomes": {
+    "caveat_needed": 6,
+    "correct": 6
+  },
+  "strata": {
+    "targeted corrections": {
+      "records": 36,
+      "outcomes": {
+        "correct": 34,
+        "caveat_needed": 1,
+        "unsupported": 1
+      },
+      "appropriately_unresolved": 0
+    },
+    "MCP": {
+      "records": 4,
+      "outcomes": {
+        "correct": 4
+      },
+      "appropriately_unresolved": 0
+    },
+    "access/auth": {
+      "records": 27,
+      "outcomes": {
+        "correct": 20,
+        "caveat_needed": 3,
+        "unsupported": 4
+      },
+      "appropriately_unresolved": 2
+    },
+    "readiness": {
+      "records": 22,
+      "outcomes": {
+        "correct": 19,
+        "caveat_needed": 3
+      },
+      "appropriately_unresolved": 2
+    },
+    "preserved automated findings": {
+      "records": 12,
+      "outcomes": {
+        "correct": 7,
+        "unsupported": 4,
+        "caveat_needed": 1
+      },
+      "appropriately_unresolved": 0
+    },
+    "unresolved/identity cases": {
+      "records": 12,
+      "outcomes": {
+        "caveat_needed": 6,
+        "correct": 6
+      },
+      "appropriately_unresolved": 6
+    }
+  },
+  "strata_overlap": true,
+  "expansion_records": 15,
+  "expansion_outcomes": {
+    "caveat_needed": 12,
+    "correct": 3
+  },
+  "correction_fields": 25,
+  "corrected_apps": [
+    1,
+    2,
+    6,
+    34,
+    48,
+    49,
+    50,
+    61
+  ],
+  "post_correction_status_counts": {
+    "source_backed": 45,
+    "source_backed_with_caveat": 798,
+    "unresolved": 457
+  },
+  "post_correction_accuracy": "Not measured. Corrections are not independent accuracy. No whole-dataset accuracy estimate from purposive sample.",
+  "ready_for_whole_dataset_pattern_analysis": true,
+  "final_HTML_rebuild": "Hold for user acceptance of outcomes; not performed in this task. Patterns must retain uncertainty and documentation-only readiness caveats.",
+  "remaining_blockers": [
+    "User review/acceptance pending.",
+    "Paygent Connect identity and iPayX readable official evidence remain unresolved.",
+    "Amazon public listing policy applicability unresolved; correction preserves caveat.",
+    "Unsampled records and exhaustive routes not certified; retained automated findings remain source-backed/caveated evidence dispositions."
+  ],
+  "method": "Fresh source observations recorded before full sample-value comparison; not fully blinded: initial handoff/sample read exposed some saved values. Reviewer is this task's agent, not a human or statistically independent second reviewer.",
+  "branch": "correction/research-coverage",
+  "base": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+  "working_tree_artifact": "working-tree-state.json",
+  "qa": {
+    "citation_integrity_errors": [],
+    "retained_historical_citations_checked_against_protected_baseline": 7239,
+    "baseline_layer_files_checked": 37,
+    "baseline_layer_hash_mismatches": [],
+    "quota_checkpoint_files_checked": 870,
+    "quota_hash_mismatches": [],
+    "protected_history_files": 791,
+    "protected_history_unchanged": true,
+    "canonical_tracked_files_compared": 229,
+    "canonical_tracked_differences": [],
+    "records": 100,
+    "field_dispositions": 1300,
+    "new_citations_are_labeled_paraphrases": true,
+    "tests": {
+      "passed": 136,
+      "failed": 0,
+      "log": "tests-final-approved.log",
+      "environment": "Established canonical .venv interpreter, repository under review; mocked/offline fixtures. Sandbox-only initial attempts failed due missing dependencies/temporary-directory cleanup. Final authorized run passed."
+    },
+    "historical_exact_snippet_and_source_hashes_rechecked": true
+  },
+  "tests": {
+    "passed": 136,
+    "failed": 0,
+    "log": "tests-final-approved.log",
+    "environment": "Established canonical .venv interpreter, repository under review; mocked/offline fixtures. Sandbox-only initial attempts failed due missing dependencies/temporary-directory cleanup. Final authorized run passed."
+  },
+  "next_action": "User reviews and accepts verification outcomes; then authorize whole-dataset patterns and final HTML rebuild in a subsequent stage."
+}

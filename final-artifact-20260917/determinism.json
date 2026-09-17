@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "before_sha256": "0236cf4124273b73d76dd7ba925ab77963da405c1a23c1e97c3fb6e0a338706b",
+  "after_sha256": "0236cf4124273b73d76dd7ba925ab77963da405c1a23c1e97c3fb6e0a338706b",
+  "same_bytes": true
+}

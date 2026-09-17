@@ -1,0 +1,18 @@
+[
+  {
+    "original_path": "data/correction/fresh-independent-verification-20260917/browser-batch-5.json",
+    "original_sha256": "0095bbd7147198f55a2a45e13729e36df424b44683aa22f8176d139307df7868",
+    "public_path": "data/publication/redacted-documentation/browser-batch-5.json",
+    "public_sha256": "55a43b72115b81d5f37c19ee209728ad6805c18f885645b6c636481a92bcdf3e",
+    "redactions": 1,
+    "reason": "Documentation test-key examples trigger GitHub push protection; original sealed captures retained locally."
+  },
+  {
+    "original_path": "data/correction/fresh-independent-verification-20260917/source-catalog.json",
+    "original_sha256": "1e6ca6e438160ed43e2f5d51a5b8e153b3ce5f0b0ee0f398800c3bdeacad8837",
+    "public_path": "data/publication/redacted-documentation/source-catalog.json",
+    "public_sha256": "bcc7f59c231ed2bc33f4adc53e87f68da7800b39898c076281e9ae56a1b09b83",
+    "redactions": 1,
+    "reason": "Documentation test-key examples trigger GitHub push protection; original sealed captures retained locally."
+  }
+]

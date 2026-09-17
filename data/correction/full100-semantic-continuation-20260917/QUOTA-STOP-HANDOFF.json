@@ -1,0 +1,832 @@
+{
+  "status": "PARTIAL",
+  "api_quota_initially_available": true,
+  "api_quota_available_at_stop": false,
+  "initial_api_check": {
+    "status": 200,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "token_limit": "200000",
+    "remaining_tokens": "199995",
+    "remaining_requests": "499"
+  },
+  "exact_sanitized_quota_error": {
+    "status": 429,
+    "type": "insufficient_quota",
+    "code": "credit_balance_exhausted",
+    "message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+  },
+  "run_id": "full100-semantic-continuation-20260917",
+  "parent_run_id": "full100-production-live-20260917",
+  "working_tree_state": {
+    "branch": "correction/research-coverage",
+    "head_base": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "tracked_diff": "",
+    "working_tree": "?? ATOMIC-PILOT-HANDOFF.md\n?? BODY-PILOT-HANDOFF.md\n?? CORRECTION-AUDIT-HANDOFF.md\n?? CORRECTION-INTEGRITY-AUDIT.json\n?? PATH-PILOT-HANDOFF.md\n?? STRICT-PILOT-HANDOFF.md\n?? SURFACE-PILOT-HANDOFF.md\n?? agent/atomic_contracts.py\n?? agent/atomic_pilot_preflight.py\n?? agent/atomic_pilot_primary.py\n?? agent/atomic_pilot_recover.py\n?? agent/body_handoff.py\n?? agent/body_pilot.py\n?? agent/body_pilot_seal.py\n?? agent/body_primary_decisions.py\n?? agent/body_review_pack.py\n?? agent/coverage_correction.py\n?? agent/path_audit.py\n?? agent/path_contracts.py\n?? agent/path_handoff.py\n?? agent/path_pilot.py\n?? agent/production_diagnostic.py\n?? agent/production_qa.py\n?? agent/production_research.py\n?? agent/strict_pilot_audit.py\n?? agent/strict_pilot_finalize.py\n?? agent/strict_pilot_handoff.py\n?? agent/surface_pilot_finalize.py\n?? agent/surface_validation.py\n?? atomic-pilot-context-audit.log\n?? atomic-pilot-recovery.log\n?? atomic-pilot-run.log\n?? atomic-tests-before.log\n?? atomic-tests-final.log\n?? body-pilot-run.log\n?? body-pilot-seal.log\n?? body-pilot-v2-run.log\n?? body-pilot-v3-run.log\n?? body-tests-approved.log\n?? body-tests-before.log\n?? body-tests-final.log\n?? continuation-followup.log\n?? continuation-full100-retry.log\n?? continuation-full100.log\n?? continuation-tests-approved.log\n?? continuation-tests.log\n?? continue_full100.py\n?? data/correction/\n?? path-pilot-run.log\n?? path-pilot-seal.log\n?? path-tests-approved.log\n?? path-tests-before.log\n?? path-tests-final.log\n?? path-tests-postpilot.log\n?? production-full100-capture-only.log\n?? production-full100-live.log\n?? production-full100-qa.log\n?? production-full100-resume.log\n?? production-full100-resume6.log\n?? production-full100-run.log\n?? production-qa-prepare.log\n?? production-tests-approved.log\n?? production-tests-before.log\n?? production-tests-current.log\n?? production-tests-final.log\n?? production-tests-targeted-final.log\n?? production-tests-targeted.log\n?? retry_full100.py\n?? surface-pilot-context-audit.log\n?? surface-pilot-run.log\n?? surface-tests-before.log\n?? surface-tests-final.log\n?? tests/fixtures/\n?? tests/test_atomic_contracts.py\n?? tests/test_body_pilot.py\n?? tests/test_coverage_correction.py\n?? tests/test_path_pilot.py\n?? tests/test_production_research.py\n?? tests/test_surface_validation.py"
+  },
+  "production_code_matches_sealed_snapshot": {
+    "agent/production_research.py": true,
+    "agent/production_qa.py": true
+  },
+  "commands_used": [
+    "Existing production_diagnostic.main with output redirected to full100-continuation-20260917-credit-retry",
+    "python continue_full100.py (first attempt paused for Windows checkpoint filename length; failed saves archived)",
+    "python continue_full100.py (short filenames; full first pass completed)",
+    "python -m unittest discover -s tests -v (sandbox temporary-folder errors; authorized rerun passed)",
+    "python retry_full100.py (one prepared follow-up; quota exhausted, stopped without retries)"
+  ],
+  "completion_counts": {
+    "extraction": 96,
+    "atom_review": 93,
+    "projected_field_review": 84
+  },
+  "projected_field_no_claims_disposition_ids": [
+    43,
+    49,
+    50,
+    84
+  ],
+  "checkpoint_inventory": {
+    "last_full_inventory_snapshot": "dataset.json",
+    "newer_root_app_checkpoints": 82,
+    "preserved_first_pass_retry_app_checkpoints": 19,
+    "resume_pending_root_app_count": 18,
+    "interpretation": "Summary counts and field results use the last 100-app snapshot overlaid with newer successful app checkpoints. No new app facts manually entered. Follow-up staged files were archived before retry; pending stages must resume, not rerun retry preparation."
+  },
+  "search_retrieval_counts": {
+    "original_search_attempts": 1304,
+    "original_search_successes": 1303,
+    "additional_followup_search_attempts": 118,
+    "additional_followup_search_successes": 118,
+    "combined_search_attempts": 1422,
+    "combined_search_successes": 1421,
+    "retrieval_attempts_preserved": 1255,
+    "readable_pages_preserved": 1154,
+    "new_followup_retrieval_attempts": 0,
+    "note": "Fresh follow-up searches were saved; credit exhaustion occurred before evidence-gap retrieval retries began."
+  },
+  "field_counts": {
+    "purpose": {
+      "source_backed": 45,
+      "source_backed_with_caveat": 0,
+      "unresolved": 55
+    },
+    "auth_methods": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 70,
+      "unresolved": 30
+    },
+    "api_types": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 44,
+      "unresolved": 56
+    },
+    "api_available": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 78,
+      "unresolved": 22
+    },
+    "api_breadth": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 77,
+      "unresolved": 23
+    },
+    "access_model": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 64,
+      "unresolved": 36
+    },
+    "mcp_available": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 38,
+      "unresolved": 62
+    },
+    "mcp_provider": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 41,
+      "unresolved": 59
+    },
+    "mcp_ownership": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 33,
+      "unresolved": 67
+    },
+    "mcp_notes": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 41,
+      "unresolved": 59
+    },
+    "buildability": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 67,
+      "unresolved": 33
+    },
+    "buildability_rationale": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 75,
+      "unresolved": 25
+    },
+    "primary_blocker": {
+      "source_backed": 0,
+      "source_backed_with_caveat": 36,
+      "unresolved": 64
+    }
+  },
+  "all_critical_unresolved": [
+    {
+      "id": 36,
+      "app": "Klaviyo"
+    },
+    {
+      "id": 41,
+      "app": "Shopify"
+    },
+    {
+      "id": 43,
+      "app": "BigCommerce"
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud"
+    },
+    {
+      "id": 48,
+      "app": "Gumroad"
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis"
+    },
+    {
+      "id": 60,
+      "app": "Clay"
+    },
+    {
+      "id": 61,
+      "app": "GitHub"
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas"
+    },
+    {
+      "id": 69,
+      "app": "Datadog"
+    },
+    {
+      "id": 73,
+      "app": "Linear"
+    },
+    {
+      "id": 76,
+      "app": "Monday.com"
+    },
+    {
+      "id": 81,
+      "app": "Stripe"
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect"
+    },
+    {
+      "id": 85,
+      "app": "iPayX"
+    },
+    {
+      "id": 90,
+      "app": "PitchBook"
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript"
+    }
+  ],
+  "major_unresolved_reasons": {
+    "no_supported_field_evidence_found": 364,
+    "claim_rejected_or_evidence_insufficient": 8,
+    "readiness_evidence_insufficient": 82,
+    "incomplete_projected_field_response": 46,
+    "ordinary_rate_limit_stage_incomplete": 52,
+    "docs_inaccessible_or_no_selectable_body": 39
+  },
+  "specific_unresolved_reasons": {
+    "No independently supported assigned-product evidence for auth_methods": 15,
+    "No independently supported assigned-product evidence for api_types": 45,
+    "No independently supported assigned-product evidence for mcp_available": 51,
+    "No independently supported assigned-product evidence for mcp_provider": 48,
+    "No independently supported assigned-product evidence for mcp_ownership": 56,
+    "No independently supported assigned-product evidence for mcp_notes": 48,
+    "No independently supported assigned-product evidence for primary_blocker": 7,
+    "The documentation passages show Podio supports multiple OAuth2 flows including app authentication flow, server-side flow, and username and password flow, not only 'oauth2' as a single method. The fact lists only 'oauth2' without specifying flows, but the passages indicate multiple OAuth2 flows and username/password flow as well, so the fact is incomplete and thus unsupported as stated.": 1,
+    "No independently supported assigned-product evidence for access_model": 27,
+    "Positive readiness dependencies failed independent field audit": 4,
+    "Only REST API is explicitly documented with resource actions and usage (d14:b16). GraphQL is described as a query language available in certain editions but no actual API resource or endpoint documentation is provided, and GraphQL APIs are not available in trial versions (d17:b2, d17:b7, d17:b8). Thus, GraphQL API availability is not sufficiently documented as an API type.": 1,
+    "Passages d11:b511, d0:b87, d3:b87, d11:b517, d11:b520, d4:b284, d4:b285, d0:b89, d3:b89, d2:b72, d2:b77, d2:b66, d4:b275, d4:b277, d4:b278, d4:b280, d4:b282, d4:b293, d5:b514, d5:b518, and d5:b522 provide core resource and authentication evidence but also note incomplete credential onboarding or coherent auth/API support, indicating that buildability needs further investigation.": 1,
+    "No independently supported assigned-product evidence for purpose": 47,
+    "Although core resource evidence is retained, the documentation lacks complete credential onboarding or coherent authentication/API support details necessary to confirm buildability, as noted in passages d0:b193 and d2:b193.": 1,
+    "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed. No absence-of-blockers claim.": 31,
+    "No independently supported assigned-product evidence for api_available": 9,
+    "No independently supported assigned-product evidence for api_breadth": 10,
+    "There is insufficient coherent documented resource API, authentication, and credential onboarding evidence in the provided passages to support buildability; the fact is marked unresolved and no supporting passages are provided.": 1,
+    "No independently supported assigned-product evidence for buildability_rationale": 1,
+    "Insufficient coherent documented resource API, authentication and credential onboarding evidence.": 14,
+    "Insufficient coherent documented resource API, authentication and credential onboarding evidence. No absence-of-blockers claim.": 7,
+    "Although core resource evidence exists, passages d4:b7 and d4:b9 indicate that enterprise administrator approval and permission configuration are required before API calls succeed, and the documentation does not confirm complete credential onboarding or coherent auth/API support, thus buildability is not fully supported.": 1,
+    "The rationale is that prerequisite enterprise admin approval and data permission configuration are mandatory, and the documentation does not confirm complete onboarding or coherent auth/API support, as per passages d4:b7 and d4:b9.": 1,
+    "While core resource evidence and API key generation are documented, the documentation notes that credential onboarding or coherent auth/API support is incomplete or not fully certified, making buildability uncertain.": 1,
+    "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.": 12,
+    "Passages mention system user access tokens and user access tokens but do not mention api_key or personal_access_token as authentication methods. Only access tokens (system user and user) are documented.": 1,
+    "Independent field audit failed: ValueError: Missing or duplicate field review": 46,
+    "HTTPError: HTTP Error 429: Too Many Requests": 52,
+    "ValueError: Docs inaccessible or source unreadable: no selectable body evidence": 39,
+    "Passages indicate that while core resource evidence is retained, credential onboarding or coherent auth/API support is incomplete, and full prerequisite inventory is not certified, leading to a conclusion that buildability needs further investigation and is not fully supported.": 1,
+    "The documentation and usage passages (d0:b189, d1:b189) describe a command-line tool with options but do not provide evidence of a documented API or protocol for programmatic access. The evidence shows CLI usage, not an API.": 1,
+    "While the tool can check usernames across 400+ social networks and create output files, there is no documented API resource or actions described in the passages. The evidence only supports CLI functionality, not API breadth.": 1,
+    "The passages indicate core resource evidence is present but credential onboarding or coherent auth/API support is incomplete. No evidence of a coherent API or authentication flow is documented.": 1,
+    "The rationale is that core resource evidence is retained but credential onboarding or coherent auth/API support is incomplete, as supported by the inspected documentation passages.": 1,
+    "The cited body passage is corrupted or unreadable and does not provide any verifiable information about authentication methods such as API key usage.": 1,
+    "The cited body passage is corrupted or unreadable and does not provide any verifiable evidence about buildability or credential onboarding for the Datadog API.": 1,
+    "The cited body passage is corrupted or unreadable and does not provide any verifiable rationale or evidence regarding buildability or authentication/API support completeness.": 1,
+    "While the documentation provides core resource evidence and authentication details, it notes that credential onboarding or coherent auth/API support is incomplete and requires further investigation. There is no explicit complete onboarding or execution proof, so buildability is not fully confirmed.": 1,
+    "Passages d0:b5, d1:b8, and d1:b12 provide documentation and examples but do not demonstrate complete credential onboarding or coherent auth/API support necessary for buildability; thus, buildability is not fully supported.": 1,
+    "While core resource evidence and example requests are provided, the documentation lacks complete and coherent details on credential onboarding or full authentication and API support to confirm buildability. The status and rationale note incomplete credential onboarding and coherent auth/API support (passages d4:b67, d4:b68, d4:b99, d4:b100, d4:b101, d4:b102, d4:b103, d4:b104, d4:b105, d4:b79, d5:b94, d5:b95, d5:b92, d5:b93, d5:b96, d6:b46, d6:b47, d6:b51). Thus, buildability is unsupported.": 1,
+    "While core resource evidence is present in passages d0:b166, d3:b189, d3:b206, d8:b150, d10:b170, and d10:b194, the documentation indicates incomplete credential onboarding or coherent auth/API support, making buildability unclear.": 1,
+    "Passages d2:b128 and d3:b157 describe authentication using GitHub tokens and npm login for package registry access, but do not mention API key authentication. Therefore, the claim that 'api_key' is an auth method is not supported by the cited passages.": 1
+  },
+  "documentation_readiness_distribution": {
+    "needs_further_investigation": 5,
+    "buildable_with_documented_constraints": 51,
+    "unresolved": 33,
+    "gated_or_outreach_required": 10,
+    "likely_buildable_from_public_docs": 1
+  },
+  "evidence_integrity": {
+    "first_pass_capture_errors": [],
+    "first_pass_exact_citation_refs": 6922,
+    "current_recorded_field_reference_count": 7052,
+    "parent_artifact_hashes_rechecked": 455,
+    "parent_artifact_hash_mismatches": [],
+    "final_automated_qa_completed": false,
+    "note": "First-pass production finalize verified exact evidence and source hashes. The newer Zoho Cliq checkpoint passed the production capture assertion. Final whole-dataset production_qa was not run because the user required immediate quota stop."
+  },
+  "mcp_access_protocol_qa": "Existing independent atom/field challenges and deterministic body/identity/MCP ownership/access/protocol guards were retained. Rejected fields remain unresolved. Final production_qa consistency/downgrade pass is pending; automated support is not measured factual accuracy.",
+  "historical_human_review": {
+    "overlap_count": 40,
+    "same_serialized_value_count": 9,
+    "fresh_human_checks": 0,
+    "comparison_limit": "Readiness/access schemas changed; differences do not by themselves prove regressions or accuracy.",
+    "records": [
+      {
+        "id": 2,
+        "field": "auth_methods",
+        "historical_value": [
+          "oauth2"
+        ],
+        "current_value": [
+          "oauth2"
+        ],
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 2,
+        "field": "access_model",
+        "historical_value": "admin_approval",
+        "current_value": [
+          {
+            "gate": "credential_creation",
+            "surface": "primary",
+            "qualification": "Developers can create apps and obtain client ID and secret via the HubSpot developer platform.",
+            "atom_id": "a10"
+          },
+          {
+            "gate": "admin_permission",
+            "surface": "primary",
+            "qualification": "Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize.",
+            "atom_id": "a14"
+          },
+          {
+            "gate": "admin_permission",
+            "surface": "primary",
+            "qualification": "Super Admin permission is required to set up content approval workflows and approve content in HubSpot.",
+            "atom_id": "a17"
+          },
+          {
+            "gate": "paid_plan",
+            "surface": "primary",
+            "qualification": "HubSpot payments require a paid HubSpot subscription and a bank account in the same country as the company's registration.",
+            "atom_id": "a18"
+          },
+          {
+            "gate": "admin_permission",
+            "surface": "primary",
+            "qualification": "Super Admin permissions are required to export payment reports in HubSpot payments.",
+            "atom_id": "a19"
+          }
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 1,
+        "field": "api_available",
+        "historical_value": "yes",
+        "current_value": "yes",
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 1,
+        "field": "api_types",
+        "historical_value": [
+          "rest"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 95,
+        "field": "mcp_available",
+        "historical_value": "official",
+        "current_value": "yes",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 95,
+        "field": "buildability",
+        "historical_value": "buildable",
+        "current_value": "buildable_with_documented_constraints",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 94,
+        "field": "primary_blocker",
+        "historical_value": "paid_or_enterprise_access_requirements",
+        "current_value": "access:paid_plan: Paid plans are required to enable additional usage beyond included calls; free plans cannot enable additional usage. [primary]",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 94,
+        "field": "auth_methods",
+        "historical_value": [
+          "api_key",
+          "oauth2"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 14,
+        "field": "access_model",
+        "historical_value": "admin_approval",
+        "current_value": [
+          {
+            "gate": "public_app_review",
+            "surface": "primary",
+            "qualification": "Public integrations must undergo review and use OAuth unless an exception is granted.",
+            "atom_id": "a7"
+          },
+          {
+            "gate": "credential_creation",
+            "surface": "primary",
+            "qualification": "API tokens can be self-generated in user settings for quick testing or private integrations.",
+            "atom_id": "a14"
+          }
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 14,
+        "field": "api_available",
+        "historical_value": "yes",
+        "current_value": "yes",
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 13,
+        "field": "api_types",
+        "historical_value": [
+          "rest"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 13,
+        "field": "mcp_available",
+        "historical_value": "unknown",
+        "current_value": "yes",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 22,
+        "field": "buildability",
+        "historical_value": "buildable",
+        "current_value": "buildable_with_documented_constraints",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 22,
+        "field": "primary_blocker",
+        "historical_value": "trial_and_paid_account_restrictions",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 29,
+        "field": "auth_methods",
+        "historical_value": [
+          "oauth2",
+          "basic"
+        ],
+        "current_value": [
+          "basic",
+          "oauth2"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 29,
+        "field": "access_model",
+        "historical_value": "admin_approval",
+        "current_value": [
+          {
+            "gate": "credential_creation",
+            "surface": "primary",
+            "qualification": "API keys (api_id and api_token) can be generated self-service by Aircall customers from their Company Settings page under API Keys section.",
+            "atom_id": "a2"
+          },
+          {
+            "gate": "partner_approval",
+            "surface": "primary",
+            "qualification": "Partner approval is required to obtain OAuth credentials and publish apps in the Aircall marketplace.",
+            "atom_id": "a16"
+          },
+          {
+            "gate": "public_app_review",
+            "surface": "primary",
+            "qualification": "Public apps undergo review before being listed in the Aircall App Marketplace.",
+            "atom_id": "a17"
+          }
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 32,
+        "field": "api_available",
+        "historical_value": "yes",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 32,
+        "field": "api_types",
+        "historical_value": [
+          "rest"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 37,
+        "field": "mcp_available",
+        "historical_value": "official",
+        "current_value": "yes",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 37,
+        "field": "buildability",
+        "historical_value": "buildable",
+        "current_value": "needs_further_investigation",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 41,
+        "field": "primary_blocker",
+        "historical_value": "review_and_permission_requirements",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 41,
+        "field": "auth_methods",
+        "historical_value": [
+          "oauth2",
+          "bearer_token"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 50,
+        "field": "access_model",
+        "historical_value": "unknown",
+        "current_value": "unknown",
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 50,
+        "field": "api_available",
+        "historical_value": "yes",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 52,
+        "field": "api_types",
+        "historical_value": [
+          "rest"
+        ],
+        "current_value": [
+          "rest"
+        ],
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 52,
+        "field": "mcp_available",
+        "historical_value": "official",
+        "current_value": "yes",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 54,
+        "field": "buildability",
+        "historical_value": "buildable",
+        "current_value": "buildable_with_documented_constraints",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 54,
+        "field": "primary_blocker",
+        "historical_value": "usage_quota_and_target_site_constraints",
+        "current_value": "prerequisite:configuration: To run a scraper through the API, users must activate AI Scraper API Access in scraper settings and copy the example API request. [primary]",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 64,
+        "field": "auth_methods",
+        "historical_value": [
+          "oauth2",
+          "bearer_token",
+          "api_key"
+        ],
+        "current_value": [
+          "api_key",
+          "bearer_token"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 64,
+        "field": "access_model",
+        "historical_value": "self_serve_free",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 69,
+        "field": "api_available",
+        "historical_value": "yes",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 69,
+        "field": "api_types",
+        "historical_value": [
+          "rest"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 80,
+        "field": "mcp_available",
+        "historical_value": "unknown",
+        "current_value": "unknown",
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 80,
+        "field": "buildability",
+        "historical_value": "buildable",
+        "current_value": "buildable_with_documented_constraints",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 71,
+        "field": "primary_blocker",
+        "historical_value": "workspace_content_sharing_and_permission_requirements",
+        "current_value": "unknown",
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 71,
+        "field": "auth_methods",
+        "historical_value": [
+          "oauth2",
+          "bearer_token"
+        ],
+        "current_value": [
+          "oauth2",
+          "api_key",
+          "personal_access_token"
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 89,
+        "field": "access_model",
+        "historical_value": "admin_approval",
+        "current_value": [
+          {
+            "gate": "credential_creation",
+            "surface": "primary",
+            "qualification": "A connection is required to use accounting API functionality; if a Universal CSV connection exists, it will be upgraded to an API based connection.",
+            "atom_id": "a6"
+          }
+        ],
+        "same": false,
+        "fresh_human_check": false
+      },
+      {
+        "id": 89,
+        "field": "api_available",
+        "historical_value": "yes",
+        "current_value": "yes",
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 84,
+        "field": "api_types",
+        "historical_value": [
+          "unknown"
+        ],
+        "current_value": [
+          "unknown"
+        ],
+        "same": true,
+        "fresh_human_check": false
+      },
+      {
+        "id": 84,
+        "field": "mcp_available",
+        "historical_value": "unknown",
+        "current_value": "unknown",
+        "same": true,
+        "fresh_human_check": false
+      }
+    ]
+  },
+  "tests": {
+    "passed": 136,
+    "total": 136,
+    "log": "continuation-tests-approved.log",
+    "rerun_after_quota_stop": false
+  },
+  "protected_state_before_followup": {
+    "history_files": 791,
+    "history_unchanged": true,
+    "tracked_files_compared": 229,
+    "tracked_differences": [],
+    "canonical_branch": "main",
+    "canonical_head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "canonical_status": "",
+    "branch": "correction/research-coverage",
+    "head": "83bd643b087da28d2e1ed1439e381b3a8a9bca7f",
+    "working_tree": "?? ATOMIC-PILOT-HANDOFF.md\n?? BODY-PILOT-HANDOFF.md\n?? CORRECTION-AUDIT-HANDOFF.md\n?? CORRECTION-INTEGRITY-AUDIT.json\n?? PATH-PILOT-HANDOFF.md\n?? STRICT-PILOT-HANDOFF.md\n?? SURFACE-PILOT-HANDOFF.md\n?? agent/atomic_contracts.py\n?? agent/atomic_pilot_preflight.py\n?? agent/atomic_pilot_primary.py\n?? agent/atomic_pilot_recover.py\n?? agent/body_handoff.py\n?? agent/body_pilot.py\n?? agent/body_pilot_seal.py\n?? agent/body_primary_decisions.py\n?? agent/body_review_pack.py\n?? agent/coverage_correction.py\n?? agent/path_audit.py\n?? agent/path_contracts.py\n?? agent/path_handoff.py\n?? agent/path_pilot.py\n?? agent/production_diagnostic.py\n?? agent/production_qa.py\n?? agent/production_research.py\n?? agent/strict_pilot_audit.py\n?? agent/strict_pilot_finalize.py\n?? agent/strict_pilot_handoff.py\n?? agent/surface_pilot_finalize.py\n?? agent/surface_validation.py\n?? atomic-pilot-context-audit.log\n?? atomic-pilot-recovery.log\n?? atomic-pilot-run.log\n?? atomic-tests-before.log\n?? atomic-tests-final.log\n?? body-pilot-run.log\n?? body-pilot-seal.log\n?? body-pilot-v2-run.log\n?? body-pilot-v3-run.log\n?? body-tests-approved.log\n?? body-tests-before.log\n?? body-tests-final.log\n?? continuation-full100-retry.log\n?? continuation-full100.log\n?? continuation-tests-approved.log\n?? continuation-tests.log\n?? continue_full100.py\n?? data/correction/\n?? path-pilot-run.log\n?? path-pilot-seal.log\n?? path-tests-approved.log\n?? path-tests-before.log\n?? path-tests-final.log\n?? path-tests-postpilot.log\n?? production-full100-capture-only.log\n?? production-full100-live.log\n?? production-full100-qa.log\n?? production-full100-resume.log\n?? production-full100-resume6.log\n?? production-full100-run.log\n?? production-qa-prepare.log\n?? production-tests-approved.log\n?? production-tests-before.log\n?? production-tests-current.log\n?? production-tests-final.log\n?? production-tests-targeted-final.log\n?? production-tests-targeted.log\n?? retry_full100.py\n?? surface-pilot-context-audit.log\n?? surface-pilot-run.log\n?? surface-tests-before.log\n?? surface-tests-final.log\n?? tests/fixtures/\n?? tests/test_atomic_contracts.py\n?? tests/test_body_pilot.py\n?? tests/test_coverage_correction.py\n?? tests/test_path_pilot.py\n?? tests/test_production_research.py\n?? tests/test_surface_validation.py\n",
+    "tracked_diff": "",
+    "accepted_sha256": "ea6c6914eb61e597ab8f428bd50abd7e1d5b5ca649bdeaef859bc6bd2dfab9c6",
+    "accepted_bytes": 81369
+  },
+  "ready_for_fresh_independent_sample": false,
+  "reason": "Semantic stages remain incomplete and final automated QA has not run. API quota exhausted again.",
+  "remaining_stage_failures": [
+    {
+      "id": 36,
+      "app": "Klaviyo",
+      "failure": null,
+      "field_audit_failure": "ValueError: Missing or duplicate field review"
+    },
+    {
+      "id": 41,
+      "app": "Shopify",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 44,
+      "app": "Salesforce Commerce Cloud",
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+      "field_audit_failure": null
+    },
+    {
+      "id": 48,
+      "app": "Gumroad",
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+      "field_audit_failure": null
+    },
+    {
+      "id": 60,
+      "app": "Clay",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "failure": null,
+      "field_audit_failure": "ValueError: Missing or duplicate field review"
+    },
+    {
+      "id": 68,
+      "app": "MongoDB Atlas",
+      "failure": null,
+      "field_audit_failure": "ValueError: Missing or duplicate field review"
+    },
+    {
+      "id": 73,
+      "app": "Linear",
+      "failure": null,
+      "field_audit_failure": "ValueError: Missing or duplicate field review"
+    },
+    {
+      "id": 76,
+      "app": "Monday.com",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 81,
+      "app": "Stripe",
+      "failure": "HTTPError: HTTP Error 429: Too Many Requests",
+      "field_audit_failure": null
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "failure": "ValueError: Docs inaccessible or source unreadable: no selectable body evidence",
+      "field_audit_failure": null
+    },
+    {
+      "id": 99,
+      "app": "YouTube Transcript",
+      "failure": null,
+      "field_audit_failure": "ValueError: Missing or duplicate field review"
+    }
+  ],
+  "exact_next_action": "Add credits to the same existing API organization/project. Perform one minimal availability check, then resume the 18 pending root-app stages with existing discovery/retrieval/call checkpoints. Use the same production parser assignment (body_pilot.parse = path_pilot.parse) as production_research.main. Do not rerun retry preparation, overwrite the parent run, or reuse a cached invalid field response. After semantic completion run production_qa, full tests and protected-state integrity. No human verification or publishing yet.",
+  "prohibited_actions_performed": false
+}
