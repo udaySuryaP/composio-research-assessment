@@ -9,7 +9,7 @@ from collections import Counter
 ROOT = Path(__file__).resolve().parents[1]
 ART = ROOT / 'submission/composio-assessment-uday.html'
 MANIFEST = ROOT / 'submission/release.json'
-INPUT = ROOT / 'data/correction/submission-fixes-20260918/final-corrected-dataset.json'
+INPUT = ROOT / 'data/correction/targeted-human-verification-20260918/final-corrected-dataset.json'
 
 def check():
     data = ART.read_bytes()
@@ -26,7 +26,8 @@ def check():
     assert payload['input_sha256'] == hashlib.sha256(INPUT.read_bytes()).hexdigest()
     source = json.loads(INPUT.read_text(encoding='utf-8-sig'))
     assert Counter(s['status'] for r in source for s in r['field_status'].values()) == release['status_counts']
-    assert [len(payload['patterns']['candidate_groups'][k]) for k in ['likely_buildable_from_public_docs','buildable_with_documented_constraints','gated_or_outreach_required','needs_further_investigation','unresolved']] == [1,65,11,6,17]
+    assert {k:len(v) for k,v in payload['patterns']['candidate_groups'].items()} == release['readiness_counts']
+    assert payload['verification']['targeted_human_review']['apps_reviewed'] == 13
     def strings(v):
         if isinstance(v, str): yield v
         elif isinstance(v, dict):

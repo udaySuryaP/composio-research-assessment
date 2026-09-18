@@ -1,3 +1,5 @@
+Current release: completed 13-app targeted human documentation review; see RELEASE.md and `data/correction/targeted-human-verification-20260918/verification-summary.json`. Earlier checkpoint results below retain their historical meaning.
+
 # Reviewer notes
 
 The current assessment is described in README.md and RELEASE.md.

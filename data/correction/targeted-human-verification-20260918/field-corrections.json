@@ -1,0 +1,3905 @@
+[
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "Linear centrally hosted MCP Server; Streamable HTTP with OAuth or direct bearer/key options.; resource API authentication and MCP authentication are separate surfaces.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "d1:b72"
+      ]
+    },
+    "after": {
+      "findings": "Official Linear-hosted remote MCP at https://mcp.linear.app/mcp; OAuth 2.1, bearer token or API key; workspace scopes and policy apply.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:73:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 73,
+        "app": "Linear",
+        "field": "mcp_notes",
+        "passage_id": "human:73:mcp_notes",
+        "snippet": "MCP server\r\n\nAbstract image of a drive with Linear's logo and the words \"Remote MCP server\"\r\n\nThe Model Context Protocol (MCP) server provides a standardized interface that allows any compat",
+        "url": "https://linear.app/docs/mcp",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "b2be71eceafd09b30720fed36fd9c1d11da2e274eecfba68015656a4f79a6e19",
+        "source_capture": "data/correction/targeted-human-verification-20260918/073-manual-source.json",
+        "source_capture_sha256": "42d48e251da48a3afd5c5411646b636653657b6e8a9cad3fa17f439ffd4c44fb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "Official hosted LeadConnector MCP uses OAuth. Operations depend on granted scopes and selected sub-accounts; agency-wide multi-account rollout is conditional. API auth is a separate surface.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Official hosted MCP; OAuth consent, approved scopes and selected sub-account boundaries apply. Agency-wide access is rolling out; not executed or certified for every operation."
+        ],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:134:mcp_notes"
+      ]
+    },
+    "after": {
+      "findings": "Official LeadConnector MCP with OAuth, sub-account boundaries and approved scopes; documentation describes 550+ operations across 38 domains. Public marketplace approval applies to distribution.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:34:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 34,
+        "app": "GoHighLevel",
+        "field": "mcp_notes",
+        "passage_id": "human:34:mcp_notes",
+        "snippet": "LeadConnector MCP Server\n\nThe LeadConnector MCP (Model Context Protocol) server securely connects MCP-compatible AI assistants to your CRM. Based on the scopes you approve, assistants can find records and",
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "2799e88d870ec91e957d36a0665ed888c89f77843f2934b0f467d34456a5b92c",
+        "source_capture": "data/correction/targeted-human-verification-20260918/034-manual-source.json",
+        "source_capture_sha256": "4f1203e3dda79e55f244fa29cefdb8d1dd3b3e8149adbe01438f7b9129d4fa54",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "field": "api_breadth",
+    "before": {
+      "findings": "Inspected documented actions: The Errors endpoint allows reading the list of possible API errors and status codes.; The API supports creating tasks for data retrieval, with limits on the number of tasks per request.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Inspected resource/action groups, not endpoint census",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d3:b798",
+        "d3:b951",
+        "d3:b954",
+        "d3:b950",
+        "d3:b952",
+        "d3:b953",
+        "d3:b956",
+        "d4:b815"
+      ]
+    },
+    "after": {
+      "findings": "Documented SERP and AI/LLM Mentions APIs; task workflows, live retrieval and free sandbox. Breadth is domain-specific, not an exhaustive inventory.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:51:api_breadth"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 51,
+        "app": "DataForSEO",
+        "field": "api_breadth",
+        "passage_id": "human:51:api_breadth",
+        "snippet": "SERP API encompasses a broad range of endpoints. You can get the full list [here](https://docs.dataforseo.com/v3/serp/endpoints/).\n\nAll major search engines are supported: [Google](htt",
+        "url": "https://docs.dataforseo.com/v3/serp/overview/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "919cddd66fceb3c981c9c8a87751cecd1a63eda4c0b90d3edf25f79acf0dbe09",
+        "source_capture": "data/correction/targeted-human-verification-20260918/051-manual-source.json",
+        "source_capture_sha256": "3dd13e3a1f885a71419efc6b0049aaa3f2e0fdcf58223fb3fbb4c81004df00e6",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "field": "buildability",
+    "before": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": true
+      },
+      "field_refs": [
+        "d1:b804",
+        "d4:b799",
+        "d3:b798",
+        "d3:b951",
+        "d3:b954",
+        "d3:b950",
+        "d3:b952",
+        "d3:b953",
+        "d3:b956",
+        "d4:b815",
+        "d0:b800",
+        "d0:b801",
+        "d0:b802",
+        "d0:b803",
+        "d0:b804",
+        "d0:b806",
+        "d2:b800",
+        "d2:b801",
+        "d2:b802",
+        "d2:b803",
+        "d2:b804",
+        "d2:b806"
+      ]
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:51:buildability"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 51,
+        "app": "DataForSEO",
+        "field": "buildability",
+        "passage_id": "human:51:buildability",
+        "snippet": "Sandbox.](https://docs.dataforseo.com/v3/appendix/sandbox/)\n\n\n\nSERP API encompasses a broad range of endpoints. You can get the full list [here](https://docs.dataforseo.com/v3/serp/endpoi",
+        "url": "https://docs.dataforseo.com/v3/appendix/sandbox/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "919cddd66fceb3c981c9c8a87751cecd1a63eda4c0b90d3edf25f79acf0dbe09",
+        "source_capture": "data/correction/targeted-human-verification-20260918/051-manual-source.json",
+        "source_capture_sha256": "3dd13e3a1f885a71419efc6b0049aaa3f2e0fdcf58223fb3fbb4c81004df00e6",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": true
+      },
+      "field_refs": [
+        "d1:b804",
+        "d4:b799",
+        "d3:b798",
+        "d3:b951",
+        "d3:b954",
+        "d3:b950",
+        "d3:b952",
+        "d3:b953",
+        "d3:b956",
+        "d4:b815",
+        "d0:b800",
+        "d0:b801",
+        "d0:b802",
+        "d0:b803",
+        "d0:b804",
+        "d0:b806",
+        "d2:b800",
+        "d2:b801",
+        "d2:b802",
+        "d2:b803",
+        "d2:b804",
+        "d2:b806"
+      ]
+    },
+    "after": {
+      "findings": "Self-serve API login/password and free sandbox support a scoped prototype.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:51:buildability_rationale"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 51,
+        "app": "DataForSEO",
+        "field": "buildability_rationale",
+        "passage_id": "human:51:buildability_rationale",
+        "snippet": "Sandbox.](https://docs.dataforseo.com/v3/appendix/sandbox/)\n\n\n\nSERP API encompasses a broad range of endpoints. You can get the full list [here](https://docs.dataforseo.com/v3/serp/endpoi",
+        "url": "https://docs.dataforseo.com/v3/appendix/sandbox/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "919cddd66fceb3c981c9c8a87751cecd1a63eda4c0b90d3edf25f79acf0dbe09",
+        "source_capture": "data/correction/targeted-human-verification-20260918/051-manual-source.json",
+        "source_capture_sha256": "3dd13e3a1f885a71419efc6b0049aaa3f2e0fdcf58223fb3fbb4c81004df00e6",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Documentation supports a resource API, resource credentials and onboarding; integration has not been executed. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 5
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Usage charges, task inputs and rate limits.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:51:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 51,
+        "app": "DataForSEO",
+        "field": "primary_blocker",
+        "passage_id": "human:51:primary_blocker",
+        "snippet": "Sandbox.](https://docs.dataforseo.com/v3/appendix/sandbox/)\n\n\n\nSERP API encompasses a broad range of endpoints. You can get the full list [here](https://docs.dataforseo.com/v3/serp/endpoi",
+        "url": "https://docs.dataforseo.com/v3/appendix/sandbox/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "919cddd66fceb3c981c9c8a87751cecd1a63eda4c0b90d3edf25f79acf0dbe09",
+        "source_capture": "data/correction/targeted-human-verification-20260918/051-manual-source.json",
+        "source_capture_sha256": "3dd13e3a1f885a71419efc6b0049aaa3f2e0fdcf58223fb3fbb4c81004df00e6",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "access_model",
+    "before": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Create app credentials; OAuth for multi-account apps or static bearer auth for a single account. Requested resource scopes and account-tier entitlement apply; UI approval/payment-export permissions are not generic API onboarding gates.",
+          "atom_id": "verification-2-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Create app credentials; OAuth for multi-account apps or static bearer auth for a single account. Requested resource scopes and account-tier entitlement apply; UI approval/payment-export permissions are not generic API onboarding gates.",
+        "caveats": [
+          "Named documented surface only; no integration executed, exhaustive methods/endpoints or alternative route applicability certified."
+        ],
+        "derivation": false,
+        "review_layer": "fresh_independent_verification",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "verification:turn7view4",
+        "verification:turn6view4"
+      ]
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "OAuth setup is available with Free-tier products; scopes are endpoint-specific."
+        },
+        {
+          "gate": "paid_plan",
+          "surface": "primary",
+          "qualification": "Some batch subscription endpoints require Marketing Hub Enterprise; Brands behavior requires the relevant add-on."
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:2:access_model"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 2,
+        "app": "HubSpot",
+        "field": "access_model",
+        "passage_id": "human:2:access_model",
+        "snippet": "Marketing Hub Enterprise subscription to authorize these scopes for your app.\nsubscription-status-batch-read: provides access to fetch subscription statuses in bulk.\nsubscription-status-batch-write: provi",
+        "url": "https://developers.hubspot.com/docs/api-reference/communication-preferences-subscriptions-v4/guide",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "c5560104c9b9282398e0ecc5f18bae442d03e9f07c2d96a65dd1778d777a202d",
+        "source_capture": "data/correction/targeted-human-verification-20260918/002-manual-source.json",
+        "source_capture_sha256": "9389352460361a3ea31d69261f3a622e5ec9d686473a8a49c93ae3f3ca870f8e",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "Required API scopes and account-tier entitlement; multi-account apps need OAuth, while static bearer auth is limited to one account.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Resource and distribution specific; UI content approvals and payment-export permissions are not generic API onboarding gates."
+        ],
+        "derivation": true,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:102:primary_blocker",
+        "submission:202:primary_blocker"
+      ]
+    },
+    "after": {
+      "findings": "Endpoint-specific scopes, account/product entitlement and distribution/auth model; Free-tier OAuth does not unlock every API.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:2:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 2,
+        "app": "HubSpot",
+        "field": "primary_blocker",
+        "passage_id": "human:2:primary_blocker",
+        "snippet": "Marketing Hub Enterprise subscription to authorize these scopes for your app.\nsubscription-status-batch-read: provides access to fetch subscription statuses in bulk.\nsubscription-status-batch-write: provi",
+        "url": "https://developers.hubspot.com/docs/api-reference/communication-preferences-subscriptions-v4/guide",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "c5560104c9b9282398e0ecc5f18bae442d03e9f07c2d96a65dd1778d777a202d",
+        "source_capture": "data/correction/targeted-human-verification-20260918/002-manual-source.json",
+        "source_capture_sha256": "9389352460361a3ea31d69261f3a622e5ec9d686473a8a49c93ae3f3ca870f8e",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "oauth2"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "REST resource clients use OAuth2 through external client apps or existing connected apps; new connected-app creation is restricted from Spring 26.",
+        "caveats": [
+          "Named documented surface only; no integration executed, exhaustive methods/endpoints or alternative route applicability certified."
+        ],
+        "derivation": false,
+        "review_layer": "fresh_independent_verification",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "verification:turn9view0",
+        "verification:turn12view0",
+        "verification:turn12view1",
+        "verification:turn12view0",
+        "verification:turn12view1"
+      ]
+    },
+    "after": {
+      "findings": [
+        "oauth2",
+        "bearer_token"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:auth_methods"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "auth_methods",
+        "passage_id": "human:1:auth_methods",
+        "snippet": "client_id` is the `Consumer Key`\n   - `client_secret` is the `Consumer Secret`\n   - `redirect_uri` is the `Callback URL`.\r\n     An additional value you must specify is: the `grant_type`. Fo",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart_oauth.htm",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "api_breadth",
+    "before": {
+      "findings": "REST resources include records, collections, query results, metadata and API information; documented resource operations access, create and manipulate data.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Generic platform blog does not establish the stated business-logic/workflow/AI-agent resource breadth. REST guide establishes records, queries, collections and metadata.",
+        "caveats": [
+          "Named documented surface only; no integration executed, exhaustive methods/endpoints or alternative route applicability certified."
+        ],
+        "derivation": false,
+        "review_layer": "fresh_independent_verification",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "verification:turn9view0"
+      ]
+    },
+    "after": {
+      "findings": "REST record/query/metadata APIs plus documented Agentforce and Hosted MCP tools; capabilities remain product- and permission-specific.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:api_breadth"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "api_breadth",
+        "passage_id": "human:1:api_breadth",
+        "snippet": "Get Started with Agentforce and AI Agents\n\nAgentforce is the agent-driven layer of the Salesforce Platform, and it helps you deploy AI agents that work side-by-side with your employees to extend your workfor",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a2",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:mcp_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "mcp_available",
+        "passage_id": "human:1:mcp_available",
+        "snippet": "Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open [Model Context Protocol (MCP)](https:/",
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a0",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Salesforce Hosted MCP Servers"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:mcp_provider"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "mcp_provider",
+        "passage_id": "human:1:mcp_provider",
+        "snippet": "Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open [Model Context Protocol (MCP)](https:/",
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a1",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "Salesforce Hosted MCP Servers"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:mcp_ownership"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "mcp_ownership",
+        "passage_id": "human:1:mcp_ownership",
+        "snippet": "Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open [Model Context Protocol (MCP)](https:/",
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a0",
+            "reason": "Explicit MCP evidence absent"
+          },
+          {
+            "atom_id": "a1",
+            "reason": "Explicit MCP evidence absent"
+          },
+          {
+            "atom_id": "a2",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Official Hosted MCP; per-user OAuth 2.0 with PKCE; field-level security, sharing and user permissions apply. Flex Credits/product enablement can apply.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "mcp_notes",
+        "passage_id": "human:1:mcp_notes",
+        "snippet": "Hosted MCP Servers\n\nSalesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open [Model Context Protocol (MCP)](https:/",
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "buildability",
+    "before": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification.",
+        "caveats": [
+          "Named documented surface only; no integration executed, exhaustive methods/endpoints or alternative route applicability certified."
+        ],
+        "derivation": true,
+        "review_layer": "fresh_independent_verification",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "verification:turn9view0",
+        "verification:turn12view0",
+        "verification:turn12view1",
+        "verification:turn12view0",
+        "verification:turn12view1"
+      ]
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:buildability"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "buildability",
+        "passage_id": "human:1:buildability",
+        "snippet": "OAuth 2.0\n\nSetting up OAuth 2.0 requires some configuration in the user interface and in other locations. If any of the steps are unfamiliar, you can consult the [REST API Developer Gui",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart_oauth.htm",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "REST resources, OAuth and API-enabled org/user onboarding documented. Edition/permission and Spring 26 connected-app restrictions apply; no execution certification.",
+        "caveats": [
+          "Named documented surface only; no integration executed, exhaustive methods/endpoints or alternative route applicability certified."
+        ],
+        "derivation": true,
+        "review_layer": "fresh_independent_verification",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "verification:turn9view0",
+        "verification:turn12view0",
+        "verification:turn12view1",
+        "verification:turn12view0",
+        "verification:turn12view1"
+      ]
+    },
+    "after": {
+      "findings": "OAuth and REST are documented; actual API/MCP usage depends on org configuration, permissions and product entitlement.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:buildability_rationale"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "buildability_rationale",
+        "passage_id": "human:1:buildability_rationale",
+        "snippet": "OAuth 2.0\n\nSetting up OAuth 2.0 requires some configuration in the user interface and in other locations. If any of the steps are unfamiliar, you can consult the [REST API Developer Gui",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart_oauth.htm",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Core resource evidence retained, but credential onboarding or coherent auth/API support is incomplete. No absence-of-blockers claim.",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 23,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Org/admin configuration, API permissions and enabled product/feature entitlement; no universal edition-access claim.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:1:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 1,
+        "app": "Salesforce",
+        "field": "primary_blocker",
+        "passage_id": "human:1:primary_blocker",
+        "snippet": "OAuth 2.0\n\nSetting up OAuth 2.0 requires some configuration in the user interface and in other locations. If any of the steps are unfamiliar, you can consult the [REST API Developer Gui",
+        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart_oauth.htm",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "1d7958eb12e2464adc35e9ed3015cd0b6272ca3281410099effcca7b7f49513e",
+        "source_capture": "data/correction/targeted-human-verification-20260918/001-manual-source.json",
+        "source_capture_sha256": "11f15f4c5b90ace37fffe4299d53e67b3832da0dfe5f5662a0ef3dfb365bc4a0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "access_model",
+    "before": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Register developer/application and obtain relevant selling-partner authorization. Restricted data may need RDT. Public app distribution/listing policy is route-specific and inconsistent across currently indexed official guidance; verify applicable policy before distribution.",
+          "atom_id": "verification-49-access"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Register developer/application and obtain relevant selling-partner authorization. Restricted data may need RDT. Public app distribution/listing policy is route-specific and inconsistent across currently indexed official guidance; verify applicable policy before distribution.",
+        "caveats": [
+          "Named documented surface only; no integration executed, exhaustive methods/endpoints or alternative route applicability certified."
+        ],
+        "derivation": false,
+        "review_layer": "fresh_independent_verification",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "verification:turn4view1",
+        "verification:turn7view7"
+      ]
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "private_app",
+          "qualification": "Private applications have a self-authorization route for one organization."
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "Public apps use selling-partner authorization via LWA OAuth; API roles and restricted-data tokens vary by operation."
+        },
+        {
+          "gate": "public_app_review",
+          "surface": "public_app",
+          "qualification": "Public distribution and Appstore policy are separate from private self-authorization; do not generalize marketplace approval to all access."
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:49:access_model"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 49,
+        "app": "Amazon Selling Partner",
+        "field": "access_model",
+        "passage_id": "human:49:access_model",
+        "snippet": "Self-authorization.\n- **Who authorizes the application:** You.\n- **Initial authorization flow:** You perform a [self-authorization](https://developer-docs.amazon.com/sp-api/docs/self-authorization) ",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "44f3f96dd8ecca6f5a0c634e7767eccaaa3b4ada3643e099ad19e1a433996c5b",
+        "source_capture": "data/correction/targeted-human-verification-20260918/049-manual-source.json",
+        "source_capture_sha256": "297a940cb280fe28baca3d43b053a6144bc54eec7cdaf7ad121f0c2b23d00030",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "Developer/application registration and selling-partner authorization; restricted operations require RDTs.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "target:d1:b575",
+        "target:d0:b586",
+        "target:d0:b584"
+      ]
+    },
+    "after": {
+      "findings": "Authorization route, developer/seller registration, API roles and restricted-data handling; public/private distribution requirements differ.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:49:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 49,
+        "app": "Amazon Selling Partner",
+        "field": "primary_blocker",
+        "passage_id": "human:49:primary_blocker",
+        "snippet": "Self-authorization.\n- **Who authorizes the application:** You.\n- **Initial authorization flow:** You perform a [self-authorization](https://developer-docs.amazon.com/sp-api/docs/self-authorization) ",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "44f3f96dd8ecca6f5a0c634e7767eccaaa3b4ada3643e099ad19e1a433996c5b",
+        "source_capture": "data/correction/targeted-human-verification-20260918/049-manual-source.json",
+        "source_capture_sha256": "297a940cb280fe28baca3d43b053a6144bc54eec7cdaf7ad121f0c2b23d00030",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No explicit rendered official server/setup/ownership passage retained in this targeted review for this field; absence of a passage does not establish MCP absence.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 2
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:90:mcp_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 90,
+        "app": "PitchBook",
+        "field": "mcp_available",
+        "passage_id": "human:90:mcp_available",
+        "snippet": "Premium Connector solves this by integrating PitchBook data directly into the AI platforms you already use. With secure access, you can query private market insights without disrupting workflow. In",
+        "url": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "6299f53511b25796683e668d6230cde0a52658026a0380603e21645826978c22",
+        "source_capture": "data/correction/targeted-human-verification-20260918/090-manual-source.json",
+        "source_capture_sha256": "6d163c07c2454bc5be7d2deb97ae4e8037ede6caff385032ddb3881569b54e4f",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No explicit rendered official server/setup/ownership passage retained in this targeted review for this field; absence of a passage does not establish MCP absence.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 2
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "PitchBook Premium Connector"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:90:mcp_provider"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 90,
+        "app": "PitchBook",
+        "field": "mcp_provider",
+        "passage_id": "human:90:mcp_provider",
+        "snippet": "Premium Connector solves this by integrating PitchBook data directly into the AI platforms you already use. With secure access, you can query private market insights without disrupting workflow. In",
+        "url": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "6299f53511b25796683e668d6230cde0a52658026a0380603e21645826978c22",
+        "source_capture": "data/correction/targeted-human-verification-20260918/090-manual-source.json",
+        "source_capture_sha256": "6d163c07c2454bc5be7d2deb97ae4e8037ede6caff385032ddb3881569b54e4f",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No explicit rendered official server/setup/ownership passage retained in this targeted review for this field; absence of a passage does not establish MCP absence.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 2
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "PitchBook Premium Connector"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:90:mcp_ownership"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 90,
+        "app": "PitchBook",
+        "field": "mcp_ownership",
+        "passage_id": "human:90:mcp_ownership",
+        "snippet": "Premium Connector solves this by integrating PitchBook data directly into the AI platforms you already use. With secure access, you can query private market insights without disrupting workflow. In",
+        "url": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "6299f53511b25796683e668d6230cde0a52658026a0380603e21645826978c22",
+        "source_capture": "data/correction/targeted-human-verification-20260918/090-manual-source.json",
+        "source_capture_sha256": "6d163c07c2454bc5be7d2deb97ae4e8037ede6caff385032ddb3881569b54e4f",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No explicit rendered official server/setup/ownership passage retained in this targeted review for this field; absence of a passage does not establish MCP absence.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 2
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Official Premium Connector built on MCP; licensed users, SSO and approved AI platforms. Documentation states 150 calls/hour and 300/day.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:90:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 90,
+        "app": "PitchBook",
+        "field": "mcp_notes",
+        "passage_id": "human:90:mcp_notes",
+        "snippet": "Premium Connector solves this by integrating PitchBook data directly into the AI platforms you already use. With secure access, you can query private market insights without disrupting workflow. In",
+        "url": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "6299f53511b25796683e668d6230cde0a52658026a0380603e21645826978c22",
+        "source_capture": "data/correction/targeted-human-verification-20260918/090-manual-source.json",
+        "source_capture_sha256": "6d163c07c2454bc5be7d2deb97ae4e8037ede6caff385032ddb3881569b54e4f",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "Standalone API contract and Direct Data outreach.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted agent review of explicit assigned-product official body evidence; limited to the named surface.",
+        "caveats": [
+          "Documentation only; no integration executed, exhaustive endpoints or alternative-route prerequisites certified."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "browser:0:0",
+        "browser:0:4"
+      ]
+    },
+    "after": {
+      "findings": "Direct Data onboarding and API commercial entitlement; Premium Connector also requires an eligible license, SSO and approved-platform access.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:90:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 90,
+        "app": "PitchBook",
+        "field": "primary_blocker",
+        "passage_id": "human:90:primary_blocker",
+        "snippet": "Direct Data team [through this link.](https://pitchbook.com/products/direct-access-data?utm_source=google\\&utm_medium=cpc\\&utm_campaign=ROAST-Search-Brand-CentralEurope\\&adgroup=\\&utm_term=pi",
+        "url": "https://pitchbook.com/help/getting-started-with-pitchbook-premium-connector",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "6299f53511b25796683e668d6230cde0a52658026a0380603e21645826978c22",
+        "source_capture": "data/correction/targeted-human-verification-20260918/090-manual-source.json",
+        "source_capture_sha256": "6d163c07c2454bc5be7d2deb97ae4e8037ede6caff385032ddb3881569b54e4f",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "mcp_available",
+    "before": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Explicit server availability; ownership assessed separately",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d3:b41",
+        "d3:b49"
+      ]
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:mcp_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "mcp_available",
+        "passage_id": "human:88:mcp_available",
+        "snippet": "Brex MCP  The Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more t",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "mcp_provider",
+    "before": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Brex MCP server is hosted at https://api.brex.com/mcp and supports any MCP-compatible client.",
+          "atom_id": "a13"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Independent MCP evidence; server names preserved in atom notes",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d3:b49",
+        "d3:b71"
+      ]
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Brex MCP server"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:mcp_provider"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "mcp_provider",
+        "passage_id": "human:88:mcp_provider",
+        "snippet": "Brex MCP  The Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more t",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:ownership",
+          "note": "Brex MCP server is owned and provided by Brex.",
+          "atom_id": "a14"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Independent MCP evidence; server names preserved in atom notes",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d3:b41",
+        "d3:b49"
+      ]
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "Brex MCP server"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:mcp_ownership"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "mcp_ownership",
+        "passage_id": "human:88:mcp_ownership",
+        "snippet": "Brex MCP  The Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more t",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "mcp_notes",
+    "before": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Brex MCP server is hosted at https://api.brex.com/mcp and supports any MCP-compatible client.",
+          "atom_id": "a13"
+        },
+        {
+          "surface": "mcp_native",
+          "label": "mcp:ownership",
+          "note": "Brex MCP server is owned and provided by Brex.",
+          "atom_id": "a14"
+        },
+        {
+          "surface": "mcp_native",
+          "label": "mcp:availability",
+          "note": "Brex MCP server is available for all users with appropriate credentials and permissions.",
+          "atom_id": "a15"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Independent MCP evidence; server names preserved in atom notes",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d3:b49",
+        "d3:b71",
+        "d3:b41"
+      ]
+    },
+    "after": {
+      "findings": "Official https://api.brex.com/mcp; OAuth or API token. Developer API agreement and beta enablement required; existing user capabilities limit tools.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "mcp_notes",
+        "passage_id": "human:88:mcp_notes",
+        "snippet": "Brex MCP  The Brex MCP server lets AI assistants interact directly with your Brex account: manage expenses, look up users, check cards, review banking transactions, track bills, and more t",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "access_model",
+    "before": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "personal_integration",
+          "qualification": "User tokens can be self-generated from Brex dashboard under Settings → Developer.",
+          "atom_id": "a6"
+        },
+        {
+          "gate": "public_app_review",
+          "surface": "public_app",
+          "qualification": "Partner authentication requires OAuth Authorization Code Grant with web-based redirection flow and proper roles; client ID and secret issued by Brex developer support.",
+          "atom_id": "a21"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Only explicitly documented access dimensions; unspecified pricing/access remains unknown",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d1:b50",
+        "d1:b52",
+        "d4:b50",
+        "d4:b52",
+        "d5:b45",
+        "d5:b47",
+        "d6:b68",
+        "d6:b71"
+      ]
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Some API credentials are self-serve/admin-provisioned."
+        },
+        {
+          "gate": "sales_contact",
+          "surface": "accounting_alpha",
+          "qualification": "Accounting API Alpha requires developer-support outreach/approval."
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "mcp_native",
+          "qualification": "Accept Developer API agreement and enable MCP beta; existing account capabilities apply."
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:access_model"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "access_model",
+        "passage_id": "human:88:access_model",
+        "snippet": "Alpha. To access the Accounting Alpha API, please email developer-support\\@brex.com to express your interest. Please note that participation is determined by Brex based on program needs",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "buildability",
+    "before": {
+      "findings": "gated_or_outreach_required",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "An evidenced route requires approval/review/outreach; applicability is limited to its named surface.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": true
+      },
+      "field_refs": [
+        "d6:b68",
+        "d6:b71"
+      ]
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:buildability"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "buildability",
+        "passage_id": "human:88:buildability",
+        "snippet": "Beta The MCP server's tools may change as we continue developing new use cases and features.  ## Prerequisites  1. \\*\\*Accept the Developer API agreement.\\*\\* An account admin or card ",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "An evidenced route requires approval/review/outreach; applicability is limited to its named surface.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "An evidenced route requires approval/review/outreach; applicability is limited to its named surface.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": true
+      },
+      "field_refs": [
+        "d6:b68",
+        "d6:b71"
+      ]
+    },
+    "after": {
+      "findings": "Documented account API routes support prototypes; Accounting Alpha/partner and MCP beta gates are surface-specific.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:buildability_rationale"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "buildability_rationale",
+        "passage_id": "human:88:buildability_rationale",
+        "snippet": "Beta The MCP server's tools may change as we continue developing new use cases and features.  ## Prerequisites  1. \\*\\*Accept the Developer API agreement.\\*\\* An account admin or card ",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "access:public_app_review: Partner authentication requires OAuth Authorization Code Grant with web-based redirection flow and proper roles; client ID and secret issued by Brex developer support. [public_app]",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documented constraint; not a claim that all blockers are known",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d6:b68",
+        "d6:b71"
+      ]
+    },
+    "after": {
+      "findings": "Admin provisioning, account capabilities, MCP beta agreement/enablement and product-specific approval.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:88:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "primary_blocker",
+        "passage_id": "human:88:primary_blocker",
+        "snippet": "Beta The MCP server's tools may change as we continue developing new use cases and features.  ## Prerequisites  1. \\*\\*Accept the Developer API agreement.\\*\\* An account admin or card ",
+        "url": "https://developer.brex.com/docs/mcp/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "963fd5d4f3630d3364f16858ddd82f5a6fa7633c0b5dc7b7a4bf7b28f6eb1db8",
+        "source_capture": "data/correction/targeted-human-verification-20260918/088-manual-source.json",
+        "source_capture_sha256": "7839ce710d4df85bbad3f4ccb6b52159436d74d7ddc357696deff21a294ff3cb",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "field": "access_model",
+    "before": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "API keys (api_id and api_token) can be generated self-service by Aircall customers from their Company Settings page under API Keys section.",
+          "atom_id": "a2"
+        },
+        {
+          "gate": "partner_approval",
+          "surface": "primary",
+          "qualification": "Partner approval is required to obtain OAuth credentials and publish apps in the Aircall marketplace.",
+          "atom_id": "a16"
+        },
+        {
+          "gate": "public_app_review",
+          "surface": "primary",
+          "qualification": "Public apps undergo review before being listed in the Aircall App Marketplace.",
+          "atom_id": "a17"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Only explicitly documented access dimensions; unspecified pricing/access remains unknown",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d0:b433",
+        "d6:b433",
+        "d4:b85",
+        "d4:b93",
+        "d4:b94",
+        "d4:b95",
+        "d4:b96",
+        "d5:b18",
+        "d5:b19",
+        "d5:b21",
+        "d9:b83",
+        "d9:b93",
+        "d9:b99"
+      ]
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "private_app",
+          "qualification": "Existing customers can create own-account API credentials and use Basic Auth."
+        },
+        {
+          "gate": "partner_approval",
+          "surface": "public_app",
+          "qualification": "Aircall issues OAuth client credentials after application/review for multi-company integrations."
+        },
+        {
+          "gate": "admin_permission",
+          "surface": "primary",
+          "qualification": "An Admin installs/authorizes company-level integrations."
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:29:access_model"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 29,
+        "app": "Aircall",
+        "field": "access_model",
+        "passage_id": "human:29:access_model",
+        "snippet": "OAuth or Basic Auth.\n\nIf you want to build an App for companies using Aircall - this is mainly the case for Technology Partners - please use the OAuth flow. It is a requirement to be li",
+        "url": "https://developers.aircall.io/api-references",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "62b7bdaf91098c6bdacb9256d1e7dafc072a985c98c37cc41a8b71165915620b",
+        "source_capture": "data/correction/targeted-human-verification-20260918/029-manual-source.json",
+        "source_capture_sha256": "0c86d53471f47e0212713aa9f46b61c0c6f33d18d9b104d935544752193ea4c0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "field": "buildability",
+    "before": {
+      "findings": "gated_or_outreach_required",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "An evidenced route requires approval/review/outreach; applicability is limited to its named surface.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": true
+      },
+      "field_refs": [
+        "d9:b83",
+        "d9:b93",
+        "d9:b99"
+      ]
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:29:buildability"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 29,
+        "app": "Aircall",
+        "field": "buildability",
+        "passage_id": "human:29:buildability",
+        "snippet": "Basic Auth.\n\nIf you want to build an App for companies using Aircall - this is mainly the case for Technology Partners - please use the OAuth flow. It is a requirement to be listed on t",
+        "url": "https://developers.aircall.io/api-references",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "62b7bdaf91098c6bdacb9256d1e7dafc072a985c98c37cc41a8b71165915620b",
+        "source_capture": "data/correction/targeted-human-verification-20260918/029-manual-source.json",
+        "source_capture_sha256": "0c86d53471f47e0212713aa9f46b61c0c6f33d18d9b104d935544752193ea4c0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "An evidenced route requires approval/review/outreach; applicability is limited to its named surface.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "An evidenced route requires approval/review/outreach; applicability is limited to its named surface.",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": true
+      },
+      "field_refs": [
+        "d9:b83",
+        "d9:b93",
+        "d9:b99"
+      ]
+    },
+    "after": {
+      "findings": "REST and webhooks support own-account integration; public multi-company OAuth adds partner onboarding.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:29:buildability_rationale"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 29,
+        "app": "Aircall",
+        "field": "buildability_rationale",
+        "passage_id": "human:29:buildability_rationale",
+        "snippet": "Basic Auth.\n\nIf you want to build an App for companies using Aircall - this is mainly the case for Technology Partners - please use the OAuth flow. It is a requirement to be listed on t",
+        "url": "https://developers.aircall.io/api-references",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "62b7bdaf91098c6bdacb9256d1e7dafc072a985c98c37cc41a8b71165915620b",
+        "source_capture": "data/correction/targeted-human-verification-20260918/029-manual-source.json",
+        "source_capture_sha256": "0c86d53471f47e0212713aa9f46b61c0c6f33d18d9b104d935544752193ea4c0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "access:partner_approval: Partner approval is required to obtain OAuth credentials and publish apps in the Aircall marketplace. [primary]; access:public_app_review: Public apps undergo review before being listed in the Aircall App Marketplace. [primary]",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documented constraint; not a claim that all blockers are known",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d9:b83",
+        "d9:b93",
+        "d9:b99"
+      ]
+    },
+    "after": {
+      "findings": "Customer API credentials and admin authorization; public OAuth requires Aircall-issued credentials/review.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:29:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 29,
+        "app": "Aircall",
+        "field": "primary_blocker",
+        "passage_id": "human:29:primary_blocker",
+        "snippet": "Basic Auth.\n\nIf you want to build an App for companies using Aircall - this is mainly the case for Technology Partners - please use the OAuth flow. It is a requirement to be listed on t",
+        "url": "https://developers.aircall.io/api-references",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "62b7bdaf91098c6bdacb9256d1e7dafc072a985c98c37cc41a8b71165915620b",
+        "source_capture": "data/correction/targeted-human-verification-20260918/029-manual-source.json",
+        "source_capture_sha256": "0c86d53471f47e0212713aa9f46b61c0c6f33d18d9b104d935544752193ea4c0",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for mcp_available",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:53:mcp_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 53,
+        "app": "Ahrefs",
+        "field": "mcp_available",
+        "passage_id": "human:53:mcp_available",
+        "snippet": "MCP\n\n**Ahrefs MCP** lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data. MCP (Model Context Protocol) is a standard that allows AI tools to co",
+        "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "b310d4501ac72804d099320653807fbab2c903c7cb2eaa078059f62f7a50e9f5",
+        "source_capture": "data/correction/targeted-human-verification-20260918/053-manual-source.json",
+        "source_capture_sha256": "4f2afd9a5b7583b0aab685327918d01066c5762fa8ad0b3b6c90d72cbbdd66dc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a19",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "Ahrefs hosted MCP server"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:53:mcp_provider"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 53,
+        "app": "Ahrefs",
+        "field": "mcp_provider",
+        "passage_id": "human:53:mcp_provider",
+        "snippet": "MCP\n\n**Ahrefs MCP** lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data. MCP (Model Context Protocol) is a standard that allows AI tools to co",
+        "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "b310d4501ac72804d099320653807fbab2c903c7cb2eaa078059f62f7a50e9f5",
+        "source_capture": "data/correction/targeted-human-verification-20260918/053-manual-source.json",
+        "source_capture_sha256": "4f2afd9a5b7583b0aab685327918d01066c5762fa8ad0b3b6c90d72cbbdd66dc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a20",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "Ahrefs hosted MCP server"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:53:mcp_ownership"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 53,
+        "app": "Ahrefs",
+        "field": "mcp_ownership",
+        "passage_id": "human:53:mcp_ownership",
+        "snippet": "MCP\n\n**Ahrefs MCP** lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data. MCP (Model Context Protocol) is a standard that allows AI tools to co",
+        "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "b310d4501ac72804d099320653807fbab2c903c7cb2eaa078059f62f7a50e9f5",
+        "source_capture": "data/correction/targeted-human-verification-20260918/053-manual-source.json",
+        "source_capture_sha256": "4f2afd9a5b7583b0aab685327918d01066c5762fa8ad0b3b6c90d72cbbdd66dc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Evidence insufficient: Explicit MCP evidence absent",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a19",
+            "reason": "Explicit MCP evidence absent"
+          },
+          {
+            "atom_id": "a20",
+            "reason": "Explicit MCP evidence absent"
+          }
+        ],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Official https://api.ahrefs.com/mcp/mcp; eligible paid plans/API units and account auth apply. Custom scripts, bridges and standalone JSON-RPC are unsupported; use public API for programmatic integrations.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:53:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 53,
+        "app": "Ahrefs",
+        "field": "mcp_notes",
+        "passage_id": "human:53:mcp_notes",
+        "snippet": "MCP\n\n**Ahrefs MCP** lets AI agents securely access the Ahrefs API and enrich their answers with real Ahrefs data. MCP (Model Context Protocol) is a standard that allows AI tools to co",
+        "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "b310d4501ac72804d099320653807fbab2c903c7cb2eaa078059f62f7a50e9f5",
+        "source_capture": "data/correction/targeted-human-verification-20260918/053-manual-source.json",
+        "source_capture_sha256": "4f2afd9a5b7583b0aab685327918d01066c5762fa8ad0b3b6c90d72cbbdd66dc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "access:public_app_review: Apps must be publicly available products with existing user bases and not compete with Ahrefs to join Ahrefs Connect. [public_app]",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documented constraint; not a claim that all blockers are known",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Surface-specific facts; see atom modes and notes. No cross-route applicability asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d3:b29",
+        "d3:b30",
+        "d4:b31"
+      ]
+    },
+    "after": {
+      "findings": "Eligible paid API plans/units, owner/admin-managed keys, Connect application/review; hosted MCP does not replace programmatic API access.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:53:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 53,
+        "app": "Ahrefs",
+        "field": "primary_blocker",
+        "passage_id": "human:53:primary_blocker",
+        "snippet": "PKCE)**. The process has two main steps:\n\n## 1. Authorize the application\n\nRedirect the user to:\n```html\nhttps://app.ahrefs.com/web/oauth/authorize?response_type=code&client_id={client",
+        "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "b310d4501ac72804d099320653807fbab2c903c7cb2eaa078059f62f7a50e9f5",
+        "source_capture": "data/correction/targeted-human-verification-20260918/053-manual-source.json",
+        "source_capture_sha256": "4f2afd9a5b7583b0aab685327918d01066c5762fa8ad0b3b6c90d72cbbdd66dc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "LLM cost-control SDK/API to track per-user costs and enforce spending limits for AI products.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "purpose",
+        "passage_id": "human:84:purpose",
+        "snippet": "Build cost-controlled AI products. Track costs, enforce limits, and get alerted — for OpenAI, Anthropic, LangChain, CrewAI, and the Vercel AI SDK.*\n\nPaygent is an SDK — for **Python** and **TypeScript*",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a1",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a2",
+            "reason": "MCP evidence cannot establish resource API facts"
+          },
+          {
+            "atom_id": "a7",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key",
+        "bearer_token"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:auth_methods"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "auth_methods",
+        "passage_id": "human:84:auth_methods",
+        "snippet": "Authentication: Bearer token in Authorization: Bearer pg_live_... header. The product creation endpoint (POST /products) is the only exception — it's how you mint the first key.\n\nContent type: applicati",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a0",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "rest",
+        "sdk"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:api_types"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "api_types",
+        "passage_id": "human:84:api_types",
+        "snippet": "small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions.\n\nBase URL: https://api.paygent.to/api/v1\n\nAuthentication: Bearer token in Authorization: Bea",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a0",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a4",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a5",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a6",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:api_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "api_available",
+        "passage_id": "human:84:api_available",
+        "snippet": "small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions.\n\nBase URL: https://api.paygent.to/api/v1\n\nAuthentication: Bearer token in Authorization: Bea",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [
+          {
+            "atom_id": "a4",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a5",
+            "reason": "Primary facts require official assigned-product evidence"
+          },
+          {
+            "atom_id": "a6",
+            "reason": "Primary facts require official assigned-product evidence"
+          }
+        ],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "REST products, plans, users, subscriptions, usage/events, webhooks and analytics; Python and TypeScript SDKs.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:api_breadth"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "api_breadth",
+        "passage_id": "human:84:api_breadth",
+        "snippet": "Backend API Reference\nThe Paygent backend exposes a small REST API. The SDK uses it. You also call it directly to manage plans, users, and subscriptions.\n\nBase URL: https://api.paygent.to/api/v1\n\nAuthe",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Unauthenticated POST /products creates a product and mints the first API key; subsequent operations use bearer auth."
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:access_model"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "access_model",
+        "passage_id": "human:84:access_model",
+        "snippet": "product creation endpoint (POST /products) is the only exception — it's how you mint the first key.\n\nContent type: application/json for all request and response bodies.\n\nProducts\nPOST /products\nCreate a ne",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:buildability"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "buildability",
+        "passage_id": "human:84:buildability",
+        "snippet": "product creation endpoint (POST /products) is the only exception — it's how you mint the first key.\n\nContent type: application/json for all request and response bodies.\n\nProducts\nPOST /products\nCreate a ne",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Public REST/SDK documentation supports a scoped cost-control integration; user explicitly confirmed Paygent Connect refers to Paygent.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:buildability_rationale"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "buildability_rationale",
+        "passage_id": "human:84:buildability_rationale",
+        "snippet": "product creation endpoint (POST /products) is the only exception — it's how you mint the first key.\n\nContent type: application/json for all request and response bodies.\n\nProducts\nPOST /products\nCreate a ne",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Identity ambiguous/source unreadable: no deterministic readable official Paygent Connect source recovered",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 5,
+          "readable_pages": 3
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "API-key management and product/plan configuration; identity linkage is user-confirmed, not independently source-certified.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:84:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 84,
+        "app": "Paygent Connect",
+        "field": "primary_blocker",
+        "passage_id": "human:84:primary_blocker",
+        "snippet": "product creation endpoint (POST /products) is the only exception — it's how you mint the first key.\n\nContent type: application/json for all request and response bodies.\n\nProducts\nPOST /products\nCreate a ne",
+        "url": "https://docs.paygent.to/reference/api-reference/",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "72be833fec33d2c46ee7dbbb29fbe7fc4687f913a1388f285671204c942df9a9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/084-manual-source.json",
+        "source_capture_sha256": "848f7d95372195b804392ff7585f8084797e245887bfc22b52f7b553cd498a7d",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "FX-audit product for real-time exchange-rate verdicts, rates and forensic reporting.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "purpose",
+        "passage_id": "human:85:purpose",
+        "snippet": "FX audit verdicts.\r\n\n\r\n\n1\\. Endpoints\r\n\nProduction MCP: [https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server](https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-s",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "auth_methods",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "api_key",
+        "bearer_token"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:auth_methods"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "auth_methods",
+        "passage_id": "human:85:auth_methods",
+        "snippet": "Bearer token.\r\n\n\r\n\nInput\r\n\n\r\n\n{\r\n\n&#x20; \"audit\\_id\": \"uuid\",\r\n\n&#x20; \"include\\_routing\": true\r\n\n}\r\n\nOutput (opaque public response)\r\n\n\r\n\n{\r\n\n&#x20; \"audit\\_id\": \"uuid\",\r\n\n&#x20; \"score",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "api_types",
+    "before": {
+      "findings": [
+        "unknown"
+      ],
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        "rest"
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:api_types"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "api_types",
+        "passage_id": "human:85:api_types",
+        "snippet": "REST API\r\n\nJSON responses\r\n\nWebhooks\r\n\nProduction-ready\r\n\nPowered by iPayX AI Engine\r\n\niPayX AI Engine reads bank statements, detects FX spreads, and returns structured JSON output. Ev",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "api_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:api_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "api_available",
+        "passage_id": "human:85:api_available",
+        "snippet": "REST API\r\n\nJSON responses\r\n\nWebhooks\r\n\nProduction-ready\r\n\nPowered by iPayX AI Engine\r\n\niPayX AI Engine reads bank statements, detects FX spreads, and returns structured JSON output. Ev",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "api_breadth",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "FX auditing, mid-market rates, scoring/configuration, transaction analysis, reporting and webhooks; narrower domain-specific surface.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:api_breadth"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "api_breadth",
+        "passage_id": "human:85:api_breadth",
+        "snippet": "FX audit verdicts.\r\n\n\r\n\n1\\. Endpoints\r\n\nProduction MCP: [https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server](https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-s",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "access_model",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "gate": "credential_creation",
+          "surface": "primary",
+          "qualification": "Self-serve account/dashboard key creation; sandbox/developer access is documented."
+        },
+        {
+          "gate": "paid_plan",
+          "surface": "primary",
+          "qualification": "Higher usage and forensic functionality depend on commercial tiers."
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:access_model"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "access_model",
+        "passage_id": "human:85:access_model",
+        "snippet": "API key (free).\r\n\n\r\n\nfull\\_forensic\\_fx\\_report\r\n\nPaid tier ($199)\r\n\nFull forensic audit including spread breakdown, projected loss, and partner routing intelligence. Requires a paid Bear",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:mcp_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "mcp_available",
+        "passage_id": "human:85:mcp_available",
+        "snippet": "MCP Server — Documentation\r\n\nConnect your AI agent to real-time FX audit verdicts.\r\n\n\r\n\n1\\. Endpoints\r\n\nProduction MCP: [https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-serv",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "iPayX hosted MCP server"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:mcp_provider"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "mcp_provider",
+        "passage_id": "human:85:mcp_provider",
+        "snippet": "MCP Server — Documentation\r\n\nConnect your AI agent to real-time FX audit verdicts.\r\n\n\r\n\n1\\. Endpoints\r\n\nProduction MCP: [https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-serv",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "iPayX hosted MCP server"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:mcp_ownership"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "mcp_ownership",
+        "passage_id": "human:85:mcp_ownership",
+        "snippet": "MCP Server — Documentation\r\n\nConnect your AI agent to real-time FX audit verdicts.\r\n\n\r\n\n1\\. Endpoints\r\n\nProduction MCP: [https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-serv",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Documentation supplies https://mcp.ipayx.ai/mcp and a Supabase-hosted MCP endpoint with bearer auth. These are documented alternatives; their current routing/precedence was not independently tested.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": false,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "mcp_notes",
+        "passage_id": "human:85:mcp_notes",
+        "snippet": "MCP Server — Documentation\r\n\nConnect your AI agent to real-time FX audit verdicts.\r\n\n\r\n\n1\\. Endpoints\r\n\nProduction MCP: [https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-serv",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "buildability",
+    "before": {
+      "findings": "unresolved",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "buildable_with_documented_constraints",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:buildability"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "buildability",
+        "passage_id": "human:85:buildability",
+        "snippet": "API key (free).\r\n\n\r\n\nfull\\_forensic\\_fx\\_report\r\n\nPaid tier ($199)\r\n\nFull forensic audit including spread breakdown, projected loss, and partner routing intelligence. Requires a paid Bear",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "buildability_rationale",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": true,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Supplied REST/MCP documentation supports scoped FX-audit workflows with API keys.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:buildability_rationale"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "buildability_rationale",
+        "passage_id": "human:85:buildability_rationale",
+        "snippet": "API key (free).\r\n\n\r\n\nfull\\_forensic\\_fx\\_report\r\n\nPaid tier ($199)\r\n\nFull forensic audit including spread breakdown, projected loss, and partner routing intelligence. Requires a paid Bear",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Current iPayX docs/developers URLs returned an FX-audit overview with no selectable developer body; indexed API/MCP descriptions were not corroborated by current rendered pages.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Commercial usage tiers, rate limits and forensic-feature entitlement; endpoint reachability not independently certified.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Targeted user manual documentation check; recorded by agent from supplied evidence.",
+        "caveats": [
+          "Documentation only; no executed integration, exhaustive route inventory or dataset-wide accuracy claim."
+        ],
+        "derivation": true,
+        "review_layer": "targeted_human_verification"
+      },
+      "field_refs": [
+        "human:85:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 85,
+        "app": "iPayX",
+        "field": "primary_blocker",
+        "passage_id": "human:85:primary_blocker",
+        "snippet": "API key (free).\r\n\n\r\n\nfull\\_forensic\\_fx\\_report\r\n\nPaid tier ($199)\r\n\nFull forensic audit including spread breakdown, projected loss, and partner routing intelligence. Requires a paid Bear",
+        "url": "https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/mcp-server/docs",
+        "source_kind": "user_supplied_official_documentation",
+        "content_sha256": "86f50920e038c7fb66f777ebf944c88a5e53d7ee44b5756bca5cf7cb1e7a4cb9",
+        "source_capture": "data/correction/targeted-human-verification-20260918/085-manual-source.json",
+        "source_capture_sha256": "878da55d4607285ef867f6178d02f82d9dd3d0911625508a4c8084d0273143cc",
+        "capture_type": "user_supplied_documentation_in_referenced_conversation",
+        "exact": true,
+        "review_layer": "targeted_human_verification",
+        "observed_on": "2026-09-18"
+      }
+    ]
+  }
+]

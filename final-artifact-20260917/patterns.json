@@ -1,71 +1,70 @@
 {
-  "input_sha256": "8e476aebd5bdcf5a8f2a7efcb3bf81508c9e15afd772edf29fa940360e31f5ab",
+  "input_sha256": "ad128a70c18982207d7714fa325994931bcee75d4a9fa9c7777e880f96777742",
   "records": 100,
   "field_dispositions": 1300,
   "status_counts": {
     "source_backed": 95,
-    "source_backed_with_caveat": 803,
-    "unresolved": 402
+    "source_backed_with_caveat": 839,
+    "unresolved": 366
   },
   "field_coverage": {
     "purpose": {
       "source_backed": 95,
-      "source_backed_with_caveat": 3,
-      "unresolved": 2
+      "source_backed_with_caveat": 5
     },
     "auth_methods": {
-      "source_backed_with_caveat": 87,
-      "unresolved": 13
+      "source_backed_with_caveat": 89,
+      "unresolved": 11
     },
     "api_types": {
-      "source_backed_with_caveat": 53,
-      "unresolved": 47
+      "source_backed_with_caveat": 55,
+      "unresolved": 45
     },
     "api_available": {
+      "source_backed_with_caveat": 96,
+      "unresolved": 4
+    },
+    "api_breadth": {
       "source_backed_with_caveat": 94,
       "unresolved": 6
     },
-    "api_breadth": {
-      "source_backed_with_caveat": 92,
-      "unresolved": 8
-    },
     "access_model": {
-      "source_backed_with_caveat": 79,
-      "unresolved": 21
+      "source_backed_with_caveat": 81,
+      "unresolved": 19
     },
     "mcp_available": {
-      "unresolved": 57,
-      "source_backed_with_caveat": 43
+      "source_backed_with_caveat": 47,
+      "unresolved": 53
     },
     "mcp_provider": {
-      "unresolved": 54,
-      "source_backed_with_caveat": 46
+      "source_backed_with_caveat": 50,
+      "unresolved": 50
     },
     "mcp_ownership": {
-      "unresolved": 62,
-      "source_backed_with_caveat": 38
+      "source_backed_with_caveat": 42,
+      "unresolved": 58
     },
     "mcp_notes": {
-      "unresolved": 54,
-      "source_backed_with_caveat": 46
+      "source_backed_with_caveat": 50,
+      "unresolved": 50
     },
     "buildability": {
-      "source_backed_with_caveat": 83,
-      "unresolved": 17
+      "source_backed_with_caveat": 85,
+      "unresolved": 15
     },
     "buildability_rationale": {
-      "source_backed_with_caveat": 91,
-      "unresolved": 9
+      "source_backed_with_caveat": 93,
+      "unresolved": 7
     },
     "primary_blocker": {
-      "unresolved": 52,
-      "source_backed_with_caveat": 48
+      "source_backed_with_caveat": 52,
+      "unresolved": 48
     }
   },
   "metrics": {
     "auth": {
       "field": "auth_methods",
-      "denominator": 87,
+      "denominator": 89,
       "eligible_ids": [
         1,
         2,
@@ -142,6 +141,8 @@
         81,
         82,
         83,
+        84,
+        85,
         86,
         87,
         88,
@@ -155,7 +156,7 @@
         99,
         100
       ],
-      "unresolved": 13,
+      "unresolved": 11,
       "unresolved_ids": [
         9,
         13,
@@ -165,15 +166,13 @@
         44,
         58,
         69,
-        84,
-        85,
         94,
         96,
         98
       ],
       "values": {
         "api_key": {
-          "count": 46,
+          "count": 48,
           "ids": [
             3,
             4,
@@ -217,6 +216,8 @@
             79,
             81,
             83,
+            84,
+            85,
             90,
             93,
             97,
@@ -247,8 +248,9 @@
           ]
         },
         "bearer_token": {
-          "count": 34,
+          "count": 37,
           "ids": [
+            1,
             2,
             4,
             7,
@@ -278,6 +280,8 @@
             74,
             79,
             80,
+            84,
+            85,
             88,
             91,
             92,
@@ -427,7 +431,7 @@
     },
     "protocol": {
       "field": "api_types",
-      "denominator": 53,
+      "denominator": 55,
       "eligible_ids": [
         1,
         3,
@@ -475,6 +479,8 @@
         79,
         80,
         83,
+        84,
+        85,
         88,
         90,
         91,
@@ -483,7 +489,7 @@
         95,
         99
       ],
-      "unresolved": 47,
+      "unresolved": 45,
       "unresolved_ids": [
         2,
         6,
@@ -522,8 +528,6 @@
         72,
         81,
         82,
-        84,
-        85,
         86,
         87,
         89,
@@ -546,7 +550,7 @@
           ]
         },
         "rest": {
-          "count": 49,
+          "count": 51,
           "ids": [
             1,
             3,
@@ -590,6 +594,8 @@
             79,
             80,
             83,
+            84,
+            85,
             88,
             90,
             91,
@@ -600,8 +606,9 @@
           ]
         },
         "sdk": {
-          "count": 1,
+          "count": 2,
           "ids": [
+            84,
             93
           ]
         }
@@ -610,7 +617,7 @@
     },
     "access": {
       "field": "access_model",
-      "denominator": 79,
+      "denominator": 81,
       "eligible_ids": [
         1,
         2,
@@ -678,6 +685,8 @@
         80,
         81,
         82,
+        84,
+        85,
         87,
         88,
         89,
@@ -692,7 +701,7 @@
         99,
         100
       ],
-      "unresolved": 21,
+      "unresolved": 19,
       "unresolved_ids": [
         6,
         8,
@@ -711,17 +720,17 @@
         77,
         78,
         83,
-        84,
-        85,
         86,
         97
       ],
       "values": {
         "admin_permission": {
-          "count": 10,
+          "count": 13,
           "ids": [
             10,
             16,
+            29,
+            49,
             53,
             55,
             57,
@@ -729,6 +738,7 @@
             74,
             75,
             87,
+            88,
             96
           ]
         },
@@ -739,7 +749,7 @@
           ]
         },
         "credential_creation": {
-          "count": 70,
+          "count": 72,
           "ids": [
             1,
             2,
@@ -801,6 +811,8 @@
             80,
             81,
             82,
+            84,
+            85,
             87,
             88,
             89,
@@ -814,8 +826,9 @@
           ]
         },
         "paid_plan": {
-          "count": 11,
+          "count": 13,
           "ids": [
+            2,
             21,
             31,
             33,
@@ -823,6 +836,7 @@
             47,
             52,
             53,
+            85,
             87,
             92,
             94,
@@ -838,22 +852,22 @@
           ]
         },
         "public_app_review": {
-          "count": 9,
+          "count": 8,
           "ids": [
             12,
             14,
             28,
-            29,
             33,
             35,
+            49,
             53,
-            72,
-            88
+            72
           ]
         },
         "sales_contact": {
-          "count": 1,
+          "count": 2,
           "ids": [
+            88,
             90
           ]
         },
@@ -870,7 +884,7 @@
     },
     "readiness": {
       "field": "buildability",
-      "denominator": 83,
+      "denominator": 85,
       "eligible_ids": [
         1,
         2,
@@ -944,6 +958,8 @@
         80,
         81,
         82,
+        84,
+        85,
         87,
         88,
         89,
@@ -956,7 +972,7 @@
         99,
         100
       ],
-      "unresolved": 17,
+      "unresolved": 15,
       "unresolved_ids": [
         6,
         8,
@@ -969,8 +985,6 @@
         55,
         58,
         83,
-        84,
-        85,
         86,
         94,
         96,
@@ -978,7 +992,7 @@
       ],
       "values": {
         "buildable_with_documented_constraints": {
-          "count": 65,
+          "count": 69,
           "ids": [
             1,
             2,
@@ -998,6 +1012,7 @@
             23,
             26,
             27,
+            29,
             30,
             31,
             36,
@@ -1037,7 +1052,10 @@
             80,
             81,
             82,
+            84,
+            85,
             87,
+            88,
             89,
             91,
             92,
@@ -1048,18 +1066,16 @@
           ]
         },
         "gated_or_outreach_required": {
-          "count": 11,
+          "count": 9,
           "ids": [
             12,
             14,
             28,
-            29,
             33,
             35,
             53,
             56,
             72,
-            88,
             90
           ]
         },
@@ -1085,8 +1101,9 @@
     },
     "mcp_availability": {
       "field": "mcp_available",
-      "denominator": 43,
+      "denominator": 47,
       "eligible_ids": [
+        1,
         3,
         4,
         8,
@@ -1107,6 +1124,7 @@
         37,
         40,
         52,
+        53,
         55,
         56,
         57,
@@ -1122,8 +1140,10 @@
         73,
         75,
         81,
+        85,
         87,
         88,
+        90,
         93,
         94,
         95,
@@ -1131,9 +1151,8 @@
         99,
         100
       ],
-      "unresolved": 57,
+      "unresolved": 53,
       "unresolved_ids": [
-        1,
         2,
         5,
         6,
@@ -1165,7 +1184,6 @@
         49,
         50,
         51,
-        53,
         54,
         58,
         59,
@@ -1182,10 +1200,8 @@
         82,
         83,
         84,
-        85,
         86,
         89,
-        90,
         91,
         92,
         97,
@@ -1193,8 +1209,9 @@
       ],
       "values": {
         "yes": {
-          "count": 43,
+          "count": 47,
           "ids": [
+            1,
             3,
             4,
             8,
@@ -1215,6 +1232,7 @@
             37,
             40,
             52,
+            53,
             55,
             56,
             57,
@@ -1230,8 +1248,10 @@
             73,
             75,
             81,
+            85,
             87,
             88,
+            90,
             93,
             94,
             95,
@@ -1245,8 +1265,9 @@
     },
     "mcp_provider": {
       "field": "mcp_provider",
-      "denominator": 46,
+      "denominator": 50,
       "eligible_ids": [
+        1,
         3,
         4,
         5,
@@ -1268,6 +1289,7 @@
         37,
         40,
         52,
+        53,
         55,
         56,
         57,
@@ -1285,8 +1307,10 @@
         77,
         79,
         81,
+        85,
         87,
         88,
+        90,
         93,
         94,
         95,
@@ -1294,9 +1318,8 @@
         99,
         100
       ],
-      "unresolved": 54,
+      "unresolved": 50,
       "unresolved_ids": [
-        1,
         2,
         6,
         7,
@@ -1327,7 +1350,6 @@
         49,
         50,
         51,
-        53,
         54,
         58,
         59,
@@ -1342,10 +1364,8 @@
         82,
         83,
         84,
-        85,
         86,
         89,
-        90,
         91,
         92,
         97,
@@ -1353,8 +1373,9 @@
       ],
       "values": {
         "mcp_native": {
-          "count": 46,
+          "count": 50,
           "ids": [
+            1,
             3,
             4,
             5,
@@ -1376,6 +1397,7 @@
             37,
             40,
             52,
+            53,
             55,
             56,
             57,
@@ -1393,8 +1415,10 @@
             77,
             79,
             81,
+            85,
             87,
             88,
+            90,
             93,
             94,
             95,
@@ -1408,8 +1432,9 @@
     },
     "mcp_ownership": {
       "field": "mcp_ownership",
-      "denominator": 38,
+      "denominator": 42,
       "eligible_ids": [
+        1,
         3,
         4,
         8,
@@ -1429,6 +1454,7 @@
         37,
         40,
         52,
+        53,
         55,
         56,
         61,
@@ -1440,8 +1466,10 @@
         73,
         75,
         81,
+        85,
         87,
         88,
+        90,
         93,
         94,
         95,
@@ -1449,9 +1477,8 @@
         99,
         100
       ],
-      "unresolved": 62,
+      "unresolved": 58,
       "unresolved_ids": [
-        1,
         2,
         5,
         6,
@@ -1484,7 +1511,6 @@
         49,
         50,
         51,
-        53,
         54,
         57,
         58,
@@ -1505,10 +1531,8 @@
         82,
         83,
         84,
-        85,
         86,
         89,
-        90,
         91,
         92,
         97,
@@ -1516,8 +1540,9 @@
       ],
       "values": {
         "mcp_native": {
-          "count": 38,
+          "count": 42,
           "ids": [
+            1,
             3,
             4,
             8,
@@ -1537,6 +1562,7 @@
             37,
             40,
             52,
+            53,
             55,
             56,
             61,
@@ -1548,8 +1574,10 @@
             73,
             75,
             81,
+            85,
             87,
             88,
+            90,
             93,
             94,
             95,
@@ -1563,10 +1591,9 @@
     },
     "access_buckets": {
       "credential creation only": {
-        "count": 50,
+        "count": 49,
         "ids": [
           1,
-          2,
           3,
           4,
           5,
@@ -1589,7 +1616,6 @@
           43,
           46,
           48,
-          49,
           50,
           51,
           54,
@@ -1608,6 +1634,7 @@
           80,
           81,
           82,
+          84,
           89,
           91,
           93,
@@ -1618,8 +1645,9 @@
         ]
       },
       "additional recorded gate": {
-        "count": 29,
+        "count": 32,
         "ids": [
+          2,
           10,
           12,
           14,
@@ -1634,6 +1662,7 @@
           40,
           44,
           47,
+          49,
           52,
           53,
           55,
@@ -1643,6 +1672,7 @@
           72,
           74,
           75,
+          85,
           87,
           88,
           90,
@@ -1658,7 +1688,7 @@
     },
     "breadth_mentions": {
       "field": "api_breadth",
-      "denominator": 92,
+      "denominator": 94,
       "eligible_ids": [
         1,
         2,
@@ -1737,6 +1767,8 @@
         80,
         82,
         83,
+        84,
+        85,
         86,
         87,
         88,
@@ -1753,7 +1785,7 @@
         99,
         100
       ],
-      "unresolved": 8,
+      "unresolved": 6,
       "rules": {
         "records and customers": "\\b(record\\w*|contact\\w*|customer\\w*|lead\\w*|deal\\w*)\\b",
         "messages and support": "\\b(message\\w*|conversation\\w*|ticket\\w*|thread\\w*|email\\w*|chat\\w*)\\b",
@@ -1838,8 +1870,9 @@
           ]
         },
         "commerce and money": {
-          "count": 18,
+          "count": 21,
           "ids": [
+            1,
             6,
             26,
             27,
@@ -1855,13 +1888,15 @@
             66,
             82,
             83,
+            84,
+            85,
             87,
             88,
             89
           ]
         },
         "automation and jobs": {
-          "count": 18,
+          "count": 21,
           "ids": [
             3,
             8,
@@ -1871,12 +1906,15 @@
             39,
             46,
             50,
+            51,
             54,
             55,
             56,
             57,
             73,
             76,
+            84,
+            85,
             88,
             93,
             96,
@@ -1884,8 +1922,9 @@
           ]
         },
         "identity and administration": {
-          "count": 62,
+          "count": 64,
           "ids": [
+            1,
             2,
             3,
             4,
@@ -1941,6 +1980,7 @@
             80,
             82,
             83,
+            84,
             88,
             91,
             93,
@@ -1956,7 +1996,6 @@
         35,
         36,
         49,
-        51,
         61,
         65,
         67,
@@ -1971,8 +2010,9 @@
     },
     "blocker_mentions": {
       "field": "primary_blocker",
-      "denominator": 48,
+      "denominator": 52,
       "eligible_ids": [
+        1,
         2,
         4,
         10,
@@ -1993,6 +2033,7 @@
         44,
         47,
         49,
+        51,
         52,
         53,
         54,
@@ -2011,6 +2052,8 @@
         80,
         81,
         82,
+        84,
+        85,
         87,
         88,
         90,
@@ -2022,7 +2065,7 @@
         99,
         100
       ],
-      "unresolved": 52,
+      "unresolved": 48,
       "rules": {
         "roles, scopes and permissions": "\\b(admin\\w*|role\\w*|scope\\w*|permission\\w*|authorization|consent)\\b",
         "plans and commercial entitlement": "\\b(paid|plan\\w*|enterprise|subscription\\w*|contract\\w*|credit\\w*|eligibility|entitlement)\\b",
@@ -2031,8 +2074,9 @@
       },
       "values": {
         "roles, scopes and permissions": {
-          "count": 27,
+          "count": 30,
           "ids": [
+            1,
             2,
             4,
             10,
@@ -2040,6 +2084,7 @@
             21,
             24,
             28,
+            29,
             31,
             33,
             36,
@@ -2047,6 +2092,7 @@
             43,
             44,
             49,
+            53,
             55,
             57,
             61,
@@ -2063,17 +2109,21 @@
           ]
         },
         "plans and commercial entitlement": {
-          "count": 15,
+          "count": 19,
           "ids": [
+            1,
             2,
             21,
             24,
             47,
             52,
+            53,
             60,
             69,
             76,
             81,
+            84,
+            85,
             87,
             90,
             92,
@@ -2093,17 +2143,18 @@
             31,
             35,
             49,
+            53,
             55,
             56,
             72,
             88,
-            90,
             93
           ]
         },
         "setup, configuration or version": {
-          "count": 12,
+          "count": 14,
           "ids": [
+            1,
             10,
             16,
             20,
@@ -2112,7 +2163,8 @@
             69,
             80,
             82,
-            88,
+            84,
+            90,
             91,
             93,
             100
@@ -2120,7 +2172,7 @@
         }
       },
       "unclassified_ids": [
-        53
+        51
       ],
       "boundary": "Overlapping case-insensitive text-mention groups; not confirmed resource/action coverage or universal integration gates."
     }
@@ -2148,13 +2200,13 @@
         "api_available": 10,
         "api_breadth": 10,
         "access_model": 8,
-        "mcp_available": 4,
-        "mcp_provider": 5,
-        "mcp_ownership": 4,
-        "mcp_notes": 5,
+        "mcp_available": 5,
+        "mcp_provider": 6,
+        "mcp_ownership": 5,
+        "mcp_notes": 6,
         "buildability": 7,
         "buildability_rationale": 9,
-        "primary_blocker": 3
+        "primary_blocker": 4
       },
       "readiness": {
         "buildable_with_documented_constraints": 7,
@@ -2228,9 +2280,9 @@
         "primary_blocker": 4
       },
       "readiness": {
-        "buildable_with_documented_constraints": 6,
+        "buildable_with_documented_constraints": 7,
         "unresolved": 2,
-        "gated_or_outreach_required": 2
+        "gated_or_outreach_required": 1
       }
     },
     {
@@ -2328,13 +2380,13 @@
         "api_available": 9,
         "api_breadth": 9,
         "access_model": 9,
-        "mcp_available": 4,
-        "mcp_provider": 4,
-        "mcp_ownership": 3,
-        "mcp_notes": 4,
+        "mcp_available": 5,
+        "mcp_provider": 5,
+        "mcp_ownership": 4,
+        "mcp_notes": 5,
         "buildability": 8,
         "buildability_rationale": 9,
-        "primary_blocker": 7
+        "primary_blocker": 8
       },
       "readiness": {
         "buildable_with_documented_constraints": 6,
@@ -2429,24 +2481,24 @@
         90
       ],
       "supported_counts": {
-        "purpose": 8,
-        "auth_methods": 8,
-        "api_types": 3,
-        "api_available": 8,
-        "api_breadth": 7,
-        "access_model": 6,
-        "mcp_available": 3,
-        "mcp_provider": 3,
-        "mcp_ownership": 3,
-        "mcp_notes": 3,
-        "buildability": 6,
-        "buildability_rationale": 8,
-        "primary_blocker": 5
+        "purpose": 10,
+        "auth_methods": 10,
+        "api_types": 5,
+        "api_available": 10,
+        "api_breadth": 9,
+        "access_model": 8,
+        "mcp_available": 5,
+        "mcp_provider": 5,
+        "mcp_ownership": 5,
+        "mcp_notes": 5,
+        "buildability": 8,
+        "buildability_rationale": 10,
+        "primary_blocker": 7
       },
       "readiness": {
-        "buildable_with_documented_constraints": 4,
-        "unresolved": 4,
-        "gated_or_outreach_required": 2
+        "buildable_with_documented_constraints": 7,
+        "unresolved": 2,
+        "gated_or_outreach_required": 1
       }
     },
     {
@@ -2707,10 +2759,11 @@
             ]
           },
           "App review / provider access approval": {
-            "count": 4,
+            "count": 5,
             "ids": [
               31,
               33,
+              34,
               35,
               38
             ]
@@ -2933,8 +2986,9 @@
             "ids": []
           },
           "Admin / permissions / authorization gate": {
-            "count": 3,
+            "count": 4,
             "ids": [
+              73,
               74,
               75,
               76
@@ -2958,6 +3012,8 @@
         "access_evidence_ids": [
           81,
           82,
+          84,
+          85,
           87,
           88,
           89,
@@ -2965,8 +3021,6 @@
         ],
         "unresolved_ids": [
           83,
-          84,
-          85,
           86
         ],
         "supported_but_onboarding_unclassified_ids": [
@@ -2974,17 +3028,20 @@
         ],
         "labels": {
           "Developer-obtainable credential route": {
-            "count": 4,
+            "count": 6,
             "ids": [
               81,
               82,
+              84,
+              85,
               87,
               88
             ]
           },
           "Paid plan / entitlement / usage gate": {
-            "count": 2,
+            "count": 3,
             "ids": [
+              85,
               87,
               90
             ]
@@ -3108,6 +3165,7 @@
       23,
       26,
       27,
+      29,
       30,
       31,
       36,
@@ -3147,7 +3205,10 @@
       80,
       81,
       82,
+      84,
+      85,
       87,
+      88,
       89,
       91,
       92,
@@ -3160,13 +3221,11 @@
       12,
       14,
       28,
-      29,
       33,
       35,
       53,
       56,
       72,
-      88,
       90
     ],
     "needs_further_investigation": [
@@ -3189,13 +3248,11 @@
       55,
       58,
       83,
-      84,
-      85,
       86,
       94,
       96,
       98
     ]
   },
-  "rules": "Eligibility is field-specific. Labels overlap except readiness and access buckets. Unresolved is never no/zero. Readiness is the unchanged stored inference, including apparent inconsistencies; no new completeness threshold."
+  "rules": "Eligibility is field-specific. Labels overlap except readiness and access buckets. Unresolved is never no/zero. Readiness incorporates the bounded targeted human review; no new completeness threshold."
 }
