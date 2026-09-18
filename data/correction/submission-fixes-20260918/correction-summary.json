@@ -1,0 +1,15 @@
+{
+  "baseline_sha256": "26e3cff73fdb3f5bf6d0238ae3c9217e0023e49dd3159d08ffc0022f5b7dc038",
+  "purposes_resolved": 51,
+  "purpose_unresolved_ids": [
+    84,
+    85
+  ],
+  "changed_fields": 56,
+  "status_counts": {
+    "source_backed": 95,
+    "source_backed_with_caveat": 803,
+    "unresolved": 402
+  },
+  "scope": "Unresolved purpose only, four GoHighLevel MCP fields, one HubSpot blocker. No research API calls; prior verification outcomes unchanged."
+}

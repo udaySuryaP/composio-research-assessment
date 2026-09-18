@@ -20,7 +20,7 @@ Neither sample estimates whole-dataset accuracy.
 ## Outputs
 
 - [`submission/composio-assessment-uday.html`](submission/composio-assessment-uday.html): self-contained report; opens directly and works offline.
-- [`data/correction/fresh-independent-verification-20260917/final-corrected-dataset.json`](data/correction/fresh-independent-verification-20260917/final-corrected-dataset.json): accepted dataset and claim evidence.
+- [`data/correction/submission-fixes-20260918/final-corrected-dataset.json`](data/correction/submission-fixes-20260918/final-corrected-dataset.json): current corrected dataset and claim evidence; prior datasets and review outcomes remain preserved.
 - [`final-artifact-20260917/patterns.json`](final-artifact-20260917/patterns.json): counts, denominators, candidate lists, and grouping rules.
 - [`submission/RELEASE.md`](submission/RELEASE.md): artifact identity and release notes.
 
@@ -35,8 +35,10 @@ python -B -m unittest discover -s tests -v
 python -B -m agent.release check
 ```
 
-The rebuild uses accepted local inputs and makes no research calls. Open `submission/composio-assessment-uday.html` to view the release, or `final-artifact-20260917/composio-assessment-uday.html` to view the rebuild. New research requires credentials; see `.env.example` and `python -m agent.production_research --help`.
+The rebuild uses saved inputs and makes no research calls. Open `submission/composio-assessment-uday.html` to view the release, or `final-artifact-20260917/composio-assessment-uday.html` to view the rebuild.
+
+For new research, set `OPENAI_API_KEY` and `COMPOSIO_API_KEY` in your shell or a repository-root `.env` copied from `.env.example`. Optional `OPENAI_MODEL` and `COMPOSIO_USER_ID` configure the existing model and user context. Shell values take precedence; `.env` is ignored and keys must never be committed. No drive-specific setup is required. Inspect `python -m agent.production_research --help` before starting a fresh run; credentials are unnecessary for offline rebuilding and tests.
 
 ## Limitations
 
-Research coverage remains partial: 45 source-backed, 798 caveated, and 457 unresolved field records out of 1,300. Readiness is documentation-based; no integrations were executed end to end. API breadth is not an exhaustive action inventory. The dated delivery note inside the accepted HTML describes its pre-publication state; this README and release record describe the published version.
+Research coverage remains partial: 95 source-backed, 803 caveated, and 402 unresolved fields out of 1,300. The submission correction pass resolved 51 missing product purposes; Paygent Connect and iPayX purposes remain unresolved. Readiness is documentation-based; no integrations were executed end to end. API breadth is not an exhaustive action inventory.

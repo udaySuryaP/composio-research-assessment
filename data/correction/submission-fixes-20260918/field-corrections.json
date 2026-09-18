@@ -1,0 +1,3211 @@
+[
+  {
+    "id": 9,
+    "app": "Copper",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 12,
+          "readable_pages": 11
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "CRM for service businesses to organize contacts, track deals, manage projects, and automate follow-ups.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:9:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 9,
+        "app": "Copper",
+        "field": "purpose",
+        "passage_id": "submission:9:purpose",
+        "snippet": "Win clients for life with Copper CRM software solutions. Give us a try and see how we can help your business build stronger",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.copper.com/",
+        "final_url": "https://www.copper.com/",
+        "source_kind": "official",
+        "content_sha256": "04a8e79c52685ab86b59c308114b365772d6f2f760532610d335be7437f7e308",
+        "retrieved_at": "2026-09-17T19:05:25.615939+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/009-purpose-source.json",
+        "source_capture_sha256": "597ca79353d75849c99a4b891781265cbdef5a78d3d8d9a62022f3e41c82b7c8",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 20,
+          "readable_pages": 17
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Customer and employee service software with AI agents to resolve support issues.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:11:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 11,
+        "app": "Zendesk",
+        "field": "purpose",
+        "passage_id": "submission:11:purpose",
+        "snippet": "Move beyond deflection with AI agents that resolve issues from start to finish. Improve service quality, speed and scale. Start your free trial.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.zendesk.com/",
+        "final_url": "https://www.zendesk.com/in/#georedirect",
+        "source_kind": "official",
+        "content_sha256": "f7778d6735f07311f16b34d27e872b8b2d280f2aef57b0af392ba970103d359b",
+        "retrieved_at": "2026-09-17T19:05:26.120918+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/011-purpose-source.json",
+        "source_capture_sha256": "31dd5630f7b9c80859bceb7f44972a2e7e1cae3225ffcf58b8e0186d5a348a38",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 16,
+          "readable_pages": 15
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "B2B customer support platform where people and AI agents investigate and resolve customer work.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:15:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 15,
+        "app": "Pylon",
+        "field": "purpose",
+        "passage_id": "submission:15:purpose",
+        "snippet": "Pylon lets humans and AI agents collaborate on customer work, investigating, resolving, and acting on every signal. Trusted by 1,500+ B2B companies.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.usepylon.com/",
+        "final_url": "https://www.usepylon.com/",
+        "source_kind": "official",
+        "content_sha256": "f2dc8dab2c084cedc05a11759fdb3b24bc7a99878c5007f9b593032dc63f5847",
+        "retrieved_at": "2026-09-17T19:05:26.688830+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/015-purpose-source.json",
+        "source_capture_sha256": "1af57bad2dfe55a61b2adae1e39e736f7d9461ad00f8c7cb03bcec9dff3c2e42",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 12,
+          "readable_pages": 11
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Composable AI customer support infrastructure for B2B teams.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:17:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 17,
+        "app": "Plain",
+        "field": "purpose",
+        "passage_id": "submission:17:purpose",
+        "snippet": "Plain is the AI support stack built for B2B teams. Composable infrastructure that gives you complete flexibility to build a support motion that",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.plain.com/",
+        "final_url": "https://www.plain.com/",
+        "source_kind": "official",
+        "content_sha256": "f1ec56245c0422e6f90fee26794b150b918c4746f02196f8e9021204ef95289d",
+        "retrieved_at": "2026-09-17T19:05:26.743704+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/017-purpose-source.json",
+        "source_capture_sha256": "9520557cb4f9c587889b3ab012f35daabbfedcf186e7dd2932249ba24b3ada75",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Conversational AI and helpdesk platform for ecommerce customer support and sales.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:19:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 19,
+        "app": "Gorgias",
+        "field": "purpose",
+        "passage_id": "submission:19:purpose",
+        "snippet": "Drive more sales and automate support with AI Agent, Helpdesk integrated to your stack, Chat, FAQ and more. Trusted by top 17,000 brands",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.gorgias.com/",
+        "final_url": "https://www.gorgias.com/",
+        "source_kind": "official",
+        "content_sha256": "3508938ddc5f731dc45cba2451aa0a5b302fe5c23e26b07c728e6f2b167f746c",
+        "retrieved_at": "2026-09-17T19:05:26.679910+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/019-purpose-source.json",
+        "source_capture_sha256": "fe88cfbaeca1f16fa938a0917ce31db6fcd6ad44d4cd355527da74930bf00323",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Customer communications platform for messaging, voice, email, conversational AI, and identity verification.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:22:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 22,
+        "app": "Twilio",
+        "field": "purpose",
+        "passage_id": "submission:22:purpose",
+        "snippet": "Build amazing customer experiences on the Twilio platform with APIs for SMS, RCS, voice, and email, plus conversational AI for smarter engagement, and",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.twilio.com/en-us",
+        "final_url": "https://www.twilio.com/en-us",
+        "source_kind": "official",
+        "content_sha256": "f2790a5ac6309d3d2d7361e47bed5e54669d00b074f9f523650493fd3389399c",
+        "retrieved_at": "2026-09-17T19:05:26.163003+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/022-purpose-source.json",
+        "source_capture_sha256": "018497b58816d5bd4018db22a1937a65775bf1cf8ed2dd776163da8e1f825e1c",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "app": "Lark (Larksuite)",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 16,
+          "readable_pages": 16
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Team workspace combining chat, meetings, documents, knowledge, and workflow automation.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:24:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 24,
+        "app": "Lark (Larksuite)",
+        "field": "purpose",
+        "passage_id": "submission:24:purpose",
+        "snippet": "Lark unifies communication, knowledge, workflows, and business systems in an AI-powered workspace, giving AI the context to automate work and take action.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.larksuite.com/",
+        "final_url": "https://www.larksuite.com/en_sg/",
+        "source_kind": "official",
+        "content_sha256": "5999de35095d02fd2a83819b4069ea46ae081231f2a719fbe2b4ca54638cf77e",
+        "retrieved_at": "2026-09-17T19:05:27.270762+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/024-purpose-source.json",
+        "source_capture_sha256": "7546f007aebfa44d1fe261b8add3d64e7cfacc2f3c578f924b99ed4b0fd760df",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Voice, video, and text communications platform for communities around gaming.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:26:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 26,
+        "app": "Discord",
+        "field": "purpose",
+        "passage_id": "submission:26:purpose",
+        "snippet": "Discord is the communications platform that enables you to build meaningful connections around the joy of playing games through voice, video, and text",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://discord.com/company",
+        "final_url": "https://discord.com/company",
+        "source_kind": "official",
+        "content_sha256": "c2ce40916e5a3e1eefee0f0e3db75392e0e9fe27caa5714107affe386180edc5",
+        "retrieved_at": "2026-09-17T19:05:26.380720+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/026-purpose-source.json",
+        "source_capture_sha256": "e5448e78c9bd723325b1f93e4ae6a8c4ac007f7b0eeffefe5e919324277ddcd9",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 10,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Cloud communications platform for customer messaging, voice, video, and identity verification.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:30:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 30,
+        "app": "Vonage",
+        "field": "purpose",
+        "passage_id": "submission:30:purpose",
+        "snippet": "Vonage Communications APIs",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.vonage.com/communications-apis/",
+        "final_url": "https://www.vonage.com/communications-apis/",
+        "source_kind": "official",
+        "content_sha256": "512e119e20981538b17b718d362dd208075157949e8c919104d63bdcb941a042",
+        "retrieved_at": "2026-09-18",
+        "capture_type": "official_web_rendered_selected_body_lines",
+        "source_capture": "data/correction/submission-fixes-20260918/030-purpose-source.json",
+        "source_capture_sha256": "51d878ccb0f0d5643f8b1415f131088bbab2ac79a40803f95fab4cae64795d67",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Advertising across Facebook, Instagram, Messenger, and WhatsApp to reach and engage customers.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:32:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 32,
+        "app": "Meta Ads",
+        "field": "purpose",
+        "passage_id": "submission:32:purpose",
+        "snippet": "Billions of people use Meta apps to connect with others. Reach new customers with ads on Facebook, Instagram, Messenger & WhatsApp. Get started.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.facebook.com/business/ads",
+        "final_url": "https://www.facebook.com/business/ads",
+        "source_kind": "official",
+        "content_sha256": "0fc98e10d9e1fe71a4a7fb91d7e22cb7f3bd2794a39f7b51051cd8fbd7a18bfb",
+        "retrieved_at": "2026-09-17T19:05:28.023236+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/032-purpose-source.json",
+        "source_capture_sha256": "094109c8176f36b2bed3712978a2251e378c5b62a2a6e99ea8d76fa922ca09af",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 17,
+          "readable_pages": 17
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Advertising platform for targeting professional audiences on LinkedIn.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:33:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 33,
+        "app": "LinkedIn Ads",
+        "field": "purpose",
+        "passage_id": "submission:33:purpose",
+        "snippet": "Use LinkedIn self-service ads to reach more than 1 billion users worldwide. Build effective ads that target your audience with helpful formats &",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://business.linkedin.com/marketing-solutions/ads",
+        "final_url": "https://business.linkedin.com/advertise/ads",
+        "source_kind": "official",
+        "content_sha256": "ea1d9dbb5697c9cd6de14577f3f350f21851ee1661645f3bb3adcf3741daa096",
+        "retrieved_at": "2026-09-17T19:05:27.489618+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/033-purpose-source.json",
+        "source_capture_sha256": "a92e680c2f062095349952d4709c081911da99b5dcfc25cf03ae6af4dfc56d17",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Sales and marketing platform for agencies to capture, nurture, and convert leads, with white-label resale.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:34:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 34,
+        "app": "GoHighLevel",
+        "field": "purpose",
+        "passage_id": "submission:34:purpose",
+        "snippet": "GoHighLevel - It's time to take your Agency to the Next Level",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.gohighlevel.com/",
+        "final_url": "https://www.gohighlevel.com/",
+        "source_kind": "official",
+        "content_sha256": "9f35fbf2fbc50df3ddba78cbd3750af9dc781171a22899552b69cb46555e34ab",
+        "retrieved_at": "2026-09-17T19:05:27.195919+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/034-purpose-source.json",
+        "source_capture_sha256": "820b98b2a92c0c394c56b55f15c6da835218f9d45c01f1dc6ed36ea02b596bb9",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Visual discovery platform where people find ideas and products, with business marketing and advertising tools.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:38:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 38,
+        "app": "Pinterest",
+        "field": "purpose",
+        "passage_id": "submission:38:purpose",
+        "snippet": "Grow your business with Pinterest’s digital marketing tools. Learn how Pinterest works for marketers, get a free business account and start running campaigns",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://business.pinterest.com/",
+        "final_url": "https://business.pinterest.com/en-in/",
+        "source_kind": "official",
+        "content_sha256": "229cf3cb1fabaafd69929825e37a9af0f7233a1d7bf0d6d12b29bb13bf8e2f9a",
+        "retrieved_at": "2026-09-17T19:05:31.094402+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/038-purpose-source.json",
+        "source_capture_sha256": "120e75f2a1d97a631fe25936879b2d2580db763e7d35dcfcbafdd94caaff2dd4",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "app": "Threads (Meta)",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 10,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Meta social app for sharing text updates and joining public conversations.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:39:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 39,
+        "app": "Threads (Meta)",
+        "field": "purpose",
+        "passage_id": "submission:39:purpose",
+        "snippet": "Threads is a new app, built by the Instagram team, for sharing text updates and joining public conversations.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/",
+        "final_url": "https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/",
+        "source_kind": "official",
+        "content_sha256": "96df2fa11e470cc512e01114942535d46a10541cb9db3ce815436361e20f63dd",
+        "retrieved_at": "2026-09-17T19:05:38.568706+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/039-purpose-source.json",
+        "source_capture_sha256": "333054805c623e9b38a69d7d0579db57a494a086eedc41808165cb6851b50eb3",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 21,
+          "readable_pages": 21
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Commerce platform for businesses to build stores, sell products, and manage operations.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:41:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 41,
+        "app": "Shopify",
+        "field": "purpose",
+        "passage_id": "submission:41:purpose",
+        "snippet": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.shopify.com/",
+        "final_url": "https://www.shopify.com/",
+        "source_kind": "official",
+        "content_sha256": "eee73a669b12a96e38ddf43c3d10acbf699430ddefc1988b54eab666f72ce38a",
+        "retrieved_at": "2026-09-17T19:05:27.550447+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/041-purpose-source.json",
+        "source_capture_sha256": "909f2f214d75d868a672282a87a3f770464dbc121c9d87101a09d10fa6448657",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 10,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Customizable open-source ecommerce platform built on WordPress.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:42:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 42,
+        "app": "WooCommerce",
+        "field": "purpose",
+        "passage_id": "submission:42:purpose",
+        "snippet": "WooCommerce is the open-source ecommerce platform that helps merchants and developers build successful businesses for the long term.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://woocommerce.com/",
+        "final_url": "https://woocommerce.com/",
+        "source_kind": "official",
+        "content_sha256": "4696f0855475d9c0ab9559db1cd5f579c3a24f739794868c8387cc103a8ea5b7",
+        "retrieved_at": "2026-09-17T19:05:28.187194+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/042-purpose-source.json",
+        "source_capture_sha256": "8b6c0718383288c0105d19804b682e51a2e70c93eeea2250f31d9ace3228251a",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Commerce platform for building online stores and buying experiences across brands, regions, and channels.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:43:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 43,
+        "app": "BigCommerce",
+        "field": "purpose",
+        "passage_id": "submission:43:purpose",
+        "snippet": "Power modern buying experiences across brands, regions, and channels",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.bigcommerce.com/",
+        "final_url": "https://www.bigcommerce.com/",
+        "source_kind": "official",
+        "content_sha256": "567a4c0ecbbef5ca5f15ff251ac645b66592b502142e7c69756cfbbed6539245",
+        "retrieved_at": "2026-09-17T19:05:29.086361+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/043-purpose-source.json",
+        "source_capture_sha256": "e444732fe62b47d19f5d332773b81f49dc84b2d588e0b83d152e113c1ae350bc",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 15,
+          "readable_pages": 1
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Salesforce commerce platform for digital storefronts and commerce across channels, using AI, data, and CRM.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:44:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 44,
+        "app": "Salesforce Commerce Cloud",
+        "field": "purpose",
+        "passage_id": "submission:44:purpose",
+        "snippet": "Commerce Cloud: AI-Powered Commerce for Every Channel",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.salesforce.com/commerce/",
+        "final_url": "https://www.salesforce.com/commerce/?bc=OTH",
+        "source_kind": "official",
+        "content_sha256": "ddd5e06a7a5af11e1b481a91d24e7cd605d00d9cffe0e0f8aa7b224b166d2c99",
+        "retrieved_at": "2026-09-17T19:05:29.470688+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/044-purpose-source.json",
+        "source_capture_sha256": "506efdcc3c41b2b13362e96663a7e40877e847a34c78ee10bcdfca9da3c6b520",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 11,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Enterprise digital commerce platform for storefronts and personalized B2B and B2C shopping experiences.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:45:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 45,
+        "app": "Magento (Adobe Commerce)",
+        "field": "purpose",
+        "passage_id": "submission:45:purpose",
+        "snippet": "Adobe Commerce (Magento): B2B & B2C Enterprise Solutions",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://business.adobe.com/products/commerce.html",
+        "final_url": "https://business.adobe.com/products/commerce.html",
+        "source_kind": "official",
+        "content_sha256": "f2d2f904b8ad136959f1e91030cb85784c44bbaa8170b4d72333ee1404800c99",
+        "retrieved_at": "2026-09-18",
+        "capture_type": "official_web_rendered_selected_body_lines",
+        "source_capture": "data/correction/submission-fixes-20260918/045-purpose-source.json",
+        "source_capture_sha256": "658a227c045404f9a03a57e5c6292001460e21cd4ac6fe3ceff44b1d019c33bb",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 11,
+          "readable_pages": 11
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Website builder with templates, AI building tools, and domains to establish and grow a business online.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:46:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 46,
+        "app": "Squarespace",
+        "field": "purpose",
+        "passage_id": "submission:46:purpose",
+        "snippet": "Website Builder – Easily Create Your Own Website — Squarespace",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.squarespace.com/",
+        "final_url": "https://www.squarespace.com/",
+        "source_kind": "official",
+        "content_sha256": "e9fd558921e0e3bc0b5aa32fb55cbf5d9353f034b996102ae908f401f3ada2db",
+        "retrieved_at": "2026-09-17T19:05:30.760474+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/046-purpose-source.json",
+        "source_capture_sha256": "288766083d00d8039cea576fa8ab9cd5383761d48334c1a1f6e8796aebf15f60",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 15,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Ecommerce platform to launch an online store or add one to an existing website.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:47:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 47,
+        "app": "Ecwid",
+        "field": "purpose",
+        "passage_id": "submission:47:purpose",
+        "snippet": "Launch your online store easily—no tech skills required. Build a brand-new ecommerce site or add an online store to your existing website. No",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.ecwid.com/",
+        "final_url": "https://www.ecwid.com/",
+        "source_kind": "official",
+        "content_sha256": "77cc30d3192ea95e11a7d06fe45782fbd5cd98f3719c484f685b9f257e56cad3",
+        "retrieved_at": "2026-09-17T19:05:29.739459+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/047-purpose-source.json",
+        "source_capture_sha256": "026ca233a571c318aec2345f780516cd5a36866a183c083fa17fafd6deadbbd1",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Official Gumroad API and help URLs returned no selectable body; indexed snippets cannot establish current authentication, access or full resource capabilities.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 0
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Platform for creators to sell their knowledge and products online and receive payments.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:48:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 48,
+        "app": "Gumroad",
+        "field": "purpose",
+        "passage_id": "submission:48:purpose",
+        "snippet": "Earn your first dollar online with Gumroad",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://gumroad.com/",
+        "final_url": "https://gumroad.com/",
+        "source_kind": "official",
+        "content_sha256": "30071885f05b8e47f1e6976395b0cf0eaac4d5ae4664dda68b3cf31bf7a754fd",
+        "retrieved_at": "2026-09-17T19:05:29.714134+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/048-purpose-source.json",
+        "source_capture_sha256": "96a159398690442e9fda53bffa632c6b31b3ee4ce92eb169a355c6a43deaebaa",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 4,
+          "readable_pages": 4
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Amazon selling-partner integration surface for order, shipment, payment, and related seller business data.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:49:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 49,
+        "app": "Amazon Selling Partner",
+        "field": "purpose",
+        "passage_id": "submission:49:purpose",
+        "snippet": "helps sellers and vendors access their data on orders, shipments, payments, inventory, and other business information.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://developer-docs.amazon.com/sp-api/docs/what-is-the-selling-partner-api",
+        "final_url": "https://developer-docs.amazon/sp-api/docs/what-is-the-selling-partner-api",
+        "source_kind": "official",
+        "content_sha256": "99454362528d42d7d23dec4421773650f0d908a1c9cb529dbf68c82c402d56fb",
+        "retrieved_at": "2026-09-17T19:07:17.098275+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/049-purpose-source.json",
+        "source_capture_sha256": "2264d1e619910d0cd75348f5d47e3143b3249b5ed566c04d705317228e533116",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Assigned Fanbasis domain now presents Commas. apidocs.fan requires JavaScript and returned only hidden bundled document content; rendered official API evidence and rebrand identity not established.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 6,
+          "readable_pages": 4
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Creator commerce platform, now branded Commas, combining checkouts, funnels, courses, communities, and payments.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Official page explicitly states FanBasis is now Commas; purpose only. Other app findings retain their existing host/identity caveats."
+        ],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:50:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 50,
+        "app": "fanbasis",
+        "field": "purpose",
+        "passage_id": "submission:50:purpose",
+        "snippet": "FanBasis is now Commas! One place to create, sell, and get paid, with payments built in.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.fanbasis.com/",
+        "final_url": "https://commas.com/",
+        "source_kind": "official",
+        "content_sha256": "289125c8e4a89b4d86e1727341bf080867e718d1c4c3b6d8dd03fd4047bf1867",
+        "retrieved_at": "2026-09-17T19:05:31.495644+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/050-purpose-source.json",
+        "source_capture_sha256": "86a6453467f6e5557685b2d36d630e721849d0868a1d30a5a84116c0abc9c9e1",
+        "exact": false,
+        "review_layer": "submission_fixes_agent_review",
+        "paraphrase": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 5
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Data provider for SEO and search marketing analytics used by software companies and agencies.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:51:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 51,
+        "app": "DataForSEO",
+        "field": "purpose",
+        "passage_id": "submission:51:purpose",
+        "snippet": "We provide comprehensive data solutions for SEO and SEM analytics via API. DataForSEO is a trusted partner for 750+ SEO software companies and",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://dataforseo.com/",
+        "final_url": "https://dataforseo.com/",
+        "source_kind": "official",
+        "content_sha256": "853c6ead973e710759f0be611620e30a2832f5c5987fb34a60787aa14025b421",
+        "retrieved_at": "2026-09-17T19:05:31.347023+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/051-purpose-source.json",
+        "source_capture_sha256": "5670b808e39b25ac298998f62b75361f8c0be45e72e107e1c80ff3384ec8926c",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Marketplace of ready-to-run automation tools for web data, competitor tracking, lead generation, and integrations.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:55:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 55,
+        "app": "Apify",
+        "field": "purpose",
+        "passage_id": "submission:55:purpose",
+        "snippet": "Thousands of tools to automate your business. Get real-time web data, track competitors, generate leads, and integrate your apps and AI agents.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://apify.com/",
+        "final_url": "https://apify.com/",
+        "source_kind": "official",
+        "content_sha256": "490011cd303823a36b81a10a9e20c7362b09dc9c6834e40e1e0abb33e27bef1e",
+        "retrieved_at": "2026-09-17T19:05:32.648677+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/055-purpose-source.json",
+        "source_capture_sha256": "40063e0b761cb8033d6b04706ab371d9cfaca2bdbca5d92e09e5169a5662024e",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 5
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "B2B data enrichment platform combining vendors to improve contact, email, and mobile-number coverage.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:59:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 59,
+        "app": "Waterfall.io",
+        "field": "purpose",
+        "passage_id": "submission:59:purpose",
+        "snippet": "The Waterfall enrichment API aggregating 30+ different data vendors so that you can maximize contact, email and mobile number coverage and optimize cost.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.waterfall.io/",
+        "final_url": "https://www.waterfall.io/",
+        "source_kind": "official",
+        "content_sha256": "8eaea8396f108d6b71a792f53c0fba2bb615505e189ebd3222d01945cbe8838d",
+        "retrieved_at": "2026-09-17T19:05:32.799902+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/059-purpose-source.json",
+        "source_capture_sha256": "5e0a69528f460c0598ae5d03ca04fba8d65dd3ac84e334816d47115c10f063db",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 14
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Go-to-market platform for gathering data, running agent workflows, and launching revenue plays.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:60:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 60,
+        "app": "Clay",
+        "field": "purpose",
+        "passage_id": "submission:60:purpose",
+        "snippet": "Infrastructure to get any data, run agentic workflows, and launch GTM plays.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.clay.com/",
+        "final_url": "https://www.clay.com/",
+        "source_kind": "official",
+        "content_sha256": "3ab3926326b085d8ea616cb2490deb1ff7e81b88b8fbbe1640eb5c4c65f6f9e5",
+        "retrieved_at": "2026-09-17T19:05:32.019592+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/060-purpose-source.json",
+        "source_capture_sha256": "38db3627217eeddc1b610d59760782845fac4397fc3d7b0571ae8674721d49ac",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 22,
+          "readable_pages": 21
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Software development collaboration platform for discovering, building, and contributing to projects.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:61:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 61,
+        "app": "GitHub",
+        "field": "purpose",
+        "passage_id": "submission:61:purpose",
+        "snippet": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://github.com/about",
+        "final_url": "https://github.com/about",
+        "source_kind": "official",
+        "content_sha256": "f3ae02aaba323df4a5835cc49721a4066afddc4e124918e87e49f7e7b68d9ca0",
+        "retrieved_at": "2026-09-17T19:05:32.418044+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/061-purpose-source.json",
+        "source_capture_sha256": "c3406b5fbe13762a3f3ff354ae2825caf9d78f3d4db19a5c992bee0276d32716",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 14
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Infrastructure platform to deploy apps and agents, with global delivery, serverless functions, and deployment environments.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:62:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 62,
+        "app": "Vercel",
+        "field": "purpose",
+        "passage_id": "submission:62:purpose",
+        "snippet": "Global Delivery\nDeployment Environments\nServerless Functions",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://vercel.com/",
+        "final_url": "https://vercel.com/",
+        "source_kind": "official",
+        "content_sha256": "5cc8a50e09fce0daf4e6821ca0e2bc44eb16b81009d8ec0bd8ea778372e67b8d",
+        "retrieved_at": "2026-09-17T19:05:32.543104+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/062-purpose-source.json",
+        "source_capture_sha256": "ddd91f735b0eb0666a0224b999017f4606f2df753f0a0ce70aa1e985af89970b",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 10,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Platform to build and deploy web applications on production infrastructure using code or AI.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:63:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 63,
+        "app": "Netlify",
+        "field": "purpose",
+        "passage_id": "submission:63:purpose",
+        "snippet": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.netlify.com/",
+        "final_url": "https://www.netlify.com/",
+        "source_kind": "official",
+        "content_sha256": "0ea1bf65fd94e1935321ef52a86cec86d94f0ffc31d5f8be3cfd652e10e2daa6",
+        "retrieved_at": "2026-09-17T19:05:32.791787+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/063-purpose-source.json",
+        "source_capture_sha256": "b29fe7c4ad4ac2750b80dad42a898f1dcdbd3a488de0a6e8c4997b10411c9c9b",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 16,
+          "readable_pages": 12
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Cloud platform to build, secure, and deliver applications, with network security, connectivity, and global compute.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:64:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 64,
+        "app": "Cloudflare",
+        "field": "purpose",
+        "passage_id": "submission:64:purpose",
+        "snippet": "One platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.cloudflare.com/",
+        "final_url": "https://www.cloudflare.com/",
+        "source_kind": "official",
+        "content_sha256": "6e5ec943a237437825f556ebe6d948582ac9512ccd5516a3bbb07cf5f76b4c6f",
+        "retrieved_at": "2026-09-17T19:05:33.411643+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/064-purpose-source.json",
+        "source_capture_sha256": "084af7fe34d2bfbb97371ae217df64c80276ba1c27d9a0bde13b9f4d1c0a084f",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 22,
+          "readable_pages": 20
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Graph data platform for connecting stored data and running complex queries at scale.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:66:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 66,
+        "app": "Neo4j",
+        "field": "purpose",
+        "passage_id": "submission:66:purpose",
+        "snippet": "Connect data as it's stored with Neo4j. Perform powerful, complex queries at scale and speed with our graph data platform.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://neo4j.com/",
+        "final_url": "https://neo4j.com/",
+        "source_kind": "official",
+        "content_sha256": "71d66dda34d5b4d9df24da9cde67cf87374d9077e96d76c6326031ca4d79ce86",
+        "retrieved_at": "2026-09-17T19:05:33.428470+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/066-purpose-source.json",
+        "source_capture_sha256": "852dc90eb5e5f3f33dad3d44634e73a8bc493cafd03714272369b72f755e3360",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 20,
+          "readable_pages": 19
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Managed cloud document database offering resilience, scalability, and enterprise security.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:68:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 68,
+        "app": "MongoDB Atlas",
+        "field": "purpose",
+        "passage_id": "submission:68:purpose",
+        "snippet": "Find out how the document model eliminates operational complexity while ensuring unmatched resilience, scalability, and enterprise-grade security through the Atlas cloud database.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.mongodb.com/products/platform/atlas-database",
+        "final_url": "https://www.mongodb.com/products/platform/atlas-database",
+        "source_kind": "official",
+        "content_sha256": "f0a1cbb1374c59a7d9eb065197e42b769162942bf3ceae48ffa6ad4cf52aeff9",
+        "retrieved_at": "2026-09-17T19:05:35.316017+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/068-purpose-source.json",
+        "source_capture_sha256": "97b1888eef2837b53afe2251bf9813cbf2fd60cdc52afacc8f57c5976a7a7dba",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 18,
+          "readable_pages": 18
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Cloud monitoring platform that brings metrics from applications, tools, and services into one place.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:69:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 69,
+        "app": "Datadog",
+        "field": "purpose",
+        "passage_id": "submission:69:purpose",
+        "snippet": "See inside any stack, any app, at any scale, anywhere.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.datadoghq.com/",
+        "final_url": "https://www.datadoghq.com/",
+        "source_kind": "official",
+        "content_sha256": "38037140979879165373ee930421cbac776683824806223ddc1cd0c4d5359987",
+        "retrieved_at": "2026-09-17T19:05:34.206908+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/069-purpose-source.json",
+        "source_capture_sha256": "297842d945a247da7c3c3dfd04607567389309dea20a4a7e5a8527e60f64c15f",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 14,
+          "readable_pages": 14
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Application performance monitoring and error tracking for developers and software teams.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:70:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 70,
+        "app": "Sentry",
+        "field": "purpose",
+        "passage_id": "submission:70:purpose",
+        "snippet": "Application performance monitoring for developers & software teams to see errors clearer, solve issues faster & continue learning continuously. Get started at sentry.io.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://sentry.io/welcome/",
+        "final_url": "https://sentry.io/welcome/",
+        "source_kind": "official",
+        "content_sha256": "5754c48495f7ea97a8110e805e09f3d238898f619b1ab550e77261ae820066f3",
+        "retrieved_at": "2026-09-17T19:05:35.408609+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/070-purpose-source.json",
+        "source_capture_sha256": "7860857ffe2418ae0c6e40394a647c27dd9daf7f3d5793121a8927829f39a218",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 14,
+          "successful_searches": 14,
+          "page_attempts": 16,
+          "readable_pages": 16
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Product development platform for planning, tracking issues, and building products with teams and AI agents.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:73:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 73,
+        "app": "Linear",
+        "field": "purpose",
+        "passage_id": "submission:73:purpose",
+        "snippet": "Purpose-built for planning and building products with AI agents.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://linear.app/",
+        "final_url": "https://linear.app/",
+        "source_kind": "official",
+        "content_sha256": "95253b971e5716b6c45edd490ef19dd04d3efba9dd6eca4c30a423191899edfb",
+        "retrieved_at": "2026-09-17T19:05:34.396402+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/073-purpose-source.json",
+        "source_capture_sha256": "a44c90841376654a5e16d55d43fae5cbdd5a23e7e62d11ec61418f19dd8be2b3",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 10,
+          "readable_pages": 10
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Work management software for teams and AI agents to plan, automate, and execute workflows.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:75:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 75,
+        "app": "Asana",
+        "field": "purpose",
+        "passage_id": "submission:75:purpose",
+        "snippet": "Asana: The OS for human-agent teams",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://asana.com/",
+        "final_url": "https://asana.com/",
+        "source_kind": "official",
+        "content_sha256": "6a0da3b18f4d54d20d272f83ea2387fc2002c2a1c4602703924b051d3c33cf38",
+        "retrieved_at": "2026-09-17T19:05:37.494467+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/075-purpose-source.json",
+        "source_capture_sha256": "10a5846d226357bf6d1bf39944c54382df50fc29083085791802146dee9f4fb5",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 22,
+          "readable_pages": 22
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Work platform where people and AI agents execute, manage, and operate business work together.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:76:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 76,
+        "app": "Monday.com",
+        "field": "purpose",
+        "passage_id": "submission:76:purpose",
+        "snippet": "Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://monday.com/",
+        "final_url": "https://monday.com/",
+        "source_kind": "official",
+        "content_sha256": "47c220bbe368ca10212d021e06b50279fddc92d04ada522381425bc85bd84aac",
+        "retrieved_at": "2026-09-17T19:05:36.110655+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/076-purpose-source.json",
+        "source_capture_sha256": "876d0c9f19d67cdae8313a3c854701a3924bcd5c0572224e1b2f42e7da0ad609",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Work management platform for projects, portfolios, workflow automation, and team coordination.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:79:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 79,
+        "app": "Smartsheet",
+        "field": "purpose",
+        "passage_id": "submission:79:purpose",
+        "snippet": "Manage projects, automate workflows, and build solutions at scale with Smartsheet.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.smartsheet.com/",
+        "final_url": "https://www.smartsheet.com/",
+        "source_kind": "official",
+        "content_sha256": "0caaaa893412626f17752356084b19660ca4dffef6a09bd5fcae1dc4a845bd0f",
+        "retrieved_at": "2026-09-17T19:05:35.916947+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/079-purpose-source.json",
+        "source_capture_sha256": "d894807d1aff111394dbfb188b7d2893294cf2044878e9a5a8e510543fb3f9b7",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 7,
+          "readable_pages": 7
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Time tracking and management software with reporting and online invoicing.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:80:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 80,
+        "app": "Harvest",
+        "field": "purpose",
+        "passage_id": "submission:80:purpose",
+        "snippet": "Time tracking and management software with powerful easy reporting and streamlined online invoicing. Loved by 73,000 businesses. Get started for free.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.getharvest.com/",
+        "final_url": "https://www.getharvest.com/",
+        "source_kind": "official",
+        "content_sha256": "e5e196035737d2c5387e0566d5585ef4e43e13c7faaea1100887ccf9a2650277",
+        "retrieved_at": "2026-09-17T19:05:35.934401+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/080-purpose-source.json",
+        "source_capture_sha256": "07badbc46a5d615bb34c1010d6a512524beb0d83217b226d09efb01241607e01",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "Targeted integration documentation does not establish a concise assigned-product purpose claim independently of adjacent services.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "targeted_official_source_agent_review",
+        "fresh_human_verification": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 15,
+          "readable_pages": 14
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Financial services platform for businesses to accept payments, manage billing, and move money.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:81:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 81,
+        "app": "Stripe",
+        "field": "purpose",
+        "passage_id": "submission:81:purpose",
+        "snippet": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://stripe.com/",
+        "final_url": "https://stripe.com/in",
+        "source_kind": "official",
+        "content_sha256": "c10e3350bd3186004e58e8c143f4fa7ae85184f4c76972c8cdbdbf57db070ecd",
+        "retrieved_at": "2026-09-17T19:05:38.532780+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/081-purpose-source.json",
+        "source_capture_sha256": "5f8677eac14df5150988444b5ce3e1805e8f01bb69b6ac04ceab649122d8390a",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 12
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Financial connectivity platform that lets people securely connect financial data to apps and services.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:82:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 82,
+        "app": "Plaid",
+        "field": "purpose",
+        "passage_id": "submission:82:purpose",
+        "snippet": "Plaid helps all companies build fintech solutions by making it easy, safe and reliable for people to connect their financial data to apps",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://plaid.com/",
+        "final_url": "https://plaid.com/",
+        "source_kind": "official",
+        "content_sha256": "9a7f7af4524d0a933866d4e52f6ab622e299f3be7b70628381b693fbb9590968",
+        "retrieved_at": "2026-09-17T19:05:37.966974+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/082-purpose-source.json",
+        "source_capture_sha256": "8bc86084a0fc1492cf63e833c85565a88650fa123f5596d4d4c52b1df53a6731",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 10,
+          "readable_pages": 2
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Cryptocurrency exchange and blockchain ecosystem with digital-asset trading and related financial products.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:83:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 83,
+        "app": "Binance",
+        "field": "purpose",
+        "passage_id": "submission:83:purpose",
+        "snippet": "Binance is the world’s leading blockchain ecosystem, with a product suite that includes the largest digital asset exchange.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.binance.com/en/about",
+        "final_url": "https://www.binance.com/en/about",
+        "source_kind": "official",
+        "content_sha256": "ac117252b17b89cad057397d7c7695ed8efb7d6910b1b3fc93d8ce2d7dbe21fd",
+        "retrieved_at": "2026-09-18",
+        "capture_type": "official_web_rendered_selected_body_lines",
+        "source_capture": "data/correction/submission-fixes-20260918/083-purpose-source.json",
+        "source_capture_sha256": "99831bf8ea1b31f2b42f55331ecc5b9091d75e0c873f3219e68d29c30b68e146",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 13,
+          "readable_pages": 13
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Cloud accounting software for bookkeeping, invoicing, bill payments, payroll, and financial reporting.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:86:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 86,
+        "app": "QuickBooks",
+        "field": "purpose",
+        "passage_id": "submission:86:purpose",
+        "snippet": "QuickBooks is scalable, cloud-based accounting software for all types of businesses.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://quickbooks.intuit.com/",
+        "final_url": "https://quickbooks.intuit.com/",
+        "source_kind": "official",
+        "content_sha256": "fa987aa5ee16d8b02e23eab03e7689079286789e0b1a98657c43afa19ed6bd60",
+        "retrieved_at": "2026-09-18",
+        "capture_type": "official_web_rendered_selected_body_lines",
+        "source_capture": "data/correction/submission-fixes-20260918/086-purpose-source.json",
+        "source_capture_sha256": "3630ea6024b1b8b0d7c66a4a66a70cfb1118740eabc331237f48e7c6405359f8",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 11,
+          "readable_pages": 11
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Small-business accounting software connecting businesses with banks, accountants, bookkeepers, and other apps.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:87:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 87,
+        "app": "Xero",
+        "field": "purpose",
+        "passage_id": "submission:87:purpose",
+        "snippet": "Xero software for small businesses connects you to your bank, accountant, bookkeeper, and other business apps. Start a free trial today.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.xero.com/",
+        "final_url": "https://www.xero.com/",
+        "source_kind": "official",
+        "content_sha256": "951f960315ea5134b28e6f62bf8f98a6013296e245af2e29993fe83b69753d7c",
+        "retrieved_at": "2026-09-17T19:05:37.845416+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/087-purpose-source.json",
+        "source_capture_sha256": "6f41b3963fda3411d7c3a57833aa93b83194945a0c1c558f2b2ecc3a2e687e35",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Business finance platform for company cards, expense management, banking, and financial process automation.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:88:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 88,
+        "app": "Brex",
+        "field": "purpose",
+        "passage_id": "submission:88:purpose",
+        "snippet": "Simplify expense management with Brex's finance platform. From company cards to banking, Brex helps you drive growth, automate processes, & earn more.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://www.brex.com/",
+        "final_url": "https://www.brex.com/",
+        "source_kind": "official",
+        "content_sha256": "55f975d51dc8b4f6fe9527fcb585ffae40a792d3a95047c048c3fe520907cca9",
+        "retrieved_at": "2026-09-17T19:05:38.875664+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/088-purpose-source.json",
+        "source_capture_sha256": "dae7e7dcbe49899b92f2fbd584097534014deb9efeb5cf6e203bd63158aac66c",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 8,
+          "readable_pages": 8
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Spend management platform combining corporate cards, expenses, bill payments, banking, and accounting automation.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:89:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 89,
+        "app": "Ramp",
+        "field": "purpose",
+        "passage_id": "submission:89:purpose",
+        "snippet": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://ramp.com/",
+        "final_url": "https://ramp.com/",
+        "source_kind": "official",
+        "content_sha256": "11be54a75acefae772dd13e5fbc5bb28bbfca2f77827547dee73120b48aa7910",
+        "retrieved_at": "2026-09-18",
+        "capture_type": "official_web_rendered_selected_body_lines",
+        "source_capture": "data/correction/submission-fixes-20260918/089-purpose-source.json",
+        "source_capture_sha256": "b665a7e8b62dd245f877a8f02386fbe1c7024c2840afab742909607182da5901",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 3,
+          "readable_pages": 2
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "AI meeting assistant for real-time transcription, summaries, insights, action items, and live chat.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:92:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 92,
+        "app": "Otter AI",
+        "field": "purpose",
+        "passage_id": "submission:92:purpose",
+        "snippet": "Otter AI Meeting Agent supports real-time transcription, live chat, automated summaries, insights, and action items.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://otter.ai/",
+        "final_url": "https://otter.ai/",
+        "source_kind": "official",
+        "content_sha256": "e936a9dc294bce20fc28244374e90bfb263a52719b167fc0b36db5f9cc5812d4",
+        "retrieved_at": "2026-09-17T19:05:43.205622+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/092-purpose-source.json",
+        "source_capture_sha256": "61c547f9c1e4be7c8069ca9cfc9c4e512d649e993f7834e9a6e5f80b73594497",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 5,
+          "readable_pages": 5
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "AI notetaker that records, transcribes, and summarizes video meetings and supports team CRM updates.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:93:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 93,
+        "app": "Fathom",
+        "field": "purpose",
+        "passage_id": "submission:93:purpose",
+        "snippet": "Fathom captures, transcribes, and summarizes Zoom, Google Meet, and Microsoft Teams calls. Free for individuals, with AI-powered CRM updates for teams.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://fathom.video/",
+        "final_url": "https://www.fathom.ai/",
+        "source_kind": "official",
+        "content_sha256": "7afe8ca502eda37a5ffd3d921abf49cf09e78454dffde201e6740a8ee5a0f415",
+        "retrieved_at": "2026-09-17T19:05:39.960455+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/093-purpose-source.json",
+        "source_capture_sha256": "4e101399a41205af79638476ab74d8685c682c13a62b493fd8f411b4e7c8f584",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "field": "purpose",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for purpose",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 11,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "AI academic search engine for finding, organizing, and analyzing peer-reviewed scientific literature.",
+      "field_status": {
+        "status": "source_backed",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:94:purpose"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 94,
+        "app": "Consensus",
+        "field": "purpose",
+        "passage_id": "submission:94:purpose",
+        "snippet": "Consensus: AI for Research",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://consensus.app/",
+        "final_url": "https://consensus.app/",
+        "source_kind": "official",
+        "content_sha256": "22843fd9364b3f8681710cf28091ed2dad31a6a82b7eecdee30bc8dfddc0ec0a",
+        "retrieved_at": "2026-09-17T19:05:39.105949+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/094-purpose-source.json",
+        "source_capture_sha256": "dee3c5888868bc4377c45386e99766f9f6d16a01ea786c1b3a5449c6fc2186f9",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "mcp_available",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for mcp_available",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "yes",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Official hosted MCP; OAuth consent, approved scopes and selected sub-account boundaries apply. Agency-wide access is rolling out; not executed or certified for every operation."
+        ],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:134:mcp_available"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 34,
+        "app": "GoHighLevel",
+        "field": "mcp_available",
+        "passage_id": "submission:134:mcp_available",
+        "snippet": "LeadConnector MCP connections use\nOAuth",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "final_url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "source_kind": "official",
+        "content_sha256": "344510e6b12e648a846fa2f69c58119e8c1cf3e006f285647e45c865df5aa01d",
+        "retrieved_at": "2026-09-17T19:07:14.664311+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/134-purpose-source.json",
+        "source_capture_sha256": "b4bf94f5896b67622d570eddffeb6498fe37dc54845f69895b87580dd0b7eba5",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "mcp_provider",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for mcp_provider",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:provider",
+          "note": "HighLevel / LeadConnector hosted MCP server documented on the official HighLevel site.",
+          "atom_id": "submission-34-mcp"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Official hosted MCP; OAuth consent, approved scopes and selected sub-account boundaries apply. Agency-wide access is rolling out; not executed or certified for every operation."
+        ],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:134:mcp_provider"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 34,
+        "app": "GoHighLevel",
+        "field": "mcp_provider",
+        "passage_id": "submission:134:mcp_provider",
+        "snippet": "LeadConnector MCP connections use\nOAuth",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "final_url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "source_kind": "official",
+        "content_sha256": "344510e6b12e648a846fa2f69c58119e8c1cf3e006f285647e45c865df5aa01d",
+        "retrieved_at": "2026-09-17T19:07:14.664311+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/134-purpose-source.json",
+        "source_capture_sha256": "b4bf94f5896b67622d570eddffeb6498fe37dc54845f69895b87580dd0b7eba5",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "mcp_ownership",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for mcp_ownership",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": [
+        {
+          "surface": "mcp_native",
+          "label": "mcp:vendor_owned",
+          "note": "Official HighLevel / LeadConnector server on services.leadconnectorhq.com.",
+          "atom_id": "submission-34-owner"
+        }
+      ],
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Official hosted MCP; OAuth consent, approved scopes and selected sub-account boundaries apply. Agency-wide access is rolling out; not executed or certified for every operation."
+        ],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:134:mcp_ownership"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 34,
+        "app": "GoHighLevel",
+        "field": "mcp_ownership",
+        "passage_id": "submission:134:mcp_ownership",
+        "snippet": "LeadConnector MCP connections use\nOAuth",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "final_url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "source_kind": "official",
+        "content_sha256": "344510e6b12e648a846fa2f69c58119e8c1cf3e006f285647e45c865df5aa01d",
+        "retrieved_at": "2026-09-17T19:07:14.664311+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/134-purpose-source.json",
+        "source_capture_sha256": "b4bf94f5896b67622d570eddffeb6498fe37dc54845f69895b87580dd0b7eba5",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "field": "mcp_notes",
+    "before": {
+      "findings": "unknown",
+      "field_status": {
+        "status": "unresolved",
+        "reason": "No independently supported assigned-product evidence for mcp_notes",
+        "caveats": [],
+        "derivation": false,
+        "rejected_candidate_reasons": [],
+        "research_attempt": {
+          "searches": 13,
+          "successful_searches": 13,
+          "page_attempts": 9,
+          "readable_pages": 9
+        }
+      },
+      "field_refs": []
+    },
+    "after": {
+      "findings": "Official hosted LeadConnector MCP uses OAuth. Operations depend on granted scopes and selected sub-accounts; agency-wide multi-account rollout is conditional. API auth is a separate surface.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Official hosted MCP; OAuth consent, approved scopes and selected sub-account boundaries apply. Agency-wide access is rolling out; not executed or certified for every operation."
+        ],
+        "derivation": false,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:134:mcp_notes"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 34,
+        "app": "GoHighLevel",
+        "field": "mcp_notes",
+        "passage_id": "submission:134:mcp_notes",
+        "snippet": "LeadConnector MCP connections use\nOAuth",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "final_url": "https://marketplace.gohighlevel.com/docs/other/mcp/index.html",
+        "source_kind": "official",
+        "content_sha256": "344510e6b12e648a846fa2f69c58119e8c1cf3e006f285647e45c865df5aa01d",
+        "retrieved_at": "2026-09-17T19:07:14.664311+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/134-purpose-source.json",
+        "source_capture_sha256": "b4bf94f5896b67622d570eddffeb6498fe37dc54845f69895b87580dd0b7eba5",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "field": "primary_blocker",
+    "before": {
+      "findings": "access:admin_permission: Certain OAuth scopes like crm.objects.users.read require the user to have Super Admin or 'Add and edit users' permissions to authorize. [primary]; access:admin_permission: Super Admin permission is required to set up content approval workflows and approve content in HubSpot. [primary]; access:admin_permission: Super Admin permissions are required to export payment reports in HubSpot payments. [primary]",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Documented constraint; not a claim that all blockers are known",
+        "caveats": [
+          "Inspected documentation only; route alternatives and full prerequisite inventory are not certified.",
+          "Final projection is a subset of independently reviewed retained atoms after strict semantic guards; no new app fact asserted."
+        ],
+        "derivation": false
+      },
+      "field_refs": [
+        "d6:b11",
+        "d6:b8",
+        "d9:b75",
+        "d11:b208"
+      ]
+    },
+    "after": {
+      "findings": "Required API scopes and account-tier entitlement; multi-account apps need OAuth, while static bearer auth is limited to one account.",
+      "field_status": {
+        "status": "source_backed_with_caveat",
+        "reason": "Bounded official-source submission correction; documentation only, not executed integration verification.",
+        "caveats": [
+          "Resource and distribution specific; UI content approvals and payment-export permissions are not generic API onboarding gates."
+        ],
+        "derivation": true,
+        "review_layer": "submission_fixes_agent_review",
+        "fresh_human_verification": false
+      },
+      "field_refs": [
+        "submission:102:primary_blocker",
+        "submission:202:primary_blocker"
+      ]
+    },
+    "evidence": [
+      {
+        "id": 2,
+        "app": "HubSpot",
+        "field": "primary_blocker",
+        "passage_id": "submission:102:primary_blocker",
+        "snippet": "OAuth is required for multiple accounts",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+        "source_kind": "official",
+        "content_sha256": "8328f93f5d7f5b1a9f12a471edbc3798fbf42b2c08aa4954372e1d335cd8eed6",
+        "retrieved_at": "2026-09-17T19:07:15.303794+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/102-purpose-source.json",
+        "source_capture_sha256": "3a4ffe29113829dda528da6574558e0fd4a7f14a3c00ec1dfbce2e3958dde565",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      },
+      {
+        "id": 2,
+        "app": "HubSpot",
+        "field": "primary_blocker",
+        "passage_id": "submission:202:primary_blocker",
+        "snippet": "Access to specific APIs or endpoints depends on HubSpot account tier.",
+        "heading": "Official product or documentation excerpt",
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes",
+        "final_url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes",
+        "source_kind": "official",
+        "content_sha256": "332e0ff378bbd10ca08b9385bf731b8cbbc9e4c018239890dc655886697904c7",
+        "retrieved_at": "2026-09-17T19:07:16.286421+00:00",
+        "capture_type": "official_html_metadata_and_visible_text",
+        "source_capture": "data/correction/submission-fixes-20260918/202-purpose-source.json",
+        "source_capture_sha256": "56f45ab8486c0ff52b2dc6b8ed1fe8c10554da3f3fa66d42b8c6f2e556a30384",
+        "exact": true,
+        "review_layer": "submission_fixes_agent_review"
+      }
+    ]
+  }
+]

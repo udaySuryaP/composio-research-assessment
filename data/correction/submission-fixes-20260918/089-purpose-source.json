@@ -1,0 +1,17 @@
+{
+  "id": 89,
+  "requested_url": "https://ramp.com/",
+  "final_url": "https://ramp.com/",
+  "retrieved_at": "2026-09-18",
+  "ok": true,
+  "text": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp\nCards, expenses, bill payments, and banking – in the blink of AI.\nAccounting automation eliminates month-end madness",
+  "content_sha256": "11be54a75acefae772dd13e5fbc5bb28bbfca2f77827547dee73120b48aa7910",
+  "selected_quote": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+  "capture_type": "official_web_rendered_selected_body_lines",
+  "full_page_capture": false,
+  "capture_note": "Selected official rendered lines observed with the web tool; whitespace/link labels normalized. Not a full page capture.",
+  "prior_http_attempt": {
+    "requested_url": "https://ramp.com/",
+    "ok": true
+  }
+}

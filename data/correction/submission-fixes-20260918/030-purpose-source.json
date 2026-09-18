@@ -1,0 +1,18 @@
+{
+  "id": 30,
+  "requested_url": "https://www.vonage.com/communications-apis/",
+  "final_url": "https://www.vonage.com/communications-apis/",
+  "retrieved_at": "2026-09-18",
+  "ok": true,
+  "text": "Vonage Communications APIs\nMessaging\nVoice API\nVideo API\nFraud Protection\nVerify (2FA)\nIdentity Insights",
+  "content_sha256": "512e119e20981538b17b718d362dd208075157949e8c919104d63bdcb941a042",
+  "selected_quote": "Vonage Communications APIs",
+  "capture_type": "official_web_rendered_selected_body_lines",
+  "full_page_capture": false,
+  "capture_note": "Selected official rendered lines observed with the web tool; whitespace/link labels normalized. Not a full page capture.",
+  "prior_http_attempt": {
+    "requested_url": "https://www.vonage.com/communications-apis/",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  }
+}

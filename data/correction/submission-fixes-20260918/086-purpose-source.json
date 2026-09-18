@@ -1,0 +1,18 @@
+{
+  "id": 86,
+  "requested_url": "https://quickbooks.intuit.com/",
+  "final_url": "https://quickbooks.intuit.com/",
+  "retrieved_at": "2026-09-18",
+  "ok": true,
+  "text": "QuickBooks is scalable, cloud-based accounting software for all types of businesses.\nQuickBooks connects to your bank and apps to automate bookkeeping, invoicing, bill pay, payroll, and financial reporting.",
+  "content_sha256": "fa987aa5ee16d8b02e23eab03e7689079286789e0b1a98657c43afa19ed6bd60",
+  "selected_quote": "QuickBooks is scalable, cloud-based accounting software for all types of businesses.",
+  "capture_type": "official_web_rendered_selected_body_lines",
+  "full_page_capture": false,
+  "capture_note": "Selected official rendered lines observed with the web tool; whitespace/link labels normalized. Not a full page capture.",
+  "prior_http_attempt": {
+    "requested_url": "https://quickbooks.intuit.com/global/",
+    "ok": false,
+    "error": "The read operation timed out"
+  }
+}

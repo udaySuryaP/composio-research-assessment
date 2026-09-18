@@ -8,13 +8,15 @@ from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
 ART = ROOT / 'submission/composio-assessment-uday.html'
-EXPECTED = '0236cf4124273b73d76dd7ba925ab77963da405c1a23c1e97c3fb6e0a338706b'
-INPUT = ROOT / 'data/correction/fresh-independent-verification-20260917/final-corrected-dataset.json'
+MANIFEST = ROOT / 'submission/release.json'
+INPUT = ROOT / 'data/correction/submission-fixes-20260918/final-corrected-dataset.json'
 
 def check():
     data = ART.read_bytes()
-    assert hashlib.sha256(data).hexdigest() == EXPECTED
-    assert len(data) == 7_564_014 and len(data) < 10_000_000
+    release = json.loads(MANIFEST.read_text(encoding='utf-8-sig'))
+    expected = release['sha256']
+    assert hashlib.sha256(data).hexdigest() == expected
+    assert len(data) == release['bytes'] and len(data) < 10_000_000
     text = data.decode('utf-8')
     payload = json.loads(re.search(r'<script id="reviewed-data" type="application/json">(.*?)</script>', text, re.S)[1])
     rows = payload['rows']
@@ -23,7 +25,7 @@ def check():
     assert len({r['category'] for r in rows}) == 10
     assert payload['input_sha256'] == hashlib.sha256(INPUT.read_bytes()).hexdigest()
     source = json.loads(INPUT.read_text(encoding='utf-8-sig'))
-    assert Counter(s['status'] for r in source for s in r['field_status'].values()) == {'source_backed':45,'source_backed_with_caveat':798,'unresolved':457}
+    assert Counter(s['status'] for r in source for s in r['field_status'].values()) == release['status_counts']
     assert [len(payload['patterns']['candidate_groups'][k]) for k in ['likely_buildable_from_public_docs','buildable_with_documented_constraints','gated_or_outreach_required','needs_further_investigation','unresolved']] == [1,65,11,6,17]
     def strings(v):
         if isinstance(v, str): yield v
@@ -39,7 +41,11 @@ def check():
     assert not re.search(r'<script[^>]+src=|<link[^>]+href=', text)
     rebuilt = ROOT / 'final-artifact-20260917/composio-assessment-uday.html'
     assert rebuilt.read_bytes() == data
-    result = {'status':'PASS','bytes':len(data),'sha256':EXPECTED,'apps':100,'categories':10,'security':'PASS','accepted_bytes_equal':True}
+    assert 'publication and submission are pending' not in text
+    assert 'do not yet contain this artifact' not in text
+    assert 'Credential access and gates by category' in text
+    assert 'Three observed corrections' in text
+    result = {'status':'PASS','bytes':len(data),'sha256':expected,'apps':100,'categories':10,'security':'PASS','accepted_bytes_equal':True}
     print(json.dumps(result))
     return data
 
