@@ -1,0 +1,18 @@
+{
+  "id": 45,
+  "requested_url": "https://business.adobe.com/products/commerce.html",
+  "final_url": "https://business.adobe.com/products/commerce.html",
+  "retrieved_at": "2026-09-18",
+  "ok": true,
+  "text": "Adobe Commerce (Magento): B2B & B2C Enterprise Solutions | Adobe\nAdobe Commerce\nCreate commerce experiences that drive sales with high-performing online storefronts and generative AI-powered content creation tools.",
+  "content_sha256": "f2d2f904b8ad136959f1e91030cb85784c44bbaa8170b4d72333ee1404800c99",
+  "selected_quote": "Adobe Commerce (Magento): B2B & B2C Enterprise Solutions",
+  "capture_type": "official_web_rendered_selected_body_lines",
+  "full_page_capture": false,
+  "capture_note": "Selected official rendered lines observed with the web tool; whitespace/link labels normalized. Not a full page capture.",
+  "prior_http_attempt": {
+    "requested_url": "https://business.adobe.com/products/commerce.html",
+    "ok": false,
+    "error": "The read operation timed out"
+  }
+}

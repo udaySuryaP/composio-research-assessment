@@ -1,17 +1,17 @@
 {
-  "input_sha256": "26e3cff73fdb3f5bf6d0238ae3c9217e0023e49dd3159d08ffc0022f5b7dc038",
+  "input_sha256": "8e476aebd5bdcf5a8f2a7efcb3bf81508c9e15afd772edf29fa940360e31f5ab",
   "records": 100,
   "field_dispositions": 1300,
   "status_counts": {
-    "source_backed": 45,
-    "source_backed_with_caveat": 798,
-    "unresolved": 457
+    "source_backed": 95,
+    "source_backed_with_caveat": 803,
+    "unresolved": 402
   },
   "field_coverage": {
     "purpose": {
-      "source_backed": 45,
-      "unresolved": 53,
-      "source_backed_with_caveat": 2
+      "source_backed": 95,
+      "source_backed_with_caveat": 3,
+      "unresolved": 2
     },
     "auth_methods": {
       "source_backed_with_caveat": 87,
@@ -34,20 +34,20 @@
       "unresolved": 21
     },
     "mcp_available": {
-      "unresolved": 58,
-      "source_backed_with_caveat": 42
+      "unresolved": 57,
+      "source_backed_with_caveat": 43
     },
     "mcp_provider": {
-      "unresolved": 55,
-      "source_backed_with_caveat": 45
+      "unresolved": 54,
+      "source_backed_with_caveat": 46
     },
     "mcp_ownership": {
-      "unresolved": 63,
-      "source_backed_with_caveat": 37
+      "unresolved": 62,
+      "source_backed_with_caveat": 38
     },
     "mcp_notes": {
-      "unresolved": 55,
-      "source_backed_with_caveat": 45
+      "unresolved": 54,
+      "source_backed_with_caveat": 46
     },
     "buildability": {
       "source_backed_with_caveat": 83,
@@ -1085,7 +1085,7 @@
     },
     "mcp_availability": {
       "field": "mcp_available",
-      "denominator": 42,
+      "denominator": 43,
       "eligible_ids": [
         3,
         4,
@@ -1103,6 +1103,7 @@
         25,
         28,
         32,
+        34,
         37,
         40,
         52,
@@ -1130,7 +1131,7 @@
         99,
         100
       ],
-      "unresolved": 58,
+      "unresolved": 57,
       "unresolved_ids": [
         1,
         2,
@@ -1149,7 +1150,6 @@
         30,
         31,
         33,
-        34,
         35,
         36,
         38,
@@ -1193,7 +1193,7 @@
       ],
       "values": {
         "yes": {
-          "count": 42,
+          "count": 43,
           "ids": [
             3,
             4,
@@ -1211,6 +1211,7 @@
             25,
             28,
             32,
+            34,
             37,
             40,
             52,
@@ -1244,7 +1245,7 @@
     },
     "mcp_provider": {
       "field": "mcp_provider",
-      "denominator": 45,
+      "denominator": 46,
       "eligible_ids": [
         3,
         4,
@@ -1263,6 +1264,7 @@
         25,
         28,
         32,
+        34,
         37,
         40,
         52,
@@ -1292,7 +1294,7 @@
         99,
         100
       ],
-      "unresolved": 55,
+      "unresolved": 54,
       "unresolved_ids": [
         1,
         2,
@@ -1310,7 +1312,6 @@
         30,
         31,
         33,
-        34,
         35,
         36,
         38,
@@ -1352,7 +1353,7 @@
       ],
       "values": {
         "mcp_native": {
-          "count": 45,
+          "count": 46,
           "ids": [
             3,
             4,
@@ -1371,6 +1372,7 @@
             25,
             28,
             32,
+            34,
             37,
             40,
             52,
@@ -1406,7 +1408,7 @@
     },
     "mcp_ownership": {
       "field": "mcp_ownership",
-      "denominator": 37,
+      "denominator": 38,
       "eligible_ids": [
         3,
         4,
@@ -1423,6 +1425,7 @@
         25,
         28,
         32,
+        34,
         37,
         40,
         52,
@@ -1446,7 +1449,7 @@
         99,
         100
       ],
-      "unresolved": 63,
+      "unresolved": 62,
       "unresolved_ids": [
         1,
         2,
@@ -1466,7 +1469,6 @@
         30,
         31,
         33,
-        34,
         35,
         36,
         38,
@@ -1514,7 +1516,7 @@
       ],
       "values": {
         "mcp_native": {
-          "count": 37,
+          "count": 38,
           "ids": [
             3,
             4,
@@ -1531,6 +1533,7 @@
             25,
             28,
             32,
+            34,
             37,
             40,
             52,
@@ -2060,8 +2063,9 @@
           ]
         },
         "plans and commercial entitlement": {
-          "count": 14,
+          "count": 15,
           "ids": [
+            2,
             21,
             24,
             47,
@@ -2079,9 +2083,8 @@
           ]
         },
         "review, partner or outreach": {
-          "count": 15,
+          "count": 14,
           "ids": [
-            2,
             12,
             14,
             24,
@@ -2139,7 +2142,7 @@
         10
       ],
       "supported_counts": {
-        "purpose": 9,
+        "purpose": 10,
         "auth_methods": 9,
         "api_types": 7,
         "api_available": 10,
@@ -2174,7 +2177,7 @@
         20
       ],
       "supported_counts": {
-        "purpose": 6,
+        "purpose": 10,
         "auth_methods": 8,
         "api_types": 4,
         "api_available": 8,
@@ -2210,7 +2213,7 @@
         30
       ],
       "supported_counts": {
-        "purpose": 6,
+        "purpose": 10,
         "auth_methods": 10,
         "api_types": 5,
         "api_available": 10,
@@ -2246,16 +2249,16 @@
         40
       ],
       "supported_counts": {
-        "purpose": 5,
+        "purpose": 10,
         "auth_methods": 8,
         "api_types": 3,
         "api_available": 9,
         "api_breadth": 8,
         "access_model": 9,
-        "mcp_available": 3,
-        "mcp_provider": 3,
-        "mcp_ownership": 3,
-        "mcp_notes": 3,
+        "mcp_available": 4,
+        "mcp_provider": 4,
+        "mcp_ownership": 4,
+        "mcp_notes": 4,
         "buildability": 9,
         "buildability_rationale": 9,
         "primary_blocker": 4
@@ -2284,7 +2287,7 @@
         50
       ],
       "supported_counts": {
-        "purpose": 0,
+        "purpose": 10,
         "auth_methods": 9,
         "api_types": 7,
         "api_available": 10,
@@ -2319,7 +2322,7 @@
         60
       ],
       "supported_counts": {
-        "purpose": 6,
+        "purpose": 10,
         "auth_methods": 9,
         "api_types": 5,
         "api_available": 9,
@@ -2355,7 +2358,7 @@
         70
       ],
       "supported_counts": {
-        "purpose": 2,
+        "purpose": 10,
         "auth_methods": 9,
         "api_types": 5,
         "api_available": 10,
@@ -2390,7 +2393,7 @@
         80
       ],
       "supported_counts": {
-        "purpose": 5,
+        "purpose": 10,
         "auth_methods": 10,
         "api_types": 9,
         "api_available": 10,
@@ -2426,7 +2429,7 @@
         90
       ],
       "supported_counts": {
-        "purpose": 1,
+        "purpose": 8,
         "auth_methods": 8,
         "api_types": 3,
         "api_available": 8,
@@ -2462,7 +2465,7 @@
         100
       ],
       "supported_counts": {
-        "purpose": 7,
+        "purpose": 10,
         "auth_methods": 7,
         "api_types": 5,
         "api_available": 10,
@@ -2483,6 +2486,605 @@
       }
     }
   ],
+  "category_access": {
+    "categories": [
+      {
+        "category": "1. CRM and Sales",
+        "denominator": 10,
+        "access_evidence_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10
+        ],
+        "unresolved_ids": [
+          6,
+          8
+        ],
+        "supported_but_onboarding_unclassified_ids": [],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 7,
+            "ids": [
+              2,
+              3,
+              4,
+              5,
+              7,
+              9,
+              10
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 2,
+            "ids": [
+              1,
+              2
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 4,
+            "ids": [
+              1,
+              2,
+              4,
+              10
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 0,
+            "ids": []
+          },
+          "Partner / sales / credential outreach": {
+            "count": 1,
+            "ids": [
+              10
+            ]
+          }
+        }
+      },
+      {
+        "category": "2. Support and Helpdesk",
+        "denominator": 10,
+        "access_evidence_ids": [
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "unresolved_ids": [
+          13
+        ],
+        "supported_but_onboarding_unclassified_ids": [
+          16,
+          18
+        ],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 7,
+            "ids": [
+              11,
+              12,
+              14,
+              15,
+              17,
+              19,
+              20
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 0,
+            "ids": []
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 3,
+            "ids": [
+              15,
+              17,
+              20
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 2,
+            "ids": [
+              12,
+              14
+            ]
+          },
+          "Partner / sales / credential outreach": {
+            "count": 0,
+            "ids": []
+          }
+        }
+      },
+      {
+        "category": "3. Communications and Messaging",
+        "denominator": 10,
+        "access_evidence_ids": [
+          21,
+          22,
+          26,
+          27,
+          28,
+          29
+        ],
+        "unresolved_ids": [
+          23,
+          24,
+          25,
+          30
+        ],
+        "supported_but_onboarding_unclassified_ids": [],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 5,
+            "ids": [
+              22,
+              26,
+              27,
+              28,
+              29
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 1,
+            "ids": [
+              21
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 2,
+            "ids": [
+              26,
+              28
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 2,
+            "ids": [
+              28,
+              29
+            ]
+          },
+          "Partner / sales / credential outreach": {
+            "count": 1,
+            "ids": [
+              29
+            ]
+          }
+        }
+      },
+      {
+        "category": "4. Marketing, Ads, Email and Social",
+        "denominator": 10,
+        "access_evidence_ids": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40
+        ],
+        "unresolved_ids": [
+          37
+        ],
+        "supported_but_onboarding_unclassified_ids": [
+          40
+        ],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 5,
+            "ids": [
+              32,
+              34,
+              35,
+              36,
+              39
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 1,
+            "ids": [
+              35
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 1,
+            "ids": [
+              36
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 4,
+            "ids": [
+              31,
+              33,
+              35,
+              38
+            ]
+          },
+          "Partner / sales / credential outreach": {
+            "count": 1,
+            "ids": [
+              35
+            ]
+          }
+        }
+      },
+      {
+        "category": "5. Ecommerce",
+        "denominator": 10,
+        "access_evidence_ids": [
+          41,
+          43,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "unresolved_ids": [
+          42,
+          45
+        ],
+        "supported_but_onboarding_unclassified_ids": [],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 7,
+            "ids": [
+              41,
+              43,
+              46,
+              47,
+              48,
+              49,
+              50
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 1,
+            "ids": [
+              47
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 5,
+            "ids": [
+              41,
+              43,
+              44,
+              48,
+              49
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 0,
+            "ids": []
+          },
+          "Partner / sales / credential outreach": {
+            "count": 0,
+            "ids": []
+          }
+        }
+      },
+      {
+        "category": "6. Data, SEO and Scraping",
+        "denominator": 10,
+        "access_evidence_ids": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          60
+        ],
+        "unresolved_ids": [
+          59
+        ],
+        "supported_but_onboarding_unclassified_ids": [
+          58
+        ],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 6,
+            "ids": [
+              51,
+              52,
+              53,
+              54,
+              57,
+              60
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 3,
+            "ids": [
+              52,
+              53,
+              60
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 3,
+            "ids": [
+              53,
+              55,
+              57
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 1,
+            "ids": [
+              53
+            ]
+          },
+          "Partner / sales / credential outreach": {
+            "count": 2,
+            "ids": [
+              53,
+              56
+            ]
+          }
+        }
+      },
+      {
+        "category": "7. Developer, Infra and Data platforms",
+        "denominator": 10,
+        "access_evidence_ids": [
+          61,
+          62,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        "unresolved_ids": [
+          63,
+          64,
+          69
+        ],
+        "supported_but_onboarding_unclassified_ids": [],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 7,
+            "ids": [
+              61,
+              62,
+              65,
+              66,
+              67,
+              68,
+              70
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 0,
+            "ids": []
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 3,
+            "ids": [
+              61,
+              67,
+              68
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 0,
+            "ids": []
+          },
+          "Partner / sales / credential outreach": {
+            "count": 0,
+            "ids": []
+          }
+        }
+      },
+      {
+        "category": "8. Productivity and Project Management",
+        "denominator": 10,
+        "access_evidence_ids": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          79,
+          80
+        ],
+        "unresolved_ids": [
+          77,
+          78
+        ],
+        "supported_but_onboarding_unclassified_ids": [],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 8,
+            "ids": [
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              79,
+              80
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 0,
+            "ids": []
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 3,
+            "ids": [
+              74,
+              75,
+              76
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 1,
+            "ids": [
+              72
+            ]
+          },
+          "Partner / sales / credential outreach": {
+            "count": 0,
+            "ids": []
+          }
+        }
+      },
+      {
+        "category": "9. Finance and Fintech",
+        "denominator": 10,
+        "access_evidence_ids": [
+          81,
+          82,
+          87,
+          88,
+          89,
+          90
+        ],
+        "unresolved_ids": [
+          83,
+          84,
+          85,
+          86
+        ],
+        "supported_but_onboarding_unclassified_ids": [
+          89
+        ],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 4,
+            "ids": [
+              81,
+              82,
+              87,
+              88
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 2,
+            "ids": [
+              87,
+              90
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 3,
+            "ids": [
+              81,
+              87,
+              88
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 0,
+            "ids": []
+          },
+          "Partner / sales / credential outreach": {
+            "count": 2,
+            "ids": [
+              88,
+              90
+            ]
+          }
+        }
+      },
+      {
+        "category": "10. AI, Research and Media-native",
+        "denominator": 10,
+        "access_evidence_ids": [
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          98,
+          99,
+          100
+        ],
+        "unresolved_ids": [
+          97
+        ],
+        "supported_but_onboarding_unclassified_ids": [
+          98
+        ],
+        "labels": {
+          "Developer-obtainable credential route": {
+            "count": 5,
+            "ids": [
+              91,
+              92,
+              93,
+              95,
+              99
+            ]
+          },
+          "Paid plan / entitlement / usage gate": {
+            "count": 4,
+            "ids": [
+              92,
+              94,
+              96,
+              99
+            ]
+          },
+          "Admin / permissions / authorization gate": {
+            "count": 2,
+            "ids": [
+              91,
+              96
+            ]
+          },
+          "App review / provider access approval": {
+            "count": 0,
+            "ids": []
+          },
+          "Partner / sales / credential outreach": {
+            "count": 2,
+            "ids": [
+              92,
+              100
+            ]
+          }
+        }
+      }
+    ],
+    "rules": "Bounded agent reading of existing access qualification text and attached evidence; overlapping labels, each app counted once per label. Credential route is not proof of free/trial access. Permissions include resource scopes/consent. Review includes provider API-access approval, not ordinary OAuth consent. Named partner/commercial routes can coexist with private self-service routes; outreach can be conditional. Existing misleading gate labels are not counted verbatim. Unclassified access evidence does not establish onboarding. No absence-of-gate claim.",
+    "exclusions": {
+      "16": "Facebook-page login does not establish assigned LiveAgent API credential onboarding.",
+      "18": "Revocation rights do not establish credential creation.",
+      "31": "Token-onboarding detail not accepted as a developer-obtainable route; preserve approval finding only.",
+      "33": "Approval is not evidence of a paid plan; ordinary member consent is not public-app review.",
+      "38": "Trial approval is not unconditional self-service.",
+      "40": "Product trial alone does not establish developer credential access.",
+      "55": "Actor permission approval does not establish credential creation.",
+      "58": "Local installation does not establish credential creation.",
+      "89": "Accounting connection alone does not establish developer credentials.",
+      "98": "GitHub registry/Action token is not Mermaid CLI product credential onboarding."
+    }
+  },
   "candidate_groups": {
     "likely_buildable_from_public_docs": [
       34

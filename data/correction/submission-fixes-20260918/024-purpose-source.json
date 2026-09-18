@@ -1,0 +1,16 @@
+{
+  "id": 24,
+  "requested_url": "https://www.larksuite.com/",
+  "final_url": "https://www.larksuite.com/en_sg/",
+  "retrieved_at": "2026-09-17T19:05:27.270762+00:00",
+  "ok": true,
+  "text": " Lark unifies communication, knowledge, workflows, and business systems in an AI-powered workspace, giving AI the context to automate work and take action.\nLark | Productivity Superapp for Chat, Meetings, Docs & Projects\nLark is a productivity superapp for teams. Get chat, docs, meetings, workflow automations & AI for free all in one place.\nContext-Aware AI Workspace for Teams | Lark",
+  "content_sha256": "5999de35095d02fd2a83819b4069ea46ae081231f2a719fbe2b4ca54638cf77e",
+  "meta": [
+    " Lark unifies communication, knowledge, workflows, and business systems in an AI-powered workspace, giving AI the context to automate work and take action.",
+    "Lark | Productivity Superapp for Chat, Meetings, Docs & Projects",
+    "Lark is a productivity superapp for teams. Get chat, docs, meetings, workflow automations & AI for free all in one place."
+  ],
+  "capture_type": "official_html_metadata_and_visible_text",
+  "full_page_capture": false
+}

@@ -1,161 +1,170 @@
 [
   {
     "name": "desktop",
-    "viewport": {
-      "width": 1440,
-      "height": 1000
-    },
-    "offline": false,
     "status": "PASS",
     "geometry": {
       "viewport": 1440,
-      "pageWidth": 1440,
-      "matrixWidth": 2400,
-      "matrixContainerWidth": 1174
+      "pageWidth": 1440
     },
-    "assets": {
-      "externalAssets": 0,
-      "appIds": 100
-    },
+    "offline": false,
+    "javaScriptEnabled": true,
     "errors": [],
     "requests": [
-      "http://127.0.0.1:8765/composio-assessment-uday.html"
+      "http://127.0.0.1:8779/"
     ],
     "checks": [
-      "100 rows",
-      "no body overflow",
-      "search",
-      "category",
-      "combined filters",
-      "65 constrained",
-      "zero results",
-      "reset",
-      "unresolved evidence",
-      "caveated source links",
-      "download 100 reviewed rows",
-      "candidate anchor",
-      "no external assets or requests"
+      "100 rows / 12 required columns",
+      "8 candidate examples",
+      "category gate counts",
+      "current proof",
+      "HighLevel MCP yes",
+      "HubSpot blocker cleaned",
+      "no page overflow",
+      "all ten category filters",
+      "all readiness denominators",
+      "search and reset",
+      "new purpose evidence",
+      "combined filter",
+      "JSON download",
+      "candidate anchor"
     ]
   },
   {
     "name": "mobile",
-    "viewport": {
-      "width": 390,
-      "height": 844
-    },
-    "offline": false,
     "status": "PASS",
     "geometry": {
       "viewport": 390,
-      "pageWidth": 390,
-      "matrixWidth": 354,
-      "matrixContainerWidth": 354
+      "pageWidth": 390
     },
-    "assets": {
-      "externalAssets": 0,
-      "appIds": 100
-    },
+    "offline": false,
+    "javaScriptEnabled": true,
     "errors": [],
     "requests": [
-      "http://127.0.0.1:8765/composio-assessment-uday.html"
+      "http://127.0.0.1:8779/"
     ],
     "checks": [
-      "100 rows",
-      "no body overflow",
-      "search",
-      "category",
-      "combined filters",
-      "65 constrained",
-      "zero results",
-      "reset",
-      "unresolved evidence",
-      "caveated source links",
-      "download 100 reviewed rows",
-      "candidate anchor",
-      "no external assets or requests"
+      "100 rows / 12 required columns",
+      "8 candidate examples",
+      "category gate counts",
+      "current proof",
+      "HighLevel MCP yes",
+      "HubSpot blocker cleaned",
+      "no page overflow",
+      "all ten category filters",
+      "all readiness denominators",
+      "search and reset",
+      "new purpose evidence",
+      "combined filter",
+      "JSON download",
+      "candidate anchor"
     ]
   },
   {
     "name": "offline-desktop",
-    "viewport": {
-      "width": 1440,
-      "height": 1000
-    },
-    "offline": true,
     "status": "PASS",
     "geometry": {
       "viewport": 1440,
-      "pageWidth": 1440,
-      "matrixWidth": 2400,
-      "matrixContainerWidth": 1174
+      "pageWidth": 1440
     },
-    "assets": {
-      "externalAssets": 0,
-      "appIds": 100
-    },
+    "offline": true,
+    "javaScriptEnabled": true,
     "errors": [],
     "requests": [
-      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/research-correction/final-artifact-20260917/composio-assessment-uday.html"
+      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/targeted-fixes/submission/composio-assessment-uday.html"
     ],
     "checks": [
-      "100 rows",
-      "no body overflow",
-      "search",
-      "category",
-      "combined filters",
-      "65 constrained",
-      "zero results",
-      "reset",
-      "unresolved evidence",
-      "caveated source links",
-      "download 100 reviewed rows",
-      "candidate anchor",
-      "no external assets or requests"
+      "100 rows / 12 required columns",
+      "8 candidate examples",
+      "category gate counts",
+      "current proof",
+      "HighLevel MCP yes",
+      "HubSpot blocker cleaned",
+      "no page overflow",
+      "all ten category filters",
+      "all readiness denominators",
+      "search and reset",
+      "new purpose evidence",
+      "combined filter",
+      "JSON download",
+      "candidate anchor"
     ]
   },
   {
     "name": "offline-mobile",
-    "viewport": {
-      "width": 390,
-      "height": 844
-    },
-    "offline": true,
     "status": "PASS",
     "geometry": {
       "viewport": 390,
-      "pageWidth": 390,
-      "matrixWidth": 354,
-      "matrixContainerWidth": 354
+      "pageWidth": 390
     },
-    "assets": {
-      "externalAssets": 0,
-      "appIds": 100
-    },
+    "offline": true,
+    "javaScriptEnabled": true,
     "errors": [],
     "requests": [
-      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/research-correction/final-artifact-20260917/composio-assessment-uday.html"
+      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/targeted-fixes/submission/composio-assessment-uday.html"
     ],
     "checks": [
-      "100 rows",
-      "no body overflow",
-      "search",
-      "category",
-      "combined filters",
-      "65 constrained",
-      "zero results",
-      "reset",
-      "unresolved evidence",
-      "caveated source links",
-      "download 100 reviewed rows",
-      "candidate anchor",
-      "no external assets or requests"
+      "100 rows / 12 required columns",
+      "8 candidate examples",
+      "category gate counts",
+      "current proof",
+      "HighLevel MCP yes",
+      "HubSpot blocker cleaned",
+      "no page overflow",
+      "all ten category filters",
+      "all readiness denominators",
+      "search and reset",
+      "new purpose evidence",
+      "combined filter",
+      "JSON download",
+      "candidate anchor"
     ]
   },
   {
-    "name": "offline-no-javascript",
+    "name": "no-js-desktop",
     "status": "PASS",
+    "geometry": {
+      "viewport": 1440,
+      "pageWidth": 1440
+    },
+    "offline": true,
+    "javaScriptEnabled": false,
+    "errors": [],
+    "requests": [
+      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/targeted-fixes/submission/composio-assessment-uday.html"
+    ],
     "checks": [
-      "all static report and 100 matrix records retained; native evidence disclosures accessible"
+      "100 rows / 12 required columns",
+      "8 candidate examples",
+      "category gate counts",
+      "current proof",
+      "HighLevel MCP yes",
+      "HubSpot blocker cleaned",
+      "no page overflow",
+      "static matrix and native disclosures without JS"
+    ]
+  },
+  {
+    "name": "no-js-mobile",
+    "status": "PASS",
+    "geometry": {
+      "viewport": 390,
+      "pageWidth": 390
+    },
+    "offline": true,
+    "javaScriptEnabled": false,
+    "errors": [],
+    "requests": [
+      "file:///C:/Users/udays/.codex/.chatgpt-projects/g-p-6aaabda9d3ac8191ad4e4853ce3a6def/targeted-fixes/submission/composio-assessment-uday.html"
+    ],
+    "checks": [
+      "100 rows / 12 required columns",
+      "8 candidate examples",
+      "category gate counts",
+      "current proof",
+      "HighLevel MCP yes",
+      "HubSpot blocker cleaned",
+      "no page overflow",
+      "static matrix and native disclosures without JS"
     ]
   }
 ]

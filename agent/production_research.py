@@ -207,7 +207,7 @@ def main():
   s.save(d/'preflight.json',{'history':history,'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'base':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()},exclusive=True)
   s.save(d/'manifest.json',{'ids':[a['id'] for a in s.seeds()],'fresh_retrieval':True,'projection':'independent-core-facts','prompt_hash':s.digest(PROMPT),'started_at':s.now()},exclusive=True)
   s.save(d/'code-snapshot.json',{str(x.relative_to(s.ROOT)):x.read_text(encoding='utf-8') for x in (s.ROOT/'agent').glob('*.py')})
- root=s.ROOT; s.ROOT=Path('U:/composio-research-assessment'); s.load_env(); s.ROOT=root
+ s.load_env()
  if args.resume:
   s.save(d/('resume-code-snapshot-'+s.now().replace(':','-')+'.json'),{str(x.relative_to(s.ROOT)):x.read_text(encoding='utf-8') for x in (s.ROOT/'agent').glob('*.py')},exclusive=True)
   for checkpoint in sorted((d/'apps').glob('*.json')):

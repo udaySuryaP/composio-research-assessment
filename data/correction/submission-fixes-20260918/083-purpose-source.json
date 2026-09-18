@@ -1,0 +1,17 @@
+{
+  "id": 83,
+  "requested_url": "https://www.binance.com/en/about",
+  "final_url": "https://www.binance.com/en/about",
+  "retrieved_at": "2026-09-18",
+  "ok": true,
+  "text": "Today, Binance is the world’s leading blockchain ecosystem, with a product suite that includes the largest digital asset exchange.",
+  "content_sha256": "ac117252b17b89cad057397d7c7695ed8efb7d6910b1b3fc93d8ce2d7dbe21fd",
+  "selected_quote": "Binance is the world’s leading blockchain ecosystem, with a product suite that includes the largest digital asset exchange.",
+  "capture_type": "official_web_rendered_selected_body_lines",
+  "full_page_capture": false,
+  "capture_note": "Selected official rendered lines observed with the web tool; whitespace/link labels normalized. Not a full page capture.",
+  "prior_http_attempt": {
+    "requested_url": "https://www.binance.com/en/about",
+    "ok": true
+  }
+}
