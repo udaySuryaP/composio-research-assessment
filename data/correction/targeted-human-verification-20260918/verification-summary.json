@@ -1,0 +1,319 @@
+{
+  "apps_reviewed": 13,
+  "method": "Purposive user manual documentation checks; agent transcription, not independent blinded review or executed integration testing.",
+  "conversation_id": "6aaab7c1-49b0-83ee-a43d-d43e6c5e4fa3",
+  "not_population_accuracy": true,
+  "reviews": [
+    {
+      "id": 61,
+      "app": "GitHub",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": []
+    },
+    {
+      "id": 73,
+      "app": "Linear",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "mcp_notes"
+      ]
+    },
+    {
+      "id": 34,
+      "app": "GoHighLevel",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "mcp_notes"
+      ]
+    },
+    {
+      "id": 51,
+      "app": "DataForSEO",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": false,
+      "identity_note": null,
+      "changed_fields": [
+        "api_breadth",
+        "buildability",
+        "buildability_rationale",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 2,
+      "app": "HubSpot",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": false,
+      "identity_note": null,
+      "changed_fields": [
+        "access_model",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 1,
+      "app": "Salesforce",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "auth_methods",
+        "api_breadth",
+        "mcp_available",
+        "mcp_provider",
+        "mcp_ownership",
+        "mcp_notes",
+        "buildability",
+        "buildability_rationale",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 49,
+      "app": "Amazon Selling Partner",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": false,
+      "identity_note": null,
+      "changed_fields": [
+        "access_model",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 90,
+      "app": "PitchBook",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "mcp_available",
+        "mcp_provider",
+        "mcp_ownership",
+        "mcp_notes",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 88,
+      "app": "Brex",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "mcp_available",
+        "mcp_provider",
+        "mcp_ownership",
+        "mcp_notes",
+        "access_model",
+        "buildability",
+        "buildability_rationale",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 29,
+      "app": "Aircall",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": false,
+      "identity_note": null,
+      "changed_fields": [
+        "access_model",
+        "buildability",
+        "buildability_rationale",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 53,
+      "app": "Ahrefs",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "mcp_available",
+        "mcp_provider",
+        "mcp_ownership",
+        "mcp_notes",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 84,
+      "app": "Paygent Connect",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": false,
+      "identity_note": "User explicitly confirmed Paygent = Paygent Connect; independent identity evidence not supplied.",
+      "changed_fields": [
+        "purpose",
+        "auth_methods",
+        "api_types",
+        "api_available",
+        "api_breadth",
+        "access_model",
+        "buildability",
+        "buildability_rationale",
+        "primary_blocker"
+      ]
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "reviewed_on": "2026-09-18",
+      "reviewer": "Uday",
+      "recorded_by": "Codex",
+      "method": "User manual documentation review in referenced conversation; agent transcribed supported findings.",
+      "status": "pass_with_documentation_caveats",
+      "checked_dimensions": [
+        "auth",
+        "access",
+        "API",
+        "readiness"
+      ],
+      "mcp_checked": true,
+      "identity_note": null,
+      "changed_fields": [
+        "purpose",
+        "auth_methods",
+        "api_types",
+        "api_available",
+        "api_breadth",
+        "access_model",
+        "mcp_available",
+        "mcp_provider",
+        "mcp_ownership",
+        "mcp_notes",
+        "buildability",
+        "buildability_rationale",
+        "primary_blocker"
+      ]
+    }
+  ],
+  "field_changes": 63,
+  "base_dataset_sha256": "8e476aebd5bdcf5a8f2a7efcb3bf81508c9e15afd772edf29fa940360e31f5ab"
+}

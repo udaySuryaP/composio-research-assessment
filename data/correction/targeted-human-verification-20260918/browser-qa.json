@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "artifact_sha256": "d77ecf23ba5a97843af3a6d1957b2e830d9c20957d265fcbbbc5928376223608",
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "offline": true,
+      "apps": 100,
+      "search": "PASS",
+      "category_filters": 10,
+      "readiness_and_combined_filters": "PASS",
+      "reset": "PASS",
+      "download": "PASS",
+      "horizontal_page_overflow": false,
+      "page_errors": [],
+      "external_runtime_requests": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "offline": true,
+      "apps": 100,
+      "search": "PASS",
+      "category_filters": 10,
+      "readiness_and_combined_filters": "PASS",
+      "reset": "PASS",
+      "download": "PASS",
+      "horizontal_page_overflow": false,
+      "page_errors": [],
+      "external_runtime_requests": []
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+Current release: completed 13-app targeted human documentation review; see RELEASE.md and `data/correction/targeted-human-verification-20260918/verification-summary.json`. Earlier checkpoint results below retain their historical meaning.
+
 # Assessment coverage
 
 The report represents all 100 apps across 10 categories and exposes the requested research fields, evidence, whole-dataset patterns, candidate groups and verification boundaries.

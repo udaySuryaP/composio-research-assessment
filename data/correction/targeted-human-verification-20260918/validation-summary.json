@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "unit_tests": 136,
+  "citation_integrity": "PASS; all 7270 current citations checked against archived source captures",
+  "historical_freezes": "PASS; stage02, stage03, stage03_finalize",
+  "desktop_mobile_offline": "PASS; 1440x1000 and 390x844; search, 10 category filters, readiness/combined filters, reset, download, layout",
+  "security": "PASS; submission HTML and downloaded embedded data contain no secret patterns or local filesystem paths. New manual source captures also pass. Inherited historical dataset provenance paths remain preserved.",
+  "historical_datasets_and_ledgers": "Preserved unchanged; separate manual correction and validation files added.",
+  "artifact_sha256": "d77ecf23ba5a97843af3a6d1957b2e830d9c20957d265fcbbbc5928376223608"
+}

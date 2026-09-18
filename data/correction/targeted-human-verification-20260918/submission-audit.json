@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "citation_integrity_errors": [],
+  "citations_checked": {
+    "retained": 7129,
+    "targeted_human_verification": 63,
+    "fresh_independent_verification": 24,
+    "submission_fixes_agent_review": 54
+  },
+  "targeted_scope": "63 targeted human field updates only; previous correction layers, identities/categories and all other findings preserved",
+  "metrics": "All affected patterns recomputed; denominator and IDs checked",
+  "apps": 100,
+  "categories": 10,
+  "purpose_supported": 100,
+  "purpose_unresolved": 0,
+  "security_offline_release": "PASS",
+  "boundaries": "Citation integrity is not factual accuracy; no new whole-dataset verification sample."
+}
