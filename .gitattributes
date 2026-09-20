@@ -1,5 +1,6 @@
 submission/composio-assessment-uday.html -text linguist-generated=true
 submission/history/*.html -text linguist-generated=true
 final-artifact-20260917/composio-assessment-uday.html -text linguist-generated=true
+case-study.html -text linguist-generated=true
 data/correction/** -text linguist-generated=true
 data/publication/** -text linguist-generated=true
